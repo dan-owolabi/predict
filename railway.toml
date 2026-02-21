@@ -1,0 +1,8 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "python football_bot_FINAL.py"
+healthcheckPath = ""
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10

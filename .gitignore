@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+prediction_history.json
+benchmark.py
+test_bot.py

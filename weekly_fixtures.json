@@ -1,0 +1,72 @@
+[
+  {
+    "week_label": "GW26 \u2014 Feb 21-23, 2026",
+    "matches": [
+      [
+        "Liverpool",
+        "Man City"
+      ],
+      [
+        "Arsenal",
+        "Chelsea"
+      ],
+      [
+        "Man United",
+        "Tottenham"
+      ],
+      [
+        "Newcastle",
+        "Aston Villa"
+      ],
+      [
+        "Brighton",
+        "Wolves"
+      ],
+      [
+        "Brentford",
+        "Fulham"
+      ],
+      [
+        "Everton",
+        "Bournemouth"
+      ],
+      [
+        "Nott'm Forest",
+        "Leicester"
+      ],
+      [
+        "Crystal Palace",
+        "West Ham"
+      ],
+      [
+        "Ipswich",
+        "Southampton"
+      ]
+    ]
+  },
+  {
+    "week_label": "GW25 \u2014 Feb 14-16, 2026",
+    "matches": [
+      [
+        "Wolves",
+        "Arsenal"
+      ],
+      [
+        "Brentford",
+        "Arsenal"
+      ],
+      [
+        "Crystal Palace",
+        "Burnley"
+      ],
+      [
+        "Aston Villa",
+        "Brighton"
+      ],
+      [
+        "Sunderland",
+        "Liverpool"
+      ]
+    ]
+  }
+]
