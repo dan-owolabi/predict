@@ -630,7 +630,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [InlineKeyboardButton("📋 Teams", callback_data='teams'),
          InlineKeyboardButton("ℹ️ How It Works", callback_data='how')],
     ]
-    odds_s = "📡 Live odds: ON ✅" if ODDS_API_KEY else "📊 Live odds: OFF _(set ODDS\\_API\\_KEY)_"
+    odds_s = "📡 Live odds: ON ✅" if ODDS_API_KEY else "📊 Live odds: OFF _(set ODDS_API_KEY)_"
     await update.message.reply_text(
         f"🏆 *Football Prediction Bot v2.0*\n\n"
         f"Trained on *{len(df)}* real EPL matches\n"
@@ -640,7 +640,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"  O/U 1.5: {ACCS[1]*100:.0f}% | Winner: {ACCS[2]*100:.0f}%\n"
         f"{odds_s}\n\n"
         f"💡 _Only act on_ 🟢 _HIGH confidence picks!_\n\nChoose:",
-        reply_markup=InlineKeyboardMarkup(kb), parse_mode='Markdown')
+        reply_markup=InlineKeyboardMarkup(kb))
 
 
 def menu_kb():
@@ -687,23 +687,23 @@ async def btn(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if d == 'menu':
         await q.edit_message_text("🏆 *Football Prediction Bot*\n\nChoose:",
-                                  reply_markup=menu_kb(), parse_mode='Markdown')
+                                  reply_markup=menu_kb())
 
     elif d == 'ou25_home':
         context.user_data['ou_th'] = 2.5
         await q.edit_message_text("🏠 *O/U 2.5 — HOME team:*",
-                                  reply_markup=team_kb('ouh_'), parse_mode='Markdown')
+                                  reply_markup=team_kb('ouh_'))
     elif d == 'ou15_home':
         context.user_data['ou_th'] = 1.5
         await q.edit_message_text("🏠 *O/U 1.5 — HOME team:*",
-                                  reply_markup=team_kb('ouh_'), parse_mode='Markdown')
+                                  reply_markup=team_kb('ouh_'))
 
     elif d.startswith('ouh_'):
         home = d[4:]
         context.user_data['ou_home'] = home
         th = context.user_data.get('ou_th', 2.5)
         await q.edit_message_text(f"✈️ *O/U {th} — AWAY team:*\n_(Home: {home})_",
-                                  reply_markup=team_kb('oua_', exclude=home), parse_mode='Markdown')
+                                  reply_markup=team_kb('oua_', exclude=home))
 
     elif d.startswith('oua_'):
         away = d[4:]
@@ -718,12 +718,12 @@ async def btn(update: Update, context: ContextTypes.DEFAULT_TYPE):
             [InlineKeyboardButton("🔙 Menu", callback_data='menu')],
         ])
         await q.edit_message_text(f"📊 *{home} vs {away}*\n\nO/U {th} prediction{om}",
-                                  reply_markup=kb, parse_mode='Markdown')
+                                  reply_markup=kb)
 
     elif d == 'ou_odds':
         context.user_data['wf'] = 'ou_over'
         th = context.user_data.get('ou_th', 2.5)
-        await q.edit_message_text(f"📝 Type *Over {th} odds:*\nExample: `1.85`", parse_mode='Markdown')
+        await q.edit_message_text(f"📝 Type *Over {th} odds:*\nExample: `1.85`")
 
     elif d == 'ou_auto':
         home, away = context.user_data.get('ou_home'), context.user_data.get('ou_away')
@@ -734,17 +734,17 @@ async def btn(update: Update, context: ContextTypes.DEFAULT_TYPE):
              InlineKeyboardButton("🏆 Winner", callback_data='mw_home')],
             [InlineKeyboardButton("🔙 Menu", callback_data='menu')],
         ])
-        await q.edit_message_text(result, reply_markup=kb, parse_mode='Markdown')
+        await q.edit_message_text(result, reply_markup=kb)
 
     elif d == 'mw_home':
         await q.edit_message_text("🏠 *Winner — HOME team:*",
-                                  reply_markup=team_kb('mwh_'), parse_mode='Markdown')
+                                  reply_markup=team_kb('mwh_'))
 
     elif d.startswith('mwh_'):
         home = d[4:]
         context.user_data['mw_home'] = home
         await q.edit_message_text(f"✈️ *Winner — AWAY team:*\n_(Home: {home})_",
-                                  reply_markup=team_kb('mwa_', exclude=home), parse_mode='Markdown')
+                                  reply_markup=team_kb('mwa_', exclude=home))
 
     elif d.startswith('mwa_'):
         away = d[4:]
@@ -758,11 +758,11 @@ async def btn(update: Update, context: ContextTypes.DEFAULT_TYPE):
             [InlineKeyboardButton("🔙 Menu", callback_data='menu')],
         ])
         await q.edit_message_text(f"📊 *{home} vs {away}*\nWinner prediction{om}",
-                                  reply_markup=kb, parse_mode='Markdown')
+                                  reply_markup=kb)
 
     elif d == 'mw_odds':
         context.user_data['wf'] = 'mw_h'
-        await q.edit_message_text("📝 Type *Home Win odds:*\nExample: `2.10`", parse_mode='Markdown')
+        await q.edit_message_text("📝 Type *Home Win odds:*\nExample: `2.10`")
 
     elif d == 'mw_auto':
         home, away = context.user_data.get('mw_home'), context.user_data.get('mw_away')
@@ -772,22 +772,21 @@ async def btn(update: Update, context: ContextTypes.DEFAULT_TYPE):
              InlineKeyboardButton("⬆️⬇️ O/U", callback_data='ou25_home')],
             [InlineKeyboardButton("🔙 Menu", callback_data='menu')],
         ])
-        await q.edit_message_text(result, reply_markup=kb, parse_mode='Markdown')
+        await q.edit_message_text(result, reply_markup=kb)
 
     elif d.startswith('wkh_'):
         idx = int(d[4:])
         r, ai = get_weekly_predictions(idx, True)
-        await q.edit_message_text(r, reply_markup=week_nav(ai, True), parse_mode='Markdown')
+        await q.edit_message_text(r, reply_markup=week_nav(ai, True))
 
     elif d.startswith('wk_'):
         idx = int(d[3:])
         r, ai = get_weekly_predictions(idx, False)
-        await q.edit_message_text(r, reply_markup=week_nav(ai, False), parse_mode='Markdown')
+        await q.edit_message_text(r, reply_markup=week_nav(ai, False))
 
     elif d == 'hist':
         await q.edit_message_text(get_history_text(),
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Menu", callback_data='menu')]]),
-            parse_mode='Markdown')
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Menu", callback_data='menu')]]))
 
     elif d == 'teams':
         txt = "📋 *Teams:*\n\n"
@@ -795,8 +794,7 @@ async def btn(update: Update, context: ContextTypes.DEFAULT_TYPE):
             s = TEAM_STATS[t]
             txt += f"{i}. *{t}* — {s['avg_scored']} scored, {s['avg_conceded']} conc, {s['ou_rate']*100:.0f}% OU\n"
         await q.edit_message_text(txt,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Menu", callback_data='menu')]]),
-            parse_mode='Markdown')
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Menu", callback_data='menu')]]))
 
     elif d == 'how':
         await q.edit_message_text(
@@ -814,8 +812,7 @@ async def btn(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "📡 *Live Odds:* Auto-fetched via The Odds API\n\n"
             "💡 *Strategy:* Only bet on 🟢 HIGH confidence picks.\n"
             "⚠️ Gamble responsibly.",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Menu", callback_data='menu')]]),
-            parse_mode='Markdown')
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Menu", callback_data='menu')]]))
 
 
 # Message handler for manual odds input
@@ -826,9 +823,9 @@ async def msg(update: Update, context: ContextTypes.DEFAULT_TYPE):
             context.user_data['ou_ov'] = float(update.message.text.strip())
             context.user_data['wf'] = 'ou_under'
             th = context.user_data.get('ou_th', 2.5)
-            await update.message.reply_text(f"✅ Now *Under {th} odds:*\nExample: `2.05`", parse_mode='Markdown')
+            await update.message.reply_text(f"✅ Now *Under {th} odds:*\nExample: `2.05`")
         except ValueError:
-            await update.message.reply_text("❌ Number like `1.85`", parse_mode='Markdown')
+            await update.message.reply_text("❌ Number like `1.85`")
 
     elif wf == 'ou_under':
         try:
@@ -839,25 +836,25 @@ async def msg(update: Update, context: ContextTypes.DEFAULT_TYPE):
             result, _ = predict_ou(home, away, th, context.user_data.get('ou_ov'), under)
             kb = InlineKeyboardMarkup([[InlineKeyboardButton("🔄 New", callback_data='ou25_home'),
                                         InlineKeyboardButton("🔙 Menu", callback_data='menu')]])
-            await update.message.reply_text(result, reply_markup=kb, parse_mode='Markdown')
+            await update.message.reply_text(result, reply_markup=kb)
         except ValueError:
-            await update.message.reply_text("❌ Number like `2.05`", parse_mode='Markdown')
+            await update.message.reply_text("❌ Number like `2.05`")
 
     elif wf == 'mw_h':
         try:
             context.user_data['mw_ho'] = float(update.message.text.strip())
             context.user_data['wf'] = 'mw_d'
-            await update.message.reply_text("✅ Now *Draw odds:*\nExample: `3.40`", parse_mode='Markdown')
+            await update.message.reply_text("✅ Now *Draw odds:*\nExample: `3.40`")
         except ValueError:
-            await update.message.reply_text("❌ Number like `2.10`", parse_mode='Markdown')
+            await update.message.reply_text("❌ Number like `2.10`")
 
     elif wf == 'mw_d':
         try:
             context.user_data['mw_do'] = float(update.message.text.strip())
             context.user_data['wf'] = 'mw_a'
-            await update.message.reply_text("✅ Now *Away odds:*\nExample: `3.20`", parse_mode='Markdown')
+            await update.message.reply_text("✅ Now *Away odds:*\nExample: `3.20`")
         except ValueError:
-            await update.message.reply_text("❌ Number like `3.40`", parse_mode='Markdown')
+            await update.message.reply_text("❌ Number like `3.40`")
 
     elif wf == 'mw_a':
         try:
@@ -868,9 +865,9 @@ async def msg(update: Update, context: ContextTypes.DEFAULT_TYPE):
                                        context.user_data.get('mw_do'), ao)
             kb = InlineKeyboardMarkup([[InlineKeyboardButton("🔄 New", callback_data='mw_home'),
                                         InlineKeyboardButton("🔙 Menu", callback_data='menu')]])
-            await update.message.reply_text(result, reply_markup=kb, parse_mode='Markdown')
+            await update.message.reply_text(result, reply_markup=kb)
         except ValueError:
-            await update.message.reply_text("❌ Number like `3.20`", parse_mode='Markdown')
+            await update.message.reply_text("❌ Number like `3.20`")
     else:
         await update.message.reply_text("Send /start to open the menu ⚽")
 
@@ -878,7 +875,7 @@ async def msg(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def predict_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     args = context.args
     if len(args) < 2:
-        await update.message.reply_text("Usage: `/predict Liverpool Arsenal`", parse_mode='Markdown')
+        await update.message.reply_text("Usage: `/predict Liverpool Arsenal`")
         return
     home = next((t for t in TEAMS_LIST if t.lower() == args[0].lower()), None)
     away = next((t for t in TEAMS_LIST if t.lower() == args[1].lower()), None)
@@ -887,9 +884,9 @@ async def predict_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     r1, _ = predict_ou(home, away, 2.5)
     r2, _ = predict_ou(home, away, 1.5)
     r3, _ = predict_winner(home, away)
-    await update.message.reply_text(r1, parse_mode='Markdown')
-    await update.message.reply_text(r2, parse_mode='Markdown')
-    await update.message.reply_text(r3, parse_mode='Markdown')
+    await update.message.reply_text(r1)
+    await update.message.reply_text(r2)
+    await update.message.reply_text(r3)
 
 
 # ============================================================
