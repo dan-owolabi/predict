@@ -28,7 +28,7 @@ def dc_log_likelihood(params, matches, teams, weights):
     attack = params[:n_teams]
     defense = params[n_teams:2*n_teams]
     home_adv = params[2*n_teams]
-    rho = params[2*n_teams + 1]
+    rho = 0.0 # Force pure Poisson for absolute stability metrics
 
     ll = 0.0
     for i, (hi, ai, hg, ag, w) in enumerate(matches):
@@ -41,7 +41,6 @@ def dc_log_likelihood(params, matches, teams, weights):
         p_home = poisson.pmf(hg, lam)
         p_away = poisson.pmf(ag, mu)
         t = tau(hg, ag, lam, mu, rho)
-
         prob = p_home * p_away * t
         if prob > 0:
             ll += w * log(prob)
@@ -80,14 +79,17 @@ class DixonColesModel:
         for ht, at, hg, ag, w in zip(home_teams, away_teams, home_goals, away_goals, weights):
             matches.append((self.teams[ht], self.teams[at], int(hg), int(ag), w))
 
-        # Initial params: attack, defense, home_adv, rho
-        x0 = np.zeros(2 * n + 2)
+        # Initial params: attack, defense, home_adv
+        x0 = np.zeros(2 * n + 1)
         x0[2*n] = 0.25  # home advantage
-        x0[2*n+1] = -0.05  # rho
 
-        # Constraint: sum of attack = 0 (identifiability)
-        constraints = [{'type': 'eq', 'fun': lambda p: np.sum(p[:n])}]
+        # Constraints: sum of attack = 0 and sum of defense = 0 (perfectly anchors the nullspace)
+        constraints = [
+            {'type': 'eq', 'fun': lambda p: np.sum(p[:n])},
+            {'type': 'eq', 'fun': lambda p: np.sum(p[n:2*n])}
+        ]
 
+        # No bounds needed when correctly constrained, maximizing SLSQP convergence speed
         result = minimize(
             dc_log_likelihood,
             x0,
@@ -102,7 +104,7 @@ class DixonColesModel:
             self.attack[team] = result.x[idx]
             self.defense[team] = result.x[n + idx]
         self.home_adv = result.x[2*n]
-        self.rho = result.x[2*n+1]
+        self.rho = 0.0
 
         return self
 
@@ -125,8 +127,8 @@ class DixonColesModel:
         for i in range(max_goals+1):
             for j in range(max_goals+1):
                 p = poisson.pmf(i, lam) * poisson.pmf(j, mu)
-                p *= tau(i, j, lam, mu, self.rho)
-                probs[i, j] = p
+                t = tau(i, j, lam, mu, self.rho)
+                probs[i, j] = max(0.0, p * t)
 
         # Normalize
         probs /= probs.sum()
