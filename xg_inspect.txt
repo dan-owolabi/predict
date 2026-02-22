@@ -1,0 +1,40 @@
+﻿Shape: (2660, 9)
+
+Columns: ['id', 'isResult', 'h', 'a', 'goals', 'xG', 'datetime', 'forecast', 'Season']
+
+First 5 rows:
+      id  isResult                                                              h                                                                 a                 goals                                 xG             datetime                                       forecast   Season
+0  11643      True       {'id': '87', 'title': 'Liverpool', 'short_title': 'LIV'}            {'id': '79', 'title': 'Norwich', 'short_title': 'NOR'}  {'h': '4', 'a': '1'}  {'h': '2.23456', 'a': '0.842407'}  2019-08-09 20:00:00  {'w': '0.7377', 'd': '0.1732', 'l': '0.0891'}  2019/20
+1  11644      True        {'id': '81', 'title': 'West Ham', 'short_title': 'WHU'}    {'id': '88', 'title': 'Manchester City', 'short_title': 'MCI'}  {'h': '0', 'a': '5'}    {'h': '1.2003', 'a': '3.18377'}  2019-08-10 12:30:00  {'w': '0.0452', 'd': '0.1166', 'l': '0.8382'}  2019/20
+2  11645      True     {'id': '73', 'title': 'Bournemouth', 'short_title': 'BOU'}  {'id': '238', 'title': 'Sheffield United', 'short_title': 'SHE'}  {'h': '1', 'a': '1'}   {'h': '1.34099', 'a': '1.59864'}  2019-08-10 15:00:00  {'w': '0.2083', 'd': '0.3923', 'l': '0.3994'}  2019/20
+3  11646      True         {'id': '92', 'title': 'Burnley', 'short_title': 'BUR'}        {'id': '74', 'title': 'Southampton', 'short_title': 'SOU'}  {'h': '3', 'a': '0'}  {'h': '0.909241', 'a': '1.08752'}  2019-08-10 15:00:00   {'w': '0.266', 'd': '0.3442', 'l': '0.3898'}  2019/20
+4  11647      True  {'id': '78', 'title': 'Crystal Palace', 'short_title': 'CRY'}            {'id': '72', 'title': 'Everton', 'short_title': 'EVE'}  {'h': '0', 'a': '0'}    {'h': '0.87159', 'a': '1.2246'}  2019-08-10 15:00:00  {'w': '0.2427', 'd': '0.3231', 'l': '0.4342'}  2019/20
+
+Column types:
+id          int64
+isResult     bool
+h             str
+a             str
+goals         str
+xG            str
+datetime      str
+forecast      str
+Season        str
+dtype: object
+
+Null counts:
+id            0
+isResult      0
+h             0
+a             0
+goals         0
+xG            0
+datetime      0
+forecast    114
+Season        0
+dtype: int64
+
+Basic stats:
+  id: min=11643.00, max=29157.00, mean=19895.71
+
+Sample of unique values per column:
