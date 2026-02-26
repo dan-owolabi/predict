@@ -1,8 +1,8 @@
 """
-⚽ Football Prediction Telegram Bot v3.0 (Advanced Pipeline)
-===========================================================
+Football Prediction Telegram Bot v5.0 (Full Overhaul)
+=====================================================
+Predicts 4 markets: 1X2, Over/Under 2.5, BTTS, Exact Score.
 Uses Dixon-Coles goal modeling + LightGBM stacked ensemble.
-Predicts Over/Under 2.5 and BTTS (Both Teams To Score).
 
 SETUP:
   pip install python-telegram-bot scikit-learn pandas numpy requests lightgbm scipy
@@ -11,7 +11,7 @@ SETUP:
   python football_bot_FINAL.py
 """
 
-import os, logging, json, requests, pickle
+import os, logging, json, requests, pickle, re
 import numpy as np
 import pandas as pd
 from datetime import datetime
@@ -27,6 +27,10 @@ from telegram.ext import (
 )
 
 from feature_engine import build_rolling_features
+from results_tracker import (
+    save_match_prediction, settle_predictions,
+    get_results_text, get_accuracy_summary
+)
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -34,10 +38,9 @@ logger = logging.getLogger(__name__)
 # ============================================================
 # CONFIG
 # ============================================================
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "7780579030:AAHmZ4Bqi4y4B-Y5bTe3GWbCeitmfcedCHY") # Replace with env logic if preferred
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
 BASE_DIR = Path(__file__).parent
-HISTORY_PATH = BASE_DIR / "prediction_history.json"
 FIXTURES_PATH = BASE_DIR / "weekly_fixtures.json"
 
 # ============================================================
@@ -51,20 +54,17 @@ try:
     IMPUTER = artifacts['imputer']
     FEATURE_COLS = artifacts['feature_cols']
     HISTORICAL_DF = artifacts['historical_df']
-    
+
     LGB_OU25 = lgb.Booster(model_file='lgb_ou25.txt')
     LGB_BTTS = lgb.Booster(model_file='lgb_btts.txt')
-    print(f"✅ Loaded pipeline successfully! ({len(HISTORICAL_DF)} matches in DB)")
-    
-    # Calculate some summary stats for the UI
+    LGB_1X2 = lgb.Booster(model_file='lgb_1x2.txt')
+    print(f"Loaded pipeline successfully! ({len(HISTORICAL_DF)} matches in DB)")
+
     TEAMS_LIST = sorted(list(set(HISTORICAL_DF['HomeTeam'].unique()) | set(HISTORICAL_DF['AwayTeam'].unique())))
     MEDIAN_ODDS = HISTORICAL_DF.median(numeric_only=True).to_dict()
-    
-    # Validation scores (from CV)
-    ACC_OU25 = 0.546
-    ACC_BTTS = 0.551
+
 except Exception as e:
-    print(f"❌ Failed to load models: {e}")
+    print(f"Failed to load models: {e}")
     print("Run `python train_final_models.py` first.")
     exit(1)
 
@@ -141,64 +141,74 @@ def find_live_odds(home, away):
 
 
 # ============================================================
-# PREDICTION HISTORY
-# ============================================================
-def load_history():
-    if HISTORY_PATH.exists():
-        with open(HISTORY_PATH, 'r') as f: return json.load(f)
-    return []
-
-def save_prediction(ptype, home, away, pred, conf):
-    h = load_history()
-    h.append({'date': datetime.now().strftime('%Y-%m-%d %H:%M'),
-              'type': ptype, 'home': home, 'away': away,
-              'prediction': pred, 'confidence': round(conf, 1)})
-    with open(HISTORY_PATH, 'w') as f: json.dump(h[-200:], f, indent=2)
-
-def get_history_text(limit=20):
-    h = load_history()
-    if not h: return "📜 *No predictions yet.* Make some first!"
-    recent = h[-limit:][::-1]
-    lines = [f"📜 *Last {len(recent)} Predictions*\n━━━━━━━━━━━━━━━━━━━━"]
-    for p in recent:
-        e = "⬆️⬇️" if "O/U" in p['type'] else "⚽"
-        c = "🟢" if p['confidence']>=55 else ("🟡" if p['confidence']>=52 else "🔴")
-        lines.append(f"\n{e} *{p['home']} vs {p['away']}*\n   {p['type']}: {p['prediction']}\n   {c} {p['confidence']}% — {p['date']}")
-    lines.append("\n━━━━━━━━━━━━━━━━━━━━")
-    return "\n".join(lines)
-
-
-# ============================================================
-# WEEKLY FIXTURES
+# WEEKLY FIXTURES (GW 28 - 38)
 # ============================================================
 DEFAULT_FIXTURES = [
-    {"week_label": "GW26 — Feb 21-23, 2026",
-     "matches": [["Liverpool","Man City"],["Arsenal","Chelsea"],["Man United","Tottenham"],
-                 ["Newcastle","Aston Villa"],["Brighton","Wolves"],["Brentford","Fulham"],
-                 ["Everton","Bournemouth"],["Nott'm Forest","Leicester"],
-                 ["Crystal Palace","West Ham"],["Ipswich","Southampton"]]},
-    {"week_label": "GW25 — Feb 14-16, 2026",
-     "matches": [["Wolves","Arsenal"],["Brentford","Arsenal"],["Crystal Palace","Burnley"],
-                 ["Aston Villa","Brighton"],["Sunderland","Liverpool"]]},
+    {"week_label": "GW28 -- Mar 2026",
+     "matches": [["Wolves","Aston Villa"],["Bournemouth","Sunderland"],["Burnley","Brentford"],
+                 ["Liverpool","West Ham"],["Newcastle","Everton"],["Leeds United","Man City"],
+                 ["Brighton","Nott'm Forest"],["Fulham","Tottenham"],["Man United","Crystal Palace"],
+                 ["Arsenal","Chelsea"]]},
+    {"week_label": "GW29 -- Mar 2026",
+     "matches": [["Newcastle","Man United"],["West Ham","Arsenal"],["Aston Villa","Fulham"],
+                 ["Brentford","Liverpool"],["Burnley","Wolves"],["Chelsea","Bournemouth"],
+                 ["Crystal Palace","Brighton"],["Everton","Leeds United"],["Man City","Sunderland"],
+                 ["Nott'm Forest","Tottenham"]]},
+    {"week_label": "GW30 -- Mar 14-16, 2026",
+     "matches": [["West Ham","Man City"],["Burnley","Bournemouth"],["Crystal Palace","Leeds United"],
+                 ["Man United","Aston Villa"],["Nott'm Forest","Fulham"],["Sunderland","Brighton"],
+                 ["Chelsea","Newcastle"],["Arsenal","Everton"],["Liverpool","Tottenham"],["Brentford","Wolves"]]},
+    {"week_label": "GW31 -- Mar 20-22, 2026",
+     "matches": [["Bournemouth","Man United"],["Brighton","Liverpool"],["Aston Villa","West Ham"],
+                 ["Fulham","Burnley"],["Man City","Crystal Palace"],["Everton","Chelsea"],
+                 ["Leeds United","Brentford"],["Newcastle","Sunderland"],["Tottenham","Nott'm Forest"],
+                 ["Wolves","Arsenal"]]},
+    {"week_label": "GW32 -- Apr 11, 2026",
+     "matches": [["Arsenal","Bournemouth"],["Brentford","Everton"],["Burnley","Brighton"],
+                 ["Chelsea","Man City"],["Crystal Palace","Newcastle"],["Liverpool","Fulham"],
+                 ["Man United","Leeds United"],["Nott'm Forest","Aston Villa"],["Sunderland","Tottenham"],
+                 ["West Ham","Wolves"]]},
+    {"week_label": "GW33 -- Apr 18, 2026",
+     "matches": [["Aston Villa","Sunderland"],["Brentford","Fulham"],["Chelsea","Man United"],
+                 ["Crystal Palace","West Ham"],["Everton","Liverpool"],["Leeds United","Wolves"],
+                 ["Man City","Arsenal"],["Newcastle","Bournemouth"],["Nott'm Forest","Burnley"],
+                 ["Tottenham","Brighton"]]},
+    {"week_label": "GW34 -- Apr 25, 2026",
+     "matches": [["Bournemouth","Leeds United"],["Arsenal","Newcastle"],["Brighton","Chelsea"],
+                 ["Burnley","Man City"],["Fulham","Aston Villa"],["Liverpool","Crystal Palace"],
+                 ["Man United","Brentford"],["Sunderland","Nott'm Forest"],["West Ham","Everton"],
+                 ["Wolves","Tottenham"]]},
+    {"week_label": "GW35 -- May 2, 2026",
+     "matches": [["Bournemouth","Crystal Palace"],["Arsenal","Fulham"],["Aston Villa","Tottenham"],
+                 ["Brentford","West Ham"],["Chelsea","Nott'm Forest"],["Everton","Man City"],
+                 ["Leeds United","Burnley"],["Man United","Liverpool"],["Newcastle","Brighton"],
+                 ["Wolves","Sunderland"]]},
+    {"week_label": "GW36 -- May 9, 2026",
+     "matches": [["Brighton","Wolves"],["Burnley","Aston Villa"],["Crystal Palace","Everton"],
+                 ["Fulham","Bournemouth"],["Liverpool","Chelsea"],["Man City","Brentford"],
+                 ["Nott'm Forest","Newcastle"],["Sunderland","Man United"],["Tottenham","Leeds United"],
+                 ["West Ham","Arsenal"]]},
+    {"week_label": "GW37 -- May 17, 2026",
+     "matches": [["Bournemouth","Man City"],["Arsenal","Burnley"],["Aston Villa","Liverpool"],
+                 ["Brentford","Crystal Palace"],["Chelsea","Tottenham"],["Everton","Sunderland"],
+                 ["Leeds United","Brighton"],["Man United","Nott'm Forest"],["Newcastle","West Ham"],
+                 ["Wolves","Fulham"]]},
+    {"week_label": "GW38 -- May 24, 2026",
+     "matches": [["Brighton","Man United"],["Burnley","Wolves"],["Crystal Palace","Arsenal"],
+                 ["Fulham","Newcastle"],["Liverpool","Brentford"],["Man City","Aston Villa"],
+                 ["Nott'm Forest","Bournemouth"],["Sunderland","Chelsea"],["Tottenham","Everton"],
+                 ["West Ham","Leeds United"]]},
 ]
 
 def load_fixtures():
-    if FIXTURES_PATH.exists():
-        with open(FIXTURES_PATH, 'r') as f: return json.load(f)
-    with open(FIXTURES_PATH, 'w') as f: json.dump(DEFAULT_FIXTURES, f, indent=2)
     return DEFAULT_FIXTURES
 
-WEEKLY_FIXTURES = load_fixtures()
-
 
 # ============================================================
-# PREDICTION ENGINE (Live feature generation & inference)
+# PREDICTION ENGINE
 # ============================================================
 def generate_match_features(home, away, b365h=None, b365d=None, b365a=None, b365_over=None, b365_under=None):
-    """
-    Appends a dummy row to historical_df, computes rolling features using the feature_engine,
-    and returns the fully processed features for the new match.
-    """
+    """Build features for a single match prediction."""
     # 1. Gather Odds
     odds_src = "median"
     if not all([b365h, b365d, b365a, b365_over, b365_under]):
@@ -217,132 +227,168 @@ def generate_match_features(home, away, b365h=None, b365d=None, b365a=None, b365
     bo = b365_over or MEDIAN_ODDS.get('B365>2.5', 1.9)
     bu = b365_under or MEDIAN_ODDS.get('B365<2.5', 2.0)
 
-    # 2. Extract relevant recent matches (last 20 for speed) to avoid building full history
-    # Or simply run the builder on the last N matches per team.
-    # To keep code simple, we'll run it on the subset of data involving the two teams.
+    # 2. Extract relevant recent matches
     mask = (HISTORICAL_DF['HomeTeam'].isin([home, away])) | (HISTORICAL_DF['AwayTeam'].isin([home, away]))
     mini_df = HISTORICAL_DF[mask].copy().sort_values('Date')
-    
+
     # Create the new match row
     new_match = pd.DataFrame([{
-        'HomeTeam': home, 'AwayTeam': away, 
-        'Date': pd.to_datetime(datetime.now()), # Predict today
+        'HomeTeam': home, 'AwayTeam': away,
+        'Date': pd.to_datetime(datetime.now()),
         'B365H': bh, 'B365D': bd, 'B365A': ba,
         'B365>2.5': bo, 'B365<2.5': bu,
-        'FTHG': np.nan, 'FTAG': np.nan # Unknown
+        'FTHG': np.nan, 'FTAG': np.nan,
+        'FTR': np.nan,
     }])
-    
+
     # 3. Append and Build
     context_df = pd.concat([mini_df, new_match], ignore_index=True)
     df_built = build_rolling_features(context_df, windows=(3, 5, 10))
-    
+
     # Extract the last row (our new match)
     last_row = df_built.iloc[-1:]
-    
+
     # 4. Impute
     raw_feats = last_row[FEATURE_COLS].apply(pd.to_numeric, errors='coerce').values.astype(np.float64)
     X_imputed = IMPUTER.transform(raw_feats)
     X = np.nan_to_num(X_imputed, nan=0.0, posinf=0.0, neginf=0.0)
-    
-    # 5. Dixon-Coles features
+
+    # 5. Dixon-Coles features (all 5 for cross-market signal)
     dc_ou25 = DC_MODEL.predict_ou25(home, away)
     dc_btts = DC_MODEL.predict_btts(home, away)
-    
-    return X, dc_ou25, dc_btts, odds_src, last_row
+    dc_home, dc_draw, dc_away = DC_MODEL.predict_match_result(home, away)
+    dc_stack = np.array([[dc_ou25, dc_btts, dc_home, dc_draw, dc_away]])
+
+    # 6. Score matrix for exact score
+    score_probs = DC_MODEL.predict_score_probs(home, away)
+    top_scores = DC_MODEL.predict_top_scores(home, away, n=3)
+
+    return X, dc_stack, dc_ou25, dc_btts, dc_home, dc_draw, dc_away, score_probs, top_scores, odds_src, last_row
+
 
 def run_predictions(home, away, b365h=None, b365d=None, b365a=None, b365_over=None, b365_under=None):
     """Run all models for a given matchup."""
-    X, dc_ou25, dc_btts, odds_src, row_df = generate_match_features(home, away, b365h, b365d, b365a, b365_over, b365_under)
-    
-    # Run O/U 2.5
-    X_ou25 = np.nan_to_num(np.column_stack([X, [dc_ou25]]), nan=0.0, posinf=0.0, neginf=0.0)
-    lgb_p_ou25 = LGB_OU25.predict(X_ou25)[0]
-    ens_ou25 = 0.3 * dc_ou25 + 0.7 * lgb_p_ou25
-    
-    # Run BTTS
-    X_btts = np.nan_to_num(np.column_stack([X, [dc_btts]]), nan=0.0, posinf=0.0, neginf=0.0)
-    lgb_p_btts = LGB_BTTS.predict(X_btts)[0]
-    ens_btts = 0.3 * dc_btts + 0.7 * lgb_p_btts
-    
+    X, dc_stack, dc_ou25, dc_btts, dc_home, dc_draw, dc_away, \
+        score_probs, top_scores, odds_src, row_df = \
+        generate_match_features(home, away, b365h, b365d, b365a, b365_over, b365_under)
+
+    # Stack features with all DC predictions
+    X_full = np.nan_to_num(np.column_stack([X, dc_stack]), nan=0.0, posinf=0.0, neginf=0.0)
+
+    # Over/Under 2.5
+    lgb_p_ou25 = LGB_OU25.predict(X_full)[0]
+    ens_ou25 = 0.2 * dc_ou25 + 0.8 * lgb_p_ou25  # DC gets less weight until proven useful
+
+    # BTTS
+    lgb_p_btts = LGB_BTTS.predict(X_full)[0]
+    ens_btts = 0.2 * dc_btts + 0.8 * lgb_p_btts
+
+    # 1X2
+    lgb_p_1x2 = LGB_1X2.predict(X_full)[0]  # [p_H, p_D, p_A]
+    dc_1x2 = np.array([dc_home, dc_draw, dc_away])
+    ens_1x2 = 0.3 * dc_1x2 + 0.7 * lgb_p_1x2  # DC stronger for match result
+    ens_1x2 = ens_1x2 / ens_1x2.sum()  # normalize
+
+    # Exact Score (DC only)
+    best_i, best_j = np.unravel_index(score_probs.argmax(), score_probs.shape)
+    exact_score = f"{best_i}-{best_j}"
+    exact_score_prob = score_probs[best_i, best_j]
+
     return {
-        'ou25': ens_ou25,
-        'btts': ens_btts,
-        'dc_ou25': dc_ou25,
-        'dc_btts': dc_btts,
+        'ou25': float(ens_ou25),
+        'btts': float(ens_btts),
+        '1x2': [float(x) for x in ens_1x2],
+        'dc_ou25': float(dc_ou25),
+        'dc_btts': float(dc_btts),
+        'dc_1x2': [float(dc_home), float(dc_draw), float(dc_away)],
+        'exact_score': exact_score,
+        'exact_score_prob': float(exact_score_prob),
+        'top_scores': top_scores,
         'odds_src': odds_src,
         'row': row_df
     }
 
 
-def format_prediction_ou(home, away, result_dict):
-    p_over = result_dict['ou25']
-    p_under = 1.0 - p_over
-    
-    pred = "⬆️ OVER 2.5" if p_over > 0.5 else "⬇️ UNDER 2.5"
-    conf = max(p_over, p_under) * 100
-    
-    if conf >= 55:    cl, adv = "🟢 HIGH", "✅ Strong edge detected"
-    elif conf >= 52:  cl, adv = "🟡 MEDIUM", "⚠️ Moderate edge"
-    else:             cl, adv = "🔴 LOW", "❌ Skip this match (No edge)"
+def _bar(pct, width=10):
+    """Create a visual bar: ▓▓▓▓▓▓░░░░"""
+    filled = round(pct / 100 * width)
+    return "▓" * filled + "░" * (width - filled)
 
-    bo = "█" * int(p_over * 10) + "░" * (10 - int(p_over * 10))
-    bu = "█" * int(p_under * 10) + "░" * (10 - int(p_under * 10))
 
-    save_prediction("O/U 2.5", home, away, pred.replace("⬆️ ", "").replace("⬇️ ", ""), conf)
-    otag = "📡 _Live odds_" if result_dict['odds_src'] == "live" else "📊 _Avg odds_"
+def _conf_icon(conf, baseline=50):
+    """Confidence indicator relative to baseline."""
+    edge = conf - baseline
+    if edge >= 8: return "🟢"
+    if edge >= 3: return "🟡"
+    return "🔴"
 
-    return f"""
-⚽ *{home} vs {away}*
-━━━━━━━━━━━━━━━━━━━━
-🎯 *{pred}*
-📊 Confidence: {cl} ({conf:.1f}%)
-{adv}
 
-📈 *Probability Engine*
-Over 2.5  {bo} {p_over*100:.1f}%
-Under 2.5 {bu} {p_under*100:.1f}%
+def format_unified_prediction(home, away, res):
+    """Format 4-market prediction card for Telegram."""
+    # 1X2
+    p_1x2 = res['1x2']
+    winner_idx = max(range(3), key=lambda i: p_1x2[i])
+    winner_labels = ['🏠 HOME WIN', '🤝 DRAW', '✈️ AWAY WIN']
+    winner_icons = ['🏠', '🤝', '✈️']
+    winner_str = winner_labels[winner_idx]
+    conf_1x2 = p_1x2[winner_idx] * 100
 
-📋 *Model Inputs*
-Dixon-Coles estimate: O2.5 @ {result_dict['dc_ou25']*100:.1f}%
-{otag}
-━━━━━━━━━━━━━━━━━━━━
-_Bot Accuracy (Stack CV): {ACC_OU25*100:.1f}%_
-"""
+    # OU2.5
+    po25 = res['ou25']
+    str_o25 = "⬆️ OVER 2.5" if po25 > 0.5 else "⬇️ UNDER 2.5"
+    conf_25 = max(po25, 1-po25) * 100
 
-def format_prediction_btts(home, away, result_dict):
-    p_yes = result_dict['btts']
-    p_no = 1.0 - p_yes
-    
-    pred = "⚽ BTTS: YES" if p_yes > 0.5 else "🛑 BTTS: NO"
-    conf = max(p_yes, p_no) * 100
-    
-    if conf >= 55:    cl, adv = "🟢 HIGH", "✅ Strong edge detected"
-    elif conf >= 52:  cl, adv = "🟡 MEDIUM", "⚠️ Moderate edge"
-    else:             cl, adv = "🔴 LOW", "❌ Skip this match (No edge)"
+    # BTTS
+    pbtts = res['btts']
+    str_btts = "YES" if pbtts > 0.5 else "NO"
+    conf_btts = max(pbtts, 1-pbtts) * 100
 
-    by = "█" * int(p_yes * 10) + "░" * (10 - int(p_yes * 10))
-    bn = "█" * int(p_no * 10) + "░" * (10 - int(p_no * 10))
+    # Exact Score
+    top = res['top_scores']
 
-    save_prediction("BTTS", home, away, pred.replace("⚽ BTTS: ", "").replace("🛑 BTTS: ", ""), conf)
-    otag = "📡 _Live odds_" if result_dict['odds_src'] == "live" else "📊 _Avg odds_"
+    # Best advice
+    best_c = max(conf_1x2 - 33, conf_25 - 50, conf_btts - 50)
+    if best_c >= 8:     adv = "💎 Strong edge detected"
+    elif best_c >= 3:   adv = "⚡ Moderate edge"
+    else:               adv = "💤 Low edge — consider skipping"
 
-    return f"""
-🏆 *{home} vs {away}*
-━━━━━━━━━━━━━━━━━━━━
-🎯 *{pred}*
-📊 Confidence: {cl} ({conf:.1f}%)
-{adv}
+    # Save prediction for tracking
+    date_str = datetime.now().strftime('%Y-%m-%d')
+    save_match_prediction(home, away, date_str, res)
 
-📈 *Probability Engine*
-BTTS: Yes {by} {p_yes*100:.1f}%
-BTTS: No  {bn} {p_no*100:.1f}%
+    otag = "📡 Live odds" if res['odds_src'] == "live" else "📊 Median odds"
 
-📋 *Model Inputs*
-Dixon-Coles estimate: BTTS-Y @ {result_dict['dc_btts']*100:.1f}%
-{otag}
-━━━━━━━━━━━━━━━━━━━━
-_Bot Accuracy (Stack CV): {ACC_BTTS*100:.1f}%_
-"""
+    # Build the card
+    L = "┃"
+    lines = [
+        f"┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓",
+        f"{L}  ⚽ {home} vs {away}",
+        f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
+        f"{L}  📊 MATCH RESULT",
+        f"{L}  {_conf_icon(conf_1x2, 33)} {winner_str}  ({conf_1x2:.0f}%)",
+        f"{L}  {_bar(conf_1x2)}",
+        f"{L}  H {p_1x2[0]*100:.0f}%  │  D {p_1x2[1]*100:.0f}%  │  A {p_1x2[2]*100:.0f}%",
+        f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
+        f"{L}  📈 OVER / UNDER 2.5",
+        f"{L}  {_conf_icon(conf_25, 50)} {str_o25}  ({conf_25:.1f}%)",
+        f"{L}  {_bar(conf_25)}",
+        f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
+        f"{L}  🤝 BOTH TEAMS TO SCORE",
+        f"{L}  {_conf_icon(conf_btts, 50)} GG: {str_btts}  ({conf_btts:.1f}%)",
+        f"{L}  {_bar(conf_btts)}",
+        f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
+        f"{L}  🎯 EXACT SCORE",
+    ]
+    for s, p in top[:3]:
+        pct = p * 100
+        lines.append(f"{L}    {s}  ({pct:.0f}%)  {_bar(pct, 6)}")
+    lines += [
+        f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
+        f"{L}  {adv}",
+        f"{L}  {otag}",
+        f"┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛",
+    ]
+    return "\n".join(lines)
 
 
 # ============================================================
@@ -350,49 +396,64 @@ _Bot Accuracy (Stack CV): {ACC_BTTS*100:.1f}%_
 # ============================================================
 def get_weekly_predictions(week_idx=0, high_only=False):
     fx = load_fixtures()
-    if not fx: return "⚠️ No fixtures.", 0
+    if not fx: return "No fixtures.", 0, []
     idx = max(0, min(week_idx, len(fx) - 1))
     week = fx[idx]
     label = week.get('week_label', f'Week {idx+1}')
-    lines = [f"📅 *{label}*\n━━━━━━━━━━━━━━━━━━━━"]
+
+    lines = [
+        f"┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓",
+        f"┃  📅 {label}",
+        f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
+    ]
     hi_n = 0
 
+    fx_btns = []
     for home, away in week.get('matches', []):
         if home not in TEAMS_LIST or away not in TEAMS_LIST:
-            lines.append(f"\n⚠️ *{home} vs {away}* — not in DB")
+            lines.append(f"┃  ⚠️ {home} vs {away} — not in DB")
             continue
 
         res = run_predictions(home, away)
-        
-        o25 = "⬆️ O2.5" if res['ou25'] > 0.5 else "⬇️ U2.5"
+
+        # 1X2
+        p_1x2 = res['1x2']
+        pred_1x2 = ['H', 'D', 'A'][max(range(3), key=lambda i: p_1x2[i])]
+        c1x2 = max(p_1x2) * 100
+
+        # OU2.5
+        o25 = "O" if res['ou25'] > 0.5 else "U"
         c25 = max(res['ou25'], 1-res['ou25']) * 100
-        
-        btts = "⚽ BTTS-Y" if res['btts'] > 0.5 else "🛑 BTTS-N"
+
+        # BTTS
+        btts = "GG" if res['btts'] > 0.5 else "NG"
         cb = max(res['btts'], 1-res['btts']) * 100
 
-        is_hi = c25 >= 55 or cb >= 55
+        # Exact score
+        score = res['exact_score']
+
+        # High confidence check
+        is_hi = (c1x2 - 33 >= 8) or (c25 - 50 >= 7) or (cb - 50 >= 7)
         if high_only and not is_hi: continue
         if is_hi: hi_n += 1
-        flag = "🔥" if is_hi else "•"
+        flag = "🔥" if is_hi else "  "
 
-        lines.append(
-            f"\n{flag} *{home} vs {away}*\n"
-            f"  O/U 2.5: {o25} ({c25:.1f}%)\n"
-            f"  BTTS   : {btts} ({cb:.1f}%)")
+        lines.append(f"┃ {flag} {home} vs {away}")
+        lines.append(f"┃    {pred_1x2} {c1x2:.0f}% │ {o25}2.5 {c25:.0f}% │ {btts} {cb:.0f}% │ {score}")
 
-    if high_only and hi_n == 0:
-        lines.append("\n_No high confidence picks this week._")
-    lines.append(f"\n━━━━━━━━━━━━━━━━━━━━\n🔥 High conf (>= 55%) | Week {idx+1}/{len(fx)}")
-    
-    # Generate fixture buttons
-    fx_btns = []
-    for home, away in week.get('matches', []):
         if home in TEAMS_LIST and away in TEAMS_LIST:
-            # We use indices to save callback data space (Telegram limit is 64 bytes)
             h_idx = TEAMS_LIST.index(home)
             a_idx = TEAMS_LIST.index(away)
-            fx_btns.append([InlineKeyboardButton(f"🔮 Predict: {home} vs {away}", callback_data=f'fx_{h_idx}_{a_idx}')])
-            
+            fx_btns.append([InlineKeyboardButton(f"🔮 {home} vs {away}", callback_data=f'fx_{h_idx}_{a_idx}')])
+
+    if high_only and hi_n == 0:
+        lines.append("┃  No high confidence picks this week.")
+    lines += [
+        f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
+        f"┃  🔥 = High conf  │  Page {idx+1}/{len(fx)}",
+        f"┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛",
+    ]
+
     return "\n".join(lines), idx, fx_btns
 
 
@@ -401,33 +462,37 @@ def get_weekly_predictions(week_idx=0, high_only=False):
 # ============================================================
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     kb = [
-        [InlineKeyboardButton("⬆️⬇️ O/U 2.5", callback_data='ou25_home'),
-         InlineKeyboardButton("⚽ BTTS", callback_data='btts_home')],
-        [InlineKeyboardButton("📅 This Week", callback_data='wk_0'),
-         InlineKeyboardButton("🔥 High Conf", callback_data='wkh_0')],
-        [InlineKeyboardButton("📜 Past Predictions", callback_data='hist')],
-        [InlineKeyboardButton("ℹ️ How it works", callback_data='how')],
+        [InlineKeyboardButton("🔮 Predict Match", callback_data='pred_home')],
+        [InlineKeyboardButton("📅 Gameweeks", callback_data='wk_0'),
+         InlineKeyboardButton("📊 Results", callback_data='results')],
+        [InlineKeyboardButton("ℹ️ How It Works", callback_data='how')],
     ]
-    odds_s = "📡 Live odds: ON ✅" if ODDS_API_KEY else "📊 Live odds: OFF _(set ODDS_API_KEY)_"
+    odds_icon = "📡" if ODDS_API_KEY else "📴"
+    odds_s = "ON" if ODDS_API_KEY else "OFF"
     await update.message.reply_text(
-        f"🏆 *Football Prediction Bot v3.0*\n\n"
-        f"Trained on *{len(HISTORICAL_DF)}* real EPL matches\n"
-        f"Powered by Dixon-Coles Model + LightGBM 🧠\n\n"
-        f"📊 *Baseline Edge (Stack CV Accuracy):*\n"
-        f"  O/U 2.5: {ACC_OU25*100:.1f}% vs Bookmaker ~50%\n"
-        f"  BTTS   : {ACC_BTTS*100:.1f}% vs Bookmaker ~50%\n"
-        f"{odds_s}\n\n"
-        f"💡 _Only act on_ 🟢 _HIGH confidence picks!_ (>= 55%)\n\nChoose:",
+        f"┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n"
+        f"┃  ⚽ Football Prediction Bot\n"
+        f"┃  v5.0 — EPL Specialist\n"
+        f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
+        f"┃  📚 {len(HISTORICAL_DF)} matches trained\n"
+        f"┃  🧠 Dixon-Coles + LightGBM\n"
+        f"┃  {odds_icon} Live odds: {odds_s}\n"
+        f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
+        f"┃  Markets:\n"
+        f"┃  🏆 1X2  │  📈 O/U 2.5\n"
+        f"┃  🤝 BTTS │  🎯 Exact Score\n"
+        f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
+        f"┃  🟢 = Strong  🟡 = Moderate\n"
+        f"┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛",
         reply_markup=InlineKeyboardMarkup(kb))
 
 
 def menu_kb():
     return InlineKeyboardMarkup([
-        [InlineKeyboardButton("⬆️⬇️ O/U 2.5", callback_data='ou25_home'),
-         InlineKeyboardButton("⚽ BTTS", callback_data='btts_home')],
-        [InlineKeyboardButton("📅 Fixtures", callback_data='wk_0'),
-         InlineKeyboardButton("📜 History", callback_data='hist')],
-        [InlineKeyboardButton("ℹ️ Info", callback_data='how')],
+        [InlineKeyboardButton("🔮 Predict Match", callback_data='pred_home')],
+        [InlineKeyboardButton("📅 Gameweeks", callback_data='wk_0'),
+         InlineKeyboardButton("📊 Results", callback_data='results')],
+        [InlineKeyboardButton("ℹ️ How It Works", callback_data='how')],
     ])
 
 
@@ -438,7 +503,7 @@ def team_kb(prefix, exclude=None):
         row.append(InlineKeyboardButton(t, callback_data=f'{prefix}{t}'))
         if len(row) == 2: btns.append(row); row = []
     if row: btns.append(row)
-    btns.append([InlineKeyboardButton("🔙 Menu", callback_data='menu')])
+    btns.append([InlineKeyboardButton("🏠 Menu", callback_data='menu')])
     return InlineKeyboardMarkup(btns)
 
 
@@ -451,11 +516,11 @@ def week_nav(idx, hi=False, fx_btns=None):
         btns.extend(fx_btns)
     nav = []
     if idx < mx: nav.append(InlineKeyboardButton("⬅️ Earlier", callback_data=f'{p}{idx+1}'))
-    if idx > 0:  nav.append(InlineKeyboardButton("Later ➡️", callback_data=f'{p}{idx-1}'))
+    if idx > 0:  nav.append(InlineKeyboardButton("➡️ Later", callback_data=f'{p}{idx-1}'))
     if nav: btns.append(nav)
-    btns.append([InlineKeyboardButton("🔥 High Only" if not hi else "📅 Show All",
+    btns.append([InlineKeyboardButton("🔥 High Only" if not hi else "📋 Show All",
                                        callback_data=f'{"wkh_" if not hi else "wk_"}{idx}')])
-    btns.append([InlineKeyboardButton("🔙 Menu", callback_data='menu')])
+    btns.append([InlineKeyboardButton("🏠 Menu", callback_data='menu')])
     return InlineKeyboardMarkup(btns)
 
 
@@ -465,55 +530,41 @@ async def btn(update: Update, context: ContextTypes.DEFAULT_TYPE):
     d = q.data
 
     if d == 'menu':
-        await q.edit_message_text("🏆 *Football Prediction Bot*\n\nChoose:",
-                                  reply_markup=menu_kb())
+        await q.edit_message_text(
+            "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n"
+            "┃  ⚽ Football Prediction Bot\n"
+            "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n"
+            "\nChoose an option below:",
+            reply_markup=menu_kb())
 
-    elif d == 'ou25_home':
-        await q.edit_message_text("🏠 *O/U 2.5 — HOME team:*",
-                                  reply_markup=team_kb('ouh_'))
-    elif d == 'btts_home':
-        await q.edit_message_text("🏠 *BTTS — HOME team:*",
-                                  reply_markup=team_kb('btth_'))
+    elif d == 'pred_home':
+        await q.edit_message_text(
+            "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n"
+            "┃  🏠 Select HOME team\n"
+            "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛",
+            reply_markup=team_kb('predh_'))
 
-    elif d.startswith('ouh_'):
-        home = d[4:]
-        context.user_data['ou_home'] = home
-        await q.edit_message_text(f"✈️ *O/U 2.5 — AWAY team:*\n_(Home: {home})_",
-                                  reply_markup=team_kb('oua_', exclude=home))
+    elif d.startswith('predh_'):
+        home = d[6:]
+        context.user_data['pred_home'] = home
+        await q.edit_message_text(
+            "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n"
+            f"┃  🏠 Home: {home}\n"
+            "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
+            "┃  ✈️ Select AWAY team\n"
+            "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛",
+            reply_markup=team_kb('preda_', exclude=home))
 
-    elif d.startswith('oua_'):
-        away = d[4:]
-        home = context.user_data.get('ou_home')
-        context.user_data['ou_away'] = away
-        # Instantly run prediction
-        await q.edit_message_text(f"⏳ _Analyzing {home} vs {away}..._")
+    elif d.startswith('preda_'):
+        away = d[6:]
+        home = context.user_data.get('pred_home')
+        await q.edit_message_text(f"⏳ Analyzing {home} vs {away}...")
         res = run_predictions(home, away)
-        result_txt = format_prediction_ou(home, away, res)
+        result_txt = format_unified_prediction(home, away, res)
         kb = InlineKeyboardMarkup([
-            [InlineKeyboardButton("🔄 New O/U", callback_data='ou25_home'),
-             InlineKeyboardButton("⚽ BTTS", callback_data='btts_home')],
-            [InlineKeyboardButton("🔙 Menu", callback_data='menu')],
-        ])
-        await q.edit_message_text(result_txt, reply_markup=kb)
-
-    elif d.startswith('btth_'):
-        home = d[5:]
-        context.user_data['btts_home'] = home
-        await q.edit_message_text(f"✈️ *BTTS — AWAY team:*\n_(Home: {home})_",
-                                  reply_markup=team_kb('btta_', exclude=home))
-
-    elif d.startswith('btta_'):
-        away = d[5:]
-        home = context.user_data.get('btts_home')
-        context.user_data['btts_away'] = away
-        # Instantly run prediction
-        await q.edit_message_text(f"⏳ _Analyzing {home} vs {away}..._")
-        res = run_predictions(home, away)
-        result_txt = format_prediction_btts(home, away, res)
-        kb = InlineKeyboardMarkup([
-            [InlineKeyboardButton("🔄 New BTTS", callback_data='btts_home'),
-             InlineKeyboardButton("⬆️⬇️ O/U", callback_data='ou25_home')],
-            [InlineKeyboardButton("🔙 Menu", callback_data='menu')],
+            [InlineKeyboardButton("🔮 New Prediction", callback_data='pred_home')],
+            [InlineKeyboardButton("📅 Gameweeks", callback_data='wk_0'),
+             InlineKeyboardButton("🏠 Menu", callback_data='menu')],
         ])
         await q.edit_message_text(result_txt, reply_markup=kb)
 
@@ -531,114 +582,135 @@ async def btn(update: Update, context: ContextTypes.DEFAULT_TYPE):
         parts = d.split('_')
         home = TEAMS_LIST[int(parts[1])]
         away = TEAMS_LIST[int(parts[2])]
-        await q.edit_message_text(f"⏳ _Analyzing {home} vs {away}..._")
+        await q.edit_message_text(f"⏳ Analyzing {home} vs {away}...")
         res = run_predictions(home, away)
-        r1 = format_prediction_ou(home, away, res)
-        r2 = format_prediction_btts(home, away, res)
-        # Send a new message since there are two long texts
-        await q.message.reply_text(r1)
-        await q.message.reply_text(r2)
-        # Reset the original message to menu
-        await q.edit_message_text("🏆 *Football Prediction Bot*\n\nChoose:", reply_markup=menu_kb())
+        result_txt = format_unified_prediction(home, away, res)
+        kb = InlineKeyboardMarkup([
+            [InlineKeyboardButton("📅 Back to Gameweek", callback_data='wk_0')],
+            [InlineKeyboardButton("🔮 New Prediction", callback_data='pred_home'),
+             InlineKeyboardButton("🏠 Menu", callback_data='menu')],
+        ])
+        await q.edit_message_text(result_txt, reply_markup=kb)
+
+    elif d == 'results':
+        settle_predictions()
+        text = get_results_text()
+        await q.edit_message_text(text,
+            reply_markup=InlineKeyboardMarkup([
+                [InlineKeyboardButton("🔄 Refresh", callback_data='results')],
+                [InlineKeyboardButton("🏠 Menu", callback_data='menu')]
+            ]))
 
     elif d == 'hist':
-        await q.edit_message_text(get_history_text(),
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Menu", callback_data='menu')]]))
+        text = get_results_text(limit=20)
+        await q.edit_message_text(text,
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🏠 Menu", callback_data='menu')]]))
 
     elif d == 'how':
         await q.edit_message_text(
-            "ℹ️ *How It Works v3.0*\n\n"
-            "🧠 *Model Pipeline:*\n"
-            "1️⃣ Dixon-Coles statistical goal model\n"
-            "2️⃣ Rolling stats engineer (xG, differential, form)\n"
-            "3️⃣ LightGBM classifier ensemble\n\n"
-            f"📊 *Data:* {len(HISTORICAL_DF)} real EPL matches with actual results\n"
-            f"🔧 *Features:* {len(FEATURE_COLS)} dynamically generated at inference\n\n"
-            "📐 *No Data Leakage:*\n"
-            "• Rolling stats use shift(1) — only past matches\n"
-            "• Time-ordered expanding window Cross-Validation\n\n"
-            f"🎯 *Edge (Log Loss optimized):*\n"
-            f"  O/U 2.5: {ACC_OU25*100:.1f}% vs Bookmaker ~50%\n"
-            f"  BTTS: {ACC_BTTS*100:.1f}% vs Bookmaker ~50%\n\n"
-            "📡 *Live Odds:* Auto-fetched via The Odds API\n\n"
-            "💡 *Strategy:* Only bet on 🟢 HIGH confidence picks (>=55%).\n"
-            "⚠️ Gamble responsibly. Past performance is no guarantee of future returns.",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Menu", callback_data='menu')]]))
+            "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n"
+            "┃  ℹ️ How It Works (v5.0)\n"
+            "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
+            "┃  🧠 MODEL PIPELINE\n"
+            "┃\n"
+            "┃  1. Dixon-Coles Goal Model\n"
+            "┃     Attack/defense ratings (MLE)\n"
+            "┃     Time-decay weighting\n"
+            "┃     Low-score correction (rho)\n"
+            "┃\n"
+            "┃  2. Rolling Stats Engine\n"
+            "┃     Form, xG, shots, corners\n"
+            "┃     H2H history + clean sheets\n"
+            "┃     3 / 5 / 10 match windows\n"
+            "┃\n"
+            "┃  3. LightGBM Ensemble\n"
+            "┃     3 models: 1X2, O/U, BTTS\n"
+            "┃     Cross-market DC features\n"
+            "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
+            "┃  📊 STATS\n"
+            f"┃  📚 {len(HISTORICAL_DF)} EPL matches\n"
+            f"┃  📐 {len(FEATURE_COLS)} + 5 DC features\n"
+            "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
+            "┃  🎯 MARKETS\n"
+            "┃  🏆 1X2  │  📈 O/U 2.5\n"
+            "┃  🤝 BTTS │  🎯 Exact Score\n"
+            "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
+            "┃  🟢 Strong  🟡 Moderate  🔴 Low\n"
+            "┃  📡 Live odds via The Odds API\n"
+            "┃\n"
+            "┃  ⚠️ Gamble responsibly.\n"
+            "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛",
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🏠 Menu", callback_data='menu')]]))
 
-
-import re
 
 # Smart text search handler
 async def msg(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text.strip().lower()
-    
-    # Check for team names in the message
+
     detected_teams = []
     for team in TEAMS_LIST:
-        # Check simple variations
         target = team.lower()
-        if target in text or target.replace(' man', 'mancester') in text or target.replace('man ', 'manchester ') in text:
+        if target in text:
             detected_teams.append(team)
-            
+
         # Common abbreviations
-        if 'utd' in text and 'united' in target: detected_teams.append(team)
-        if 'spurs' in text and team == 'Tottenham Hotspur': detected_teams.append(team)
-        if 'forest' in text and team == 'Nottingham Forest': detected_teams.append(team)
-        
-    detected_teams = list(set(detected_teams)) # remove duplicates
-    
-    if len(detected_teams) == 2:
+        if 'utd' in text and 'united' in target:
+            detected_teams.append(team)
+        if 'spurs' in text and 'tottenham' in target:
+            detected_teams.append(team)
+        if 'forest' in text and "nott" in target:
+            detected_teams.append(team)
+
+    detected_teams = list(dict.fromkeys(detected_teams))  # deduplicate preserving order
+
+    if len(detected_teams) >= 2:
         home, away = detected_teams[0], detected_teams[1]
-        
-        # Determine strict home/away based on exact order in text if possible
+
+        # Determine order based on text position
         idx_t1 = text.find(home.lower()[:5])
         idx_t2 = text.find(away.lower()[:5])
-        if idx_t1 > idx_t2 and idx_t2 != -1:  # swapped order
+        if idx_t1 > idx_t2 and idx_t2 != -1:
             home, away = away, home
-            
-        await update.message.reply_text(f"🔍 Found: *{home} vs {away}*\n⏳ _Analyzing..._")
+
+        await update.message.reply_text(f"⏳ Analyzing {home} vs {away}...")
         res = run_predictions(home, away)
-        r1 = format_prediction_ou(home, away, res)
-        r2 = format_prediction_btts(home, away, res)
-        await update.message.reply_text(r1)
-        await update.message.reply_text(r2)
+        r = format_unified_prediction(home, away, res)
+        await update.message.reply_text(r)
     elif len(detected_teams) == 1:
-        await update.message.reply_text(f"🔍 Found {detected_teams[0]}, but I need two teams! Try: `{detected_teams[0]} vs Chelsea`")
+        await update.message.reply_text(f"Found {detected_teams[0]} — need two teams!\nTry: {detected_teams[0]} vs Chelsea")
     else:
-        # Fallback to normal behavior
-        await update.message.reply_text("⚽ Just type a match (e.g. `Arsenal vs Chelsea`) or use /start to open the menu!")
+        await update.message.reply_text("⚽ Type a match to predict\nExample: Arsenal vs Chelsea\n\nOr use /start for the menu")
 
 
 async def predict_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     args = context.args
     if len(args) < 2:
-        await update.message.reply_text("Usage: `/predict Liverpool Arsenal`")
+        await update.message.reply_text("Usage: /predict Liverpool Arsenal")
         return
     home = next((t for t in TEAMS_LIST if t.lower() == args[0].lower()), None)
     away = next((t for t in TEAMS_LIST if t.lower() == args[1].lower()), None)
-    if not home: await update.message.reply_text(f"❌ '{args[0]}' not found."); return
-    if not away: await update.message.reply_text(f"❌ '{args[1]}' not found."); return
+    if not home: await update.message.reply_text(f"'{args[0]}' not found."); return
+    if not away: await update.message.reply_text(f"'{args[1]}' not found."); return
+    await update.message.reply_text(f"⏳ Analyzing {home} vs {away}...")
     res = run_predictions(home, away)
-    r1 = format_prediction_ou(home, away, res)
-    r2 = format_prediction_btts(home, away, res)
-    await update.message.reply_text(r1)
-    await update.message.reply_text(r2)
+    r = format_unified_prediction(home, away, res)
+    await update.message.reply_text(r)
 
 
 # ============================================================
 # MAIN
 # ============================================================
 def main():
-    if not BOT_TOKEN or BOT_TOKEN == "PASTE_YOUR_TOKEN_HERE":
-        print("❌ Set TELEGRAM_BOT_TOKEN")
+    if not BOT_TOKEN:
+        print("Set TELEGRAM_BOT_TOKEN environment variable")
         return
-    print("\n🚀 Starting bot...")
+    print("\nStarting bot...")
     app = Application.builder().token(BOT_TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("predict", predict_cmd))
     app.add_handler(CallbackQueryHandler(btn))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, msg))
-    print("✅ Bot live! Send /start in Telegram.\n")
+    print("Bot live! Send /start in Telegram.\n")
     app.run_polling(allowed_updates=Update.ALL_TYPES)
 
 
