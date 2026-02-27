@@ -286,52 +286,59 @@ def generate_match_features(home, away, b365h=None, b365d=None, b365a=None, b365
         score_probs, top_scores, data_sources, last_row
 
 
-def _reweight_scores(score_probs, ens_1x2, ens_ou25, ens_btts):
-    """Reweight DC score matrix using ensemble predictions for realistic exact scores.
+def _reweight_scores(score_probs, ens_1x2, ens_ou25, ens_ou15, ens_btts):
+    """Reweight DC score matrix so exact scores are fully consistent with all markets.
 
-    The raw DC matrix over-predicts 1-1 due to the rho correction.
-    We fix this by:
-    1. Scaling each cell by how consistent it is with the ensemble 1X2/OU/BTTS predictions
-    2. Using EPL base rates for common scorelines to anchor unrealistic predictions
+    Every scoreline is weighted by how well it matches ALL ensemble predictions:
+    1X2 result, OU1.5, OU2.5, and BTTS. This ensures no contradictions like
+    predicting 1-0 when OU1.5 is 83% or 2-0 when OU2.5 is 63%.
     """
     n = score_probs.shape[0]
     adj = score_probs.copy()
 
     p_home, p_draw, p_away = ens_1x2
 
-    # --- Step 1: Result-based reweighting ---
-    # Boost scorelines consistent with the predicted result
     for i in range(n):
         for j in range(n):
-            if i > j:    # home win
-                adj[i, j] *= (1.0 + p_home)
-            elif i == j:  # draw
-                adj[i, j] *= (0.6 + p_draw)  # dampen draws (EPL ~25% draws)
-            else:         # away win
-                adj[i, j] *= (1.0 + p_away)
-
-    # --- Step 2: Goals-based reweighting ---
-    # Boost/dampen based on OU2.5 prediction
-    for i in range(n):
-        for j in range(n):
-            total = i + j
-            if total >= 3:
-                adj[i, j] *= (0.7 + 0.6 * ens_ou25)  # boost high-scoring if OU2.5 > 0.5
-            else:
-                adj[i, j] *= (0.7 + 0.6 * (1 - ens_ou25))  # boost low-scoring if OU2.5 < 0.5
-
-    # --- Step 3: BTTS-based reweighting ---
-    for i in range(n):
-        for j in range(n):
+            total_goals = i + j
             both_scored = (i > 0 and j > 0)
-            if both_scored:
-                adj[i, j] *= (0.7 + 0.6 * ens_btts)
-            else:
-                adj[i, j] *= (0.7 + 0.6 * (1 - ens_btts))
+            w = 1.0
 
-    # --- Step 4: EPL base-rate anchoring ---
-    # Real EPL distribution: 1-0 and 2-1 are the most common, not 1-1
-    # Apply mild prior based on actual EPL scoreline frequencies
+            # --- 1X2 result consistency ---
+            if i > j:
+                w *= (0.8 + 1.2 * p_home)     # home win score
+            elif i == j:
+                w *= (0.4 + 1.0 * p_draw)     # draw score (dampen, EPL ~25%)
+            else:
+                w *= (0.8 + 1.2 * p_away)     # away win score
+
+            # --- OU1.5: hard gate on <=1 goal scores ---
+            if total_goals <= 1:
+                # OU15=0.83 → 0.17x (massive penalty), OU15=0.3 → 0.70x (mild)
+                w *= (1.0 - ens_ou15)
+            else:
+                w *= (0.4 + 0.8 * ens_ou15)
+
+            # --- OU2.5: strong push toward 3+ or <=2 goals ---
+            if total_goals >= 3:
+                # OU25=0.63 → 1.26x boost, OU25=0.3 → 0.60x penalty
+                w *= (2.0 * ens_ou25)
+            elif total_goals == 2:
+                # Neutral-ish: slight lean toward under side
+                w *= (0.6 + 0.6 * (1 - ens_ou25))
+            else:
+                # OU25=0.63 → 0.37x penalty, OU25=0.3 → 0.70x mild
+                w *= (1.0 - ens_ou25)
+
+            # --- BTTS consistency ---
+            if both_scored:
+                w *= (0.5 + 1.0 * ens_btts)
+            else:
+                w *= (0.5 + 1.0 * (1 - ens_btts))
+
+            adj[i, j] *= max(w, 1e-6)
+
+    # --- EPL base-rate anchoring ---
     epl_prior = {
         (1, 0): 1.15, (0, 1): 1.10, (2, 1): 1.15, (1, 2): 1.10,
         (2, 0): 1.10, (0, 2): 1.05, (1, 1): 0.85, (0, 0): 0.90,
@@ -379,7 +386,7 @@ def run_predictions(home, away, b365h=None, b365d=None, b365a=None, b365_over=No
 
     # Exact Score — reweight DC score matrix using ensemble 1X2 probabilities
     # so the predicted scoreline is consistent with the predicted result
-    adj_probs = _reweight_scores(score_probs, ens_1x2, ens_ou25, ens_btts)
+    adj_probs = _reweight_scores(score_probs, ens_1x2, ens_ou25, ens_ou15, ens_btts)
     best_i, best_j = np.unravel_index(adj_probs.argmax(), adj_probs.shape)
     exact_score = f"{best_i}-{best_j}"
     exact_score_prob = adj_probs[best_i, best_j]
