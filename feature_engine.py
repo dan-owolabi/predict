@@ -273,6 +273,19 @@ def build_rolling_features(df, windows=(3, 5, 10)):
     return df
 
 
+FPL_FEATURE_COLS = [
+    'home_team_strength', 'away_team_strength', 'strength_diff',
+    'home_injury_impact', 'away_injury_impact',
+    'home_key_missing', 'away_key_missing',
+    'home_xg_potential', 'away_xg_potential',
+]
+
+WEATHER_FEATURE_COLS = [
+    'temperature', 'wind_speed', 'rain_mm', 'humidity',
+    'is_rainy', 'is_windy',
+]
+
+
 def get_feature_columns(df):
     """Return the list of feature columns available in the processed dataframe."""
     rolling_cols = [c for c in df.columns if any(c.startswith(p) for p in
@@ -298,4 +311,10 @@ def get_feature_columns(df):
                              'odds_margin', 'implied_over25', 'implied_under25']
                  if c in df.columns]
 
-    return rolling_cols + h2h_cols + context_cols + odds_cols
+    # FPL features (present if FPL data was merged)
+    fpl_cols = [c for c in FPL_FEATURE_COLS if c in df.columns]
+
+    # Weather features (present if weather data was merged)
+    weather_cols = [c for c in WEATHER_FEATURE_COLS if c in df.columns]
+
+    return rolling_cols + h2h_cols + context_cols + odds_cols + fpl_cols + weather_cols

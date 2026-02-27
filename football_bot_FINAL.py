@@ -1,13 +1,14 @@
 """
-Football Prediction Telegram Bot v5.0 (Full Overhaul)
+Football Prediction Telegram Bot v6.0 (Data Enriched)
 =====================================================
-Predicts 4 markets: 1X2, Over/Under 2.5, BTTS, Exact Score.
-Uses Dixon-Coles goal modeling + LightGBM stacked ensemble.
+Predicts 5 markets: 1X2, Over/Under 2.5, Over/Under 1.5, BTTS, Exact Score.
+Uses Dixon-Coles + LightGBM ensemble, enriched with FPL + Understat + Weather data.
 
 SETUP:
-  pip install python-telegram-bot scikit-learn pandas numpy requests lightgbm scipy
+  pip install python-telegram-bot scikit-learn pandas numpy requests lightgbm scipy understatapi
   set TELEGRAM_BOT_TOKEN=your_token
   set ODDS_API_KEY=your_key  (free at https://the-odds-api.com)
+  set OPENWEATHER_API_KEY=your_key  (free at https://openweathermap.org, optional)
   python football_bot_FINAL.py
 """
 
@@ -26,7 +27,8 @@ from telegram.ext import (
     CallbackQueryHandler, ContextTypes, filters
 )
 
-from feature_engine import build_rolling_features
+from feature_engine import build_rolling_features, FPL_FEATURE_COLS, WEATHER_FEATURE_COLS
+from data_fetchers import get_all_external_features
 from results_tracker import (
     save_match_prediction, settle_predictions,
     get_results_text, get_accuracy_summary
@@ -56,6 +58,7 @@ try:
     HISTORICAL_DF = artifacts['historical_df']
 
     LGB_OU25 = lgb.Booster(model_file='lgb_ou25.txt')
+    LGB_OU15 = lgb.Booster(model_file='lgb_ou15.txt')
     LGB_BTTS = lgb.Booster(model_file='lgb_btts.txt')
     LGB_1X2 = lgb.Booster(model_file='lgb_1x2.txt')
     print(f"Loaded pipeline successfully! ({len(HISTORICAL_DF)} matches in DB)")
@@ -248,28 +251,45 @@ def generate_match_features(home, away, b365h=None, b365d=None, b365a=None, b365
     # Extract the last row (our new match)
     last_row = df_built.iloc[-1:]
 
-    # 4. Impute
+    # 4. Inject external data (FPL + Weather)
+    ext_feats = get_all_external_features(home, away)
+    for col in FPL_FEATURE_COLS + WEATHER_FEATURE_COLS:
+        if col in FEATURE_COLS and col in ext_feats:
+            last_row[col] = ext_feats[col]
+
+    # 5. Impute
     raw_feats = last_row[FEATURE_COLS].apply(pd.to_numeric, errors='coerce').values.astype(np.float64)
     X_imputed = IMPUTER.transform(raw_feats)
     X = np.nan_to_num(X_imputed, nan=0.0, posinf=0.0, neginf=0.0)
 
-    # 5. Dixon-Coles features (all 5 for cross-market signal)
+    # 6. Dixon-Coles features (all 6 for cross-market signal)
     dc_ou25 = DC_MODEL.predict_ou25(home, away)
     dc_btts = DC_MODEL.predict_btts(home, away)
     dc_home, dc_draw, dc_away = DC_MODEL.predict_match_result(home, away)
-    dc_stack = np.array([[dc_ou25, dc_btts, dc_home, dc_draw, dc_away]])
-
-    # 6. Score matrix for exact score
     score_probs = DC_MODEL.predict_score_probs(home, away)
+    dc_ou15 = 1.0 - (score_probs[0, 0] + score_probs[0, 1] + score_probs[1, 0])
+    dc_stack = np.array([[dc_ou25, dc_btts, dc_home, dc_draw, dc_away, dc_ou15]])
+
+    # 7. Score matrix for exact score
     top_scores = DC_MODEL.predict_top_scores(home, away, n=3)
 
-    return X, dc_stack, dc_ou25, dc_btts, dc_home, dc_draw, dc_away, score_probs, top_scores, odds_src, last_row
+    # Track which external data sources were used
+    data_sources = [odds_src]
+    if any(ext_feats.get(c) is not None and not np.isnan(ext_feats.get(c, float('nan')))
+           for c in FPL_FEATURE_COLS[:1]):
+        data_sources.append('fpl')
+    if any(ext_feats.get(c) is not None and not np.isnan(ext_feats.get(c, float('nan')))
+           for c in WEATHER_FEATURE_COLS[:1]):
+        data_sources.append('weather')
+
+    return X, dc_stack, dc_ou25, dc_btts, dc_ou15, dc_home, dc_draw, dc_away, \
+        score_probs, top_scores, data_sources, last_row
 
 
 def run_predictions(home, away, b365h=None, b365d=None, b365a=None, b365_over=None, b365_under=None):
     """Run all models for a given matchup."""
-    X, dc_stack, dc_ou25, dc_btts, dc_home, dc_draw, dc_away, \
-        score_probs, top_scores, odds_src, row_df = \
+    X, dc_stack, dc_ou25, dc_btts, dc_ou15, dc_home, dc_draw, dc_away, \
+        score_probs, top_scores, data_sources, row_df = \
         generate_match_features(home, away, b365h, b365d, b365a, b365_over, b365_under)
 
     # Stack features with all DC predictions
@@ -277,7 +297,11 @@ def run_predictions(home, away, b365h=None, b365d=None, b365a=None, b365_over=No
 
     # Over/Under 2.5
     lgb_p_ou25 = LGB_OU25.predict(X_full)[0]
-    ens_ou25 = 0.2 * dc_ou25 + 0.8 * lgb_p_ou25  # DC gets less weight until proven useful
+    ens_ou25 = 0.2 * dc_ou25 + 0.8 * lgb_p_ou25
+
+    # Over/Under 1.5
+    lgb_p_ou15 = LGB_OU15.predict(X_full)[0]
+    ens_ou15 = 0.2 * dc_ou15 + 0.8 * lgb_p_ou15
 
     # BTTS
     lgb_p_btts = LGB_BTTS.predict(X_full)[0]
@@ -286,8 +310,8 @@ def run_predictions(home, away, b365h=None, b365d=None, b365a=None, b365_over=No
     # 1X2
     lgb_p_1x2 = LGB_1X2.predict(X_full)[0]  # [p_H, p_D, p_A]
     dc_1x2 = np.array([dc_home, dc_draw, dc_away])
-    ens_1x2 = 0.3 * dc_1x2 + 0.7 * lgb_p_1x2  # DC stronger for match result
-    ens_1x2 = ens_1x2 / ens_1x2.sum()  # normalize
+    ens_1x2 = 0.3 * dc_1x2 + 0.7 * lgb_p_1x2
+    ens_1x2 = ens_1x2 / ens_1x2.sum()
 
     # Exact Score (DC only)
     best_i, best_j = np.unravel_index(score_probs.argmax(), score_probs.shape)
@@ -296,15 +320,17 @@ def run_predictions(home, away, b365h=None, b365d=None, b365a=None, b365_over=No
 
     return {
         'ou25': float(ens_ou25),
+        'ou15': float(ens_ou15),
         'btts': float(ens_btts),
         '1x2': [float(x) for x in ens_1x2],
         'dc_ou25': float(dc_ou25),
+        'dc_ou15': float(dc_ou15),
         'dc_btts': float(dc_btts),
         'dc_1x2': [float(dc_home), float(dc_draw), float(dc_away)],
         'exact_score': exact_score,
         'exact_score_prob': float(exact_score_prob),
         'top_scores': top_scores,
-        'odds_src': odds_src,
+        'data_sources': data_sources,
         'row': row_df
     }
 
@@ -324,12 +350,11 @@ def _conf_icon(conf, baseline=50):
 
 
 def format_unified_prediction(home, away, res):
-    """Format 4-market prediction card for Telegram."""
+    """Format 5-market prediction card for Telegram."""
     # 1X2
     p_1x2 = res['1x2']
     winner_idx = max(range(3), key=lambda i: p_1x2[i])
     winner_labels = ['🏠 HOME WIN', '🤝 DRAW', '✈️ AWAY WIN']
-    winner_icons = ['🏠', '🤝', '✈️']
     winner_str = winner_labels[winner_idx]
     conf_1x2 = p_1x2[winner_idx] * 100
 
@@ -337,6 +362,11 @@ def format_unified_prediction(home, away, res):
     po25 = res['ou25']
     str_o25 = "⬆️ OVER 2.5" if po25 > 0.5 else "⬇️ UNDER 2.5"
     conf_25 = max(po25, 1-po25) * 100
+
+    # OU1.5
+    po15 = res['ou15']
+    str_o15 = "⬆️ OVER 1.5" if po15 > 0.5 else "⬇️ UNDER 1.5"
+    conf_15 = max(po15, 1-po15) * 100
 
     # BTTS
     pbtts = res['btts']
@@ -347,7 +377,7 @@ def format_unified_prediction(home, away, res):
     top = res['top_scores']
 
     # Best advice
-    best_c = max(conf_1x2 - 33, conf_25 - 50, conf_btts - 50)
+    best_c = max(conf_1x2 - 33, conf_25 - 50, conf_15 - 50, conf_btts - 50)
     if best_c >= 8:     adv = "💎 Strong edge detected"
     elif best_c >= 3:   adv = "⚡ Moderate edge"
     else:               adv = "💤 Low edge — consider skipping"
@@ -356,7 +386,14 @@ def format_unified_prediction(home, away, res):
     date_str = datetime.now().strftime('%Y-%m-%d')
     save_match_prediction(home, away, date_str, res)
 
-    otag = "📡 Live odds" if res['odds_src'] == "live" else "📊 Median odds"
+    # Data source indicators
+    sources = res.get('data_sources', ['median'])
+    src_icons = []
+    if 'live' in sources: src_icons.append("📡 Odds")
+    else: src_icons.append("📊 Odds")
+    if 'fpl' in sources: src_icons.append("👥 FPL")
+    if 'weather' in sources: src_icons.append("🌤️ Wx")
+    src_str = " │ ".join(src_icons)
 
     # Build the card
     L = "┃"
@@ -369,9 +406,11 @@ def format_unified_prediction(home, away, res):
         f"{L}  {_bar(conf_1x2)}",
         f"{L}  H {p_1x2[0]*100:.0f}%  │  D {p_1x2[1]*100:.0f}%  │  A {p_1x2[2]*100:.0f}%",
         f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
-        f"{L}  📈 OVER / UNDER 2.5",
+        f"{L}  📈 GOALS",
         f"{L}  {_conf_icon(conf_25, 50)} {str_o25}  ({conf_25:.1f}%)",
         f"{L}  {_bar(conf_25)}",
+        f"{L}  {_conf_icon(conf_15, 50)} {str_o15}  ({conf_15:.1f}%)",
+        f"{L}  {_bar(conf_15)}",
         f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
         f"{L}  🤝 BOTH TEAMS TO SCORE",
         f"{L}  {_conf_icon(conf_btts, 50)} GG: {str_btts}  ({conf_btts:.1f}%)",
@@ -385,7 +424,7 @@ def format_unified_prediction(home, away, res):
     lines += [
         f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
         f"{L}  {adv}",
-        f"{L}  {otag}",
+        f"{L}  {src_str}",
         f"┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛",
     ]
     return "\n".join(lines)
@@ -425,6 +464,10 @@ def get_weekly_predictions(week_idx=0, high_only=False):
         o25 = "O" if res['ou25'] > 0.5 else "U"
         c25 = max(res['ou25'], 1-res['ou25']) * 100
 
+        # OU1.5
+        o15 = "O" if res['ou15'] > 0.5 else "U"
+        c15 = max(res['ou15'], 1-res['ou15']) * 100
+
         # BTTS
         btts = "GG" if res['btts'] > 0.5 else "NG"
         cb = max(res['btts'], 1-res['btts']) * 100
@@ -439,7 +482,8 @@ def get_weekly_predictions(week_idx=0, high_only=False):
         flag = "🔥" if is_hi else "  "
 
         lines.append(f"┃ {flag} {home} vs {away}")
-        lines.append(f"┃    {pred_1x2} {c1x2:.0f}% │ {o25}2.5 {c25:.0f}% │ {btts} {cb:.0f}% │ {score}")
+        lines.append(f"┃    {pred_1x2} {c1x2:.0f}% │ {o25}2.5 {c25:.0f}% │ {o15}1.5 {c15:.0f}%")
+        lines.append(f"┃    {btts} {cb:.0f}% │ {score}")
 
         if home in TEAMS_LIST and away in TEAMS_LIST:
             h_idx = TEAMS_LIST.index(home)
@@ -472,15 +516,18 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         f"┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n"
         f"┃  ⚽ Football Prediction Bot\n"
-        f"┃  v5.0 — EPL Specialist\n"
+        f"┃  v6.0 — EPL Specialist\n"
         f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
         f"┃  📚 {len(HISTORICAL_DF)} matches trained\n"
         f"┃  🧠 Dixon-Coles + LightGBM\n"
         f"┃  {odds_icon} Live odds: {odds_s}\n"
+        f"┃  👥 FPL squad data\n"
+        f"┃  📈 Understat xG\n"
         f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
         f"┃  Markets:\n"
-        f"┃  🏆 1X2  │  📈 O/U 2.5\n"
-        f"┃  🤝 BTTS │  🎯 Exact Score\n"
+        f"┃  🏆 1X2    │  📈 O/U 2.5\n"
+        f"┃  📊 O/U 1.5│  🤝 BTTS\n"
+        f"┃  🎯 Exact Score\n"
         f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
         f"┃  🟢 = Strong  🟡 = Moderate\n"
         f"┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛",
@@ -609,7 +656,7 @@ async def btn(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif d == 'how':
         await q.edit_message_text(
             "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n"
-            "┃  ℹ️ How It Works (v5.0)\n"
+            "┃  ℹ️ How It Works (v6.0)\n"
             "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
             "┃  🧠 MODEL PIPELINE\n"
             "┃\n"
@@ -624,19 +671,26 @@ async def btn(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "┃     3 / 5 / 10 match windows\n"
             "┃\n"
             "┃  3. LightGBM Ensemble\n"
-            "┃     3 models: 1X2, O/U, BTTS\n"
+            "┃     4 models: 1X2, O/U 2.5,\n"
+            "┃     O/U 1.5, BTTS\n"
             "┃     Cross-market DC features\n"
+            "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
+            "┃  📡 DATA SOURCES\n"
+            "┃  👥 FPL: injuries & form\n"
+            "┃  📈 Understat: live xG\n"
+            "┃  📡 Live odds (The Odds API)\n"
+            "┃  🌤️ Weather (OpenWeatherMap)\n"
             "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
             "┃  📊 STATS\n"
             f"┃  📚 {len(HISTORICAL_DF)} EPL matches\n"
-            f"┃  📐 {len(FEATURE_COLS)} + 5 DC features\n"
+            f"┃  📐 {len(FEATURE_COLS)} + 6 DC features\n"
             "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
             "┃  🎯 MARKETS\n"
-            "┃  🏆 1X2  │  📈 O/U 2.5\n"
-            "┃  🤝 BTTS │  🎯 Exact Score\n"
+            "┃  🏆 1X2    │  📈 O/U 2.5\n"
+            "┃  📊 O/U 1.5│  🤝 BTTS\n"
+            "┃  🎯 Exact Score\n"
             "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n"
             "┃  🟢 Strong  🟡 Moderate  🔴 Low\n"
-            "┃  📡 Live odds via The Odds API\n"
             "┃\n"
             "┃  ⚠️ Gamble responsibly.\n"
             "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛",

@@ -15,14 +15,16 @@ import lightgbm as lgb
 
 from dixon_coles import DixonColesModel
 from feature_engine import (parse_understat_xg, merge_xg,
-                            build_rolling_features, get_feature_columns)
+                            build_rolling_features, get_feature_columns,
+                            FPL_FEATURE_COLS, WEATHER_FEATURE_COLS)
+from data_fetchers import fetch_fpl_data, fetch_understat_season
 
 DATA_PATH = Path('E0 - E0.csv.csv')
 XG_PATH = Path('understat_xg.csv')
 
 
 def load_and_prepare():
-    """Load data, merge xG, build features."""
+    """Load data, merge xG, build features, merge FPL data."""
     print("Loading data...")
     df = pd.read_csv(DATA_PATH)
     df['Date'] = pd.to_datetime(df['Date'], dayfirst=True, errors='coerce')
@@ -33,13 +35,38 @@ def load_and_prepare():
             df[c] = pd.to_numeric(df[c], errors='coerce')
     df = df.dropna(subset=['Date','FTHG','FTAG']).sort_values('Date').reset_index(drop=True)
 
-    # Merge xG
+    # Merge xG — use CSV for historical, then supplement with live current season
     if XG_PATH.exists():
-        print("Merging xG data from Understat...")
+        print("Merging xG data from CSV...")
         xg_df = parse_understat_xg(XG_PATH)
         df = merge_xg(df, xg_df)
         xg_count = df['home_xg'].notna().sum()
-        print(f"   Matched {xg_count}/{len(df)} matches with xG data")
+        print(f"   Matched {xg_count}/{len(df)} matches with CSV xG data")
+
+    # Supplement with live Understat for current season
+    print("Fetching live xG for current season...")
+    live_xg = fetch_understat_season()
+    if live_xg is not None and len(live_xg) > 0:
+        print(f"   Got {len(live_xg)} matches from Understat API")
+        live_xg['date_match'] = live_xg['date_xg'].dt.date
+        df['date_match'] = df['Date'].dt.date
+        # Only fill where home_xg is still NaN
+        for idx, row in df[df['home_xg'].isna()].iterrows():
+            match_mask = (
+                (live_xg['home_team_xg'] == row['HomeTeam']) &
+                (live_xg['away_team_xg'] == row['AwayTeam']) &
+                (live_xg['date_match'] == row['date_match'])
+            )
+            matched = live_xg[match_mask]
+            if len(matched) > 0:
+                df.at[idx, 'home_xg'] = matched.iloc[0]['home_xg']
+                df.at[idx, 'away_xg'] = matched.iloc[0]['away_xg']
+        if 'date_match' in df.columns:
+            df.drop(columns=['date_match'], inplace=True, errors='ignore')
+        xg_count = df['home_xg'].notna().sum()
+        print(f"   After live supplement: {xg_count}/{len(df)} matches with xG")
+    elif not XG_PATH.exists():
+        print("   No xG data available")
 
     # Targets
     df['over25'] = ((df['FTHG'] + df['FTAG']) > 2.5).astype(int)
@@ -49,6 +76,30 @@ def load_and_prepare():
     # Build rolling features
     print("Building rolling features (k=3,5,10)...")
     df = build_rolling_features(df, windows=(3, 5, 10))
+
+    # Merge FPL data (current squad info — applied to all rows where team is in FPL)
+    print("Fetching FPL squad data...")
+    fpl = fetch_fpl_data()
+    if fpl:
+        print(f"   FPL data for {len(fpl)} teams")
+        # Build lookup arrays using vectorized map
+        h_strength = df['HomeTeam'].map(lambda t: fpl.get(t, {}).get('team_strength', np.nan))
+        a_strength = df['AwayTeam'].map(lambda t: fpl.get(t, {}).get('team_strength', np.nan))
+        df['home_team_strength'] = h_strength
+        df['away_team_strength'] = a_strength
+        df['strength_diff'] = h_strength - a_strength
+        df['home_injury_impact'] = df['HomeTeam'].map(lambda t: fpl.get(t, {}).get('injury_impact', np.nan))
+        df['away_injury_impact'] = df['AwayTeam'].map(lambda t: fpl.get(t, {}).get('injury_impact', np.nan))
+        df['home_key_missing'] = df['HomeTeam'].map(lambda t: fpl.get(t, {}).get('key_missing', np.nan))
+        df['away_key_missing'] = df['AwayTeam'].map(lambda t: fpl.get(t, {}).get('key_missing', np.nan))
+        df['home_xg_potential'] = df['HomeTeam'].map(lambda t: fpl.get(t, {}).get('xg_potential', np.nan))
+        df['away_xg_potential'] = df['AwayTeam'].map(lambda t: fpl.get(t, {}).get('xg_potential', np.nan))
+    else:
+        print("   FPL data unavailable")
+
+    # Weather columns as NaN (prediction-time only)
+    for col in WEATHER_FEATURE_COLS:
+        df[col] = np.nan
 
     # Derive season for CV
     df['season'] = df['Date'].apply(

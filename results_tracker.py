@@ -25,7 +25,7 @@ def _save_db(db):
 
 
 def save_match_prediction(home, away, date_str, res):
-    """Store a full prediction for all 4 markets."""
+    """Store a full prediction for all 5 markets."""
     db = _load_db()
 
     pred_id = f"{date_str}_{home}_{away}"
@@ -45,6 +45,10 @@ def save_match_prediction(home, away, date_str, res):
     pred_ou25 = "Over" if res['ou25'] > 0.5 else "Under"
     conf_ou25 = float(max(res['ou25'], 1 - res['ou25']) * 100)
 
+    # OU 1.5
+    pred_ou15 = "Over" if res.get('ou15', 0.5) > 0.5 else "Under"
+    conf_ou15 = float(max(res.get('ou15', 0.5), 1 - res.get('ou15', 0.5)) * 100)
+
     # BTTS
     pred_btts = "Yes" if res['btts'] > 0.5 else "No"
     conf_btts = float(max(res['btts'], 1 - res['btts']) * 100)
@@ -62,6 +66,8 @@ def save_match_prediction(home, away, date_str, res):
         "conf_1x2": round(conf_1x2, 1),
         "pred_ou25": pred_ou25,
         "conf_ou25": round(conf_ou25, 1),
+        "pred_ou15": pred_ou15,
+        "conf_ou15": round(conf_ou15, 1),
         "pred_btts": pred_btts,
         "conf_btts": round(conf_btts, 1),
         "pred_score": pred_score,
@@ -132,6 +138,8 @@ def settle_predictions():
         pred['correct_1x2'] = pred['pred_1x2'] == ftr
         pred['correct_ou25'] = (pred['pred_ou25'] == "Over" and total_goals > 2.5) or \
                                 (pred['pred_ou25'] == "Under" and total_goals <= 2.5)
+        pred['correct_ou15'] = (pred.get('pred_ou15', 'Over') == "Over" and total_goals > 1.5) or \
+                                (pred.get('pred_ou15', 'Over') == "Under" and total_goals <= 1.5)
         pred['correct_btts'] = (pred['pred_btts'] == "Yes" and fthg > 0 and ftag > 0) or \
                                 (pred['pred_btts'] == "No" and (fthg == 0 or ftag == 0))
         pred['correct_score'] = pred['pred_score'] == f"{fthg}-{ftag}"
@@ -159,6 +167,7 @@ def get_accuracy_summary():
     stats = {
         '1x2': sum(1 for p in recent if p.get('correct_1x2', False)),
         'ou25': sum(1 for p in recent if p.get('correct_ou25', False)),
+        'ou15': sum(1 for p in recent if p.get('correct_ou15', False)),
         'btts': sum(1 for p in recent if p.get('correct_btts', False)),
         'score': sum(1 for p in recent if p.get('correct_score', False)),
         'total': n,
@@ -192,6 +201,7 @@ def get_results_text(limit=15):
 
     pct_1x2 = stats['1x2'] / n * 100
     pct_ou25 = stats['ou25'] / n * 100
+    pct_ou15 = stats['ou15'] / n * 100
     pct_btts = stats['btts'] / n * 100
     pct_score = stats['score'] / n * 100
 
@@ -203,6 +213,7 @@ def get_results_text(limit=15):
         "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
         f"{L}  🏆 1X2:   {stats['1x2']}/{n}  ({pct_1x2:.0f}%)  {_bar(pct_1x2)}",
         f"{L}  📈 OU2.5: {stats['ou25']}/{n}  ({pct_ou25:.0f}%)  {_bar(pct_ou25)}",
+        f"{L}  📊 OU1.5: {stats['ou15']}/{n}  ({pct_ou15:.0f}%)  {_bar(pct_ou15)}",
         f"{L}  🤝 BTTS:  {stats['btts']}/{n}  ({pct_btts:.0f}%)  {_bar(pct_btts)}",
         f"{L}  🎯 Score: {stats['score']}/{n}  ({pct_score:.0f}%)  {_bar(pct_score)}",
         "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
