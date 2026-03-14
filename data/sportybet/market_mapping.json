@@ -1,0 +1,3044 @@
+[
+  {
+    "market_group": "Bookings",
+    "market_title": "1st Booking",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "1st Half - 1st Booking",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "1st Half - Away Exact Bookings",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "1st Half - Away Sending Off",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "1st Half - Bookings 1X2",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "1st Half - Exact Bookings",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "1st Half - Home Exact Bookings",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "1st Half - Home Sending Off",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "1st Half - Sending Off",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "1st Half - Total Booking Points",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "1st Half Away Team Total Bookings",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "1st Half Bookings - Over/Under",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "1st Half Home Team Total Bookings",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "Away Exact Bookings",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "Away Sending Off",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "Away Team Total Bookings",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "Booking Points-Over/Under",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "Bookings - Over/Under",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "Bookings 1X2",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "Bookings Handicap",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "Exact Bookings",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "Home Exact Bookings",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "Home Sending Off",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "Home Team Total Bookings",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Bookings",
+    "market_title": "Sending Off",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Players",
+    "market_title": "First Player Carded",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player to be carded (incl. overtime)",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Teams",
+    "market_title": "Team Cards",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Teams",
+    "market_title": "Team Cards 1st Half",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Teams",
+    "market_title": "Team Cards 2nd Half",
+    "normalized_family": "bookings",
+    "model_target": "bookings",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st Half - GG/NG",
+    "normalized_family": "btts",
+    "model_target": "btts",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st/2nd Half GG/NG",
+    "normalized_family": "btts",
+    "model_target": "btts",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - GG/NG",
+    "normalized_family": "btts",
+    "model_target": "btts",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "No Draw Both Teams To Score Yes/No",
+    "normalized_family": "btts",
+    "model_target": "btts",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Both Teams to Score in Both Halves Yes/No",
+    "normalized_family": "btts",
+    "model_target": "btts",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "GG/NG",
+    "normalized_family": "btts",
+    "model_target": "btts",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "GG/NG 2+",
+    "normalized_family": "btts",
+    "model_target": "btts",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "1st Corner",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "1st Half - 1st Corner",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "1st Half - Corner 1X2",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "1st Half - Corner Handicap",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "1st Half - Corner Range",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "1st Half - Last Corner",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "1st Half - Odd/Even Corners",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "1st Half -Away Exact Corners",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "1st Half -Home Exact Corners",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "1st Half Away Team Corners",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "1st Half Corners - Over/Under",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "1st Half Home Team Corners",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "Away Corner Range",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "Away Team Total Corners",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "Corner Handicap",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "Corner Range",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "Corners - 1X2",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "Corners - Over/Under",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "Home Corner Range",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "Home Team Total Corners",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "Last Corner",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Corners",
+    "market_title": "Odd/Even Corners",
+    "normalized_family": "corners",
+    "model_target": "corners",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "1st Half - Correct Score",
+    "normalized_family": "correct_score",
+    "model_target": "exact_score",
+    "builder_priority": "low",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half - Correct Score",
+    "normalized_family": "correct_score",
+    "model_target": "exact_score",
+    "builder_priority": "low",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Half Time/Full Time Correct Score",
+    "normalized_family": "correct_score",
+    "model_target": "exact_score",
+    "builder_priority": "low",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Correct Score",
+    "normalized_family": "correct_score",
+    "model_target": "exact_score",
+    "builder_priority": "low",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Correct Score [0:0]",
+    "normalized_family": "correct_score",
+    "model_target": "exact_score",
+    "builder_priority": "low",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st Half - Exact Goals",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st Half - Multigoals",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Alaves Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Athletic Bilbao Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Atletico Madrid Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Barcelona Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Bayer Leverkusen Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Betis Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Bournemouth Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Burnley Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Elche CF Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Freiburg Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Getafe Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Girona Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Heidenheim Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Hoffenheim Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Levante Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Mainz Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Rayo Vallecano Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Real Sociedad Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Sevilla Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Stuttgart Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Valencia Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st half - Villarreal Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Alaves Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Athletic Bilbao Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Atletico Madrid Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Barcelona Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Bayer Leverkusen Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Betis Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Bournemouth Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Burnley Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Elche CF Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Exact Goals",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Freiburg Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Getafe Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Girona Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Heidenheim Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Hoffenheim Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Levante Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Mainz Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Multigoals",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Rayo Vallecano Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Real Sociedad Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Sevilla Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Stuttgart Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Valencia Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Villarreal Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Alaves Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Athletic Bilbao Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Atletico Madrid Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Away Multigoals",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Barcelona Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Bayer Leverkusen Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Betis Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Bournemouth Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Burnley Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Elche CF Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Freiburg Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Getafe Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Girona Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Goal Bounds - Away",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Goal Bounds - Home",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Heidenheim Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Hoffenheim Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Home Multigoals",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Levante Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Mainz Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Multigoals",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Rayo Vallecano Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Real Sociedad Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Sevilla Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Stuttgart Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Valencia Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Villarreal Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "1st Half - Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half - Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Goal Bounds - 1st Half",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Exact Goals",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Goal Bounds",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Goal Range",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Over/Under",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Over/Under - Early Goals",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 10 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 15 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 20 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 25 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 30 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 35 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 40 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 5 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 50 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 55 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 60 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 65 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 70 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 75 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 80 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "Total Goals Over/Under from 1 to 85 minute",
+    "normalized_family": "goals",
+    "model_target": "totals",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st Half - Odd/Even",
+    "normalized_family": "goals_odd_even",
+    "model_target": "totals",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Odd/Even",
+    "normalized_family": "goals_odd_even",
+    "model_target": "totals",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Away Team Odd/Even",
+    "normalized_family": "goals_odd_even",
+    "model_target": "totals",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Home Team Odd/Even",
+    "normalized_family": "goals_odd_even",
+    "model_target": "totals",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Odd/Even",
+    "normalized_family": "goals_odd_even",
+    "model_target": "totals",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "1st Half - Asian Handicap",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "1st Half - Handicap",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half - Asian Handicap",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half - Handicap 0:1",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half - Handicap 0:2",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half - Handicap 1:0",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half - Handicap 2:0",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Asian Handicap -0.5",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Asian Handicap -1",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Asian Handicap -1.5",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Asian Handicap -2",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Asian Handicap -2.5",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Asian Handicap -3",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Asian Handicap 0",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Asian Handicap 0.5",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Asian Handicap 1",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Asian Handicap 1.5",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Asian Handicap 2",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Asian Handicap 2.5",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Handicap 0:1",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Handicap 0:2",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Handicap 0:3",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Handicap 0:4",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Handicap 0:5",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Handicap 1:0",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Handicap 2:0",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Handicap 3:0",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Handicap 4:0",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Handicap 5:0",
+    "normalized_family": "handicap",
+    "model_target": "result",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - 1st Goal",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Both Halves Over 1.5",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Both Halves Under 1.5",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Excluded Number of Goals - Away",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Excluded Number of Goals - Home",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Multiscores",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "1st Half - 1st Goal",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half Away Team Total Goals Odd or Even",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half Home Team Total Goals Odd or Even",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Away Team Highest Scoring Half",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Away Team to Win Both Halves",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Away Team to Win Either Half",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Excluded Number of Goals - First Half",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Half-time Away Team Total Goals Odd or Even",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Half-time Home Team Total Goals Odd or Even",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Highest Scoring Half",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Home Team Highest Scoring Half",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Home Team to Win Both Halves",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Home Team to Win Either Half",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "1st Goal",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Any Team to lead by 1 Goal at any time",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Any Team to lead by 2 Goals at any time",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Any Team to lead by 3 Goals at any time",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Away No Bet",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Away Team to lead by 1 Goal at any time",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Away Team to lead by 2 Goals at any time",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Away Team to lead by 3 Goals at any time",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Excluded Number of Goals",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Half Time/Full Time",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Home No Bet",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Home Team to lead by 1 Goal at any time",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Home Team to lead by 2 Goals at any time",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Home Team to lead by 3 Goals at any time",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Last Goal",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Precanned BetBuilder",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Teams to Score",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "First to Score for their Team",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Most Assists",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Most Fouls",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Most Goals + Assists",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Most Player Goals",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Most Saves",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Most Shots",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Most Shots on Target",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player Fouls",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player Offsides",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player Saves",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player To Be Booked",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player To Be Sent Off",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player Total Accurate Passes",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player assists (incl. overtime)",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player goals (incl. overtime)",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player left foot shots on target",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player passes (incl. overtime)",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player right foot shots on target",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player shots (incl. overtime)",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player shots on goal (incl. overtime)",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player shots on target outside box",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player tackles (incl. overtime)",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player to Score Free-Kick",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player to score in 1st half",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player to score in 2nd half",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player to score with left foot",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player to score with right foot",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "To Score a Header",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "To Score and Assist",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "To Score or Assist",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "To score in first 10 mins",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Teams",
+    "market_title": "Team 1st half shots on target",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Teams",
+    "market_title": "Team Assists",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Teams",
+    "market_title": "Team Fouls",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Teams",
+    "market_title": "Team Goal Kicks",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Teams",
+    "market_title": "Team Saves",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Teams",
+    "market_title": "Team Shots",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Teams",
+    "market_title": "Team Shots on Target",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Teams",
+    "market_title": "Team Tackles",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Teams",
+    "market_title": "Team Throw-Ins",
+    "normalized_family": "other",
+    "model_target": "",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "1st Goalscorer",
+    "normalized_family": "players_goalscorer",
+    "model_target": "player_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Anytime Goalscorer",
+    "normalized_family": "players_goalscorer",
+    "model_target": "player_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Last Goalscorer",
+    "normalized_family": "players_goalscorer",
+    "model_target": "player_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "1st Half - 1X2",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "1st Half - 1X2 & GG/NG",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "1st Half - 1X2 & Over/Under",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "1st Half - Double Chance",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "1st Half - Double Chance & GG/NG",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "1st Half - Draw No Bet",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half - 1X2",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half - 1X2 & GG/NG",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half - 1X2 & Over/Under",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half - Double Chance",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half - Double Chance & GG/NG",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half - Draw No Bet",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Double Chance & 1st Half GG/NG",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Double Chance & 2nd Half GG/NG",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "1X2",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "1X2 - 1UP",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "1X2 - 2UP",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Double Chance",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Draw No Bet",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Winning Margin",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "10 minutes - 1X2 from 1 to 10",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "1X2 from 1 to 15 minute",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "1X2 from 1 to 20 minute",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "1X2 from 1 to 25 minute",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "1X2 from 1 to 30 minute",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "1X2 from 1 to 35 minute",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "1X2 from 1 to 40 minute",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "1X2 from 1 to 5 minute",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "1X2 from 1 to 50 minute",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "1X2 from 1 to 55 minute",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "1X2 from 1 to 60 minute",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "1X2 from 1 to 65 minute",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "1X2 from 1 to 70 minute",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "1X2 from 1 to 75 minute",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "1X2 from 1 to 80 minute",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "1X2 from 1 to 85 minute",
+    "normalized_family": "result",
+    "model_target": "1x2",
+    "builder_priority": "high",
+    "supported_by_model": true,
+    "core_market": true
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st Half - Away Team Clean Sheet",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "1st Half - Home Team Clean Sheet",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Away Team Clean Sheet",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "2nd Half - Home Team Clean Sheet",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Away Team Clean Sheet",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Away Team Goals",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Away Team To Score Yes/No",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Away Team to Score In Both Halves",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Home Team Clean Sheet",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Home Team Goals",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Home Team To Score Yes/No",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Goals",
+    "market_title": "Home Team to Score In Both Halves",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half Away Team to Score Yes/No",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "2nd Half Home Team to Score Yes/No",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Half-time Away Team to Score Yes/No",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Half",
+    "market_title": "Half-time Home Team To Score Yes/No",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Any Team To Score 2 or More Goals in a Row",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Any Team To Score 3 or More Goals in a Row",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Away Team To Score 2 or More Goals in a Row",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Away Team To Score 3 or More Goals in a Row",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Home Team To Score 2 or More Goals in a Row",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Main",
+    "market_title": "Home Team To Score 3 or More Goals in a Row",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Players",
+    "market_title": "Player to score in both halves",
+    "normalized_family": "team_goals",
+    "model_target": "team_props",
+    "builder_priority": "medium",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "When will the 1st goal be scored (10 min interval)",
+    "normalized_family": "timing",
+    "model_target": "timing",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  },
+  {
+    "market_group": "Minutes",
+    "market_title": "When will the 1st goal be scored (15 min interval)",
+    "normalized_family": "timing",
+    "model_target": "timing",
+    "builder_priority": "low",
+    "supported_by_model": false,
+    "core_market": false
+  }
+]

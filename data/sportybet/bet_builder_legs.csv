@@ -1,0 +1,255 @@
+market_group,market_title,normalized_family,model_target,builder_priority,supported_by_model,core_market
+Goals,1st Half - GG/NG,btts,btts,high,True,True
+Goals,1st/2nd Half GG/NG,btts,btts,high,True,True
+Goals,2nd Half - GG/NG,btts,btts,high,True,True
+Half,Both Teams to Score in Both Halves Yes/No,btts,btts,high,True,True
+Main,GG/NG,btts,btts,high,True,True
+Main,GG/NG 2+,btts,btts,high,True,True
+Goals,No Draw Both Teams To Score Yes/No,btts,btts,high,True,True
+Goals,1st Half - Exact Goals,goals,totals,high,True,True
+Goals,1st Half - Multigoals,goals,totals,high,True,True
+Half,1st Half - Over/Under,goals,totals,high,True,True
+Goals,1st half - Alaves Over/Under,goals,totals,high,True,True
+Goals,1st half - Athletic Bilbao Over/Under,goals,totals,high,True,True
+Goals,1st half - Atletico Madrid Over/Under,goals,totals,high,True,True
+Goals,1st half - Barcelona Over/Under,goals,totals,high,True,True
+Goals,1st half - Bayer Leverkusen Over/Under,goals,totals,high,True,True
+Goals,1st half - Betis Over/Under,goals,totals,high,True,True
+Goals,1st half - Bournemouth Over/Under,goals,totals,high,True,True
+Goals,1st half - Burnley Over/Under,goals,totals,high,True,True
+Goals,1st half - Elche CF Over/Under,goals,totals,high,True,True
+Goals,1st half - Freiburg Over/Under,goals,totals,high,True,True
+Goals,1st half - Getafe Over/Under,goals,totals,high,True,True
+Goals,1st half - Girona Over/Under,goals,totals,high,True,True
+Goals,1st half - Heidenheim Over/Under,goals,totals,high,True,True
+Goals,1st half - Hoffenheim Over/Under,goals,totals,high,True,True
+Goals,1st half - Levante Over/Under,goals,totals,high,True,True
+Goals,1st half - Mainz Over/Under,goals,totals,high,True,True
+Goals,1st half - Rayo Vallecano Over/Under,goals,totals,high,True,True
+Goals,1st half - Real Sociedad Over/Under,goals,totals,high,True,True
+Goals,1st half - Sevilla Over/Under,goals,totals,high,True,True
+Goals,1st half - Stuttgart Over/Under,goals,totals,high,True,True
+Goals,1st half - Valencia Over/Under,goals,totals,high,True,True
+Goals,1st half - Villarreal Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Alaves Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Athletic Bilbao Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Atletico Madrid Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Barcelona Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Bayer Leverkusen Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Betis Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Bournemouth Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Burnley Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Elche CF Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Exact Goals,goals,totals,high,True,True
+Goals,2nd Half - Freiburg Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Getafe Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Girona Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Heidenheim Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Hoffenheim Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Levante Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Mainz Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Multigoals,goals,totals,high,True,True
+Half,2nd Half - Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Rayo Vallecano Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Real Sociedad Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Sevilla Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Stuttgart Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Valencia Over/Under,goals,totals,high,True,True
+Goals,2nd Half - Villarreal Over/Under,goals,totals,high,True,True
+Goals,Alaves Over/Under,goals,totals,high,True,True
+Goals,Athletic Bilbao Over/Under,goals,totals,high,True,True
+Goals,Atletico Madrid Over/Under,goals,totals,high,True,True
+Goals,Away Multigoals,goals,totals,high,True,True
+Goals,Barcelona Over/Under,goals,totals,high,True,True
+Goals,Bayer Leverkusen Over/Under,goals,totals,high,True,True
+Goals,Betis Over/Under,goals,totals,high,True,True
+Goals,Bournemouth Over/Under,goals,totals,high,True,True
+Goals,Burnley Over/Under,goals,totals,high,True,True
+Goals,Elche CF Over/Under,goals,totals,high,True,True
+Main,Exact Goals,goals,totals,high,True,True
+Goals,Freiburg Over/Under,goals,totals,high,True,True
+Goals,Getafe Over/Under,goals,totals,high,True,True
+Goals,Girona Over/Under,goals,totals,high,True,True
+Main,Goal Bounds,goals,totals,high,True,True
+Half,Goal Bounds - 1st Half,goals,totals,high,True,True
+Goals,Goal Bounds - Away,goals,totals,high,True,True
+Goals,Goal Bounds - Home,goals,totals,high,True,True
+Main,Goal Range,goals,totals,high,True,True
+Goals,Heidenheim Over/Under,goals,totals,high,True,True
+Goals,Hoffenheim Over/Under,goals,totals,high,True,True
+Goals,Home Multigoals,goals,totals,high,True,True
+Goals,Levante Over/Under,goals,totals,high,True,True
+Goals,Mainz Over/Under,goals,totals,high,True,True
+Goals,Multigoals,goals,totals,high,True,True
+Main,Over/Under,goals,totals,high,True,True
+Main,Over/Under - Early Goals,goals,totals,high,True,True
+Goals,Rayo Vallecano Over/Under,goals,totals,high,True,True
+Goals,Real Sociedad Over/Under,goals,totals,high,True,True
+Goals,Sevilla Over/Under,goals,totals,high,True,True
+Goals,Stuttgart Over/Under,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 10 minute,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 15 minute,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 20 minute,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 25 minute,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 30 minute,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 35 minute,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 40 minute,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 5 minute,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 50 minute,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 55 minute,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 60 minute,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 65 minute,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 70 minute,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 75 minute,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 80 minute,goals,totals,high,True,True
+Minutes,Total Goals Over/Under from 1 to 85 minute,goals,totals,high,True,True
+Goals,Valencia Over/Under,goals,totals,high,True,True
+Goals,Villarreal Over/Under,goals,totals,high,True,True
+Minutes,10 minutes - 1X2 from 1 to 10,result,1x2,high,True,True
+Main,1X2,result,1x2,high,True,True
+Main,1X2 - 1UP,result,1x2,high,True,True
+Main,1X2 - 2UP,result,1x2,high,True,True
+Minutes,1X2 from 1 to 15 minute,result,1x2,high,True,True
+Minutes,1X2 from 1 to 20 minute,result,1x2,high,True,True
+Minutes,1X2 from 1 to 25 minute,result,1x2,high,True,True
+Minutes,1X2 from 1 to 30 minute,result,1x2,high,True,True
+Minutes,1X2 from 1 to 35 minute,result,1x2,high,True,True
+Minutes,1X2 from 1 to 40 minute,result,1x2,high,True,True
+Minutes,1X2 from 1 to 5 minute,result,1x2,high,True,True
+Minutes,1X2 from 1 to 50 minute,result,1x2,high,True,True
+Minutes,1X2 from 1 to 55 minute,result,1x2,high,True,True
+Minutes,1X2 from 1 to 60 minute,result,1x2,high,True,True
+Minutes,1X2 from 1 to 65 minute,result,1x2,high,True,True
+Minutes,1X2 from 1 to 70 minute,result,1x2,high,True,True
+Minutes,1X2 from 1 to 75 minute,result,1x2,high,True,True
+Minutes,1X2 from 1 to 80 minute,result,1x2,high,True,True
+Minutes,1X2 from 1 to 85 minute,result,1x2,high,True,True
+Half,1st Half - 1X2,result,1x2,high,True,True
+Half,1st Half - 1X2 & GG/NG,result,1x2,high,True,True
+Half,1st Half - 1X2 & Over/Under,result,1x2,high,True,True
+Half,1st Half - Double Chance,result,1x2,high,True,True
+Half,1st Half - Double Chance & GG/NG,result,1x2,high,True,True
+Half,1st Half - Draw No Bet,result,1x2,high,True,True
+Half,2nd Half - 1X2,result,1x2,high,True,True
+Half,2nd Half - 1X2 & GG/NG,result,1x2,high,True,True
+Half,2nd Half - 1X2 & Over/Under,result,1x2,high,True,True
+Half,2nd Half - Double Chance,result,1x2,high,True,True
+Half,2nd Half - Double Chance & GG/NG,result,1x2,high,True,True
+Half,2nd Half - Draw No Bet,result,1x2,high,True,True
+Main,Double Chance,result,1x2,high,True,True
+Half,Double Chance & 1st Half GG/NG,result,1x2,high,True,True
+Half,Double Chance & 2nd Half GG/NG,result,1x2,high,True,True
+Main,Draw No Bet,result,1x2,high,True,True
+Main,Winning Margin,result,1x2,high,True,True
+Bookings,1st Booking,bookings,bookings,medium,False,True
+Bookings,1st Half - 1st Booking,bookings,bookings,medium,False,True
+Bookings,1st Half - Away Exact Bookings,bookings,bookings,medium,False,True
+Bookings,1st Half - Away Sending Off,bookings,bookings,medium,False,True
+Bookings,1st Half - Bookings 1X2,bookings,bookings,medium,False,True
+Bookings,1st Half - Exact Bookings,bookings,bookings,medium,False,True
+Bookings,1st Half - Home Exact Bookings,bookings,bookings,medium,False,True
+Bookings,1st Half - Home Sending Off,bookings,bookings,medium,False,True
+Bookings,1st Half - Sending Off,bookings,bookings,medium,False,True
+Bookings,1st Half - Total Booking Points,bookings,bookings,medium,False,True
+Bookings,1st Half Away Team Total Bookings,bookings,bookings,medium,False,True
+Bookings,1st Half Bookings - Over/Under,bookings,bookings,medium,False,True
+Bookings,1st Half Home Team Total Bookings,bookings,bookings,medium,False,True
+Bookings,Away Exact Bookings,bookings,bookings,medium,False,True
+Bookings,Away Sending Off,bookings,bookings,medium,False,True
+Bookings,Away Team Total Bookings,bookings,bookings,medium,False,True
+Bookings,Booking Points-Over/Under,bookings,bookings,medium,False,True
+Bookings,Bookings - Over/Under,bookings,bookings,medium,False,True
+Bookings,Bookings 1X2,bookings,bookings,medium,False,True
+Bookings,Bookings Handicap,bookings,bookings,medium,False,True
+Bookings,Exact Bookings,bookings,bookings,medium,False,True
+Players,First Player Carded,bookings,bookings,medium,False,True
+Bookings,Home Exact Bookings,bookings,bookings,medium,False,True
+Bookings,Home Sending Off,bookings,bookings,medium,False,True
+Bookings,Home Team Total Bookings,bookings,bookings,medium,False,True
+Players,Player to be carded (incl. overtime),bookings,bookings,medium,False,True
+Bookings,Sending Off,bookings,bookings,medium,False,True
+Teams,Team Cards,bookings,bookings,medium,False,True
+Teams,Team Cards 1st Half,bookings,bookings,medium,False,True
+Teams,Team Cards 2nd Half,bookings,bookings,medium,False,True
+Corners,1st Corner,corners,corners,medium,False,True
+Corners,1st Half - 1st Corner,corners,corners,medium,False,True
+Corners,1st Half - Corner 1X2,corners,corners,medium,False,True
+Corners,1st Half - Corner Handicap,corners,corners,medium,False,True
+Corners,1st Half - Corner Range,corners,corners,medium,False,True
+Corners,1st Half - Last Corner,corners,corners,medium,False,True
+Corners,1st Half - Odd/Even Corners,corners,corners,medium,False,True
+Corners,1st Half -Away Exact Corners,corners,corners,medium,False,True
+Corners,1st Half -Home Exact Corners,corners,corners,medium,False,True
+Corners,1st Half Away Team Corners,corners,corners,medium,False,True
+Corners,1st Half Corners - Over/Under,corners,corners,medium,False,True
+Corners,1st Half Home Team Corners,corners,corners,medium,False,True
+Corners,Away Corner Range,corners,corners,medium,False,True
+Corners,Away Team Total Corners,corners,corners,medium,False,True
+Corners,Corner Handicap,corners,corners,medium,False,True
+Corners,Corner Range,corners,corners,medium,False,True
+Corners,Corners - 1X2,corners,corners,medium,False,True
+Corners,Corners - Over/Under,corners,corners,medium,False,True
+Corners,Home Corner Range,corners,corners,medium,False,True
+Corners,Home Team Total Corners,corners,corners,medium,False,True
+Corners,Last Corner,corners,corners,medium,False,True
+Corners,Odd/Even Corners,corners,corners,medium,False,True
+Goals,1st Half - Odd/Even,goals_odd_even,totals,medium,False,False
+Goals,2nd Half - Odd/Even,goals_odd_even,totals,medium,False,False
+Goals,Away Team Odd/Even,goals_odd_even,totals,medium,False,False
+Goals,Home Team Odd/Even,goals_odd_even,totals,medium,False,False
+Main,Odd/Even,goals_odd_even,totals,medium,False,False
+Half,1st Half - Asian Handicap,handicap,result,medium,False,True
+Half,1st Half - Handicap,handicap,result,medium,False,True
+Half,2nd Half - Asian Handicap,handicap,result,medium,False,True
+Half,2nd Half - Handicap 0:1,handicap,result,medium,False,True
+Half,2nd Half - Handicap 0:2,handicap,result,medium,False,True
+Half,2nd Half - Handicap 1:0,handicap,result,medium,False,True
+Half,2nd Half - Handicap 2:0,handicap,result,medium,False,True
+Main,Asian Handicap -0.5,handicap,result,medium,False,True
+Main,Asian Handicap -1,handicap,result,medium,False,True
+Main,Asian Handicap -1.5,handicap,result,medium,False,True
+Main,Asian Handicap -2,handicap,result,medium,False,True
+Main,Asian Handicap -2.5,handicap,result,medium,False,True
+Main,Asian Handicap -3,handicap,result,medium,False,True
+Main,Asian Handicap 0,handicap,result,medium,False,True
+Main,Asian Handicap 0.5,handicap,result,medium,False,True
+Main,Asian Handicap 1,handicap,result,medium,False,True
+Main,Asian Handicap 1.5,handicap,result,medium,False,True
+Main,Asian Handicap 2,handicap,result,medium,False,True
+Main,Asian Handicap 2.5,handicap,result,medium,False,True
+Main,Handicap 0:1,handicap,result,medium,False,True
+Main,Handicap 0:2,handicap,result,medium,False,True
+Main,Handicap 0:3,handicap,result,medium,False,True
+Main,Handicap 0:4,handicap,result,medium,False,True
+Main,Handicap 0:5,handicap,result,medium,False,True
+Main,Handicap 1:0,handicap,result,medium,False,True
+Main,Handicap 2:0,handicap,result,medium,False,True
+Main,Handicap 3:0,handicap,result,medium,False,True
+Main,Handicap 4:0,handicap,result,medium,False,True
+Main,Handicap 5:0,handicap,result,medium,False,True
+Players,1st Goalscorer,players_goalscorer,player_props,medium,False,False
+Players,Anytime Goalscorer,players_goalscorer,player_props,medium,False,False
+Players,Last Goalscorer,players_goalscorer,player_props,medium,False,False
+Goals,1st Half - Away Team Clean Sheet,team_goals,team_props,medium,False,False
+Goals,1st Half - Home Team Clean Sheet,team_goals,team_props,medium,False,False
+Goals,2nd Half - Away Team Clean Sheet,team_goals,team_props,medium,False,False
+Goals,2nd Half - Home Team Clean Sheet,team_goals,team_props,medium,False,False
+Half,2nd Half Away Team to Score Yes/No,team_goals,team_props,medium,False,False
+Half,2nd Half Home Team to Score Yes/No,team_goals,team_props,medium,False,False
+Main,Any Team To Score 2 or More Goals in a Row,team_goals,team_props,medium,False,False
+Main,Any Team To Score 3 or More Goals in a Row,team_goals,team_props,medium,False,False
+Goals,Away Team Clean Sheet,team_goals,team_props,medium,False,False
+Goals,Away Team Goals,team_goals,team_props,medium,False,False
+Main,Away Team To Score 2 or More Goals in a Row,team_goals,team_props,medium,False,False
+Main,Away Team To Score 3 or More Goals in a Row,team_goals,team_props,medium,False,False
+Goals,Away Team To Score Yes/No,team_goals,team_props,medium,False,False
+Goals,Away Team to Score In Both Halves,team_goals,team_props,medium,False,False
+Half,Half-time Away Team to Score Yes/No,team_goals,team_props,medium,False,False
+Half,Half-time Home Team To Score Yes/No,team_goals,team_props,medium,False,False
+Goals,Home Team Clean Sheet,team_goals,team_props,medium,False,False
+Goals,Home Team Goals,team_goals,team_props,medium,False,False
+Main,Home Team To Score 2 or More Goals in a Row,team_goals,team_props,medium,False,False
+Main,Home Team To Score 3 or More Goals in a Row,team_goals,team_props,medium,False,False
+Goals,Home Team To Score Yes/No,team_goals,team_props,medium,False,False
+Goals,Home Team to Score In Both Halves,team_goals,team_props,medium,False,False
+Players,Player to score in both halves,team_goals,team_props,medium,False,False

@@ -1,0 +1,231 @@
+{
+  "name": "page_deactivate",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/page_deactivate",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 44,
+  "payload": {
+    "keys": {
+      "deactivate": {
+        "key": "deactivate",
+        "value": "Deactivate",
+        "type": "TEXT"
+      },
+      "reactivate": {
+        "key": "reactivate",
+        "value": "Reactivate",
+        "type": "TEXT"
+      },
+      "you_can_use_this_page_to_deactivate_your_account_tip": {
+        "key": "you_can_use_this_page_to_deactivate_your_account_tip",
+        "value": "You can use this page to deactivate your account if it is currently active, or to reactivate your account if you previously deactivated it. Deactivation will freeze all of the funds currently in your account, log out anybody currently logged in, and prevent new log ins to your account. In order to reactivate your account, you will need to verify an OTP, reset your password, and, if applicable, reset your Sporty PIN.",
+        "type": "TEXT"
+      },
+      "deactivate_reactivate": {
+        "key": "deactivate_reactivate",
+        "value": "Deactivate / Reactivate",
+        "type": "TEXT"
+      },
+      "deactivate_reason": {
+        "key": "deactivate_reason",
+        "value": "Deactivate Reason",
+        "type": "TEXT"
+      },
+      "you_cannot_vaction_this_account_please_contact_vcustomerservice": {
+        "key": "you_cannot_vaction_this_account_please_contact_vcustomerservice",
+        "value": "You cannot {action} this account. Please contact {customerService}.",
+        "type": "TEXT"
+      },
+      "create_vtime_left": {
+        "key": "create_vtime_left",
+        "value": "Create ( {time} left )",
+        "type": "TEXT"
+      },
+      "deactivate_reactivate_mark": {
+        "key": "deactivate_reactivate_mark",
+        "value": "Deactivate / Reactivate ?",
+        "type": "TEXT"
+      },
+      "deactivate_reactivate_desc_tip": {
+        "key": "deactivate_reactivate_desc_tip",
+        "value": "If deactivation is successful your account will be:\n\u2022 Logged out from all devices\n\u2022 Login restricted\n\u2022 Balance restricted\nIf reactivation is successful your account will be:\n\u2022 Logged in on this device\n\u2022 Login unrestricted\n\u2022 Balance unrestricted\n\u2022 Password reset\n\u2022 Sporty PIN reset (if applicable)",
+        "type": "TEXT"
+      },
+      "operation_timed_out": {
+        "key": "operation_timed_out",
+        "value": "Operation Timed Out",
+        "type": "TEXT"
+      },
+      "after_completing_the_otp_verifaction_you_need_tip": {
+        "key": "after_completing_the_otp_verifaction_you_need_tip",
+        "value": "After completing the OTP Verification, you need to reset your credentials within 15 minutes, You have failed to reset your credentials in time. Please try again.",
+        "type": "TEXT"
+      },
+      "reset_your_credentials": {
+        "key": "reset_your_credentials",
+        "value": "Reset Your Credentials",
+        "type": "TEXT"
+      },
+      "for_the_security_of_your_account_you_must_reset_tip": {
+        "key": "for_the_security_of_your_account_you_must_reset_tip",
+        "value": "For the security of your account, you must reset your password and Sporty PIN within 15 minutes.",
+        "type": "TEXT"
+      },
+      "setp_1_reset_password": {
+        "key": "setp_1_reset_password",
+        "value": "Step 1: Reset Password",
+        "type": "TEXT"
+      },
+      "step_2_reset_sporty_pin": {
+        "key": "step_2_reset_sporty_pin",
+        "value": "Step 2: Reset Sporty PIN",
+        "type": "TEXT"
+      },
+      "complete": {
+        "key": "complete",
+        "value": "Complete",
+        "type": "TEXT"
+      },
+      "reset_creds": {
+        "key": "reset_creds",
+        "value": "Reset Creds",
+        "type": "TEXT"
+      },
+      "otp_verified": {
+        "key": "otp_verified",
+        "value": "OTP Verified",
+        "type": "TEXT"
+      },
+      "confirm_password": {
+        "key": "confirm_password",
+        "value": "Confirm Password",
+        "type": "TEXT"
+      },
+      "please_confirm_password": {
+        "key": "please_confirm_password",
+        "value": "Please confirm password",
+        "type": "TEXT"
+      },
+      "your_password_must_be_6_14_characters_long_and_must_tip": {
+        "key": "your_password_must_be_6_14_characters_long_and_must_tip",
+        "value": "Your password must be at least 8 characters long and must contain at least one upper case letter, one lower case letter and one number.",
+        "type": "TEXT"
+      },
+      "logged_out_from_all_devices_login_restricted_balance_restricted": {
+        "key": "logged_out_from_all_devices_login_restricted_balance_restricted",
+        "value": "Logged out from all devices, Login restricted, Balance restricted",
+        "type": "TEXT"
+      },
+      "logged_in_sign_in_unrestricted_balance_unrestricted": {
+        "key": "logged_in_sign_in_unrestricted_balance_unrestricted",
+        "value": "Logged in, Sign in unrestricted, Balance unrestricted",
+        "type": "TEXT"
+      },
+      "please_contact_vcustomerservice_if_you_require_further_assistance": {
+        "key": "please_contact_vcustomerservice_if_you_require_further_assistance",
+        "value": "Please contact {customerService} if you require further assistance.",
+        "type": "TEXT"
+      },
+      "account_deactivation_cannot_be_done_for_unhealthy_betting_tip": {
+        "key": "account_deactivation_cannot_be_done_for_unhealthy_betting_tip",
+        "value": "Account deactivation cannot be done for unhealthy betting behaviour, as you can later reactivate your account. Instead, please use the self-exclusion feature, which cannot be undone until the timespan you specify has elapsed.",
+        "type": "TEXT"
+      },
+      "go_to_setting_self_exclusion": {
+        "key": "go_to_setting_self_exclusion",
+        "value": "Go To Setting Self-exclusion",
+        "type": "TEXT"
+      },
+      "maybe_latter": {
+        "key": "maybe_latter",
+        "value": "Maybe Later",
+        "type": "TEXT"
+      },
+      "continue_credentials_reset": {
+        "key": "continue_credentials_reset",
+        "value": "Continue Credentials Reset",
+        "type": "TEXT"
+      },
+      "sorry_we_cannot_deactivate_this_account_please_contact_vcustomerservice": {
+        "key": "sorry_we_cannot_deactivate_this_account_please_contact_vcustomerservice",
+        "value": "Sorry, we cannot deactivate this account. Please contact {customerService}",
+        "type": "TEXT"
+      },
+      "you_cannot_reactivate_this_account_please_contact_vcustomerservice": {
+        "key": "you_cannot_reactivate_this_account_please_contact_vcustomerservice",
+        "value": "You cannot reactivate this account. Please contact  {customerService}",
+        "type": "TEXT"
+      },
+      "user_self_exclusion": {
+        "key": "user_self_exclusion",
+        "value": "Use Self Exclusion",
+        "type": "TEXT"
+      },
+      "to_deactivate_or_reactivate_your_account_vaction": {
+        "key": "to_deactivate_or_reactivate_your_account_vaction",
+        "value": "To deactivate or reactivate your account {action}.",
+        "type": "TEXT"
+      },
+      "click_here": {
+        "key": "click_here",
+        "value": "click here",
+        "type": "TEXT"
+      },
+      "you_can_use_this_page_to_deactivate_your_account_desc": {
+        "key": "you_can_use_this_page_to_deactivate_your_account_desc",
+        "value": "You can use this page to deactivate your account. Deactivation will freeze all of the funds currently in your account, log out anybody currently logged in (including this device), and prevent new logins to your account. In order to reactivate your account, you will need to verify an OTP, reset your password, and, if applicable, reset your Sporty PIN.",
+        "type": "TEXT"
+      },
+      "leave_reactivate_with_mark": {
+        "key": "leave_reactivate_with_mark",
+        "value": "Leave Reactivate?",
+        "type": "TEXT"
+      },
+      "if_you_leave_now_your_account_will_not_be_activated": {
+        "key": "if_you_leave_now_your_account_will_not_be_activated",
+        "value": "If you leave now, your account will not be activated",
+        "type": "TEXT"
+      },
+      "account_activation": {
+        "key": "account_activation",
+        "value": "To deactivate or reactivate your account",
+        "type": "TEXT"
+      },
+      "deactivation_successful": {
+        "key": "deactivation_successful",
+        "value": "Deactivation Successful",
+        "type": "TEXT"
+      },
+      "deactivation_failed": {
+        "key": "deactivation_failed",
+        "value": "Deactivation Failed",
+        "type": "TEXT"
+      },
+      "reactivation_successful": {
+        "key": "reactivation_successful",
+        "value": "Reactivation Successful",
+        "type": "TEXT"
+      },
+      "reactivation_failed": {
+        "key": "reactivation_failed",
+        "value": "Reactivation Failed",
+        "type": "TEXT"
+      },
+      "l_customer_service": {
+        "key": "l_customer_service",
+        "value": "customer service",
+        "type": "TEXT"
+      },
+      "deactivate_successful_tip": {
+        "key": "deactivate_successful_tip",
+        "value": "\u2022 Logged out from all devices\n\u2022 Login restricted\n\u2022 Balance restricted",
+        "type": "TEXT"
+      },
+      "reactivate_successful_tip": {
+        "key": "reactivate_successful_tip",
+        "value": "\u2022 Logged in\n\u2022 Sign in unrestricted\n\u2022 Balance unrestricted",
+        "type": "TEXT"
+      }
+    },
+    "version": "1767113239000"
+  }
+}

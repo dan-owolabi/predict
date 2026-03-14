@@ -1,0 +1,339 @@
+market_group,market_title
+Bookings,1st Booking
+Bookings,1st Half - 1st Booking
+Bookings,1st Half - Away Exact Bookings
+Bookings,1st Half - Away Sending Off
+Bookings,1st Half - Bookings 1X2
+Bookings,1st Half - Exact Bookings
+Bookings,1st Half - Home Exact Bookings
+Bookings,1st Half - Home Sending Off
+Bookings,1st Half - Sending Off
+Bookings,1st Half - Total Booking Points
+Bookings,1st Half Away Team Total Bookings
+Bookings,1st Half Bookings - Over/Under
+Bookings,1st Half Home Team Total Bookings
+Bookings,Away Exact Bookings
+Bookings,Away Sending Off
+Bookings,Away Team Total Bookings
+Bookings,Booking Points-Over/Under
+Bookings,Bookings - Over/Under
+Bookings,Bookings 1X2
+Bookings,Bookings Handicap
+Bookings,Exact Bookings
+Bookings,Home Exact Bookings
+Bookings,Home Sending Off
+Bookings,Home Team Total Bookings
+Bookings,Sending Off
+Corners,1st Corner
+Corners,1st Half - 1st Corner
+Corners,1st Half - Corner 1X2
+Corners,1st Half - Corner Handicap
+Corners,1st Half - Corner Range
+Corners,1st Half - Last Corner
+Corners,1st Half - Odd/Even Corners
+Corners,1st Half -Away Exact Corners
+Corners,1st Half -Home Exact Corners
+Corners,1st Half Away Team Corners
+Corners,1st Half Corners - Over/Under
+Corners,1st Half Home Team Corners
+Corners,Away Corner Range
+Corners,Away Team Total Corners
+Corners,Corner Handicap
+Corners,Corner Range
+Corners,Corners - 1X2
+Corners,Corners - Over/Under
+Corners,Home Corner Range
+Corners,Home Team Total Corners
+Corners,Last Corner
+Corners,Odd/Even Corners
+Goals,1st Half - Away Team Clean Sheet
+Goals,1st Half - Exact Goals
+Goals,1st Half - GG/NG
+Goals,1st Half - Home Team Clean Sheet
+Goals,1st Half - Multigoals
+Goals,1st Half - Odd/Even
+Goals,1st half - Alaves Over/Under
+Goals,1st half - Athletic Bilbao Over/Under
+Goals,1st half - Atletico Madrid Over/Under
+Goals,1st half - Barcelona Over/Under
+Goals,1st half - Bayer Leverkusen Over/Under
+Goals,1st half - Betis Over/Under
+Goals,1st half - Bournemouth Over/Under
+Goals,1st half - Burnley Over/Under
+Goals,1st half - Elche CF Over/Under
+Goals,1st half - Freiburg Over/Under
+Goals,1st half - Getafe Over/Under
+Goals,1st half - Girona Over/Under
+Goals,1st half - Heidenheim Over/Under
+Goals,1st half - Hoffenheim Over/Under
+Goals,1st half - Levante Over/Under
+Goals,1st half - Mainz Over/Under
+Goals,1st half - Rayo Vallecano Over/Under
+Goals,1st half - Real Sociedad Over/Under
+Goals,1st half - Sevilla Over/Under
+Goals,1st half - Stuttgart Over/Under
+Goals,1st half - Valencia Over/Under
+Goals,1st half - Villarreal Over/Under
+Goals,1st/2nd Half GG/NG
+Goals,2nd Half - 1st Goal
+Goals,2nd Half - Alaves Over/Under
+Goals,2nd Half - Athletic Bilbao Over/Under
+Goals,2nd Half - Atletico Madrid Over/Under
+Goals,2nd Half - Away Team Clean Sheet
+Goals,2nd Half - Barcelona Over/Under
+Goals,2nd Half - Bayer Leverkusen Over/Under
+Goals,2nd Half - Betis Over/Under
+Goals,2nd Half - Bournemouth Over/Under
+Goals,2nd Half - Burnley Over/Under
+Goals,2nd Half - Elche CF Over/Under
+Goals,2nd Half - Exact Goals
+Goals,2nd Half - Freiburg Over/Under
+Goals,2nd Half - GG/NG
+Goals,2nd Half - Getafe Over/Under
+Goals,2nd Half - Girona Over/Under
+Goals,2nd Half - Heidenheim Over/Under
+Goals,2nd Half - Hoffenheim Over/Under
+Goals,2nd Half - Home Team Clean Sheet
+Goals,2nd Half - Levante Over/Under
+Goals,2nd Half - Mainz Over/Under
+Goals,2nd Half - Multigoals
+Goals,2nd Half - Odd/Even
+Goals,2nd Half - Rayo Vallecano Over/Under
+Goals,2nd Half - Real Sociedad Over/Under
+Goals,2nd Half - Sevilla Over/Under
+Goals,2nd Half - Stuttgart Over/Under
+Goals,2nd Half - Valencia Over/Under
+Goals,2nd Half - Villarreal Over/Under
+Goals,Alaves Over/Under
+Goals,Athletic Bilbao Over/Under
+Goals,Atletico Madrid Over/Under
+Goals,Away Multigoals
+Goals,Away Team Clean Sheet
+Goals,Away Team Goals
+Goals,Away Team Odd/Even
+Goals,Away Team To Score Yes/No
+Goals,Away Team to Score In Both Halves
+Goals,Barcelona Over/Under
+Goals,Bayer Leverkusen Over/Under
+Goals,Betis Over/Under
+Goals,Both Halves Over 1.5
+Goals,Both Halves Under 1.5
+Goals,Bournemouth Over/Under
+Goals,Burnley Over/Under
+Goals,Elche CF Over/Under
+Goals,Excluded Number of Goals - Away
+Goals,Excluded Number of Goals - Home
+Goals,Freiburg Over/Under
+Goals,Getafe Over/Under
+Goals,Girona Over/Under
+Goals,Goal Bounds - Away
+Goals,Goal Bounds - Home
+Goals,Heidenheim Over/Under
+Goals,Hoffenheim Over/Under
+Goals,Home Multigoals
+Goals,Home Team Clean Sheet
+Goals,Home Team Goals
+Goals,Home Team Odd/Even
+Goals,Home Team To Score Yes/No
+Goals,Home Team to Score In Both Halves
+Goals,Levante Over/Under
+Goals,Mainz Over/Under
+Goals,Multigoals
+Goals,Multiscores
+Goals,No Draw Both Teams To Score Yes/No
+Goals,Rayo Vallecano Over/Under
+Goals,Real Sociedad Over/Under
+Goals,Sevilla Over/Under
+Goals,Stuttgart Over/Under
+Goals,Valencia Over/Under
+Goals,Villarreal Over/Under
+Half,1st Half - 1X2
+Half,1st Half - 1X2 & GG/NG
+Half,1st Half - 1X2 & Over/Under
+Half,1st Half - 1st Goal
+Half,1st Half - Asian Handicap
+Half,1st Half - Correct Score
+Half,1st Half - Double Chance
+Half,1st Half - Double Chance & GG/NG
+Half,1st Half - Draw No Bet
+Half,1st Half - Handicap
+Half,1st Half - Over/Under
+Half,2nd Half - 1X2
+Half,2nd Half - 1X2 & GG/NG
+Half,2nd Half - 1X2 & Over/Under
+Half,2nd Half - Asian Handicap
+Half,2nd Half - Correct Score
+Half,2nd Half - Double Chance
+Half,2nd Half - Double Chance & GG/NG
+Half,2nd Half - Draw No Bet
+Half,2nd Half - Handicap 0:1
+Half,2nd Half - Handicap 0:2
+Half,2nd Half - Handicap 1:0
+Half,2nd Half - Handicap 2:0
+Half,2nd Half - Over/Under
+Half,2nd Half Away Team Total Goals Odd or Even
+Half,2nd Half Away Team to Score Yes/No
+Half,2nd Half Home Team Total Goals Odd or Even
+Half,2nd Half Home Team to Score Yes/No
+Half,Away Team Highest Scoring Half
+Half,Away Team to Win Both Halves
+Half,Away Team to Win Either Half
+Half,Both Teams to Score in Both Halves Yes/No
+Half,Double Chance & 1st Half GG/NG
+Half,Double Chance & 2nd Half GG/NG
+Half,Excluded Number of Goals - First Half
+Half,Goal Bounds - 1st Half
+Half,Half Time/Full Time Correct Score
+Half,Half-time Away Team Total Goals Odd or Even
+Half,Half-time Away Team to Score Yes/No
+Half,Half-time Home Team To Score Yes/No
+Half,Half-time Home Team Total Goals Odd or Even
+Half,Highest Scoring Half
+Half,Home Team Highest Scoring Half
+Half,Home Team to Win Both Halves
+Half,Home Team to Win Either Half
+Main,1X2
+Main,1X2 - 1UP
+Main,1X2 - 2UP
+Main,1st Goal
+Main,Any Team To Score 2 or More Goals in a Row
+Main,Any Team To Score 3 or More Goals in a Row
+Main,Any Team to lead by 1 Goal at any time
+Main,Any Team to lead by 2 Goals at any time
+Main,Any Team to lead by 3 Goals at any time
+Main,Asian Handicap -0.5
+Main,Asian Handicap -1
+Main,Asian Handicap -1.5
+Main,Asian Handicap -2
+Main,Asian Handicap -2.5
+Main,Asian Handicap -3
+Main,Asian Handicap 0
+Main,Asian Handicap 0.5
+Main,Asian Handicap 1
+Main,Asian Handicap 1.5
+Main,Asian Handicap 2
+Main,Asian Handicap 2.5
+Main,Away No Bet
+Main,Away Team To Score 2 or More Goals in a Row
+Main,Away Team To Score 3 or More Goals in a Row
+Main,Away Team to lead by 1 Goal at any time
+Main,Away Team to lead by 2 Goals at any time
+Main,Away Team to lead by 3 Goals at any time
+Main,Correct Score
+Main,Correct Score [0:0]
+Main,Double Chance
+Main,Draw No Bet
+Main,Exact Goals
+Main,Excluded Number of Goals
+Main,GG/NG
+Main,GG/NG 2+
+Main,Goal Bounds
+Main,Goal Range
+Main,Half Time/Full Time
+Main,Handicap 0:1
+Main,Handicap 0:2
+Main,Handicap 0:3
+Main,Handicap 0:4
+Main,Handicap 0:5
+Main,Handicap 1:0
+Main,Handicap 2:0
+Main,Handicap 3:0
+Main,Handicap 4:0
+Main,Handicap 5:0
+Main,Home No Bet
+Main,Home Team To Score 2 or More Goals in a Row
+Main,Home Team To Score 3 or More Goals in a Row
+Main,Home Team to lead by 1 Goal at any time
+Main,Home Team to lead by 2 Goals at any time
+Main,Home Team to lead by 3 Goals at any time
+Main,Last Goal
+Main,Odd/Even
+Main,Over/Under
+Main,Over/Under - Early Goals
+Main,Precanned BetBuilder
+Main,Teams to Score
+Main,Winning Margin
+Minutes,10 minutes - 1X2 from 1 to 10
+Minutes,1X2 from 1 to 15 minute
+Minutes,1X2 from 1 to 20 minute
+Minutes,1X2 from 1 to 25 minute
+Minutes,1X2 from 1 to 30 minute
+Minutes,1X2 from 1 to 35 minute
+Minutes,1X2 from 1 to 40 minute
+Minutes,1X2 from 1 to 5 minute
+Minutes,1X2 from 1 to 50 minute
+Minutes,1X2 from 1 to 55 minute
+Minutes,1X2 from 1 to 60 minute
+Minutes,1X2 from 1 to 65 minute
+Minutes,1X2 from 1 to 70 minute
+Minutes,1X2 from 1 to 75 minute
+Minutes,1X2 from 1 to 80 minute
+Minutes,1X2 from 1 to 85 minute
+Minutes,Total Goals Over/Under from 1 to 10 minute
+Minutes,Total Goals Over/Under from 1 to 15 minute
+Minutes,Total Goals Over/Under from 1 to 20 minute
+Minutes,Total Goals Over/Under from 1 to 25 minute
+Minutes,Total Goals Over/Under from 1 to 30 minute
+Minutes,Total Goals Over/Under from 1 to 35 minute
+Minutes,Total Goals Over/Under from 1 to 40 minute
+Minutes,Total Goals Over/Under from 1 to 5 minute
+Minutes,Total Goals Over/Under from 1 to 50 minute
+Minutes,Total Goals Over/Under from 1 to 55 minute
+Minutes,Total Goals Over/Under from 1 to 60 minute
+Minutes,Total Goals Over/Under from 1 to 65 minute
+Minutes,Total Goals Over/Under from 1 to 70 minute
+Minutes,Total Goals Over/Under from 1 to 75 minute
+Minutes,Total Goals Over/Under from 1 to 80 minute
+Minutes,Total Goals Over/Under from 1 to 85 minute
+Minutes,When will the 1st goal be scored (10 min interval)
+Minutes,When will the 1st goal be scored (15 min interval)
+Players,1st Goalscorer
+Players,Anytime Goalscorer
+Players,First Player Carded
+Players,First to Score for their Team
+Players,Last Goalscorer
+Players,Most Assists
+Players,Most Fouls
+Players,Most Goals + Assists
+Players,Most Player Goals
+Players,Most Saves
+Players,Most Shots
+Players,Most Shots on Target
+Players,Player Fouls
+Players,Player Offsides
+Players,Player Saves
+Players,Player To Be Booked
+Players,Player To Be Sent Off
+Players,Player Total Accurate Passes
+Players,Player assists (incl. overtime)
+Players,Player goals (incl. overtime)
+Players,Player left foot shots on target
+Players,Player passes (incl. overtime)
+Players,Player right foot shots on target
+Players,Player shots (incl. overtime)
+Players,Player shots on goal (incl. overtime)
+Players,Player shots on target outside box
+Players,Player tackles (incl. overtime)
+Players,Player to Score Free-Kick
+Players,Player to be carded (incl. overtime)
+Players,Player to score in 1st half
+Players,Player to score in 2nd half
+Players,Player to score in both halves
+Players,Player to score with left foot
+Players,Player to score with right foot
+Players,To Score a Header
+Players,To Score and Assist
+Players,To Score or Assist
+Players,To score in first 10 mins
+Teams,Team 1st half shots on target
+Teams,Team Assists
+Teams,Team Cards
+Teams,Team Cards 1st Half
+Teams,Team Cards 2nd Half
+Teams,Team Fouls
+Teams,Team Goal Kicks
+Teams,Team Saves
+Teams,Team Shots
+Teams,Team Shots on Target
+Teams,Team Tackles
+Teams,Team Throw-Ins

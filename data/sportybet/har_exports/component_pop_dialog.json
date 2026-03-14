@@ -1,0 +1,241 @@
+{
+  "name": "component_pop_dialog",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/component_pop_dialog",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 46,
+  "payload": {
+    "keys": {
+      "from": {
+        "key": "from",
+        "value": "From",
+        "type": "TEXT"
+      },
+      "round_no": {
+        "key": "round_no",
+        "value": "Round No.",
+        "type": "TEXT"
+      },
+      "details": {
+        "key": "details",
+        "value": "Details",
+        "type": "TEXT"
+      },
+      "share": {
+        "key": "share",
+        "value": "Share",
+        "type": "TEXT"
+      },
+      "show_off": {
+        "key": "show_off",
+        "value": "Show Off",
+        "type": "TEXT"
+      },
+      "try_out_bingo_bingo_your_bets_count_the_most_at_sportybet": {
+        "key": "try_out_bingo_bingo_your_bets_count_the_most_at_sportybet",
+        "value": "Try out Bingo! Bingo! Your bets count the most at SportyBet",
+        "type": "TEXT"
+      },
+      "location_preference": {
+        "key": "location_preference",
+        "value": "Location Preference",
+        "type": "TEXT"
+      },
+      "received": {
+        "key": "received",
+        "value": "Received",
+        "type": "TEXT"
+      },
+      "use_it_in_your_betslip": {
+        "key": "use_it_in_your_betslip",
+        "value": "Use it in your Betslip",
+        "type": "TEXT"
+      },
+      "view": {
+        "key": "view",
+        "value": "View",
+        "type": "TEXT"
+      },
+      "bet_now": {
+        "key": "bet_now",
+        "value": "Bet Now",
+        "type": "TEXT"
+      },
+      "on_any_stake": {
+        "key": "on_any_stake",
+        "value": "On Any Stake",
+        "type": "TEXT"
+      },
+      "stakes_not_returned_with_winnings": {
+        "key": "stakes_not_returned_with_winnings",
+        "value": "Stakes Not Returned With Winnings",
+        "type": "TEXT"
+      },
+      "on_stakes_of_showcondition_or_more": {
+        "key": "on_stakes_of_showcondition_or_more",
+        "value": "On Stakes of {showCondition} or More",
+        "type": "TEXT"
+      },
+      "a_cash_gift": {
+        "key": "a_cash_gift",
+        "value": "a Cash Gift",
+        "type": "TEXT"
+      },
+      "a_free_bet_gift": {
+        "key": "a_free_bet_gift",
+        "value": "a Free Bet Gift",
+        "type": "TEXT"
+      },
+      "a_discount_gift": {
+        "key": "a_discount_gift",
+        "value": "a Discount Gift",
+        "type": "TEXT"
+      },
+      "new_gifts": {
+        "key": "new_gifts",
+        "value": "New Gifts",
+        "type": "TEXT"
+      },
+      "off": {
+        "key": "off",
+        "value": "OFF",
+        "type": "TEXT"
+      },
+      "id_like_to_give_you_cash_gift_and_share_my_joy_with_you_click_to_collect_gift": {
+        "key": "id_like_to_give_you_cash_gift_and_share_my_joy_with_you_click_to_collect_gift",
+        "value": "I'd like to give you Cash Gift and share my joy with you! Click to collect Gift",
+        "type": "TEXT"
+      },
+      "you_won": {
+        "key": "you_won",
+        "value": "YOU WON",
+        "type": "TEXT"
+      },
+      "ticket_id": {
+        "key": "ticket_id",
+        "value": "Ticket ID",
+        "type": "TEXT"
+      },
+      "share_text": {
+        "key": "share_text",
+        "value": "Want to be the next Super Winner? Bet now!",
+        "type": "TEXT"
+      },
+      "you_opt_out_featured_matches_popover": {
+        "key": "you_opt_out_featured_matches_popover",
+        "value": "You have opted out of Featured Match popovers, you can manage this preference in",
+        "type": "TEXT"
+      },
+      "your_settings": {
+        "key": "your_settings",
+        "value": "your settings.",
+        "type": "TEXT"
+      },
+      "opt_out_of": {
+        "key": "opt_out_of",
+        "value": "Opt out of",
+        "type": "TEXT"
+      },
+      "hide_featured_matches": {
+        "key": "hide_featured_matches",
+        "value": "featured match popovers",
+        "type": "TEXT"
+      },
+      "hide_casino_and_games": {
+        "key": "hide_casino_and_games",
+        "value": "casino and games popovers",
+        "type": "TEXT"
+      },
+      "you_opt_out_hide_featured_matches": {
+        "key": "you_opt_out_hide_featured_matches",
+        "value": "You have opted out of Featured Match popovers, you can manage this preference in",
+        "type": "TEXT"
+      },
+      "you_opt_out_hide_promotions": {
+        "key": "you_opt_out_hide_promotions",
+        "value": "You have opted out of Promotions popovers, you can manage this preference in",
+        "type": "TEXT"
+      },
+      "you_opt_out_hide_casino_and_games": {
+        "key": "you_opt_out_hide_casino_and_games",
+        "value": "You have opted out of Casino & Games popovers, you can manage this preference in",
+        "type": "TEXT"
+      },
+      "hide_promotions": {
+        "key": "hide_promotions",
+        "value": "promotions popovers",
+        "type": "TEXT"
+      },
+      "android_you_got_more_winnings_than_vnum_of_all_users": {
+        "key": "android_you_got_more_winnings_than_vnum_of_all_users",
+        "value": "You have won more\n than ^{num}^ % of all users.",
+        "type": "TEXT"
+      },
+      "ios_you_got_more_winnings_than_vnum_of_all_users": {
+        "key": "ios_you_got_more_winnings_than_vnum_of_all_users",
+        "value": "You have won more\n than {num} of all users.",
+        "type": "TEXT"
+      },
+      "games": {
+        "key": "games",
+        "value": "games popovers",
+        "type": "TEXT"
+      },
+      "go_to_confirm": {
+        "key": "go_to_confirm",
+        "value": "Go to Confirm",
+        "type": "TEXT"
+      },
+      "reverification_required": {
+        "key": "reverification_required",
+        "value": "Reverification Required",
+        "type": "TEXT"
+      },
+      "reverification_requirted_msg": {
+        "key": "reverification_requirted_msg",
+        "value": "Each SportyBet account must have a unique ID attached to it. Please re-verify your account with an ID that has not been used on another SportyBet account.",
+        "type": "TEXT"
+      },
+      "you_got_more_winnings_than_vnum_of_all_users": {
+        "key": "you_got_more_winnings_than_vnum_of_all_users",
+        "value": "<p>You have won more <br />than <span class=\"m-percent-number\">{num}%</span> of all users.</p>",
+        "type": "HTML"
+      },
+      "opted_out": {
+        "key": "opted_out",
+        "value": "You have opted out of %1$s popovers, you can manage this preference in %2$s.",
+        "type": "TEXT"
+      },
+      "opted_out_settings": {
+        "key": "opted_out_settings",
+        "value": "your settings",
+        "type": "TEXT"
+      },
+      "opt_out": {
+        "key": "opt_out",
+        "value": "Opt out of %s popovers",
+        "type": "TEXT"
+      },
+      "rebet_info_dialog_title": {
+        "key": "rebet_info_dialog_title",
+        "value": "What is Rebet?",
+        "type": "TEXT"
+      },
+      "rebet_info_dialog_content": {
+        "key": "rebet_info_dialog_content",
+        "value": "Rebet feature allows you to quickly reload open selections and place the bet again. The \"Rebet\" function is only available for \"Real Sports\".",
+        "type": "TEXT"
+      },
+      "do_not_ask_again": {
+        "key": "do_not_ask_again",
+        "value": "Don\u2019t ask again.",
+        "type": "TEXT"
+      },
+      "not_now": {
+        "key": "not_now",
+        "value": "Not Now",
+        "type": "TEXT"
+      }
+    },
+    "version": "1772195772000"
+  }
+}

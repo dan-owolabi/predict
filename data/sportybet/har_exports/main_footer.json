@@ -1,0 +1,276 @@
+{
+  "name": "main_footer",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/main_footer",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 53,
+  "payload": {
+    "keys": {
+      "back_to_top": {
+        "key": "back_to_top",
+        "value": "Back to Top",
+        "type": "TEXT"
+      },
+      "about": {
+        "key": "about",
+        "value": "About",
+        "type": "TEXT"
+      },
+      "how_to_play": {
+        "key": "how_to_play",
+        "value": "How to Play",
+        "type": "TEXT"
+      },
+      "t_and_c": {
+        "key": "t_and_c",
+        "value": "T & C",
+        "type": "TEXT"
+      },
+      "customer_service": {
+        "key": "customer_service",
+        "value": "Customer Service",
+        "type": "TEXT"
+      },
+      "reach_out_support_tip": {
+        "key": "reach_out_support_tip",
+        "value": "Reach out to us anytime and our 24/7 support will help in any way possible to ensure your happiness!",
+        "type": "TEXT"
+      },
+      "call_phone_number": {
+        "key": "call_phone_number",
+        "value": "Call: {phone}",
+        "type": "TEXT"
+      },
+      "online_help": {
+        "key": "online_help",
+        "value": "Online Help / Live Chat",
+        "type": "TEXT"
+      },
+      "connect_with_us": {
+        "key": "connect_with_us",
+        "value": "Connect with Us",
+        "type": "TEXT"
+      },
+      "year_copy_right": {
+        "key": "year_copy_right",
+        "value": "\u00a9 {year} SportyBet. All rights reserved.",
+        "type": "TEXT"
+      },
+      "tell_phone_number": {
+        "key": "tell_phone_number",
+        "value": "Telephone: 07008888888 | 09088999988",
+        "type": "TEXT"
+      },
+      "mail_to": {
+        "key": "mail_to",
+        "value": "Email: {email}",
+        "type": "TEXT"
+      },
+      "register_now": {
+        "key": "register_now",
+        "value": "Register Now!",
+        "type": "TEXT"
+      },
+      "payment_methods": {
+        "key": "payment_methods",
+        "value": "Payment methods",
+        "type": "TEXT"
+      },
+      "wap_18_age_tip": {
+        "key": "wap_18_age_tip",
+        "value": "Age 18 and above only to register or play at SportyBet. Play Responsibly. Betting is addictive and can be psychologically harmful. | SportyBet Nigeria is licensed by the National Lottery Regulatory Commission of Nigeria.",
+        "type": "TEXT"
+      },
+      "paybill_title": {
+        "key": "paybill_title",
+        "value": "Paybill:",
+        "type": "TEXT"
+      },
+      "mpesa_title": {
+        "key": "mpesa_title",
+        "value": "M-PESA Paybill:",
+        "type": "TEXT"
+      },
+      "sms_title": {
+        "key": "sms_title",
+        "value": "SMS \u201dJoin\u201c to",
+        "type": "TEXT"
+      },
+      "about_us": {
+        "key": "about_us",
+        "value": "About Us",
+        "type": "TEXT"
+      },
+      "terms_condition": {
+        "key": "terms_condition",
+        "value": "Terms & Conditions",
+        "type": "TEXT"
+      },
+      "18_age_tip": {
+        "key": "18_age_tip",
+        "value": "Age 18 and above only to register or play at SportyBet. Play Responsibly. Betting is addictive and can be psychologically harmful. ",
+        "type": "TEXT"
+      },
+      "wap_partnership": {
+        "key": "wap_partnership",
+        "value": "https://s.sporty.net/cms/Image_partnership_3logo_horizontal_9b2a8d8a4b.png",
+        "type": "TEXT"
+      },
+      "web_partnership": {
+        "key": "web_partnership",
+        "value": "https://s.sporty.net/cms/Image_partnership_2logo_desktop_a3906a675a.png",
+        "type": "TEXT"
+      },
+      "licence": {
+        "key": "licence",
+        "value": "SportyBet Nigeria is licensed by National Lottery Regulatory Commission (NLRC) under License No 0001014.",
+        "type": "TEXT"
+      },
+      "payment_method_1": {
+        "key": "payment_method_1",
+        "value": "https://s.sporty.net/cms/footer_opay_logo_a954fa8a51.png",
+        "type": "TEXT"
+      },
+      "payment_method_2": {
+        "key": "payment_method_2",
+        "value": "https://s.sporty.net/cms/footer_palmpay_logo_dbb2dc54fc.png",
+        "type": "TEXT"
+      },
+      "payment_method_3": {
+        "key": "payment_method_3",
+        "value": "https://s.sporty.net/cms/footer_quickteller_logo_67ba461e70.png",
+        "type": "TEXT"
+      },
+      "payment_method_4": {
+        "key": "payment_method_4",
+        "value": "https://s.sporty.net/cms/footer_verve_logo_c68b5a53c0.png",
+        "type": "TEXT"
+      },
+      "payment_method_5": {
+        "key": "payment_method_5",
+        "value": "https://s.sporty.net/cms/footer_visa_logo_9dabd03576.png",
+        "type": "TEXT"
+      },
+      "payment_method_6": {
+        "key": "payment_method_6",
+        "value": "https://s.sporty.net/cms/footer_mastercard_logo_094fa25aea.png",
+        "type": "TEXT"
+      },
+      "payment_method_7": {
+        "key": "payment_method_7",
+        "value": "https://s.sporty.net/cms/footer_uba_logo_58a31a9c3b.png",
+        "type": "TEXT"
+      },
+      "payment_method_8": {
+        "key": "payment_method_8",
+        "value": "https://s.sporty.net/cms/footer_access_logo_93dc405323.png",
+        "type": "TEXT"
+      },
+      "payment_method_9": {
+        "key": "payment_method_9",
+        "value": "https://s.sporty.net/cms/footer_firstbank_logo_d49c06c2ef.png",
+        "type": "TEXT"
+      },
+      "payment_method_10": {
+        "key": "payment_method_10",
+        "value": "https://s.sporty.net/cms/footer_zenith_logo_5bfa08a0c5.png",
+        "type": "TEXT"
+      },
+      "payment_method_11": {
+        "key": "payment_method_11",
+        "value": "https://s.sporty.net/cms/footer_fidelity_logo_b6239d349d.png",
+        "type": "TEXT"
+      },
+      "payment_method_12": {
+        "key": "payment_method_12",
+        "value": "https://s.sporty.net/cms/footer_gtbank_logo_6b74706f30.png",
+        "type": "TEXT"
+      },
+      "current_time": {
+        "key": "current_time",
+        "value": "Current Time: {currentTime} {gmtOffset}",
+        "type": "TEXT"
+      },
+      "current_date": {
+        "key": "current_date",
+        "value": "Date: {currentDate}",
+        "type": "TEXT"
+      },
+      "contact_us": {
+        "key": "contact_us",
+        "value": "Contact Us",
+        "type": "TEXT"
+      },
+      "license_mx": {
+        "key": "license_mx",
+        "value": "WWW.SPORTYBET.MX is operated in Mexico by Producciones M\u00f3viles S.A. de C.V., holder of permit DGAJS/SCEVF/P-06/2005-TER together with Unocapali La Paz Operadora S.A. of C.V. in accordance with official letter DGJS/DCRCA/2463/2022. Gambling games are prohibited for minors. Play responsibly and don't forget that the main purpose is fun and recreation.",
+        "type": "TEXT"
+      },
+      "18_age_tip_mx": {
+        "key": "18_age_tip_mx",
+        "value": "This is a real money mobile gambling app. Please play responsibly and only bet what you can afford. To get help and support for gambling addiction, the General Directorate of Games and Sweepstakes offers a Telephone Guidance Center (COT) at 800 911 2000, or visit the General Directorate of Games and Sweepstakes site. Players must be 18 years or older to bet. Read the Terms and Conditions",
+        "type": "TEXT"
+      },
+      "wap_18_age_tip_mx": {
+        "key": "wap_18_age_tip_mx",
+        "value": "This is a real money mobile gambling app. Please play responsibly and only bet what you can afford. To get help and support for gambling addiction, the General Directorate of Games and Sweepstakes offers a Telephone Guidance Center (COT) at 800 911 2000, or visit the General Directorate of Games and Sweepstakes site. Players must be 18 years or older to bet. Read the Terms and Conditions",
+        "type": "TEXT"
+      },
+      "mer_gambling_regulations": {
+        "key": "mer_gambling_regulations",
+        "value": "MER Gambling Regulations",
+        "type": "TEXT"
+      },
+      "responsible_gambling": {
+        "key": "responsible_gambling",
+        "value": "Responsible Gambling",
+        "type": "TEXT"
+      },
+      "customer_support": {
+        "key": "customer_support",
+        "value": "Customer Service\nE-mail: suporte@sporty.bet.br\n\nOmbudsman\nE-mail: ouvidoria@sporty.bet.br",
+        "type": "TEXT"
+      },
+      "legal_disclaimer": {
+        "key": "legal_disclaimer",
+        "value": "SportyBet operates in Brazil under a federal licence granted by Ordinance SPA/MF No. 2095, of 30/12/2024, to Blac Jogos Ltda., CNPJ 55.988.317/0001-70, with headquarters at Rua Fradique Coutinho, 30, Pinheiros, S\u00e3o Paulo/SP, CEP 05416-000\nExclusively for people over 18.\nPlay Responsibly.",
+        "type": "TEXT"
+      },
+      "21_age_tips": {
+        "key": "21_age_tips",
+        "value": "Age 21 and above only. Play Responsibly. Betting is addictive and can be psychologically harmful.",
+        "type": "TEXT"
+      },
+      "address": {
+        "key": "address",
+        "value": "",
+        "type": "TEXT"
+      },
+      "mourinho_img": {
+        "key": "mourinho_img",
+        "value": "https://s.sporty.net/cms/img_footer_mourinho_1_703efc5086.png",
+        "type": "TEXT"
+      },
+      "slogan": {
+        "key": "slogan",
+        "value": "<p><strong>The world&rsquo;s most visited betting platform</strong></p>",
+        "type": "HTML"
+      },
+      "age_tip": {
+        "key": "age_tip",
+        "value": "Legal Age and above only. Play Responsibly |  SportyBet International is licensed by the Government of Curacao.",
+        "type": "TEXT"
+      },
+      "ios_18_age_tip_za": {
+        "key": "ios_18_age_tip_za",
+        "value": "Enziglo (Pty) Ltd (2023/651867/07), trading as SportyBet, is licensed and Regulated by the Mpumalanga Economic Regulator; Licence Number: 9-2-1-09799, first issued 2024-08-28. SportyBet supports Responsible Gambling. No persons under the age of 18 shall be permitted to bet. South African Responsible Gambling Foundation Toll free counselling line: 0800 006 008 or WhatsApp \"Help\" to 076 675 0710. Winners know when to stop. Warning: Gambling can be harmful if not controlled. Gambling involves the risk of addiction.",
+        "type": "HTML"
+      },
+      "web_partnership_light_bg": {
+        "key": "web_partnership_light_bg",
+        "value": "https://s.sporty.net/cms/partnership_d32b06db0d_af8f265612.png",
+        "type": "TEXT"
+      }
+    },
+    "version": "1772724394000"
+  }
+}

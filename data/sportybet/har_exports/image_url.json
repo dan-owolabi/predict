@@ -1,0 +1,436 @@
+{
+  "name": "image_url",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/image_url",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 85,
+  "payload": {
+    "keys": {
+      "sim_popup_image": {
+        "key": "sim_popup_image",
+        "value": "https://s.sporty.net/cms/sim_pop_up_447778a734.png",
+        "type": "TEXT"
+      },
+      "sporty_new_article_default_image": {
+        "key": "sporty_new_article_default_image",
+        "value": "https://s.sporty.net/cms/detault_Image_0c1e6eb76e.png",
+        "type": "TEXT"
+      },
+      "download_app_phone_carousel_1": {
+        "key": "download_app_phone_carousel_1",
+        "value": "https://s.sporty.net/cms/ng_1_035929611c.png",
+        "type": "TEXT"
+      },
+      "download_app_phone_carousel_2": {
+        "key": "download_app_phone_carousel_2",
+        "value": "https://s.sporty.net/cms/ng_3_90bba05ee1.png",
+        "type": "TEXT"
+      },
+      "download_app_phone_carousel_3": {
+        "key": "download_app_phone_carousel_3",
+        "value": "https://s.sporty.net/cms/ng_2_224e242e5d.png",
+        "type": "TEXT"
+      },
+      "gift_how_to_use_1": {
+        "key": "gift_how_to_use_1",
+        "value": "https://s.sporty.net/cms/use_example_1_61f7967b2d.png",
+        "type": "TEXT"
+      },
+      "gift_how_to_use_2": {
+        "key": "gift_how_to_use_2",
+        "value": "https://s.sporty.net/cms/use_example_2_4b3534b133.png",
+        "type": "TEXT"
+      },
+      "gift_how_to_use_3": {
+        "key": "gift_how_to_use_3",
+        "value": "https://s.sporty.net/cms/use_example_3_e434d91a94.png",
+        "type": "TEXT"
+      },
+      "web_gift_pop_use_betslip_img": {
+        "key": "web_gift_pop_use_betslip_img",
+        "value": "https://s.sporty.net/cms/gift_use_a152048bb1.png",
+        "type": "TEXT"
+      },
+      "iv_start_gif": {
+        "key": "iv_start_gif",
+        "value": "https://s.sporty.net/cms/start_8cdb938d22.gif",
+        "type": "TEXT"
+      },
+      "iv_start_gif_pt_br": {
+        "key": "iv_start_gif_pt_br",
+        "value": "https://s.sporty.net/cms/Futebol_Virtual_Gif_a1df56ebae.gif",
+        "type": "TEXT"
+      },
+      "br_logo": {
+        "key": "br_logo",
+        "value": "https://s.sporty.net/cms/brasil_en_6a516023c2.png",
+        "type": "TEXT"
+      },
+      "payment_channel_20001_dark": {
+        "key": "payment_channel_20001_dark",
+        "value": "https://s.sporty.net/cms/logo_astropay_1_b89dad9dfa.png",
+        "type": "TEXT"
+      },
+      "payment_channel_21001": {
+        "key": "payment_channel_21001",
+        "value": "https://s.sporty.net/cms/logo_jeton_1_10ba0e8631.png",
+        "type": "TEXT"
+      },
+      "payment_channel_24001": {
+        "key": "payment_channel_24001",
+        "value": "https://s.sporty.net/cms/logo_pix_5d4339ba89.png",
+        "type": "TEXT"
+      },
+      "payment_channel_btc": {
+        "key": "payment_channel_btc",
+        "value": "https://s.sporty.net/cms/btc_90c74dbb98.png",
+        "type": "TEXT"
+      },
+      "payment_channel_bch": {
+        "key": "payment_channel_bch",
+        "value": "https://s.sporty.net/cms/bch_c14d7f0e67.png",
+        "type": "TEXT"
+      },
+      "payment_channel_eth": {
+        "key": "payment_channel_eth",
+        "value": "https://s.sporty.net/cms/eth_6ddebb14f7.png",
+        "type": "TEXT"
+      },
+      "payment_channel_bnb": {
+        "key": "payment_channel_bnb",
+        "value": "https://s.sporty.net/cms/bnb_svg_d8151f8592.png",
+        "type": "TEXT"
+      },
+      "payment_channel_ltc": {
+        "key": "payment_channel_ltc",
+        "value": "https://s.sporty.net/cms/ltc_563b4eb503.png",
+        "type": "TEXT"
+      },
+      "payment_channel_22005": {
+        "key": "payment_channel_22005",
+        "value": "https://s.sporty.net/cms/boleto_3417d63a1e.png",
+        "type": "TEXT"
+      },
+      "payment_channel_22005_dark": {
+        "key": "payment_channel_22005_dark",
+        "value": "https://s.sporty.net/cms/boleto_white_4673830899.png",
+        "type": "TEXT"
+      },
+      "payment_channel_eth_dark": {
+        "key": "payment_channel_eth_dark",
+        "value": "https://s.sporty.net/cms/eth_white_6e8cbbfc84.png",
+        "type": "TEXT"
+      },
+      "hot_badge_img": {
+        "key": "hot_badge_img",
+        "value": "https://s.sporty.net/cms/hot_badge_c157795775.png",
+        "type": "TEXT"
+      },
+      "payment_channel_25001": {
+        "key": "payment_channel_25001",
+        "value": "https://s.sporty.net/cms/pixpay4fun_ccf29bffc7.png",
+        "type": "TEXT"
+      },
+      "payment_channel_25002": {
+        "key": "payment_channel_25002",
+        "value": "https://s.sporty.net/cms/pay4fun_a9842755c5.png",
+        "type": "TEXT"
+      },
+      "payment_channel_20001": {
+        "key": "payment_channel_20001",
+        "value": "https://s.sporty.net/cms/astropay_0896188770.png",
+        "type": "TEXT"
+      },
+      "payment_channel_30001": {
+        "key": "payment_channel_30001",
+        "value": "https://s.sporty.net/cms/v_Pag_normal_ffc38c4b33.png",
+        "type": "TEXT"
+      },
+      "payment_channel_30001_dark": {
+        "key": "payment_channel_30001_dark",
+        "value": "https://s.sporty.net/cms/V_Pag_dark_mode_7ad4f6ebe7.png",
+        "type": "TEXT"
+      },
+      "personal_page_share_code_from_bet_history_light": {
+        "key": "personal_page_share_code_from_bet_history_light",
+        "value": "https://s.sporty.net/cms/from_Bet_History_71a044329d.png",
+        "type": "TEXT"
+      },
+      "personal_page_share_code_from_betslip_light": {
+        "key": "personal_page_share_code_from_betslip_light",
+        "value": "https://s.sporty.net/cms/from_Bet_Slip_35986a9e19.png",
+        "type": "TEXT"
+      },
+      "personal_page_share_code_from_open_bets_light": {
+        "key": "personal_page_share_code_from_open_bets_light",
+        "value": "https://s.sporty.net/cms/from_Open_Bets_1f29e04de9.png",
+        "type": "TEXT"
+      },
+      "personal_page_share_code_from_bet_history_dark": {
+        "key": "personal_page_share_code_from_bet_history_dark",
+        "value": "https://s.sporty.net/cms/from_Bet_History_Dark_a0886f9a9f.png",
+        "type": "TEXT"
+      },
+      "personal_page_share_code_from_betslip_dark": {
+        "key": "personal_page_share_code_from_betslip_dark",
+        "value": "https://s.sporty.net/cms/from_Betslip_Dark_a26a885dd3.png",
+        "type": "TEXT"
+      },
+      "personal_page_share_code_from_open_bets_dark": {
+        "key": "personal_page_share_code_from_open_bets_dark",
+        "value": "https://s.sporty.net/cms/from_Open_Bet_Dark_0406f177fa.png",
+        "type": "TEXT"
+      },
+      "personal_page_no_book_code": {
+        "key": "personal_page_no_book_code",
+        "value": "https://s.sporty.net/cms/personal_page_no_book_code_2660da608a.png",
+        "type": "TEXT"
+      },
+      "payment_channel_31001": {
+        "key": "payment_channel_31001",
+        "value": "https://s.sporty.net/cms/credit_card_49f5e9149f.png",
+        "type": "TEXT"
+      },
+      "payment_channel_31001_dark": {
+        "key": "payment_channel_31001_dark",
+        "value": "https://s.sporty.net/cms/credit_card_ba1e782a35.png",
+        "type": "TEXT"
+      },
+      "payment_channel_31002": {
+        "key": "payment_channel_31002",
+        "value": "https://s.sporty.net/cms/todito_cash_38acda05f2_eb8b0e41e3.png",
+        "type": "TEXT"
+      },
+      "payment_channel_31002_dark": {
+        "key": "payment_channel_31002_dark",
+        "value": "https://s.sporty.net/cms/todito_cash_dark_1db5d5daac_6e0b4f09ad.png",
+        "type": "TEXT"
+      },
+      "payment_channel_31005": {
+        "key": "payment_channel_31005",
+        "value": "https://s.sporty.net/cms/paysafecard_ec482eab16_9d74bd8a2f.png",
+        "type": "TEXT"
+      },
+      "payment_channel_31005_dark": {
+        "key": "payment_channel_31005_dark",
+        "value": "https://s.sporty.net/cms/paysafecard_dark_0b51560e3f_b377a2d186.png",
+        "type": "TEXT"
+      },
+      "payment_channel_31004": {
+        "key": "payment_channel_31004",
+        "value": "https://s.sporty.net/cms/spei_By_Nuvei_LIGHT_7a0441dc66.svg",
+        "type": "TEXT"
+      },
+      "payment_channel_31004_dark": {
+        "key": "payment_channel_31004_dark",
+        "value": "https://s.sporty.net/cms/spei_By_Nuvei_DARK_2f6fa04f7d.svg",
+        "type": "TEXT"
+      },
+      "payment_channel_31006": {
+        "key": "payment_channel_31006",
+        "value": "https://s.sporty.net/cms/cash_payment_oxxo_8aecebe498_16cb7eab86.png",
+        "type": "TEXT"
+      },
+      "personal_page_share_code_from_bet_history_wap_light": {
+        "key": "personal_page_share_code_from_bet_history_wap_light",
+        "value": "https://s.sporty.net/cms/ticket_Detail_a529bb3949_485438b447.png",
+        "type": "TEXT"
+      },
+      "personal_page_share_code_from_betslip_wap_light": {
+        "key": "personal_page_share_code_from_betslip_wap_light",
+        "value": "https://s.sporty.net/cms/betslip_af3922de75_4a417245a7.png",
+        "type": "TEXT"
+      },
+      "personal_page_share_code_from_open_bets_wap_light": {
+        "key": "personal_page_share_code_from_open_bets_wap_light",
+        "value": "https://s.sporty.net/cms/open_Bet_029e7547bc_18264d3c8a.png",
+        "type": "TEXT"
+      },
+      "personal_page_share_code_from_bet_history_wap_dark": {
+        "key": "personal_page_share_code_from_bet_history_wap_dark",
+        "value": "https://s.sporty.net/cms/ticket_Detail_Dark_efd038c5cd_0729093ee6.png",
+        "type": "TEXT"
+      },
+      "personal_page_share_code_from_betslip_wap_dark": {
+        "key": "personal_page_share_code_from_betslip_wap_dark",
+        "value": "https://s.sporty.net/cms/betslip_Dark_068859dc84_e08e25de5d.png",
+        "type": "TEXT"
+      },
+      "personal_page_share_code_from_open_bets_wap_dark": {
+        "key": "personal_page_share_code_from_open_bets_wap_dark",
+        "value": "https://s.sporty.net/cms/open_Bet_Dark_414b187ac9_1757c8abe8.png",
+        "type": "TEXT"
+      },
+      "payment_channel_31007": {
+        "key": "payment_channel_31007",
+        "value": "https://s.sporty.net/cms/payouts_dd3d244e73_8656e6c574.png",
+        "type": "TEXT"
+      },
+      "payment_channel_31007_dark": {
+        "key": "payment_channel_31007_dark",
+        "value": "https://s.sporty.net/cms/payouts_dark_2839c734b5_7bec3fe18f.png",
+        "type": "TEXT"
+      },
+      "payment_channel_31008": {
+        "key": "payment_channel_31008",
+        "value": "https://s.sporty.net/cms/only_SPEI_LIGHT_ea047e9f8b.png",
+        "type": "TEXT"
+      },
+      "payment_channel_31008_dark": {
+        "key": "payment_channel_31008_dark",
+        "value": "https://s.sporty.net/cms/only_SPEI_DARK_a00872237e.png",
+        "type": "TEXT"
+      },
+      "payment_channel_31003": {
+        "key": "payment_channel_31003",
+        "value": "https://s.sporty.net/cms/pespay_1a4fc45c91_bce2f72180.png",
+        "type": "TEXT"
+      },
+      "payment_channel_31003_dark": {
+        "key": "payment_channel_31003_dark",
+        "value": "https://s.sporty.net/cms/pespay_dark_a938dbee7e_332722d2f0.png",
+        "type": "TEXT"
+      },
+      "za_license_pdf": {
+        "key": "za_license_pdf",
+        "value": "https://s.sporty.net/cms/09799_20241001_Enziglow_Pty_Ltd_Sporty_Bet_8d0984d2b6.pdf",
+        "type": "TEXT"
+      },
+      "za_license_pdf_1_11": {
+        "key": "za_license_pdf_1_11",
+        "value": "https://s.sporty.net/cms/09799_20240828_Enziglo_Pty_Ltd_SportyBet.pdf",
+        "type": "TEXT"
+      },
+      "za_full_access_banner": {
+        "key": "za_full_access_banner",
+        "value": "https://s.sporty.net/cms/full_access_banner_4aae44a665.png",
+        "type": "TEXT"
+      },
+      "payment_channel_202": {
+        "key": "payment_channel_202",
+        "value": "https://s.sporty.net/cms/mpesa_71747626a1.png",
+        "type": "TEXT"
+      },
+      "payment_channel_203": {
+        "key": "payment_channel_203",
+        "value": "https://s.sporty.net/cms/orange_eeb50f6116.png",
+        "type": "TEXT"
+      },
+      "payment_channel_203_dark": {
+        "key": "payment_channel_203_dark",
+        "value": "https://s.sporty.net/cms/orange_dark_e9ab1dfb69.png",
+        "type": "TEXT"
+      },
+      "first_pin_successfully_image": {
+        "key": "first_pin_successfully_image",
+        "value": "https://s.sporty.net/cms/img_first_pined_successfully_e3d4016b1f.png",
+        "type": "TEXT"
+      },
+      "my_pin_tutorial_image": {
+        "key": "my_pin_tutorial_image",
+        "value": "https://s.sporty.net/cms/img_mypin_tutorial_ba52137bdf.png",
+        "type": "TEXT"
+      },
+      "my_pin_empty_image": {
+        "key": "my_pin_empty_image",
+        "value": "https://s.sporty.net/cms/img_empty_mypin_b2598a64eb.png",
+        "type": "TEXT"
+      },
+      "build_and_go_start_gif": {
+        "key": "build_and_go_start_gif",
+        "value": "https://s.sporty.net/cms/Build_and_Go_start_41085d90d3.gif",
+        "type": "TEXT"
+      },
+      "payment_channel_34001": {
+        "key": "payment_channel_34001",
+        "value": "https://s.sporty.net/cms/spei_By_Stp_LIGHT_b75955c3be.svg",
+        "type": "TEXT"
+      },
+      "payment_channel_34001_dark": {
+        "key": "payment_channel_34001_dark",
+        "value": "https://s.sporty.net/cms/spei_By_Stp_DARK_7896a652c8.svg",
+        "type": "TEXT"
+      },
+      "gift_pop_use_betslip_img": {
+        "key": "gift_pop_use_betslip_img",
+        "value": "https://s.sporty.net/cms/gift_use_ng_fa62e1654c.png",
+        "type": "TEXT"
+      },
+      "new_desktop_gift_pop_use_betslip_img": {
+        "key": "new_desktop_gift_pop_use_betslip_img",
+        "value": "https://s.sporty.net/cms/How_To_Use_Popup_e30dca63e1.png",
+        "type": "TEXT"
+      },
+      "payment_channel_35001": {
+        "key": "payment_channel_35001",
+        "value": "https://s.sporty.net/cms/mtn_6faa4eb085.png",
+        "type": "TEXT"
+      },
+      "payment_channel_35002": {
+        "key": "payment_channel_35002",
+        "value": "https://s.sporty.net/cms/orange_cc65828b19.png",
+        "type": "TEXT"
+      },
+      "payment_channel_35002_dark": {
+        "key": "payment_channel_35002_dark",
+        "value": "https://s.sporty.net/cms/orange_fa1bbf6f75.png",
+        "type": "TEXT"
+      },
+      "payment_channel_34002_dark": {
+        "key": "payment_channel_34002_dark",
+        "value": "https://s.sporty.net/cms/efts_spei_dark_69216f639a_4c7f58e55e.png",
+        "type": "TEXT"
+      },
+      "payment_channel_34002": {
+        "key": "payment_channel_34002",
+        "value": "https://s.sporty.net/cms/spei_withdraw_light_fce290f4f7.png",
+        "type": "TEXT"
+      },
+      "coming_soon_players": {
+        "key": "coming_soon_players",
+        "value": "https://s.sporty.net/cms/coming_soon_players_53abb1c0c8.png",
+        "type": "TEXT"
+      },
+      "coming_soon_players_wap": {
+        "key": "coming_soon_players_wap",
+        "value": "https://s.sporty.net/cms/players_wap_1_7ed61dc155.png",
+        "type": "TEXT"
+      },
+      "coming_soon_background": {
+        "key": "coming_soon_background",
+        "value": "https://s.sporty.net/cms/background_web_ethiopia_1_839b995f04.jpg",
+        "type": "TEXT"
+      },
+      "coming_soon_background_wap": {
+        "key": "coming_soon_background_wap",
+        "value": "https://s.sporty.net/cms/background_wap_ethiopia_1_629af628a5.jpg",
+        "type": "TEXT"
+      },
+      "coming_soon_background_cd": {
+        "key": "coming_soon_background_cd",
+        "value": "https://s.sporty.net/cms/background_web_drc_1_2cb4ecb491.jpg",
+        "type": "TEXT"
+      },
+      "coming_soon_background_wap_cd": {
+        "key": "coming_soon_background_wap_cd",
+        "value": "https://s.sporty.net/cms/background_wap_drc_1_32b771e33c.jpg",
+        "type": "TEXT"
+      },
+      "sporty_full_logo": {
+        "key": "sporty_full_logo",
+        "value": "https://s.sporty.net/cms/img_logo_full_horizontal_83058b20ca.svg",
+        "type": "TEXT"
+      },
+      "sporty_icon_logo": {
+        "key": "sporty_icon_logo",
+        "value": "https://s.sporty.net/cms/img_logo_icon_primary_c844652ea2.svg",
+        "type": "TEXT"
+      },
+      "sporty_icon_logo_contained": {
+        "key": "sporty_icon_logo_contained",
+        "value": "https://s.sporty.net/cms/img_logo_icon_contained_544a74640b.svg",
+        "type": "TEXT"
+      }
+    },
+    "version": "1772442723000"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "odds_format",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/odds_format",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 3,
+  "payload": {
+    "keys": {
+      "decimal_odds": {
+        "key": "decimal_odds",
+        "value": "Decimal",
+        "type": "TEXT"
+      },
+      "american_odds": {
+        "key": "american_odds",
+        "value": "American",
+        "type": "TEXT"
+      },
+      "odds_format": {
+        "key": "odds_format",
+        "value": "Odds Format",
+        "type": "TEXT"
+      }
+    },
+    "version": "1768233059000"
+  }
+}

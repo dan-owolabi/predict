@@ -1,0 +1,456 @@
+{
+  "name": "page_login",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/page_login",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 89,
+  "payload": {
+    "keys": {
+      "registration_successful": {
+        "key": "registration_successful",
+        "value": "Registration Successful",
+        "type": "TEXT"
+      },
+      "go_to_deposit": {
+        "key": "go_to_deposit",
+        "value": "Go to Deposit",
+        "type": "TEXT"
+      },
+      "referral_code": {
+        "key": "referral_code",
+        "value": "Referral code",
+        "type": "TEXT"
+      },
+      "have_a_referral_code": {
+        "key": "have_a_referral_code",
+        "value": "Have a referral code?",
+        "type": "TEXT"
+      },
+      "referral_code_optional": {
+        "key": "referral_code_optional",
+        "value": "Referral Code (OPTIONAL)",
+        "type": "TEXT"
+      },
+      "mobile_number": {
+        "key": "mobile_number",
+        "value": "Mobile Number",
+        "type": "TEXT"
+      },
+      "complete_registration": {
+        "key": "complete_registration",
+        "value": "Complete Registration",
+        "type": "TEXT"
+      },
+      "join_sportybet_with_your_mobile_number": {
+        "key": "join_sportybet_with_your_mobile_number",
+        "value": "Join SportyBet\nwith your mobile number",
+        "type": "TEXT"
+      },
+      "already_have_an_account_log_in": {
+        "key": "already_have_an_account_log_in",
+        "value": "Already have an account? Log In",
+        "type": "TEXT"
+      },
+      "youre_temporarily_locked": {
+        "key": "youre_temporarily_locked",
+        "value": "You're Temporarily Locked",
+        "type": "TEXT"
+      },
+      "find_account": {
+        "key": "find_account",
+        "value": "Find Account",
+        "type": "TEXT"
+      },
+      "reset_your_password_please_confirm_your_account_first": {
+        "key": "reset_your_password_please_confirm_your_account_first",
+        "value": "To reset your password, please confirm \nyour account first.",
+        "type": "TEXT"
+      },
+      "mobile_number_is_required": {
+        "key": "mobile_number_is_required",
+        "value": "Mobile Number is required",
+        "type": "TEXT"
+      },
+      "password_is_required": {
+        "key": "password_is_required",
+        "value": "Password is required.",
+        "type": "TEXT"
+      },
+      "enter_password": {
+        "key": "enter_password",
+        "value": "Enter Password",
+        "type": "TEXT"
+      },
+      "change_number": {
+        "key": "change_number",
+        "value": "Change Number",
+        "type": "TEXT"
+      },
+      "enter_the_password_for_vcountrycode_vphone": {
+        "key": "enter_the_password_for_vcountrycode_vphone",
+        "value": "Enter the password for +{countryCode} {phone}.",
+        "type": "TEXT"
+      },
+      "password": {
+        "key": "password",
+        "value": "Password",
+        "type": "TEXT"
+      },
+      "password_cannot_be_shorter_than_vnum_characters": {
+        "key": "password_cannot_be_shorter_than_vnum_characters",
+        "value": "Password cannot be shorter than {num} characters.",
+        "type": "TEXT"
+      },
+      "password_cannot_be_longer_than_vnum_characters": {
+        "key": "password_cannot_be_longer_than_vnum_characters",
+        "value": "Password cannot be longer than {num} characters.",
+        "type": "TEXT"
+      },
+      "password_must_contain_at_least_one_letter_and_one_number": {
+        "key": "password_must_contain_at_least_one_letter_and_one_number",
+        "value": "Password must contain at least one upper case letter, one lower case letter and one number.",
+        "type": "TEXT"
+      },
+      "create_account": {
+        "key": "create_account",
+        "value": "Create Account",
+        "type": "TEXT"
+      },
+      "terms_conditions": {
+        "key": "terms_conditions",
+        "value": "Terms & Conditions",
+        "type": "TEXT"
+      },
+      "set_password": {
+        "key": "set_password",
+        "value": "Set Password",
+        "type": "TEXT"
+      },
+      "length_of_vnum1_vnum2_characters": {
+        "key": "length_of_vnum1_vnum2_characters",
+        "value": "Length of {num1}-{num2} characters.",
+        "type": "TEXT"
+      },
+      "at_least_one_letter_and_one_number": {
+        "key": "at_least_one_letter_and_one_number",
+        "value": "At least one upper case letter, one lower case letter and one number.",
+        "type": "TEXT"
+      },
+      "back_to_home": {
+        "key": "back_to_home",
+        "value": "Back to Home",
+        "type": "TEXT"
+      },
+      "see_details": {
+        "key": "see_details",
+        "value": "See Details",
+        "type": "TEXT"
+      },
+      "create_new_account": {
+        "key": "create_new_account",
+        "value": "Create New Account",
+        "type": "TEXT"
+      },
+      "log_in_with_facebook": {
+        "key": "log_in_with_facebook",
+        "value": "Log In With Facebook",
+        "type": "TEXT"
+      },
+      "or": {
+        "key": "or",
+        "value": "Or",
+        "type": "TEXT"
+      },
+      "referral_code_cannot_be_found": {
+        "key": "referral_code_cannot_be_found",
+        "value": "Referral Code cannot be found.",
+        "type": "TEXT"
+      },
+      "this_code_has_already_been_redeemed": {
+        "key": "this_code_has_already_been_redeemed",
+        "value": "This code has already been redeemed.",
+        "type": "TEXT"
+      },
+      "enter_new_password": {
+        "key": "enter_new_password",
+        "value": "Enter New Password",
+        "type": "TEXT"
+      },
+      "password_must_be_vnum1_vnum2_characters_in_length_contain_tip": {
+        "key": "password_must_be_vnum1_vnum2_characters_in_length_contain_tip",
+        "value": "Password must be {num1}-{num2} characters in length and contain at least one upper case letter, one lower case letter and one number",
+        "type": "TEXT"
+      },
+      "new_password": {
+        "key": "new_password",
+        "value": "New Password",
+        "type": "TEXT"
+      },
+      "to_reset_your_password_please_confirm_your_account_first": {
+        "key": "to_reset_your_password_please_confirm_your_account_first",
+        "value": "To reset your password, please confirm your account first.",
+        "type": "TEXT"
+      },
+      "enter_mobile_number": {
+        "key": "enter_mobile_number",
+        "value": "Enter Mobile Number",
+        "type": "TEXT"
+      },
+      "password_has_been_reset_you_can_now_use_your_new_tip": {
+        "key": "password_has_been_reset_you_can_now_use_your_new_tip",
+        "value": "Password has been reset. You can now use your new password to log in.",
+        "type": "TEXT"
+      },
+      "confirm_account": {
+        "key": "confirm_account",
+        "value": "Confirm Account",
+        "type": "TEXT"
+      },
+      "reset_password": {
+        "key": "reset_password",
+        "value": "Reset Password",
+        "type": "TEXT"
+      },
+      "first_deposit_up_to_vcurrency_vnum_return_as_karibu_gifts": {
+        "key": "first_deposit_up_to_vcurrency_vnum_return_as_karibu_gifts",
+        "value": "",
+        "type": "TEXT"
+      },
+      "up_to_vcurrency_vnum_in_discount_gifts": {
+        "key": "up_to_vcurrency_vnum_in_discount_gifts",
+        "value": "Make a Deposit and Start Betting!",
+        "type": "TEXT"
+      },
+      "first_deposit_return_up_to_vnum_p_as_discount_gifts": {
+        "key": "first_deposit_return_up_to_vnum_p_as_discount_gifts",
+        "value": "First Deposit Return up to {num}% as Discount Gifts",
+        "type": "TEXT"
+      },
+      "your_password_must_be_vmin_vmax_characters_long_tip": {
+        "key": "your_password_must_be_vmin_vmax_characters_long_tip",
+        "value": "Your password must be at least {min} characters long and must contain at least one upper case letter, one lower case letter and one number.",
+        "type": "TEXT"
+      },
+      "verification_code_is_required": {
+        "key": "verification_code_is_required",
+        "value": "Verification Code is required.",
+        "type": "TEXT"
+      },
+      "empty_parameters": {
+        "key": "empty_parameters",
+        "value": "Empty parameters",
+        "type": "TEXT"
+      },
+      "by_creating_an_account_you_agree_to_our_vterms_and_confirm_tip": {
+        "key": "by_creating_an_account_you_agree_to_our_vterms_and_confirm_tip",
+        "value": "By creating an account, you agree to our {terms} and confirm that you are at least 18 years old or over and all information given is true.",
+        "type": "TEXT"
+      },
+      "enter_the_6_digit_2_factor_auth_code": {
+        "key": "enter_the_6_digit_2_factor_auth_code",
+        "value": "Enter the 6-digit 2 Factor Auth code we sent to your email",
+        "type": "TEXT"
+      },
+      "if_you_still_dont_receive_your_code_please_contact": {
+        "key": "if_you_still_dont_receive_your_code_please_contact",
+        "value": "If you still don't receive your code, please contact",
+        "type": "TEXT"
+      },
+      "rate_limit_exceeded_please_try_later_or_contact_customer_service": {
+        "key": "rate_limit_exceeded_please_try_later_or_contact_customer_service",
+        "value": "Rate limit exceeded. Please try later or contact customer service.",
+        "type": "TEXT"
+      },
+      "two_fa_rate_limit_exceeded": {
+        "key": "two_fa_rate_limit_exceeded",
+        "value": "We can only send you a 2 Factor Auth code 5 times within 24 hours. Please try again tomorrow.",
+        "type": "TEXT"
+      },
+      "verify_2_factor_auth_code": {
+        "key": "verify_2_factor_auth_code",
+        "value": "Verify 2 Factor Auth Code",
+        "type": "TEXT"
+      },
+      "have_a_referral_code_optional": {
+        "key": "have_a_referral_code_optional",
+        "value": "Have a referral code? (OPTIONAL)",
+        "type": "TEXT"
+      },
+      "remember_me": {
+        "key": "remember_me",
+        "value": "Remember me",
+        "type": "TEXT"
+      },
+      "keep_me_signed_in": {
+        "key": "keep_me_signed_in",
+        "value": "Keep me signed in",
+        "type": "TEXT"
+      },
+      "mobile_number_format_incorrect": {
+        "key": "mobile_number_format_incorrect",
+        "value": "Mobile Number format incorrect.",
+        "type": "TEXT"
+      },
+      "email_is_required": {
+        "key": "email_is_required",
+        "value": "Email is required.",
+        "type": "TEXT"
+      },
+      "already_have_an_account": {
+        "key": "already_have_an_account",
+        "value": "Already have an account?",
+        "type": "TEXT"
+      },
+      "log_in": {
+        "key": "log_in",
+        "value": "Log In",
+        "type": "TEXT"
+      },
+      "verify_identity_deposits": {
+        "key": "verify_identity_deposits",
+        "value": "Please verify your identity to start making deposits today!",
+        "type": "TEXT"
+      },
+      "verify_your_identity": {
+        "key": "verify_your_identity",
+        "value": "Verify your Identity",
+        "type": "TEXT"
+      },
+      "congratulations_your_account_has_been_successfully_registered_you_can_start_exploring": {
+        "key": "congratulations_your_account_has_been_successfully_registered_you_can_start_exploring",
+        "value": "Congratulations! Your account has been successfully registered. You can start exploring.",
+        "type": "TEXT"
+      },
+      "set_up_biometrics_authentication": {
+        "key": "set_up_biometrics_authentication",
+        "value": "Set Up Biometric Authentication",
+        "type": "TEXT"
+      },
+      "pswd_one_special_character": {
+        "key": "pswd_one_special_character",
+        "value": "one special character",
+        "type": "TEXT"
+      },
+      "explore_sportybet": {
+        "key": "explore_sportybet",
+        "value": "Explore SportyBet",
+        "type": "TEXT"
+      },
+      "first_deposit_za": {
+        "key": "first_deposit_za",
+        "value": "Your FICA verification is approved! Don't miss out - verified players get instant deposits, withdrawals and loyalty rewards. Deposit now and start winning!",
+        "type": "TEXT"
+      },
+      "your_id_verification_has_failed": {
+        "key": "your_id_verification_has_failed",
+        "value": "Your ID verification has failed",
+        "type": "TEXT"
+      },
+      "please_insert_your_full_name_and_id": {
+        "key": "please_insert_your_full_name_and_id",
+        "value": "Please insert your Full Name and ID number exactly as seen on your ID document.",
+        "type": "TEXT"
+      },
+      "re_enter_details": {
+        "key": "re_enter_details",
+        "value": "Re-enter Details",
+        "type": "TEXT"
+      },
+      "submit_later": {
+        "key": "submit_later",
+        "value": "Submit Later",
+        "type": "TEXT"
+      },
+      "by_logging_in_you_accept_and_agree_to_our_vterms": {
+        "key": "by_logging_in_you_accept_and_agree_to_our_vterms",
+        "value": "By logging in, you agree to our {terms}",
+        "type": "TEXT"
+      },
+      "privacy_policy": {
+        "key": "privacy_policy",
+        "value": "Privacy Policy",
+        "type": "TEXT"
+      },
+      "pswd_num_characters_minimum": {
+        "key": "pswd_num_characters_minimum",
+        "value": "{num} characters minimum",
+        "type": "TEXT"
+      },
+      "pswd_num_characters_maximum": {
+        "key": "pswd_num_characters_maximum",
+        "value": "{num} characters maximum",
+        "type": "TEXT"
+      },
+      "pswd_one_number": {
+        "key": "pswd_one_number",
+        "value": "one number",
+        "type": "TEXT"
+      },
+      "pswd_one_uppercase_character": {
+        "key": "pswd_one_uppercase_character",
+        "value": "one uppercase character",
+        "type": "TEXT"
+      },
+      "pswd_one_lowercase_character": {
+        "key": "pswd_one_lowercase_character",
+        "value": "one lowercase character",
+        "type": "TEXT"
+      },
+      "get_started": {
+        "key": "get_started",
+        "value": "Get started",
+        "type": "TEXT"
+      },
+      "set_up_email_2_step_verification": {
+        "key": "set_up_email_2_step_verification",
+        "value": "Set Up Email 2-Step Verification ",
+        "type": "TEXT"
+      },
+      "self_deactivated_dialog_title": {
+        "key": "self_deactivated_dialog_title",
+        "value": "Self-Deactivated Account",
+        "type": "TEXT"
+      },
+      "success": {
+        "key": "success",
+        "value": "Success",
+        "type": "TEXT"
+      },
+      "create_new_password": {
+        "key": "create_new_password",
+        "value": "Create New Password *",
+        "type": "TEXT"
+      },
+      "create_your_password": {
+        "key": "create_your_password",
+        "value": "Create your Password",
+        "type": "TEXT"
+      },
+      "enter_registered_email": {
+        "key": "enter_registered_email",
+        "value": "Enter your registered email",
+        "type": "TEXT"
+      },
+      "keep_me_logged_in": {
+        "key": "keep_me_logged_in",
+        "value": "Keep me logged in",
+        "type": "TEXT"
+      },
+      "new_here": {
+        "key": "new_here",
+        "value": "New here?",
+        "type": "TEXT"
+      },
+      "password_changed_successfully": {
+        "key": "password_changed_successfully",
+        "value": "Password Changed Successfully",
+        "type": "TEXT"
+      },
+      "claim_welcome_bonus": {
+        "key": "claim_welcome_bonus",
+        "value": "Claim Welcome Bonus",
+        "type": "TEXT"
+      }
+    },
+    "version": "1772708805000"
+  }
+}

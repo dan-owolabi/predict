@@ -1,0 +1,44 @@
+[
+  {
+    "target": "anytime_scorer",
+    "label": "Anytime Scorer",
+    "model_file": "anytime_scorer.txt",
+    "base_rate": 0.08591284292303958
+  },
+  {
+    "target": "shots_over_0_5",
+    "label": "Shots O0.5",
+    "model_file": "shots_over_0_5.txt",
+    "base_rate": 0.48132131585336246
+  },
+  {
+    "target": "shots_over_1_5",
+    "label": "Shots O1.5",
+    "model_file": "shots_over_1_5.txt",
+    "base_rate": 0.24066824471959214
+  },
+  {
+    "target": "shots_over_2_5",
+    "label": "Shots O2.5",
+    "model_file": "shots_over_2_5.txt",
+    "base_rate": 0.12014445253702355
+  },
+  {
+    "target": "sot_over_0_5",
+    "label": "SOT O0.5",
+    "model_file": "sot_over_0_5.txt",
+    "base_rate": 0.2274975722262685
+  },
+  {
+    "target": "sot_over_1_5",
+    "label": "SOT O1.5",
+    "model_file": "sot_over_1_5.txt",
+    "base_rate": 0.05961701869385773
+  },
+  {
+    "target": "booked",
+    "label": "Booked Yes",
+    "model_file": "booked.txt",
+    "base_rate": 0.1507799223112406
+  }
+]

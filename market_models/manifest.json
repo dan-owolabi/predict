@@ -1,0 +1,282 @@
+[
+  {
+    "target": "corners_over_8_5",
+    "label": "Corners O8.5",
+    "source": "total_corners",
+    "line": 8.5,
+    "market": "CORNERS",
+    "pick": "OVER 8.5",
+    "model_file": "corners_over_8_5.txt",
+    "base_rate": 0.693034238488784
+  },
+  {
+    "target": "corners_over_9_5",
+    "label": "Corners O9.5",
+    "source": "total_corners",
+    "line": 9.5,
+    "market": "CORNERS",
+    "pick": "OVER 9.5",
+    "model_file": "corners_over_9_5.txt",
+    "base_rate": 0.5749704840613932
+  },
+  {
+    "target": "corners_over_10_5",
+    "label": "Corners O10.5",
+    "source": "total_corners",
+    "line": 10.5,
+    "market": "CORNERS",
+    "pick": "OVER 10.5",
+    "model_file": "corners_over_10_5.txt",
+    "base_rate": 0.4573002754820937
+  },
+  {
+    "target": "home_corners_over_4_5",
+    "label": "Home Corners O4.5",
+    "source": "home_corners",
+    "line": 4.5,
+    "market": "HOME CORNERS",
+    "pick": "OVER 4.5",
+    "model_file": "home_corners_over_4_5.txt",
+    "base_rate": 0.6017316017316018
+  },
+  {
+    "target": "away_corners_over_3_5",
+    "label": "Away Corners O3.5",
+    "source": "away_corners",
+    "line": 3.5,
+    "market": "AWAY CORNERS",
+    "pick": "OVER 3.5",
+    "model_file": "away_corners_over_3_5.txt",
+    "base_rate": 0.6221959858323495
+  },
+  {
+    "target": "bookings_over_3_5",
+    "label": "Bookings O3.5",
+    "source": "total_bookings",
+    "line": 3.5,
+    "market": "BOOKINGS",
+    "pick": "OVER 3.5",
+    "model_file": "bookings_over_3_5.txt",
+    "base_rate": 0.48406139315230223
+  },
+  {
+    "target": "bookings_over_4_5",
+    "label": "Bookings O4.5",
+    "source": "total_bookings",
+    "line": 4.5,
+    "market": "BOOKINGS",
+    "pick": "OVER 4.5",
+    "model_file": "bookings_over_4_5.txt",
+    "base_rate": 0.30539157811885087
+  },
+  {
+    "target": "bookings_over_5_5",
+    "label": "Bookings O5.5",
+    "source": "total_bookings",
+    "line": 5.5,
+    "market": "BOOKINGS",
+    "pick": "OVER 5.5",
+    "model_file": "bookings_over_5_5.txt",
+    "base_rate": 0.1660763478945297
+  },
+  {
+    "target": "home_bookings_over_1_5",
+    "label": "Home Bookings O1.5",
+    "source": "home_bookings",
+    "line": 1.5,
+    "market": "HOME BOOKINGS",
+    "pick": "OVER 1.5",
+    "model_file": "home_bookings_over_1_5.txt",
+    "base_rate": 0.509641873278237
+  },
+  {
+    "target": "away_bookings_over_1_5",
+    "label": "Away Bookings O1.5",
+    "source": "away_bookings",
+    "line": 1.5,
+    "market": "AWAY BOOKINGS",
+    "pick": "OVER 1.5",
+    "model_file": "away_bookings_over_1_5.txt",
+    "base_rate": 0.5789059425423062
+  },
+  {
+    "target": "shots_over_22_5",
+    "label": "Shots O22.5",
+    "source": "total_shots",
+    "line": 22.5,
+    "market": "SHOTS",
+    "pick": "OVER 22.5",
+    "model_file": "shots_over_22_5.txt",
+    "base_rate": 0.6717827626918536
+  },
+  {
+    "target": "shots_over_24_5",
+    "label": "Shots O24.5",
+    "source": "total_shots",
+    "line": 24.5,
+    "market": "SHOTS",
+    "pick": "OVER 24.5",
+    "model_file": "shots_over_24_5.txt",
+    "base_rate": 0.546241637150728
+  },
+  {
+    "target": "shots_over_26_5",
+    "label": "Shots O26.5",
+    "source": "total_shots",
+    "line": 26.5,
+    "market": "SHOTS",
+    "pick": "OVER 26.5",
+    "model_file": "shots_over_26_5.txt",
+    "base_rate": 0.41125541125541126
+  },
+  {
+    "target": "home_shots_over_11_5",
+    "label": "Home Shots O11.5",
+    "source": "home_shots",
+    "line": 11.5,
+    "market": "HOME SHOTS",
+    "pick": "OVER 11.5",
+    "model_file": "home_shots_over_11_5.txt",
+    "base_rate": 0.6308539944903582
+  },
+  {
+    "target": "away_shots_over_9_5",
+    "label": "Away Shots O9.5",
+    "source": "away_shots",
+    "line": 9.5,
+    "market": "AWAY SHOTS",
+    "pick": "OVER 9.5",
+    "model_file": "away_shots_over_9_5.txt",
+    "base_rate": 0.6210153482880756
+  },
+  {
+    "target": "sot_over_7_5",
+    "label": "SOT O7.5",
+    "source": "total_sot",
+    "line": 7.5,
+    "market": "SHOTS ON TARGET",
+    "pick": "OVER 7.5",
+    "model_file": "sot_over_7_5.txt",
+    "base_rate": 0.6521054702872885
+  },
+  {
+    "target": "sot_over_8_5",
+    "label": "SOT O8.5",
+    "source": "total_sot",
+    "line": 8.5,
+    "market": "SHOTS ON TARGET",
+    "pick": "OVER 8.5",
+    "model_file": "sot_over_8_5.txt",
+    "base_rate": 0.5222353404171586
+  },
+  {
+    "target": "sot_over_9_5",
+    "label": "SOT O9.5",
+    "source": "total_sot",
+    "line": 9.5,
+    "market": "SHOTS ON TARGET",
+    "pick": "OVER 9.5",
+    "model_file": "sot_over_9_5.txt",
+    "base_rate": 0.39315230224321135
+  },
+  {
+    "target": "home_sot_over_3_5",
+    "label": "Home SOT O3.5",
+    "source": "home_sot",
+    "line": 3.5,
+    "market": "HOME SOT",
+    "pick": "OVER 3.5",
+    "model_file": "home_sot_over_3_5.txt",
+    "base_rate": 0.6623376623376623
+  },
+  {
+    "target": "away_sot_over_2_5",
+    "label": "Away SOT O2.5",
+    "source": "away_sot",
+    "line": 2.5,
+    "market": "AWAY SOT",
+    "pick": "OVER 2.5",
+    "model_file": "away_sot_over_2_5.txt",
+    "base_rate": 0.7351436442345534
+  },
+  {
+    "target": "fouls_over_20_5",
+    "label": "Fouls O20.5",
+    "source": "total_fouls",
+    "line": 20.5,
+    "market": "FOULS",
+    "pick": "OVER 20.5",
+    "model_file": "fouls_over_20_5.txt",
+    "base_rate": 0.555293191656828
+  },
+  {
+    "target": "fouls_over_22_5",
+    "label": "Fouls O22.5",
+    "source": "total_fouls",
+    "line": 22.5,
+    "market": "FOULS",
+    "pick": "OVER 22.5",
+    "model_file": "fouls_over_22_5.txt",
+    "base_rate": 0.40771349862258954
+  },
+  {
+    "target": "fouls_over_24_5",
+    "label": "Fouls O24.5",
+    "source": "total_fouls",
+    "line": 24.5,
+    "market": "FOULS",
+    "pick": "OVER 24.5",
+    "model_file": "fouls_over_24_5.txt",
+    "base_rate": 0.2778433687524597
+  },
+  {
+    "target": "home_fouls_over_9_5",
+    "label": "Home Fouls O9.5",
+    "source": "home_fouls",
+    "line": 9.5,
+    "market": "HOME FOULS",
+    "pick": "OVER 9.5",
+    "model_file": "home_fouls_over_9_5.txt",
+    "base_rate": 0.6127508854781583
+  },
+  {
+    "target": "away_fouls_over_9_5",
+    "label": "Away Fouls O9.5",
+    "source": "away_fouls",
+    "line": 9.5,
+    "market": "AWAY FOULS",
+    "pick": "OVER 9.5",
+    "model_file": "away_fouls_over_9_5.txt",
+    "base_rate": 0.6336088154269972
+  },
+  {
+    "target": "first_half_over_0_5",
+    "label": "1H Goals O0.5",
+    "source": "first_half_goals",
+    "line": 0.5,
+    "market": "1ST HALF GOALS",
+    "pick": "OVER 0.5",
+    "model_file": "first_half_over_0_5.txt",
+    "base_rate": 0.7339630066902794
+  },
+  {
+    "target": "first_half_over_1_5",
+    "label": "1H Goals O1.5",
+    "source": "first_half_goals",
+    "line": 1.5,
+    "market": "1ST HALF GOALS",
+    "pick": "OVER 1.5",
+    "model_file": "first_half_over_1_5.txt",
+    "base_rate": 0.3695395513577332
+  },
+  {
+    "target": "first_half_btts",
+    "label": "1H BTTS",
+    "source": "first_half_btts_source",
+    "line": 0.5,
+    "market": "1ST HALF GG/NG",
+    "pick": "GG",
+    "model_file": "first_half_btts.txt",
+    "base_rate": 0.20306965761511217
+  }
+]

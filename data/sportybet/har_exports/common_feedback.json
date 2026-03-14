@@ -1,0 +1,536 @@
+{
+  "name": "common_feedback",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/common_feedback",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 105,
+  "payload": {
+    "keys": {
+      "no_games_tip": {
+        "key": "no_games_tip",
+        "value": "Sorry, there are no games currently\navailable in this category. Please try later.\nThank you.",
+        "type": "TEXT"
+      },
+      "data_failed_loading_tip": {
+        "key": "data_failed_loading_tip",
+        "value": "Data failed loading. Please reload.",
+        "type": "TEXT"
+      },
+      "reload": {
+        "key": "reload",
+        "value": "Reload",
+        "type": "TEXT"
+      },
+      "no_odds_available": {
+        "key": "no_odds_available",
+        "value": "No Odds Available",
+        "type": "TEXT"
+      },
+      "deleta": {
+        "key": "deleta",
+        "value": "Delete",
+        "type": "TEXT"
+      },
+      "no_available_filtered_games": {
+        "key": "no_available_filtered_games",
+        "value": "Sorry, there are no games currently available in this odds filter range.\nPlease try later. Thank you.",
+        "type": "TEXT"
+      },
+      "sent_successfully": {
+        "key": "sent_successfully",
+        "value": "Sent successfully",
+        "type": "TEXT"
+      },
+      "failed_to_send_please_try_again": {
+        "key": "failed_to_send_please_try_again",
+        "value": "Failed to send, please try again",
+        "type": "TEXT"
+      },
+      "please_write_a_comment": {
+        "key": "please_write_a_comment",
+        "value": "Please write a comment",
+        "type": "TEXT"
+      },
+      "this_game_is_no_longer_available": {
+        "key": "this_game_is_no_longer_available",
+        "value": "This game is no longer available",
+        "type": "TEXT"
+      },
+      "sorry_no_market_thanks_tip": {
+        "key": "sorry_no_market_thanks_tip",
+        "value": "Sorry, there are no markets currently available in this\ncategory. Please try later. Thank you.",
+        "type": "TEXT"
+      },
+      "something_went_wrong_please_try_again_later": {
+        "key": "something_went_wrong_please_try_again_later",
+        "value": "Sorry, something went wrong, please try again later.",
+        "type": "TEXT"
+      },
+      "your_ticket_is_being_reviewed_tip": {
+        "key": "your_ticket_is_being_reviewed_tip",
+        "value": "Your ticket is being reviewed. Please wait patiently.",
+        "type": "TEXT"
+      },
+      "failed_to_load_game_please_refresh_tip": {
+        "key": "failed_to_load_game_please_refresh_tip",
+        "value": "Failed to load game data. Please refresh the page.",
+        "type": "TEXT"
+      },
+      "sorry_no_game_to_bet_thank_tip": {
+        "key": "sorry_no_game_to_bet_thank_tip",
+        "value": "Sorry, this game is no longer available. Betting has closed or has been suspended. Please choose other games.",
+        "type": "TEXT"
+      },
+      "failed_to_load_game_data_error_server_tip": {
+        "key": "failed_to_load_game_data_error_server_tip",
+        "value": "Failed to load game data. An error occurred while connecting to server.",
+        "type": "TEXT"
+      },
+      "no_results_found": {
+        "key": "no_results_found",
+        "value": "No results found",
+        "type": "TEXT"
+      },
+      "please_enter_at_least_3_characters": {
+        "key": "please_enter_at_least_3_characters",
+        "value": "Please enter at least 3 characters",
+        "type": "TEXT"
+      },
+      "the_value_cannot_exceed_vmax": {
+        "key": "the_value_cannot_exceed_vmax",
+        "value": "The value cannot exceed {max}",
+        "type": "TEXT"
+      },
+      "submission_successful": {
+        "key": "submission_successful",
+        "value": "Submission Successful",
+        "type": "TEXT"
+      },
+      "failed_to_submit_please_try_again": {
+        "key": "failed_to_submit_please_try_again",
+        "value": "Failed to submit. Please try again.",
+        "type": "TEXT"
+      },
+      "successfully_copied": {
+        "key": "successfully_copied",
+        "value": "Successfully copied",
+        "type": "TEXT"
+      },
+      "whatsapp_might_not_be_installed_tip": {
+        "key": "whatsapp_might_not_be_installed_tip",
+        "value": "WhatsApp might not be installed on your phone, install it and try again.",
+        "type": "TEXT"
+      },
+      "the_code_was_not_loaded_successfully_tip": {
+        "key": "the_code_was_not_loaded_successfully_tip",
+        "value": "The code was not loaded successfully. Please try again.",
+        "type": "TEXT"
+      },
+      "successfully_deleted": {
+        "key": "successfully_deleted",
+        "value": "Successfully Deleted",
+        "type": "TEXT"
+      },
+      "failed_to_delete": {
+        "key": "failed_to_delete",
+        "value": "Failed to Delete",
+        "type": "TEXT"
+      },
+      "failed_to_load_data_please_refresh_the_page": {
+        "key": "failed_to_load_data_please_refresh_the_page",
+        "value": "Failed to load data. Please refresh the page.",
+        "type": "TEXT"
+      },
+      "no_internet_connection_try_again": {
+        "key": "no_internet_connection_try_again",
+        "value": "No internet connection, try again.",
+        "type": "TEXT"
+      },
+      "something_wrong": {
+        "key": "something_wrong",
+        "value": "Something Wrong",
+        "type": "TEXT"
+      },
+      "please_enter_a_value_no_less_than_vmin": {
+        "key": "please_enter_a_value_no_less_than_vmin",
+        "value": "Please enter a value no less than {min}",
+        "type": "TEXT"
+      },
+      "submission_failed": {
+        "key": "submission_failed",
+        "value": "Submission Failed",
+        "type": "TEXT"
+      },
+      "no_internet_connection_tip": {
+        "key": "no_internet_connection_tip",
+        "value": "No internet connection, try again.",
+        "type": "TEXT"
+      },
+      "your_balance_is_insufficient": {
+        "key": "your_balance_is_insufficient",
+        "value": "Your balance is insufficient",
+        "type": "TEXT"
+      },
+      "no_records_found": {
+        "key": "no_records_found",
+        "value": "No Records Found.",
+        "type": "TEXT"
+      },
+      "certificate_validation_failure": {
+        "key": "certificate_validation_failure",
+        "value": "Certificate validation failure",
+        "type": "TEXT"
+      },
+      "we_have_not_receieved_your_sms_tip": {
+        "key": "we_have_not_receieved_your_sms_tip",
+        "value": "We have not received your SMS. Please try again or contact us.",
+        "type": "TEXT"
+      },
+      "oops": {
+        "key": "oops",
+        "value": "Oops!",
+        "type": "TEXT"
+      },
+      "something_went_wrong_tip": {
+        "key": "something_went_wrong_tip",
+        "value": "Sorry, something went wrong. Please try again later.",
+        "type": "TEXT"
+      },
+      "your_session_has_timed_out_tip": {
+        "key": "your_session_has_timed_out_tip",
+        "value": "Your session has timed out. Please try again.",
+        "type": "TEXT"
+      },
+      "sorry_something_went_wrong": {
+        "key": "sorry_something_went_wrong",
+        "value": "Sorry, something went wrong",
+        "type": "TEXT"
+      },
+      "no_bets_available": {
+        "key": "no_bets_available",
+        "value": "No bets available",
+        "type": "TEXT"
+      },
+      "data_failed_loading_please_reload": {
+        "key": "data_failed_loading_please_reload",
+        "value": "Data failed loading. Please reload.",
+        "type": "TEXT"
+      },
+      "no_more_bet": {
+        "key": "no_more_bet",
+        "value": "No More bet",
+        "type": "TEXT"
+      },
+      "succeeded": {
+        "key": "succeeded",
+        "value": "Succeeded",
+        "type": "TEXT"
+      },
+      "connection_error": {
+        "key": "connection_error",
+        "value": "Connection Error",
+        "type": "TEXT"
+      },
+      "please_check_your_internet_connection_and_try_again": {
+        "key": "please_check_your_internet_connection_and_try_again",
+        "value": "Please check your internet connection and try again.",
+        "type": "TEXT"
+      },
+      "incorrect_code_please_try_again": {
+        "key": "incorrect_code_please_try_again",
+        "value": "Incorrect code. Please try again.",
+        "type": "TEXT"
+      },
+      "please_enter_a_valid_mobile_number": {
+        "key": "please_enter_a_valid_mobile_number",
+        "value": "Please enter a valid mobile number.",
+        "type": "TEXT"
+      },
+      "no_data_available": {
+        "key": "no_data_available",
+        "value": "No data available",
+        "type": "TEXT"
+      },
+      "error_loading_betslip": {
+        "key": "error_loading_betslip",
+        "value": "Error Loading Betslip",
+        "type": "TEXT"
+      },
+      "captcha_is_incorrect": {
+        "key": "captcha_is_incorrect",
+        "value": "Captcha is incorrect. Please try again.",
+        "type": "TEXT"
+      },
+      "no_results_in_category": {
+        "key": "no_results_in_category",
+        "value": "Sorry, there are no results currently available in this category. Please try later.",
+        "type": "TEXT"
+      },
+      "no_results_for_this_search": {
+        "key": "no_results_for_this_search",
+        "value": "No results for this search",
+        "type": "TEXT"
+      },
+      "account_error": {
+        "key": "account_error",
+        "value": "Account Error",
+        "type": "TEXT"
+      },
+      "account_error_msg": {
+        "key": "account_error_msg",
+        "value": "Please contact customer service for more information.",
+        "type": "TEXT"
+      },
+      "cancelation_successful": {
+        "key": "cancelation_successful",
+        "value": "Cancellation Successful",
+        "type": "TEXT"
+      },
+      "delete_success": {
+        "key": "delete_success",
+        "value": "Delete Successfully",
+        "type": "TEXT"
+      },
+      "delete": {
+        "key": "delete",
+        "value": "Delete",
+        "type": "TEXT"
+      },
+      "faild_to_load_data_pls_try_again": {
+        "key": "faild_to_load_data_pls_try_again",
+        "value": "Failed to load data. Please try again.",
+        "type": "TEXT"
+      },
+      "dont_repeat_deposit": {
+        "key": "dont_repeat_deposit",
+        "value": "Please do not deposit repeatedly.",
+        "type": "TEXT"
+      },
+      "line_busy": {
+        "key": "line_busy",
+        "value": "Line busy. Please try later.",
+        "type": "TEXT"
+      },
+      "loading_failed_please_try_again_later": {
+        "key": "loading_failed_please_try_again_later",
+        "value": "Loading Failed. Please try again later.",
+        "type": "TEXT"
+      },
+      "login_error": {
+        "key": "login_error",
+        "value": "Login Error",
+        "type": "TEXT"
+      },
+      "no_countries_available": {
+        "key": "no_countries_available",
+        "value": "No countries available.",
+        "type": "TEXT"
+      },
+      "loading_failed_tap_to_reload": {
+        "key": "loading_failed_tap_to_reload",
+        "value": "Loading Failed. Tap to reload.",
+        "type": "TEXT"
+      },
+      "no_categories_available": {
+        "key": "no_categories_available",
+        "value": "No categories available",
+        "type": "TEXT"
+      },
+      "no_items_available_for_purchase": {
+        "key": "no_items_available_for_purchase",
+        "value": "Sorry, there are currently no items available for purchase. Please try again later. Thank you.",
+        "type": "TEXT"
+      },
+      "no_leagues_available": {
+        "key": "no_leagues_available",
+        "value": "No leagues available.",
+        "type": "TEXT"
+      },
+      "no_more_data": {
+        "key": "no_more_data",
+        "value": "No more data",
+        "type": "TEXT"
+      },
+      "no_more_comments": {
+        "key": "no_more_comments",
+        "value": "- No more comments -",
+        "type": "TEXT"
+      },
+      "no_network_connection_check_and_try_again": {
+        "key": "no_network_connection_check_and_try_again",
+        "value": "No network connection.\nPlease check your network and try again.",
+        "type": "TEXT"
+      },
+      "no_more_records": {
+        "key": "no_more_records",
+        "value": "--No More Records--",
+        "type": "TEXT"
+      },
+      "no_more_results": {
+        "key": "no_more_results",
+        "value": "-No more results-",
+        "type": "TEXT"
+      },
+      "no_more_items": {
+        "key": "no_more_items",
+        "value": "No More Items",
+        "type": "TEXT"
+      },
+      "order_did_not_go_through_for_some_reason": {
+        "key": "order_did_not_go_through_for_some_reason",
+        "value": "The order did not go through for some reason. Please try again later.",
+        "type": "TEXT"
+      },
+      "something_went_wrong": {
+        "key": "something_went_wrong",
+        "value": "Something went wrong",
+        "type": "TEXT"
+      },
+      "save_failed": {
+        "key": "save_failed",
+        "value": "Save failed",
+        "type": "TEXT"
+      },
+      "request_pending": {
+        "key": "request_pending",
+        "value": "Request Pending",
+        "type": "TEXT"
+      },
+      "reset_password_done": {
+        "key": "reset_password_done",
+        "value": "Password Reset Succeeded",
+        "type": "TEXT"
+      },
+      "please_contact_our_customer_service_for_help": {
+        "key": "please_contact_our_customer_service_for_help",
+        "value": "Please contact our customer service for help.",
+        "type": "TEXT"
+      },
+      "something_went_wrong_please_try_again_later_thank_you": {
+        "key": "something_went_wrong_please_try_again_later_thank_you",
+        "value": "Something went wrong, please try again later. Thank you",
+        "type": "TEXT"
+      },
+      "something_went_wrong_please_try_again": {
+        "key": "something_went_wrong_please_try_again",
+        "value": "Something went wrong, please try again.",
+        "type": "TEXT"
+      },
+      "you_must_be_at_least_18_years_old": {
+        "key": "you_must_be_at_least_18_years_old",
+        "value": "You must be at least 18 years old",
+        "type": "TEXT"
+      },
+      "successfully_saved": {
+        "key": "successfully_saved",
+        "value": "Successfully Saved",
+        "type": "TEXT"
+      },
+      "your_order_has_been_submitted_awaiting_for_confirmation": {
+        "key": "your_order_has_been_submitted_awaiting_for_confirmation",
+        "value": "Your order has been submitted, awaiting for confirmation. Please check \"Sports Bet History\" in a while.",
+        "type": "TEXT"
+      },
+      "your_account_balance_is_insufficient_tip": {
+        "key": "your_account_balance_is_insufficient_tip",
+        "value": "There is not enough balance in your account to place this bet.",
+        "type": "TEXT"
+      },
+      "telegram_might_not_be_installed_tip": {
+        "key": "telegram_might_not_be_installed_tip",
+        "value": "Telegram might not be installed on your phone, install it and try again.",
+        "type": "TEXT"
+      },
+      "this_option_is_unavailable_in_your_browser_etc": {
+        "key": "this_option_is_unavailable_in_your_browser_etc",
+        "value": "This option is unavailable in your browser. Please, enable the sharing permission in your browser settings or try a different browser.",
+        "type": "TEXT"
+      },
+      "please_upload_a_valid_file": {
+        "key": "please_upload_a_valid_file",
+        "value": "Please upload a valid file",
+        "type": "TEXT"
+      },
+      "failed": {
+        "key": "failed",
+        "value": "Failed",
+        "type": "TEXT"
+      },
+      "network_issue_please_check_your_network_and_try_again": {
+        "key": "network_issue_please_check_your_network_and_try_again",
+        "value": "Something went wrong. Please check your network connection and try again later.",
+        "type": "TEXT"
+      },
+      "verification_failed": {
+        "key": "verification_failed",
+        "value": "Verification Failed",
+        "type": "TEXT"
+      },
+      "rate_limit_exceeded_title": {
+        "key": "rate_limit_exceeded_title",
+        "value": "Request Limit Reached",
+        "type": "TEXT"
+      },
+      "app_might_not_be_installed_tip": {
+        "key": "app_might_not_be_installed_tip",
+        "value": "{app} might not be installed on your phone, install it and try again.",
+        "type": "TEXT"
+      },
+      "no_favourites_data": {
+        "key": "no_favourites_data",
+        "value": "Star an item to add to My Favourites",
+        "type": "TEXT"
+      },
+      "please_try_again_later": {
+        "key": "please_try_again_later",
+        "value": "Please try again later.",
+        "type": "TEXT"
+      },
+      "please_wait": {
+        "key": "please_wait",
+        "value": "Please Wait",
+        "type": "TEXT"
+      },
+      "facial_recognition_error": {
+        "key": "facial_recognition_error",
+        "value": "An error occurred during your facial recognition. Kindly retry and follow the instructions, if you experience added difficulties, do not hesitate to reach out to our support team.",
+        "type": "TEXT"
+      },
+      "facial_recognition_error_msg_self_exclusion": {
+        "key": "facial_recognition_error_msg_self_exclusion",
+        "value": "We could not complete your self exclusion due to an error with you Facial Recognition process. Kindly attempt the Facial Recognition onboarding process again and follow the instructions, if you experience difficulties, do not hesitate to reach out to our support team for assistance.",
+        "type": "TEXT"
+      },
+      "something_went_wrong_please_try_again_later_2": {
+        "key": "something_went_wrong_please_try_again_later_2",
+        "value": "Something went wrong. Please try again later.",
+        "type": "TEXT"
+      },
+      "sorry_no_market_search_filter_result": {
+        "key": "sorry_no_market_search_filter_result",
+        "value": "Oops! While we found some results, none match your\nselected odds filter. Please adjust your filter criteria\nor explore other options.",
+        "type": "TEXT"
+      },
+      "sorry_no_market_search_result": {
+        "key": "sorry_no_market_search_result",
+        "value": "Oops! It seems there are no results matching your\nsearch. Please try different keywords.",
+        "type": "TEXT"
+      },
+      "bet_builder_platform_not_supported": {
+        "key": "bet_builder_platform_not_supported",
+        "value": "We don't support BetBuilder on this platform yet. Please switch to mobile to use this code",
+        "type": "TEXT"
+      },
+      "successfully_sent": {
+        "key": "successfully_sent",
+        "value": "Successfully sent",
+        "type": "TEXT"
+      },
+      "this_game_has_ended_and_is_no_longer_available": {
+        "key": "this_game_has_ended_and_is_no_longer_available",
+        "value": "This game has ended and is no longer available.",
+        "type": "TEXT"
+      }
+    },
+    "version": "1772091582000"
+  }
+}

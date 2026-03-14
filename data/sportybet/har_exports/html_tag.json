@@ -1,0 +1,506 @@
+{
+  "name": "html_tag",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/html_tag",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 99,
+  "payload": {
+    "keys": {
+      "title": {
+        "key": "title",
+        "value": "Online Sports Betting {country} & Live Betting Odds at ",
+        "type": "TEXT"
+      },
+      "description": {
+        "key": "description",
+        "value": "offers the best odds, a lite APP with the fastest live betting experience, instant deposits and withdrawals, and great bonuses. ",
+        "type": "TEXT"
+      },
+      "get_sporty_bet_sporty": {
+        "key": "get_sporty_bet_sporty",
+        "value": "Get Sporty, Bet Sporty!!!!",
+        "type": "TEXT"
+      },
+      "description_game": {
+        "key": "description_game",
+        "value": "'s Sporty Games is the Best Virtual Betting, Casino, and Poker Site that offers very easy and highly rewarding games.",
+        "type": "TEXT"
+      },
+      "keyword_live": {
+        "key": "keyword_live",
+        "value": "Live matches, overview, all sports, live score, live in play, live streaming, live bet, Sports Betting, Online Sports Betting, Live odds, sports live bet, football live bet",
+        "type": "TEXT"
+      },
+      "keyword_game": {
+        "key": "keyword_game",
+        "value": "sporty games, sportybet games, poker games, casino, gambling",
+        "type": "TEXT"
+      },
+      "keyword": {
+        "key": "keyword",
+        "value": "Sports Betting, Online Sports Betting, Live odds betting odds, best odds, football odds, live bet, epl betting, Premier league, Champions league betting, Place bet, Bet now, Multibet, sports betting website, soccer betting website",
+        "type": "TEXT"
+      },
+      "og_title": {
+        "key": "og_title",
+        "value": "I just placed a bet with SportyBet!",
+        "type": "TEXT"
+      },
+      "og_description": {
+        "key": "og_description",
+        "value": "Come join me, let's make it count!",
+        "type": "TEXT"
+      },
+      "og_title_iv": {
+        "key": "og_title_iv",
+        "value": "Select to Win!",
+        "type": "TEXT"
+      },
+      "og_description_iv": {
+        "key": "og_description_iv",
+        "value": "That is Instant Virtuals !!!",
+        "type": "TEXT"
+      },
+      "title_az_menu": {
+        "key": "title_az_menu",
+        "value": "AZ Menu",
+        "type": "TEXT"
+      },
+      "title_default": {
+        "key": "title_default",
+        "value": "Online Sports Betting International & Live Betting Odds at {brand}",
+        "type": "TEXT"
+      },
+      "title_deposit": {
+        "key": "title_deposit",
+        "value": "Deposit",
+        "type": "TEXT"
+      },
+      "title_help": {
+        "key": "title_help",
+        "value": "Help",
+        "type": "TEXT"
+      },
+      "title_transactions": {
+        "key": "title_transactions",
+        "value": "Transactions",
+        "type": "TEXT"
+      },
+      "title_me": {
+        "key": "title_me",
+        "value": "Me",
+        "type": "TEXT"
+      },
+      "title_sport": {
+        "key": "title_sport",
+        "value": "Sports",
+        "type": "TEXT"
+      },
+      "title_sports": {
+        "key": "title_sports",
+        "value": "Sports",
+        "type": "TEXT"
+      },
+      "title_withdraw": {
+        "key": "title_withdraw",
+        "value": "Withdraw",
+        "type": "TEXT"
+      },
+      "title_profile": {
+        "key": "title_profile",
+        "value": "Profile",
+        "type": "TEXT"
+      },
+      "title_identity_verification": {
+        "key": "title_identity_verification",
+        "value": "Identity verification",
+        "type": "TEXT"
+      },
+      "title_download_app": {
+        "key": "title_download_app",
+        "value": "Download App",
+        "type": "TEXT"
+      },
+      "title_virtuals-lobby": {
+        "key": "title_virtuals-lobby",
+        "value": "Virtuals",
+        "type": "TEXT"
+      },
+      "title_load_code": {
+        "key": "title_load_code",
+        "value": "Load code",
+        "type": "TEXT"
+      },
+      "title_my_account_info": {
+        "key": "title_my_account_info",
+        "value": "Profile",
+        "type": "TEXT"
+      },
+      "title_games": {
+        "key": "title_games",
+        "value": "Sporty Games",
+        "type": "TEXT"
+      },
+      "title_gifts": {
+        "key": "title_gifts",
+        "value": "Gifts",
+        "type": "TEXT"
+      },
+      "title_my_favourites": {
+        "key": "title_my_favourites",
+        "value": "My favourites",
+        "type": "TEXT"
+      },
+      "title_self_exclusion": {
+        "key": "title_self_exclusion",
+        "value": "Self exclusion",
+        "type": "TEXT"
+      },
+      "title_open_bets": {
+        "key": "title_open_bets",
+        "value": "Open Bets",
+        "type": "TEXT"
+      },
+      "title_promotions": {
+        "key": "title_promotions",
+        "value": "Promotions",
+        "type": "TEXT"
+      },
+      "title_live_results": {
+        "key": "title_live_results",
+        "value": "Results",
+        "type": "TEXT"
+      },
+      "title_instant_virtuals": {
+        "key": "title_instant_virtuals",
+        "value": "Instant Virtuals",
+        "type": "TEXT"
+      },
+      "title_live_betting": {
+        "key": "title_live_betting",
+        "value": "Live Betting",
+        "type": "TEXT"
+      },
+      "title_bet_history": {
+        "key": "title_bet_history",
+        "value": "Bet History",
+        "type": "TEXT"
+      },
+      "title_safety_and_security": {
+        "key": "title_safety_and_security",
+        "value": "Safety and Security",
+        "type": "TEXT"
+      },
+      "description_gifts": {
+        "key": "description_gifts",
+        "value": "Gifts",
+        "type": "TEXT"
+      },
+      "keywords_gifts": {
+        "key": "keywords_gifts",
+        "value": "Gifts",
+        "type": "TEXT"
+      },
+      "description_az_menu": {
+        "key": "description_az_menu",
+        "value": "AZ Menu",
+        "type": "TEXT"
+      },
+      "keywords_az_menu": {
+        "key": "keywords_az_menu",
+        "value": "AZ Menu",
+        "type": "TEXT"
+      },
+      "description_default": {
+        "key": "description_default",
+        "value": "{brand} offers the best odds, a lite APP with the fastest live betting experience, instant deposits and withdrawals, and great bonuses. ",
+        "type": "TEXT"
+      },
+      "keywords_default": {
+        "key": "keywords_default",
+        "value": "Sports Betting, Online Sports Betting, Live odds betting odds, best odds, football odds, live bet, epl betting, Premier league, Champions league betting, Place bet, Bet now, Multibet, sports betting website, soccer betting website",
+        "type": "TEXT"
+      },
+      "description_help": {
+        "key": "description_help",
+        "value": "Help",
+        "type": "TEXT"
+      },
+      "description_me": {
+        "key": "description_me",
+        "value": "Me",
+        "type": "TEXT"
+      },
+      "keywords_me": {
+        "key": "keywords_me",
+        "value": "Me",
+        "type": "TEXT"
+      },
+      "description_sport": {
+        "key": "description_sport",
+        "value": "Sports",
+        "type": "TEXT"
+      },
+      "keywords_sport": {
+        "key": "keywords_sport",
+        "value": "Sports",
+        "type": "TEXT"
+      },
+      "description_withdraw": {
+        "key": "description_withdraw",
+        "value": "Withdraw",
+        "type": "TEXT"
+      },
+      "keywords_withdraw": {
+        "key": "keywords_withdraw",
+        "value": "Withdraw",
+        "type": "TEXT"
+      },
+      "keywords_profile": {
+        "key": "keywords_profile",
+        "value": "Profile",
+        "type": "TEXT"
+      },
+      "description_identity_verification": {
+        "key": "description_identity_verification",
+        "value": "Identity verification",
+        "type": "TEXT"
+      },
+      "description_download_app": {
+        "key": "description_download_app",
+        "value": "Download App",
+        "type": "TEXT"
+      },
+      "keywords_virtuals-lobby": {
+        "key": "keywords_virtuals-lobby",
+        "value": "Virtuals",
+        "type": "TEXT"
+      },
+      "keywords_games": {
+        "key": "keywords_games",
+        "value": "{brand}, games, Sporty, {brand} Games, poker games, casino, gambling",
+        "type": "TEXT"
+      },
+      "keywords_my_favourites": {
+        "key": "keywords_my_favourites",
+        "value": "My favourites",
+        "type": "TEXT"
+      },
+      "keywords_open_bets": {
+        "key": "keywords_open_bets",
+        "value": "Open Bets",
+        "type": "TEXT"
+      },
+      "description_promotions": {
+        "key": "description_promotions",
+        "value": "Promotions",
+        "type": "TEXT"
+      },
+      "keywords_promotions": {
+        "key": "keywords_promotions",
+        "value": "Promotions",
+        "type": "TEXT"
+      },
+      "description_live_results": {
+        "key": "description_live_results",
+        "value": "Results",
+        "type": "TEXT"
+      },
+      "keywords_instant_virtuals": {
+        "key": "keywords_instant_virtuals",
+        "value": "football virtual, virtual betting, virtual sports betting, {brand} virtual, virtual bets site",
+        "type": "TEXT"
+      },
+      "keywords_safety_and_security": {
+        "key": "keywords_safety_and_security",
+        "value": "Safety and Security",
+        "type": "TEXT"
+      },
+      "description_deposit": {
+        "key": "description_deposit",
+        "value": "Deposit",
+        "type": "TEXT"
+      },
+      "keywords_transactions": {
+        "key": "keywords_transactions",
+        "value": "Transactions",
+        "type": "TEXT"
+      },
+      "description_sports": {
+        "key": "description_sports",
+        "value": "Sports",
+        "type": "TEXT"
+      },
+      "keywords_sports": {
+        "key": "keywords_sports",
+        "value": "Sports",
+        "type": "TEXT"
+      },
+      "keywords_identity_verification": {
+        "key": "keywords_identity_verification",
+        "value": "Identity verification",
+        "type": "TEXT"
+      },
+      "keywords_download_app": {
+        "key": "keywords_download_app",
+        "value": "Download App",
+        "type": "TEXT"
+      },
+      "description_virtuals-lobby": {
+        "key": "description_virtuals-lobby",
+        "value": "Virtuals",
+        "type": "TEXT"
+      },
+      "description_load_code": {
+        "key": "description_load_code",
+        "value": "Load code",
+        "type": "TEXT"
+      },
+      "keywords_load_code": {
+        "key": "keywords_load_code",
+        "value": "Load code",
+        "type": "TEXT"
+      },
+      "keywords_my_account_info": {
+        "key": "keywords_my_account_info",
+        "value": "Profile",
+        "type": "TEXT"
+      },
+      "description_games": {
+        "key": "description_games",
+        "value": "Enjoy {brand} Games and get the best games experience! {brand} Games is the Best Virtual Betting, Casino, and Poker Site that offers very easy and highly rewarding games.",
+        "type": "TEXT"
+      },
+      "description_my_favourites": {
+        "key": "description_my_favourites",
+        "value": "My favourites",
+        "type": "TEXT"
+      },
+      "description_self_exclusion": {
+        "key": "description_self_exclusion",
+        "value": "Self exclusion",
+        "type": "TEXT"
+      },
+      "keywords_self_exclusion": {
+        "key": "keywords_self_exclusion",
+        "value": "Self exclusion",
+        "type": "TEXT"
+      },
+      "description_live_betting": {
+        "key": "description_live_betting",
+        "value": "Live Betting",
+        "type": "TEXT"
+      },
+      "keywords_live_betting": {
+        "key": "keywords_live_betting",
+        "value": "Live matches, overview, all sports, live score, live in play, live streaming, live bet, Sports Betting, Online Sports Betting, Live odds, sports live bet, football live bet",
+        "type": "TEXT"
+      },
+      "description_bet_history": {
+        "key": "description_bet_history",
+        "value": "Bet History",
+        "type": "TEXT"
+      },
+      "keywords_bet_history": {
+        "key": "keywords_bet_history",
+        "value": "Bet History",
+        "type": "TEXT"
+      },
+      "description_safety_and_security": {
+        "key": "description_safety_and_security",
+        "value": "Safety and Security",
+        "type": "TEXT"
+      },
+      "keywords_deposit": {
+        "key": "keywords_deposit",
+        "value": "Deposit",
+        "type": "TEXT"
+      },
+      "keywords_help": {
+        "key": "keywords_help",
+        "value": "Help",
+        "type": "TEXT"
+      },
+      "description_transactions": {
+        "key": "description_transactions",
+        "value": "Transactions",
+        "type": "TEXT"
+      },
+      "description_profile": {
+        "key": "description_profile",
+        "value": "Profile",
+        "type": "TEXT"
+      },
+      "description_my_account_info": {
+        "key": "description_my_account_info",
+        "value": "Profile",
+        "type": "TEXT"
+      },
+      "description_open_bets": {
+        "key": "description_open_bets",
+        "value": "Open Bets",
+        "type": "TEXT"
+      },
+      "keywords_live_results": {
+        "key": "keywords_live_results",
+        "value": "Results",
+        "type": "TEXT"
+      },
+      "description_instant_virtuals": {
+        "key": "description_instant_virtuals",
+        "value": "Instant Virtuals is a virtual football game made available by {brand} that allows you to place real-money bets on computer-generated sports matches. In {brand} Instant Virtuals, each round has 10 matches, drawing on teams from England, Spain, Italy, and Germany.",
+        "type": "TEXT"
+      },
+      "title_live_result": {
+        "key": "title_live_result",
+        "value": "Results",
+        "type": "TEXT"
+      },
+      "description_live_result": {
+        "key": "description_live_result",
+        "value": "Results",
+        "type": "TEXT"
+      },
+      "keywords_live_result": {
+        "key": "keywords_live_result",
+        "value": "Results",
+        "type": "TEXT"
+      },
+      "title_mobile": {
+        "key": "title_mobile",
+        "value": "Download App",
+        "type": "TEXT"
+      },
+      "description_mobile": {
+        "key": "description_mobile",
+        "value": "Get the SportyBet App for a faster, more stable and more secure betting experience. Download now for free.",
+        "type": "TEXT"
+      },
+      "keywords_mobile": {
+        "key": "keywords_mobile",
+        "value": "download {brand} app, sports betting app, betting app, football betting app, soccer betting app, gambling app, {brand} mobile app, {brand} apk",
+        "type": "TEXT"
+      },
+      "page_title_codehub": {
+        "key": "page_title_codehub",
+        "value": "Discover thousands of booking codes one click away",
+        "type": "TEXT"
+      },
+      "page_description_codehub": {
+        "key": "page_description_codehub",
+        "value": "Today's most valuable football betting tip is available now. Get ahead with the top booking code for today's matches.",
+        "type": "TEXT"
+      },
+      "how_to_play_title": {
+        "key": "how_to_play_title",
+        "value": "How to play",
+        "type": "TEXT"
+      },
+      "title_app_download": {
+        "key": "title_app_download",
+        "value": "Download App",
+        "type": "TEXT"
+      }
+    },
+    "version": "1773067654000"
+  }
+}

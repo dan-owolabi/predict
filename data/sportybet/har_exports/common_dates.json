@@ -1,0 +1,381 @@
+{
+  "name": "common_dates",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/common_dates",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 74,
+  "payload": {
+    "keys": {
+      "sunday": {
+        "key": "sunday",
+        "value": "Sunday",
+        "type": "TEXT"
+      },
+      "monday": {
+        "key": "monday",
+        "value": "Monday",
+        "type": "TEXT"
+      },
+      "tuesday": {
+        "key": "tuesday",
+        "value": "Tuesday",
+        "type": "TEXT"
+      },
+      "wednesday": {
+        "key": "wednesday",
+        "value": "Wednesday",
+        "type": "TEXT"
+      },
+      "thursday": {
+        "key": "thursday",
+        "value": "Thursday",
+        "type": "TEXT"
+      },
+      "friday": {
+        "key": "friday",
+        "value": "Friday",
+        "type": "TEXT"
+      },
+      "saturday": {
+        "key": "saturday",
+        "value": "Saturday",
+        "type": "TEXT"
+      },
+      "today": {
+        "key": "today",
+        "value": "Today",
+        "type": "TEXT"
+      },
+      "tomorrow": {
+        "key": "tomorrow",
+        "value": "Tomorrow",
+        "type": "TEXT"
+      },
+      "to": {
+        "key": "to",
+        "value": "To",
+        "type": "TEXT"
+      },
+      "from": {
+        "key": "from",
+        "value": "From",
+        "type": "TEXT"
+      },
+      "jan": {
+        "key": "jan",
+        "value": "Jan",
+        "type": "TEXT"
+      },
+      "feb": {
+        "key": "feb",
+        "value": "Feb",
+        "type": "TEXT"
+      },
+      "mar": {
+        "key": "mar",
+        "value": "Mar",
+        "type": "TEXT"
+      },
+      "apr": {
+        "key": "apr",
+        "value": "Apr",
+        "type": "TEXT"
+      },
+      "may": {
+        "key": "may",
+        "value": "May",
+        "type": "TEXT"
+      },
+      "aug": {
+        "key": "aug",
+        "value": "Aug",
+        "type": "TEXT"
+      },
+      "sep": {
+        "key": "sep",
+        "value": "Sep",
+        "type": "TEXT"
+      },
+      "oct": {
+        "key": "oct",
+        "value": "Oct",
+        "type": "TEXT"
+      },
+      "nov": {
+        "key": "nov",
+        "value": "Nov",
+        "type": "TEXT"
+      },
+      "dec": {
+        "key": "dec",
+        "value": "Dec",
+        "type": "TEXT"
+      },
+      "june": {
+        "key": "june",
+        "value": "JUNE",
+        "type": "TEXT"
+      },
+      "july": {
+        "key": "july",
+        "value": "JULY",
+        "type": "TEXT"
+      },
+      "month": {
+        "key": "month",
+        "value": "Month",
+        "type": "TEXT"
+      },
+      "date": {
+        "key": "date",
+        "value": "Date",
+        "type": "TEXT"
+      },
+      "year": {
+        "key": "year",
+        "value": "Year",
+        "type": "TEXT"
+      },
+      "day": {
+        "key": "day",
+        "value": "Day",
+        "type": "TEXT"
+      },
+      "please_choose_a_month": {
+        "key": "please_choose_a_month",
+        "value": "Please choose a month.",
+        "type": "TEXT"
+      },
+      "please_choose_a_date": {
+        "key": "please_choose_a_date",
+        "value": "Please choose a date.",
+        "type": "TEXT"
+      },
+      "please_choose_a_year": {
+        "key": "please_choose_a_year",
+        "value": "Please choose a year.",
+        "type": "TEXT"
+      },
+      "vnum_hr_ago": {
+        "key": "vnum_hr_ago",
+        "value": "{num} hr ago",
+        "type": "TEXT"
+      },
+      "vnum_min_ago": {
+        "key": "vnum_min_ago",
+        "value": "{num} min ago",
+        "type": "TEXT"
+      },
+      "days": {
+        "key": "days",
+        "value": "Days",
+        "type": "TEXT"
+      },
+      "hours": {
+        "key": "hours",
+        "value": "Hours",
+        "type": "TEXT"
+      },
+      "minute_short": {
+        "key": "minute_short",
+        "value": "Min.",
+        "type": "TEXT"
+      },
+      "second_short": {
+        "key": "second_short",
+        "value": "Sec.",
+        "type": "TEXT"
+      },
+      "minutes": {
+        "key": "minutes",
+        "value": "Minutes",
+        "type": "TEXT"
+      },
+      "seconds": {
+        "key": "seconds",
+        "value": "Seconds",
+        "type": "TEXT"
+      },
+      "jun": {
+        "key": "jun",
+        "value": "Jun",
+        "type": "TEXT"
+      },
+      "jul": {
+        "key": "jul",
+        "value": "Jul",
+        "type": "TEXT"
+      },
+      "weekend": {
+        "key": "weekend",
+        "value": "Weekend",
+        "type": "TEXT"
+      },
+      "custom_date": {
+        "key": "custom_date",
+        "value": "Custom Date",
+        "type": "TEXT"
+      },
+      "custom_time": {
+        "key": "custom_time",
+        "value": "Custom Time",
+        "type": "TEXT"
+      },
+      "dd": {
+        "key": "dd",
+        "value": "DD",
+        "type": "TEXT"
+      },
+      "mm": {
+        "key": "mm",
+        "value": "MM",
+        "type": "TEXT"
+      },
+      "yyyy": {
+        "key": "yyyy",
+        "value": "YYYY",
+        "type": "TEXT"
+      },
+      "short_monday": {
+        "key": "short_monday",
+        "value": "Mon",
+        "type": "TEXT"
+      },
+      "short_sunday": {
+        "key": "short_sunday",
+        "value": "Sun",
+        "type": "TEXT"
+      },
+      "short_tuesday": {
+        "key": "short_tuesday",
+        "value": "Tue",
+        "type": "TEXT"
+      },
+      "short_wednesday": {
+        "key": "short_wednesday",
+        "value": "Wed",
+        "type": "TEXT"
+      },
+      "short_thursday": {
+        "key": "short_thursday",
+        "value": "Thu",
+        "type": "TEXT"
+      },
+      "short_friday": {
+        "key": "short_friday",
+        "value": "Fri",
+        "type": "TEXT"
+      },
+      "short_saturday": {
+        "key": "short_saturday",
+        "value": "Sat",
+        "type": "TEXT"
+      },
+      "vnext_hours": {
+        "key": "vnext_hours",
+        "value": "Next {num} Hours",
+        "type": "TEXT"
+      },
+      "vshort_next_hours": {
+        "key": "vshort_next_hours",
+        "value": "{num}H",
+        "type": "TEXT"
+      },
+      "years": {
+        "key": "years",
+        "value": "Years",
+        "type": "TEXT"
+      },
+      "minutes_short": {
+        "key": "minutes_short",
+        "value": "Mins",
+        "type": "TEXT"
+      },
+      "hours_short": {
+        "key": "hours_short",
+        "value": "Hrs",
+        "type": "TEXT"
+      },
+      "day_short": {
+        "key": "day_short",
+        "value": "D",
+        "type": "TEXT"
+      },
+      "all": {
+        "key": "all",
+        "value": "All",
+        "type": "TEXT"
+      },
+      "_3_hours": {
+        "key": "_3_hours",
+        "value": "3 hours",
+        "type": "TEXT"
+      },
+      "days_lowercase": {
+        "key": "days_lowercase",
+        "value": "days",
+        "type": "TEXT"
+      },
+      "short2_monday": {
+        "key": "short2_monday",
+        "value": "Mo",
+        "type": "TEXT"
+      },
+      "short2_tuesday": {
+        "key": "short2_tuesday",
+        "value": "Tu",
+        "type": "TEXT"
+      },
+      "short2_wednesday": {
+        "key": "short2_wednesday",
+        "value": "We",
+        "type": "TEXT"
+      },
+      "short2_thursday": {
+        "key": "short2_thursday",
+        "value": "Th",
+        "type": "TEXT"
+      },
+      "short2_friday": {
+        "key": "short2_friday",
+        "value": "Fr",
+        "type": "TEXT"
+      },
+      "short2_saturday": {
+        "key": "short2_saturday",
+        "value": "Sa",
+        "type": "TEXT"
+      },
+      "short2_sunday": {
+        "key": "short2_sunday",
+        "value": "Su",
+        "type": "TEXT"
+      },
+      "day_lowercase": {
+        "key": "day_lowercase",
+        "value": "day",
+        "type": "TEXT"
+      },
+      "this_weekend": {
+        "key": "this_weekend",
+        "value": "This Weekend",
+        "type": "TEXT"
+      },
+      "choose_a_day": {
+        "key": "choose_a_day",
+        "value": "Choose a Day",
+        "type": "TEXT"
+      },
+      "duration_format_days_hours": {
+        "key": "duration_format_days_hours",
+        "value": "{day}D {hour}H",
+        "type": "TEXT"
+      },
+      "duration_format_hours_minutes": {
+        "key": "duration_format_hours_minutes",
+        "value": "{hour}H {minute}M",
+        "type": "TEXT"
+      }
+    },
+    "version": "1771522799000"
+  }
+}

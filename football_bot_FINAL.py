@@ -34,8 +34,20 @@ from results_tracker import (
     get_results_text, get_accuracy_summary
 )
 
+try:
+    from sportybet_value import attach_market_prices
+except Exception:
+    attach_market_prices = None
+
+try:
+    from player_prop_inference import rank_fixture_players
+except Exception:
+    rank_fixture_players = None
+
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("telegram").setLevel(logging.WARNING)
 
 # ============================================================
 # CONFIG
@@ -44,6 +56,9 @@ BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
 BASE_DIR = Path(__file__).parent
 FIXTURES_PATH = BASE_DIR / "weekly_fixtures.json"
+CV_RESULTS_PATH = BASE_DIR / "cv_results_enriched.csv"
+ADDITIONAL_MARKET_DIR = BASE_DIR / "market_models"
+ADDITIONAL_CV_PATH = BASE_DIR / "market_cv_results.csv"
 
 # ============================================================
 # LOAD PRODUCTION MODELS
@@ -65,11 +80,88 @@ try:
 
     TEAMS_LIST = sorted(list(set(HISTORICAL_DF['HomeTeam'].unique()) | set(HISTORICAL_DF['AwayTeam'].unique())))
     MEDIAN_ODDS = HISTORICAL_DF.median(numeric_only=True).to_dict()
+    TEAM_LATEST_ELO = {}
+    TEAM_LATEST_ELO_RANK = {}
+    if all(c in HISTORICAL_DF.columns for c in ['home_elo', 'away_elo']):
+        home_elo_df = HISTORICAL_DF[['Date', 'HomeTeam', 'home_elo']].rename(
+            columns={'HomeTeam': 'Team', 'home_elo': 'elo'})
+        away_elo_df = HISTORICAL_DF[['Date', 'AwayTeam', 'away_elo']].rename(
+            columns={'AwayTeam': 'Team', 'away_elo': 'elo'})
+        elo_df = pd.concat([home_elo_df, away_elo_df], ignore_index=True)
+        elo_df = elo_df.dropna(subset=['elo']).sort_values('Date')
+        TEAM_LATEST_ELO = elo_df.groupby('Team').tail(1).set_index('Team')['elo'].to_dict()
+    if all(c in HISTORICAL_DF.columns for c in ['home_elo_rank', 'away_elo_rank']):
+        home_rank_df = HISTORICAL_DF[['Date', 'HomeTeam', 'home_elo_rank']].rename(
+            columns={'HomeTeam': 'Team', 'home_elo_rank': 'elo_rank'})
+        away_rank_df = HISTORICAL_DF[['Date', 'AwayTeam', 'away_elo_rank']].rename(
+            columns={'AwayTeam': 'Team', 'away_elo_rank': 'elo_rank'})
+        rank_df = pd.concat([home_rank_df, away_rank_df], ignore_index=True)
+        rank_df = rank_df.dropna(subset=['elo_rank']).sort_values('Date')
+        TEAM_LATEST_ELO_RANK = rank_df.groupby('Team').tail(1).set_index('Team')['elo_rank'].to_dict()
 
 except Exception as e:
     print(f"Failed to load models: {e}")
     print("Run `python train_final_models.py` first.")
     exit(1)
+
+
+
+def _load_market_history(path):
+    """Load average backtest accuracy by target from the enriched CV file."""
+    if not path.exists():
+        return {}
+    try:
+        cv_df = pd.read_csv(path)
+        if cv_df.empty or "target" not in cv_df.columns or "Ensemble_acc" not in cv_df.columns:
+            return {}
+        grouped = cv_df.groupby("target", as_index=False)["Ensemble_acc"].mean()
+        label_map = {
+            "1x2": "1X2",
+            "btts": "GG/NG",
+            "over25": "OVER/UNDER 2.5",
+        }
+        out = {}
+        for _, row in grouped.iterrows():
+            key = label_map.get(str(row["target"]).strip().lower())
+            if key:
+                out[key] = float(row["Ensemble_acc"]) * 100.0
+        return out
+    except Exception as exc:
+        logger.warning(f"Could not load market history from {path.name}: {exc}")
+        return {}
+
+
+MARKET_HIST_ACC = _load_market_history(CV_RESULTS_PATH)
+
+def _load_additional_market_bundle():
+    if not ADDITIONAL_MARKET_DIR.exists():
+        return [], None, [], {}
+    manifest_path = ADDITIONAL_MARKET_DIR / "manifest.json"
+    artifacts_path = ADDITIONAL_MARKET_DIR / "artifacts.pkl"
+    if not manifest_path.exists() or not artifacts_path.exists():
+        return [], None, [], {}
+    try:
+        with open(manifest_path, "r", encoding="utf-8") as f:
+            manifest = json.load(f)
+        with open(artifacts_path, "rb") as f:
+            artifacts = pickle.load(f)
+        hist_map = {}
+        if ADDITIONAL_CV_PATH.exists():
+            cv_df = pd.read_csv(ADDITIONAL_CV_PATH)
+            if not cv_df.empty and "target" in cv_df.columns and "Model_acc" in cv_df.columns:
+                hist_map = (cv_df.groupby("target")["Model_acc"].mean() * 100.0).to_dict()
+        models = []
+        for spec in manifest:
+            model_path = ADDITIONAL_MARKET_DIR / spec["model_file"]
+            if model_path.exists():
+                models.append((spec, lgb.Booster(model_file=str(model_path))))
+        return models, artifacts.get("imputer"), artifacts.get("feature_cols", []), hist_map
+    except Exception as exc:
+        logger.warning(f"Could not load additional market models: {exc}")
+        return [], None, [], {}
+
+
+ADDITIONAL_MARKET_MODELS, ADDITIONAL_IMPUTER, ADDITIONAL_FEATURE_COLS, ADDITIONAL_MARKET_HIST = _load_additional_market_bundle()
 
 
 # ============================================================
@@ -204,6 +296,15 @@ DEFAULT_FIXTURES = [
 ]
 
 def load_fixtures():
+    if FIXTURES_PATH.exists():
+        try:
+            with open(FIXTURES_PATH, "r", encoding="utf-8") as f:
+                payload = json.load(f)
+            if isinstance(payload, list) and payload:
+                return payload
+            logger.warning(f"{FIXTURES_PATH.name} is empty or invalid, using default fixtures")
+        except Exception as exc:
+            logger.warning(f"Could not load {FIXTURES_PATH.name}: {exc}")
     return DEFAULT_FIXTURES
 
 
@@ -256,6 +357,26 @@ def generate_match_features(home, away, b365h=None, b365d=None, b365a=None, b365
     for col in FPL_FEATURE_COLS + WEATHER_FEATURE_COLS:
         if col in FEATURE_COLS and col in ext_feats:
             last_row[col] = ext_feats[col]
+
+    # 4b. Inject latest ClubElo snapshot proxies if model expects them
+    if 'home_elo' in FEATURE_COLS:
+        last_row['home_elo'] = TEAM_LATEST_ELO.get(home, np.nan)
+    if 'away_elo' in FEATURE_COLS:
+        last_row['away_elo'] = TEAM_LATEST_ELO.get(away, np.nan)
+    if 'elo_diff' in FEATURE_COLS:
+        last_row['elo_diff'] = (TEAM_LATEST_ELO.get(home, np.nan) - TEAM_LATEST_ELO.get(away, np.nan))
+    if 'home_elo_rank' in FEATURE_COLS:
+        last_row['home_elo_rank'] = TEAM_LATEST_ELO_RANK.get(home, np.nan)
+    if 'away_elo_rank' in FEATURE_COLS:
+        last_row['away_elo_rank'] = TEAM_LATEST_ELO_RANK.get(away, np.nan)
+    if 'elo_rank_diff' in FEATURE_COLS:
+        last_row['elo_rank_diff'] = (TEAM_LATEST_ELO_RANK.get(away, np.nan) -
+                                     TEAM_LATEST_ELO_RANK.get(home, np.nan))
+
+    # Ensure all expected model columns exist for inference
+    for col in FEATURE_COLS:
+        if col not in last_row.columns:
+            last_row[col] = np.nan
 
     # 5. Impute
     raw_feats = last_row[FEATURE_COLS].apply(pd.to_numeric, errors='coerce').values.astype(np.float64)
@@ -400,6 +521,35 @@ def run_predictions(home, away, b365h=None, b365d=None, b365a=None, b365_over=No
     adj_scores.sort(key=lambda x: -x[1])
     top_scores = adj_scores[:3]
 
+    extra_markets = []
+    if ADDITIONAL_MARKET_MODELS and ADDITIONAL_IMPUTER is not None and ADDITIONAL_FEATURE_COLS:
+        extra_row = row_df.copy()
+        for col in ADDITIONAL_FEATURE_COLS:
+            if col not in extra_row.columns:
+                extra_row[col] = np.nan
+        extra_raw = extra_row[ADDITIONAL_FEATURE_COLS].apply(pd.to_numeric, errors="coerce").values.astype(np.float64)
+        extra_X = np.nan_to_num(ADDITIONAL_IMPUTER.transform(extra_raw), nan=0.0, posinf=0.0, neginf=0.0)
+        extra_dc_stack = np.array([[dc_ou25, dc_btts, dc_home, dc_draw, dc_away]])
+        extra_full = np.nan_to_num(np.column_stack([extra_X, extra_dc_stack]), nan=0.0, posinf=0.0, neginf=0.0)
+        for spec, model in ADDITIONAL_MARKET_MODELS:
+            prob_over = float(model.predict(extra_full)[0])
+            positive_pick = spec.get("pick", "OVER")
+            if "GG" in positive_pick:
+                pick = positive_pick if prob_over >= 0.5 else "NG"
+                market_name = spec["market"]
+            else:
+                pick = "OVER" if prob_over >= 0.5 else "UNDER"
+                market_name = f"{spec['market']} {spec['line']:.1f}"
+            extra_markets.append({
+                "target": spec["target"],
+                "market": market_name,
+                "pick": pick,
+                "est_accuracy": max(prob_over, 1.0 - prob_over) * 100.0,
+                "hist_accuracy": ADDITIONAL_MARKET_HIST.get(spec["target"]),
+                "baseline": 50.0,
+                "base_rate": float(spec.get("base_rate", 0.5)) * 100.0,
+            })
+
     return {
         'ou25': float(ens_ou25),
         'ou15': float(ens_ou15),
@@ -413,7 +563,8 @@ def run_predictions(home, away, b365h=None, b365d=None, b365a=None, b365_over=No
         'exact_score_prob': float(exact_score_prob),
         'top_scores': top_scores,
         'data_sources': data_sources,
-        'row': row_df
+        'row': row_df,
+        'extra_markets': extra_markets,
     }
 
 
@@ -431,83 +582,263 @@ def _conf_icon(conf, baseline=50):
     return "🔴"
 
 
+
+def _market_rankings(res):
+    """Return ranked fixture-level picks across modeled markets."""
+    p_1x2 = res["1x2"]
+    winner_idx = max(range(3), key=lambda i: p_1x2[i])
+    winner_pick = ["HOME WIN", "DRAW", "AWAY WIN"][winner_idx]
+    conf_1x2 = float(p_1x2[winner_idx] * 100.0)
+
+    po25 = float(res["ou25"])
+    conf_25 = max(po25, 1.0 - po25) * 100.0
+    pick_25 = "OVER 2.5" if po25 > 0.5 else "UNDER 2.5"
+
+    po15 = float(res["ou15"])
+    conf_15 = max(po15, 1.0 - po15) * 100.0
+    pick_15 = "OVER 1.5" if po15 > 0.5 else "UNDER 1.5"
+
+    pbtts = float(res["btts"])
+    conf_btts = max(pbtts, 1.0 - pbtts) * 100.0
+    pick_btts = "GG" if pbtts > 0.5 else "NG"
+
+    exact_pick = str(res["exact_score"])
+    exact_conf = float(res.get("exact_score_prob", 0.0) * 100.0)
+
+    rows = [
+        {"market": "1X2", "pick": winner_pick, "est_accuracy": conf_1x2,
+         "hist_accuracy": MARKET_HIST_ACC.get("1X2"), "baseline": 33.0, "base_rate": None},
+        {"market": "OVER/UNDER 2.5", "pick": pick_25, "est_accuracy": conf_25,
+         "hist_accuracy": MARKET_HIST_ACC.get("OVER/UNDER 2.5"), "baseline": 50.0, "base_rate": None},
+        {"market": "OVER/UNDER 1.5", "pick": pick_15, "est_accuracy": conf_15,
+         "hist_accuracy": None, "baseline": 50.0, "base_rate": None},
+        {"market": "GG/NG", "pick": pick_btts, "est_accuracy": conf_btts,
+         "hist_accuracy": MARKET_HIST_ACC.get("GG/NG"), "baseline": 50.0, "base_rate": None},
+        {"market": "EXACT SCORE", "pick": exact_pick, "est_accuracy": exact_conf,
+         "hist_accuracy": None, "baseline": 0.0, "base_rate": None},
+    ]
+    rows.extend(res.get("extra_markets", []))
+    for row in rows:
+        row["edge"] = row["est_accuracy"] - row["baseline"]
+        hist = row.get("hist_accuracy")
+        hist_bonus = 0.0 if hist is None or pd.isna(hist) else max(0.0, hist - max(row["baseline"], 50.0)) * 0.15
+        base_rate = row.get("base_rate")
+        majority_penalty = 0.0
+        if base_rate is not None and not pd.isna(base_rate):
+            majority_penalty = max(0.0, abs(base_rate - 50.0) - 12.0) * 0.10
+        row["builder_score"] = row["edge"] + hist_bonus - majority_penalty
+        row["book_odds"] = row.get("book_odds")
+        row["implied_prob"] = row.get("implied_prob")
+        row["value_edge"] = row.get("value_edge")
+    rows.sort(key=lambda row: (-row["est_accuracy"], row["market"]))
+    return rows
+
+
+def _market_family(row):
+    market = row["market"]
+    if market.startswith("HOME SHOTS"):
+        return "home_attack_volume"
+    if market.startswith("AWAY SHOTS"):
+        return "away_attack_volume"
+    if market.startswith("HOME SOT"):
+        return "home_attack_quality"
+    if market.startswith("AWAY SOT"):
+        return "away_attack_quality"
+    if market.startswith("SHOTS ON TARGET"):
+        return "match_sot"
+    if market.startswith("SHOTS"):
+        return "match_shots"
+    if market.startswith("HOME CORNERS"):
+        return "home_corners"
+    if market.startswith("AWAY CORNERS"):
+        return "away_corners"
+    if market.startswith("CORNERS"):
+        return "match_corners"
+    if market.startswith("HOME BOOKINGS"):
+        return "home_bookings"
+    if market.startswith("AWAY BOOKINGS"):
+        return "away_bookings"
+    if market.startswith("BOOKINGS"):
+        return "match_bookings"
+    if market.startswith("HOME FOULS"):
+        return "home_fouls"
+    if market.startswith("AWAY FOULS"):
+        return "away_fouls"
+    if market.startswith("FOULS"):
+        return "match_fouls"
+    if market.startswith("1ST HALF GOALS"):
+        return "first_half_goals"
+    if market.startswith("1ST HALF GG/NG"):
+        return "first_half_btts"
+    if market.startswith("OVER/UNDER"):
+        return "match_goals"
+    if market == "GG/NG":
+        return "match_btts"
+    if market == "1X2":
+        return "match_result"
+    if market == "EXACT SCORE":
+        return "match_score"
+    return market.lower()
+
+
+def _family_conflicts(family):
+    groups = {
+        "home_attack_volume": {"home_attack_volume", "home_attack_quality", "match_shots", "match_sot", "match_goals", "match_btts"},
+        "away_attack_volume": {"away_attack_volume", "away_attack_quality", "match_shots", "match_sot", "match_goals", "match_btts"},
+        "home_attack_quality": {"home_attack_volume", "home_attack_quality", "match_shots", "match_sot", "match_goals", "match_btts"},
+        "away_attack_quality": {"away_attack_volume", "away_attack_quality", "match_shots", "match_sot", "match_goals", "match_btts"},
+        "match_shots": {"match_shots", "home_attack_volume", "away_attack_volume", "match_sot"},
+        "match_sot": {"match_sot", "home_attack_quality", "away_attack_quality", "match_shots"},
+        "match_goals": {"match_goals", "match_btts", "first_half_goals", "first_half_btts"},
+        "match_btts": {"match_btts", "match_goals", "first_half_btts"},
+        "first_half_goals": {"first_half_goals", "first_half_btts", "match_goals"},
+        "first_half_btts": {"first_half_btts", "first_half_goals", "match_btts", "match_goals"},
+        "match_bookings": {"match_bookings", "home_bookings", "away_bookings", "match_fouls"},
+        "home_bookings": {"home_bookings", "match_bookings"},
+        "away_bookings": {"away_bookings", "match_bookings"},
+        "match_fouls": {"match_fouls", "home_fouls", "away_fouls", "match_bookings"},
+        "home_fouls": {"home_fouls", "match_fouls"},
+        "away_fouls": {"away_fouls", "match_fouls"},
+        "match_corners": {"match_corners", "home_corners", "away_corners"},
+        "home_corners": {"home_corners", "match_corners"},
+        "away_corners": {"away_corners", "match_corners"},
+    }
+    return groups.get(family, {family})
+
+
+def _sorted_market_rankings(home, away, rankings):
+    if attach_market_prices is None:
+        return rankings, None, rankings[0]
+    priced = attach_market_prices(home, away, rankings)
+    value_rows = [row for row in priced if row.get("value_edge") is not None]
+    top_value = max(value_rows, key=lambda x: (x["value_edge"], x["edge"], x["est_accuracy"])) if value_rows else None
+    sorted_rows = sorted(
+        priced,
+        key=lambda row: (
+            row.get("value_edge") is None,
+            -(row.get("value_edge") if row.get("value_edge") is not None else row.get("est_accuracy", 0.0)),
+            -row.get("est_accuracy", 0.0),
+            row.get("market", ""),
+        )
+    )
+    return sorted_rows, top_value, rankings[0]
+
+
+def _build_bet_builder(rankings, limit=3):
+    selected = []
+    blocked = set()
+    for row in sorted(rankings, key=lambda x: (-(x.get("value_edge") if x.get("value_edge") is not None else -999), -x.get("builder_score", 0.0), -x["est_accuracy"], x["market"])):
+        family = _market_family(row)
+        if family in {"match_score", "match_result"}:
+            continue
+        if row["edge"] < 6:
+            continue
+        hist = row.get("hist_accuracy")
+        if hist is not None and not pd.isna(hist) and hist < 60:
+            continue
+        if family in blocked:
+            continue
+        selected.append(row)
+        blocked.update(_family_conflicts(family))
+        if len(selected) >= limit:
+            break
+    return selected
+
+def _fmt_hist_accuracy(value):
+    return "n/a" if value is None or pd.isna(value) else f"{float(value):.1f}%"
+
 def format_unified_prediction(home, away, res):
     """Format 5-market prediction card for Telegram."""
-    # 1X2
-    p_1x2 = res['1x2']
+    p_1x2 = res["1x2"]
     winner_idx = max(range(3), key=lambda i: p_1x2[i])
-    winner_labels = ['🏠 HOME WIN', '🤝 DRAW', '✈️ AWAY WIN']
+    winner_labels = ["HOME WIN", "DRAW", "AWAY WIN"]
     winner_str = winner_labels[winner_idx]
     conf_1x2 = p_1x2[winner_idx] * 100
 
-    # OU2.5
-    po25 = res['ou25']
-    str_o25 = "⬆️ OVER 2.5" if po25 > 0.5 else "⬇️ UNDER 2.5"
+    po25 = res["ou25"]
+    str_o25 = "OVER 2.5" if po25 > 0.5 else "UNDER 2.5"
     conf_25 = max(po25, 1-po25) * 100
 
-    # OU1.5
-    po15 = res['ou15']
-    str_o15 = "⬆️ OVER 1.5" if po15 > 0.5 else "⬇️ UNDER 1.5"
+    po15 = res["ou15"]
+    str_o15 = "OVER 1.5" if po15 > 0.5 else "UNDER 1.5"
     conf_15 = max(po15, 1-po15) * 100
 
-    # BTTS
-    pbtts = res['btts']
-    str_btts = "YES" if pbtts > 0.5 else "NO"
+    pbtts = res["btts"]
+    str_btts = "GG" if pbtts > 0.5 else "NG"
     conf_btts = max(pbtts, 1-pbtts) * 100
 
-    # Exact Score
-    top = res['top_scores']
+    top = res["top_scores"]
+    rankings = _market_rankings(res)
+    display_rankings, top_value_market, top_hit_market = _sorted_market_rankings(home, away, rankings)
+    top_market = top_value_market or top_hit_market
+    builder_legs = _build_bet_builder(display_rankings)
+    top_edge = top_market["edge"]
+    if top_edge >= 8:
+        adv = "Strong edge"
+    elif top_edge >= 3:
+        adv = "Moderate edge"
+    else:
+        adv = "Low edge"
 
-    # Best advice
-    best_c = max(conf_1x2 - 33, conf_25 - 50, conf_15 - 50, conf_btts - 50)
-    if best_c >= 8:     adv = "💎 Strong edge detected"
-    elif best_c >= 3:   adv = "⚡ Moderate edge"
-    else:               adv = "💤 Low edge — consider skipping"
-
-    # Save prediction for tracking
-    date_str = datetime.now().strftime('%Y-%m-%d')
+    date_str = datetime.now().strftime("%Y-%m-%d")
     save_match_prediction(home, away, date_str, res)
 
-    # Data source indicators
-    sources = res.get('data_sources', ['median'])
-    src_icons = []
-    if 'live' in sources: src_icons.append("📡 Odds")
-    else: src_icons.append("📊 Odds")
-    if 'fpl' in sources: src_icons.append("👥 FPL")
-    if 'weather' in sources: src_icons.append("🌤️ Wx")
-    src_str = " │ ".join(src_icons)
+    player_props = rank_fixture_players(home, away, top_n=5) if rank_fixture_players is not None else pd.DataFrame()
 
-    # Build the card
-    L = "┃"
+    sources = res.get("data_sources", ["median"])
+    src_labels = []
+    if "live" in sources:
+        src_labels.append("Live odds")
+    else:
+        src_labels.append("Median odds")
+    if "fpl" in sources:
+        src_labels.append("FPL")
+    if "weather" in sources:
+        src_labels.append("Weather")
+    src_str = " | ".join(src_labels)
+
     lines = [
-        f"┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓",
-        f"{L}  ⚽ {home} vs {away}",
-        f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
-        f"{L}  📊 MATCH RESULT",
-        f"{L}  {_conf_icon(conf_1x2, 33)} {winner_str}  ({conf_1x2:.0f}%)",
-        f"{L}  {_bar(conf_1x2)}",
-        f"{L}  H {p_1x2[0]*100:.0f}%  │  D {p_1x2[1]*100:.0f}%  │  A {p_1x2[2]*100:.0f}%",
-        f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
-        f"{L}  📈 GOALS",
-        f"{L}  {_conf_icon(conf_25, 50)} {str_o25}  ({conf_25:.1f}%)",
-        f"{L}  {_bar(conf_25)}",
-        f"{L}  {_conf_icon(conf_15, 50)} {str_o15}  ({conf_15:.1f}%)",
-        f"{L}  {_bar(conf_15)}",
-        f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
-        f"{L}  🤝 BOTH TEAMS TO SCORE",
-        f"{L}  {_conf_icon(conf_btts, 50)} GG: {str_btts}  ({conf_btts:.1f}%)",
-        f"{L}  {_bar(conf_btts)}",
-        f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
-        f"{L}  🎯 EXACT SCORE",
+        f"{home} vs {away}",
+        "",
+        f"Top recommendation: {top_market['market']} -> {top_market['pick']} ({top_market['est_accuracy']:.1f}% est)",
+        f"Historical accuracy: {_fmt_hist_accuracy(top_market['hist_accuracy'])}",
+        f"Value edge: {top_market['value_edge']:+.1f}%" if top_market.get('value_edge') is not None else "Value edge: n/a",
+        f"Highest hit-rate market: {top_hit_market['market']} -> {top_hit_market['pick']} ({top_hit_market['est_accuracy']:.1f}% est)",
+        f"Edge grade: {adv}",
+        "",
+        "All market accuracy:",
+    ]
+    for row in display_rankings:
+        extra = ""
+        if row.get("book_odds") is not None and row.get("value_edge") is not None:
+            extra = f" | odds {row['book_odds']:.2f} | value {row['value_edge']:+.1f}%"
+        lines.append(
+            f"- {row['market']}: {row['pick']} | est {row['est_accuracy']:.1f}% | hist {_fmt_hist_accuracy(row.get('hist_accuracy'))}{extra}"
+        )
+    if builder_legs:
+        lines += ["", "Bet builder shortlist:"]
+        for idx, row in enumerate(builder_legs, 1):
+            lines.append(
+                f"- Leg {idx}: {row['market']} -> {row['pick']} | est {row['est_accuracy']:.1f}% | edge {row['edge']:.1f}%"
+            )
+    if not player_props.empty:
+        lines += ["", "Top player props:"]
+        for _, prow in player_props.head(5).iterrows():
+            lines.append(
+                f"- {prow['player']} ({prow['team']}): {prow['label']} YES | prob {prow['prob_yes']:.1f}% | edge {prow['edge']:.1f}%"
+            )
+    lines += [
+        "",
+        "1X2 split:",
+        f"- Home {p_1x2[0] * 100:.1f}% | Draw {p_1x2[1] * 100:.1f}% | Away {p_1x2[2] * 100:.1f}%",
+        "",
+        "Top exact scores:",
     ]
     for s, p in top[:3]:
-        pct = p * 100
-        lines.append(f"{L}    {s}  ({pct:.0f}%)  {_bar(pct, 6)}")
+        lines.append(f"- {s}: {p * 100:.1f}%")
     lines += [
-        f"┣━━━━━━━━━━━━━━━━━━━━━━━━━━━┫",
-        f"{L}  {adv}",
-        f"{L}  {src_str}",
-        f"┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛",
+        "",
+        f"Data sources: {src_str}",
     ]
     return "\n".join(lines)
 
@@ -537,35 +868,28 @@ def get_weekly_predictions(week_idx=0, high_only=False):
 
         res = run_predictions(home, away)
 
-        # 1X2
-        p_1x2 = res['1x2']
-        pred_1x2 = ['H', 'D', 'A'][max(range(3), key=lambda i: p_1x2[i])]
-        c1x2 = max(p_1x2) * 100
+        rankings = _market_rankings(res)
+        display_rankings, top_value_market, top_hit_market = _sorted_market_rankings(home, away, rankings)
+        top_market = top_value_market or top_hit_market
+        builder_legs = _build_bet_builder(display_rankings)
+        one_x_two = next(row for row in display_rankings if row["market"] == "1X2")
+        ou25 = next(row for row in display_rankings if row["market"] == "OVER/UNDER 2.5")
+        ou15 = next(row for row in display_rankings if row["market"] == "OVER/UNDER 1.5")
+        ggn = next(row for row in display_rankings if row["market"] == "GG/NG")
+        exact = next(row for row in display_rankings if row["market"] == "EXACT SCORE")
 
-        # OU2.5
-        o25 = "O" if res['ou25'] > 0.5 else "U"
-        c25 = max(res['ou25'], 1-res['ou25']) * 100
-
-        # OU1.5
-        o15 = "O" if res['ou15'] > 0.5 else "U"
-        c15 = max(res['ou15'], 1-res['ou15']) * 100
-
-        # BTTS
-        btts = "GG" if res['btts'] > 0.5 else "NG"
-        cb = max(res['btts'], 1-res['btts']) * 100
-
-        # Exact score
-        score = res['exact_score']
-
-        # High confidence check
-        is_hi = (c1x2 - 33 >= 8) or (c25 - 50 >= 7) or (cb - 50 >= 7)
+        is_hi = (top_market["est_accuracy"] - top_market["baseline"]) >= 7
         if high_only and not is_hi: continue
         if is_hi: hi_n += 1
-        flag = "🔥" if is_hi else "  "
+        flag = "HIGH" if is_hi else "    "
 
-        lines.append(f"┃ {flag} {home} vs {away}")
-        lines.append(f"┃    {pred_1x2} {c1x2:.0f}% │ {o25}2.5 {c25:.0f}% │ {o15}1.5 {c15:.0f}%")
-        lines.append(f"┃    {btts} {cb:.0f}% │ {score}")
+        lines.append(f"Match {flag} {home} vs {away}")
+        lines.append(f"  Top: {top_market['market']} -> {top_market['pick']} {top_market['est_accuracy']:.0f}%")
+        lines.append(f"  1X2 {one_x_two['pick']} {one_x_two['est_accuracy']:.0f}% | O/U2.5 {ou25['pick']} {ou25['est_accuracy']:.0f}%")
+        lines.append(f"  O/U1.5 {ou15['pick']} {ou15['est_accuracy']:.0f}% | GG/NG {ggn['pick']} {ggn['est_accuracy']:.0f}%")
+        lines.append(f"  Exact {exact['pick']} {exact['est_accuracy']:.0f}%")
+        if builder_legs:
+            lines.append("  Builder: " + " | ".join(f"{row['market']} {row['pick']}" for row in builder_legs[:2]))
 
         if home in TEAMS_LIST and away in TEAMS_LIST:
             h_idx = TEAMS_LIST.index(home)
@@ -838,8 +1162,8 @@ async def predict_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ============================================================
 def main():
     if not BOT_TOKEN:
-        print("Set TELEGRAM_BOT_TOKEN environment variable")
-        return
+        print("Missing required environment variable: TELEGRAM_BOT_TOKEN")
+        raise SystemExit(1)
     print("\nStarting bot...")
     app = Application.builder().token(BOT_TOKEN).build()
     app.add_handler(CommandHandler("start", start))

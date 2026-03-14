@@ -1,0 +1,491 @@
+{
+  "name": "common_bet_ways",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/common_bet_ways",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 96,
+  "payload": {
+    "keys": {
+      "o_u": {
+        "key": "o_u",
+        "value": "O/U",
+        "type": "TEXT"
+      },
+      "next_goal": {
+        "key": "next_goal",
+        "value": "Next Goal",
+        "type": "TEXT"
+      },
+      "dc": {
+        "key": "dc",
+        "value": "DC",
+        "type": "TEXT"
+      },
+      "handicap": {
+        "key": "handicap",
+        "value": "Handicap",
+        "type": "TEXT"
+      },
+      "gg_ng": {
+        "key": "gg_ng",
+        "value": "GG/NG",
+        "type": "TEXT"
+      },
+      "home_o_u": {
+        "key": "home_o_u",
+        "value": "Home O/U",
+        "type": "TEXT"
+      },
+      "away_o_u": {
+        "key": "away_o_u",
+        "value": "Away O/U",
+        "type": "TEXT"
+      },
+      "game_handicap": {
+        "key": "game_handicap",
+        "value": "Game Handicap",
+        "type": "TEXT"
+      },
+      "games_o_u": {
+        "key": "games_o_u",
+        "value": "Games O/U",
+        "type": "TEXT"
+      },
+      "winner": {
+        "key": "winner",
+        "value": "Winner",
+        "type": "TEXT"
+      },
+      "set_winner": {
+        "key": "set_winner",
+        "value": "Set Winner",
+        "type": "TEXT"
+      },
+      "set_handicap": {
+        "key": "set_handicap",
+        "value": "Set Handicap",
+        "type": "TEXT"
+      },
+      "_1st_game_winner": {
+        "key": "_1st_game_winner",
+        "value": "1st Game Winner",
+        "type": "TEXT"
+      },
+      "_1st_game_o_u": {
+        "key": "_1st_game_o_u",
+        "value": "1st Game O/U",
+        "type": "TEXT"
+      },
+      "point_hc": {
+        "key": "point_hc",
+        "value": "Point HC",
+        "type": "TEXT"
+      },
+      "map_handicap": {
+        "key": "map_handicap",
+        "value": "Map Handicap",
+        "type": "TEXT"
+      },
+      "total": {
+        "key": "total",
+        "value": "Total",
+        "type": "TEXT"
+      },
+      "total_180s": {
+        "key": "total_180s",
+        "value": "Total 180s",
+        "type": "TEXT"
+      },
+      "game_winner": {
+        "key": "game_winner",
+        "value": "Game Winner",
+        "type": "TEXT"
+      },
+      "ht_winner": {
+        "key": "ht_winner",
+        "value": "HT Winner",
+        "type": "TEXT"
+      },
+      "ht_handicap": {
+        "key": "ht_handicap",
+        "value": "HT Handicap",
+        "type": "TEXT"
+      },
+      "ht_o_u": {
+        "key": "ht_o_u",
+        "value": "HT O/U",
+        "type": "TEXT"
+      },
+      "over_under": {
+        "key": "over_under",
+        "value": "Over/Under",
+        "type": "TEXT"
+      },
+      "ou": {
+        "key": "ou",
+        "value": "OU",
+        "type": "TEXT"
+      },
+      "total_points": {
+        "key": "total_points",
+        "value": "Total Points",
+        "type": "TEXT"
+      },
+      "total_fours": {
+        "key": "total_fours",
+        "value": "Total Fours",
+        "type": "TEXT"
+      },
+      "map_winner": {
+        "key": "map_winner",
+        "value": "Map Winner",
+        "type": "TEXT"
+      },
+      "2_way_handicap": {
+        "key": "2_way_handicap",
+        "value": "2 Way Handicap",
+        "type": "TEXT"
+      },
+      "double_chance": {
+        "key": "double_chance",
+        "value": "Double Chance",
+        "type": "TEXT"
+      },
+      "home_over_under": {
+        "key": "home_over_under",
+        "value": "Home Over/Under",
+        "type": "TEXT"
+      },
+      "away_over_under": {
+        "key": "away_over_under",
+        "value": "Away Over/Under",
+        "type": "TEXT"
+      },
+      "odd_even": {
+        "key": "odd_even",
+        "value": "Odd/Even",
+        "type": "TEXT"
+      },
+      "1_half_1_2": {
+        "key": "1_half_1_2",
+        "value": "1st Half 1X2",
+        "type": "TEXT"
+      },
+      "1_half_o_u": {
+        "key": "1_half_o_u",
+        "value": "1st Half Over/Under",
+        "type": "TEXT"
+      },
+      "2_half_1_2": {
+        "key": "2_half_1_2",
+        "value": "2nd Half 1X2",
+        "type": "TEXT"
+      },
+      "2_half_o_u": {
+        "key": "2_half_o_u",
+        "value": "2nd Half Over/Under",
+        "type": "TEXT"
+      },
+      "dnb": {
+        "key": "dnb",
+        "value": "DNB",
+        "type": "TEXT"
+      },
+      "ft": {
+        "key": "ft",
+        "value": "FT",
+        "type": "TEXT"
+      },
+      "ot": {
+        "key": "ot",
+        "value": "OT",
+        "type": "TEXT"
+      },
+      "points": {
+        "key": "points",
+        "value": "Points",
+        "type": "TEXT"
+      },
+      "over": {
+        "key": "over",
+        "value": "Over",
+        "type": "TEXT"
+      },
+      "under": {
+        "key": "under",
+        "value": "Under",
+        "type": "TEXT"
+      },
+      "2_way": {
+        "key": "2_way",
+        "value": "2 Way",
+        "type": "TEXT"
+      },
+      "runs": {
+        "key": "runs",
+        "value": "Runs",
+        "type": "TEXT"
+      },
+      "1_h": {
+        "key": "1_h",
+        "value": "1H",
+        "type": "TEXT"
+      },
+      "2_h": {
+        "key": "2_h",
+        "value": "2H",
+        "type": "TEXT"
+      },
+      "3_way": {
+        "key": "3_way",
+        "value": "3 Way",
+        "type": "TEXT"
+      },
+      "x_h": {
+        "key": "x_h",
+        "value": "XH",
+        "type": "TEXT"
+      },
+      "2_way_o_u": {
+        "key": "2_way_o_u",
+        "value": "2 Way & O/U",
+        "type": "TEXT"
+      },
+      "3_way_handicap": {
+        "key": "3_way_handicap",
+        "value": "3 Way Handicap",
+        "type": "TEXT"
+      },
+      "draw_no_bet": {
+        "key": "draw_no_bet",
+        "value": "Draw No Bet",
+        "type": "TEXT"
+      },
+      "goals": {
+        "key": "goals",
+        "value": "Goals",
+        "type": "TEXT"
+      },
+      "fours": {
+        "key": "fours",
+        "value": "Fours",
+        "type": "TEXT"
+      },
+      "total_sixes": {
+        "key": "total_sixes",
+        "value": "Total Sixes",
+        "type": "TEXT"
+      },
+      "total_runouts": {
+        "key": "total_runouts",
+        "value": "Total Runouts",
+        "type": "TEXT"
+      },
+      "maps": {
+        "key": "maps",
+        "value": "Maps",
+        "type": "TEXT"
+      },
+      "odd": {
+        "key": "odd",
+        "value": "Odd",
+        "type": "TEXT"
+      },
+      "even": {
+        "key": "even",
+        "value": "Even",
+        "type": "TEXT"
+      },
+      "180s": {
+        "key": "180s",
+        "value": "180s",
+        "type": "TEXT"
+      },
+      "no_goal": {
+        "key": "no_goal",
+        "value": "No Goal",
+        "type": "TEXT"
+      },
+      "o_gg": {
+        "key": "o_gg",
+        "value": "O&GG",
+        "type": "TEXT"
+      },
+      "u_gg": {
+        "key": "u_gg",
+        "value": "U&GG",
+        "type": "TEXT"
+      },
+      "o_ng": {
+        "key": "o_ng",
+        "value": "O&NG",
+        "type": "TEXT"
+      },
+      "u_ng": {
+        "key": "u_ng",
+        "value": "U&NG",
+        "type": "TEXT"
+      },
+      "gg": {
+        "key": "gg",
+        "value": "GG",
+        "type": "TEXT"
+      },
+      "next_goals": {
+        "key": "next_goals",
+        "value": "Next Goals",
+        "type": "TEXT"
+      },
+      "3_way_o_u": {
+        "key": "3_way_o_u",
+        "value": "3 Way & O/U",
+        "type": "TEXT"
+      },
+      "o_u_2_5_gg_ng": {
+        "key": "o_u_2_5_gg_ng",
+        "value": "O/U 2.5 & GG/NG",
+        "type": "TEXT"
+      },
+      "tries": {
+        "key": "tries",
+        "value": "Tries",
+        "type": "TEXT"
+      },
+      "1st_half_total_tries": {
+        "key": "1st_half_total_tries",
+        "value": "1st Half Total Tries",
+        "type": "TEXT"
+      },
+      "game": {
+        "key": "game",
+        "value": "Game",
+        "type": "TEXT"
+      },
+      "games": {
+        "key": "games",
+        "value": "Games",
+        "type": "TEXT"
+      },
+      "set": {
+        "key": "set",
+        "value": "Set",
+        "type": "TEXT"
+      },
+      "other_markets": {
+        "key": "other_markets",
+        "value": "Other Markets",
+        "type": "TEXT"
+      },
+      "map": {
+        "key": "map",
+        "value": "Map",
+        "type": "TEXT"
+      },
+      "ng": {
+        "key": "ng",
+        "value": "NG",
+        "type": "TEXT"
+      },
+      "none": {
+        "key": "none",
+        "value": "None",
+        "type": "TEXT"
+      },
+      "home": {
+        "key": "home",
+        "value": "Home",
+        "type": "TEXT"
+      },
+      "away": {
+        "key": "away",
+        "value": "Away",
+        "type": "TEXT"
+      },
+      "match_status_h1": {
+        "key": "match_status_h1",
+        "value": "H1",
+        "type": "TEXT"
+      },
+      "match_status_h2": {
+        "key": "match_status_h2",
+        "value": "H2",
+        "type": "TEXT"
+      },
+      "3_way_gg_ng": {
+        "key": "3_way_gg_ng",
+        "value": "3 Way & GG/NG",
+        "type": "TEXT"
+      },
+      "o_u_2_5_gg": {
+        "key": "o_u_2_5_gg",
+        "value": "O/U 2.5 & GG",
+        "type": "TEXT"
+      },
+      "o_u_2_5_ng": {
+        "key": "o_u_2_5_ng",
+        "value": "O/U 2.5 & NG",
+        "type": "TEXT"
+      },
+      "o_2_5": {
+        "key": "o_2_5",
+        "value": "O 2.5",
+        "type": "TEXT"
+      },
+      "u_2_5": {
+        "key": "u_2_5",
+        "value": "U 2.5",
+        "type": "TEXT"
+      },
+      "1x2_2up": {
+        "key": "1x2_2up",
+        "value": "1X2 - 2UP",
+        "type": "TEXT"
+      },
+      "2up": {
+        "key": "2up",
+        "value": "2UP",
+        "type": "TEXT"
+      },
+      "flex": {
+        "key": "flex",
+        "value": "Flexi",
+        "type": "TEXT"
+      },
+      "one_cut": {
+        "key": "one_cut",
+        "value": "1Cut",
+        "type": "TEXT"
+      },
+      "1up": {
+        "key": "1up",
+        "value": "1UP",
+        "type": "TEXT"
+      },
+      "1up_and_2up": {
+        "key": "1up_and_2up",
+        "value": "1UP&2UP",
+        "type": "TEXT"
+      },
+      "early_payout": {
+        "key": "early_payout",
+        "value": "Early Payout",
+        "type": "TEXT"
+      },
+      "not_supported": {
+        "key": "not_supported",
+        "value": "Not Supported",
+        "type": "TEXT"
+      },
+      "any_win": {
+        "key": "any_win",
+        "value": "AnyWin",
+        "type": "TEXT"
+      },
+      "_1x2": {
+        "key": "_1x2",
+        "value": "1X2",
+        "type": "TEXT"
+      }
+    },
+    "version": "1772035688000"
+  }
+}

@@ -1,0 +1,213 @@
+event_id,market_group,market_title
+sr:match:61301103,Combo,1X2 & GG/NG
+sr:match:61301103,Combo,1X2 & Over/Under
+sr:match:61301103,Combo,1st Goal & 1X2
+sr:match:61301103,Combo,1st Half Result or Match Result
+sr:match:61301103,Combo,2nd Half Away Team to Win to Nil Yes/No
+sr:match:61301103,Combo,2nd Half Double Chance & Total Goals
+sr:match:61301103,Combo,2nd Half Home Team to Win to Nil Yes/No
+sr:match:61301103,Combo,Away Team or Any Clean Sheet
+sr:match:61301103,Combo,Away Team or GG
+sr:match:61301103,Combo,Away Team to Win to Nil
+sr:match:61301103,Combo,Away or Over 2.5
+sr:match:61301103,Combo,Away or Under 2.5
+sr:match:61301103,Combo,Double Chance & GG/NG
+sr:match:61301103,Combo,Double Chance & Over/Under
+sr:match:61301103,Combo,Draw or Any Clean Sheet
+sr:match:61301103,Combo,Draw or GG
+sr:match:61301103,Combo,Draw or Over 2.5
+sr:match:61301103,Combo,Draw or Under 2.5
+sr:match:61301103,Combo,Half-time Away Team to Win to Nil Yes/No
+sr:match:61301103,Combo,Half-time Double Chance & Total Goals
+sr:match:61301103,Combo,Half-time Home Team to Win to Nil Yes/No
+sr:match:61301103,Combo,Halftime/Fulltime & 1st Half Over/Under
+sr:match:61301103,Combo,Halftime/Fulltime & Exact Goals
+sr:match:61301103,Combo,Halftime/Fulltime & Over/Under
+sr:match:61301103,Combo,Home Team or Any Clean Sheet
+sr:match:61301103,Combo,Home Team or GG
+sr:match:61301103,Combo,Home Team or Over 2.5
+sr:match:61301103,Combo,Home Team or Under 2.5
+sr:match:61301103,Combo,Home Team to Win to Nil
+sr:match:61301103,Combo,Match Cards
+sr:match:61301103,Combo,Match Cards 1st Half
+sr:match:61301103,Combo,Match Cards 2nd Half
+sr:match:61301103,Combo,Over/Under & GG/NG
+sr:match:61301103,Corners,1st Half Away Team Corners
+sr:match:61301103,Corners,1st Half Home Team Corners
+sr:match:61301103,Corners,Away Team Total Corners
+sr:match:61301103,Corners,Home Team Total Corners
+sr:match:61301103,Goals,1st Half - Away Team Clean Sheet
+sr:match:61301103,Goals,1st Half - Exact Goals
+sr:match:61301103,Goals,1st Half - GG/NG
+sr:match:61301103,Goals,1st Half - Home Team Clean Sheet
+sr:match:61301103,Goals,1st Half - Multigoals
+sr:match:61301103,Goals,1st Half - Odd/Even
+sr:match:61301103,Goals,1st half - Bournemouth Over/Under
+sr:match:61301103,Goals,1st half - Burnley Over/Under
+sr:match:61301103,Goals,1st/2nd Half GG/NG
+sr:match:61301103,Goals,2nd Half - 1st Goal
+sr:match:61301103,Goals,2nd Half - Away Team Clean Sheet
+sr:match:61301103,Goals,2nd Half - Bournemouth Over/Under
+sr:match:61301103,Goals,2nd Half - Burnley Over/Under
+sr:match:61301103,Goals,2nd Half - Exact Goals
+sr:match:61301103,Goals,2nd Half - GG/NG
+sr:match:61301103,Goals,2nd Half - Home Team Clean Sheet
+sr:match:61301103,Goals,2nd Half - Multigoals
+sr:match:61301103,Goals,2nd Half - Odd/Even
+sr:match:61301103,Goals,Away Multigoals
+sr:match:61301103,Goals,Away Team Clean Sheet
+sr:match:61301103,Goals,Away Team Goals
+sr:match:61301103,Goals,Away Team Odd/Even
+sr:match:61301103,Goals,Away Team To Score Yes/No
+sr:match:61301103,Goals,Away Team to Score In Both Halves
+sr:match:61301103,Goals,Both Halves Over 1.5
+sr:match:61301103,Goals,Both Halves Under 1.5
+sr:match:61301103,Goals,Bournemouth Over/Under
+sr:match:61301103,Goals,Burnley Over/Under
+sr:match:61301103,Goals,Excluded Number of Goals - Away
+sr:match:61301103,Goals,Excluded Number of Goals - Home
+sr:match:61301103,Goals,Goal Bounds - Away
+sr:match:61301103,Goals,Goal Bounds - Home
+sr:match:61301103,Goals,Home Multigoals
+sr:match:61301103,Goals,Home Team Clean Sheet
+sr:match:61301103,Goals,Home Team Goals
+sr:match:61301103,Goals,Home Team Odd/Even
+sr:match:61301103,Goals,Home Team To Score Yes/No
+sr:match:61301103,Goals,Home Team to Score In Both Halves
+sr:match:61301103,Goals,Multigoals
+sr:match:61301103,Goals,Multiscores
+sr:match:61301103,Goals,No Draw Both Teams To Score Yes/No
+sr:match:61301103,Half,1st Half - 1X2
+sr:match:61301103,Half,1st Half - 1X2 & GG/NG
+sr:match:61301103,Half,1st Half - 1X2 & Over/Under
+sr:match:61301103,Half,1st Half - 1st Goal
+sr:match:61301103,Half,1st Half - Asian Handicap
+sr:match:61301103,Half,1st Half - Correct Score
+sr:match:61301103,Half,1st Half - Double Chance
+sr:match:61301103,Half,1st Half - Double Chance & GG/NG
+sr:match:61301103,Half,1st Half - Draw No Bet
+sr:match:61301103,Half,1st Half - Handicap
+sr:match:61301103,Half,1st Half - Over/Under
+sr:match:61301103,Half,2nd Half -  Double Chance & GG/NG
+sr:match:61301103,Half,2nd Half - 1X2
+sr:match:61301103,Half,2nd Half - 1X2 & GG/NG
+sr:match:61301103,Half,2nd Half - 1X2 & Over/Under
+sr:match:61301103,Half,2nd Half - Asian Handicap
+sr:match:61301103,Half,2nd Half - Correct Score
+sr:match:61301103,Half,2nd Half - Double Chance
+sr:match:61301103,Half,2nd Half - Draw No Bet
+sr:match:61301103,Half,2nd Half - Handicap 0:1
+sr:match:61301103,Half,2nd Half - Handicap 1:0
+sr:match:61301103,Half,2nd Half - Handicap 2:0
+sr:match:61301103,Half,2nd Half - Over/Under
+sr:match:61301103,Half,2nd Half Away Team Total Goals Odd or Even
+sr:match:61301103,Half,2nd Half Away Team to Score Yes/No
+sr:match:61301103,Half,2nd Half Home Team Total Goals Odd or Even
+sr:match:61301103,Half,2nd Half Home Team to Score Yes/No
+sr:match:61301103,Half,Away Team Highest Scoring Half
+sr:match:61301103,Half,Away Team to Win Both Halves
+sr:match:61301103,Half,Away Team to Win Either Half
+sr:match:61301103,Half,Both Teams to Score in Both Halves Yes/No
+sr:match:61301103,Half,Double Chance & 1st Half GG/NG
+sr:match:61301103,Half,Double Chance & 2nd Half GG/NG
+sr:match:61301103,Half,Excluded Number of Goals - First Half
+sr:match:61301103,Half,Goal Bounds - 1st Half
+sr:match:61301103,Half,Half Time/Full Time Correct Score
+sr:match:61301103,Half,Half-time Away Team Total Goals Odd or Even
+sr:match:61301103,Half,Half-time Away Team to Score Yes/No
+sr:match:61301103,Half,Half-time Home Team To Score Yes/No
+sr:match:61301103,Half,Half-time Home Team Total Goals Odd or Even
+sr:match:61301103,Half,Highest Scoring Half
+sr:match:61301103,Half,Home Team Highest Scoring Half
+sr:match:61301103,Half,Home Team to Win Both Halves
+sr:match:61301103,Half,Home Team to Win Either Half
+sr:match:61301103,Main,1X2
+sr:match:61301103,Main,1X2 - 1UP
+sr:match:61301103,Main,1X2 - 2UP
+sr:match:61301103,Main,1st Goal
+sr:match:61301103,Main,Any Team To Score 2 or More Goals in a Row
+sr:match:61301103,Main,Any Team To Score 3 or More Goals in a Row
+sr:match:61301103,Main,Any Team to lead by 1 Goal at any time
+sr:match:61301103,Main,Any Team to lead by 2 Goals at any time
+sr:match:61301103,Main,Any Team to lead by 3 Goals at any time
+sr:match:61301103,Main,Asian Handicap -0.5
+sr:match:61301103,Main,Asian Handicap 0.5
+sr:match:61301103,Main,Asian Handicap 1.5
+sr:match:61301103,Main,Asian Handicap 2.5
+sr:match:61301103,Main,Away No Bet
+sr:match:61301103,Main,Away Team To Score 2 or More Goals in a Row
+sr:match:61301103,Main,Away Team To Score 3 or More Goals in a Row
+sr:match:61301103,Main,Away Team to lead by 1 Goal at any time
+sr:match:61301103,Main,Away Team to lead by 2 Goals at any time
+sr:match:61301103,Main,Away Team to lead by 3 Goals at any time
+sr:match:61301103,Main,Correct Score
+sr:match:61301103,Main,Correct Score [0:0]
+sr:match:61301103,Main,Double Chance
+sr:match:61301103,Main,Draw No Bet
+sr:match:61301103,Main,Exact Goals
+sr:match:61301103,Main,Excluded Number of Goals
+sr:match:61301103,Main,GG/NG
+sr:match:61301103,Main,GG/NG 2+
+sr:match:61301103,Main,Goal Bounds
+sr:match:61301103,Main,Goal Range
+sr:match:61301103,Main,Half Time/Full Time
+sr:match:61301103,Main,Handicap 0:1
+sr:match:61301103,Main,Handicap 0:2
+sr:match:61301103,Main,Handicap 1:0
+sr:match:61301103,Main,Handicap 2:0
+sr:match:61301103,Main,Handicap 3:0
+sr:match:61301103,Main,Handicap 4:0
+sr:match:61301103,Main,Home No Bet
+sr:match:61301103,Main,Home Team To Score 2 or More Goals in a Row
+sr:match:61301103,Main,Home Team To Score 3 or More Goals in a Row
+sr:match:61301103,Main,Home Team to lead by 1 Goal at any time
+sr:match:61301103,Main,Home Team to lead by 2 Goals at any time
+sr:match:61301103,Main,Home Team to lead by 3 Goals at any time
+sr:match:61301103,Main,Last Goal
+sr:match:61301103,Main,Odd/Even
+sr:match:61301103,Main,Over/Under
+sr:match:61301103,Main,Over/Under - Early Goals
+sr:match:61301103,Main,Teams to Score
+sr:match:61301103,Main,Winning Margin
+sr:match:61301103,Minutes,10 minutes - 1X2 from 1 to 10
+sr:match:61301103,Minutes,1X2 from 1 to 15 minute
+sr:match:61301103,Minutes,1X2 from 1 to 20 minute
+sr:match:61301103,Minutes,1X2 from 1 to 25 minute
+sr:match:61301103,Minutes,1X2 from 1 to 30 minute
+sr:match:61301103,Minutes,1X2 from 1 to 35 minute
+sr:match:61301103,Minutes,1X2 from 1 to 40 minute
+sr:match:61301103,Minutes,1X2 from 1 to 5 minute
+sr:match:61301103,Minutes,1X2 from 1 to 50 minute
+sr:match:61301103,Minutes,1X2 from 1 to 55 minute
+sr:match:61301103,Minutes,1X2 from 1 to 60 minute
+sr:match:61301103,Minutes,1X2 from 1 to 65 minute
+sr:match:61301103,Minutes,1X2 from 1 to 70 minute
+sr:match:61301103,Minutes,1X2 from 1 to 75 minute
+sr:match:61301103,Minutes,1X2 from 1 to 80 minute
+sr:match:61301103,Minutes,1X2 from 1 to 85 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 10 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 15 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 20 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 25 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 30 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 35 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 40 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 5 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 50 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 55 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 60 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 65 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 70 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 75 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 80 minute
+sr:match:61301103,Minutes,Total Goals Over/Under from 1 to 85 minute
+sr:match:61301103,Minutes,When will the 1st goal be scored (10 min interval)
+sr:match:61301103,Minutes,When will the 1st goal be scored (15 min interval)
+sr:match:61301103,Players,1st Goalscorer
+sr:match:61301103,Players,Anytime Goalscorer
+sr:match:61301103,Players,Last Goalscorer
+sr:match:61301103,Teams,Team Assists
+sr:match:61301103,Teams,Team Cards
+sr:match:61301103,Teams,Team Cards 1st Half
+sr:match:61301103,Teams,Team Cards 2nd Half
+sr:match:61301103,Teams,Team Saves

@@ -1,0 +1,3071 @@
+{
+  "name": "common_functions",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/common_functions",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 612,
+  "payload": {
+    "keys": {
+      "deposit": {
+        "key": "deposit",
+        "value": "Deposit",
+        "type": "TEXT"
+      },
+      "bet_history": {
+        "key": "bet_history",
+        "value": "Bet History",
+        "type": "TEXT"
+      },
+      "my_account": {
+        "key": "my_account",
+        "value": "My Account",
+        "type": "TEXT"
+      },
+      "gifts": {
+        "key": "gifts",
+        "value": "Gifts",
+        "type": "TEXT"
+      },
+      "withdraw": {
+        "key": "withdraw",
+        "value": "Withdraw",
+        "type": "TEXT"
+      },
+      "transactions": {
+        "key": "transactions",
+        "value": "Transactions",
+        "type": "TEXT"
+      },
+      "my_account_info": {
+        "key": "my_account_info",
+        "value": "My Account Info",
+        "type": "TEXT"
+      },
+      "register": {
+        "key": "register",
+        "value": "Register",
+        "type": "TEXT"
+      },
+      "log_in": {
+        "key": "log_in",
+        "value": "Login",
+        "type": "TEXT"
+      },
+      "forgot_password": {
+        "key": "forgot_password",
+        "value": "Forgot Password",
+        "type": "TEXT"
+      },
+      "sports": {
+        "key": "sports",
+        "value": "Sports",
+        "type": "TEXT"
+      },
+      "live_betting": {
+        "key": "live_betting",
+        "value": "Live Betting",
+        "type": "TEXT"
+      },
+      "fantasy": {
+        "key": "fantasy",
+        "value": "Fantasy",
+        "type": "TEXT"
+      },
+      "instant_virtuals": {
+        "key": "instant_virtuals",
+        "value": "Instant Football",
+        "type": "TEXT"
+      },
+      "scheduled_virtuals": {
+        "key": "scheduled_virtuals",
+        "value": "Scheduled Virtuals",
+        "type": "TEXT"
+      },
+      "jackpot": {
+        "key": "jackpot",
+        "value": "Jackpot",
+        "type": "TEXT"
+      },
+      "livescore": {
+        "key": "livescore",
+        "value": "Livescore",
+        "type": "TEXT"
+      },
+      "live_results": {
+        "key": "live_results",
+        "value": "Results",
+        "type": "TEXT"
+      },
+      "promotions": {
+        "key": "promotions",
+        "value": "Promotions",
+        "type": "TEXT"
+      },
+      "app": {
+        "key": "app",
+        "value": "App",
+        "type": "TEXT"
+      },
+      "home": {
+        "key": "home",
+        "value": "Home",
+        "type": "TEXT"
+      },
+      "more_sports": {
+        "key": "more_sports",
+        "value": "More Sports",
+        "type": "TEXT"
+      },
+      "multi_view": {
+        "key": "multi_view",
+        "value": "Multi View",
+        "type": "TEXT"
+      },
+      "single_view": {
+        "key": "single_view",
+        "value": "Single View",
+        "type": "TEXT"
+      },
+      "schedule": {
+        "key": "schedule",
+        "value": "Schedule",
+        "type": "TEXT"
+      },
+      "betslip": {
+        "key": "betslip",
+        "value": "Betslip",
+        "type": "TEXT"
+      },
+      "cashout": {
+        "key": "cashout",
+        "value": "Cashout",
+        "type": "TEXT"
+      },
+      "log_out": {
+        "key": "log_out",
+        "value": "Logout",
+        "type": "TEXT"
+      },
+      "chat": {
+        "key": "chat",
+        "value": "Chat",
+        "type": "TEXT"
+      },
+      "change": {
+        "key": "change",
+        "value": "Change",
+        "type": "TEXT"
+      },
+      "details": {
+        "key": "details",
+        "value": "Details",
+        "type": "TEXT"
+      },
+      "finished": {
+        "key": "finished",
+        "value": "Finished",
+        "type": "TEXT"
+      },
+      "upcoming": {
+        "key": "upcoming",
+        "value": "Upcoming",
+        "type": "TEXT"
+      },
+      "closed": {
+        "key": "closed",
+        "value": "Closed",
+        "type": "TEXT"
+      },
+      "live": {
+        "key": "live",
+        "value": "Live",
+        "type": "TEXT"
+      },
+      "view_all": {
+        "key": "view_all",
+        "value": "View All",
+        "type": "TEXT"
+      },
+      "partial": {
+        "key": "partial",
+        "value": "Partial",
+        "type": "TEXT"
+      },
+      "markets": {
+        "key": "markets",
+        "value": "Markets",
+        "type": "TEXT"
+      },
+      "stats": {
+        "key": "stats",
+        "value": "Stats",
+        "type": "TEXT"
+      },
+      "comments": {
+        "key": "comments",
+        "value": "Comments",
+        "type": "TEXT"
+      },
+      "matches": {
+        "key": "matches",
+        "value": "Matches",
+        "type": "TEXT"
+      },
+      "outrights": {
+        "key": "outrights",
+        "value": "Outrights",
+        "type": "TEXT"
+      },
+      "no_more_games": {
+        "key": "no_more_games",
+        "value": "No More Games",
+        "type": "TEXT"
+      },
+      "default": {
+        "key": "default",
+        "value": "Default",
+        "type": "TEXT"
+      },
+      "time": {
+        "key": "time",
+        "value": "Time",
+        "type": "TEXT"
+      },
+      "league": {
+        "key": "league",
+        "value": "League",
+        "type": "TEXT"
+      },
+      "sort": {
+        "key": "sort",
+        "value": "Sort",
+        "type": "TEXT"
+      },
+      "daily": {
+        "key": "daily",
+        "value": "Daily",
+        "type": "TEXT"
+      },
+      "vnum_hours": {
+        "key": "vnum_hours",
+        "value": "{num} hours",
+        "type": "TEXT"
+      },
+      "odds": {
+        "key": "odds",
+        "value": "Odds",
+        "type": "TEXT"
+      },
+      "my_favorite": {
+        "key": "my_favorite",
+        "value": "My Favourites",
+        "type": "TEXT"
+      },
+      "all": {
+        "key": "all",
+        "value": "All",
+        "type": "TEXT"
+      },
+      "main": {
+        "key": "main",
+        "value": "Main",
+        "type": "TEXT"
+      },
+      "goals": {
+        "key": "goals",
+        "value": "Goals",
+        "type": "TEXT"
+      },
+      "half": {
+        "key": "half",
+        "value": "Half",
+        "type": "TEXT"
+      },
+      "bookings": {
+        "key": "bookings",
+        "value": "Bookings",
+        "type": "TEXT"
+      },
+      "corners": {
+        "key": "corners",
+        "value": "Corners",
+        "type": "TEXT"
+      },
+      "specials": {
+        "key": "specials",
+        "value": "Specials",
+        "type": "TEXT"
+      },
+      "player": {
+        "key": "player",
+        "value": "Player",
+        "type": "TEXT"
+      },
+      "copy": {
+        "key": "copy",
+        "value": "Copy",
+        "type": "TEXT"
+      },
+      "reply": {
+        "key": "reply",
+        "value": "Reply",
+        "type": "TEXT"
+      },
+      "see_more": {
+        "key": "see_more",
+        "value": "See more",
+        "type": "TEXT"
+      },
+      "like": {
+        "key": "like",
+        "value": "Like",
+        "type": "TEXT"
+      },
+      "likes": {
+        "key": "likes",
+        "value": "Likes",
+        "type": "TEXT"
+      },
+      "cancel": {
+        "key": "cancel",
+        "value": "Cancel",
+        "type": "TEXT"
+      },
+      "booking_code": {
+        "key": "booking_code",
+        "value": "Booking Code",
+        "type": "TEXT"
+      },
+      "max_bonus": {
+        "key": "max_bonus",
+        "value": "Max Bonus",
+        "type": "TEXT"
+      },
+      "loading_with_dot": {
+        "key": "loading_with_dot",
+        "value": "Loading...",
+        "type": "TEXT"
+      },
+      "oops_with_mark": {
+        "key": "oops_with_mark",
+        "value": "Oops!",
+        "type": "TEXT"
+      },
+      "refresh": {
+        "key": "refresh",
+        "value": "Refresh",
+        "type": "TEXT"
+      },
+      "sets": {
+        "key": "sets",
+        "value": "Sets",
+        "type": "TEXT"
+      },
+      "games": {
+        "key": "games",
+        "value": "Games",
+        "type": "TEXT"
+      },
+      "match_tracker": {
+        "key": "match_tracker",
+        "value": "Match Tracker",
+        "type": "TEXT"
+      },
+      "statistics": {
+        "key": "statistics",
+        "value": "Statistics",
+        "type": "TEXT"
+      },
+      "show": {
+        "key": "show",
+        "value": "Show",
+        "type": "TEXT"
+      },
+      "event": {
+        "key": "event",
+        "value": "Event",
+        "type": "TEXT"
+      },
+      "countries": {
+        "key": "countries",
+        "value": "Countries",
+        "type": "TEXT"
+      },
+      "categories": {
+        "key": "categories",
+        "value": "Categories",
+        "type": "TEXT"
+      },
+      "a_z": {
+        "key": "a_z",
+        "value": "A-Z",
+        "type": "TEXT"
+      },
+      "id": {
+        "key": "id",
+        "value": "ID",
+        "type": "TEXT"
+      },
+      "send": {
+        "key": "send",
+        "value": "Send",
+        "type": "TEXT"
+      },
+      "hide": {
+        "key": "hide",
+        "value": "Hide",
+        "type": "TEXT"
+      },
+      "delete": {
+        "key": "delete",
+        "value": "Delete",
+        "type": "TEXT"
+      },
+      "ok": {
+        "key": "ok",
+        "value": "OK",
+        "type": "TEXT"
+      },
+      "result": {
+        "key": "result",
+        "value": "Result",
+        "type": "TEXT"
+      },
+      "load_code": {
+        "key": "load_code",
+        "value": "Load Code",
+        "type": "TEXT"
+      },
+      "virtuals": {
+        "key": "virtuals",
+        "value": "Virtuals",
+        "type": "TEXT"
+      },
+      "live_games": {
+        "key": "live_games",
+        "value": "Live Games",
+        "type": "TEXT"
+      },
+      "results": {
+        "key": "results",
+        "value": "Results",
+        "type": "TEXT"
+      },
+      "points": {
+        "key": "points",
+        "value": "Points",
+        "type": "TEXT"
+      },
+      "quarters": {
+        "key": "quarters",
+        "value": "Quarters",
+        "type": "TEXT"
+      },
+      "my_favourites": {
+        "key": "my_favourites",
+        "value": "My Favourites",
+        "type": "TEXT"
+      },
+      "apply": {
+        "key": "apply",
+        "value": "Apply",
+        "type": "TEXT"
+      },
+      "reset": {
+        "key": "reset",
+        "value": "Reset",
+        "type": "TEXT"
+      },
+      "clear": {
+        "key": "clear",
+        "value": "Clear",
+        "type": "TEXT"
+      },
+      "next": {
+        "key": "next",
+        "value": "Next",
+        "type": "TEXT"
+      },
+      "finish": {
+        "key": "finish",
+        "value": "Finish",
+        "type": "TEXT"
+      },
+      "combo": {
+        "key": "combo",
+        "value": "Combo",
+        "type": "TEXT"
+      },
+      "no_more_records": {
+        "key": "no_more_records",
+        "value": "No More Records",
+        "type": "TEXT"
+      },
+      "amount": {
+        "key": "amount",
+        "value": "Amount",
+        "type": "TEXT"
+      },
+      "additional_fee": {
+        "key": "additional_fee",
+        "value": "Additional Fee",
+        "type": "TEXT"
+      },
+      "status": {
+        "key": "status",
+        "value": "Status",
+        "type": "TEXT"
+      },
+      "type": {
+        "key": "type",
+        "value": "Type",
+        "type": "TEXT"
+      },
+      "partner": {
+        "key": "partner",
+        "value": "Partner",
+        "type": "TEXT"
+      },
+      "retry": {
+        "key": "retry",
+        "value": "Retry",
+        "type": "TEXT"
+      },
+      "open_bets": {
+        "key": "open_bets",
+        "value": "Open Bets",
+        "type": "TEXT"
+      },
+      "contact": {
+        "key": "contact",
+        "value": "Contact",
+        "type": "TEXT"
+      },
+      "search": {
+        "key": "search",
+        "value": "Search",
+        "type": "TEXT"
+      },
+      "fee": {
+        "key": "fee",
+        "value": "Fee",
+        "type": "TEXT"
+      },
+      "excise_tax": {
+        "key": "excise_tax",
+        "value": "Excise Tax",
+        "type": "TEXT"
+      },
+      "stake_bonus": {
+        "key": "stake_bonus",
+        "value": "Stake Bonus",
+        "type": "TEXT"
+      },
+      "cash_out": {
+        "key": "cash_out",
+        "value": "Cash Out",
+        "type": "TEXT"
+      },
+      "cash_gift": {
+        "key": "cash_gift",
+        "value": "Cash Gift",
+        "type": "TEXT"
+      },
+      "friend": {
+        "key": "friend",
+        "value": "Friend",
+        "type": "TEXT"
+      },
+      "offline": {
+        "key": "offline",
+        "value": "Offine",
+        "type": "TEXT"
+      },
+      "bookmaker": {
+        "key": "bookmaker",
+        "value": "Bookmaker",
+        "type": "TEXT"
+      },
+      "bonus": {
+        "key": "bonus",
+        "value": "Bonus",
+        "type": "TEXT"
+      },
+      "free_bet_gift": {
+        "key": "free_bet_gift",
+        "value": "Free Bet Gift",
+        "type": "TEXT"
+      },
+      "return": {
+        "key": "return",
+        "value": "Return",
+        "type": "TEXT"
+      },
+      "stake_used": {
+        "key": "stake_used",
+        "value": "Stake Used",
+        "type": "TEXT"
+      },
+      "total": {
+        "key": "total",
+        "value": "Total",
+        "type": "TEXT"
+      },
+      "update": {
+        "key": "update",
+        "value": "Update",
+        "type": "TEXT"
+      },
+      "confirm": {
+        "key": "confirm",
+        "value": "Confirm",
+        "type": "TEXT"
+      },
+      "u_add": {
+        "key": "u_add",
+        "value": "ADD",
+        "type": "TEXT"
+      },
+      "back": {
+        "key": "back",
+        "value": "Back",
+        "type": "TEXT"
+      },
+      "upload_file": {
+        "key": "upload_file",
+        "value": "Upload File",
+        "type": "TEXT"
+      },
+      "submit": {
+        "key": "submit",
+        "value": "Submit",
+        "type": "TEXT"
+      },
+      "u_cancel": {
+        "key": "u_cancel",
+        "value": "CANCEL",
+        "type": "TEXT"
+      },
+      "u_continue": {
+        "key": "u_continue",
+        "value": "CONTINUE",
+        "type": "TEXT"
+      },
+      "upload": {
+        "key": "upload",
+        "value": "Upload",
+        "type": "TEXT"
+      },
+      "add": {
+        "key": "add",
+        "value": "Add",
+        "type": "TEXT"
+      },
+      "verify": {
+        "key": "verify",
+        "value": "Verify",
+        "type": "TEXT"
+      },
+      "contact_us": {
+        "key": "contact_us",
+        "value": "Contact Us",
+        "type": "TEXT"
+      },
+      "loading": {
+        "key": "loading",
+        "value": "Loading",
+        "type": "TEXT"
+      },
+      "play": {
+        "key": "play",
+        "value": "Play",
+        "type": "TEXT"
+      },
+      "how_to_play": {
+        "key": "how_to_play",
+        "value": "How to play?",
+        "type": "TEXT"
+      },
+      "view": {
+        "key": "view",
+        "value": "View",
+        "type": "TEXT"
+      },
+      "rebet": {
+        "key": "rebet",
+        "value": "Rebet",
+        "type": "TEXT"
+      },
+      "discount_gift": {
+        "key": "discount_gift",
+        "value": "Discount Gift",
+        "type": "TEXT"
+      },
+      "stake": {
+        "key": "stake",
+        "value": "Stake",
+        "type": "TEXT"
+      },
+      "total_stake": {
+        "key": "total_stake",
+        "value": "Total Stake",
+        "type": "TEXT"
+      },
+      "total_odds": {
+        "key": "total_odds",
+        "value": "Total Odds",
+        "type": "TEXT"
+      },
+      "load": {
+        "key": "load",
+        "value": "Load",
+        "type": "TEXT"
+      },
+      "twitter": {
+        "key": "twitter",
+        "value": "Twitter",
+        "type": "TEXT"
+      },
+      "facebook": {
+        "key": "facebook",
+        "value": "Facebook",
+        "type": "TEXT"
+      },
+      "whatsapp": {
+        "key": "whatsapp",
+        "value": "WhatsApp",
+        "type": "TEXT"
+      },
+      "copy_link": {
+        "key": "copy_link",
+        "value": "Copy Link",
+        "type": "TEXT"
+      },
+      "save": {
+        "key": "save",
+        "value": "Save",
+        "type": "TEXT"
+      },
+      "none": {
+        "key": "none",
+        "value": "None",
+        "type": "TEXT"
+      },
+      "done": {
+        "key": "done",
+        "value": "Done",
+        "type": "TEXT"
+      },
+      "banker": {
+        "key": "banker",
+        "value": "Banker",
+        "type": "TEXT"
+      },
+      "note": {
+        "key": "note",
+        "value": "Note",
+        "type": "TEXT"
+      },
+      "country": {
+        "key": "country",
+        "value": "Country",
+        "type": "TEXT"
+      },
+      "no_dot": {
+        "key": "no_dot",
+        "value": "No.",
+        "type": "TEXT"
+      },
+      "excise": {
+        "key": "excise",
+        "value": "Excise",
+        "type": "TEXT"
+      },
+      "balance_insufficient": {
+        "key": "balance_insufficient",
+        "value": "Balance Insufficient",
+        "type": "TEXT"
+      },
+      "u_later": {
+        "key": "u_later",
+        "value": "LATER",
+        "type": "TEXT"
+      },
+      "u_top_up_now": {
+        "key": "u_top_up_now",
+        "value": "TOP UP NOW",
+        "type": "TEXT"
+      },
+      "print": {
+        "key": "print",
+        "value": "Print",
+        "type": "TEXT"
+      },
+      "u_delete": {
+        "key": "u_delete",
+        "value": "DELETE",
+        "type": "TEXT"
+      },
+      "live_odds_boost": {
+        "key": "live_odds_boost",
+        "value": "Live Odds Boost",
+        "type": "TEXT"
+      },
+      "balance": {
+        "key": "balance",
+        "value": "Balance",
+        "type": "TEXT"
+      },
+      "top_up_now": {
+        "key": "top_up_now",
+        "value": "Top Up Now",
+        "type": "TEXT"
+      },
+      "commentary": {
+        "key": "commentary",
+        "value": "Commentary",
+        "type": "TEXT"
+      },
+      "share": {
+        "key": "share",
+        "value": "Share",
+        "type": "TEXT"
+      },
+      "edit": {
+        "key": "edit",
+        "value": "Edit",
+        "type": "TEXT"
+      },
+      "later": {
+        "key": "later",
+        "value": "Later",
+        "type": "TEXT"
+      },
+      "unused": {
+        "key": "unused",
+        "value": "Unused",
+        "type": "TEXT"
+      },
+      "l_copy": {
+        "key": "l_copy",
+        "value": "copy",
+        "type": "TEXT"
+      },
+      "phone": {
+        "key": "phone",
+        "value": "Phone",
+        "type": "TEXT"
+      },
+      "account": {
+        "key": "account",
+        "value": "Account",
+        "type": "TEXT"
+      },
+      "live_chat": {
+        "key": "live_chat",
+        "value": "Live Chat",
+        "type": "TEXT"
+      },
+      "u_no": {
+        "key": "u_no",
+        "value": "NO",
+        "type": "TEXT"
+      },
+      "u_yes": {
+        "key": "u_yes",
+        "value": "YES",
+        "type": "TEXT"
+      },
+      "no": {
+        "key": "no",
+        "value": "No",
+        "type": "TEXT"
+      },
+      "yes": {
+        "key": "yes",
+        "value": "Yes",
+        "type": "TEXT"
+      },
+      "first_name": {
+        "key": "first_name",
+        "value": "First Name",
+        "type": "TEXT"
+      },
+      "last_name": {
+        "key": "last_name",
+        "value": "Last Name",
+        "type": "TEXT"
+      },
+      "optional": {
+        "key": "optional",
+        "value": "Optional",
+        "type": "TEXT"
+      },
+      "do_not_show_this_again": {
+        "key": "do_not_show_this_again",
+        "value": "Don\u2019t show this again",
+        "type": "TEXT"
+      },
+      "continue": {
+        "key": "continue",
+        "value": "Continue",
+        "type": "TEXT"
+      },
+      "step": {
+        "key": "step",
+        "value": "Step",
+        "type": "TEXT"
+      },
+      "email": {
+        "key": "email",
+        "value": "E-mail",
+        "type": "TEXT"
+      },
+      "u_confirm": {
+        "key": "u_confirm",
+        "value": "CONFIRM",
+        "type": "TEXT"
+      },
+      "close": {
+        "key": "close",
+        "value": "Close",
+        "type": "TEXT"
+      },
+      "submitting_with_dot": {
+        "key": "submitting_with_dot",
+        "value": "Submitting...",
+        "type": "TEXT"
+      },
+      "info": {
+        "key": "info",
+        "value": "Info",
+        "type": "TEXT"
+      },
+      "approved": {
+        "key": "approved",
+        "value": "Approved",
+        "type": "TEXT"
+      },
+      "cancelled": {
+        "key": "cancelled",
+        "value": "Cancelled",
+        "type": "TEXT"
+      },
+      "rejected": {
+        "key": "rejected",
+        "value": "Rejected",
+        "type": "TEXT"
+      },
+      "no_bets_available": {
+        "key": "no_bets_available",
+        "value": "No bets available",
+        "type": "TEXT"
+      },
+      "from": {
+        "key": "from",
+        "value": "From",
+        "type": "TEXT"
+      },
+      "verification_code": {
+        "key": "verification_code",
+        "value": "Verification Code",
+        "type": "TEXT"
+      },
+      "reload": {
+        "key": "reload",
+        "value": "Reload",
+        "type": "TEXT"
+      },
+      "skip": {
+        "key": "skip",
+        "value": "Skip",
+        "type": "TEXT"
+      },
+      "collapse_all": {
+        "key": "collapse_all",
+        "value": "Collapse All",
+        "type": "TEXT"
+      },
+      "expand_all": {
+        "key": "expand_all",
+        "value": "Expand All",
+        "type": "TEXT"
+      },
+      "you_win": {
+        "key": "you_win",
+        "value": "YOU WIN",
+        "type": "TEXT"
+      },
+      "enable": {
+        "key": "enable",
+        "value": "Enable",
+        "type": "TEXT"
+      },
+      "u_verify": {
+        "key": "u_verify",
+        "value": "VERIFY",
+        "type": "TEXT"
+      },
+      "saving_with_dot": {
+        "key": "saving_with_dot",
+        "value": "Saving...",
+        "type": "TEXT"
+      },
+      "confirmed": {
+        "key": "confirmed",
+        "value": "Confirmed",
+        "type": "TEXT"
+      },
+      "bet_limit_reached": {
+        "key": "bet_limit_reached",
+        "value": "Bet Limit Reached",
+        "type": "TEXT"
+      },
+      "submitting": {
+        "key": "submitting",
+        "value": "Submitting",
+        "type": "TEXT"
+      },
+      "try_it": {
+        "key": "try_it",
+        "value": "Try It",
+        "type": "TEXT"
+      },
+      "leave": {
+        "key": "leave",
+        "value": "Leave",
+        "type": "TEXT"
+      },
+      "what_is_this": {
+        "key": "what_is_this",
+        "value": "what is this",
+        "type": "TEXT"
+      },
+      "cashout_available": {
+        "key": "cashout_available",
+        "value": "Cashout Available",
+        "type": "TEXT"
+      },
+      "edit_bet": {
+        "key": "edit_bet",
+        "value": "Edit Bet",
+        "type": "TEXT"
+      },
+      "edit_bet_not_successful": {
+        "key": "edit_bet_not_successful",
+        "value": "Edit bet not successful",
+        "type": "TEXT"
+      },
+      "current_bet": {
+        "key": "current_bet",
+        "value": "Current Bet",
+        "type": "TEXT"
+      },
+      "original_bet": {
+        "key": "original_bet",
+        "value": "Original Bet",
+        "type": "TEXT"
+      },
+      "edit_bet_cashout_value": {
+        "key": "edit_bet_cashout_value",
+        "value": "Editing uses the cashout value of this bet",
+        "type": "TEXT"
+      },
+      "review_stake": {
+        "key": "review_stake",
+        "value": "Please review your updated stake",
+        "type": "TEXT"
+      },
+      "undo": {
+        "key": "undo",
+        "value": "Undo",
+        "type": "TEXT"
+      },
+      "new_stake": {
+        "key": "new_stake",
+        "value": "New Stake",
+        "type": "TEXT"
+      },
+      "multi_maker": {
+        "key": "multi_maker",
+        "value": "Multi Maker",
+        "type": "TEXT"
+      },
+      "resubmit": {
+        "key": "resubmit",
+        "value": "Resubmit",
+        "type": "TEXT"
+      },
+      "added_succesfully": {
+        "key": "added_succesfully",
+        "value": "Added Successfully",
+        "type": "TEXT"
+      },
+      "cancellation_successful": {
+        "key": "cancellation_successful",
+        "value": "Cancellation Successful",
+        "type": "TEXT"
+      },
+      "issues_placing_bet": {
+        "key": "issues_placing_bet",
+        "value": "Seems like we are having some issues processing your order. Please come back and check \"Bet History\" later.",
+        "type": "TEXT"
+      },
+      "new": {
+        "key": "new",
+        "value": "New",
+        "type": "TEXT"
+      },
+      "in": {
+        "key": "in",
+        "value": "in",
+        "type": "TEXT"
+      },
+      "february": {
+        "key": "february",
+        "value": "February",
+        "type": "TEXT"
+      },
+      "january": {
+        "key": "january",
+        "value": "January",
+        "type": "TEXT"
+      },
+      "march": {
+        "key": "march",
+        "value": "March",
+        "type": "TEXT"
+      },
+      "april": {
+        "key": "april",
+        "value": "April",
+        "type": "TEXT"
+      },
+      "may": {
+        "key": "may",
+        "value": "May",
+        "type": "TEXT"
+      },
+      "june": {
+        "key": "june",
+        "value": "June",
+        "type": "TEXT"
+      },
+      "july": {
+        "key": "july",
+        "value": "July",
+        "type": "TEXT"
+      },
+      "august": {
+        "key": "august",
+        "value": "August",
+        "type": "TEXT"
+      },
+      "september": {
+        "key": "september",
+        "value": "September",
+        "type": "TEXT"
+      },
+      "october": {
+        "key": "october",
+        "value": "October",
+        "type": "TEXT"
+      },
+      "november": {
+        "key": "november",
+        "value": "November",
+        "type": "TEXT"
+      },
+      "december": {
+        "key": "december",
+        "value": "December",
+        "type": "TEXT"
+      },
+      "never_reveal_your_pin": {
+        "key": "never_reveal_your_pin",
+        "value": "Always ensure the URL is www.sportybet.com before inputting your PIN. Never reveal your PIN to anyone even if they claim to represent SportyBet.",
+        "type": "TEXT"
+      },
+      "betting": {
+        "key": "betting",
+        "value": "Betting",
+        "type": "TEXT"
+      },
+      "odds_txt": {
+        "key": "odds_txt",
+        "value": "Odds",
+        "type": "TEXT"
+      },
+      "all_sports": {
+        "key": "all_sports",
+        "value": "All Sports",
+        "type": "TEXT"
+      },
+      "all_categories": {
+        "key": "all_categories",
+        "value": "All Categories",
+        "type": "TEXT"
+      },
+      "all_tournaments": {
+        "key": "all_tournaments",
+        "value": "All Tournaments",
+        "type": "TEXT"
+      },
+      "best": {
+        "key": "best",
+        "value": "best",
+        "type": "TEXT"
+      },
+      "offers": {
+        "key": "offers",
+        "value": "offers",
+        "type": "TEXT"
+      },
+      "app_capital": {
+        "key": "app_capital",
+        "value": "APP",
+        "type": "TEXT"
+      },
+      "bonuses": {
+        "key": "bonuses",
+        "value": "bonuses",
+        "type": "TEXT"
+      },
+      "great": {
+        "key": "great",
+        "value": "great",
+        "type": "TEXT"
+      },
+      "a": {
+        "key": "a",
+        "value": "a",
+        "type": "TEXT"
+      },
+      "at": {
+        "key": "at",
+        "value": "at",
+        "type": "TEXT"
+      },
+      "the": {
+        "key": "the",
+        "value": "the",
+        "type": "TEXT"
+      },
+      "get_sporty_bet_sporty": {
+        "key": "get_sporty_bet_sporty",
+        "value": "Get Sporty, Bet Sporty!",
+        "type": "TEXT"
+      },
+      "soccer": {
+        "key": "soccer",
+        "value": "soccer",
+        "type": "TEXT"
+      },
+      "website": {
+        "key": "website",
+        "value": "website\n",
+        "type": "TEXT"
+      },
+      "multibet": {
+        "key": "multibet",
+        "value": "Multibet",
+        "type": "TEXT"
+      },
+      "bet_now": {
+        "key": "bet_now",
+        "value": "Bet now\n",
+        "type": "TEXT"
+      },
+      "place_bet": {
+        "key": "place_bet",
+        "value": "Place bet ",
+        "type": "TEXT"
+      },
+      "champions_league_betting": {
+        "key": "champions_league_betting",
+        "value": "Champions league betting",
+        "type": "TEXT"
+      },
+      "epl_betting": {
+        "key": "epl_betting",
+        "value": "epl betting",
+        "type": "TEXT"
+      },
+      "live_bet": {
+        "key": "live_bet",
+        "value": "live bet",
+        "type": "TEXT"
+      },
+      "football": {
+        "key": "football",
+        "value": "football",
+        "type": "TEXT"
+      },
+      "select_all": {
+        "key": "select_all",
+        "value": "Select all",
+        "type": "TEXT"
+      },
+      "added_successfully": {
+        "key": "added_successfully",
+        "value": "Added Successfully",
+        "type": "TEXT"
+      },
+      "draw": {
+        "key": "draw",
+        "value": "Draw",
+        "type": "TEXT"
+      },
+      "click_here": {
+        "key": "click_here",
+        "value": "Click here",
+        "type": "TEXT"
+      },
+      "over": {
+        "key": "over",
+        "value": "Over",
+        "type": "TEXT"
+      },
+      "under": {
+        "key": "under",
+        "value": "Under",
+        "type": "TEXT"
+      },
+      "away": {
+        "key": "away",
+        "value": "Away",
+        "type": "TEXT"
+      },
+      "players": {
+        "key": "players",
+        "value": "Players",
+        "type": "TEXT"
+      },
+      "quartis": {
+        "key": "quartis",
+        "value": "Quartis",
+        "type": "TEXT"
+      },
+      "allow": {
+        "key": "allow",
+        "value": "ALLOW",
+        "type": "TEXT"
+      },
+      "account_type": {
+        "key": "account_type",
+        "value": "com.sportybet",
+        "type": "TEXT"
+      },
+      "amount_label": {
+        "key": "amount_label",
+        "value": "Amount ({stake})",
+        "type": "TEXT"
+      },
+      "amount_country": {
+        "key": "amount_country",
+        "value": "Amount {country}",
+        "type": "TEXT"
+      },
+      "balance_label": {
+        "key": "balance_label",
+        "value": "Balance ({stake})",
+        "type": "TEXT"
+      },
+      "attention": {
+        "key": "attention",
+        "value": "Attention",
+        "type": "TEXT"
+      },
+      "check_details": {
+        "key": "check_details",
+        "value": "Check details",
+        "type": "TEXT"
+      },
+      "check_update": {
+        "key": "check_update",
+        "value": "Check Update",
+        "type": "TEXT"
+      },
+      "check": {
+        "key": "check",
+        "value": "Check",
+        "type": "TEXT"
+      },
+      "code": {
+        "key": "code",
+        "value": "Code",
+        "type": "TEXT"
+      },
+      "checking_update": {
+        "key": "checking_update",
+        "value": "Checking update",
+        "type": "TEXT"
+      },
+      "coming_soon": {
+        "key": "coming_soon",
+        "value": "Coming Soon",
+        "type": "TEXT"
+      },
+      "customer_service_lowcase": {
+        "key": "customer_service_lowcase",
+        "value": "customer service",
+        "type": "TEXT"
+      },
+      "contact_service": {
+        "key": "contact_service",
+        "value": "Customer Service",
+        "type": "TEXT"
+      },
+      "deny": {
+        "key": "deny",
+        "value": "DENY",
+        "type": "TEXT"
+      },
+      "even": {
+        "key": "even",
+        "value": "Even",
+        "type": "TEXT"
+      },
+      "error": {
+        "key": "error",
+        "value": "Error",
+        "type": "TEXT"
+      },
+      "forgot_password_with_mark": {
+        "key": "forgot_password_with_mark",
+        "value": "Forgot Password?",
+        "type": "TEXT"
+      },
+      "exit_game": {
+        "key": "exit_game",
+        "value": "Exit Game",
+        "type": "TEXT"
+      },
+      "from_date": {
+        "key": "from_date",
+        "value": "From {date}",
+        "type": "TEXT"
+      },
+      "fours": {
+        "key": "fours",
+        "value": "Fours",
+        "type": "TEXT"
+      },
+      "game_balance": {
+        "key": "game_balance",
+        "value": "Balance: {num}",
+        "type": "TEXT"
+      },
+      "game_challenge": {
+        "key": "game_challenge",
+        "value": "Challenge",
+        "type": "TEXT"
+      },
+      "gg": {
+        "key": "gg",
+        "value": "GG",
+        "type": "TEXT"
+      },
+      "game_countdown_cash_out": {
+        "key": "game_countdown_cash_out",
+        "value": "Cash Out ({num})",
+        "type": "TEXT"
+      },
+      "go": {
+        "key": "go",
+        "value": "Go",
+        "type": "TEXT"
+      },
+      "ghana": {
+        "key": "ghana",
+        "value": "Ghana",
+        "type": "TEXT"
+      },
+      "government": {
+        "key": "government",
+        "value": "Government",
+        "type": "TEXT"
+      },
+      "half_suffix": {
+        "key": "half_suffix",
+        "value": "{num} Half",
+        "type": "TEXT"
+      },
+      "l_error": {
+        "key": "l_error",
+        "value": "error",
+        "type": "TEXT"
+      },
+      "kenya": {
+        "key": "kenya",
+        "value": "Kenya",
+        "type": "TEXT"
+      },
+      "l_or": {
+        "key": "l_or",
+        "value": "or",
+        "type": "TEXT"
+      },
+      "language_preference": {
+        "key": "language_preference",
+        "value": "Language Preference",
+        "type": "TEXT"
+      },
+      "language": {
+        "key": "language",
+        "value": "Language",
+        "type": "TEXT"
+      },
+      "l_selection": {
+        "key": "l_selection",
+        "value": "selection",
+        "type": "TEXT"
+      },
+      "lucky_wheel": {
+        "key": "lucky_wheel",
+        "value": "Lucky Wheel",
+        "type": "TEXT"
+      },
+      "maps": {
+        "key": "maps",
+        "value": "Maps",
+        "type": "TEXT"
+      },
+      "login_to_view": {
+        "key": "login_to_view",
+        "value": "Please login to view",
+        "type": "TEXT"
+      },
+      "more": {
+        "key": "more",
+        "value": "More",
+        "type": "TEXT"
+      },
+      "nan": {
+        "key": "nan",
+        "value": "NAN",
+        "type": "TEXT"
+      },
+      "market": {
+        "key": "market",
+        "value": "Market",
+        "type": "TEXT"
+      },
+      "ng_mobile_prefix": {
+        "key": "ng_mobile_prefix",
+        "value": "+234",
+        "type": "TEXT"
+      },
+      "ng": {
+        "key": "ng",
+        "value": "NG",
+        "type": "TEXT"
+      },
+      "nigeria": {
+        "key": "nigeria",
+        "value": "Nigeria",
+        "type": "TEXT"
+      },
+      "no_game": {
+        "key": "no_game",
+        "value": "Sorry, there are no games currently available in this category. Please try later. Thank you.",
+        "type": "TEXT"
+      },
+      "ng_telephone": {
+        "key": "ng_telephone",
+        "value": "07008888888/09088999988",
+        "type": "TEXT"
+      },
+      "no_goal": {
+        "key": "no_goal",
+        "value": "No Goal",
+        "type": "TEXT"
+      },
+      "no_message_available": {
+        "key": "no_message_available",
+        "value": "No message available",
+        "type": "TEXT"
+      },
+      "no_more_info": {
+        "key": "no_more_info",
+        "value": "No more info",
+        "type": "TEXT"
+      },
+      "none_with_brackets": {
+        "key": "none_with_brackets",
+        "value": "(None)",
+        "type": "TEXT"
+      },
+      "no_win": {
+        "key": "no_win",
+        "value": "No win",
+        "type": "TEXT"
+      },
+      "not_available": {
+        "key": "not_available",
+        "value": "not available",
+        "type": "TEXT"
+      },
+      "not_start": {
+        "key": "not_start",
+        "value": "Not Start",
+        "type": "TEXT"
+      },
+      "number_prefix": {
+        "key": "number_prefix",
+        "value": "No.{num}",
+        "type": "TEXT"
+      },
+      "notice": {
+        "key": "notice",
+        "value": "Notice",
+        "type": "TEXT"
+      },
+      "offline_contact_info": {
+        "key": "offline_contact_info",
+        "value": "08181988888",
+        "type": "TEXT"
+      },
+      "odd": {
+        "key": "odd",
+        "value": "Odd",
+        "type": "TEXT"
+      },
+      "open_bets_num": {
+        "key": "open_bets_num",
+        "value": "Open Bets ({num})",
+        "type": "TEXT"
+      },
+      "oops": {
+        "key": "oops",
+        "value": "Opps",
+        "type": "TEXT"
+      },
+      "partner_amount": {
+        "key": "partner_amount",
+        "value": "Partner({amount})",
+        "type": "TEXT"
+      },
+      "password": {
+        "key": "password",
+        "value": "Password",
+        "type": "TEXT"
+      },
+      "practice": {
+        "key": "practice",
+        "value": "Practice",
+        "type": "TEXT"
+      },
+      "permission_denied": {
+        "key": "permission_denied",
+        "value": "Permission Denied",
+        "type": "TEXT"
+      },
+      "remove": {
+        "key": "remove",
+        "value": "Remove",
+        "type": "TEXT"
+      },
+      "region": {
+        "key": "region",
+        "value": "Region",
+        "type": "TEXT"
+      },
+      "remaining_amount": {
+        "key": "remaining_amount",
+        "value": "Remaining Amount ({stake})",
+        "type": "TEXT"
+      },
+      "round_no": {
+        "key": "round_no",
+        "value": "Round No. {num}",
+        "type": "TEXT"
+      },
+      "rules": {
+        "key": "rules",
+        "value": "Rules",
+        "type": "TEXT"
+      },
+      "restart_hint": {
+        "key": "restart_hint",
+        "value": "App will restart when changing the region. Please be patient.",
+        "type": "TEXT"
+      },
+      "runs": {
+        "key": "runs",
+        "value": "Runs",
+        "type": "TEXT"
+      },
+      "see_more_dot": {
+        "key": "see_more_dot",
+        "value": "\u2026See more",
+        "type": "TEXT"
+      },
+      "select_category": {
+        "key": "select_category",
+        "value": "Select Category",
+        "type": "TEXT"
+      },
+      "select_tournament": {
+        "key": "select_tournament",
+        "value": "Select Tournament",
+        "type": "TEXT"
+      },
+      "select_date_range": {
+        "key": "select_date_range",
+        "value": "Please select a date range",
+        "type": "TEXT"
+      },
+      "select_other_date": {
+        "key": "select_other_date",
+        "value": "Please select another Date",
+        "type": "TEXT"
+      },
+      "sending_code": {
+        "key": "sending_code",
+        "value": "Sending your code...",
+        "type": "TEXT"
+      },
+      "set": {
+        "key": "set",
+        "value": "Set",
+        "type": "TEXT"
+      },
+      "settings": {
+        "key": "settings",
+        "value": "Settings",
+        "type": "TEXT"
+      },
+      "spr_min_money": {
+        "key": "spr_min_money",
+        "value": "min. {num}",
+        "type": "TEXT"
+      },
+      "sound": {
+        "key": "sound",
+        "value": "Sound",
+        "type": "TEXT"
+      },
+      "sold_out": {
+        "key": "sold_out",
+        "value": "Sold Out",
+        "type": "TEXT"
+      },
+      "state": {
+        "key": "state",
+        "value": "State",
+        "type": "TEXT"
+      },
+      "start": {
+        "key": "start",
+        "value": "Start",
+        "type": "TEXT"
+      },
+      "status_bar_high_score": {
+        "key": "status_bar_high_score",
+        "value": "High Score: {num}",
+        "type": "TEXT"
+      },
+      "step2": {
+        "key": "step2",
+        "value": "Step2",
+        "type": "TEXT"
+      },
+      "step1": {
+        "key": "step1",
+        "value": "Step1",
+        "type": "TEXT"
+      },
+      "step3": {
+        "key": "step3",
+        "value": "Step3",
+        "type": "TEXT"
+      },
+      "system": {
+        "key": "system",
+        "value": "System",
+        "type": "TEXT"
+      },
+      "tanzania": {
+        "key": "tanzania",
+        "value": "Tanzania",
+        "type": "TEXT"
+      },
+      "to_date": {
+        "key": "to_date",
+        "value": "To {date}",
+        "type": "TEXT"
+      },
+      "tutorial_reset": {
+        "key": "tutorial_reset",
+        "value": "Tutorial Reset",
+        "type": "TEXT"
+      },
+      "this_setting_will_be_your_default_language": {
+        "key": "this_setting_will_be_your_default_language",
+        "value": "This setting will be your default language.",
+        "type": "TEXT"
+      },
+      "u_retry": {
+        "key": "u_retry",
+        "value": "RETRY",
+        "type": "TEXT"
+      },
+      "uganda": {
+        "key": "uganda",
+        "value": "Uganda",
+        "type": "TEXT"
+      },
+      "vibration": {
+        "key": "vibration",
+        "value": "Vibration",
+        "type": "TEXT"
+      },
+      "view_more": {
+        "key": "view_more",
+        "value": "View more",
+        "type": "TEXT"
+      },
+      "view_more_low": {
+        "key": "view_more_low",
+        "value": "view more",
+        "type": "TEXT"
+      },
+      "winning_no": {
+        "key": "winning_no",
+        "value": "Winning No.",
+        "type": "TEXT"
+      },
+      "withdrawable_balance_label": {
+        "key": "withdrawable_balance_label",
+        "value": "Withdrawable Balance ({stake})",
+        "type": "TEXT"
+      },
+      "zambia": {
+        "key": "zambia",
+        "value": "Zambia",
+        "type": "TEXT"
+      },
+      "discard_selections": {
+        "key": "discard_selections",
+        "value": "Discard Selections",
+        "type": "TEXT"
+      },
+      "stay": {
+        "key": "stay",
+        "value": "Stay",
+        "type": "TEXT"
+      },
+      "discard": {
+        "key": "discard",
+        "value": "Discard",
+        "type": "TEXT"
+      },
+      "are_you_sure_discard": {
+        "key": "are_you_sure_discard",
+        "value": "Are you sure you want to discard",
+        "type": "TEXT"
+      },
+      "this_will_cler_selections": {
+        "key": "this_will_cler_selections",
+        "value": "This will delete your selections",
+        "type": "TEXT"
+      },
+      "cashout_amount_changed": {
+        "key": "cashout_amount_changed",
+        "value": "Cashout value has changed and the stake was updated.",
+        "type": "TEXT"
+      },
+      "review_changes": {
+        "key": "review_changes",
+        "value": "Review Changes",
+        "type": "TEXT"
+      },
+      "combo_market_title_set_winner": {
+        "key": "combo_market_title_set_winner",
+        "value": "Set - winner",
+        "type": "TEXT"
+      },
+      "request_pending": {
+        "key": "request_pending",
+        "value": "Request Pending",
+        "type": "TEXT"
+      },
+      "issues_processing_order": {
+        "key": "issues_processing_order",
+        "value": "Seems like we are having some issues processing your order. Please come back and check \"Bet History\" later.",
+        "type": "TEXT"
+      },
+      "asian": {
+        "key": "asian",
+        "value": "Asian",
+        "type": "TEXT"
+      },
+      "cancel_edit": {
+        "key": "cancel_edit",
+        "value": "Cancel Edit",
+        "type": "TEXT"
+      },
+      "clear_betslip_and_continue": {
+        "key": "clear_betslip_and_continue",
+        "value": "Clear betslip and continue",
+        "type": "TEXT"
+      },
+      "customer_service": {
+        "key": "customer_service",
+        "value": "Customer Service",
+        "type": "TEXT"
+      },
+      "editing_bet_will_clear_betslip": {
+        "key": "editing_bet_will_clear_betslip",
+        "value": "Editing your bet will clear your current betslip",
+        "type": "TEXT"
+      },
+      "currently_unavailable": {
+        "key": "currently_unavailable",
+        "value": "Currently Unavailable",
+        "type": "TEXT"
+      },
+      "only": {
+        "key": "only",
+        "value": "Only",
+        "type": "TEXT"
+      },
+      "edit_bet_error_title_prefix": {
+        "key": "edit_bet_error_title_prefix",
+        "value": "Edit Bet - ",
+        "type": "TEXT"
+      },
+      "permission_request_msg": {
+        "key": "permission_request_msg",
+        "value": "Go to system settings and allow SportyBet to access your photos",
+        "type": "TEXT"
+      },
+      "insufficient_balance": {
+        "key": "insufficient_balance",
+        "value": "Insufficient Balance",
+        "type": "TEXT"
+      },
+      "save_to_camera_roll": {
+        "key": "save_to_camera_roll",
+        "value": "Save to Camera Roll",
+        "type": "TEXT"
+      },
+      "phone_number": {
+        "key": "phone_number",
+        "value": "Phone Number",
+        "type": "TEXT"
+      },
+      "unknown": {
+        "key": "unknown",
+        "value": "Unknown",
+        "type": "TEXT"
+      },
+      "edit_bet_not_supported": {
+        "key": "edit_bet_not_supported",
+        "value": "Edit Bet is no longer supported",
+        "type": "TEXT"
+      },
+      "cashout_not_possible": {
+        "key": "cashout_not_possible",
+        "value": "The cashout is no longer available and editing is not possible",
+        "type": "TEXT"
+      },
+      "az_menu": {
+        "key": "az_menu",
+        "value": "AZ Menu",
+        "type": "TEXT"
+      },
+      "history": {
+        "key": "history",
+        "value": "History",
+        "type": "TEXT"
+      },
+      "me": {
+        "key": "me",
+        "value": "Me",
+        "type": "TEXT"
+      },
+      "u_betslip": {
+        "key": "u_betslip",
+        "value": "BETSLIP",
+        "type": "TEXT"
+      },
+      "edit_bet_submission_error_unavailable_title": {
+        "key": "edit_bet_submission_error_unavailable_title",
+        "value": "Edit Bet is no longer supported",
+        "type": "TEXT"
+      },
+      "edit_bet_submission_error_unavailable_message": {
+        "key": "edit_bet_submission_error_unavailable_message",
+        "value": "The cashout is no longer available and editing is not possible.",
+        "type": "TEXT"
+      },
+      "edit_bet_submission_error_cashout_value_changed_title": {
+        "key": "edit_bet_submission_error_cashout_value_changed_title",
+        "value": "Error Placing Bet",
+        "type": "TEXT"
+      },
+      "edit_bet_submission_error_cashout_value_changed_message": {
+        "key": "edit_bet_submission_error_cashout_value_changed_message",
+        "value": "Cashout value has changed and the stake was updated.",
+        "type": "TEXT"
+      },
+      "edit_bet_submission_error_cashout_value_changed_review_changes": {
+        "key": "edit_bet_submission_error_cashout_value_changed_review_changes",
+        "value": "Review Changes",
+        "type": "TEXT"
+      },
+      "won": {
+        "key": "won",
+        "value": "Won",
+        "type": "TEXT"
+      },
+      "featured_matches": {
+        "key": "featured_matches",
+        "value": "Featured Matches",
+        "type": "TEXT"
+      },
+      "featured_games": {
+        "key": "featured_games",
+        "value": "Featured Games",
+        "type": "TEXT"
+      },
+      "call": {
+        "key": "call",
+        "value": "Call",
+        "type": "TEXT"
+      },
+      "vnum_hour": {
+        "key": "vnum_hour",
+        "value": "{num} hour",
+        "type": "TEXT"
+      },
+      "in_vwhere": {
+        "key": "in_vwhere",
+        "value": "in {where}",
+        "type": "TEXT"
+      },
+      "contact_email": {
+        "key": "contact_email",
+        "value": "nigeria.support@sportybet.com",
+        "type": "TEXT"
+      },
+      "sim_mode_off_info": {
+        "key": "sim_mode_off_info",
+        "value": "Your betslip is in SIM mode. To proceed with editing, we will switch it to REAL mode. Your current selections will be deleted. Do you want to continue?",
+        "type": "TEXT"
+      },
+      "cameroon": {
+        "key": "cameroon",
+        "value": "Cameroon",
+        "type": "TEXT"
+      },
+      "share_your_betslip": {
+        "key": "share_your_betslip",
+        "value": "Share your Betslip",
+        "type": "TEXT"
+      },
+      "betslip_code": {
+        "key": "betslip_code",
+        "value": "Betslip Code",
+        "type": "TEXT"
+      },
+      "potential_winnings": {
+        "key": "potential_winnings",
+        "value": "Potential Winnings",
+        "type": "TEXT"
+      },
+      "telegram": {
+        "key": "telegram",
+        "value": "Telegram",
+        "type": "TEXT"
+      },
+      "instagram": {
+        "key": "instagram",
+        "value": "Instagram",
+        "type": "TEXT"
+      },
+      "buttons": {
+        "key": "buttons",
+        "value": "Buttons",
+        "type": "TEXT"
+      },
+      "counters": {
+        "key": "counters",
+        "value": "Counters",
+        "type": "TEXT"
+      },
+      "show_more": {
+        "key": "show_more",
+        "value": "Show more",
+        "type": "TEXT"
+      },
+      "show_less": {
+        "key": "show_less",
+        "value": "Show less",
+        "type": "TEXT"
+      },
+      "transaction": {
+        "key": "transaction",
+        "value": "Transaction",
+        "type": "TEXT"
+      },
+      "identity_verification": {
+        "key": "identity_verification",
+        "value": "Identity Verification",
+        "type": "TEXT"
+      },
+      "safety_and_security": {
+        "key": "safety_and_security",
+        "value": "Safety & Security",
+        "type": "TEXT"
+      },
+      "game": {
+        "key": "game",
+        "value": "Game",
+        "type": "TEXT"
+      },
+      "x": {
+        "key": "x",
+        "value": "X",
+        "type": "TEXT"
+      },
+      "international": {
+        "key": "international",
+        "value": "International",
+        "type": "TEXT"
+      },
+      "brazil": {
+        "key": "brazil",
+        "value": "Brazil",
+        "type": "TEXT"
+      },
+      "range": {
+        "key": "range",
+        "value": "Range",
+        "type": "TEXT"
+      },
+      "casino": {
+        "key": "casino",
+        "value": "Games",
+        "type": "TEXT"
+      },
+      "one_cut_win": {
+        "key": "one_cut_win",
+        "value": "One Cut Win",
+        "type": "TEXT"
+      },
+      "near_odds": {
+        "key": "near_odds",
+        "value": "Near odds",
+        "type": "TEXT"
+      },
+      "far_odds": {
+        "key": "far_odds",
+        "value": "Far odds",
+        "type": "TEXT"
+      },
+      "featured": {
+        "key": "featured",
+        "value": "Featured",
+        "type": "TEXT"
+      },
+      "update_now": {
+        "key": "update_now",
+        "value": "Update Now",
+        "type": "TEXT"
+      },
+      "far": {
+        "key": "far",
+        "value": "Far",
+        "type": "TEXT"
+      },
+      "near": {
+        "key": "near",
+        "value": "Near",
+        "type": "TEXT"
+      },
+      "rate_our_app": {
+        "key": "rate_our_app",
+        "value": "Rate Our App",
+        "type": "TEXT"
+      },
+      "custom_time": {
+        "key": "custom_time",
+        "value": "Custom time",
+        "type": "TEXT"
+      },
+      "custom_date": {
+        "key": "custom_date",
+        "value": "Custom date",
+        "type": "TEXT"
+      },
+      "code_is_invalid": {
+        "key": "code_is_invalid",
+        "value": "The code is invalid",
+        "type": "TEXT"
+      },
+      "featured_codes": {
+        "key": "featured_codes",
+        "value": "Featured Codes",
+        "type": "TEXT"
+      },
+      "top_leagues": {
+        "key": "top_leagues",
+        "value": "Top Leagues",
+        "type": "TEXT"
+      },
+      "top_countries": {
+        "key": "top_countries",
+        "value": "Top Countries",
+        "type": "TEXT"
+      },
+      "codes": {
+        "key": "codes",
+        "value": "Codes",
+        "type": "TEXT"
+      },
+      "sporty_loyalty": {
+        "key": "sporty_loyalty",
+        "value": "Sporty Loyalty",
+        "type": "TEXT"
+      },
+      "claimed": {
+        "key": "claimed",
+        "value": "Claimed",
+        "type": "TEXT"
+      },
+      "processing": {
+        "key": "processing",
+        "value": "Available by end of day Monday",
+        "type": "TEXT"
+      },
+      "select_a_market_type": {
+        "key": "select_a_market_type",
+        "value": "Select a Market Type",
+        "type": "TEXT"
+      },
+      "expired": {
+        "key": "expired",
+        "value": "Expired",
+        "type": "TEXT"
+      },
+      "dynamic_market_info_title": {
+        "key": "dynamic_market_info_title",
+        "value": "What's this?",
+        "type": "TEXT"
+      },
+      "dynamic_market_info_text": {
+        "key": "dynamic_market_info_text",
+        "value": "To enhance the betting experience,\n we provide alternative market options when the original ones are no longer available for placing bets.",
+        "type": "TEXT"
+      },
+      "review": {
+        "key": "review",
+        "value": "Review",
+        "type": "TEXT"
+      },
+      "current": {
+        "key": "current",
+        "value": "Current",
+        "type": "TEXT"
+      },
+      "proceed": {
+        "key": "proceed",
+        "value": "Proceed",
+        "type": "TEXT"
+      },
+      "u_new": {
+        "key": "u_new",
+        "value": "NEW",
+        "type": "TEXT"
+      },
+      "live_time": {
+        "key": "live_time",
+        "value": "Live Time",
+        "type": "TEXT"
+      },
+      "most_popular": {
+        "key": "most_popular",
+        "value": "Most Popular",
+        "type": "TEXT"
+      },
+      "all_banks": {
+        "key": "all_banks",
+        "value": "All Banks",
+        "type": "TEXT"
+      },
+      "verify_identity": {
+        "key": "verify_identity",
+        "value": "Verify Identity",
+        "type": "TEXT"
+      },
+      "back_to_all_dates": {
+        "key": "back_to_all_dates",
+        "value": "Back to All Dates",
+        "type": "TEXT"
+      },
+      "save_image": {
+        "key": "save_image",
+        "value": "Save Image",
+        "type": "TEXT"
+      },
+      "recommended": {
+        "key": "recommended",
+        "value": "Recommended",
+        "type": "TEXT"
+      },
+      "skip_for_now": {
+        "key": "skip_for_now",
+        "value": "Skip For Now",
+        "type": "TEXT"
+      },
+      "please_enter_your_password": {
+        "key": "please_enter_your_password",
+        "value": "Please enter your Password",
+        "type": "TEXT"
+      },
+      "password_not_correct": {
+        "key": "password_not_correct",
+        "value": "Your Password is not correct",
+        "type": "TEXT"
+      },
+      "tap_confirm_to_complete": {
+        "key": "tap_confirm_to_complete",
+        "value": "Tap Confirm to complete",
+        "type": "TEXT"
+      },
+      "no_page_found": {
+        "key": "no_page_found",
+        "value": "No Page Found",
+        "type": "TEXT"
+      },
+      "to": {
+        "key": "to",
+        "value": "to",
+        "type": "TEXT"
+      },
+      "login": {
+        "key": "login",
+        "value": "Login",
+        "type": "TEXT"
+      },
+      "sort_by": {
+        "key": "sort_by",
+        "value": "Sort by",
+        "type": "TEXT"
+      },
+      "leagues": {
+        "key": "leagues",
+        "value": "Leagues",
+        "type": "TEXT"
+      },
+      "start_time": {
+        "key": "start_time",
+        "value": "Start time",
+        "type": "TEXT"
+      },
+      "show_at_top": {
+        "key": "show_at_top",
+        "value": "Show at Top",
+        "type": "TEXT"
+      },
+      "load_to_betslip": {
+        "key": "load_to_betslip",
+        "value": "Load to Betslip",
+        "type": "TEXT"
+      },
+      "maintenance_error_description": {
+        "key": "maintenance_error_description",
+        "value": "Sorry for the inconvenience. We're performing some maintenance at the moment and will be back online shortly. Please try again later.",
+        "type": "TEXT"
+      },
+      "swipe_markets_tutorial": {
+        "key": "swipe_markets_tutorial",
+        "value": "Swipe to switch between markets",
+        "type": "TEXT"
+      },
+      "odds_format": {
+        "key": "odds_format",
+        "value": "Odds Format",
+        "type": "TEXT"
+      },
+      "maintenance_error_title": {
+        "key": "maintenance_error_title",
+        "value": "ERROR",
+        "type": "TEXT"
+      },
+      "out_of_region_error_description": {
+        "key": "out_of_region_error_description",
+        "value": "You are visiting from a prohibited jurisdiction. Currently we only accept customers from Ghana, Nigeria, Tanzania, Uganda, and Zambia. Or you can visit Sporty.com for the ultimate live sports experience.",
+        "type": "TEXT"
+      },
+      "out_of_region_error_title": {
+        "key": "out_of_region_error_title",
+        "value": "OOPS...",
+        "type": "TEXT"
+      },
+      "still_there": {
+        "key": "still_there",
+        "value": "Still there?",
+        "type": "TEXT"
+      },
+      "due_to_inactivity_your_session_will_expire_soon_and_you_will_be_automatically_logged_out": {
+        "key": "due_to_inactivity_your_session_will_expire_soon_and_you_will_be_automatically_logged_out",
+        "value": "Due to inactivity, your session will expire soon and you will be automatically logged out.",
+        "type": "TEXT"
+      },
+      "logout": {
+        "key": "logout",
+        "value": "Logout",
+        "type": "TEXT"
+      },
+      "notification_center": {
+        "key": "notification_center",
+        "value": "Notification Center",
+        "type": "TEXT"
+      },
+      "unsupported": {
+        "key": "unsupported",
+        "value": "Unsupported",
+        "type": "TEXT"
+      },
+      "24_7_online": {
+        "key": "24_7_online",
+        "value": "Online 24/7 ",
+        "type": "TEXT"
+      },
+      "your_limits_have_been_reached": {
+        "key": "your_limits_have_been_reached",
+        "value": "Your limits have been reached. Bettor limits may limit placing bets and the time you spend at SportyBet.",
+        "type": "TEXT"
+      },
+      "your_vlimit_have_been_reached_time": {
+        "key": "your_vlimit_have_been_reached_time",
+        "value": "Your {limit} have been reached. You will not be able to navigate through SportyBet until your limit resets or is adjusted by you.",
+        "type": "TEXT"
+      },
+      "your_vlimit_have_been_reached_others": {
+        "key": "your_vlimit_have_been_reached_others",
+        "value": "Your {limit} have been reached. You will not be able to place additional bets until your limit resets or is adjusted by you.",
+        "type": "TEXT"
+      },
+      "i_understand": {
+        "key": "i_understand",
+        "value": "I understand",
+        "type": "TEXT"
+      },
+      "assign": {
+        "key": "assign",
+        "value": "Assign",
+        "type": "TEXT"
+      },
+      "daily_betting_limits": {
+        "key": "daily_betting_limits",
+        "value": "Daily Betting limits",
+        "type": "TEXT"
+      },
+      "daily_time_limits": {
+        "key": "daily_time_limits",
+        "value": "Daily Time limits",
+        "type": "TEXT"
+      },
+      "daily_loss_limits": {
+        "key": "daily_loss_limits",
+        "value": "Daily Loss limits",
+        "type": "TEXT"
+      },
+      "weekly_betting_limits": {
+        "key": "weekly_betting_limits",
+        "value": "Weekly Betting limits",
+        "type": "TEXT"
+      },
+      "weekly_time_limits": {
+        "key": "weekly_time_limits",
+        "value": "Weekly Time limits",
+        "type": "TEXT"
+      },
+      "weekly_loss_limits": {
+        "key": "weekly_loss_limits",
+        "value": "Weekly Loss limits",
+        "type": "TEXT"
+      },
+      "monthly_betting_limits": {
+        "key": "monthly_betting_limits",
+        "value": "Monthly Betting limits",
+        "type": "TEXT"
+      },
+      "monthly_time_limits": {
+        "key": "monthly_time_limits",
+        "value": "Monthly Time limits",
+        "type": "TEXT"
+      },
+      "monthly_loss_limits": {
+        "key": "monthly_loss_limits",
+        "value": "Monthly Loss limits",
+        "type": "TEXT"
+      },
+      "enable_now": {
+        "key": "enable_now",
+        "value": "Enable Now",
+        "type": "TEXT"
+      },
+      "more_options": {
+        "key": "more_options",
+        "value": "more options",
+        "type": "TEXT"
+      },
+      "reliable": {
+        "key": "reliable",
+        "value": "Reliable",
+        "type": "TEXT"
+      },
+      "success": {
+        "key": "success",
+        "value": "Success",
+        "type": "TEXT"
+      },
+      "in_review": {
+        "key": "in_review",
+        "value": "In Review",
+        "type": "TEXT"
+      },
+      "re_submit": {
+        "key": "re_submit",
+        "value": "Re-Submit",
+        "type": "TEXT"
+      },
+      "try_again": {
+        "key": "try_again",
+        "value": "Try Again",
+        "type": "TEXT"
+      },
+      "city": {
+        "key": "city",
+        "value": "City",
+        "type": "TEXT"
+      },
+      "full_name": {
+        "key": "full_name",
+        "value": "Full name",
+        "type": "TEXT"
+      },
+      "date_of_birth": {
+        "key": "date_of_birth",
+        "value": "Date of Birth",
+        "type": "TEXT"
+      },
+      "street": {
+        "key": "street",
+        "value": "Street",
+        "type": "TEXT"
+      },
+      "facial_recognition": {
+        "key": "facial_recognition",
+        "value": "Facial Recognition",
+        "type": "TEXT"
+      },
+      "facial_recognition_desc": {
+        "key": "facial_recognition_desc",
+        "value": "Let\u2019s now proceed to a quick Facial Recognition in order for you to start enjoying the best products and services again!",
+        "type": "TEXT"
+      },
+      "an_error_occurred_during_your_facial_recognition": {
+        "key": "an_error_occurred_during_your_facial_recognition",
+        "value": "An error occurred during your facial recognition. Kindly retry and follow the instructions, if you experience added difficulties, do not hesitate to reach out to our support team.",
+        "type": "TEXT"
+      },
+      "more_details": {
+        "key": "more_details",
+        "value": "More details",
+        "type": "TEXT"
+      },
+      "hot": {
+        "key": "hot",
+        "value": "HOT",
+        "type": "TEXT"
+      },
+      "account_insights": {
+        "key": "account_insights",
+        "value": "Account Insights",
+        "type": "TEXT"
+      },
+      "south_africa": {
+        "key": "south_africa",
+        "value": "South Africa",
+        "type": "TEXT"
+      },
+      "instant_basketball": {
+        "key": "instant_basketball",
+        "value": "Instant Basketball",
+        "type": "TEXT"
+      },
+      "instant_football": {
+        "key": "instant_football",
+        "value": "Instant Football",
+        "type": "TEXT"
+      },
+      "search_by_market_outcome_name": {
+        "key": "search_by_market_outcome_name",
+        "value": "Search by market or outcome name...",
+        "type": "TEXT"
+      },
+      "search_results": {
+        "key": "search_results",
+        "value": "Search Results",
+        "type": "TEXT"
+      },
+      "were_you_looking_for_this": {
+        "key": "were_you_looking_for_this",
+        "value": "Were you looking for this",
+        "type": "TEXT"
+      },
+      "hot_searches": {
+        "key": "hot_searches",
+        "value": "Hot Searches",
+        "type": "TEXT"
+      },
+      "contact_support": {
+        "key": "contact_support",
+        "value": "Contact Support",
+        "type": "TEXT"
+      },
+      "try": {
+        "key": "try",
+        "value": "Try",
+        "type": "TEXT"
+      },
+      "enter": {
+        "key": "enter",
+        "value": "Enter",
+        "type": "TEXT"
+      },
+      "switch_match": {
+        "key": "switch_match",
+        "value": "Switch match",
+        "type": "TEXT"
+      },
+      "exit": {
+        "key": "exit",
+        "value": "Exit",
+        "type": "TEXT"
+      },
+      "you_have_reached_your_limits": {
+        "key": "you_have_reached_your_limits",
+        "value": "You have reached your limits!",
+        "type": "TEXT"
+      },
+      "go_bet_on_live_action": {
+        "key": "go_bet_on_live_action",
+        "value": "Go bet on the live action",
+        "type": "TEXT"
+      },
+      "1st": {
+        "key": "1st",
+        "value": "1st",
+        "type": "TEXT"
+      },
+      "2nd": {
+        "key": "2nd",
+        "value": "2nd",
+        "type": "TEXT"
+      },
+      "vth": {
+        "key": "vth",
+        "value": "{num}th",
+        "type": "TEXT"
+      },
+      "important": {
+        "key": "important",
+        "value": "Important!",
+        "type": "TEXT"
+      },
+      "search_results_empty": {
+        "key": "search_results_empty",
+        "value": "Oops! It seems there are no results matching your search. Please try different keywords.",
+        "type": "TEXT"
+      },
+      "coming_soon_web_dialog_description": {
+        "key": "coming_soon_web_dialog_description",
+        "value": "This feature is not ready in our WEB version. Please access mobile version to get the full experience.",
+        "type": "TEXT"
+      },
+      "mozambique": {
+        "key": "mozambique",
+        "value": "Mozambique",
+        "type": "TEXT"
+      },
+      "sporty": {
+        "key": "sporty",
+        "value": "Sporty",
+        "type": "TEXT"
+      },
+      "call_us": {
+        "key": "call_us",
+        "value": "call us",
+        "type": "TEXT"
+      },
+      "you_won": {
+        "key": "you_won",
+        "value": "YOU WON",
+        "type": "TEXT"
+      },
+      "of": {
+        "key": "of",
+        "value": "of",
+        "type": "TEXT"
+      },
+      "assign_code": {
+        "key": "assign_code",
+        "value": "Assign Code",
+        "type": "TEXT"
+      },
+      "custom_code": {
+        "key": "custom_code",
+        "value": "Custom Code",
+        "type": "TEXT"
+      },
+      "load_code_to_betslip": {
+        "key": "load_code_to_betslip",
+        "value": "Load Code to Betslip",
+        "type": "TEXT"
+      },
+      "assign_custom_code": {
+        "key": "assign_custom_code",
+        "value": "Assign Custom Code",
+        "type": "TEXT"
+      },
+      "odds_all_txt": {
+        "key": "odds_all_txt",
+        "value": "All Odds",
+        "type": "TEXT"
+      },
+      "telephone": {
+        "key": "telephone",
+        "value": "07008888888/09088999988",
+        "type": "TEXT"
+      },
+      "dr_congo": {
+        "key": "dr_congo",
+        "value": "DR Congo",
+        "type": "TEXT"
+      },
+      "enter_password": {
+        "key": "enter_password",
+        "value": "Enter Password",
+        "type": "TEXT"
+      },
+      "enter_password_description": {
+        "key": "enter_password_description",
+        "value": "To access sensitive info, enter your old password to verify your identity.",
+        "type": "TEXT"
+      },
+      "enter_password_nav_title": {
+        "key": "enter_password_nav_title",
+        "value": "Verify Identity",
+        "type": "TEXT"
+      },
+      "your_current_email": {
+        "key": "your_current_email",
+        "value": "Your Current Email",
+        "type": "TEXT"
+      },
+      "your_new_email_address": {
+        "key": "your_new_email_address",
+        "value": "Your New Email Address",
+        "type": "TEXT"
+      },
+      "confirm_your_new_email_address": {
+        "key": "confirm_your_new_email_address",
+        "value": "Confirm Your New Email Address",
+        "type": "TEXT"
+      },
+      "verified": {
+        "key": "verified",
+        "value": "Verified",
+        "type": "TEXT"
+      },
+      "nin": {
+        "key": "nin",
+        "value": "NIN",
+        "type": "TEXT"
+      },
+      "view_gifts": {
+        "key": "view_gifts",
+        "value": "View Gifts",
+        "type": "TEXT"
+      },
+      "mexico": {
+        "key": "mexico",
+        "value": "Mexico",
+        "type": "TEXT"
+      },
+      "3rd": {
+        "key": "3rd",
+        "value": "3rd",
+        "type": "TEXT"
+      },
+      "gh_email": {
+        "key": "gh_email",
+        "value": "ghana.support@sportybet.com",
+        "type": "TEXT"
+      },
+      "ke_email": {
+        "key": "ke_email",
+        "value": "kenya.support@sportybet.com",
+        "type": "TEXT"
+      },
+      "ng_email": {
+        "key": "ng_email",
+        "value": "nigeria.support@sportybet.com",
+        "type": "TEXT"
+      },
+      "tz_email": {
+        "key": "tz_email",
+        "value": "tanzania.support@sportybet.com",
+        "type": "TEXT"
+      },
+      "ug_email": {
+        "key": "ug_email",
+        "value": "uganda.support@sportybet.com",
+        "type": "TEXT"
+      },
+      "zm_email": {
+        "key": "zm_email",
+        "value": "zambia.support@sportybet.com",
+        "type": "TEXT"
+      },
+      "proceed_anyway": {
+        "key": "proceed_anyway",
+        "value": "Proceed Anyway",
+        "type": "TEXT"
+      },
+      "instant_racing_dog": {
+        "key": "instant_racing_dog",
+        "value": "Instant Dog Racing",
+        "type": "TEXT"
+      },
+      "sporty_legends": {
+        "key": "sporty_legends",
+        "value": "Sporty Legends",
+        "type": "TEXT"
+      },
+      "facial_recognition_error_msg": {
+        "key": "facial_recognition_error_msg",
+        "value": "An error occurred during your Facial Recognition process. Try again and follow the instructions. If this error persists, please reach out to our support team for further assistance.",
+        "type": "TEXT"
+      },
+      "all_players": {
+        "key": "all_players",
+        "value": "All Players",
+        "type": "TEXT"
+      },
+      "go_to_home_page": {
+        "key": "go_to_home_page",
+        "value": "Go to homepage",
+        "type": "TEXT"
+      },
+      "any_lead_by_goal_title": {
+        "key": "any_lead_by_goal_title",
+        "value": "Any Team to lead by X Goal(s) at any time",
+        "type": "TEXT"
+      },
+      "home_lead_by_goal_title": {
+        "key": "home_lead_by_goal_title",
+        "value": "Home Team to lead by X Goal(s) at any time",
+        "type": "TEXT"
+      },
+      "away_lead_by_goal_title": {
+        "key": "away_lead_by_goal_title",
+        "value": "Away Team to lead by X Goal(s) at any time",
+        "type": "TEXT"
+      },
+      "show_off_your_bet": {
+        "key": "show_off_your_bet",
+        "value": "Show Off Your Bet",
+        "type": "TEXT"
+      },
+      "won_pop_up": {
+        "key": "won_pop_up",
+        "value": "Won Pop-up",
+        "type": "TEXT"
+      },
+      "ticket_snap": {
+        "key": "ticket_snap",
+        "value": "Ticket Snap",
+        "type": "TEXT"
+      },
+      "sporty_penalty": {
+        "key": "sporty_penalty",
+        "value": "Sporty Penalty",
+        "type": "TEXT"
+      },
+      "use": {
+        "key": "use",
+        "value": "Use",
+        "type": "TEXT"
+      },
+      "mobile_number": {
+        "key": "mobile_number",
+        "value": "Mobile Number",
+        "type": "TEXT"
+      },
+      "market_title_goal_scorer": {
+        "key": "market_title_goal_scorer",
+        "value": "Goalscorer",
+        "type": "TEXT"
+      },
+      "check_out_my_big_win": {
+        "key": "check_out_my_big_win",
+        "value": "Check out my big win on",
+        "type": "TEXT"
+      },
+      "sporty_african_cup": {
+        "key": "sporty_african_cup",
+        "value": "Sporty African Cup",
+        "type": "TEXT"
+      },
+      "citizenship": {
+        "key": "citizenship",
+        "value": "Citizenship",
+        "type": "TEXT"
+      },
+      "your_login_has_expired": {
+        "key": "your_login_has_expired",
+        "value": "Your login has expired",
+        "type": "TEXT"
+      },
+      "dashboard": {
+        "key": "dashboard",
+        "value": "Dashboard",
+        "type": "TEXT"
+      },
+      "applied": {
+        "key": "applied",
+        "value": "Applied",
+        "type": "TEXT"
+      },
+      "hello": {
+        "key": "hello",
+        "value": "Hello",
+        "type": "TEXT"
+      },
+      "page": {
+        "key": "page",
+        "value": "Page",
+        "type": "TEXT"
+      },
+      "quit": {
+        "key": "quit",
+        "value": "Quit",
+        "type": "TEXT"
+      },
+      "tier": {
+        "key": "tier",
+        "value": "Tier",
+        "type": "TEXT"
+      },
+      "set_up": {
+        "key": "set_up",
+        "value": "Set Up",
+        "type": "TEXT"
+      },
+      "daily_streak": {
+        "key": "daily_streak",
+        "value": "Daily Streak",
+        "type": "TEXT"
+      },
+      "this_weekend": {
+        "key": "this_weekend",
+        "value": "This Weekend",
+        "type": "TEXT"
+      },
+      "publish": {
+        "key": "publish",
+        "value": "Publish",
+        "type": "TEXT"
+      },
+      "block": {
+        "key": "block",
+        "value": "Block",
+        "type": "TEXT"
+      },
+      "unblock": {
+        "key": "unblock",
+        "value": "Unblock",
+        "type": "TEXT"
+      },
+      "blocked": {
+        "key": "blocked",
+        "value": "Blocked",
+        "type": "TEXT"
+      },
+      "logout_action": {
+        "key": "logout_action",
+        "value": "Log Out",
+        "type": "TEXT"
+      },
+      "verify_identity_enter_password_default_description": {
+        "key": "verify_identity_enter_password_default_description",
+        "value": "Enter your password to verify your identity and continue.",
+        "type": "TEXT"
+      },
+      "joker_same_market_conflict": {
+        "key": "joker_same_market_conflict",
+        "value": "Joker and regular selection cannot be placed on the same market.",
+        "type": "TEXT"
+      },
+      "use_gift": {
+        "key": "use_gift",
+        "value": "Use Gift",
+        "type": "TEXT"
+      },
+      "get_tax_reports": {
+        "key": "get_tax_reports",
+        "value": "Get Tax Reports",
+        "type": "TEXT"
+      },
+      "check_reward": {
+        "key": "check_reward",
+        "value": "Check Reward",
+        "type": "TEXT"
+      },
+      "features": {
+        "key": "features",
+        "value": "Features",
+        "type": "TEXT"
+      },
+      "prev": {
+        "key": "prev",
+        "value": "Prev",
+        "type": "TEXT"
+      },
+      "see_details": {
+        "key": "see_details",
+        "value": "See Details",
+        "type": "TEXT"
+      },
+      "support": {
+        "key": "support",
+        "value": "Support",
+        "type": "TEXT"
+      },
+      "verify_failed": {
+        "key": "verify_failed",
+        "value": "Verify Failed",
+        "type": "TEXT"
+      },
+      "verifying": {
+        "key": "verifying",
+        "value": "Verifying",
+        "type": "TEXT"
+      },
+      "verification_processing": {
+        "key": "verification_processing",
+        "value": "Verification Processing",
+        "type": "TEXT"
+      }
+    },
+    "version": "1773073422000"
+  }
+}

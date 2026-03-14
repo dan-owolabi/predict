@@ -1,0 +1,31 @@
+{
+  "name": "component_pop_user_center",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/component_pop_user_center",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 4,
+  "payload": {
+    "keys": {
+      "check_your_bet_history_here": {
+        "key": "check_your_bet_history_here",
+        "value": "Check your bet history here",
+        "type": "TEXT"
+      },
+      "free": {
+        "key": "free",
+        "value": "Free",
+        "type": "TEXT"
+      },
+      "tier_level": {
+        "key": "tier_level",
+        "value": "Tier {level}",
+        "type": "TEXT"
+      },
+      "verify_now": {
+        "key": "verify_now",
+        "value": "Verify Now",
+        "type": "TEXT"
+      }
+    },
+    "version": "1767015625000"
+  }
+}

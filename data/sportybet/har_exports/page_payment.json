@@ -1,0 +1,3626 @@
+{
+  "name": "page_payment",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/page_payment",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 723,
+  "payload": {
+    "keys": {
+      "direct_bank": {
+        "key": "direct_bank",
+        "value": "Direct Bank",
+        "type": "TEXT"
+      },
+      "use_new_card": {
+        "key": "use_new_card",
+        "value": "Use New Card",
+        "type": "TEXT"
+      },
+      "other_banks": {
+        "key": "other_banks",
+        "value": "Other Banks",
+        "type": "TEXT"
+      },
+      "select_a_bank": {
+        "key": "select_a_bank",
+        "value": "Select a Bank",
+        "type": "TEXT"
+      },
+      "account_number": {
+        "key": "account_number",
+        "value": "Account Number",
+        "type": "TEXT"
+      },
+      "vnum_digits": {
+        "key": "vnum_digits",
+        "value": "{num} digits",
+        "type": "TEXT"
+      },
+      "switch_bank_account": {
+        "key": "switch_bank_account",
+        "value": "Switch Bank Account",
+        "type": "TEXT"
+      },
+      "phone_number": {
+        "key": "phone_number",
+        "value": "Phone Number",
+        "type": "TEXT"
+      },
+      "cvv": {
+        "key": "cvv",
+        "value": "CVV",
+        "type": "TEXT"
+      },
+      "payment_steps": {
+        "key": "payment_steps",
+        "value": "Payment Steps",
+        "type": "TEXT"
+      },
+      "add_new": {
+        "key": "add_new",
+        "value": "Add New",
+        "type": "TEXT"
+      },
+      "bank_transfer": {
+        "key": "bank_transfer",
+        "value": "Transfer",
+        "type": "TEXT"
+      },
+      "quickteller": {
+        "key": "quickteller",
+        "value": "Quickteller",
+        "type": "TEXT"
+      },
+      "card": {
+        "key": "card",
+        "value": "Card",
+        "type": "TEXT"
+      },
+      "card_input_placeholder": {
+        "key": "card_input_placeholder",
+        "value": "Visa, Mastercard",
+        "type": "TEXT"
+      },
+      "card_number": {
+        "key": "card_number",
+        "value": "Card Number",
+        "type": "TEXT"
+      },
+      "mm_yy": {
+        "key": "mm_yy",
+        "value": "MM/YY",
+        "type": "TEXT"
+      },
+      "expiry": {
+        "key": "expiry",
+        "value": "Expiry",
+        "type": "TEXT"
+      },
+      "save_card": {
+        "key": "save_card",
+        "value": "Save Card",
+        "type": "TEXT"
+      },
+      "dont_save": {
+        "key": "dont_save",
+        "value": "Don't save",
+        "type": "TEXT"
+      },
+      "saving_card_info_reduces_failed_deposits_tip": {
+        "key": "saving_card_info_reduces_failed_deposits_tip",
+        "value": "Saving card info reduces failed deposits. Are you sure you don't want to save it?",
+        "type": "TEXT"
+      },
+      "dont_save_card": {
+        "key": "dont_save_card",
+        "value": "Don't Save Card?",
+        "type": "TEXT"
+      },
+      "the_cvv_is_the_three_digits_security_code_tip": {
+        "key": "the_cvv_is_the_three_digits_security_code_tip",
+        "value": "The CVV is the three digit security code at the back of your card.",
+        "type": "TEXT"
+      },
+      "please_enter_the_expiry": {
+        "key": "please_enter_the_expiry",
+        "value": "Please enter the Expiry.",
+        "type": "TEXT"
+      },
+      "invalid_expiry": {
+        "key": "invalid_expiry",
+        "value": "Invalid Expiry.",
+        "type": "TEXT"
+      },
+      "please_enter_a_card_number": {
+        "key": "please_enter_a_card_number",
+        "value": "Please enter a card number.",
+        "type": "TEXT"
+      },
+      "please_enter_a_valid_number": {
+        "key": "please_enter_a_valid_number",
+        "value": "Please enter a valid number",
+        "type": "TEXT"
+      },
+      "please_enter_a_value_no_less_than_vcurrency_vamount": {
+        "key": "please_enter_a_value_no_less_than_vcurrency_vamount",
+        "value": "Please enter a value no less than {currency} {amount}",
+        "type": "TEXT"
+      },
+      "please_enter_a_valid_integer": {
+        "key": "please_enter_a_valid_integer",
+        "value": "Please enter a valid amount. Decimals are not supported",
+        "type": "TEXT"
+      },
+      "maximum_per_transaction_is_vcurrency_vnum": {
+        "key": "maximum_per_transaction_is_vcurrency_vnum",
+        "value": "Maximum per transaction is {currency} {num}",
+        "type": "TEXT"
+      },
+      "please_enter_ther_cvv_code": {
+        "key": "please_enter_ther_cvv_code",
+        "value": "Please enter the CVV code.",
+        "type": "TEXT"
+      },
+      "please_enter_a_valid_cvv_code": {
+        "key": "please_enter_a_valid_cvv_code",
+        "value": "Please enter a valid CVV code.",
+        "type": "TEXT"
+      },
+      "please_select_a_bank": {
+        "key": "please_select_a_bank",
+        "value": "Please select a bank",
+        "type": "TEXT"
+      },
+      "please_enter_an_account_number": {
+        "key": "please_enter_an_account_number",
+        "value": "Please enter an account number.",
+        "type": "TEXT"
+      },
+      "invalid_account_number": {
+        "key": "invalid_account_number",
+        "value": "Invalid account number.",
+        "type": "TEXT"
+      },
+      "please_enter_a_phone_number": {
+        "key": "please_enter_a_phone_number",
+        "value": "Please enter a phone number.",
+        "type": "TEXT"
+      },
+      "the_minimum_deposit_amount_is_vcurrency_vamount": {
+        "key": "the_minimum_deposit_amount_is_vcurrency_vamount",
+        "value": "The minimum deposit amount is {currency} {amount}",
+        "type": "TEXT"
+      },
+      "the_amount_has_exceeded_your_sufficient_balance_tip": {
+        "key": "the_amount_has_exceeded_your_sufficient_balance_tip",
+        "value": "The amount has exceeded your sufficient balance, please try a smaller amount",
+        "type": "TEXT"
+      },
+      "the_maximum_deposit_amount_is_vcurrency_vamount": {
+        "key": "the_maximum_deposit_amount_is_vcurrency_vamount",
+        "value": "The maximum deposit amount is {currency} {amount}",
+        "type": "TEXT"
+      },
+      "an_addictional_carrier_fee_of_vcurrency_vfee_vthreshold_vbalance_tip": {
+        "key": "an_addictional_carrier_fee_of_vcurrency_vfee_vthreshold_vbalance_tip",
+        "value": "An additional Carrier Fee of {currency}{fee} will be applied when withdraw less than {currency}{threshold}, your currently available balance is {currency}{balance}",
+        "type": "TEXT"
+      },
+      "bank_transfer_payment_steps_tip": {
+        "key": "bank_transfer_payment_steps_tip",
+        "value": "<style>\n.bank-transfer-card {\n  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);\n  margin-bottom: 1.66666667rem;\n  padding: 1rem 1.33333333rem 1.33333333rem;\n  border-radius: 0.16666667rem;\n}\n.bank-transfer-card-title {\n  margin-bottom: 1rem;\n  text-align: center;\n  font-size: 1.33333333rem;\n}\n.bank-transfer-card-steps {\n  counter-reset: step-counter;\n  list-style: none;\n}\n.bank-transfer-card-steps li {\n  margin-bottom: 1rem;\n  display: flex;\n  counter-increment: step-counter;\n}\n.bank-transfer-card-steps li:before {\n  content: \"Step \" counter(step-counter);\n  margin-right: 1rem;\n  color: #9CA0AB;\n  display: block;\n  min-width: 2.91666667rem;\n}\n.bank-transfer-card-steps li:last-child {\n  margin-bottom: 0;\n}\n\nol.bank-transfer-card-steps  {\n  padding: 0;\n}\nhtml[theme=\"dark\"] {\n  color: #fff;\n  background-color: #1b1e25;\n}\n\nhtml, html[theme=\"light\"] {\n  color: #000;\n  background-color: #fafafa;\n}\n</style>\n<ol class=\"bank-transfer-card-steps\">\n<li>Enter the amount you want to deposit and click the &ldquo;Top Up Now&rdquo; button.</li>\n<li>You will be given a temporary transfer account (expires after 30 minutes).</li>\n<li>Transfer the exact amount entered via online banking or USSD to make successful deposits.&nbsp;</li>\n<li>Deposits usually reflect within 10 minutes. If it hasn&rsquo;t appeared after an hour, please contact your bank for assistance.</li>\n</ol>",
+        "type": "HTML"
+      },
+      "one_time_setup": {
+        "key": "one_time_setup",
+        "value": "One Time Setup",
+        "type": "TEXT"
+      },
+      "online_deposit": {
+        "key": "online_deposit",
+        "value": "Online Deposit",
+        "type": "TEXT"
+      },
+      "quickteller_deposit_steps_tip": {
+        "key": "quickteller_deposit_steps_tip",
+        "value": "<style>\n.quick-teller-steps-wrap {\n  padding: 0 1.33333333rem 3.33333333rem;\n}\n\n.quick-teller-step {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  width: 100%;\n  margin: 0.66666667rem 0;\n}\n\n.quick-teller-step-no {\n  -webkit-flex-basis: 5rem;\n  -ms-flex-preferred-size: 5rem;\n  flex-basis: 5rem;\n  -webkit-flex-shrink: 0;\n  -ms-flex-negative: 0;\n  flex-shrink: 0;\n  font-size: 1rem;\n  color: #9da1ac;\n}\n\n.quick-teller-step-content {\n  -webkit-box-flex: 1;\n  -webkit-flex-grow: 1;\n  -ms-flex-positive: 1;\n  flex-grow: 1;\n  font-size: 1rem;\n}\n\n.quick-teller-step-link {\n    color: #0D9737;\n    text-decoration: none;\n}\nhtml[theme=\"dark\"] {\n  background-color: #1b1e25;\n  color: #f2f3f5;\n}\nhtml, html[theme=\"light\"] {\n  background-color: #fafafa;\n  color: #353a45;\n}\n</style>\n<div class=\"quick-teller-steps-wrap\">\n<div class=\"quick-teller-step\">\n<div class=\"quick-teller-step-no\">Step 1</div>\n<div class=\"quick-teller-step-content\">Visit <a class=\"quick-teller-step-link\" href=\"https://www.quickteller.com/sportybet\"> https://www.quickteller.com/sportybet </a></div>\n</div>\n<div class=\"quick-teller-step\">\n<div class=\"quick-teller-step-no\">Step 2</div>\n<div class=\"quick-teller-step-content\">Enter your SportyBet Login Mobile Phone Number: {phoneNumber}, The amount you wish to deposit, your Email.</div>\n</div>\n<div class=\"quick-teller-step\">\n<div class=\"quick-teller-step-no\">Step 3</div>\n<div class=\"quick-teller-step-content\">Verify payment details and click on PAY</div>\n</div>\n<div class=\"quick-teller-step\">\n<div class=\"quick-teller-step-no\">Step 4</div>\n<div class=\"quick-teller-step-content\">A payment receipt will be generated and you will receive an email notification to the email provided.</div>\n</div>\n</div>",
+        "type": "HTML"
+      },
+      "visit_quickteller_to_deposit": {
+        "key": "visit_quickteller_to_deposit",
+        "value": "Visit Quickteller to Deposit",
+        "type": "TEXT"
+      },
+      "atm_deposit": {
+        "key": "atm_deposit",
+        "value": "ATM Deposit",
+        "type": "TEXT"
+      },
+      "code": {
+        "key": "code",
+        "value": "Code",
+        "type": "TEXT"
+      },
+      "ussd_deposit": {
+        "key": "ussd_deposit",
+        "value": "USSD Deposit",
+        "type": "TEXT"
+      },
+      "check_transaction_result_after_depositing": {
+        "key": "check_transaction_result_after_depositing",
+        "value": "Check transaction result after depositing",
+        "type": "TEXT"
+      },
+      "guide": {
+        "key": "guide",
+        "value": "Guide",
+        "type": "TEXT"
+      },
+      "enter_token": {
+        "key": "enter_token",
+        "value": "Enter Token",
+        "type": "TEXT"
+      },
+      "the_name_associated_with_your_deposit_tip": {
+        "key": "the_name_associated_with_your_deposit_tip",
+        "value": "The name associated with your deposit will be used as your Sporty account name.",
+        "type": "TEXT"
+      },
+      "you_will_only_be_able_to_withdraw_back_to_this_name": {
+        "key": "you_will_only_be_able_to_withdraw_back_to_this_name",
+        "value": "You will only be able to withdraw back to this name.",
+        "type": "TEXT"
+      },
+      "you_deposit_request_has_been_submitted_tip": {
+        "key": "you_deposit_request_has_been_submitted_tip",
+        "value": "Your deposit request has been submitted. It is now waiting for confirmation. You can check the deposit records in a short while.",
+        "type": "TEXT"
+      },
+      "pending_request": {
+        "key": "pending_request",
+        "value": "Pending Request",
+        "type": "TEXT"
+      },
+      "failed_to_deposit": {
+        "key": "failed_to_deposit",
+        "value": "Failed to Deposit",
+        "type": "TEXT"
+      },
+      "enter_card_pin": {
+        "key": "enter_card_pin",
+        "value": "Enter Card PIN",
+        "type": "TEXT"
+      },
+      "please_enter_otp": {
+        "key": "please_enter_otp",
+        "value": "Please enter OTP",
+        "type": "TEXT"
+      },
+      "enroll_phone": {
+        "key": "enroll_phone",
+        "value": "Enroll Phone",
+        "type": "TEXT"
+      },
+      "sorry_your_payment_request_has_a_problem_tip": {
+        "key": "sorry_your_payment_request_has_a_problem_tip",
+        "value": "Sorry, your payment request has a problem. Please try using a different card or a card from a different bank. Thank you.",
+        "type": "TEXT"
+      },
+      "deposit_succeeded": {
+        "key": "deposit_succeeded",
+        "value": "Deposit Succeeded!",
+        "type": "TEXT"
+      },
+      "payment_info": {
+        "key": "payment_info",
+        "value": "Payment Info",
+        "type": "TEXT"
+      },
+      "trade_number": {
+        "key": "trade_number",
+        "value": "Trade Number",
+        "type": "TEXT"
+      },
+      "check_status_in_transaction": {
+        "key": "check_status_in_transaction",
+        "value": "Check status in Transaction",
+        "type": "TEXT"
+      },
+      "enter_here": {
+        "key": "enter_here",
+        "value": "Enter here",
+        "type": "TEXT"
+      },
+      "enter_otp": {
+        "key": "enter_otp",
+        "value": "Enter OTP",
+        "type": "TEXT"
+      },
+      "mobile_number": {
+        "key": "mobile_number",
+        "value": "Mobile Number",
+        "type": "TEXT"
+      },
+      "please_enter_at_least_vnum_digit_number": {
+        "key": "please_enter_at_least_vnum_digit_number",
+        "value": "Please enter at least {num} digit number.",
+        "type": "TEXT"
+      },
+      "please_enter_a_mobile_number_vphonenum_votpnum_tip": {
+        "key": "please_enter_a_mobile_number_vphonenum_votpnum_tip",
+        "value": "Please enter a mobile number (at least {phoneNum} digits).\nWe'll send a {otpNum}-digit OTP to this number.",
+        "type": "TEXT"
+      },
+      "to_confirm_that_you_are_the_owner_of_this_card_tip": {
+        "key": "to_confirm_that_you_are_the_owner_of_this_card_tip",
+        "value": "To confirm that you are the owner of this card please enter your card PIN.",
+        "type": "TEXT"
+      },
+      "enter_pin": {
+        "key": "enter_pin",
+        "value": "Enter PIN",
+        "type": "TEXT"
+      },
+      "please_enter_the_token_sent_to_your_phone": {
+        "key": "please_enter_the_token_sent_to_your_phone",
+        "value": "Please enter the token sent to your phone.",
+        "type": "TEXT"
+      },
+      "to_complete_this_transaction": {
+        "key": "to_complete_this_transaction",
+        "value": "To complete this Transaction",
+        "type": "TEXT"
+      },
+      "u_please_dial": {
+        "key": "u_please_dial",
+        "value": "PLEASE DIAL",
+        "type": "TEXT"
+      },
+      "then_send_your_transacation_reference": {
+        "key": "then_send_your_transacation_reference",
+        "value": "Then Send Your Transaction Reference",
+        "type": "TEXT"
+      },
+      "keep_waiting": {
+        "key": "keep_waiting",
+        "value": "Keep Waiting",
+        "type": "TEXT"
+      },
+      "go_to_transactions": {
+        "key": "go_to_transactions",
+        "value": "Go to Transactions",
+        "type": "TEXT"
+      },
+      "if_you_have_finished_dialling_tip": {
+        "key": "if_you_have_finished_dialling_tip",
+        "value": "If you have finished dialling, you can either go to Transactions to check details or wait a bit longer for the results.",
+        "type": "TEXT"
+      },
+      "please_enter_a_mobile_number": {
+        "key": "please_enter_a_mobile_number",
+        "value": "Please enter a mobile number",
+        "type": "TEXT"
+      },
+      "already_completed": {
+        "key": "already_completed",
+        "value": "Already Completed?",
+        "type": "TEXT"
+      },
+      "online_deposit_has_been_initiated_on_your_phone_tip": {
+        "key": "online_deposit_has_been_initiated_on_your_phone_tip",
+        "value": "Online deposit has been initiated on your phone. Please follow the instructions on the prompt to complete the deposit. If you are already done, tap on the \"Completed\" button to confirm.",
+        "type": "TEXT"
+      },
+      "completed": {
+        "key": "completed",
+        "value": "Completed",
+        "type": "TEXT"
+      },
+      "being_processed": {
+        "key": "being_processed",
+        "value": "Being processed",
+        "type": "TEXT"
+      },
+      "submission_succeeded": {
+        "key": "submission_succeeded",
+        "value": "Submission Succeeded!",
+        "type": "TEXT"
+      },
+      "please_follow_the_instruction_to_complete_transaction": {
+        "key": "please_follow_the_instruction_to_complete_transaction",
+        "value": "Please follow the instructions to complete the transaction:",
+        "type": "TEXT"
+      },
+      "check_transaction_result_after_confirmation": {
+        "key": "check_transaction_result_after_confirmation",
+        "value": "Check transaction result after confirmation",
+        "type": "TEXT"
+      },
+      "switch": {
+        "key": "switch",
+        "value": "Switch",
+        "type": "TEXT"
+      },
+      "continue_depositing": {
+        "key": "continue_depositing",
+        "value": "Continue Depositing",
+        "type": "TEXT"
+      },
+      "verification_failed": {
+        "key": "verification_failed",
+        "value": "Verification Failed",
+        "type": "TEXT"
+      },
+      "failed_to_verification_please_try_again_later": {
+        "key": "failed_to_verification_please_try_again_later",
+        "value": "Verification failed, please try again later",
+        "type": "TEXT"
+      },
+      "you_can_only_have_a_limited_number_of_cards_tip": {
+        "key": "you_can_only_have_a_limited_number_of_cards_tip",
+        "value": "You can only have a limited number of cards on your account at this time. Please note that deleting card(s) will not allow you to add more cards. You will only be able to re-add the same card(s).",
+        "type": "TEXT"
+      },
+      "card_limit_reached": {
+        "key": "card_limit_reached",
+        "value": "Card Limit Reached",
+        "type": "TEXT"
+      },
+      "the_acceptable_numbers_of_card_is_vnum_tip": {
+        "key": "the_acceptable_numbers_of_card_is_vnum_tip",
+        "value": "",
+        "type": "TEXT"
+      },
+      "name_binding": {
+        "key": "name_binding",
+        "value": "",
+        "type": "TEXT"
+      },
+      "the_name_associated_with_your_deposit_withdraw_back_to_this_name_tip": {
+        "key": "the_name_associated_with_your_deposit_withdraw_back_to_this_name_tip",
+        "value": "The name associated with your deposit will be used as your Sporty account name, You will only be able to withdraw back to this name.",
+        "type": "TEXT"
+      },
+      "you_transfer_request_has_been_submitted_tip": {
+        "key": "you_transfer_request_has_been_submitted_tip",
+        "value": "Your transfer request has been submitted. It is now waiting for confirmation. You can check the transfer records in a short while.",
+        "type": "TEXT"
+      },
+      "remove_card": {
+        "key": "remove_card",
+        "value": "",
+        "type": "TEXT"
+      },
+      "saving_card_info_reduces_failed_deposits_remove_tip": {
+        "key": "saving_card_info_reduces_failed_deposits_remove_tip",
+        "value": "",
+        "type": "TEXT"
+      },
+      "deposit_failed": {
+        "key": "deposit_failed",
+        "value": "Deposit Failed",
+        "type": "TEXT"
+      },
+      "the_maximum_number_of_cards_allowed_vnum": {
+        "key": "the_maximum_number_of_cards_allowed_vnum",
+        "value": "",
+        "type": "TEXT"
+      },
+      "this_card_has_been_used_by_another_user_tip": {
+        "key": "this_card_has_been_used_by_another_user_tip",
+        "value": "",
+        "type": "TEXT"
+      },
+      "enter_an_amount_below_use_your_service_pin_tip": {
+        "key": "enter_an_amount_below_use_your_service_pin_tip",
+        "value": "Enter an amount below, use your service PIN to authorize the transaction.",
+        "type": "TEXT"
+      },
+      "deposit_from": {
+        "key": "deposit_from",
+        "value": "Deposit From",
+        "type": "TEXT"
+      },
+      "m_pesa_charges": {
+        "key": "m_pesa_charges",
+        "value": "",
+        "type": "TEXT"
+      },
+      "you_will_receive": {
+        "key": "you_will_receive",
+        "value": "You Will Receive",
+        "type": "TEXT"
+      },
+      "l_cash_back": {
+        "key": "l_cash_back",
+        "value": "cash back",
+        "type": "TEXT"
+      },
+      "free_deposit_for_vcurrency_threshold_or_more": {
+        "key": "free_deposit_for_vcurrency_threshold_or_more",
+        "value": "Free Deposits for {currency} {threshold} or more",
+        "type": "TEXT"
+      },
+      "sportybet_will_credit_your_mpesa_charges_to_your_balance": {
+        "key": "sportybet_will_credit_your_mpesa_charges_to_your_balance",
+        "value": "",
+        "type": "TEXT"
+      },
+      "get_vcurrency_vnum_extra_after_top_up": {
+        "key": "get_vcurrency_vnum_extra_after_top_up",
+        "value": "Get {currency} {num} Extra after Top Up",
+        "type": "TEXT"
+      },
+      "pay_vnum": {
+        "key": "pay_vnum",
+        "value": "Pay {num}",
+        "type": "TEXT"
+      },
+      "amount_is_required": {
+        "key": "amount_is_required",
+        "value": "Amount is required",
+        "type": "TEXT"
+      },
+      "maximum_daily_transaction_value_is_vcurrency_vthreshold_tip": {
+        "key": "maximum_daily_transaction_value_is_vcurrency_vthreshold_tip",
+        "value": "Maximum daily transaction value is {currency} {threshold}. The maximum you can send in a day is {currency} {threshold}.",
+        "type": "TEXT"
+      },
+      "error_during_transaction": {
+        "key": "error_during_transaction",
+        "value": "Error during transaction",
+        "type": "TEXT"
+      },
+      "mpesa_account_is_unable_to_accept_your_payment_vnum_tip": {
+        "key": "mpesa_account_is_unable_to_accept_your_payment_vnum_tip",
+        "value": "",
+        "type": "TEXT"
+      },
+      "lipa_na_mpesa_online_transaction_has_been_initiated_tip": {
+        "key": "lipa_na_mpesa_online_transaction_has_been_initiated_tip",
+        "value": "Lipa na M-PESA Online transaction has been initiated on your phone! Please enter service pin to confirm the deposit! If you already entered it, tap on the \"Completed\" button to confirm.",
+        "type": "TEXT"
+      },
+      "check_transaction_result": {
+        "key": "check_transaction_result",
+        "value": "Check Transaction Result",
+        "type": "TEXT"
+      },
+      "paybill_number": {
+        "key": "paybill_number",
+        "value": "Paybill Number",
+        "type": "TEXT"
+      },
+      "exclusive_offers": {
+        "key": "exclusive_offers",
+        "value": "Exclusive Offers",
+        "type": "TEXT"
+      },
+      "trade_no": {
+        "key": "trade_no",
+        "value": "Trade No.",
+        "type": "TEXT"
+      },
+      "continue_betting": {
+        "key": "continue_betting",
+        "value": "Continue Betting",
+        "type": "TEXT"
+      },
+      "check_status_in_transactions": {
+        "key": "check_status_in_transactions",
+        "value": "Check status in Transactions",
+        "type": "TEXT"
+      },
+      "min_vnum": {
+        "key": "min_vnum",
+        "value": "min. {num}",
+        "type": "TEXT"
+      },
+      "enter_deposit_amount": {
+        "key": "enter_deposit_amount",
+        "value": "Enter Deposit Amount",
+        "type": "TEXT"
+      },
+      "select_amount": {
+        "key": "select_amount",
+        "value": "Select Amount",
+        "type": "TEXT"
+      },
+      "click_to_select": {
+        "key": "click_to_select",
+        "value": "Click to select",
+        "type": "TEXT"
+      },
+      "paybill": {
+        "key": "paybill",
+        "value": "Paybill",
+        "type": "TEXT"
+      },
+      "card_info": {
+        "key": "card_info",
+        "value": "Card Info",
+        "type": "TEXT"
+      },
+      "pay_with_a_new_card": {
+        "key": "pay_with_a_new_card",
+        "value": "Pay with a new card",
+        "type": "TEXT"
+      },
+      "invalid_card_number": {
+        "key": "invalid_card_number",
+        "value": "Invalid card number",
+        "type": "TEXT"
+      },
+      "this_card_type_is_not_currently_accepted_tip": {
+        "key": "this_card_type_is_not_currently_accepted_tip",
+        "value": "",
+        "type": "TEXT"
+      },
+      "are_you_sure_you_want_to_delete_this_account_infomation": {
+        "key": "are_you_sure_you_want_to_delete_this_account_infomation",
+        "value": "Are you sure you want to delete this account information?",
+        "type": "TEXT"
+      },
+      "are_you_sure_you_want_to_delete_this_card": {
+        "key": "are_you_sure_you_want_to_delete_this_card",
+        "value": "Are you sure you want to delete this card?",
+        "type": "TEXT"
+      },
+      "visa": {
+        "key": "visa",
+        "value": "Visa",
+        "type": "TEXT"
+      },
+      "mastercard": {
+        "key": "mastercard",
+        "value": "Mastercard",
+        "type": "TEXT"
+      },
+      "verve": {
+        "key": "verve",
+        "value": "Verve",
+        "type": "TEXT"
+      },
+      "verify_account": {
+        "key": "verify_account",
+        "value": "Verify Account",
+        "type": "TEXT"
+      },
+      "bank_account": {
+        "key": "bank_account",
+        "value": "Bank Account",
+        "type": "TEXT"
+      },
+      "bank_name": {
+        "key": "bank_name",
+        "value": "Bank Name",
+        "type": "TEXT"
+      },
+      "pay_with_a_new_bank_account": {
+        "key": "pay_with_a_new_bank_account",
+        "value": "Withdraw to a new bank account",
+        "type": "TEXT"
+      },
+      "verify_your_date_of_birth_to_use_this_bank_account_with_sporty": {
+        "key": "verify_your_date_of_birth_to_use_this_bank_account_with_sporty",
+        "value": "Verify your date of birth to use this bank account with Sporty.",
+        "type": "TEXT"
+      },
+      "waiting_for_bank_response_please_do_not_close_vnum": {
+        "key": "waiting_for_bank_response_please_do_not_close_vnum",
+        "value": "Waiting for bank response. Please do not close the page within {num}s.",
+        "type": "TEXT"
+      },
+      "your_recharge_request_has_encountered_a_problem_tip": {
+        "key": "your_recharge_request_has_encountered_a_problem_tip",
+        "value": "Your recharge request has encountered a problem. Please check the deposit record for final result.",
+        "type": "TEXT"
+      },
+      "authorization_required": {
+        "key": "authorization_required",
+        "value": "Authorization Required",
+        "type": "TEXT"
+      },
+      "confirm_account_info": {
+        "key": "confirm_account_info",
+        "value": "Confirm Account Info",
+        "type": "TEXT"
+      },
+      "please_confirm_your_account_info_to_receive_your_deposit": {
+        "key": "please_confirm_your_account_info_to_receive_your_deposit",
+        "value": "Please insert your First and Last Name as displayed on your National ID",
+        "type": "TEXT"
+      },
+      "sorry_your_payment_request_has_a_problem_options_tip": {
+        "key": "sorry_your_payment_request_has_a_problem_options_tip",
+        "value": "Sorry, your payment request has a problem. Please try using other options. Thank you.",
+        "type": "TEXT"
+      },
+      "account_info_confirmed": {
+        "key": "account_info_confirmed",
+        "value": "Account Info Confirmed",
+        "type": "TEXT"
+      },
+      "your_account_information_has_been_confirmed_tip": {
+        "key": "your_account_information_has_been_confirmed_tip",
+        "value": "Your account information has been confirmed and your deposit has been credited to your account.",
+        "type": "TEXT"
+      },
+      "you_must_confirm_your_account_detail_to_receive_deposit": {
+        "key": "you_must_confirm_your_account_detail_to_receive_deposit",
+        "value": "You must confirm your account details to receive your deposit.",
+        "type": "TEXT"
+      },
+      "go_to_confirm": {
+        "key": "go_to_confirm",
+        "value": "Go to Confirm",
+        "type": "TEXT"
+      },
+      "step_guide": {
+        "key": "step_guide",
+        "value": "Step Guide",
+        "type": "TEXT"
+      },
+      "we_are_unable_to_accept_your_payment_at_this_time_tip": {
+        "key": "we_are_unable_to_accept_your_payment_at_this_time_tip",
+        "value": "We are unable to accept your payment at this time. Please check your payment information and try again later.",
+        "type": "TEXT"
+      },
+      "your_account_has_been_registered_tip": {
+        "key": "your_account_has_been_registered_tip",
+        "value": "Your account has been registered.\nWe've sent another token to your phone to complete the payment.",
+        "type": "TEXT"
+      },
+      "bank_authorization": {
+        "key": "bank_authorization",
+        "value": "Bank Authorization",
+        "type": "TEXT"
+      },
+      "for_your_convenience_please_finish_the_verification_tip": {
+        "key": "for_your_convenience_please_finish_the_verification_tip",
+        "value": "For your convenience, please finish the verification as soon as possible.",
+        "type": "TEXT"
+      },
+      "note_before_click_here_if_the_verification_is_unsuccessful_tip": {
+        "key": "note_before_click_here_if_the_verification_is_unsuccessful_tip",
+        "value": "Note: Before click here if the verification is unsuccessful,\nplease close the previous verification page.",
+        "type": "TEXT"
+      },
+      "verification_completed": {
+        "key": "verification_completed",
+        "value": "Verification Completed",
+        "type": "TEXT"
+      },
+      "failed_to_verify": {
+        "key": "failed_to_verify",
+        "value": "Failed to Verify",
+        "type": "TEXT"
+      },
+      "verify_your_date_of_birth_to_use_this_bank_account": {
+        "key": "verify_your_date_of_birth_to_use_this_bank_account",
+        "value": "Verify your date of birth to use this bank account.",
+        "type": "TEXT"
+      },
+      "click_here_if_the_verification_is_unsuccessful": {
+        "key": "click_here_if_the_verification_is_unsuccessful",
+        "value": "Click here if the verification is unsuccessful.",
+        "type": "TEXT"
+      },
+      "click_here_if_the_verification_is_successful": {
+        "key": "click_here_if_the_verification_is_successful",
+        "value": "Click here if the verification is successful.",
+        "type": "TEXT"
+      },
+      "note_before_re_verifying_please_close_the_tip": {
+        "key": "note_before_re_verifying_please_close_the_tip",
+        "value": "Note: Before re-verifying please close the previous verification page.",
+        "type": "TEXT"
+      },
+      "confirm_transaction": {
+        "key": "confirm_transaction",
+        "value": "Confirm Transaction",
+        "type": "TEXT"
+      },
+      "confirm_transaction_content": {
+        "key": "confirm_transaction_content",
+        "value": "<p>If you have confirmed your transaction in the popup window, please click &ldquo;Confirmed&rdquo;.<br />If you have not confirmed this transaction and do not wish to do so, please click &ldquo;Cancel&rdquo;.</p>",
+        "type": "HTML"
+      },
+      "minimum_per_transaction_is_vcurrency_vnum": {
+        "key": "minimum_per_transaction_is_vcurrency_vnum",
+        "value": "Minimum per transaction is {currency} {num}.",
+        "type": "TEXT"
+      },
+      "dial": {
+        "key": "dial",
+        "value": "Dial",
+        "type": "TEXT"
+      },
+      "you_will_need_tier_vnum_verification_for_this_deposit_to_credit": {
+        "key": "you_will_need_tier_vnum_verification_for_this_deposit_to_credit",
+        "value": "You will need Tier {num} verification for this deposit to credit",
+        "type": "TEXT"
+      },
+      "please_enter_a_valid_phone_number": {
+        "key": "please_enter_a_valid_phone_number",
+        "value": "Please enter a valid phone number",
+        "type": "TEXT"
+      },
+      "for_your_kyc_tier_can_deposit_up_to_vcurrency_vamount": {
+        "key": "for_your_kyc_tier_can_deposit_up_to_vcurrency_vamount",
+        "value": "For your KYC tier can deposit up to {currency} {amount}",
+        "type": "TEXT"
+      },
+      "confirm_your_identity": {
+        "key": "confirm_your_identity",
+        "value": "Confirm Your Identity",
+        "type": "TEXT"
+      },
+      "please_confirm_your_account_info_in_order_to_receive_your_deposit": {
+        "key": "please_confirm_your_account_info_in_order_to_receive_your_deposit",
+        "value": "Please confirm your account info in order to receive your deposit",
+        "type": "TEXT"
+      },
+      "you_have_a_deposit_that_is_pending_your_kyc_tip": {
+        "key": "you_have_a_deposit_that_is_pending_your_kyc_tip",
+        "value": "You have a deposit that is pending your KYC verification. Please confirm your account info to receive your deposit.",
+        "type": "TEXT"
+      },
+      "provider_mobile_number": {
+        "key": "provider_mobile_number",
+        "value": "Provider Mobile Number",
+        "type": "TEXT"
+      },
+      "amount_exceeds_your_balance_vcurrency_vbalance": {
+        "key": "amount_exceeds_your_balance_vcurrency_vbalance",
+        "value": "Amount exceeds your Balance({currency} {balance})",
+        "type": "TEXT"
+      },
+      "invalid_amount": {
+        "key": "invalid_amount",
+        "value": "Invalid Amount",
+        "type": "TEXT"
+      },
+      "you_will_need_kyc_verification_for_this_deposit_to_credit": {
+        "key": "you_will_need_kyc_verification_for_this_deposit_to_credit",
+        "value": "You will need KYC verification for this deposit to credit",
+        "type": "TEXT"
+      },
+      "you_will_need": {
+        "key": "you_will_need",
+        "value": "You will need",
+        "type": "TEXT"
+      },
+      "verification_for_this_deposit_to_credit": {
+        "key": "verification_for_this_deposit_to_credit",
+        "value": "verification for this deposit to credit",
+        "type": "TEXT"
+      },
+      "kyc": {
+        "key": "kyc",
+        "value": "KYC",
+        "type": "TEXT"
+      },
+      "welcom_to_the_sporty_family": {
+        "key": "welcom_to_the_sporty_family",
+        "value": "Welcome to the Sporty family!",
+        "type": "TEXT"
+      },
+      "deposit_to_this_account_are_temporarily_restricted_pending_kyc_tip": {
+        "key": "deposit_to_this_account_are_temporarily_restricted_pending_kyc_tip",
+        "value": "Deposit to this account are temporarily restricted pending KYC verification. Please contact support.",
+        "type": "TEXT"
+      },
+      "withdraw_to_this_account_are_temporarily_restricted_pending_kyc_tip": {
+        "key": "withdraw_to_this_account_are_temporarily_restricted_pending_kyc_tip",
+        "value": "Withdraw to this account is temporarily restricted pending KYC verification. Please contact support.",
+        "type": "TEXT"
+      },
+      "after_deposit_on_the_vprovider_please_press_ok_tip": {
+        "key": "after_deposit_on_the_vprovider_please_press_ok_tip",
+        "value": "After depositing on {provider}, please press the button below to continue.",
+        "type": "TEXT"
+      },
+      "your_deposit_request_has_been_submitted_you_will_need_tier_vnum_tip": {
+        "key": "your_deposit_request_has_been_submitted_you_will_need_tier_vnum_tip",
+        "value": "Your deposit request has been submitted. You will need Tier {num} verification for this deposit to be credited. Please confirm your KYC info to receive your deposit.",
+        "type": "TEXT"
+      },
+      "you_will_need_tier_vnum_verification_for_this_withdraw_tip": {
+        "key": "you_will_need_tier_vnum_verification_for_this_withdraw_tip",
+        "value": "You will need Tier {num} verification for this withdrawal. Please verify your identity for full access.",
+        "type": "TEXT"
+      },
+      "tier_vnum": {
+        "key": "tier_vnum",
+        "value": "Tier {num}",
+        "type": "TEXT"
+      },
+      "deposit_from_colon": {
+        "key": "deposit_from_colon",
+        "value": "Deposit from:",
+        "type": "TEXT"
+      },
+      "payment_info_colon": {
+        "key": "payment_info_colon",
+        "value": "Payment Info:",
+        "type": "TEXT"
+      },
+      "being_processed_dot": {
+        "key": "being_processed_dot",
+        "value": "Being processed ...",
+        "type": "TEXT"
+      },
+      "check_status_in_transaction_with_arrow": {
+        "key": "check_status_in_transaction_with_arrow",
+        "value": "Check status in Transactions >",
+        "type": "TEXT"
+      },
+      "page_payment__your_are_depositing_with_another_mobile_number_tip_with_phone": {
+        "key": "page_payment__your_are_depositing_with_another_mobile_number_tip_with_phone",
+        "value": "You are depositing with another mobile number. When withdrawing money, your balance can only be withdrawn to the mobile number that you registered Sportybet account with. ({phone})",
+        "type": "TEXT"
+      },
+      "code_redeemed_failed_please_try_again": {
+        "key": "code_redeemed_failed_please_try_again",
+        "value": "Redemption failed. Please Try later.",
+        "type": "TEXT"
+      },
+      "card_hint": {
+        "key": "card_hint",
+        "value": "Visa, Mastercard, Verve",
+        "type": "TEXT"
+      },
+      "fail_to_verify_try_again": {
+        "key": "fail_to_verify_try_again",
+        "value": "Failed to Verify. Please try again later.",
+        "type": "TEXT"
+      },
+      "get_random_cash_gift_after_top_up": {
+        "key": "get_random_cash_gift_after_top_up",
+        "value": "Get Random Cash Gift after Top Up",
+        "type": "TEXT"
+      },
+      "check_transaction_resul_arrow": {
+        "key": "check_transaction_resul_arrow",
+        "value": "Check Transaction Result >",
+        "type": "TEXT"
+      },
+      "deposit_with_gtbank_mobile": {
+        "key": "deposit_with_gtbank_mobile",
+        "value": "Deposit with GTBank Mobile",
+        "type": "TEXT"
+      },
+      "deposit_with_ussd": {
+        "key": "deposit_with_ussd",
+        "value": "Deposit with USSD",
+        "type": "TEXT"
+      },
+      "deposit_with_gtbank_website": {
+        "key": "deposit_with_gtbank_website",
+        "value": "Deposit with GTBank Website",
+        "type": "TEXT"
+      },
+      "success_please_follow_instructions_on_the_ussd_prompt_on_your_phone_to_complete_deposit": {
+        "key": "success_please_follow_instructions_on_the_ussd_prompt_on_your_phone_to_complete_deposit",
+        "value": "Success. Please follow instructions on the USSD prompt on your phone to complete deposit.",
+        "type": "TEXT"
+      },
+      "enter_amount_below_use_your_service_pin_to_authorize_the_transaction": {
+        "key": "enter_amount_below_use_your_service_pin_to_authorize_the_transaction",
+        "value": "Enter amount below, use your service PIN to authorize the transaction.",
+        "type": "TEXT"
+      },
+      "deposit_to": {
+        "key": "deposit_to",
+        "value": "Deposit to",
+        "type": "TEXT"
+      },
+      "deposits_and_withdrawals_should_be_available_before": {
+        "key": "deposits_and_withdrawals_should_be_available_before",
+        "value": "{name} deposits and withdrawals should be available before 31 December. Check back soon!",
+        "type": "TEXT"
+      },
+      "switch_channel": {
+        "key": "switch_channel",
+        "value": "Switch a channel",
+        "type": "TEXT"
+      },
+      "saved_card": {
+        "key": "saved_card",
+        "value": "Saved Card",
+        "type": "TEXT"
+      },
+      "remove_card_question_mark": {
+        "key": "remove_card_question_mark",
+        "value": "Remove Card?",
+        "type": "TEXT"
+      },
+      "are_you_sure_to_delete_it": {
+        "key": "are_you_sure_to_delete_it",
+        "value": "Saving card info reduces failed deposits. Are you sure you want to delete it?",
+        "type": "TEXT"
+      },
+      "dont_delete": {
+        "key": "dont_delete",
+        "value": "Don't delete",
+        "type": "TEXT"
+      },
+      "kyc_verification": {
+        "key": "kyc_verification",
+        "value": "KYC Verification",
+        "type": "TEXT"
+      },
+      "gifts_on_your_1st_deposit_of": {
+        "key": "gifts_on_your_1st_deposit_of",
+        "value": "200{percentage} Karibu Gifts on your 1st Deposit of \u20a650.",
+        "type": "TEXT"
+      },
+      "kyc_verification_dialog_content": {
+        "key": "kyc_verification_dialog_content",
+        "value": "Your deposit request has been submitted. To receive your deposit, please complete your personal information verification.",
+        "type": "TEXT"
+      },
+      "instruction_branch_title": {
+        "key": "instruction_branch_title",
+        "value": "Deposit with UBA Branches",
+        "type": "TEXT"
+      },
+      "instruction_branch_content": {
+        "key": "instruction_branch_content",
+        "value": "You can visit all UBA branches to fund your SportyBet wallet.",
+        "type": "TEXT"
+      },
+      "instruction_web_title": {
+        "key": "instruction_web_title",
+        "value": "Deposit with UBA Website",
+        "type": "TEXT"
+      },
+      "instruction_app_title": {
+        "key": "instruction_app_title",
+        "value": "Deposit with UBA Mobile",
+        "type": "TEXT"
+      },
+      "zenith_instruction_web_title": {
+        "key": "zenith_instruction_web_title",
+        "value": "Deposit with Zenith Website",
+        "type": "TEXT"
+      },
+      "zenith_instruction_app_title": {
+        "key": "zenith_instruction_app_title",
+        "value": "Deposit with Zenith Mobile",
+        "type": "TEXT"
+      },
+      "instruction_messenger_title": {
+        "key": "instruction_messenger_title",
+        "value": "Deposit with LEO Messenger",
+        "type": "TEXT"
+      },
+      "m_pesa_prefix": {
+        "key": "m_pesa_prefix",
+        "value": "M-PESA  (****{phone})",
+        "type": "TEXT"
+      },
+      "please_enter_a_mobile_number_10vphonenum_votpnum_tip": {
+        "key": "please_enter_a_mobile_number_10vphonenum_votpnum_tip",
+        "value": "Please enter a mobile number (at least 10 digits). We'll send an OTP to this number.",
+        "type": "TEXT"
+      },
+      "redirecting_you": {
+        "key": "redirecting_you",
+        "value": "Redirecting You",
+        "type": "TEXT"
+      },
+      "redirecting_you_message_vprovider": {
+        "key": "redirecting_you_message_vprovider",
+        "value": "We are redirecting you to {provider}. Please press OK to continue.",
+        "type": "TEXT"
+      },
+      "name_confirm_tips": {
+        "key": "name_confirm_tips",
+        "value": "to verify your identity and receive your pending deposit before initiating another deposit",
+        "type": "TEXT"
+      },
+      "confirm_account_info_content": {
+        "key": "confirm_account_info_content",
+        "value": "Confirm your account info to complete your deposit.",
+        "type": "TEXT"
+      },
+      "the_astropay_account_number_cannot_be_edited_after_the_first_successful_transaction": {
+        "key": "the_astropay_account_number_cannot_be_edited_after_the_first_successful_transaction",
+        "value": "The AstroPay account number cannot be edited after the first successful transaction.",
+        "type": "TEXT"
+      },
+      "channel_unstable_text": {
+        "key": "channel_unstable_text",
+        "value": "This payment method is not stable at the moment. Please use another method for depositing.",
+        "type": "TEXT"
+      },
+      "channel_issue_content": {
+        "key": "channel_issue_content",
+        "value": "<p>Our monitoring systems have identified users are having issues with this payment method right now. Your transaction might fail or not settle for hours. We recommend you try an alternative payment method.</p>",
+        "type": "HTML"
+      },
+      "if_you_are_planning_to_use_pix_to_deposit_and_withdraw": {
+        "key": "if_you_are_planning_to_use_pix_to_deposit_and_withdraw",
+        "value": " Your currency must be set to Real if you are planning to use Pix for deposits and withdrawals, as Pix only supports BRL. Thank you.",
+        "type": "TEXT"
+      },
+      "click_here": {
+        "key": "click_here",
+        "value": "click here",
+        "type": "TEXT"
+      },
+      "reminder": {
+        "key": "reminder",
+        "value": "Reminder",
+        "type": "TEXT"
+      },
+      "you_have_a_incompolete_deposit_that_you_previously_submitted_vcount": {
+        "key": "you_have_a_incompolete_deposit_that_you_previously_submitted_vcount",
+        "value": "You have {count} incomplete deposit(s) that you previously submitted. Are you sure you want to continue with your current deposit?",
+        "type": "TEXT"
+      },
+      "over_tier_limit": {
+        "key": "over_tier_limit",
+        "value": "Over Tier Limit",
+        "type": "TEXT"
+      },
+      "you_will_need_tier_verification_to_use_pix_please_verify_you_identity_for_access": {
+        "key": "you_will_need_tier_verification_to_use_pix_please_verify_you_identity_for_access",
+        "value": "You will need KYC Tier ({level}) verification to use Pix. Please verify your identity for access.",
+        "type": "TEXT"
+      },
+      "your_cpf_verification_is_in_process": {
+        "key": "your_cpf_verification_is_in_process",
+        "value": "Your CPF Verification is Processing.",
+        "type": "TEXT"
+      },
+      "thanks_for_submitting_your_documents_we_are_verifying_your_documents": {
+        "key": "thanks_for_submitting_your_documents_we_are_verifying_your_documents",
+        "value": "Thanks for submitting your documents, we are verifying your CPF number. Please check back in 15 minutes.",
+        "type": "TEXT"
+      },
+      "you_deposit_request_has_been_submitted_tip_pix": {
+        "key": "you_deposit_request_has_been_submitted_tip_pix",
+        "value": "Your deposit request has been submitted. It is now waiting for confirmation. Please go to your bank app to confirm the deposit. You could also check the deposit records in a short while after you complete the process.",
+        "type": "TEXT"
+      },
+      "your_deposit_request_has_been_submitted_you_will_need_tier_vlevel": {
+        "key": "your_deposit_request_has_been_submitted_you_will_need_tier_vlevel",
+        "value": "Your deposit request has been submitted.\nYou will need KYC Tier {level} verification for this deposit to be credited.\nPlease confirm your KYC info to receive your deposit.",
+        "type": "TEXT"
+      },
+      "please_enter_your_pix_key": {
+        "key": "please_enter_your_pix_key",
+        "value": "Please enter your Pix Key",
+        "type": "TEXT"
+      },
+      "please_enter_the_correct_evp_address": {
+        "key": "please_enter_the_correct_evp_address",
+        "value": "Please enter a valid EVP address.",
+        "type": "TEXT"
+      },
+      "please_enter_the_correct_email_address": {
+        "key": "please_enter_the_correct_email_address",
+        "value": "Please enter a valid email address.",
+        "type": "TEXT"
+      },
+      "please_enter_a_valid_cpf_id_format": {
+        "key": "please_enter_a_valid_cpf_id_format",
+        "value": "Please enter a valid CPF number format.",
+        "type": "TEXT"
+      },
+      "please": {
+        "key": "please",
+        "value": "Please ",
+        "type": "TEXT"
+      },
+      "to_verify_your_cpf_number_to_use_pix": {
+        "key": "to_verify_your_cpf_number_to_use_pix",
+        "value": " to verify your CPF number to use Pix",
+        "type": "TEXT"
+      },
+      "change_speed": {
+        "key": "change_speed",
+        "value": "Change speed",
+        "type": "TEXT"
+      },
+      "fastest": {
+        "key": "fastest",
+        "value": "Fastest",
+        "type": "TEXT"
+      },
+      "normal": {
+        "key": "normal",
+        "value": "Normal",
+        "type": "TEXT"
+      },
+      "slower": {
+        "key": "slower",
+        "value": "Slower",
+        "type": "TEXT"
+      },
+      "type_speed": {
+        "key": "type_speed",
+        "value": "({type} Speed) :",
+        "type": "TEXT"
+      },
+      "sorry_something_went_wrong_please_check_the_deposit_details_page": {
+        "key": "sorry_something_went_wrong_please_check_the_deposit_details_page",
+        "value": "Sorry, something went wrong. Please check the deposit details page for more info",
+        "type": "TEXT"
+      },
+      "deposit_currency_amount_succeed_vamount": {
+        "key": "deposit_currency_amount_succeed_vamount",
+        "value": "Deposit {currency} {amount} succeeded!",
+        "type": "TEXT"
+      },
+      "you_have_a_pending_deposit_request": {
+        "key": "you_have_a_pending_deposit_request",
+        "value": "You have a pending deposit request",
+        "type": "TEXT"
+      },
+      "deposit_currency_amount_failed_vamount": {
+        "key": "deposit_currency_amount_failed_vamount",
+        "value": "Your Deposit {currency} {amount} went failed!",
+        "type": "TEXT"
+      },
+      "total_deposit_amount": {
+        "key": "total_deposit_amount",
+        "value": "Total Deposit Amount:",
+        "type": "TEXT"
+      },
+      "download_qr": {
+        "key": "download_qr",
+        "value": "Download QR",
+        "type": "TEXT"
+      },
+      "copy_code": {
+        "key": "copy_code",
+        "value": "Copy Code",
+        "type": "TEXT"
+      },
+      "please_scan_the_bar_code_copy_the_transaction_id_or_download_qr_image": {
+        "key": "please_scan_the_bar_code_copy_the_transaction_id_or_download_qr_image",
+        "value": "Use Pix in your bank app to scan the bar code, copy the Transaction ID or download the QR Code above to make a deposit.",
+        "type": "TEXT"
+      },
+      "cpf_number_placeholder": {
+        "key": "cpf_number_placeholder",
+        "value": "11 digits CPF",
+        "type": "TEXT"
+      },
+      "kyc_success_bullet_4": {
+        "key": "kyc_success_bullet_4",
+        "value": "Thanks for submitting the required KYC. You have been automatically verified.",
+        "type": "TEXT"
+      },
+      "kyc_success_bullet_5": {
+        "key": "kyc_success_bullet_5",
+        "value": "You can check your Tier Status on the Identity Verification page.",
+        "type": "TEXT"
+      },
+      "important_note": {
+        "key": "important_note",
+        "value": "Important Note",
+        "type": "TEXT"
+      },
+      "next": {
+        "key": "next",
+        "value": "Next",
+        "type": "TEXT"
+      },
+      "processing_your_deposit": {
+        "key": "processing_your_deposit",
+        "value": "Processing your Deposit",
+        "type": "TEXT"
+      },
+      "charges": {
+        "key": "charges",
+        "value": "Charges",
+        "type": "TEXT"
+      },
+      "sportybet_will_credit_your_charges_to_your_balance": {
+        "key": "sportybet_will_credit_your_charges_to_your_balance",
+        "value": "({brandName} will credit your {providerName} charges to your balance.)",
+        "type": "TEXT"
+      },
+      "your_withdrawal_request_has_been_submitted_tip_pix": {
+        "key": "your_withdrawal_request_has_been_submitted_tip_pix",
+        "value": "Your withdrawal request has been submitted. It is now waiting for confirmation. You can check your withdrawal records in a few minutes.",
+        "type": "TEXT"
+      },
+      "crypto_withdraw_note": {
+        "key": "crypto_withdraw_note",
+        "value": "Transactions may take over an hour to fully finalize depending on the cryptocurrency you are sending, the network fee you are paying, and the platform you are sending from.",
+        "type": "TEXT"
+      },
+      "add_new_wallet_address": {
+        "key": "add_new_wallet_address",
+        "value": "+ New Wallet Address",
+        "type": "TEXT"
+      },
+      "wallet_address_vcrypto": {
+        "key": "wallet_address_vcrypto",
+        "value": "{crypto} wallet Address",
+        "type": "TEXT"
+      },
+      "withdrawal_fee_label": {
+        "key": "withdrawal_fee_label",
+        "value": "Withdrawal Fee",
+        "type": "TEXT"
+      },
+      "astro_select_payment_option": {
+        "key": "astro_select_payment_option",
+        "value": "Select a payment option and deposit via AstroPay",
+        "type": "TEXT"
+      },
+      "channel_issue_detected": {
+        "key": "channel_issue_detected",
+        "value": "Channel Issues Detected",
+        "type": "TEXT"
+      },
+      "deposit_ussd": {
+        "key": "deposit_ussd",
+        "value": "Deposit: \u20a6{balence}",
+        "type": "TEXT"
+      },
+      "use_alternative": {
+        "key": "use_alternative",
+        "value": "Use Alternative",
+        "type": "TEXT"
+      },
+      "you_deposit_request_has_been_submitted_tip__wait_for_bank": {
+        "key": "you_deposit_request_has_been_submitted_tip__wait_for_bank",
+        "value": "<p><span style=\"color: #7f7f7f;\">Your deposit request has been submitted. It is now pending fulfillment by your bank. Please check your transaction history for status updates. After successful receipt by Sporty, you will need to <strong>Confirm Your Account Info</strong> before funds will be credited to your account.</span></p>",
+        "type": "HTML"
+      },
+      "please_enter_a_valid_cvv": {
+        "key": "please_enter_a_valid_cvv",
+        "value": "Please enter a valid CVV.",
+        "type": "TEXT"
+      },
+      "too_low_tier_for_period_withdraw_tip": {
+        "key": "too_low_tier_for_period_withdraw_tip",
+        "value": "You will need Tier {num} verification or wait for a period of time for this withdrawal. Please verify your identity for full access.",
+        "type": "TEXT"
+      },
+      "max_tier_must_wait_withdraw_tip": {
+        "key": "max_tier_must_wait_withdraw_tip",
+        "value": "You cannot withdraw this amount due to your KYC applicable payment limits. Please, enter a lower amount or contact Customer Support to know how to proceed with your withdrawal.",
+        "type": "TEXT"
+      },
+      "max_tier_lifetime_limit_withdraw_tip": {
+        "key": "max_tier_lifetime_limit_withdraw_tip",
+        "value": "You cannot withdraw this amount due to your KYC applicable payment limits. Please, enter a lower amount or contact Customer Support to know how to proceed with your withdrawal.",
+        "type": "TEXT"
+      },
+      "crypto_is_only_available_on_mobile": {
+        "key": "crypto_is_only_available_on_mobile",
+        "value": "Crypto is only allowed in Mobile version and Android version.",
+        "type": "TEXT"
+      },
+      "cpf_number": {
+        "key": "cpf_number",
+        "value": "CPF number",
+        "type": "TEXT"
+      },
+      "you_will_need_tier_vnum_verification_for_this_withdraw_to_credit": {
+        "key": "you_will_need_tier_vnum_verification_for_this_withdraw_to_credit",
+        "value": "You will need Tier {num} verification for this withdrawal to credit",
+        "type": "TEXT"
+      },
+      "you_will_need_kyc_verification_for_this_withdraw_to_credit": {
+        "key": "you_will_need_kyc_verification_for_this_withdraw_to_credit",
+        "value": "You will need KYC verification for this withdrawal to credit",
+        "type": "TEXT"
+      },
+      "please_enter_the_correct_phone_number": {
+        "key": "please_enter_the_correct_phone_number",
+        "value": "Please enter the correct phone number",
+        "type": "TEXT"
+      },
+      "other": {
+        "key": "other",
+        "value": "Other",
+        "type": "TEXT"
+      },
+      "withdraw_gh_tax_info": {
+        "key": "withdraw_gh_tax_info",
+        "value": "Tax imposed by Ghana Revenue Authority may apply.",
+        "type": "TEXT"
+      },
+      "withdraw_gh_tax_info_learn_more": {
+        "key": "withdraw_gh_tax_info_learn_more",
+        "value": " Learn more >",
+        "type": "TEXT"
+      },
+      "deposit_gh_tax_info": {
+        "key": "deposit_gh_tax_info",
+        "value": "The deposit can be counted as cost for tax within {number} days",
+        "type": "TEXT"
+      },
+      "net_payout": {
+        "key": "net_payout",
+        "value": "Net Payout",
+        "type": "TEXT"
+      },
+      "wh_tax": {
+        "key": "wh_tax",
+        "value": "WH Tax",
+        "type": "TEXT"
+      },
+      "withdraw_confirm_info": {
+        "key": "withdraw_confirm_info",
+        "value": "The WH tax calculation is determined based on the user's withdrawal time.",
+        "type": "TEXT"
+      },
+      "e_wallet": {
+        "key": "e_wallet",
+        "value": "E-wallet",
+        "type": "TEXT"
+      },
+      "credit_debit_card": {
+        "key": "credit_debit_card",
+        "value": "Credit / Debit Card",
+        "type": "TEXT"
+      },
+      "choose_number": {
+        "key": "choose_number",
+        "value": "Choose Number",
+        "type": "TEXT"
+      },
+      "change_default": {
+        "key": "change_default",
+        "value": "Change Default",
+        "type": "TEXT"
+      },
+      "add_a_new_number": {
+        "key": "add_a_new_number",
+        "value": "Add a New Number",
+        "type": "TEXT"
+      },
+      "phone_number_limit": {
+        "key": "phone_number_limit",
+        "value": "Phone Number Limit",
+        "type": "TEXT"
+      },
+      "reached_the_limit_of_vamount_phone_numbers": {
+        "key": "reached_the_limit_of_vamount_phone_numbers",
+        "value": "You've reached the limit of {amount} phone numbers.",
+        "type": "TEXT"
+      },
+      "safeguard_your_account": {
+        "key": "safeguard_your_account",
+        "value": "Safeguard Your Account",
+        "type": "TEXT"
+      },
+      "add_new_mobile_number_verify_register_otp_tip_vphone": {
+        "key": "add_new_mobile_number_verify_register_otp_tip_vphone",
+        "value": "In order to add a new mobile number, you must verify your account with a one-time code that will be sent to your registered mobile number {phone}.",
+        "type": "TEXT"
+      },
+      "add_a_new_mobile_number": {
+        "key": "add_a_new_mobile_number",
+        "value": "Add a New Mobile Number",
+        "type": "TEXT"
+      },
+      "multiple_mobile_numbers_for_deposit_tip_vname": {
+        "key": "multiple_mobile_numbers_for_deposit_tip_vname",
+        "value": "Use multiple phone numbers for seamless deposits. The name on your new number's mobile money account must match the name on your SportyBet account: {name}.",
+        "type": "TEXT"
+      },
+      "new_mobile_number": {
+        "key": "new_mobile_number",
+        "value": "New Mobile Number",
+        "type": "TEXT"
+      },
+      "setup_multiple_mobile_numbers_for_deposit_tip": {
+        "key": "setup_multiple_mobile_numbers_for_deposit_tip",
+        "value": "You can now use multiple phone numbers for seamless deposits. Click to set up now!",
+        "type": "TEXT"
+      },
+      "invalid_number": {
+        "key": "invalid_number",
+        "value": "Invalid number",
+        "type": "TEXT"
+      },
+      "please_try_again_in_a_few_minutes": {
+        "key": "please_try_again_in_a_few_minutes",
+        "value": "Please try again in a few minutes",
+        "type": "TEXT"
+      },
+      "unable_to_add_number": {
+        "key": "unable_to_add_number",
+        "value": "Unable to Add Number",
+        "type": "TEXT"
+      },
+      "unable_to_add_mobile_number_to_your_account_tip": {
+        "key": "unable_to_add_mobile_number_to_your_account_tip",
+        "value": "Sorry, but this number isn't able to be added to your account. Please try again with another number. This could be because this number is already on another SportyBet account or a few other reasons. Unfortunately, for security purposes we cannot give further info.",
+        "type": "TEXT"
+      },
+      "unable_to_add_mobile_number_with_provider_tip": {
+        "key": "unable_to_add_mobile_number_with_provider_tip",
+        "value": "We experienced an error with a downstream provider. Please try again in a few minutes. If your request still fails, please contact",
+        "type": "TEXT"
+      },
+      "name_mismatch_error": {
+        "key": "name_mismatch_error",
+        "value": "Name Mismatch Error",
+        "type": "TEXT"
+      },
+      "mobile_name_mismatch_tip_vphone_vname": {
+        "key": "mobile_name_mismatch_tip_vphone_vname",
+        "value": "The mobile money account name for {phone} doesn't match your SportyBet account name {name}. If this is incorrect, please contact your mobile money provider to correct the name on your mobile money account.",
+        "type": "TEXT"
+      },
+      "failed_to_change_default_number_please_try_again": {
+        "key": "failed_to_change_default_number_please_try_again",
+        "value": "Failed to change default number. Please try again.",
+        "type": "TEXT"
+      },
+      "successfully_set_vphone_as_the_default_number": {
+        "key": "successfully_set_vphone_as_the_default_number",
+        "value": "Successfully set {phone} as the default number.",
+        "type": "TEXT"
+      },
+      "added_vphone_successfully": {
+        "key": "added_vphone_successfully",
+        "value": " Added {phone} successfully.",
+        "type": "TEXT"
+      },
+      "failed_to_add_a_new_mobile_number_please_try_again": {
+        "key": "failed_to_add_a_new_mobile_number_please_try_again",
+        "value": "Failed to add a new mobile number. Please try again.",
+        "type": "TEXT"
+      },
+      "for_the_maximum_kyc_tier_you_can_deposit_up_to_vcurrency_vamount": {
+        "key": "for_the_maximum_kyc_tier_you_can_deposit_up_to_vcurrency_vamount",
+        "value": "For the maximum KYC tier, you can deposit up to {currency} {amount}",
+        "type": "TEXT"
+      },
+      "for_the_maximum_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount": {
+        "key": "for_the_maximum_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount",
+        "value": "For the maximum KYC tier, you can withdraw up to {currency} {amount}",
+        "type": "TEXT"
+      },
+      "for_the_maximum_kyc_tier_you_can_deposit_up_to_vcurrency_vamount_in_a_single_transaction": {
+        "key": "for_the_maximum_kyc_tier_you_can_deposit_up_to_vcurrency_vamount_in_a_single_transaction",
+        "value": "For the maximum KYC tier, you can deposit up to {currency} {amount} in a single transaction",
+        "type": "TEXT"
+      },
+      "for_the_maximum_kyc_tier_you_can_deposit_up_to_vcurrency_vamount_more_today": {
+        "key": "for_the_maximum_kyc_tier_you_can_deposit_up_to_vcurrency_vamount_more_today",
+        "value": "For the maximum KYC tier, you can deposit up to {currency} {amount} more today",
+        "type": "TEXT"
+      },
+      "for_the_maximum_kyc_tier_you_can_deposit_up_to_vcurrency_vamount_more_this_month": {
+        "key": "for_the_maximum_kyc_tier_you_can_deposit_up_to_vcurrency_vamount_more_this_month",
+        "value": "For the maximum KYC tier, you can deposit up to {currency} {amount} more this month",
+        "type": "TEXT"
+      },
+      "for_the_maximum_kyc_tier_you_can_deposit_up_to_vcurrency_vamount_more_in_lifetime": {
+        "key": "for_the_maximum_kyc_tier_you_can_deposit_up_to_vcurrency_vamount_more_in_lifetime",
+        "value": "For the maximum KYC tier, you can deposit up to {currency} {amount} more in lifetime",
+        "type": "TEXT"
+      },
+      "for_the_maximum_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_in_a_single_transaction": {
+        "key": "for_the_maximum_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_in_a_single_transaction",
+        "value": "For the maximum KYC tier, you can withdraw up to {currency} {amount} in a single transaction",
+        "type": "TEXT"
+      },
+      "for_the_maximum_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_more_today": {
+        "key": "for_the_maximum_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_more_today",
+        "value": "For the maximum KYC tier, you can withdraw up to {currency} {amount} more today",
+        "type": "TEXT"
+      },
+      "for_the_maximum_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_more_this_month": {
+        "key": "for_the_maximum_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_more_this_month",
+        "value": "For the maximum KYC tier, you can withdraw up to {currency} {amount} more this month",
+        "type": "TEXT"
+      },
+      "for_the_maximum_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_more_in_lifetime": {
+        "key": "for_the_maximum_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_more_in_lifetime",
+        "value": "For the maximum KYC tier, you can withdraw up to {currency} {amount} more in lifetime",
+        "type": "TEXT"
+      },
+      "set_as_default": {
+        "key": "set_as_default",
+        "value": "Set as default",
+        "type": "TEXT"
+      },
+      "choose_a_method_of_deposit": {
+        "key": "choose_a_method_of_deposit",
+        "value": "Choose a method of deposit",
+        "type": "TEXT"
+      },
+      "please_enter_your_date_of_birth": {
+        "key": "please_enter_your_date_of_birth",
+        "value": "Please enter your date of birth",
+        "type": "TEXT"
+      },
+      "please_enter_the_correct_format": {
+        "key": "please_enter_the_correct_format",
+        "value": "Please enter the correct format",
+        "type": "TEXT"
+      },
+      "eg_october_9_1985_etc": {
+        "key": "eg_october_9_1985_etc",
+        "value": "e.g. October 9, 1985 = 09 /10 /1985",
+        "type": "TEXT"
+      },
+      "date_of_birth": {
+        "key": "date_of_birth",
+        "value": "Date of Birth",
+        "type": "TEXT"
+      },
+      "pix_via_pay4fun": {
+        "key": "pix_via_pay4fun",
+        "value": "Pix via Pay4Fun",
+        "type": "TEXT"
+      },
+      "select_your_mobile_provider": {
+        "key": "select_your_mobile_provider",
+        "value": "Select Your Mobile Provider",
+        "type": "TEXT"
+      },
+      "please_enter_a_valid_card_number": {
+        "key": "please_enter_a_valid_card_number",
+        "value": "Please enter a valid Card Number.",
+        "type": "TEXT"
+      },
+      "instant_eft": {
+        "key": "instant_eft",
+        "value": "Instant EFT",
+        "type": "TEXT"
+      },
+      "others": {
+        "key": "others",
+        "value": "Others",
+        "type": "TEXT"
+      },
+      "kuda": {
+        "key": "kuda",
+        "value": "Kuda",
+        "type": "TEXT"
+      },
+      "one_time_account": {
+        "key": "one_time_account",
+        "value": "One-Time Account",
+        "type": "TEXT"
+      },
+      "sporty_bank_dedicated_account": {
+        "key": "sporty_bank_dedicated_account",
+        "value": "Sporty Bank (Dedicated Account)",
+        "type": "TEXT"
+      },
+      "voucher": {
+        "key": "voucher",
+        "value": "Voucher",
+        "type": "TEXT"
+      },
+      "one_voucher_pin_number": {
+        "key": "one_voucher_pin_number",
+        "value": "1Voucher PIN number",
+        "type": "TEXT"
+      },
+      "enter_the_one_voucher_pin_number": {
+        "key": "enter_the_one_voucher_pin_number",
+        "value": "Enter the 1Voucher PIN number",
+        "type": "TEXT"
+      },
+      "redeem_voucher": {
+        "key": "redeem_voucher",
+        "value": "Redeem Voucher",
+        "type": "TEXT"
+      },
+      "please_enter_a_valid_bank_account_number": {
+        "key": "please_enter_a_valid_bank_account_number",
+        "value": "Please enter a valid bank account number.",
+        "type": "TEXT"
+      },
+      "between_vmin_and_vmax": {
+        "key": "between_vmin_and_vmax",
+        "value": "Between {min} and {max} digits",
+        "type": "TEXT"
+      },
+      "not_my_name_name_update": {
+        "key": "not_my_name_name_update",
+        "value": "Not my name, name update",
+        "type": "TEXT"
+      },
+      "bank_transfer_payment_steps_1": {
+        "key": "bank_transfer_payment_steps_1",
+        "value": "1. Enter the amount you want to deposit and click the \u201cTop Up Now\u201d button.",
+        "type": "TEXT"
+      },
+      "bank_transfer_payment_steps_2": {
+        "key": "bank_transfer_payment_steps_2",
+        "value": "2. You will be given a temporary transfer account (expires after 30 mins).",
+        "type": "TEXT"
+      },
+      "bank_transfer_payment_steps_3": {
+        "key": "bank_transfer_payment_steps_3",
+        "value": "3. Transfer the exact amount entered via online banking or USSD to make successful deposits.",
+        "type": "TEXT"
+      },
+      "bank_transfer_payment_steps_4": {
+        "key": "bank_transfer_payment_steps_4",
+        "value": "4. Deposits usually reflect within 10 minutes. If it hasn\u2019t appeared after an hour, please contact your bank for assistance.",
+        "type": "TEXT"
+      },
+      "delete_your_card": {
+        "key": "delete_your_card",
+        "value": "Delete Your Card?",
+        "type": "TEXT"
+      },
+      "delete_card": {
+        "key": "delete_card",
+        "value": "Delete Card",
+        "type": "TEXT"
+      },
+      "card_cannot_be_deleted_hint": {
+        "key": "card_cannot_be_deleted_hint",
+        "value": "This card cannot be deleted for security concern. If you need any help please contact our customer service team.",
+        "type": "TEXT"
+      },
+      "successfully_deleted_the_card_vcard": {
+        "key": "successfully_deleted_the_card_vcard",
+        "value": "Successfully deleted the card, {card}.",
+        "type": "TEXT"
+      },
+      "failed_to_delete_the_card_vcard": {
+        "key": "failed_to_delete_the_card_vcard",
+        "value": "Failed to delete the card, {card}. Please try again.",
+        "type": "TEXT"
+      },
+      "successfully_set_vcard_as_the_default_card": {
+        "key": "successfully_set_vcard_as_the_default_card",
+        "value": "Successfully set {card} as the default card.",
+        "type": "TEXT"
+      },
+      "failed_to_change_vcard_as_the_default_card": {
+        "key": "failed_to_change_vcard_as_the_default_card",
+        "value": "Failed to change {card} as the default card. Please try again.",
+        "type": "TEXT"
+      },
+      "choose_bank_account": {
+        "key": "choose_bank_account",
+        "value": "Choose Bank Account",
+        "type": "TEXT"
+      },
+      "add_a_new_account": {
+        "key": "add_a_new_account",
+        "value": "Add a New Account",
+        "type": "TEXT"
+      },
+      "successfully_set_vaccount_as_the_default_account": {
+        "key": "successfully_set_vaccount_as_the_default_account",
+        "value": "Successfully set {account} as the default account.",
+        "type": "TEXT"
+      },
+      "failed_to_change_vaccount_as_the_default_account": {
+        "key": "failed_to_change_vaccount_as_the_default_account",
+        "value": "Failed to change {account} as the default account. Please try again.",
+        "type": "TEXT"
+      },
+      "successfully_deleted_the_account_vaccount": {
+        "key": "successfully_deleted_the_account_vaccount",
+        "value": "Successfully deleted the account, {account}.",
+        "type": "TEXT"
+      },
+      "failed_to_delete_the_vaccount": {
+        "key": "failed_to_delete_the_vaccount",
+        "value": "Failed to delete the account, {account}. Please try again.",
+        "type": "TEXT"
+      },
+      "default_function_available_now": {
+        "key": "default_function_available_now",
+        "value": "Default Function Available Now!",
+        "type": "TEXT"
+      },
+      "set_default_card_feature_hint_content": {
+        "key": "set_default_card_feature_hint_content",
+        "value": "To change your default card, click 'Set as Default' in the '...' menu.",
+        "type": "TEXT"
+      },
+      "set_default_account_feature_hint_content": {
+        "key": "set_default_account_feature_hint_content",
+        "value": "To change your default bank account, click 'Change Default' button on the top right.",
+        "type": "TEXT"
+      },
+      "the_instruction_of_access_bank_app": {
+        "key": "the_instruction_of_access_bank_app",
+        "value": "Deposit with Access Bank Mobile",
+        "type": "TEXT"
+      },
+      "the_instruction_of_access_bank_website": {
+        "key": "the_instruction_of_access_bank_website",
+        "value": "Deposit with Access Bank Website",
+        "type": "TEXT"
+      },
+      "invalid_1voucher_pin_length": {
+        "key": "invalid_1voucher_pin_length",
+        "value": "1Voucher PIN number should be 16 digits long.",
+        "type": "TEXT"
+      },
+      "voucher_amount": {
+        "key": "voucher_amount",
+        "value": "Voucher Amount",
+        "type": "TEXT"
+      },
+      "nin_title": {
+        "key": "nin_title",
+        "value": "Please enter your National Identification Number (NIN) for verification",
+        "type": "TEXT"
+      },
+      "nin_placeholder": {
+        "key": "nin_placeholder",
+        "value": "Enter NIN",
+        "type": "TEXT"
+      },
+      "deposit_blocked": {
+        "key": "deposit_blocked",
+        "value": "Deposit Unavailable",
+        "type": "TEXT"
+      },
+      "deposit_blocked_content": {
+        "key": "deposit_blocked_content",
+        "value": "<div><p><span style=\"font-family:Roboto;font-size:14pt;\">We are unable to accept deposits to your account at this time.</span></p></div>",
+        "type": "HTML"
+      },
+      "deposit_blocked_content_mobile": {
+        "key": "deposit_blocked_content_mobile",
+        "value": "We are unable to accept deposits to your account at this time.",
+        "type": "TEXT"
+      },
+      "cash_payments": {
+        "key": "cash_payments",
+        "value": "Cash Payments",
+        "type": "TEXT"
+      },
+      "cards": {
+        "key": "cards",
+        "value": "Cards",
+        "type": "TEXT"
+      },
+      "your_deposit_request_has_been_submitted_tip": {
+        "key": "your_deposit_request_has_been_submitted_tip",
+        "value": "Your deposit request has been submitted. It is now waiting for confirmation. We'll notify you \u2028via app notification once we have\u2028a result.",
+        "type": "TEXT"
+      },
+      "confirm_to_deposit": {
+        "key": "confirm_to_deposit",
+        "value": "Confirm to Deposit",
+        "type": "TEXT"
+      },
+      "once_you_have_deposited_with_vprovider_tip": {
+        "key": "once_you_have_deposited_with_vprovider_tip",
+        "value": "Once you\u2019ve deposited with {provider}, press \u201cContinue\u201d to complete\u2028the process.",
+        "type": "TEXT"
+      },
+      "cash_payouts": {
+        "key": "cash_payouts",
+        "value": "Cash Payouts",
+        "type": "TEXT"
+      },
+      "insufficient_funds": {
+        "key": "insufficient_funds",
+        "value": "Insufficient Funds",
+        "type": "TEXT"
+      },
+      "you_dont_have_sufficient_funds": {
+        "key": "you_dont_have_sufficient_funds",
+        "value": "You don't have sufficient funds for this transaction, please try a different card or a smaller deposit amount.",
+        "type": "TEXT"
+      },
+      "your_deposit_request_has_been_submitted_tip_nuvei": {
+        "key": "your_deposit_request_has_been_submitted_tip_nuvei",
+        "value": "Your deposit request has been submitted. It is now waiting for confirmation. We'll notify you via app notification once we have a result.",
+        "type": "TEXT"
+      },
+      "deposit_pending": {
+        "key": "deposit_pending",
+        "value": "Deposit Pending",
+        "type": "TEXT"
+      },
+      "withdrawal_pending": {
+        "key": "withdrawal_pending",
+        "value": "Withdrawal Pending",
+        "type": "TEXT"
+      },
+      "your_deposit_request_has_been_submitted_tip_with_notification": {
+        "key": "your_deposit_request_has_been_submitted_tip_with_notification",
+        "value": "Your deposit request has been submitted. It is now waiting for confirmation. We'll notify you via app notification once we have a result.",
+        "type": "TEXT"
+      },
+      "your_withdrawal_request_has_been_submitted_tip_with_notification": {
+        "key": "your_withdrawal_request_has_been_submitted_tip_with_notification",
+        "value": "Your withdrawal request has been submitted. It is now waiting for confirmation. We'll notify you via app notification once we have a result.",
+        "type": "TEXT"
+      },
+      "withdrawal_failed": {
+        "key": "withdrawal_failed",
+        "value": "Withdrawal Failed",
+        "type": "TEXT"
+      },
+      "retry_with": {
+        "key": "retry_with",
+        "value": "Retry with",
+        "type": "TEXT"
+      },
+      "use_another_deposit_method": {
+        "key": "use_another_deposit_method",
+        "value": "Use another deposit method",
+        "type": "TEXT"
+      },
+      "use_another_withdrawal_method": {
+        "key": "use_another_withdrawal_method",
+        "value": "Use another withdrawal method",
+        "type": "TEXT"
+      },
+      "sorry_something_went_wrong_please_give_it_another_try": {
+        "key": "sorry_something_went_wrong_please_give_it_another_try",
+        "value": "Sorry, something went wrong. Please give it another try.",
+        "type": "TEXT"
+      },
+      "processing_your_withdrawal": {
+        "key": "processing_your_withdrawal",
+        "value": "Processing your Withdrawal",
+        "type": "TEXT"
+      },
+      "once_deposit_with_vprovider_press_continue_tip": {
+        "key": "once_deposit_with_vprovider_press_continue_tip",
+        "value": "Once you've deposited with {provider}, press \"Continue\" to complete the process.",
+        "type": "TEXT"
+      },
+      "once_withdraw_with_vprovider_press_continue_tip": {
+        "key": "once_withdraw_with_vprovider_press_continue_tip",
+        "value": "Once you've withdrawn with {provider}, press \"Continue\" to complete the process.",
+        "type": "TEXT"
+      },
+      "voucher_amount_r": {
+        "key": "voucher_amount_r",
+        "value": "",
+        "type": "TEXT"
+      },
+      "invalid_1voucher_pin_value": {
+        "key": "invalid_1voucher_pin_value",
+        "value": "The 1Voucher PIN you entered is invalid or has expired.",
+        "type": "TEXT"
+      },
+      "enter_the_ott_voucher_pin_number": {
+        "key": "enter_the_ott_voucher_pin_number",
+        "value": "Enter the OTT Voucher PIN number",
+        "type": "TEXT"
+      },
+      "ott_voucher_pin_number": {
+        "key": "ott_voucher_pin_number",
+        "value": "OTT Voucher PIN number",
+        "type": "TEXT"
+      },
+      "invalid_ott_voucher_pin_length": {
+        "key": "invalid_ott_voucher_pin_length",
+        "value": "OTT Voucher PIN number should be 12 digits long.",
+        "type": "TEXT"
+      },
+      "invalid_ott_voucher_pin_value": {
+        "key": "invalid_ott_voucher_pin_value",
+        "value": "The OTT Voucher PIN you entered is invalid or has expired.",
+        "type": "TEXT"
+      },
+      "one_voucher": {
+        "key": "one_voucher",
+        "value": "",
+        "type": "TEXT"
+      },
+      "ott_voucher": {
+        "key": "ott_voucher",
+        "value": "",
+        "type": "TEXT"
+      },
+      "verify_account_to_increase_this_limit": {
+        "key": "verify_account_to_increase_this_limit",
+        "value": "Click here to verify your account and increase this limit.",
+        "type": "TEXT"
+      },
+      "verify_nin": {
+        "key": "verify_nin",
+        "value": "Verify NIN",
+        "type": "TEXT"
+      },
+      "nin_verified_title": {
+        "key": "nin_verified_title",
+        "value": "NIN is verified",
+        "type": "TEXT"
+      },
+      "nin_verified_content": {
+        "key": "nin_verified_content",
+        "value": "Your NIN has now been verified, and the withdrawal review has been completed. You can request a withdrawal shortly.",
+        "type": "TEXT"
+      },
+      "nin_fail_title": {
+        "key": "nin_fail_title",
+        "value": "NIN verification Failed",
+        "type": "TEXT"
+      },
+      "nin_fail_content": {
+        "key": "nin_fail_content",
+        "value": "The NIN you entered is incorrect. Please wait for the withdrawal review; you will receive the results within 24 hours.",
+        "type": "TEXT"
+      },
+      "back_to_deposits": {
+        "key": "back_to_deposits",
+        "value": "Back to deposits",
+        "type": "TEXT"
+      },
+      "document_verification": {
+        "key": "document_verification",
+        "value": "Document Verification",
+        "type": "TEXT"
+      },
+      "new_phone_number_added": {
+        "key": "new_phone_number_added",
+        "value": "New Phone Number Added",
+        "type": "TEXT"
+      },
+      "kyc_migrate_phone_success_message": {
+        "key": "kyc_migrate_phone_success_message",
+        "value": "{oldPhone} has been added as deposit phone for Sporty Account {newPhone}. Deposit with this number {oldPhone} will be transferred, Account {oldPhone} will be deactivated. Please log in to use Sporty Account {newPhone}",
+        "type": "TEXT"
+      },
+      "deposit_balance_transfer_failed": {
+        "key": "deposit_balance_transfer_failed",
+        "value": "Deposit Balance Transfer Failed",
+        "type": "TEXT"
+      },
+      "dont_have_nin": {
+        "key": "dont_have_nin",
+        "value": "I don't have NIN",
+        "type": "TEXT"
+      },
+      "phone_number_added_failure": {
+        "key": "phone_number_added_failure",
+        "value": "Phone Number Added Failure",
+        "type": "TEXT"
+      },
+      "go_to_sportybet": {
+        "key": "go_to_sportybet",
+        "value": "Go to SportyBet",
+        "type": "TEXT"
+      },
+      "redirect_to_sportybet_title": {
+        "key": "redirect_to_sportybet_title",
+        "value": "You are being redirected to SportyBet.",
+        "type": "TEXT"
+      },
+      "redirect_to_sportybet_content": {
+        "key": "redirect_to_sportybet_content",
+        "value": "If the redirection doesn't happen, please click the button below.",
+        "type": "TEXT"
+      },
+      "delete_bank_asset": {
+        "key": "delete_bank_asset",
+        "value": "Delete Bank Asset",
+        "type": "TEXT"
+      },
+      "bank_asset_cannot_be_deleted_hint": {
+        "key": "bank_asset_cannot_be_deleted_hint",
+        "value": "This bank asset cannot be deleted for security concern. If you need any help please contact our customer service team.",
+        "type": "TEXT"
+      },
+      "delete_your_bank_asset": {
+        "key": "delete_your_bank_asset",
+        "value": "Delete Your Bank Asset?",
+        "type": "TEXT"
+      },
+      "are_you_sure_you_want_to_delete_this_bank_asset": {
+        "key": "are_you_sure_you_want_to_delete_this_bank_asset",
+        "value": "Are you sure you want to delete this bank asset?",
+        "type": "TEXT"
+      },
+      "brazilian_pix_deposit_withdraw_logo": {
+        "key": "brazilian_pix_deposit_withdraw_logo",
+        "value": "https://s.sporty.net/cms/pix_106_1_2_50c6ef0c9b.png",
+        "type": "TEXT"
+      },
+      "the_amount_entered_must_be_below_vcurrency_vamount": {
+        "key": "the_amount_entered_must_be_below_vcurrency_vamount",
+        "value": "The amount entered must be below {currency} {amount}",
+        "type": "TEXT"
+      },
+      "the_amount_entered_must_be_higher_than_vcurrency_vamount": {
+        "key": "the_amount_entered_must_be_higher_than_vcurrency_vamount",
+        "value": "The amount entered must be higher than {currency} {amount}",
+        "type": "TEXT"
+      },
+      "select_your_bank_ispb": {
+        "key": "select_your_bank_ispb",
+        "value": "Select your Bank ISPB",
+        "type": "TEXT"
+      },
+      "scan_to_deposit": {
+        "key": "scan_to_deposit",
+        "value": "Scan to deposit:",
+        "type": "TEXT"
+      },
+      "deposit_success": {
+        "key": "deposit_success",
+        "value": "Success!",
+        "type": "TEXT"
+      },
+      "easy_account_hint": {
+        "key": "easy_account_hint",
+        "value": "For this bank, your withdrawal account number must match your registered number.",
+        "type": "TEXT"
+      },
+      "this_bank_account_number_format_is_invalid": {
+        "key": "this_bank_account_number_format_is_invalid",
+        "value": "This bank account number format is invalid",
+        "type": "TEXT"
+      },
+      "a_bank_branch_number_must_consist_of_vnumber_digits": {
+        "key": "a_bank_branch_number_must_consist_of_vnumber_digits",
+        "value": "A bank branch number must consist of {number} digits",
+        "type": "TEXT"
+      },
+      "ispb": {
+        "key": "ispb",
+        "value": "ISPB",
+        "type": "TEXT"
+      },
+      "bank_branch": {
+        "key": "bank_branch",
+        "value": "Bank Branch",
+        "type": "TEXT"
+      },
+      "account_type": {
+        "key": "account_type",
+        "value": "Account Type",
+        "type": "TEXT"
+      },
+      "bank_account_number": {
+        "key": "bank_account_number",
+        "value": "Bank Account Number",
+        "type": "TEXT"
+      },
+      "name": {
+        "key": "name",
+        "value": "Name",
+        "type": "TEXT"
+      },
+      "bank_accounts_added_to_your_sportybet_account_tip": {
+        "key": "bank_accounts_added_to_your_sportybet_account_tip",
+        "value": "Bank accounts must bear the name and CPF number associated with your SportyBet account for a payment to be successful.",
+        "type": "TEXT"
+      },
+      "add_a_new_bank_account": {
+        "key": "add_a_new_bank_account",
+        "value": "Add a New Bank Account",
+        "type": "TEXT"
+      },
+      "you_can_only_have_3_bank_accounts_registered": {
+        "key": "you_can_only_have_3_bank_accounts_registered",
+        "value": "You can only have 3 bank accounts registered. Edit or remove one of the bank accounts to proceed.",
+        "type": "TEXT"
+      },
+      "payment_alert_default": {
+        "key": "payment_alert_default",
+        "value": "This payment option is experiencing issues, please try a different payment method",
+        "type": "TEXT"
+      },
+      "account_vaccount_successfully_added": {
+        "key": "account_vaccount_successfully_added",
+        "value": "Bank account {{bankAccountNumber}} added successfully",
+        "type": "TEXT"
+      },
+      "mobile_money_processing_deposit_popup_content": {
+        "key": "mobile_money_processing_deposit_popup_content",
+        "value": "<p><span style=\"white-space:pre-wrap;\">Mobile Money has been initiated on your phone. Please follow instructions on the prompt to complete deposit.</span></p><p><span style=\"white-space:pre-wrap;\">Once done, tap on the \"Continue\" button to complete the process.</span></p>",
+        "type": "HTML"
+      },
+      "your_deposit_request_has_been_submitted_tip_2": {
+        "key": "your_deposit_request_has_been_submitted_tip_2",
+        "value": "Your deposit request has been submitted. It is now waiting for confirmation. We'll notify you \u2028once we have a result.",
+        "type": "TEXT"
+      },
+      "deposit_phone_number_info_content": {
+        "key": "deposit_phone_number_info_content",
+        "value": "<p><span style=\"white-space:pre-wrap;\">You can only deposit using your verified account mobile number.</span></p><p><span style=\"white-space:pre-wrap;\">To change your account mobile number, please contact support.</span></p>",
+        "type": "HTML"
+      },
+      "withdraw_phone_number_info_content": {
+        "key": "withdraw_phone_number_info_content",
+        "value": "<p><span style=\"white-space:pre-wrap;\">You can only withdraw using your verified account mobile number.</span></p><p><span style=\"white-space:pre-wrap;\">To change your account mobile number, please contact support.</span></p>",
+        "type": "HTML"
+      },
+      "mobile_money": {
+        "key": "mobile_money",
+        "value": "Mobile Money",
+        "type": "TEXT"
+      },
+      "confirm_withdrawal": {
+        "key": "confirm_withdrawal",
+        "value": "Confirm Withdrawal",
+        "type": "TEXT"
+      },
+      "your_withdrawal_request_has_been_submitted_tip_2": {
+        "key": "your_withdrawal_request_has_been_submitted_tip_2",
+        "value": "Your withdrawal request has been submitted. It is now waiting for confirmation. We'll notify you once we have a result.",
+        "type": "TEXT"
+      },
+      "deposit_amount": {
+        "key": "deposit_amount",
+        "value": "Deposit Amount",
+        "type": "TEXT"
+      },
+      "you_have_exceeded_the_withdrawal_limits_click_here": {
+        "key": "you_have_exceeded_the_withdrawal_limits_click_here",
+        "value": "",
+        "type": "TEXT"
+      },
+      "you_can_deposit_up_to_vcurrency_vamount_in_a_single_transaction": {
+        "key": "you_can_deposit_up_to_vcurrency_vamount_in_a_single_transaction",
+        "value": "You can deposit up to {currency} {amount} in a single transaction",
+        "type": "TEXT"
+      },
+      "you_can_withdraw_up_to_vcurrency_vamount_in_a_single_transaction": {
+        "key": "you_can_withdraw_up_to_vcurrency_vamount_in_a_single_transaction",
+        "value": "You can withdraw up to {currency} {amount} in a single transaction",
+        "type": "TEXT"
+      },
+      "popular_banks": {
+        "key": "popular_banks",
+        "value": "Popular Banks",
+        "type": "TEXT"
+      },
+      "all_banks": {
+        "key": "all_banks",
+        "value": "All Banks",
+        "type": "TEXT"
+      },
+      "ensure_the_ispb_code_you_select_matches_your_banks_official_details": {
+        "key": "ensure_the_ispb_code_you_select_matches_your_banks_official_details",
+        "value": "Ensure the ISPB code you select matches your bank's official details",
+        "type": "TEXT"
+      },
+      "ispb_incorrect_try_again": {
+        "key": "ispb_incorrect_try_again",
+        "value": "The ISPB you entered is incorrect. Please verify and re-enter.",
+        "type": "TEXT"
+      },
+      "set_as_default_card": {
+        "key": "set_as_default_card",
+        "value": "Set as Default Card",
+        "type": "TEXT"
+      },
+      "complete_a_deposit_to_withdraw": {
+        "key": "complete_a_deposit_to_withdraw",
+        "value": "Complete a deposit to withdraw",
+        "type": "TEXT"
+      },
+      "start_your_first_pix_deposit": {
+        "key": "start_your_first_pix_deposit",
+        "value": "Start your first Pix deposit",
+        "type": "TEXT"
+      },
+      "vnum_max_bank_accounts_reached": {
+        "key": "vnum_max_bank_accounts_reached",
+        "value": "{num} bank accounts have been validated. It is no longer possible to register more bank accounts to your user account.",
+        "type": "TEXT"
+      },
+      "withdrawal_confirmation": {
+        "key": "withdrawal_confirmation",
+        "value": "Withdrawal Confirmation",
+        "type": "TEXT"
+      },
+      "page_payment__withdraw_drop_alert_confirm_hint": {
+        "key": "page_payment__withdraw_drop_alert_confirm_hint",
+        "value": "\"{providerName}\" connection is currently unstable, which <strong>might cause delays or failed transactions</strong>. To avoid this, tap \"Cancel\" and try withdrawing with another {providerType}.",
+        "type": "HTML"
+      },
+      "withdraw_provider_type_bank": {
+        "key": "withdraw_provider_type_bank",
+        "value": "",
+        "type": "TEXT"
+      },
+      "withdraw_provider_type_network": {
+        "key": "withdraw_provider_type_network",
+        "value": "",
+        "type": "TEXT"
+      },
+      "edit_your_bank_account": {
+        "key": "edit_your_bank_account",
+        "value": "Edit Your Bank Account",
+        "type": "TEXT"
+      },
+      "no_matches_found": {
+        "key": "no_matches_found",
+        "value": "No matches found.",
+        "type": "TEXT"
+      },
+      "withdraw_drop_alert_hint": {
+        "key": "withdraw_drop_alert_hint",
+        "value": "\"{providerName}\"'s connection is currently unstable, which may lead to delays or failed transactions. To avoid this, please consider using a different bank or try again later.",
+        "type": "TEXT"
+      },
+      "explore_more_available_payment_method_hint": {
+        "key": "explore_more_available_payment_method_hint",
+        "value": "Swipe to explore more payment methods",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pix_line1": {
+        "key": "paych_alert_content_pix_line1",
+        "value": "1. You can have a maximum of 3 different bank accounts added to your SportyBet account.",
+        "type": "TEXT"
+      },
+      "bank_credit_delay_hint": {
+        "key": "bank_credit_delay_hint",
+        "value": "{providerName} is currently experiencing instability, causing delays in crediting accounts for successful withdrawals. To avoid delays, please consider using another bank for your withdrawals.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pix_deposit_line1": {
+        "key": "paych_alert_content_pix_deposit_line1",
+        "value": "1. A Pix payment must be paid with the same bank and account used to generate the Pix code.\n",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pix_deposit_line2": {
+        "key": "paych_alert_content_pix_deposit_line2",
+        "value": "2. You can have a maximum of 3 different bank accounts added to your SportyBet account.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pix_deposit_line3": {
+        "key": "paych_alert_content_pix_deposit_line3",
+        "value": "3. We recommend that you always verify your bank details in your app.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pix_withdraw_line1": {
+        "key": "paych_alert_content_pix_withdraw_line1",
+        "value": "1. We advise users to withdraw funds only to bank accounts that have had successful deposits.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pix_withdraw_line2": {
+        "key": "paych_alert_content_pix_withdraw_line2",
+        "value": "2. The bank account used for withdrawals must bear the same CPF and name as your SportyBet account.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pix_withdraw_line3": {
+        "key": "paych_alert_content_pix_withdraw_line3",
+        "value": "3. To prevent withdrawals failing, we ask that you kindly confirm that the information you are entering fully matches the information of the bank account.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pix_withdraw_line4": {
+        "key": "paych_alert_content_pix_withdraw_line4",
+        "value": "4. You can have a maximum of 3 different bank accounts added to your SportyBet account.",
+        "type": "TEXT"
+      },
+      "select_your_bank_account": {
+        "key": "select_your_bank_account",
+        "value": "Select Your Bank Account",
+        "type": "TEXT"
+      },
+      "pix_account_number_mandatory_digit_tip": {
+        "key": "pix_account_number_mandatory_digit_tip",
+        "value": "You must always enter the digit of your bank account",
+        "type": "TEXT"
+      },
+      "bank_account_max_length_error_msg": {
+        "key": "bank_account_max_length_error_msg",
+        "value": "A bank account number cannot have more than 13 digits, including the verification digit",
+        "type": "TEXT"
+      },
+      "by_proceeding_you_agree_to_the_vinfo": {
+        "key": "by_proceeding_you_agree_to_the_vinfo",
+        "value": "By proceeding, you agree to the {info}.",
+        "type": "TEXT"
+      },
+      "terms_and_conditions": {
+        "key": "terms_and_conditions",
+        "value": "Terms and Conditions",
+        "type": "TEXT"
+      },
+      "what_is_dedicated_account": {
+        "key": "what_is_dedicated_account",
+        "value": "What is \u201cDedicated Account\u201d?",
+        "type": "TEXT"
+      },
+      "a_dedicated_virtual_bank_account_uniquely_tied_to_your_sporty_account": {
+        "key": "a_dedicated_virtual_bank_account_uniquely_tied_to_your_sporty_account",
+        "value": "A dedicated virtual bank account uniquely tied to your Sporty account:",
+        "type": "TEXT"
+      },
+      "seamless_transfer": {
+        "key": "seamless_transfer",
+        "value": "Seamless Transfers",
+        "type": "TEXT"
+      },
+      "seamless_transfer_content": {
+        "key": "seamless_transfer_content",
+        "value": "Any funds transferred to this account will be directly credited to your Sporty balance, ensuring convenience and security.",
+        "type": "TEXT"
+      },
+      "no_expiry_or_changes": {
+        "key": "no_expiry_or_changes",
+        "value": "No Expiry or Changes",
+        "type": "TEXT"
+      },
+      "no_expiry_or_changes_content": {
+        "key": "no_expiry_or_changes_content",
+        "value": "This account will remain permanent and consistent.",
+        "type": "TEXT"
+      },
+      "your_preferred_banks": {
+        "key": "your_preferred_banks",
+        "value": "Your Preferred Banks",
+        "type": "TEXT"
+      },
+      "your_preferred_banks_content": {
+        "key": "your_preferred_banks_content",
+        "value": "Select your preferred banks for your dedicated virtual accounts.",
+        "type": "TEXT"
+      },
+      "my_accounts": {
+        "key": "my_accounts",
+        "value": "My Accounts",
+        "type": "TEXT"
+      },
+      "manage": {
+        "key": "manage",
+        "value": "Manage",
+        "type": "TEXT"
+      },
+      "delete_all": {
+        "key": "delete_all",
+        "value": "Delete All",
+        "type": "TEXT"
+      },
+      "select_banks_for_dedicated_accounts": {
+        "key": "select_banks_for_dedicated_accounts",
+        "value": "Select Banks for Dedicated Accounts",
+        "type": "TEXT"
+      },
+      "you_can_open_up_to_vlimit_dedicated_accounts": {
+        "key": "you_can_open_up_to_vlimit_dedicated_accounts",
+        "value": "You can open up to {limit} dedicated accounts.",
+        "type": "TEXT"
+      },
+      "this_bank_requires_your_bvn_for_verification": {
+        "key": "this_bank_requires_your_bvn_for_verification",
+        "value": "This bank requires your BVN for verification.",
+        "type": "TEXT"
+      },
+      "failed_to_add_this_bank": {
+        "key": "failed_to_add_this_bank",
+        "value": "Failed to add this bank.",
+        "type": "TEXT"
+      },
+      "deposits_to_this_bank_are_no_longer_supported": {
+        "key": "deposits_to_this_bank_are_no_longer_supported",
+        "value": "Deposits to this bank are no longer supported.",
+        "type": "TEXT"
+      },
+      "action_required": {
+        "key": "action_required",
+        "value": "Action Required",
+        "type": "TEXT"
+      },
+      "to_open_an_account_with_the_bank_you_must_first_successfully_complete_a_withdrawal": {
+        "key": "to_open_an_account_with_the_bank_you_must_first_successfully_complete_a_withdrawal",
+        "value": "To open an account with the bank, you must first successfully complete a withdrawal.",
+        "type": "TEXT"
+      },
+      "bvn_verification": {
+        "key": "bvn_verification",
+        "value": "BVN Verification",
+        "type": "TEXT"
+      },
+      "connecting_to_bank_service_providers": {
+        "key": "connecting_to_bank_service_providers",
+        "value": "Connecting to Bank Service Providers...",
+        "type": "TEXT"
+      },
+      "please_hold_on": {
+        "key": "please_hold_on",
+        "value": "Please hold on.",
+        "type": "TEXT"
+      },
+      "add_new_bank": {
+        "key": "add_new_bank",
+        "value": "Add New Bank",
+        "type": "TEXT"
+      },
+      "identity_verified": {
+        "key": "identity_verified",
+        "value": "Details received.",
+        "type": "TEXT"
+      },
+      "your_banks_are_being_added_now": {
+        "key": "your_banks_are_being_added_now",
+        "value": "Bank/s will be added after verification.",
+        "type": "TEXT"
+      },
+      "your_bvn": {
+        "key": "your_bvn",
+        "value": "Your BVN",
+        "type": "TEXT"
+      },
+      "enter_your_11_digit_bvn": {
+        "key": "enter_your_11_digit_bvn",
+        "value": "Enter Your 11-digit BVN",
+        "type": "TEXT"
+      },
+      "create_sporty_bank_failed": {
+        "key": "create_sporty_bank_failed",
+        "value": "Something went wrong. Please try again later. If the issue persists, please contact our customer service for support.",
+        "type": "TEXT"
+      },
+      "but_some_banks_couldnt_be_added": {
+        "key": "but_some_banks_couldnt_be_added",
+        "value": "But some banks couldn\u2019t be added.",
+        "type": "TEXT"
+      },
+      "check_the_list_below_for_details": {
+        "key": "check_the_list_below_for_details",
+        "value": "Check the list below for details.",
+        "type": "TEXT"
+      },
+      "we_couldnt_verify_your_identity": {
+        "key": "we_couldnt_verify_your_identity",
+        "value": "We couldn\u2019t verify your identity.",
+        "type": "TEXT"
+      },
+      "please_reach_out_to_our_help_desk_for_support": {
+        "key": "please_reach_out_to_our_help_desk_for_support",
+        "value": "Please reach out to our help desk for support.",
+        "type": "TEXT"
+      },
+      "bvn_verified": {
+        "key": "bvn_verified",
+        "value": "BVN verified.",
+        "type": "TEXT"
+      },
+      "withdraw_drop_alert_confirm_hint": {
+        "key": "withdraw_drop_alert_confirm_hint",
+        "value": "\"{providerName}\"'s connection is currently unstable, which might cause delays or failed transactions. To avoid this, tap \"Cancel\" and consider using a different bank, or try again later.",
+        "type": "TEXT"
+      },
+      "you_currently_have_no_dedicated_accounts": {
+        "key": "you_currently_have_no_dedicated_accounts",
+        "value": "You currently have no Dedicated Accounts.",
+        "type": "TEXT"
+      },
+      "all_supported_banks_are_set_up": {
+        "key": "all_supported_banks_are_set_up",
+        "value": "All supported banks are set up.",
+        "type": "TEXT"
+      },
+      "still_waiting_for_provider": {
+        "key": "still_waiting_for_provider",
+        "value": "Still waiting for provider.",
+        "type": "TEXT"
+      },
+      "adding": {
+        "key": "adding",
+        "value": "Adding...",
+        "type": "TEXT"
+      },
+      "blu_voucher_pin_number": {
+        "key": "blu_voucher_pin_number",
+        "value": "Blu Voucher PIN number",
+        "type": "TEXT"
+      },
+      "enter_the_blu_voucher_pin_number": {
+        "key": "enter_the_blu_voucher_pin_number",
+        "value": "Enter the Blu Voucher PIN number",
+        "type": "TEXT"
+      },
+      "invalid_blu_voucher_pin_length": {
+        "key": "invalid_blu_voucher_pin_length",
+        "value": "Blu Voucher PIN number should be 16 digits long.",
+        "type": "TEXT"
+      },
+      "invalid_blu_voucher_pin_value": {
+        "key": "invalid_blu_voucher_pin_value",
+        "value": "The Blu Voucher PIN you entered is invalid or has expired.",
+        "type": "TEXT"
+      },
+      "walletdoc_iframe_loading_warning": {
+        "key": "walletdoc_iframe_loading_warning",
+        "value": "Just a moment \u2014 we\u2019re loading your secure payment window. If it doesn\u2019t appear shortly, try a different browser, turn off \u2018Data Saving\u2019 mode, or choose another payment method. Opera Mini\u2019s Data savings feature can sometimes block the connection. Thank you for your patience!",
+        "type": "TEXT"
+      },
+      "vaccount_is_now_your_default_account": {
+        "key": "vaccount_is_now_your_default_account",
+        "value": "{account} is now your default account.",
+        "type": "TEXT"
+      },
+      "vaccount_could_not_be_set_as_your_default_account": {
+        "key": "vaccount_could_not_be_set_as_your_default_account",
+        "value": "{account} couldn't be set as your default account. Please try again.",
+        "type": "TEXT"
+      },
+      "deposit_pending_nuvei": {
+        "key": "deposit_pending_nuvei",
+        "value": "Your deposit request has been submitted. It is now waiting for confirmation. We'll notify you via app notification once we have a result.",
+        "type": "TEXT"
+      },
+      "withdraw_once_to_activate_this_account": {
+        "key": "withdraw_once_to_activate_this_account",
+        "value": "Withdraw once to activate this account.",
+        "type": "TEXT"
+      },
+      "manage_accounts": {
+        "key": "manage_accounts",
+        "value": "Manage Accounts",
+        "type": "TEXT"
+      },
+      "selected_account": {
+        "key": "selected_account",
+        "value": "Selected Account",
+        "type": "TEXT"
+      },
+      "paych_alert_content_nuvei_deposit_line1": {
+        "key": "paych_alert_content_nuvei_deposit_line1",
+        "value": "1. Minimum and maximum deposit limits may vary by your verification level",
+        "type": "TEXT"
+      },
+      "paych_alert_content_nuvei_deposit_line2": {
+        "key": "paych_alert_content_nuvei_deposit_line2",
+        "value": "2. Deposits are free on our platform \u2014 some banks or providers may charge a fee",
+        "type": "TEXT"
+      },
+      "paych_alert_content_nuvei_withdraw_line1": {
+        "key": "paych_alert_content_nuvei_withdraw_line1",
+        "value": "1. Minimum and maximum withdrawal limits depend on your verification level.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_nuvei_withdraw_line2": {
+        "key": "paych_alert_content_nuvei_withdraw_line2",
+        "value": "2. Withdrawal processing is usually instant but can take longer depending on your bank",
+        "type": "TEXT"
+      },
+      "paych_alert_content_nuvei_deposit_line3": {
+        "key": "paych_alert_content_nuvei_deposit_line3",
+        "value": "3. Keep your payment receipt or transfer confirmation \u2014 it\u2019s required if you need to report a problem.",
+        "type": "TEXT"
+      },
+      "for_the_current_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount": {
+        "key": "for_the_current_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount",
+        "value": "For the current KYC tier, you can withdraw up to {currency} {amount}",
+        "type": "TEXT"
+      },
+      "for_the_current_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_in_a_single_transaction": {
+        "key": "for_the_current_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_in_a_single_transaction",
+        "value": "For the current KYC tier, you can withdraw up to {currency} {amount} in a single transaction",
+        "type": "TEXT"
+      },
+      "for_the_current_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_more_today": {
+        "key": "for_the_current_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_more_today",
+        "value": "For the current KYC tier, you can withdraw up to {currency} {amount} more today",
+        "type": "TEXT"
+      },
+      "for_the_current_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_more_this_month": {
+        "key": "for_the_current_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_more_this_month",
+        "value": "For the current KYC tier, you can withdraw up to {currency} {amount} more this month",
+        "type": "TEXT"
+      },
+      "for_the_current_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_more_in_lifetime": {
+        "key": "for_the_current_kyc_tier_you_can_withdraw_up_to_vcurrency_vamount_more_in_lifetime",
+        "value": "For the current KYC tier, you can withdraw up to {currency} {amount} more in lifetime",
+        "type": "TEXT"
+      },
+      "you_will_need_tier_vnum_verification_to_make_deposits_please_click_here_to_confirm_your_account_details": {
+        "key": "you_will_need_tier_vnum_verification_to_make_deposits_please_click_here_to_confirm_your_account_details",
+        "value": "<p>You will need Tier {tier} verification to make deposits. Please <strong><u>click here</u></strong> to confirm your account details</p>",
+        "type": "HTML"
+      },
+      "you_will_need_tier_vnum_verification_to_make_withdrawals_please_click_here_to_confirm_your_account_details": {
+        "key": "you_will_need_tier_vnum_verification_to_make_withdrawals_please_click_here_to_confirm_your_account_details",
+        "value": "<p>You will need Tier {tier} verification to make withdrawals. Please <strong><u>click here</u></strong> to confirm your account details</p>",
+        "type": "HTML"
+      },
+      "withdrawal_request_submitted": {
+        "key": "withdrawal_request_submitted",
+        "value": "Your withdrawal request has been submitted. It is now waiting for confirmation. We'll also notify you via app notification once we have a result. Or you can check the withdrawal records in a short while.",
+        "type": "TEXT"
+      },
+      "click_here_to_verify_your_account_and_increase_your_limits": {
+        "key": "click_here_to_verify_your_account_and_increase_your_limits",
+        "value": "<p><strong><u>Click here</u></strong> to verify your account and increase your limits.</p>",
+        "type": "HTML"
+      },
+      "sportybet_gives": {
+        "key": "sportybet_gives",
+        "value": "Sporty Tax Refund ",
+        "type": "TEXT"
+      },
+      "additional_fees": {
+        "key": "additional_fees",
+        "value": "Deposit Tax",
+        "type": "TEXT"
+      },
+      "transactions": {
+        "key": "transactions",
+        "value": "Transactions",
+        "type": "TEXT"
+      },
+      "we_detect_your_number_might_belongs_to": {
+        "key": "we_detect_your_number_might_belongs_to",
+        "value": "<p>It looks like your number may be associated with {telecom}.&nbsp;<br><strong>Please confirm your correct network provider, unless you've recently switched telecom services.</strong></p>",
+        "type": "HTML"
+      },
+      "withdraw_succeeded": {
+        "key": "withdraw_succeeded",
+        "value": "Withdraw Succeeded!",
+        "type": "TEXT"
+      },
+      "unable_to_detect_an_active_mobile_money_account": {
+        "key": "unable_to_detect_an_active_mobile_money_account",
+        "value": "<b>Unable to Detect an Active Mobile Money Account.</b><br>Please active to proceed.",
+        "type": "HTML"
+      },
+      "new_bank_account": {
+        "key": "new_bank_account",
+        "value": "New bank account",
+        "type": "TEXT"
+      },
+      "ensure_payment_with_same_sporty_bet_cpf": {
+        "key": "ensure_payment_with_same_sporty_bet_cpf",
+        "value": "Make sure to pay using a bank account with the same CPF as your SportyBet account.",
+        "type": "TEXT"
+      },
+      "registered_bank_accounts": {
+        "key": "registered_bank_accounts",
+        "value": "Registered bank accounts",
+        "type": "TEXT"
+      },
+      "max_bank_accounts_reached": {
+        "key": "max_bank_accounts_reached",
+        "value": "You\u2019ve reached the maximum number of linked accounts. Adding a new one will automatically replace the oldest linked account.",
+        "type": "TEXT"
+      },
+      "your_balance": {
+        "key": "your_balance",
+        "value": "Your Balance:",
+        "type": "TEXT"
+      },
+      "authorize_bank_account_link": {
+        "key": "authorize_bank_account_link",
+        "value": "I authorize storing my bank account details in my user\u2019s profile after a successful transaction and for future transactions.",
+        "type": "TEXT"
+      },
+      "view_pending_deposits": {
+        "key": "view_pending_deposits",
+        "value": "View pending deposits",
+        "type": "TEXT"
+      },
+      "pending_deposits": {
+        "key": "pending_deposits",
+        "value": "Pending Deposits",
+        "type": "TEXT"
+      },
+      "deposit_confirmation": {
+        "key": "deposit_confirmation",
+        "value": "Deposit Confirmation",
+        "type": "TEXT"
+      },
+      "amount_vcurrency_vamount": {
+        "key": "amount_vcurrency_vamount",
+        "value": "Amount ({currency}) {amount}",
+        "type": "TEXT"
+      },
+      "expires_in_vnum_min": {
+        "key": "expires_in_vnum_min",
+        "value": "Expires in {num}min",
+        "type": "TEXT"
+      },
+      "expires_in_vnum_seconds": {
+        "key": "expires_in_vnum_seconds",
+        "value": "Expires in {num}s",
+        "type": "TEXT"
+      },
+      "max_pending_deposits_allowed": {
+        "key": "max_pending_deposits_allowed",
+        "value": "(up to 5 pending deposits)",
+        "type": "TEXT"
+      },
+      "complete_a_pending_deposit_first": {
+        "key": "complete_a_pending_deposit_first",
+        "value": "You have 5 pending deposits, please complete a deposit before initiating a new one.",
+        "type": "TEXT"
+      },
+      "vnum_complete_a_pending_deposit_first": {
+        "key": "vnum_complete_a_pending_deposit_first",
+        "value": "You have {num} pending deposits, please complete a deposit before initiating a new one.",
+        "type": "TEXT"
+      },
+      "pix_copy_and_paste": {
+        "key": "pix_copy_and_paste",
+        "value": "Pix Copy and Paste",
+        "type": "TEXT"
+      },
+      "i_ve_completed_my_payment": {
+        "key": "i_ve_completed_my_payment",
+        "value": "I\u2019ve completed my payment",
+        "type": "TEXT"
+      },
+      "pix_deposit_account_linking_disclaimer": {
+        "key": "pix_deposit_account_linking_disclaimer",
+        "value": "By completing this deposit, you agree that SportyBet may save the bank account used for this transaction and link it to your profile for future deposits and withdrawals.",
+        "type": "TEXT"
+      },
+      "do_you_wish_to_leave": {
+        "key": "do_you_wish_to_leave",
+        "value": "Do you wish to leave?",
+        "type": "TEXT"
+      },
+      "leaving_screen_will_not_complete_transaction": {
+        "key": "leaving_screen_will_not_complete_transaction",
+        "value": "By leaving this screen, your transaction might not be completed.",
+        "type": "TEXT"
+      },
+      "pending_payment_confirmation": {
+        "key": "pending_payment_confirmation",
+        "value": "Pending Payment Confirmation",
+        "type": "TEXT"
+      },
+      "pending_payment_confirmation_message": {
+        "key": "pending_payment_confirmation_message",
+        "value": "If you\u2019ve completed the payment, we\u2019re waiting for confirmation. You can check your bank app for updates. Click \u2018OK\u2019 to view your Transaction History.",
+        "type": "TEXT"
+      },
+      "your_accounts_cpf_is_not_valid": {
+        "key": "your_accounts_cpf_is_not_valid",
+        "value": "Your account's CPF is not valid. Please reach out to our customer service team.",
+        "type": "TEXT"
+      },
+      "pix_qr_deposit_instructions": {
+        "key": "pix_qr_deposit_instructions",
+        "value": "To make your deposit, copy the code and pay using your back app. Return here to finish.",
+        "type": "TEXT"
+      },
+      "spei_info_dialog_stp_0": {
+        "key": "spei_info_dialog_stp_0",
+        "value": "To deposit using SPEI by STP, kindly enter the amount.",
+        "type": "TEXT"
+      },
+      "spei_info_dialog_stp_1": {
+        "key": "spei_info_dialog_stp_1",
+        "value": "You\u2019ll be assigned a CLABE \u2014 copy it and complete the transaction from your banking app.",
+        "type": "TEXT"
+      },
+      "spei_info_dialog_nuvei_0": {
+        "key": "spei_info_dialog_nuvei_0",
+        "value": "To deposit using SPEI by Nuvei, after entering the amount, you\u2019ll be redirected to a secure payment page and assigned a CLABE and a reference number.",
+        "type": "TEXT"
+      },
+      "spei_info_dialog_nuvei_1": {
+        "key": "spei_info_dialog_nuvei_1",
+        "value": "Use both exactly as shown on the receipt when completing the transaction from your banking app.",
+        "type": "TEXT"
+      },
+      "spei_by_stp_payment_steps_tip": {
+        "key": "spei_by_stp_payment_steps_tip",
+        "value": "<ol class=\"payment-steps__content\"><li><span>Register the CLABE in your bank\u2019s online portal </span><span class=\"payment-steps__content--italic\">(bank should be STP).</span></li><li><span>Transfer exactly </span><span class=\"payment-steps__content--bold\">{value}</span><span>, or it will be rejected.</span></li><li><span>Verify the digital receipt for accuracy.</span></li></ol>",
+        "type": "HTML"
+      },
+      "you_can_withdraw_to_any_of_your_last_3_deposit_accounts": {
+        "key": "you_can_withdraw_to_any_of_your_last_3_deposit_accounts",
+        "value": "You can withdraw to any of your last 3 deposit accounts.",
+        "type": "TEXT"
+      },
+      "remaining_balance": {
+        "key": "remaining_balance",
+        "value": "Remaining Balance",
+        "type": "TEXT"
+      },
+      "withdrawal_amount": {
+        "key": "withdrawal_amount",
+        "value": "Withdrawal Amount",
+        "type": "TEXT"
+      },
+      "transaction_reference": {
+        "key": "transaction_reference",
+        "value": "Transaction Reference",
+        "type": "TEXT"
+      },
+      "this_payment_method_is_not_stable_at_the_moment_please_use_another_method_for_withdrawal": {
+        "key": "this_payment_method_is_not_stable_at_the_moment_please_use_another_method_for_withdrawal",
+        "value": "This payment method is not stable at the moment. Please use another method for withdrawal.",
+        "type": "TEXT"
+      },
+      "continue_with_a_new_deposit": {
+        "key": "continue_with_a_new_deposit",
+        "value": "Continue with a new deposit",
+        "type": "TEXT"
+      },
+      "please_confirm_your_identity_to_start_making_deposits_today": {
+        "key": "please_confirm_your_identity_to_start_making_deposits_today",
+        "value": "Please confirm your identity to start making deposits today.",
+        "type": "TEXT"
+      },
+      "this_payment_method_is_not_stable_at_the_moment_please_use_another_method_for_depositing": {
+        "key": "this_payment_method_is_not_stable_at_the_moment_please_use_another_method_for_depositing",
+        "value": "This payment method is not stable at the moment. Please use another method for depositing.",
+        "type": "TEXT"
+      },
+      "nuvei_deposit_back_from_iframe_button": {
+        "key": "nuvei_deposit_back_from_iframe_button",
+        "value": "I've completed the deposit",
+        "type": "TEXT"
+      },
+      "your_deposit_was_successful": {
+        "key": "your_deposit_was_successful",
+        "value": "Your deposit was successful",
+        "type": "TEXT"
+      },
+      "your_balance_vamount": {
+        "key": "your_balance_vamount",
+        "value": "Your Balance: {amount}",
+        "type": "TEXT"
+      },
+      "nuvei_withdraw_back_from_iframe_button": {
+        "key": "nuvei_withdraw_back_from_iframe_button",
+        "value": "I've completed the withdrawal",
+        "type": "TEXT"
+      },
+      "withdraw_failed": {
+        "key": "withdraw_failed",
+        "value": "Withdraw Failed",
+        "type": "TEXT"
+      },
+      "vnum_max_pending_deposits_allowed": {
+        "key": "vnum_max_pending_deposits_allowed",
+        "value": "(up to {num} pending deposits)",
+        "type": "TEXT"
+      },
+      "stp_account_number_info": {
+        "key": "stp_account_number_info",
+        "value": "Your account number should be 18-digits",
+        "type": "TEXT"
+      },
+      "special_offer": {
+        "key": "special_offer",
+        "value": "Special Offer",
+        "type": "TEXT"
+      },
+      "special_offer_description": {
+        "key": "special_offer_description",
+        "value": "<p>\ud83d\udcb0 Get your full deposit \u2014 SportyBet pays the tax for you!</p>",
+        "type": "HTML"
+      },
+      "special_offer_content": {
+        "key": "special_offer_content",
+        "value": "<p>Deposit {currency} {amount} and we\u2019ll refund the<strong> {currency} {bounty}</strong> tax \u2014 so you receive the full {currency} {realAmount} in your SportyBet wallet.</p>",
+        "type": "HTML"
+      },
+      "special_offer_note": {
+        "key": "special_offer_note",
+        "value": "<p><i>Please note that M-Pesa transaction fees are not covered by this offer.</i></p>",
+        "type": "HTML"
+      },
+      "paych_alert_content_intouch_mtn_deposit_line1": {
+        "key": "paych_alert_content_intouch_mtn_deposit_line1",
+        "value": "1. Maximum deposit amount per transaction is XAF 500,000.00.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_intouch_mtn_deposit_line2": {
+        "key": "paych_alert_content_intouch_mtn_deposit_line2",
+        "value": "2. Minimum deposit amount per transaction is XAF 100.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_intouch_mtn_deposit_line3": {
+        "key": "paych_alert_content_intouch_mtn_deposit_line3",
+        "value": "3. You can only deposit using the mobile number that you registered with. If you have changed your number, please contact customer support.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_intouch_mtn_deposit_line4": {
+        "key": "paych_alert_content_intouch_mtn_deposit_line4",
+        "value": "4. Deposit is free, no additional fees.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_intouch_orange_deposit_line1": {
+        "key": "paych_alert_content_intouch_orange_deposit_line1",
+        "value": "1. Maximum deposit amount per transaction is XAF 500,000.00.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_intouch_orange_deposit_line2": {
+        "key": "paych_alert_content_intouch_orange_deposit_line2",
+        "value": "2. Minimum deposit amount per transaction is XAF 100.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_intouch_orange_deposit_line3": {
+        "key": "paych_alert_content_intouch_orange_deposit_line3",
+        "value": "3. You can only deposit using the mobile number that you registered with. If you have changed your number, please contact customer support.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_intouch_orange_deposit_line4": {
+        "key": "paych_alert_content_intouch_orange_deposit_line4",
+        "value": "4. Deposit is free, no additional fees.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_intouch_orange_withdraw_line1": {
+        "key": "paych_alert_content_intouch_orange_withdraw_line1",
+        "value": "1. Maximum withdrawal amount per transaction is XAF 500,000.00.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_intouch_orange_withdraw_line2": {
+        "key": "paych_alert_content_intouch_orange_withdraw_line2",
+        "value": "2. Minimum withdrawal amount per transaction is XAF 100.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_intouch_orange_withdraw_line3": {
+        "key": "paych_alert_content_intouch_orange_withdraw_line3",
+        "value": "3. Your balance can only be withdrawn to the mobile number that you registered with. If you have changed your number, please contact customer support.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_intouch_orange_withdraw_line4": {
+        "key": "paych_alert_content_intouch_orange_withdraw_line4",
+        "value": "4. Withdrawal is free, no additional fees.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_intouch_mtn_withdraw_line1": {
+        "key": "paych_alert_content_intouch_mtn_withdraw_line1",
+        "value": "1. Maximum withdrawal amount per transaction is XAF 500,000.00.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_intouch_mtn_withdraw_line2": {
+        "key": "paych_alert_content_intouch_mtn_withdraw_line2",
+        "value": "2. Minimum withdrawal amount per transaction is XAF 100.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_intouch_mtn_withdraw_line3": {
+        "key": "paych_alert_content_intouch_mtn_withdraw_line3",
+        "value": "3. Your balance can only be withdrawn to the mobile number that you registered with. If you have changed your number, please contact customer support.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_intouch_mtn_withdraw_line4": {
+        "key": "paych_alert_content_intouch_mtn_withdraw_line4",
+        "value": "4. Withdrawal is free, no additional fees.",
+        "type": "TEXT"
+      },
+      "choose_recent_accounts": {
+        "key": "choose_recent_accounts",
+        "value": "Choose from recently used accounts",
+        "type": "TEXT"
+      },
+      "recent_accounts_title": {
+        "key": "recent_accounts_title",
+        "value": "Recently Used Accounts",
+        "type": "TEXT"
+      },
+      "transaction_initiated_complete_in_your_bank": {
+        "key": "transaction_initiated_complete_in_your_bank",
+        "value": "Transaction initiated. Complete it in your bank\u2019s online portal before clicking on the button below.",
+        "type": "TEXT"
+      },
+      "otp_additional_verify_content": {
+        "key": "otp_additional_verify_content",
+        "value": "Please enter the OTP sent to your phone.",
+        "type": "TEXT"
+      },
+      "authentication_required": {
+        "key": "authentication_required",
+        "value": "Authentication Required",
+        "type": "TEXT"
+      },
+      "withdrawal_limit_new_account_title": {
+        "key": "withdrawal_limit_new_account_title",
+        "value": "Withdrawal Limit for New Bank Accounts",
+        "type": "TEXT"
+      },
+      "transaction_has_been_initiated_wait_minutes_for_credit": {
+        "key": "transaction_has_been_initiated_wait_minutes_for_credit",
+        "value": "Transaction has been initiated. Please wait 3-5 minutes for the credit to reflect in your bank account.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pawapay_mpesa_deposit_line1": {
+        "key": "paych_alert_content_pawapay_mpesa_deposit_line1",
+        "value": "1. Maximum deposit amount per transaction is MZN 125,000.00.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pawapay_mpesa_deposit_line2": {
+        "key": "paych_alert_content_pawapay_mpesa_deposit_line2",
+        "value": "2. Minimum deposit amount per transaction is MZN 100.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pawapay_mpesa_deposit_line3": {
+        "key": "paych_alert_content_pawapay_mpesa_deposit_line3",
+        "value": "3. You can only deposit using the mobile number that you registered with. If you have changed your number, please contact customer support.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pawapay_mpesa_deposit_line4": {
+        "key": "paych_alert_content_pawapay_mpesa_deposit_line4",
+        "value": "4. Deposit is free, no additional fees.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pawapay_mpesa_withdraw_line1": {
+        "key": "paych_alert_content_pawapay_mpesa_withdraw_line1",
+        "value": "1. Maximum withdrawal amount per transaction is MZN 125,000.00.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pawapay_mpesa_withdraw_line2": {
+        "key": "paych_alert_content_pawapay_mpesa_withdraw_line2",
+        "value": "2. Minimum withdrawal amount per transaction is MZN 100.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pawapay_mpesa_withdraw_line3": {
+        "key": "paych_alert_content_pawapay_mpesa_withdraw_line3",
+        "value": "3. Your balance can only be withdrawn to the mobile number that you registered with. If you have changed your number, please contact customer support.",
+        "type": "TEXT"
+      },
+      "paych_alert_content_pawapay_mpesa_withdraw_line4": {
+        "key": "paych_alert_content_pawapay_mpesa_withdraw_line4",
+        "value": "4. Withdrawal is free, no additional fees.",
+        "type": "TEXT"
+      },
+      "your_deposit_request_has_been_submitted_you_will_need_tier_vlevel_pending_on_provider_side": {
+        "key": "your_deposit_request_has_been_submitted_you_will_need_tier_vlevel_pending_on_provider_side",
+        "value": "Your deposit request has been submitted.\nIn case the provider confirms this transaction, you will need KYC Tier {level} verification for this deposit to be credited.\nPlease confirm your KYC info in the meantime.",
+        "type": "TEXT"
+      },
+      "mobile_money_confirmation_hint": {
+        "key": "mobile_money_confirmation_hint",
+        "value": "Make sure your Mobile Money balance is sufficient before confirming.",
+        "type": "TEXT"
+      },
+      "enhanced_protection": {
+        "key": "enhanced_protection",
+        "value": "enhanced_protection",
+        "type": "TEXT"
+      },
+      "to_withdraw_deposit": {
+        "key": "to_withdraw_deposit",
+        "value": "To withdraw, you must deposit first.",
+        "type": "TEXT"
+      },
+      "deposit_now": {
+        "key": "deposit_now",
+        "value": "Deposit Now",
+        "type": "TEXT"
+      },
+      "continue_anyway": {
+        "key": "continue_anyway",
+        "value": "Continue anyway",
+        "type": "TEXT"
+      },
+      "go_back": {
+        "key": "go_back",
+        "value": "Go back",
+        "type": "TEXT"
+      },
+      "also_available_in_transactions": {
+        "key": "also_available_in_transactions",
+        "value": "(Also available in Transactions)",
+        "type": "TEXT"
+      },
+      "choose_method_of_withdrawal": {
+        "key": "choose_method_of_withdrawal",
+        "value": "Choose a Method of Withdrawal",
+        "type": "TEXT"
+      },
+      "deposit_method": {
+        "key": "deposit_method",
+        "value": "Deposit Method",
+        "type": "TEXT"
+      },
+      "enter_account_number": {
+        "key": "enter_account_number",
+        "value": "Enter your bank Account Number",
+        "type": "TEXT"
+      },
+      "enter_personal_information": {
+        "key": "enter_personal_information",
+        "value": "Enter Personal Information",
+        "type": "TEXT"
+      },
+      "enter_personal_information_to_deposit": {
+        "key": "enter_personal_information_to_deposit",
+        "value": "Please enter your Personal Information to start making deposits today.",
+        "type": "TEXT"
+      },
+      "id_documents_under_review": {
+        "key": "id_documents_under_review",
+        "value": "ID Documents Under Review",
+        "type": "TEXT"
+      },
+      "no_successful_deposit": {
+        "key": "no_successful_deposit",
+        "value": "There is no successful deposit.",
+        "type": "TEXT"
+      },
+      "no_successful_withdrawal": {
+        "key": "no_successful_withdrawal",
+        "value": "There is no successful withdrawal.",
+        "type": "TEXT"
+      },
+      "notify_shotly_when_complete": {
+        "key": "notify_shotly_when_complete",
+        "value": "We'll notify you by email and site notification once we have a result",
+        "type": "TEXT"
+      },
+      "saved_bank_accounts": {
+        "key": "saved_bank_accounts",
+        "value": "Saved Bank Accounts",
+        "type": "TEXT"
+      },
+      "select_your_bank_account_type": {
+        "key": "select_your_bank_account_type",
+        "value": "Select your bank account type",
+        "type": "TEXT"
+      },
+      "successful_deposits": {
+        "key": "successful_deposits",
+        "value": "Successful Deposits",
+        "type": "TEXT"
+      },
+      "successful_withdrawals": {
+        "key": "successful_withdrawals",
+        "value": "Successful Withdrawals",
+        "type": "TEXT"
+      },
+      "top_up_again": {
+        "key": "top_up_again",
+        "value": "Top Up Again",
+        "type": "TEXT"
+      },
+      "try_with_different_bank_account": {
+        "key": "try_with_different_bank_account",
+        "value": "Try with different Bank Account",
+        "type": "TEXT"
+      },
+      "withdrawal_method": {
+        "key": "withdrawal_method",
+        "value": "Withdrawal Method",
+        "type": "TEXT"
+      },
+      "withdrawal_successful": {
+        "key": "withdrawal_successful",
+        "value": "Withdrawal Successful!",
+        "type": "TEXT"
+      },
+      "provider_maintenance_dialog_title": {
+        "key": "provider_maintenance_dialog_title",
+        "value": "This payment method is under maintenance",
+        "type": "TEXT"
+      },
+      "provider_maintenance_dialog_content": {
+        "key": "provider_maintenance_dialog_content",
+        "value": "<p>Your payment might take hours to process or may fail. Use alternative provider to avoid delays.<br><strong>Estimated availability: {estimated_end_time}</strong></p>",
+        "type": "HTML"
+      },
+      "are_u_sure_u_want_to_exit_withdraw": {
+        "key": "are_u_sure_u_want_to_exit_withdraw",
+        "value": "Do you wish to leave current withdrawal process? You may need to enter all the information again.",
+        "type": "TEXT"
+      },
+      "for_any_queries_contact_support": {
+        "key": "for_any_queries_contact_support",
+        "value": "For any queries, please contact our support team.",
+        "type": "TEXT"
+      },
+      "spei_by_stp_permanent_clabe_description": {
+        "key": "spei_by_stp_permanent_clabe_description",
+        "value": "In SPEI by STP, a permanent CLABE is assigned to you. Using that, you can deposit from your banking app anytime.",
+        "type": "TEXT"
+      },
+      "permanent_clabe_assigned": {
+        "key": "permanent_clabe_assigned",
+        "value": "Permanent CLABE Assigned",
+        "type": "TEXT"
+      },
+      "you_can_withdraw_up_to_vcurrency_vamount_more_today": {
+        "key": "you_can_withdraw_up_to_vcurrency_vamount_more_today",
+        "value": "You can withdraw up to {currency} {amount} more today",
+        "type": "TEXT"
+      },
+      "you_can_withdraw_up_to_vcurrency_vamount_more_this_month": {
+        "key": "you_can_withdraw_up_to_vcurrency_vamount_more_this_month",
+        "value": "You can withdraw up to {currency} {amount} more this month",
+        "type": "TEXT"
+      },
+      "you_can_withdraw_up_to_vcurrency_vamount_more_in_lifetime": {
+        "key": "you_can_withdraw_up_to_vcurrency_vamount_more_in_lifetime",
+        "value": "You can withdraw up to {currency} {amount} more in lifetime",
+        "type": "TEXT"
+      },
+      "avoid_deposit_issues": {
+        "key": "avoid_deposit_issues",
+        "value": "Avoid Deposit Issues",
+        "type": "TEXT"
+      },
+      "insufficient_balance_notification_content": {
+        "key": "insufficient_balance_notification_content",
+        "value": "Ensure you have sufficient funds to make this deposit.",
+        "type": "TEXT"
+      },
+      "i_have_checked_my_payment_details": {
+        "key": "i_have_checked_my_payment_details",
+        "value": "I have checked my payment details.",
+        "type": "TEXT"
+      },
+      "create_a_new_deposit": {
+        "key": "create_a_new_deposit",
+        "value": "Create a new deposit",
+        "type": "TEXT"
+      },
+      "go_confirm_now": {
+        "key": "go_confirm_now",
+        "value": "Go Confirm Now",
+        "type": "TEXT"
+      },
+      "complete": {
+        "key": "complete",
+        "value": "Complete",
+        "type": "TEXT"
+      },
+      "bank_should_be_stp": {
+        "key": "bank_should_be_stp",
+        "value": "(bank should be STP).",
+        "type": "TEXT"
+      },
+      "are_u_sure_u_want_to_exit_deposit": {
+        "key": "are_u_sure_u_want_to_exit_deposit",
+        "value": "Are you sure you want to exit the deposit process?",
+        "type": "TEXT"
+      },
+      "pending_deposit_try_again_in_vseconds": {
+        "key": "pending_deposit_try_again_in_vseconds",
+        "value": "We're still processing a payment with this amount. You can try again in {seconds}s or retry with a different amount",
+        "type": "TEXT"
+      },
+      "failed_deposit_try_again_in_vseconds": {
+        "key": "failed_deposit_try_again_in_vseconds",
+        "value": "This exact payment failed recently. You can retry in {seconds}s or retry with a different amount.",
+        "type": "TEXT"
+      },
+      "please_wait_with_dot": {
+        "key": "please_wait_with_dot",
+        "value": "Please wait...",
+        "type": "TEXT"
+      },
+      "retry_in_vseconds": {
+        "key": "retry_in_vseconds",
+        "value": "Retry in {seconds}s",
+        "type": "TEXT"
+      },
+      "loading_providers": {
+        "key": "loading_providers",
+        "value": "Loading providers...",
+        "type": "TEXT"
+      },
+      "bonus_unlocked": {
+        "key": "bonus_unlocked",
+        "value": "Bonus Unlocked!",
+        "type": "TEXT"
+      },
+      "welcome_bonus_claimed_message": {
+        "key": "welcome_bonus_claimed_message",
+        "value": "You've claimed your Welcome Bonus! Make your first deposit now to claim your bonus",
+        "type": "TEXT"
+      },
+      "deposit_with_bonus": {
+        "key": "deposit_with_bonus",
+        "value": "Deposit with Bonus",
+        "type": "TEXT"
+      },
+      "unlock_welcome_bonus": {
+        "key": "unlock_welcome_bonus",
+        "value": "Unlock Welcome Bonus",
+        "type": "TEXT"
+      },
+      "enjoy_betting_with_free_bet_gift": {
+        "key": "enjoy_betting_with_free_bet_gift",
+        "value": "Enjoy betting with free bet gift.",
+        "type": "TEXT"
+      },
+      "claim_now": {
+        "key": "claim_now",
+        "value": "Claim Now",
+        "type": "TEXT"
+      },
+      "deposit_instructions_bank_accounts": {
+        "key": "deposit_instructions_bank_accounts",
+        "value": "When you complete your deposit, your payment will be linked to one of your registered bank accounts.",
+        "type": "TEXT"
+      },
+      "deposit_with_new_bank_account": {
+        "key": "deposit_with_new_bank_account",
+        "value": "Deposit with new bank account",
+        "type": "TEXT"
+      },
+      "deposit_matches_pending": {
+        "key": "deposit_matches_pending",
+        "value": "The deposit information matches one of your pending deposits.",
+        "type": "TEXT"
+      },
+      "trade_id_vvalue": {
+        "key": "trade_id_vvalue",
+        "value": "Trade ID: {value}",
+        "type": "TEXT"
+      },
+      "deposit_promotion_content": {
+        "key": "deposit_promotion_content",
+        "value": "The full deposit amount will be credited to your balance.",
+        "type": "TEXT"
+      },
+      "withdraw_account_name_warning_vaccount": {
+        "key": "withdraw_account_name_warning_vaccount",
+        "value": "You can only withdraw to a Bank Account with the same Account Holder Name as your Sporty Account: {account}.",
+        "type": "TEXT"
+      },
+      "recently_used": {
+        "key": "recently_used",
+        "value": "Recently used",
+        "type": "TEXT"
+      },
+      "pix_code_copied_toast": {
+        "key": "pix_code_copied_toast",
+        "value": "Pix code copied! Now follow above instructions for the transaction and return back when finish.",
+        "type": "TEXT"
+      },
+      "check_transactions": {
+        "key": "check_transactions",
+        "value": "Check Transactions",
+        "type": "TEXT"
+      },
+      "max_pending_deposits_warning": {
+        "key": "max_pending_deposits_warning",
+        "value": "You have {value} pending deposits, please complete a deposit before initiating a new one.",
+        "type": "TEXT"
+      },
+      "tax_reports": {
+        "key": "tax_reports",
+        "value": "Tax Reports",
+        "type": "TEXT"
+      },
+      "tax_reports_title": {
+        "key": "tax_reports_title",
+        "value": "Request Income Report",
+        "type": "TEXT"
+      },
+      "tax_reports_description": {
+        "key": "tax_reports_description",
+        "value": "Get your proof of income and tax withheld for your annual tax declaration (IRPF).",
+        "type": "TEXT"
+      },
+      "year_of_report": {
+        "key": "year_of_report",
+        "value": "Year of report",
+        "type": "TEXT"
+      },
+      "tax_reports_notification": {
+        "key": "tax_reports_notification",
+        "value": "The PDF will be sent to your verified email {email} within a few minutes. Please make sure to check your Spam folder before making a new request.",
+        "type": "TEXT"
+      },
+      "request_sent": {
+        "key": "request_sent",
+        "value": "Request Sent",
+        "type": "TEXT"
+      },
+      "request_report": {
+        "key": "request_report",
+        "value": "Request Report",
+        "type": "TEXT"
+      },
+      "you_have_vnum_requests_left_for_today": {
+        "key": "you_have_vnum_requests_left_for_today",
+        "value": "You have {num} requests left for today.",
+        "type": "TEXT"
+      },
+      "reach_daily_application_limit_notification": {
+        "key": "reach_daily_application_limit_notification",
+        "value": "Daily application limit reached. If you haven't receive the request, {customerService}.",
+        "type": "TEXT"
+      },
+      "contact_custom_service_team": {
+        "key": "contact_custom_service_team",
+        "value": "contact custom service team",
+        "type": "TEXT"
+      },
+      "request_submitted": {
+        "key": "request_submitted",
+        "value": "Request submitted!",
+        "type": "TEXT"
+      },
+      "check_your_inbox_for_the_confirmation_email": {
+        "key": "check_your_inbox_for_the_confirmation_email",
+        "value": "Check your inbox for the confirmation email.",
+        "type": "TEXT"
+      },
+      "your_request_is_being_processed": {
+        "key": "your_request_is_being_processed",
+        "value": "Your request is being processed.",
+        "type": "TEXT"
+      },
+      "vnum_requests_left_for_today": {
+        "key": "vnum_requests_left_for_today",
+        "value": "{num} requests left for today.",
+        "type": "TEXT"
+      },
+      "request_submitted_vremain": {
+        "key": "request_submitted_vremain",
+        "value": "Request submitted ({remain})!",
+        "type": "TEXT"
+      },
+      "page_payment__pix": {
+        "key": "page_payment__pix",
+        "value": "Pix",
+        "type": "TEXT"
+      },
+      "image_welcome_bonus": {
+        "key": "image_welcome_bonus",
+        "value": "https://s.sporty.net/cms/img_welcome_bonus_fcaf47887e.png",
+        "type": "TEXT"
+      },
+      "pix_how_to_deposit_instructions": {
+        "key": "pix_how_to_deposit_instructions",
+        "value": "<ol><li>Tap \"<strong>Pix Copy and Paste\".</strong></li><li>Open your&nbsp;homebanking app.<ul><li>Option A:&nbsp;Your app may detect the copied code and prompt you to complete the payment. Follow the app's instructions.</li><li>Option B:&nbsp;If not, go to the&nbsp;Pix&nbsp;section in your homebanking app, choose&nbsp;\"<strong>Pix Copy and Paste\"</strong>&nbsp;and complete the payment manually.</li></ul></li><li>Return to this page, we'll validate your deposit. This may take <font color=\"#0D9737\">up to {value} seconds</font>.</li></ol>",
+        "type": "TEXT"
+      },
+      "pix_payment_steps_tip": {
+        "key": "pix_payment_steps_tip",
+        "value": "<ol class=\"payment-steps-section-content\"><li><span>Tap </span><span class=\"payment-steps-section-content-bold\">\u201cPix Copy and Paste\u201d.</span></li><li><span>Open your homebanking app.</span><ul class=\"payment-steps-section-content-sublist\"><li><span>Option A: Your app may detect the copied code and prompt you to complete the payment. Follow the app\u2019s instructions.</span></li><li><span>Option B: If not, go to the Pix section in your homebanking app, choose </span><span class=\"payment-steps-section-content-bold\">\u201cPix Copy and Paste\u201d </span><span>and complete the payment manually.</span></li></ul></li><li><span>Return to this page, we\u2019ll validate your deposit. This may take </span><span class=\"payment-steps-section-content-highlight\">up to {num} seconds</span><span>.</span></li></ol>",
+        "type": "HTML"
+      },
+      "pix_qr_deposit_tip": {
+        "key": "pix_qr_deposit_tip",
+        "value": "Pix code copied! Now follow above instructions for the transaction and return back when finish.",
+        "type": "TEXT"
+      },
+      "account_number_invalid_length_vlength": {
+        "key": "account_number_invalid_length_vlength",
+        "value": "Account number must be exactly {length} digits",
+        "type": "TEXT"
+      },
+      "qr_code": {
+        "key": "qr_code",
+        "value": "QR Code",
+        "type": "TEXT"
+      },
+      "you_will_receive_default": {
+        "key": "you_will_receive_default",
+        "value": "You Will Receive",
+        "type": "TEXT"
+      },
+      "account_number_required": {
+        "key": "account_number_required",
+        "value": "Account number is required",
+        "type": "TEXT"
+      },
+      "transfer": {
+        "key": "transfer",
+        "value": "Transfer",
+        "type": "TEXT"
+      },
+      "you_will_need_tier_vnum_verification_for_this_deposit_to_credit_html": {
+        "key": "you_will_need_tier_vnum_verification_for_this_deposit_to_credit_html",
+        "value": "<span>You will need <span class=\"green\">Tier {num}</span> verification for this deposit to credit</span>",
+        "type": "TEXT"
+      },
+      "lucky_wheel_banner_img": {
+        "key": "lucky_wheel_banner_img",
+        "value": "https://s.sporty.net/cms/img_lucky_wheel_banner_en_82342b45fa.png",
+        "type": "TEXT"
+      },
+      "deposits_can_be_paid_tip": {
+        "key": "deposits_can_be_paid_tip",
+        "value": "Deposits can be paid with any of your registered bank accounts up to {num}.",
+        "type": "TEXT"
+      },
+      "to_be_announced": {
+        "key": "to_be_announced",
+        "value": "To be announced",
+        "type": "TEXT"
+      },
+      "you_have_reached_tier_1_deposit_limit_complete_tier_2_identity_verification": {
+        "key": "you_have_reached_tier_1_deposit_limit_complete_tier_2_identity_verification",
+        "value": "You've reached the Tier 1 deposit limit. To continue depositing, please complete Identity Verification (Tier 2).",
+        "type": "TEXT"
+      }
+    },
+    "version": "1772711318000"
+  }
+}

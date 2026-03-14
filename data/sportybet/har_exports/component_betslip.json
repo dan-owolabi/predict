@@ -1,0 +1,1826 @@
+{
+  "name": "component_betslip",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/component_betslip",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 363,
+  "payload": {
+    "keys": {
+      "auto_remove_suspended_events": {
+        "key": "auto_remove_suspended_events",
+        "value": "Auto-remove suspended events",
+        "type": "TEXT"
+      },
+      "remove_all": {
+        "key": "remove_all",
+        "value": "Remove All",
+        "type": "TEXT"
+      },
+      "singles": {
+        "key": "singles",
+        "value": "Single",
+        "type": "TEXT"
+      },
+      "multiple": {
+        "key": "multiple",
+        "value": "Multiple",
+        "type": "TEXT"
+      },
+      "accept_odds_changes": {
+        "key": "accept_odds_changes",
+        "value": "Auto-accept odds changes",
+        "type": "TEXT"
+      },
+      "f": {
+        "key": "f",
+        "value": "F",
+        "type": "TEXT"
+      },
+      "system": {
+        "key": "system",
+        "value": "System",
+        "type": "TEXT"
+      },
+      "note_changes_in_odds_or_availability": {
+        "key": "note_changes_in_odds_or_availability",
+        "value": "Note: changes in odds or availability",
+        "type": "TEXT"
+      },
+      "exceeding_vthreshold_selections": {
+        "key": "exceeding_vthreshold_selections",
+        "value": "Exceeding {threshold} Selections",
+        "type": "TEXT"
+      },
+      "exceeding_selections_tip": {
+        "key": "exceeding_selections_tip",
+        "value": "We may not be able to add more than {threshold} selections to the betslip. Is that OK for you?",
+        "type": "TEXT"
+      },
+      "add_more_qualifying_selection_to_boost_your_bonus": {
+        "key": "add_more_qualifying_selection_to_boost_your_bonus",
+        "value": "Add more qualifying selections to boost your bonus",
+        "type": "TEXT"
+      },
+      "max_bonus": {
+        "key": "max_bonus",
+        "value": "Max bonus",
+        "type": "TEXT"
+      },
+      "select_more_extra_bonus_tip": {
+        "key": "select_more_extra_bonus_tip",
+        "value": "Select {count} more {gameText}(Each odd\u2265{odds}), get {rate}% extra bonus!",
+        "type": "TEXT"
+      },
+      "max_extra_bonus_tip": {
+        "key": "max_extra_bonus_tip",
+        "value": "Max: {rate}% extra bonus!",
+        "type": "TEXT"
+      },
+      "l_game": {
+        "key": "l_game",
+        "value": "game",
+        "type": "TEXT"
+      },
+      "l_games": {
+        "key": "l_games",
+        "value": "games",
+        "type": "TEXT"
+      },
+      "doubles": {
+        "key": "doubles",
+        "value": "Doubles",
+        "type": "TEXT"
+      },
+      "trebles": {
+        "key": "trebles",
+        "value": "Trebles",
+        "type": "TEXT"
+      },
+      "veventsize_folds": {
+        "key": "veventsize_folds",
+        "value": "{eventSize} folds",
+        "type": "TEXT"
+      },
+      "b": {
+        "key": "b",
+        "value": "B",
+        "type": "TEXT"
+      },
+      "total_stake_cannot_exceed_vmaxstake": {
+        "key": "total_stake_cannot_exceed_vmaxstake",
+        "value": "Total stake cannot exceed {maxStake}",
+        "type": "TEXT"
+      },
+      "options_to_be_correct": {
+        "key": "options_to_be_correct",
+        "value": "Options to be Correct",
+        "type": "TEXT"
+      },
+      "if_up_to_vthreshold_vgamecuttext_ticket_tip": {
+        "key": "if_up_to_vthreshold_vgamecuttext_ticket_tip",
+        "value": "If up to {threshold} {gameCutText} your ticket, we still pay you!",
+        "type": "TEXT"
+      },
+      "l_games_cut": {
+        "key": "l_games_cut",
+        "value": "games cut",
+        "type": "TEXT"
+      },
+      "l_game_cuts": {
+        "key": "l_game_cuts",
+        "value": "game cuts",
+        "type": "TEXT"
+      },
+      "of_vthreshold": {
+        "key": "of_vthreshold",
+        "value": "of {threshold}",
+        "type": "TEXT"
+      },
+      "stake_per_bet_vstakecount_bets": {
+        "key": "stake_per_bet_vstakecount_bets",
+        "value": "Stake per bet ({stakeCount} bets)",
+        "type": "TEXT"
+      },
+      "wh_tax": {
+        "key": "wh_tax",
+        "value": "WH Tax",
+        "type": "TEXT"
+      },
+      "excise_tax": {
+        "key": "excise_tax",
+        "value": "Excise Tax",
+        "type": "TEXT"
+      },
+      "to_win": {
+        "key": "to_win",
+        "value": "To Win",
+        "type": "TEXT"
+      },
+      "potential_win": {
+        "key": "potential_win",
+        "value": "Potential Win",
+        "type": "TEXT"
+      },
+      "book_bet": {
+        "key": "book_bet",
+        "value": "Book Bet",
+        "type": "TEXT"
+      },
+      "about_to_pay_vamount": {
+        "key": "about_to_pay_vamount",
+        "value": "About to pay {amount}",
+        "type": "TEXT"
+      },
+      "accept_changes": {
+        "key": "accept_changes",
+        "value": "Accept Changes",
+        "type": "TEXT"
+      },
+      "login_to_place_bet": {
+        "key": "login_to_place_bet",
+        "value": "Log in to Place Bet",
+        "type": "TEXT"
+      },
+      "place_bet": {
+        "key": "place_bet",
+        "value": "Place Bet",
+        "type": "TEXT"
+      },
+      "gift_unavailable": {
+        "key": "gift_unavailable",
+        "value": "Gift Unavailable",
+        "type": "TEXT"
+      },
+      "gift_unavailable_tip": {
+        "key": "gift_unavailable_tip",
+        "value": "The gift you have chosen cannot be used at this time, please try another one.",
+        "type": "TEXT"
+      },
+      "share_bet_message": {
+        "key": "share_bet_message",
+        "value": "Hey check out the bet I just placed on Sportybet!",
+        "type": "TEXT"
+      },
+      "feature_is_invalid_for_less_valid_selections": {
+        "key": "feature_is_invalid_for_less_valid_selections",
+        "value": "This feature is invalid when there are 2 or fewer valid selections.",
+        "type": "TEXT"
+      },
+      "feature_is_unavailable_for_contingent_outcomes": {
+        "key": "feature_is_unavailable_for_contingent_outcomes",
+        "value": "This feature is unavailable when there are contingent outcomes.",
+        "type": "TEXT"
+      },
+      "feature_is_constrained_for_certain_selections": {
+        "key": "feature_is_constrained_for_certain_selections",
+        "value": "This feature is constrained to certain number of selections",
+        "type": "TEXT"
+      },
+      "flexibet_feature_cannot_be_applied_tip": {
+        "key": "flexibet_feature_cannot_be_applied_tip",
+        "value": "The Flexi feature cannot be applied when the Total Odds is lower than {threshold}.",
+        "type": "TEXT"
+      },
+      "suspended": {
+        "key": "suspended",
+        "value": "Suspended",
+        "type": "TEXT"
+      },
+      "unavailable": {
+        "key": "unavailable",
+        "value": "Unavailable",
+        "type": "TEXT"
+      },
+      "live": {
+        "key": "live",
+        "value": "Live",
+        "type": "TEXT"
+      },
+      "min_vstake": {
+        "key": "min_vstake",
+        "value": "min. {stake}",
+        "type": "TEXT"
+      },
+      "usable": {
+        "key": "usable",
+        "value": "Usable",
+        "type": "TEXT"
+      },
+      "pot_win": {
+        "key": "pot_win",
+        "value": "Pot. Win",
+        "type": "TEXT"
+      },
+      "note_cashout_is_unavailable_with_flexibet": {
+        "key": "note_cashout_is_unavailable_with_flexibet",
+        "value": "Note: Cashout is unavailable with Flexi.",
+        "type": "TEXT"
+      },
+      "what_is_this": {
+        "key": "what_is_this",
+        "value": "What is this?",
+        "type": "TEXT"
+      },
+      "ticket_wins_if_a_certain_number_selections_tip": {
+        "key": "ticket_wins_if_a_certain_number_selections_tip",
+        "value": "A Ticket wins if a certain number of the picked selections are correct. E.g. If a player chooses 5 out of 7 selections to be correct with odds of 15.00, then, the ticket will be fully paid on odds of 15.00 if any 5 or more selections out of the 7 picked selections are correct. The potential winnings of a ticket increase with the number of flexible selections you choose. The payout will be based on the Potential Win amount displayed when you place the bet.",
+        "type": "TEXT"
+      },
+      "update_default_stake": {
+        "key": "update_default_stake",
+        "value": "Update default stake",
+        "type": "TEXT"
+      },
+      "note_you_have_selected_contingent_outcomes": {
+        "key": "note_you_have_selected_contingent_outcomes",
+        "value": "Note: You have selected contingent outcomes.",
+        "type": "TEXT"
+      },
+      "add_a_suggestion": {
+        "key": "add_a_suggestion",
+        "value": "Add a Suggestion",
+        "type": "TEXT"
+      },
+      "try_swipebet": {
+        "key": "try_swipebet",
+        "value": "Try SwipeBet",
+        "type": "TEXT"
+      },
+      "please_insert_booking_code": {
+        "key": "please_insert_booking_code",
+        "value": "Please insert booking code",
+        "type": "TEXT"
+      },
+      "play_all": {
+        "key": "play_all",
+        "value": "Play All",
+        "type": "TEXT"
+      },
+      "what_is_a_banker": {
+        "key": "what_is_a_banker",
+        "value": "What is a Banker ?",
+        "type": "TEXT"
+      },
+      "banker_is_a_selection_tip": {
+        "key": "banker_is_a_selection_tip",
+        "value": "A banker is a selection which a customer believes is certain to win. If a Banker is selected, it will be included in every combination and must win in order to provide a return on the bet.",
+        "type": "TEXT"
+      },
+      "please_enter_value_less_than_vamount": {
+        "key": "please_enter_value_less_than_vamount",
+        "value": "Please enter a value less than {amount}",
+        "type": "TEXT"
+      },
+      "as_total_stake_cannot_exceed_vamount": {
+        "key": "as_total_stake_cannot_exceed_vamount",
+        "value": "as the total stake cannot exceed {amount}",
+        "type": "TEXT"
+      },
+      "confirm_to_pay": {
+        "key": "confirm_to_pay",
+        "value": "Confirm to Pay",
+        "type": "TEXT"
+      },
+      "please_enter_a_value_no_less_than_vmount": {
+        "key": "please_enter_a_value_no_less_than_vmount",
+        "value": "Please enter a value no less than {amount}",
+        "type": "TEXT"
+      },
+      "u_boosted": {
+        "key": "u_boosted",
+        "value": "BOOSTED",
+        "type": "TEXT"
+      },
+      "u_boost": {
+        "key": "u_boost",
+        "value": "BOOST",
+        "type": "TEXT"
+      },
+      "tap_to_boost_your_odds_and_potential_winnings": {
+        "key": "tap_to_boost_your_odds_and_potential_winnings",
+        "value": "Tap to boost your odds\nand Potential Winnings",
+        "type": "TEXT"
+      },
+      "got_it": {
+        "key": "got_it",
+        "value": "Got it",
+        "type": "TEXT"
+      },
+      "no_games_available_to_boost": {
+        "key": "no_games_available_to_boost",
+        "value": "No games available to boost",
+        "type": "TEXT"
+      },
+      "live_odds_boost": {
+        "key": "live_odds_boost",
+        "value": "Live Odds Boost",
+        "type": "TEXT"
+      },
+      "what_is_booking_code": {
+        "key": "what_is_booking_code",
+        "value": "What is Booking Code ?",
+        "type": "TEXT"
+      },
+      "a_booking_code_enable_you_to_book_tip": {
+        "key": "a_booking_code_enable_you_to_book_tip",
+        "value": "A booking code enables you to book or transfer a bet. Odds or availabilities may change.",
+        "type": "TEXT"
+      },
+      "bet_successfule": {
+        "key": "bet_successfule",
+        "value": "Bet Successful",
+        "type": "TEXT"
+      },
+      "note_cashout_unavailabel_as_gifts_have_been_used": {
+        "key": "note_cashout_unavailabel_as_gifts_have_been_used",
+        "value": "Note: Cashout unavailable as Gifts have been used.",
+        "type": "TEXT"
+      },
+      "view_open_bets": {
+        "key": "view_open_bets",
+        "value": "View Open Bets",
+        "type": "TEXT"
+      },
+      "input_this_code_in_betslip_to_restore_selections": {
+        "key": "input_this_code_in_betslip_to_restore_selections",
+        "value": "Input this code in betslip to restore selections.",
+        "type": "TEXT"
+      },
+      "you_must_pick_selections_from_more_than_one_event_tip": {
+        "key": "you_must_pick_selections_from_more_than_one_event_tip",
+        "value": "You must pick selections from more than one event to place a system bet. Sorry for the inconvenience.",
+        "type": "TEXT"
+      },
+      "system_bets_cannot_include_contingent_tip": {
+        "key": "system_bets_cannot_include_contingent_tip",
+        "value": "System bets cannot include contingent outright selections. Sorry for the inconvenience.",
+        "type": "TEXT"
+      },
+      "there_cannot_be_over_vthreshold_selections_tip": {
+        "key": "there_cannot_be_over_vthreshold_selections_tip",
+        "value": "<p>There cannot be over <span class=\"m-tips-strong\">{threshold}</span> selections under System. Sorry for the inconvenience.</p>",
+        "type": "HTML"
+      },
+      "there_cannot_be_over_vthreshold_selections_betslip_tip": {
+        "key": "there_cannot_be_over_vthreshold_selections_betslip_tip",
+        "value": "There cannot be over {threshold} selections within a betslip. Sorry for the inconvenience.",
+        "type": "TEXT"
+      },
+      "share_betslip": {
+        "key": "share_betslip",
+        "value": "Share Betslip",
+        "type": "TEXT"
+      },
+      "booking_code_is_used_for_your_betslip_tip": {
+        "key": "booking_code_is_used_for_your_betslip_tip",
+        "value": "Booking code is used for your betslip reservation or sharing. Your friends can place the same bet as yours when they input the code or visit the code link.",
+        "type": "TEXT"
+      },
+      "betslip_print_tip": {
+        "key": "betslip_print_tip",
+        "value": "Please note: this is only a bet slip reservation. Your bet is valid only when the bet is placed online or when authorized in a betting shop.",
+        "type": "TEXT"
+      },
+      "sportybet_management_team": {
+        "key": "sportybet_management_team",
+        "value": "SportyBet Management Team.",
+        "type": "TEXT"
+      },
+      "sharing_code": {
+        "key": "sharing_code",
+        "value": "Sharing Code",
+        "type": "TEXT"
+      },
+      "flex_your_bet": {
+        "key": "flex_your_bet",
+        "value": "Flex Your Bet !",
+        "type": "TEXT"
+      },
+      "check_bet_history": {
+        "key": "check_bet_history",
+        "value": "Check Bet History",
+        "type": "TEXT"
+      },
+      "to_place_a_bet_click_on_the_odds_tip": {
+        "key": "to_place_a_bet_click_on_the_odds_tip",
+        "value": "To place a bet, click on the odds. Or insert a booking code",
+        "type": "TEXT"
+      },
+      "a_booking_code_enables_one_to_transfer_a_betslip_tip": {
+        "key": "a_booking_code_enables_one_to_transfer_a_betslip_tip",
+        "value": "A booking code enables one to transfer a betslip between different devices.",
+        "type": "TEXT"
+      },
+      "vselection_of_vthreshold": {
+        "key": "vselection_of_vthreshold",
+        "value": "{selection} of {threshold}",
+        "type": "TEXT"
+      },
+      "please_enter_a_smaller_value_cannot_exceed_vstake_tip": {
+        "key": "please_enter_a_smaller_value_cannot_exceed_vstake_tip",
+        "value": "Please enter a smaller value as the total stake cannot exceed {stake}",
+        "type": "TEXT"
+      },
+      "please_enter_a_stake_first": {
+        "key": "please_enter_a_stake_first",
+        "value": "Please enter a stake first",
+        "type": "TEXT"
+      },
+      "min_stake_required_not_met": {
+        "key": "min_stake_required_not_met",
+        "value": "Min. Stake Required Not Met",
+        "type": "TEXT"
+      },
+      "you_need_a_balance_of_vcurrency_vexcise_vamount_to_place_tip": {
+        "key": "you_need_a_balance_of_vcurrency_vexcise_vamount_to_place_tip",
+        "value": "You need a balance of {currency},{excise} to place this bet. Please deposit an additional {currency},{amount}",
+        "type": "TEXT"
+      },
+      "example_bet": {
+        "key": "example_bet",
+        "value": "Example Bet",
+        "type": "TEXT"
+      },
+      "payout": {
+        "key": "payout",
+        "value": "Payout",
+        "type": "TEXT"
+      },
+      "selections": {
+        "key": "selections",
+        "value": "Selections",
+        "type": "TEXT"
+      },
+      "simply_following_my_betslip_by_inputting_this_code": {
+        "key": "simply_following_my_betslip_by_inputting_this_code",
+        "value": "Simply follow my betslip by inputting this code!",
+        "type": "TEXT"
+      },
+      "i_won": {
+        "key": "i_won",
+        "value": "I Won!",
+        "type": "TEXT"
+      },
+      "better_luck_next_time": {
+        "key": "better_luck_next_time",
+        "value": "Better luck next time.",
+        "type": "TEXT"
+      },
+      "folds": {
+        "key": "folds",
+        "value": "Folds",
+        "type": "TEXT"
+      },
+      "insufficient_sportycoins": {
+        "key": "insufficient_sportycoins",
+        "value": "Insufficient SportyCoins",
+        "type": "TEXT"
+      },
+      "single": {
+        "key": "single",
+        "value": "Single",
+        "type": "TEXT"
+      },
+      "there_cannot_be_over_vthreshold_selections_within_a_betslip_tip": {
+        "key": "there_cannot_be_over_vthreshold_selections_within_a_betslip_tip",
+        "value": "<p>There cannot be over <strong>{threshold}</strong> selections within a betslip. Sorry for the inconvenience.</p>",
+        "type": "HTML"
+      },
+      "there_cannot_be_ober_vthreshold_selections_under_system_tip": {
+        "key": "there_cannot_be_ober_vthreshold_selections_under_system_tip",
+        "value": "<p>There cannot be over <strong>{threshold}</strong> selections under System. Sorry for the inconvenience.</p>",
+        "type": "HTML"
+      },
+      "simulate_title": {
+        "key": "simulate_title",
+        "value": "SportySIM",
+        "type": "TEXT"
+      },
+      "simulate_bet_info": {
+        "key": "simulate_bet_info",
+        "value": "The result of the selections will be simulated and generated using a random number generator.",
+        "type": "TEXT"
+      },
+      "sim_how_to_play_title": {
+        "key": "sim_how_to_play_title",
+        "value": "How to play SIM?",
+        "type": "TEXT"
+      },
+      "sim_how_to_play_description": {
+        "key": "sim_how_to_play_description",
+        "value": "SIM uses real fixtures and real probabilities from real sports. All your operations in SIM will be synchronized to REAL. You can add any football match to SIM.",
+        "type": "TEXT"
+      },
+      "sim_how_to_play_market_available_are": {
+        "key": "sim_how_to_play_market_available_are",
+        "value": "Markets available are:",
+        "type": "TEXT"
+      },
+      "sim_how_to_play_available_market_list": {
+        "key": "sim_how_to_play_available_market_list",
+        "value": "\"- 1X2\n- Over/Under\n- GG/NG\n- Double Chance\n- Handicap\n- Teams to Score\n- First Goal (pre-match only)\n- Last Goal (pre-match only)\n- Home Team Over/Under\n- Away Team Over/Under\n- 1st half 1X2\n- 1st half Over/Under\n- 1st half Double Chance\n- 1st half First Goal (pre-match only)\n- 2nd half 1X2\n- 2nd half Over/Under\n- 2nd half Double Chance\n- 2nd half First Goal (pre-match only)\n- 1X2 + Over/Under\n- 1X2 & GG/NG\"",
+        "type": "TEXT"
+      },
+      "sim_operate_sync_to_real_tip": {
+        "key": "sim_operate_sync_to_real_tip",
+        "value": "Place bets on real fixtures with virtually simulated results",
+        "type": "TEXT"
+      },
+      "sim_how_to_play": {
+        "key": "sim_how_to_play",
+        "value": "How to play",
+        "type": "TEXT"
+      },
+      "sim_my_games": {
+        "key": "sim_my_games",
+        "value": "My Games",
+        "type": "TEXT"
+      },
+      "sim_ticket_details": {
+        "key": "sim_ticket_details",
+        "value": "Ticket Details",
+        "type": "TEXT"
+      },
+      "switch_sim": {
+        "key": "switch_sim",
+        "value": "SIM",
+        "type": "TEXT"
+      },
+      "switch_real": {
+        "key": "switch_real",
+        "value": "REAL",
+        "type": "TEXT"
+      },
+      "sim_selection_empty_text": {
+        "key": "sim_selection_empty_text",
+        "value": "Please add at least one eligible outcome.",
+        "type": "TEXT"
+      },
+      "sim_duplicated_match_error": {
+        "key": "sim_duplicated_match_error",
+        "value": "Only 1 selection can be selected for an event",
+        "type": "TEXT"
+      },
+      "confirm_switch_real_title": {
+        "key": "confirm_switch_real_title",
+        "value": "Unsupported market",
+        "type": "TEXT"
+      },
+      "confirm_switch_real_content": {
+        "key": "confirm_switch_real_content",
+        "value": "This market is unavailable for Simulated Betting. SportySIM currently supports a subset of pre-match and live markets. Would you like to switch back to REAL mode and add this market to your bet slip?",
+        "type": "TEXT"
+      },
+      "confirm_remove_all_title": {
+        "key": "confirm_remove_all_title",
+        "value": "Remove Betslip",
+        "type": "TEXT"
+      },
+      "confirm_remove_all_content": {
+        "key": "confirm_remove_all_content",
+        "value": "Are you sure to remove all items?",
+        "type": "TEXT"
+      },
+      "place_simulate_bet": {
+        "key": "place_simulate_bet",
+        "value": "Place Simulate Bet",
+        "type": "TEXT"
+      },
+      "you_cannot_have_more_than_vthreshold_selections_in_a_bet": {
+        "key": "you_cannot_have_more_than_vthreshold_selections_in_a_bet",
+        "value": "You cannot have more than {threshold} selections in a bet.",
+        "type": "TEXT"
+      },
+      "about_to_pay_vamount_lineup": {
+        "key": "about_to_pay_vamount_lineup",
+        "value": "\nAbout to pay {stake}",
+        "type": "TEXT"
+      },
+      "total_pot_win": {
+        "key": "total_pot_win",
+        "value": "Total Pot. Win",
+        "type": "TEXT"
+      },
+      "match_alert_desc": {
+        "key": "match_alert_desc",
+        "value": "Match Alerts include the start of the match, change of scores and match results. Only notify you of the matches on this ticket.",
+        "type": "TEXT"
+      },
+      "flexibet_change": {
+        "key": "flexibet_change",
+        "value": "If 1 game cuts the ticket, we will still pay you!",
+        "type": "TEXT"
+      },
+      "match_alert": {
+        "key": "match_alert",
+        "value": "Match Alert",
+        "type": "TEXT"
+      },
+      "flexibet_content": {
+        "key": "flexibet_content",
+        "value": "Increase your chances with our new feature!",
+        "type": "TEXT"
+      },
+      "max_bonus_mask": {
+        "key": "max_bonus_mask",
+        "value": "Max bonus!",
+        "type": "TEXT"
+      },
+      "excise_tax_stake": {
+        "key": "excise_tax_stake",
+        "value": "Excise Tax {stake}",
+        "type": "TEXT"
+      },
+      "place_bet_with_excise_tax": {
+        "key": "place_bet_with_excise_tax",
+        "value": "Place Bet {stake}",
+        "type": "TEXT"
+      },
+      "excise_tax_confirm_dialog_bracket": {
+        "key": "excise_tax_confirm_dialog_bracket",
+        "value": "Stake ({balance}) + Excise Tax ({tax})",
+        "type": "TEXT"
+      },
+      "folds_with_space": {
+        "key": "folds_with_space",
+        "value": "Folds",
+        "type": "TEXT"
+      },
+      "there_cannot_be_over_15_selections_tip": {
+        "key": "there_cannot_be_over_15_selections_tip",
+        "value": "There cannot be over 15 selections under System. Sorry for the inconvenience.",
+        "type": "TEXT"
+      },
+      "coins_insufficient_content": {
+        "key": "coins_insufficient_content",
+        "value": "Sorry, there are not enough SportyCoins to place this bet. Use your balance to bet, or try other stake amounts.",
+        "type": "TEXT"
+      },
+      "greater_than_max": {
+        "key": "greater_than_max",
+        "value": "Please enter a smaller value as the total stake can not exceed {balance}",
+        "type": "TEXT"
+      },
+      "excise_tax_dialog_msg": {
+        "key": "excise_tax_dialog_msg",
+        "value": "You need a balance of {balance} to place this bet. Please deposit an additional {add}.",
+        "type": "TEXT"
+      },
+      "stake_per_bet": {
+        "key": "stake_per_bet",
+        "value": "Stake per bet",
+        "type": "TEXT"
+      },
+      "top_up": {
+        "key": "top_up",
+        "value": "Top Up",
+        "type": "TEXT"
+      },
+      "num_bets": {
+        "key": "num_bets",
+        "value": "({num} bets)",
+        "type": "TEXT"
+      },
+      "android_if_up_to_vthreshold_vgamecuttext_ticket_tip": {
+        "key": "android_if_up_to_vthreshold_vgamecuttext_ticket_tip",
+        "value": "Customize how many selections need to win for your bet to be successful.",
+        "type": "TEXT"
+      },
+      "sportycoins_usable": {
+        "key": "sportycoins_usable",
+        "value": "SportyCoins\nUsable:",
+        "type": "TEXT"
+      },
+      "default_stake_cannot_exceed": {
+        "key": "default_stake_cannot_exceed",
+        "value": "Default stake cannot exceed {stake}",
+        "type": "TEXT"
+      },
+      "default_stake_cannot_be_less_than": {
+        "key": "default_stake_cannot_be_less_than",
+        "value": "Default stake cannot be less than {stake}",
+        "type": "TEXT"
+      },
+      "quick_stake_greater_than": {
+        "key": "quick_stake_greater_than",
+        "value": "Quick Add stake cannot exceed {stake}",
+        "type": "TEXT"
+      },
+      "quick_stake_less_than": {
+        "key": "quick_stake_less_than",
+        "value": "Quick Add stake cannot be less than {stake}",
+        "type": "TEXT"
+      },
+      "confirm_to_pay_sportycoins": {
+        "key": "confirm_to_pay_sportycoins",
+        "value": "Confirm to Pay SportyCoins",
+        "type": "TEXT"
+      },
+      "sporty_insure": {
+        "key": "sporty_insure",
+        "value": "SportyInsure",
+        "type": "TEXT"
+      },
+      "flexible": {
+        "key": "flexible",
+        "value": "Flexi",
+        "type": "TEXT"
+      },
+      "one_cut": {
+        "key": "one_cut",
+        "value": "One Cut",
+        "type": "TEXT"
+      },
+      "one_match_cutting_tips": {
+        "key": "one_match_cutting_tips",
+        "value": "Unsure about your selections? Insure your bet and still get paid!",
+        "type": "TEXT"
+      },
+      "l_game_cut": {
+        "key": "l_game_cut",
+        "value": "game cut",
+        "type": "TEXT"
+      },
+      "remaining_bonus": {
+        "key": "remaining_bonus",
+        "value": "Max Bonus",
+        "type": "TEXT"
+      },
+      "still_win": {
+        "key": "still_win",
+        "value": "Still Win",
+        "type": "TEXT"
+      },
+      "one_cut_pay_one_selection": {
+        "key": "one_cut_pay_one_selection",
+        "value": "<p>One Cut pays a slightly lower bonus but still pays you if one selection loses. <strong>One Cut Still Win </strong>amount can be higher or lower than your stake. Void selections are considered Lost.&nbsp;</p>",
+        "type": "HTML"
+      },
+      "sporty_insure_is_unavailable_for_live_events": {
+        "key": "sporty_insure_is_unavailable_for_live_events",
+        "value": "SportyInsure is unavailable for live events",
+        "type": "TEXT"
+      },
+      "one_cut_pay_one_selection_in_tip": {
+        "key": "one_cut_pay_one_selection_in_tip",
+        "value": "<p>One Cut pays a slightly lower bonus but still pays you if one selection loses. <strong>One Cut Still Win</strong> amount can be higher or lower than stake.<br />For example:<br />Players can receive different payouts in the following conditions:<br />- <strong>1 game cut</strong> (Still Win One Cut amount)<br />- <strong>0 games cut</strong> (Potential Win amount)</p>",
+        "type": "HTML"
+      },
+      "player_can_receive_ths_cashback": {
+        "key": "player_can_receive_ths_cashback",
+        "value": "Will receive the same payout under all these conditions:",
+        "type": "TEXT"
+      },
+      "simulate_what_is_this": {
+        "key": "simulate_what_is_this",
+        "value": "What is this?",
+        "type": "TEXT"
+      },
+      "simulate_autobet_info": {
+        "key": "simulate_autobet_info",
+        "value": "Times of Simulate allows you to clone the same selection up to 10 times. The more you play, the higher chance you'll get a big reward!",
+        "type": "TEXT"
+      },
+      "times_of_simulate": {
+        "key": "times_of_simulate",
+        "value": "Times of Simulate",
+        "type": "TEXT"
+      },
+      "simulate_autobet_vinfo": {
+        "key": "simulate_autobet_vinfo",
+        "value": "Times of Simulate allows you to clone the same selection up to {autoBetMaxTimeLimit} times. The more you play, the higher the chance you'll get a big reward!",
+        "type": "TEXT"
+      },
+      "bet_settings": {
+        "key": "bet_settings",
+        "value": "Bet Settings",
+        "type": "TEXT"
+      },
+      "add_selections": {
+        "key": "add_selections",
+        "value": "Add Selections",
+        "type": "TEXT"
+      },
+      "new_potential_win": {
+        "key": "new_potential_win",
+        "value": "New Potential Win",
+        "type": "TEXT"
+      },
+      "save_changes": {
+        "key": "save_changes",
+        "value": "Save Changes",
+        "type": "TEXT"
+      },
+      "simulate_bet_info_tip": {
+        "key": "simulate_bet_info_tip",
+        "value": "*The outcome is not related to real life fixtures. Real money will be used for your SIM bet.",
+        "type": "TEXT"
+      },
+      "simulate_bet_info_promote_title": {
+        "key": "simulate_bet_info_promote_title",
+        "value": "Get result in seconds!",
+        "type": "TEXT"
+      },
+      "try_multi_maker": {
+        "key": "try_multi_maker",
+        "value": "Try Multi Maker",
+        "type": "TEXT"
+      },
+      "for_example_if_a_player_choose": {
+        "key": "for_example_if_a_player_choose",
+        "value": "For example, if a player chooses 3+ of 5 options to be correct:",
+        "type": "TEXT"
+      },
+      "one": {
+        "key": "one",
+        "value": "1",
+        "type": "TEXT"
+      },
+      "of": {
+        "key": "of",
+        "value": "of",
+        "type": "TEXT"
+      },
+      "flexible_info_2": {
+        "key": "flexible_info_2",
+        "value": "For example, if a player chooses 3+ of 5 options to be correct:",
+        "type": "TEXT"
+      },
+      "flexible_info_rule_1": {
+        "key": "flexible_info_rule_1",
+        "value": "- 2 games Cut",
+        "type": "TEXT"
+      },
+      "flexible_info_rule_2": {
+        "key": "flexible_info_rule_2",
+        "value": "- 1 game Cut",
+        "type": "TEXT"
+      },
+      "flexible_info_rule_3": {
+        "key": "flexible_info_rule_3",
+        "value": "- 0 games Cut",
+        "type": "TEXT"
+      },
+      "one_bet_confirm_note": {
+        "key": "one_bet_confirm_note",
+        "value": "Note: Cashout is unavailable with One Cut.",
+        "type": "TEXT"
+      },
+      "one_cut_still_win": {
+        "key": "one_cut_still_win",
+        "value": "Still Win ",
+        "type": "TEXT"
+      },
+      "minimum_selection_count_edit_bet_error": {
+        "key": "minimum_selection_count_edit_bet_error",
+        "value": "Add at least one (valid) selection to continue.",
+        "type": "TEXT"
+      },
+      "same_event_selection_error": {
+        "key": "same_event_selection_error",
+        "value": "This selection cannot be added to your bet.",
+        "type": "TEXT"
+      },
+      "new_to_win": {
+        "key": "new_to_win",
+        "value": "New To Win",
+        "type": "TEXT"
+      },
+      "bet_successfully_edited": {
+        "key": "bet_successfully_edited",
+        "value": "Bet successfully edited",
+        "type": "TEXT"
+      },
+      "one_cut_pay_one_selection_in_tip_v2": {
+        "key": "one_cut_pay_one_selection_in_tip_v2",
+        "value": "<p>You can win a portion of your potential returns even if one selection loses. The <strong>One Cut Still Win</strong> amount can be equal to or greater than your stake. Note that void selections may result in recalculation of your return, and can become a lower <strong>One Cut Win</strong> amount than your stake. <br />For example:<br />Players can receive different payouts in the following conditions:<br />- <strong>1 game cut</strong> (Still Win One Cut amount)<br />- <strong>0 games cut</strong> (Potential Win amount)</p>",
+        "type": "HTML"
+      },
+      "one_cut_pay_one_selection_v2": {
+        "key": "one_cut_pay_one_selection_v2",
+        "value": "Win the Potential Win Amount if all selections win, if one loses, still claim the One Cut Win Amount.",
+        "type": "TEXT"
+      },
+      "ai_recommendations": {
+        "key": "ai_recommendations",
+        "value": "AI recommendations",
+        "type": "TEXT"
+      },
+      "no_recommendations": {
+        "key": "no_recommendations",
+        "value": "No more recommendations at this time. Please check back later.",
+        "type": "TEXT"
+      },
+      "people_also_bet_on": {
+        "key": "people_also_bet_on",
+        "value": "People also bet on",
+        "type": "TEXT"
+      },
+      "international_betslip": {
+        "key": "international_betslip",
+        "value": "Betslip",
+        "type": "TEXT"
+      },
+      "note_cashout_is_unavailable_with_flexible_bet": {
+        "key": "note_cashout_is_unavailable_with_flexible_bet",
+        "value": "Note: Cashout is unavailable with Flexi.",
+        "type": "TEXT"
+      },
+      "msg_if_up_to_nums_game_cuts_ticket_we_still_pay_you": {
+        "key": "msg_if_up_to_nums_game_cuts_ticket_we_still_pay_you",
+        "value": "If up to {nums} game cuts ticket, we still pay you!",
+        "type": "TEXT"
+      },
+      "game_win": {
+        "key": "game_win",
+        "value": "Game Win",
+        "type": "TEXT"
+      },
+      "game_lose": {
+        "key": "game_lose",
+        "value": "Game Lose",
+        "type": "TEXT"
+      },
+      "msg_if_up_to_vnums_vgames_cuts_ticket_we_still_pay_you": {
+        "key": "msg_if_up_to_vnums_vgames_cuts_ticket_we_still_pay_you",
+        "value": "<p>If up to <span class=\"m-t-light\">{nums}</span> {games} cut ticket, we still pay you!</p>",
+        "type": "HTML"
+      },
+      "simulate": {
+        "key": "simulate",
+        "value": "SIMULATE",
+        "type": "TEXT"
+      },
+      "one_cut_can_not_be_applied_when_still_win_high_than_to_win": {
+        "key": "one_cut_can_not_be_applied_when_still_win_high_than_to_win",
+        "value": "One Cut can not be applied when Still Win amount is higher than To Win",
+        "type": "TEXT"
+      },
+      "flex_intro_game_win": {
+        "key": "flex_intro_game_win",
+        "value": "Game Win",
+        "type": "TEXT"
+      },
+      "flex_intro_game_lost": {
+        "key": "flex_intro_game_lost",
+        "value": "Game Lose",
+        "type": "TEXT"
+      },
+      "increase_your_chances_with_our_new_feature": {
+        "key": "increase_your_chances_with_our_new_feature",
+        "value": "Increase your chances with our new feature!",
+        "type": "TEXT"
+      },
+      "this_feature_is_invalid_when_two_or_less_valid_selections": {
+        "key": "this_feature_is_invalid_when_two_or_less_valid_selections",
+        "value": "This feature is invalid when there are 2 or fewer valid selections",
+        "type": "TEXT"
+      },
+      "feature_is_unavailable_when_there_are_contingent_outcomes": {
+        "key": "feature_is_unavailable_when_there_are_contingent_outcomes",
+        "value": "This feature is unavailable when there are contingent outcomes",
+        "type": "TEXT"
+      },
+      "feature_is_constrained_with_certain_number_of_selections": {
+        "key": "feature_is_constrained_with_certain_number_of_selections",
+        "value": "This feature is constrained to certain number of selections",
+        "type": "TEXT"
+      },
+      "feature_can_not_be_applied_total_odds_is_lower_than_vodds": {
+        "key": "feature_can_not_be_applied_total_odds_is_lower_than_vodds",
+        "value": "The Flexi feature cannot be applied when the Total Odds is lower than {odds}",
+        "type": "TEXT"
+      },
+      "flex_intro_1_v2": {
+        "key": "flex_intro_1_v2",
+        "value": "Even if your Multiple bet has losing selections, your ticket will win if the required number are correct. Your payout stays the same as long as the required number of selections win. No matter how many extra selections win above the required amount, your payout remains fixed.",
+        "type": "TEXT"
+      },
+      "flex_intro_2_v2": {
+        "key": "flex_intro_2_v2",
+        "value": "For example, a ticket with this setting:",
+        "type": "TEXT"
+      },
+      "one_cut_intro_v2": {
+        "key": "one_cut_intro_v2",
+        "value": "<p>You can win a portion of your potential returns even if one selection loses. The \"<strong>One Cut Win</strong>\" amount can be equal to or greater than your stake.<br /><br />Note that void selections may result in recalculation of your return, and can become a lower \"<strong>One Cut Win</strong>\" amount than your stake.</p>",
+        "type": "HTML"
+      },
+      "one_cut_odds_too_small_tip": {
+        "key": "one_cut_odds_too_small_tip",
+        "value": "One cut cannot be applied when odds combination is too small",
+        "type": "TEXT"
+      },
+      "one_cut_can_not_apply_gift_hint": {
+        "key": "one_cut_can_not_apply_gift_hint",
+        "value": "Gift cannot be applied when One cut is selected",
+        "type": "TEXT"
+      },
+      "flex_intro_game_lose": {
+        "key": "flex_intro_game_lose",
+        "value": "Game Lose",
+        "type": "TEXT"
+      },
+      "more_than_vfolds": {
+        "key": "more_than_vfolds",
+        "value": "Folds > {eventSize}",
+        "type": "TEXT"
+      },
+      "less_than_vfolds": {
+        "key": "less_than_vfolds",
+        "value": "Folds < {eventSize}",
+        "type": "TEXT"
+      },
+      "more_than_or_equal_vfolds": {
+        "key": "more_than_or_equal_vfolds",
+        "value": "Folds \u2265 {eventSize}",
+        "type": "TEXT"
+      },
+      "already_has_item_in_betslip_popup_title": {
+        "key": "already_has_item_in_betslip_popup_title",
+        "value": "Replacing Selections?",
+        "type": "TEXT"
+      },
+      "already_has_item_in_betslip_popup_content": {
+        "key": "already_has_item_in_betslip_popup_content",
+        "value": "You have items in Betslip. Are you sure to replace Betslip with this new selections?",
+        "type": "TEXT"
+      },
+      "successful_loaded": {
+        "key": "successful_loaded",
+        "value": "Successful loaded",
+        "type": "TEXT"
+      },
+      "retain_selections_after_rebet": {
+        "key": "retain_selections_after_rebet",
+        "value": "Retain selections after Rebet",
+        "type": "TEXT"
+      },
+      "note_cashout_is_unavailable_with_one_cut": {
+        "key": "note_cashout_is_unavailable_with_one_cut",
+        "value": "Note: Cashout is unavailable with One Cut.",
+        "type": "TEXT"
+      },
+      "order_pocket_frozen_message": {
+        "key": "order_pocket_frozen_message",
+        "value": "This account is currently locked. If you have any questions, please contact us for more information.",
+        "type": "TEXT"
+      },
+      "add_at_least_one_selection": {
+        "key": "add_at_least_one_selection",
+        "value": "Add at least one (valid) selection to continue.",
+        "type": "TEXT"
+      },
+      "one_cut_slider_title": {
+        "key": "one_cut_slider_title",
+        "value": "Control Your One Cut Win",
+        "type": "TEXT"
+      },
+      "one_cut_slider_content": {
+        "key": "one_cut_slider_content",
+        "value": "Use the slider to define how much you win if one selection cuts your bet.",
+        "type": "TEXT"
+      },
+      "one_cut_slider_hint_content": {
+        "key": "one_cut_slider_hint_content",
+        "value": "New! Control your One Cut Win",
+        "type": "TEXT"
+      },
+      "one_cut_intro_v3": {
+        "key": "one_cut_intro_v3",
+        "value": "<p>You can win a portion of your potential returns even if one selection loses. The \"<strong>One Cut Win</strong>\" amount can be equal to or greater than your stake. With the new slider feature, adjust your potential '<strong>To Win</strong>' and '<strong>One Cut Win</strong>' amounts to customize your bet.</p>\n<p>&nbsp;</p>\n<p>Note that void selections may result in recalculation of your return, and can become a lower \"<strong>One Cut Win</strong>\" amount than your stake.</p>",
+        "type": "HTML"
+      },
+      "new_cashout_support_flexibet": {
+        "key": "new_cashout_support_flexibet",
+        "value": "New! Flexi supports Cashout now!",
+        "type": "TEXT"
+      },
+      "reward_progress": {
+        "key": "reward_progress",
+        "value": "Reward Progress",
+        "type": "TEXT"
+      },
+      "2up_intro": {
+        "key": "2up_intro",
+        "value": "\"2UP will reward you earlier if your team takes a two-goal lead, e.g. 2-0, 3-1. Once settled, the final result no longer matters - win, lose or draw!\n\nBetting on the draw in this market is the same as in regular 1X2, it is resulted on the full-time score regardless of how and when any goals are scored (which is why the odds are the same).\"",
+        "type": "TEXT"
+      },
+      "2up_not_supported": {
+        "key": "2up_not_supported",
+        "value": "2UP Not Supported",
+        "type": "TEXT"
+      },
+      "click_to_enable_2up_early_payout": {
+        "key": "click_to_enable_2up_early_payout",
+        "value": "Click to enable 2UP early payout!",
+        "type": "TEXT"
+      },
+      "2up_will_reward_you_earlier": {
+        "key": "2up_will_reward_you_earlier",
+        "value": "2UP will reward you earlier if your team takes a two-goal lead, e.g. 2-0, 3-1.",
+        "type": "TEXT"
+      },
+      "sporty_insure_title": {
+        "key": "sporty_insure_title",
+        "value": "Insure",
+        "type": "TEXT"
+      },
+      "flex_checkbox_title": {
+        "key": "flex_checkbox_title",
+        "value": "Flex.",
+        "type": "TEXT"
+      },
+      "1cut_checkbox_title": {
+        "key": "1cut_checkbox_title",
+        "value": "1Cut",
+        "type": "TEXT"
+      },
+      "duplicate_warning": {
+        "key": "duplicate_warning",
+        "value": "Duplicate Warning",
+        "type": "TEXT"
+      },
+      "this_will_casue_two_duplicate_market_selections": {
+        "key": "this_will_casue_two_duplicate_market_selections",
+        "value": "This will cause two duplicate market selections. Would you like them to be automatically merged into one?",
+        "type": "TEXT"
+      },
+      "insure": {
+        "key": "insure",
+        "value": "Insure",
+        "type": "TEXT"
+      },
+      "liability_change_selections_dialog_title": {
+        "key": "liability_change_selections_dialog_title",
+        "value": "Please Add or Remove Some Selections",
+        "type": "TEXT"
+      },
+      "liability_change_selections_dialog_content": {
+        "key": "liability_change_selections_dialog_content",
+        "value": "Sorry, this combination of selections is too popular today. Please add/remove some selections before trying again.",
+        "type": "TEXT"
+      },
+      "edit_in_multi_maker": {
+        "key": "edit_in_multi_maker",
+        "value": "Edit in Multi-Maker",
+        "type": "TEXT"
+      },
+      "liability_related_bet_remind_text": {
+        "key": "liability_related_bet_remind_text",
+        "value": "Add related bet to change combination...",
+        "type": "TEXT"
+      },
+      "please_change_some_selections": {
+        "key": "please_change_some_selections",
+        "value": "Please Change Some Selections",
+        "type": "TEXT"
+      },
+      "bet_builder": {
+        "key": "bet_builder",
+        "value": "Bet Builder",
+        "type": "TEXT"
+      },
+      "auto_accept_odds_change_next_time_title": {
+        "key": "auto_accept_odds_change_next_time_title",
+        "value": "Auto-accept odds change next time?",
+        "type": "TEXT"
+      },
+      "auto_accept_odds_change_next_time_message": {
+        "key": "auto_accept_odds_change_next_time_message",
+        "value": "This setting will be enabled automatically. You can adjust it later in Bet Settings at the top-right of the betslip.",
+        "type": "TEXT"
+      },
+      "auto_accept_odds_change_successfully_enabled": {
+        "key": "auto_accept_odds_change_successfully_enabled",
+        "value": "Successfully enabled the \"Auto-accept odds changes\" setting.",
+        "type": "TEXT"
+      },
+      "1up_not_supported": {
+        "key": "1up_not_supported",
+        "value": "1UP Not Supported",
+        "type": "TEXT"
+      },
+      "1up_and_2up_not_supported": {
+        "key": "1up_and_2up_not_supported",
+        "value": "1UP and 2UP Not Supported",
+        "type": "TEXT"
+      },
+      "early_payout_1up_and_2up_tip_desc": {
+        "key": "early_payout_1up_and_2up_tip_desc",
+        "value": "Get paid out early if your team takes a one-goal or two-goal lead using the 1UP option, e.g. 1-0, 2-1 or 2UP option, e.g. 2-0, 3-1.",
+        "type": "TEXT"
+      },
+      "early_payout_1up_and_2up_tip_title": {
+        "key": "early_payout_1up_and_2up_tip_title",
+        "value": "Early Payout - 1UP & 2UP",
+        "type": "TEXT"
+      },
+      "early_payout_1up_tip_title": {
+        "key": "early_payout_1up_tip_title",
+        "value": "Click to Enable 1UP Early Payout!",
+        "type": "TEXT"
+      },
+      "early_payout_1up_tip_desc": {
+        "key": "early_payout_1up_tip_desc",
+        "value": "1UP will reward you earlier if your team takes a one-goal lead, e.g. 1-0, 2-1",
+        "type": "TEXT"
+      },
+      "1up_intro": {
+        "key": "1up_intro",
+        "value": "\"1UP will reward you earlier if your team takes a one-goal lead, e.g. 1-0, 2-1. Once settled, the final result no longer matters - win, lose or draw!\n\nBetting on the draw in this market is the same as in regular 1X2, it is resulted on the full-time score regardless of how and when any goals are scored (which is why the odds are the same).\"",
+        "type": "TEXT"
+      },
+      "1up_and_2up_intro": {
+        "key": "1up_and_2up_intro",
+        "value": "1UP or 2UP will reward you earlier when your team takes the lead. For 1UP, any one-goal lead wins, e.g. 1-0, 2-1. With 2UP, any two-goal lead pays out early, e.g. 2-0, 3-1. Once settled, the final result no longer matters - win, lose or draw.\n\nBetting on the draw in this market is the same as in regular 1X2, it is resulted on the full-time score regardless of how and when any goals are scored (which is why the odds are the same).\u2028\u2028\n\nNote - it is possible for both teams to win in these markets, for example a match turns around from 2-0 to 2-4 in 2UP.",
+        "type": "TEXT"
+      },
+      "bet_history": {
+        "key": "bet_history",
+        "value": "Bet History",
+        "type": "TEXT"
+      },
+      "liability_change_selections_dialog_content_w_bet_builder": {
+        "key": "liability_change_selections_dialog_content_w_bet_builder",
+        "value": "Sorry, this combination of selections is too popular today. Please add/remove some selections before trying again.\\n\\n*Please note that Multi Maker does not support Bet Builder selections yet, proceeding with editing will automatically remove those.",
+        "type": "TEXT"
+      },
+      "any_win_title": {
+        "key": "any_win_title",
+        "value": "All You Need Is One.",
+        "type": "TEXT"
+      },
+      "any_win_desc": {
+        "key": "any_win_desc",
+        "value": "One winner pays out this bet, as soon as that market is settled. Any further winners do not increase your payout.",
+        "type": "TEXT"
+      },
+      "any_win_error_hint": {
+        "key": "any_win_error_hint",
+        "value": "To use AnyWin, please select {min}-{max} selections with higher odds.",
+        "type": "TEXT"
+      },
+      "any_win_intro_1": {
+        "key": "any_win_intro_1",
+        "value": "AnyWin just needs one winner.",
+        "type": "TEXT"
+      },
+      "any_win_intro_2": {
+        "key": "any_win_intro_2",
+        "value": "Choose several higher odds selections and by selecting AnyWin, all those picks are combined into one bet with special odds.",
+        "type": "TEXT"
+      },
+      "any_win_intro_3": {
+        "key": "any_win_intro_3",
+        "value": "If any of them win, you collect straight away. Any further winners do not increase your payout.",
+        "type": "TEXT"
+      },
+      "any_win_intro_4": {
+        "key": "any_win_intro_4",
+        "value": "Get rewards right after you win one game.",
+        "type": "TEXT"
+      },
+      "any_win_intro_game_win": {
+        "key": "any_win_intro_game_win",
+        "value": "Game Win",
+        "type": "TEXT"
+      },
+      "any_win_intro_game_lose": {
+        "key": "any_win_intro_game_lose",
+        "value": "Game Lose",
+        "type": "TEXT"
+      },
+      "low_return": {
+        "key": "low_return",
+        "value": "Low Return",
+        "type": "TEXT"
+      },
+      "remove_low_returns": {
+        "key": "remove_low_returns",
+        "value": "Remove Low Returns",
+        "type": "TEXT"
+      },
+      "remove_low_return_toast": {
+        "key": "remove_low_return_toast",
+        "value": "Low return selections have been removed.",
+        "type": "TEXT"
+      },
+      "accept_changes_and_remove_low_returns": {
+        "key": "accept_changes_and_remove_low_returns",
+        "value": "Accept Changes & Remove Low Returns",
+        "type": "TEXT"
+      },
+      "any_win_cannot_be_applied_tip": {
+        "key": "any_win_cannot_be_applied_tip",
+        "value": "The AnyWin feature can not be applied when the Total Odds is lower than {threshold}.",
+        "type": "TEXT"
+      },
+      "any_win_reduce_selections_error_title": {
+        "key": "any_win_reduce_selections_error_title",
+        "value": "Reduce at Least {num} Selections",
+        "type": "TEXT"
+      },
+      "any_win_reduce_selections_error_desc": {
+        "key": "any_win_reduce_selections_error_desc",
+        "value": "The maximum number of selections allowed for AnyWin is {num}. Please adjust your selections to proceed.",
+        "type": "TEXT"
+      },
+      "any_win_add_selections_error_title": {
+        "key": "any_win_add_selections_error_title",
+        "value": "Add at Least {num} Selections",
+        "type": "TEXT"
+      },
+      "any_win_add_selections_error_desc": {
+        "key": "any_win_add_selections_error_desc",
+        "value": "The minimum number of selections required for AnyWin is {num}. Please add more selections to proceed.",
+        "type": "TEXT"
+      },
+      "changes_in_odds_or_low_return": {
+        "key": "changes_in_odds_or_low_return",
+        "value": "Note: changes in odds or low-return",
+        "type": "TEXT"
+      },
+      "any_win_tip": {
+        "key": "any_win_tip",
+        "value": "Win Any Game, Get Paid Early!",
+        "type": "TEXT"
+      },
+      "note_cashout_unavailable_bb": {
+        "key": "note_cashout_unavailable_bb",
+        "value": "Note: Cashout is unavailable for Bet Builder.",
+        "type": "TEXT"
+      },
+      "odds_changed": {
+        "key": "odds_changed",
+        "value": "Odds Changed",
+        "type": "TEXT"
+      },
+      "max_code_amount_reached": {
+        "key": "max_code_amount_reached",
+        "value": "Max code amount reached.",
+        "type": "TEXT"
+      },
+      "try_another_codes": {
+        "key": "try_another_codes",
+        "value": "Try another code",
+        "type": "TEXT"
+      },
+      "note_cashout_is_unavailable_with_anywin": {
+        "key": "note_cashout_is_unavailable_with_anywin",
+        "value": "Note: Cashout is unavailable for AnyWin.",
+        "type": "TEXT"
+      },
+      "flexibet_short_desc": {
+        "key": "flexibet_short_desc",
+        "value": "If the minimum flexi selections win, you get the payout. Any further winners do not increase payout.",
+        "type": "TEXT"
+      },
+      "one_bet_cut_error_hint": {
+        "key": "one_bet_cut_error_hint",
+        "value": "To use 1Cut, please select at least 3 selections with total odds higher than {flexible_min_odds}.",
+        "type": "TEXT"
+      },
+      "flexi_bet_error_hint": {
+        "key": "flexi_bet_error_hint",
+        "value": "To use Flexi, please select at least 3 selections with total odds higher than {flexible_min_odds}.",
+        "type": "TEXT"
+      },
+      "share_bet_single_bb_message": {
+        "key": "share_bet_single_bb_message",
+        "value": "Hey check out my Bet Builder pick on SportyBet!",
+        "type": "TEXT"
+      },
+      "selection_already_in_betslip": {
+        "key": "selection_already_in_betslip",
+        "value": "This selection is already in your betslip.",
+        "type": "TEXT"
+      },
+      "duplicate_selections_warning": {
+        "key": "duplicate_selections_warning",
+        "value": "This will cause two duplicate market selections. Would you like them to be automatically merged into one?",
+        "type": "TEXT"
+      },
+      "one_up_error_hint": {
+        "key": "one_up_error_hint",
+        "value": "1UP is only available on 1X2 markets in specific leagues.",
+        "type": "TEXT"
+      },
+      "two_up_error_hint": {
+        "key": "two_up_error_hint",
+        "value": "2UP is only available on 1X2 markets in specific leagues.",
+        "type": "TEXT"
+      },
+      "confirm_to_deposit": {
+        "key": "confirm_to_deposit",
+        "value": "Confirm to Deposit",
+        "type": "TEXT"
+      },
+      "required_selection_change": {
+        "key": "required_selection_change",
+        "value": "Note: Sorry, this combination of selections is too popular",
+        "type": "TEXT"
+      },
+      "switch_to_standard": {
+        "key": "switch_to_standard",
+        "value": "Switch to Standard Betslip",
+        "type": "TEXT"
+      },
+      "switch_to_simple": {
+        "key": "switch_to_simple",
+        "value": "New! Switch to Simple Betslip",
+        "type": "TEXT"
+      },
+      "simple_mode": {
+        "key": "simple_mode",
+        "value": "Simple Mode",
+        "type": "TEXT"
+      },
+      "standard_mode": {
+        "key": "standard_mode",
+        "value": "Standard Mode",
+        "type": "TEXT"
+      },
+      "early_goal_desc": {
+        "key": "early_goal_desc",
+        "value": "{goal} goal by {min} min",
+        "type": "TEXT"
+      },
+      "new_betslip_button_hint": {
+        "key": "new_betslip_button_hint",
+        "value": "Drag to move along the screen edge",
+        "type": "TEXT"
+      },
+      "early_goal_intro": {
+        "key": "early_goal_intro",
+        "value": "<p>If a number of goals is scored by a specified minute, your Over selection is immediately settled as winning:</p><p>\u2022 Over 1.5 - 1 goal by 10 min</p><p>\u2022 Over 2.5 - 2 goal by 30 min</p><p>\u2022 Over 3.5 - 3 goal by 50 min</p><p><br>&nbsp;</p><p>Once settled, the final result no longer matters! If the EarlyGoals condition is not met, your selection is treated as a normal Over/Under bet.</p>",
+        "type": "HTML"
+      },
+      "early_goal_intro_title": {
+        "key": "early_goal_intro_title",
+        "value": "EarlyGoals - if a number of goals is scored by a specified minute, your Over selection is immediately settled as winning:",
+        "type": "TEXT"
+      },
+      "early_goal_intro_content": {
+        "key": "early_goal_intro_content",
+        "value": "Once settled, the final result no longer matters! If the EarlyGoals condition is not met, your selection is treated as a normal Over/Under bet.",
+        "type": "TEXT"
+      },
+      "early_goal_tip_title": {
+        "key": "early_goal_tip_title",
+        "value": "Click to Enable EarlyGoals Payout!",
+        "type": "TEXT"
+      },
+      "early_goal_tip_desc": {
+        "key": "early_goal_tip_desc",
+        "value": "EarlyGoals pays you immediately, as follows: Over 1.5 - for 1 goal scored by 10 min. ",
+        "type": "TEXT"
+      },
+      "learn_more": {
+        "key": "learn_more",
+        "value": "Learn more",
+        "type": "TEXT"
+      },
+      "early_goal_dialog_title": {
+        "key": "early_goal_dialog_title",
+        "value": "Over/Under -  EarlyGoals",
+        "type": "TEXT"
+      },
+      "early_goal_dialog_desc": {
+        "key": "early_goal_dialog_desc",
+        "value": "<p>If a number of goals is scored by a specified minute, your Over selection is immediately settled as winning:&nbsp;</p><p>\u2022 Over 1.5 - 1 goal by 10 min</p><p>&nbsp;\u2022 Over 2.5 - 2 goal by 30 min&nbsp;</p><p>\u2022 Over 3.5 - 3 goal by 50 min&nbsp;</p><p>&nbsp;</p><p>Once settled, the final result no longer matters! If the EarlyGoals condition is not met, your selection is treated as a normal Over/Under bet.</p>",
+        "type": "HTML"
+      },
+      "early_goals_error_hint": {
+        "key": "early_goals_error_hint",
+        "value": "EarlyGoals is only available on O/U markets in specific leagues.",
+        "type": "TEXT"
+      },
+      "early_goals_not_supported": {
+        "key": "early_goals_not_supported",
+        "value": "EarlyGoals Not Supported",
+        "type": "TEXT"
+      },
+      "early_goals": {
+        "key": "early_goals",
+        "value": "EarlyGoals",
+        "type": "TEXT"
+      },
+      "bonus_apply_failed_temp_issue": {
+        "key": "bonus_apply_failed_temp_issue",
+        "value": "We couldn't apply your bonus due to a temporary issue. Please try again, or continue your bet without it.",
+        "type": "TEXT"
+      },
+      "live_odds_boost_apply_failed_temp_issue": {
+        "key": "live_odds_boost_apply_failed_temp_issue",
+        "value": "We couldn't apply your live odds boost due to a temporary issue. Please try again, or continue your bet without it.",
+        "type": "TEXT"
+      },
+      "gift_apply_failed_temp_issue": {
+        "key": "gift_apply_failed_temp_issue",
+        "value": "We couldn't apply your gift due to a temporary issue. Please try again, or continue your bet without it.",
+        "type": "TEXT"
+      },
+      "multiple_rewards_apply_failed_temp_issue": {
+        "key": "multiple_rewards_apply_failed_temp_issue",
+        "value": "We couldn't apply your gift, bonus, live odds boost due to a temporary issue. Please try again, or continue your bet without it.",
+        "type": "TEXT"
+      },
+      "enter_only_numbers": {
+        "key": "enter_only_numbers",
+        "value": "Please enter only numbers",
+        "type": "TEXT"
+      },
+      "betslip_settings": {
+        "key": "betslip_settings",
+        "value": "Betslip Settings",
+        "type": "TEXT"
+      },
+      "insert_booking_code": {
+        "key": "insert_booking_code",
+        "value": "Insert Booking Code Here",
+        "type": "TEXT"
+      },
+      "not_available_for_contingent_outcomes": {
+        "key": "not_available_for_contingent_outcomes",
+        "value": "Not available with contingent outcomes.",
+        "type": "TEXT"
+      },
+      "three_more_bets_no_contingent_outcomes": {
+        "key": "three_more_bets_no_contingent_outcomes",
+        "value": "You need more than 3 bets and with no contingent outcomes",
+        "type": "TEXT"
+      },
+      "secure_your_bets": {
+        "key": "secure_your_bets",
+        "value": "Secure your Bets",
+        "type": "TEXT"
+      },
+      "auto_accept_odds_changes_prompt": {
+        "key": "auto_accept_odds_changes_prompt",
+        "value": "Would you like to turn on auto accept odds changes?",
+        "type": "TEXT"
+      },
+      "ticket_wins_if_a_certain_number_of_the_picked_selections_tip": {
+        "key": "ticket_wins_if_a_certain_number_of_the_picked_selections_tip",
+        "value": "A ticket wins if a certain number of the picked selections is correct.<br />For example, if a player chooses <b>3+ of 5 options to be correct:</b>",
+        "type": "HTML"
+      },
+      "players_can_receive_the_cashback": {
+        "key": "players_can_receive_the_cashback",
+        "value": "Players can receive the cashback in the following conditions:",
+        "type": "TEXT"
+      },
+      "1up_popup_info": {
+        "key": "1up_popup_info",
+        "value": "<p>1UP will reward you earlier if your team takes a one-goal lead, e.g. 1-0, 2-1. Once settled, the final result no longer matters - win, lose or draw! &lt;br /&gt;&lt;br /&gt; If a match is abandoned and a team has gone one or more goals ahead then bets on that selection will still be paid as winners. &lt;br /&gt;&lt;br /&gt; SportyBet reserves the right to void selections for any integrity issues and abuse behaviours we identified.</p>",
+        "type": "HTML"
+      },
+      "1up_and_2up_popup_info": {
+        "key": "1up_and_2up_popup_info",
+        "value": "1UP or 2UP will reward you earlier when your team takes the lead. For 1UP, any one-goal lead wins, e.g. 1-0, 2-1. With 2UP, any two-goal lead pays out early, e.g. 2-0, 3-1. Once settled, the final result no longer matters - win, lose or draw. <br /><br /> The specific market or insurance type must be chosen by the customer to receive the rewards. Note -it is possible for both teams to win in these markets, for example a match turns around from 2-0 to 2-4 in 2UP.<br /> <br /> SportyBet reserves the right to void selections for any integrity issues and abuse behaviours we identified.",
+        "type": "HTML"
+      },
+      "settled": {
+        "key": "settled",
+        "value": "Settled",
+        "type": "TEXT"
+      },
+      "vamount_bets_settled": {
+        "key": "vamount_bets_settled",
+        "value": "{amount} Bets Settled",
+        "type": "TEXT"
+      },
+      "vamount_bet_settled": {
+        "key": "vamount_bet_settled",
+        "value": "{amount} Bet Settled",
+        "type": "TEXT"
+      },
+      "final_push_stake_more_to_grab_vcurrency_vrewardamount_reward": {
+        "key": "final_push_stake_more_to_grab_vcurrency_vrewardamount_reward",
+        "value": "Final Push! Stake more to grab {currency},{rewardAmount} reward!",
+        "type": "TEXT"
+      },
+      "stake_at_least_vcurrency_vminstake_to_grab_vcurrency_vrewardamount_reward": {
+        "key": "stake_at_least_vcurrency_vminstake_to_grab_vcurrency_vrewardamount_reward",
+        "value": "Stake at least {currency},{minStake} to grab {currency},{rewardAmount} reward!",
+        "type": "TEXT"
+      },
+      "mission": {
+        "key": "mission",
+        "value": "Mission",
+        "type": "TEXT"
+      },
+      "place_a_bet_with_a_code_and_get_a_rewardamount_reward": {
+        "key": "place_a_bet_with_a_code_and_get_a_rewardamount_reward",
+        "value": "Place a bet with a code and get a {currency},{rewardAmount} reward!",
+        "type": "TEXT"
+      },
+      "only_settled_bets_count_towards_the_reward": {
+        "key": "only_settled_bets_count_towards_the_reward",
+        "value": "Only settled bets count towards the reward,",
+        "type": "TEXT"
+      },
+      "more_info": {
+        "key": "more_info",
+        "value": "more info",
+        "type": "TEXT"
+      },
+      "bets": {
+        "key": "bets",
+        "value": "Bets",
+        "type": "TEXT"
+      },
+      "bet": {
+        "key": "bet",
+        "value": "Bet",
+        "type": "TEXT"
+      },
+      "keep_the_action_going": {
+        "key": "keep_the_action_going",
+        "value": "Keep the action going",
+        "type": "TEXT"
+      },
+      "quick_pick_for_your_next_play": {
+        "key": "quick_pick_for_your_next_play",
+        "value": "Quick pick for your next play",
+        "type": "TEXT"
+      },
+      "sporty_jet": {
+        "key": "sporty_jet",
+        "value": "Sporty Jet",
+        "type": "TEXT"
+      },
+      "crash_game": {
+        "key": "crash_game",
+        "value": "Crash Game",
+        "type": "TEXT"
+      },
+      "trending": {
+        "key": "trending",
+        "value": "TRENDING",
+        "type": "TEXT"
+      },
+      "win": {
+        "key": "win",
+        "value": "win",
+        "type": "TEXT"
+      },
+      "fast": {
+        "key": "fast",
+        "value": "fast",
+        "type": "TEXT"
+      },
+      "gameplay": {
+        "key": "gameplay",
+        "value": "gameplay",
+        "type": "TEXT"
+      },
+      "win_up_to": {
+        "key": "win_up_to",
+        "value": "Win up to",
+        "type": "TEXT"
+      },
+      "your_stake": {
+        "key": "your_stake",
+        "value": "your stake",
+        "type": "TEXT"
+      },
+      "play_sporty_jet": {
+        "key": "play_sporty_jet",
+        "value": "Play Sporty Jet",
+        "type": "TEXT"
+      },
+      "players_are_currently_playing_sporty_jet": {
+        "key": "players_are_currently_playing_sporty_jet",
+        "value": "players are currently playing Sporty Jet",
+        "type": "TEXT"
+      },
+      "more_selections_bonus_tip": {
+        "key": "more_selections_bonus_tip",
+        "value": "More selections, bigger bonus.",
+        "type": "TEXT"
+      },
+      "instant_win_fast_gameplay": {
+        "key": "instant_win_fast_gameplay",
+        "value": "<strong>Instant</strong> win &<strong> fast</strong> gameplay",
+        "type": "TEXT"
+      },
+      "win_up_to_10000_your_stake": {
+        "key": "win_up_to_10000_your_stake",
+        "value": "Win up to <strong>10,000x</strong> your stake",
+        "type": "TEXT"
+      },
+      "enter_booking_code": {
+        "key": "enter_booking_code",
+        "value": "Enter booking code",
+        "type": "TEXT"
+      },
+      "flash_odds_boost": {
+        "key": "flash_odds_boost",
+        "value": "Flash Boost",
+        "type": "TEXT"
+      },
+      "early_goal_error_hint": {
+        "key": "early_goal_error_hint",
+        "value": "EarlyGoals is only available on O/U markets in specific leagues.",
+        "type": "TEXT"
+      },
+      "gift_is_selected_by_default": {
+        "key": "gift_is_selected_by_default",
+        "value": "Gift is selected by default",
+        "type": "TEXT"
+      },
+      "removed_from_betslip": {
+        "key": "removed_from_betslip",
+        "value": "Removed from Betslip",
+        "type": "TEXT"
+      },
+      "auto_bet": {
+        "key": "auto_bet",
+        "value": "Auto Bet",
+        "type": "TEXT"
+      },
+      "auto_bet_hint": {
+        "key": "auto_bet_hint",
+        "value": "AutoBet automatically places your bet when your target Odds are met",
+        "type": "TEXT"
+      },
+      "play": {
+        "key": "play",
+        "value": "Play",
+        "type": "TEXT"
+      },
+      "players_are_currently_playing": {
+        "key": "players_are_currently_playing",
+        "value": "players are currently playing {gameName}",
+        "type": "TEXT"
+      },
+      "auto_bet_exceed_max_days_toast": {
+        "key": "auto_bet_exceed_max_days_toast",
+        "value": "AutoBet is only available for matches within the next {days} days.",
+        "type": "TEXT"
+      },
+      "only_1_selection_supported": {
+        "key": "only_1_selection_supported",
+        "value": "Only 1 selection is supported",
+        "type": "TEXT"
+      },
+      "place_auto_bet": {
+        "key": "place_auto_bet",
+        "value": "Place AutoBet",
+        "type": "TEXT"
+      },
+      "bet_type": {
+        "key": "bet_type",
+        "value": "Bet Type",
+        "type": "TEXT"
+      },
+      "switch_simple_mode_unavailable": {
+        "key": "switch_simple_mode_unavailable",
+        "value": "Switch to Simple Mode is unavailable with Flexi, 1Cut and AnyWin",
+        "type": "TEXT"
+      }
+    },
+    "version": "1773137875000"
+  }
+}

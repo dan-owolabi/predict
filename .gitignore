@@ -4,3 +4,12 @@ __pycache__/
 prediction_history.json
 benchmark.py
 test_bot.py
+.claude/
+predictions_db.json
+railway_logs.txt
+railway_logs2.txt
+railway_full_logs.txt
+test_output.txt
+test_fixtures_output.txt
+xg_inspect.txt
+inspect_output.txt

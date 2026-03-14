@@ -1,0 +1,171 @@
+market_group,market_title
+Goals,1st Half - Away Team Clean Sheet
+Goals,1st Half - Exact Goals
+Goals,1st Half - GG/NG
+Goals,1st Half - Home Team Clean Sheet
+Goals,1st Half - Multigoals
+Goals,1st Half - Odd/Even
+Goals,1st half - Bournemouth Over/Under
+Goals,1st half - Burnley Over/Under
+Goals,1st/2nd Half GG/NG
+Goals,2nd Half - 1st Goal
+Goals,2nd Half - Away Team Clean Sheet
+Goals,2nd Half - Bournemouth Over/Under
+Goals,2nd Half - Burnley Over/Under
+Goals,2nd Half - Exact Goals
+Goals,2nd Half - GG/NG
+Goals,2nd Half - Home Team Clean Sheet
+Goals,2nd Half - Multigoals
+Goals,2nd Half - Odd/Even
+Goals,Away Multigoals
+Goals,Away Team Clean Sheet
+Goals,Away Team Goals
+Goals,Away Team Odd/Even
+Goals,Away Team To Score Yes/No
+Goals,Away Team to Score In Both Halves
+Goals,Both Halves Over 1.5
+Goals,Both Halves Under 1.5
+Goals,Bournemouth Over/Under
+Goals,Burnley Over/Under
+Goals,Excluded Number of Goals - Away
+Goals,Excluded Number of Goals - Home
+Goals,Goal Bounds - Away
+Goals,Goal Bounds - Home
+Goals,Home Multigoals
+Goals,Home Team Clean Sheet
+Goals,Home Team Goals
+Goals,Home Team Odd/Even
+Goals,Home Team To Score Yes/No
+Goals,Home Team to Score In Both Halves
+Goals,Multigoals
+Goals,Multiscores
+Goals,No Draw Both Teams To Score Yes/No
+Half,1st Half - 1X2
+Half,1st Half - 1X2 & GG/NG
+Half,1st Half - 1X2 & Over/Under
+Half,1st Half - 1st Goal
+Half,1st Half - Asian Handicap
+Half,1st Half - Correct Score
+Half,1st Half - Double Chance
+Half,1st Half - Double Chance & GG/NG
+Half,1st Half - Draw No Bet
+Half,1st Half - Handicap
+Half,1st Half - Over/Under
+Half,2nd Half - 1X2
+Half,2nd Half - 1X2 & GG/NG
+Half,2nd Half - 1X2 & Over/Under
+Half,2nd Half - Asian Handicap
+Half,2nd Half - Correct Score
+Half,2nd Half - Double Chance
+Half,2nd Half - Double Chance & GG/NG
+Half,2nd Half - Draw No Bet
+Half,2nd Half - Handicap 0:1
+Half,2nd Half - Handicap 1:0
+Half,2nd Half - Handicap 2:0
+Half,2nd Half - Over/Under
+Half,2nd Half Away Team Total Goals Odd or Even
+Half,2nd Half Away Team to Score Yes/No
+Half,2nd Half Home Team Total Goals Odd or Even
+Half,2nd Half Home Team to Score Yes/No
+Half,Away Team Highest Scoring Half
+Half,Away Team to Win Both Halves
+Half,Away Team to Win Either Half
+Half,Both Teams to Score in Both Halves Yes/No
+Half,Double Chance & 1st Half GG/NG
+Half,Double Chance & 2nd Half GG/NG
+Half,Excluded Number of Goals - First Half
+Half,Goal Bounds - 1st Half
+Half,Half Time/Full Time Correct Score
+Half,Half-time Away Team Total Goals Odd or Even
+Half,Half-time Away Team to Score Yes/No
+Half,Half-time Home Team To Score Yes/No
+Half,Half-time Home Team Total Goals Odd or Even
+Half,Highest Scoring Half
+Half,Home Team Highest Scoring Half
+Half,Home Team to Win Both Halves
+Half,Home Team to Win Either Half
+Main,1X2
+Main,1X2 - 1UP
+Main,1X2 - 2UP
+Main,1st Goal
+Main,Any Team To Score 2 or More Goals in a Row
+Main,Any Team To Score 3 or More Goals in a Row
+Main,Any Team to lead by 1 Goal at any time
+Main,Any Team to lead by 2 Goals at any time
+Main,Any Team to lead by 3 Goals at any time
+Main,Asian Handicap -0.5
+Main,Asian Handicap 0.5
+Main,Asian Handicap 1.5
+Main,Asian Handicap 2.5
+Main,Away No Bet
+Main,Away Team To Score 2 or More Goals in a Row
+Main,Away Team To Score 3 or More Goals in a Row
+Main,Away Team to lead by 1 Goal at any time
+Main,Away Team to lead by 2 Goals at any time
+Main,Away Team to lead by 3 Goals at any time
+Main,Correct Score
+Main,Correct Score [0:0]
+Main,Double Chance
+Main,Draw No Bet
+Main,Exact Goals
+Main,Excluded Number of Goals
+Main,GG/NG
+Main,GG/NG 2+
+Main,Goal Bounds
+Main,Goal Range
+Main,Half Time/Full Time
+Main,Handicap 0:1
+Main,Handicap 0:2
+Main,Handicap 1:0
+Main,Handicap 2:0
+Main,Handicap 3:0
+Main,Handicap 4:0
+Main,Home No Bet
+Main,Home Team To Score 2 or More Goals in a Row
+Main,Home Team To Score 3 or More Goals in a Row
+Main,Home Team to lead by 1 Goal at any time
+Main,Home Team to lead by 2 Goals at any time
+Main,Home Team to lead by 3 Goals at any time
+Main,Last Goal
+Main,Odd/Even
+Main,Over/Under
+Main,Over/Under - Early Goals
+Main,Teams to Score
+Main,Winning Margin
+Minutes,10 minutes - 1X2 from 1 to 10
+Minutes,1X2 from 1 to 15 minute
+Minutes,1X2 from 1 to 20 minute
+Minutes,1X2 from 1 to 25 minute
+Minutes,1X2 from 1 to 30 minute
+Minutes,1X2 from 1 to 35 minute
+Minutes,1X2 from 1 to 40 minute
+Minutes,1X2 from 1 to 5 minute
+Minutes,1X2 from 1 to 50 minute
+Minutes,1X2 from 1 to 55 minute
+Minutes,1X2 from 1 to 60 minute
+Minutes,1X2 from 1 to 65 minute
+Minutes,1X2 from 1 to 70 minute
+Minutes,1X2 from 1 to 75 minute
+Minutes,1X2 from 1 to 80 minute
+Minutes,1X2 from 1 to 85 minute
+Minutes,Total Goals Over/Under from 1 to 10 minute
+Minutes,Total Goals Over/Under from 1 to 15 minute
+Minutes,Total Goals Over/Under from 1 to 20 minute
+Minutes,Total Goals Over/Under from 1 to 25 minute
+Minutes,Total Goals Over/Under from 1 to 30 minute
+Minutes,Total Goals Over/Under from 1 to 35 minute
+Minutes,Total Goals Over/Under from 1 to 40 minute
+Minutes,Total Goals Over/Under from 1 to 5 minute
+Minutes,Total Goals Over/Under from 1 to 50 minute
+Minutes,Total Goals Over/Under from 1 to 55 minute
+Minutes,Total Goals Over/Under from 1 to 60 minute
+Minutes,Total Goals Over/Under from 1 to 65 minute
+Minutes,Total Goals Over/Under from 1 to 70 minute
+Minutes,Total Goals Over/Under from 1 to 75 minute
+Minutes,Total Goals Over/Under from 1 to 80 minute
+Minutes,Total Goals Over/Under from 1 to 85 minute
+Minutes,When will the 1st goal be scored (10 min interval)
+Minutes,When will the 1st goal be scored (15 min interval)
+Players,1st Goalscorer
+Players,Anytime Goalscorer
+Players,Last Goalscorer

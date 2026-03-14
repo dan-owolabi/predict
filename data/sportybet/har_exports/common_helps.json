@@ -1,0 +1,401 @@
+{
+  "name": "common_helps",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/common_helps",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 78,
+  "payload": {
+    "keys": {
+      "how_to_play": {
+        "key": "how_to_play",
+        "value": "How To Play",
+        "type": "TEXT"
+      },
+      "about_us": {
+        "key": "about_us",
+        "value": "About Us",
+        "type": "TEXT"
+      },
+      "t_and_c": {
+        "key": "t_and_c",
+        "value": "Terms & Conditions",
+        "type": "TEXT"
+      },
+      "responsible": {
+        "key": "responsible",
+        "value": "Responsible Gaming",
+        "type": "TEXT"
+      },
+      "privacy": {
+        "key": "privacy",
+        "value": "Privacy Policy",
+        "type": "TEXT"
+      },
+      "group": {
+        "key": "group",
+        "value": "Sporty Group",
+        "type": "TEXT"
+      },
+      "faq": {
+        "key": "faq",
+        "value": "FAQ",
+        "type": "TEXT"
+      },
+      "sports": {
+        "key": "sports",
+        "value": "Sports",
+        "type": "TEXT"
+      },
+      "live_betting": {
+        "key": "live_betting",
+        "value": "LiveBetting",
+        "type": "TEXT"
+      },
+      "scheduled_virtuals": {
+        "key": "scheduled_virtuals",
+        "value": "Scheduled Virtuals",
+        "type": "TEXT"
+      },
+      "jackpot": {
+        "key": "jackpot",
+        "value": "Jackpot",
+        "type": "TEXT"
+      },
+      "others": {
+        "key": "others",
+        "value": "Others",
+        "type": "TEXT"
+      },
+      "live_games": {
+        "key": "live_games",
+        "value": "Live Games",
+        "type": "TEXT"
+      },
+      "games": {
+        "key": "games",
+        "value": "Games",
+        "type": "TEXT"
+      },
+      "version": {
+        "key": "version",
+        "value": "Version {version}",
+        "type": "TEXT"
+      },
+      "title_t_and_c": {
+        "key": "title_t_and_c",
+        "value": "Terms and Conditions",
+        "type": "TEXT"
+      },
+      "general": {
+        "key": "general",
+        "value": "General",
+        "type": "TEXT"
+      },
+      "how_to_play_sports": {
+        "key": "how_to_play_sports",
+        "value": "How to play Sports",
+        "type": "TEXT"
+      },
+      "general_settlement_and_cancellation_rules": {
+        "key": "general_settlement_and_cancellation_rules",
+        "value": "General settlement and cancellation rules",
+        "type": "TEXT"
+      },
+      "sporty_soccer": {
+        "key": "sporty_soccer",
+        "value": "Sporty Soccer",
+        "type": "TEXT"
+      },
+      "sms_tutorials": {
+        "key": "sms_tutorials",
+        "value": "SMS Tutorials",
+        "type": "TEXT"
+      },
+      "how_to_sign_up_register": {
+        "key": "how_to_sign_up_register",
+        "value": "How to sign up/register",
+        "type": "TEXT"
+      },
+      "how_to_deposit": {
+        "key": "how_to_deposit",
+        "value": "How to Deposit",
+        "type": "TEXT"
+      },
+      "how_to_withdraw_your_winnings": {
+        "key": "how_to_withdraw_your_winnings",
+        "value": "How to withdraw your winnings",
+        "type": "TEXT"
+      },
+      "how_to_check_your_balance": {
+        "key": "how_to_check_your_balance",
+        "value": "How to check your balance",
+        "type": "TEXT"
+      },
+      "forgot_your_pin": {
+        "key": "forgot_your_pin",
+        "value": "Forgot your PIN",
+        "type": "TEXT"
+      },
+      "how_to_place_a_bet": {
+        "key": "how_to_place_a_bet",
+        "value": "How to place a bet",
+        "type": "TEXT"
+      },
+      "how_to_check_ticket_id_result": {
+        "key": "how_to_check_ticket_id_result",
+        "value": "How to check Ticket ID result",
+        "type": "TEXT"
+      },
+      "how_to_check_the_result_of_a_game": {
+        "key": "how_to_check_the_result_of_a_game",
+        "value": "How to check the result of a Game",
+        "type": "TEXT"
+      },
+      "how_to_check_our_recommended_matches": {
+        "key": "how_to_check_our_recommended_matches",
+        "value": "How to check our recommended matches",
+        "type": "TEXT"
+      },
+      "how_to_register_with_sportybet_using_your_friends_invitation": {
+        "key": "how_to_register_with_sportybet_using_your_friends_invitation",
+        "value": "How to register with SportyBet using your friend's invitation",
+        "type": "TEXT"
+      },
+      "menu": {
+        "key": "menu",
+        "value": "Menu",
+        "type": "TEXT"
+      },
+      "how_to_register": {
+        "key": "how_to_register",
+        "value": "How to Register",
+        "type": "TEXT"
+      },
+      "was_your_deposit_unsuccessful": {
+        "key": "was_your_deposit_unsuccessful",
+        "value": "Was your deposit unsuccessful",
+        "type": "TEXT"
+      },
+      "how_to_withdraw": {
+        "key": "how_to_withdraw",
+        "value": "How to Withdraw",
+        "type": "TEXT"
+      },
+      "how_to_view_transaction_and_bet_history": {
+        "key": "how_to_view_transaction_and_bet_history",
+        "value": "How to view Transactions & Bet History",
+        "type": "TEXT"
+      },
+      "how_to_cashout": {
+        "key": "how_to_cashout",
+        "value": "How to Cashout",
+        "type": "TEXT"
+      },
+      "bonuses_and_gifts": {
+        "key": "bonuses_and_gifts",
+        "value": "Bonuses and Gifts",
+        "type": "TEXT"
+      },
+      "flexible_bet": {
+        "key": "flexible_bet",
+        "value": "Flexible Bet",
+        "type": "TEXT"
+      },
+      "how_to_rebet": {
+        "key": "how_to_rebet",
+        "value": "How to Rebet",
+        "type": "TEXT"
+      },
+      "how_to_download_the_sportybet_mobile_app": {
+        "key": "how_to_download_the_sportybet_mobile_app",
+        "value": "How to Download the SportyBet Mobile App",
+        "type": "TEXT"
+      },
+      "introduction": {
+        "key": "introduction",
+        "value": "Introduction",
+        "type": "TEXT"
+      },
+      "your_sportybet_account": {
+        "key": "your_sportybet_account",
+        "value": "Your SportyBet Account",
+        "type": "TEXT"
+      },
+      "your_finances": {
+        "key": "your_finances",
+        "value": "Your Finances",
+        "type": "TEXT"
+      },
+      "betting_procedures": {
+        "key": "betting_procedures",
+        "value": "Betting Procedures",
+        "type": "TEXT"
+      },
+      "use_of_the_website": {
+        "key": "use_of_the_website",
+        "value": "Use of the Website",
+        "type": "TEXT"
+      },
+      "our_liability": {
+        "key": "our_liability",
+        "value": "Our Liability",
+        "type": "TEXT"
+      },
+      "our_intellectual_property_rights": {
+        "key": "our_intellectual_property_rights",
+        "value": "Our Intellectual Property Rights",
+        "type": "TEXT"
+      },
+      "other_provisions": {
+        "key": "other_provisions",
+        "value": "Other Provisions",
+        "type": "TEXT"
+      },
+      "complaints_disputes_governing_law_and_jurisdiction": {
+        "key": "complaints_disputes_governing_law_and_jurisdiction",
+        "value": "Complaints, Disputes, Governing Law and Jurisdiction",
+        "type": "TEXT"
+      },
+      "appendix_one": {
+        "key": "appendix_one",
+        "value": "Appendix One",
+        "type": "TEXT"
+      },
+      "appendix_two": {
+        "key": "appendix_two",
+        "value": "Appendix Two",
+        "type": "TEXT"
+      },
+      "responsible_gaming": {
+        "key": "responsible_gaming",
+        "value": "Responsible Gaming",
+        "type": "TEXT"
+      },
+      "stay_in_control_its_only_a_game": {
+        "key": "stay_in_control_its_only_a_game",
+        "value": "Stay in Control, It's Only a Game",
+        "type": "TEXT"
+      },
+      "getting_help": {
+        "key": "getting_help",
+        "value": "Getting Help",
+        "type": "TEXT"
+      },
+      "restrictions_of_minors": {
+        "key": "restrictions_of_minors",
+        "value": "Restrictions of Minors",
+        "type": "TEXT"
+      },
+      "problem_recognition": {
+        "key": "problem_recognition",
+        "value": "Problem Recognition",
+        "type": "TEXT"
+      },
+      "friends_and_family": {
+        "key": "friends_and_family",
+        "value": "Friends and Family",
+        "type": "TEXT"
+      },
+      "purpose_of_collection": {
+        "key": "purpose_of_collection",
+        "value": "Purpose of Collection",
+        "type": "TEXT"
+      },
+      "disclosure_to_third_parties": {
+        "key": "disclosure_to_third_parties",
+        "value": "Disclosure to Third Parties",
+        "type": "TEXT"
+      },
+      "protection_of_information": {
+        "key": "protection_of_information",
+        "value": "Protection of Information",
+        "type": "TEXT"
+      },
+      "access_of_information": {
+        "key": "access_of_information",
+        "value": "Access of Information",
+        "type": "TEXT"
+      },
+      "gdpr": {
+        "key": "gdpr",
+        "value": "GDPR",
+        "type": "TEXT"
+      },
+      "commitment_to_privacy": {
+        "key": "commitment_to_privacy",
+        "value": "Commitment to privacy",
+        "type": "TEXT"
+      },
+      "self_exclusion": {
+        "key": "self_exclusion",
+        "value": "Self-Exclusion",
+        "type": "TEXT"
+      },
+      "privacy_policy": {
+        "key": "privacy_policy",
+        "value": "Privacy Policy",
+        "type": "TEXT"
+      },
+      "sporty_group": {
+        "key": "sporty_group",
+        "value": "Sporty Group",
+        "type": "TEXT"
+      },
+      "anti_money_laundering": {
+        "key": "anti_money_laundering",
+        "value": "Anti-Money Laundering",
+        "type": "TEXT"
+      },
+      "how_to_edit_a_bet": {
+        "key": "how_to_edit_a_bet",
+        "value": "How to Edit a Bet",
+        "type": "TEXT"
+      },
+      "sportybet_help": {
+        "key": "sportybet_help",
+        "value": "SportyBet Help",
+        "type": "TEXT"
+      },
+      "license_statement": {
+        "key": "license_statement",
+        "value": " ",
+        "type": "TEXT"
+      },
+      "how_to_use_sportyinsure": {
+        "key": "how_to_use_sportyinsure",
+        "value": "How to use SportyInsure",
+        "type": "TEXT"
+      },
+      "biometrics_authentication": {
+        "key": "biometrics_authentication",
+        "value": "Biometric Authentication",
+        "type": "TEXT"
+      },
+      "popia": {
+        "key": "popia",
+        "value": "POPIA",
+        "type": "TEXT"
+      },
+      "time_out": {
+        "key": "time_out",
+        "value": "Self-Exclusion",
+        "type": "TEXT"
+      },
+      "cookie_policy": {
+        "key": "cookie_policy",
+        "value": "Cookie Policy",
+        "type": "TEXT"
+      },
+      "responsible_gambling": {
+        "key": "responsible_gambling",
+        "value": "Responsible Gambling",
+        "type": "TEXT"
+      },
+      "winners_know_when_to_stop": {
+        "key": "winners_know_when_to_stop",
+        "value": "Winners Know When to Stop",
+        "type": "TEXT"
+      }
+    },
+    "version": "1771523869000"
+  }
+}

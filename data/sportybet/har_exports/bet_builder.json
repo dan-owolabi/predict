@@ -1,0 +1,161 @@
+{
+  "name": "bet_builder",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/bet_builder",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 30,
+  "payload": {
+    "keys": {
+      "bet_builder": {
+        "key": "bet_builder",
+        "value": "Bet Builder",
+        "type": "TEXT"
+      },
+      "add_to_betslip": {
+        "key": "add_to_betslip",
+        "value": "Add to Betslip",
+        "type": "TEXT"
+      },
+      "add_another_selection": {
+        "key": "add_another_selection",
+        "value": "Please add another selection",
+        "type": "TEXT"
+      },
+      "special_odds": {
+        "key": "special_odds",
+        "value": "Special Odds",
+        "type": "TEXT"
+      },
+      "special_odds_message": {
+        "key": "special_odds_message",
+        "value": "Bets within the same match are related. Odds calculations are subject to correlation factor.",
+        "type": "TEXT"
+      },
+      "discard_selections_title": {
+        "key": "discard_selections_title",
+        "value": "Discard Selections?",
+        "type": "TEXT"
+      },
+      "discard_selections_message": {
+        "key": "discard_selections_message",
+        "value": "Leaving this page will discard your selections in Bet Builder.",
+        "type": "TEXT"
+      },
+      "selections_limit_exceeded_error": {
+        "key": "selections_limit_exceeded_error",
+        "value": "You\\'ve reached the maximum selections({limit}) of Bet Builder, please delete some selections.",
+        "type": "TEXT"
+      },
+      "odds_limit_exceeded_error": {
+        "key": "odds_limit_exceeded_error",
+        "value": "You\\'ve reached the maximum odds({limit}) of Bet Builder, please delete some selections.",
+        "type": "TEXT"
+      },
+      "delete_some_selections": {
+        "key": "delete_some_selections",
+        "value": "Please delete some selections to continue",
+        "type": "TEXT"
+      },
+      "tutorial_1": {
+        "key": "tutorial_1",
+        "value": "https://s.sporty.net/cms/bb1_528a2a0245.png",
+        "type": "TEXT"
+      },
+      "tutorial_2": {
+        "key": "tutorial_2",
+        "value": "https://s.sporty.net/cms/bb2_b0ebdf1d2d.png",
+        "type": "TEXT"
+      },
+      "tutorial_1_dark": {
+        "key": "tutorial_1_dark",
+        "value": "https://s.sporty.net/cms/bb1_dm_2c0754548e.png",
+        "type": "TEXT"
+      },
+      "tutorial_2_dark": {
+        "key": "tutorial_2_dark",
+        "value": "https://s.sporty.net/cms/bb2_dm_07dd58818c.png",
+        "type": "TEXT"
+      },
+      "tutorial_1_msg": {
+        "key": "tutorial_1_msg",
+        "value": "Add more than one selection\\nto create a Bet Builder",
+        "type": "TEXT"
+      },
+      "tutorial_2_msg": {
+        "key": "tutorial_2_msg",
+        "value": "Add your selected\\nBet Builder to Betslip",
+        "type": "TEXT"
+      },
+      "max_odds_reached": {
+        "key": "max_odds_reached",
+        "value": "You've reached the maximum odds ({maxOdds}) of Bet Builder, please delete some selections.\n\n\n\n\n",
+        "type": "TEXT"
+      },
+      "max_selections_limit_reached": {
+        "key": "max_selections_limit_reached",
+        "value": "You've reached the maximum selections ({maxSelections}) of Bet Builder, please delete some selections.",
+        "type": "TEXT"
+      },
+      "zero_win_bet": {
+        "key": "zero_win_bet",
+        "value": "This betting combination is unavailable. Please adjust your selections.",
+        "type": "TEXT"
+      },
+      "other_failure_type": {
+        "key": "other_failure_type",
+        "value": "Please try again later or choose a different combination.",
+        "type": "TEXT"
+      },
+      "you_reached_selections_limit": {
+        "key": "you_reached_selections_limit",
+        "value": "You've reached the maximum number of allowed selections {maxSelections}.",
+        "type": "TEXT"
+      },
+      "you_reached_odds_limit": {
+        "key": "you_reached_odds_limit",
+        "value": "You've reached max odds for Bet Builder. Please remove some selections first.",
+        "type": "TEXT"
+      },
+      "cashout_unavailable_bb": {
+        "key": "cashout_unavailable_bb",
+        "value": " Cashout is unavailable for Bet Builder.",
+        "type": "TEXT"
+      },
+      "build_your_own": {
+        "key": "build_your_own",
+        "value": "Create Your Own",
+        "type": "TEXT"
+      },
+      "built_for_you": {
+        "key": "built_for_you",
+        "value": "Quick Picks",
+        "type": "TEXT"
+      },
+      "explore_top_bb": {
+        "key": "explore_top_bb",
+        "value": "Create your own Bet Builder bet or choose from ready-made options.",
+        "type": "TEXT"
+      },
+      "discard_selections_text": {
+        "key": "discard_selections_text",
+        "value": "Leaving this page will discard your selections in Bet Builder.",
+        "type": "TEXT"
+      },
+      "stay": {
+        "key": "stay",
+        "value": "Stay",
+        "type": "TEXT"
+      },
+      "discard": {
+        "key": "discard",
+        "value": "Discard",
+        "type": "TEXT"
+      },
+      "remove": {
+        "key": "remove",
+        "value": "Remove",
+        "type": "TEXT"
+      }
+    },
+    "version": "1773074210000"
+  }
+}

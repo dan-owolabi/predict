@@ -1,0 +1,256 @@
+{
+  "name": "common_sports",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/common_sports",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 49,
+  "payload": {
+    "keys": {
+      "table_tennis": {
+        "key": "table_tennis",
+        "value": "Table Tennis",
+        "type": "TEXT"
+      },
+      "football": {
+        "key": "football",
+        "value": "Football",
+        "type": "TEXT"
+      },
+      "counter_strike": {
+        "key": "counter_strike",
+        "value": "Counter-Strike",
+        "type": "TEXT"
+      },
+      "volleyball": {
+        "key": "volleyball",
+        "value": "Volleyball",
+        "type": "TEXT"
+      },
+      "darts": {
+        "key": "darts",
+        "value": "Darts",
+        "type": "TEXT"
+      },
+      "beach_volley": {
+        "key": "beach_volley",
+        "value": "Beach Volleyball",
+        "type": "TEXT"
+      },
+      "badminton": {
+        "key": "badminton",
+        "value": "Badminton",
+        "type": "TEXT"
+      },
+      "tennis": {
+        "key": "tennis",
+        "value": "Tennis",
+        "type": "TEXT"
+      },
+      "basketball": {
+        "key": "basketball",
+        "value": "Basketball",
+        "type": "TEXT"
+      },
+      "league_of_legends": {
+        "key": "league_of_legends",
+        "value": "League of Legends",
+        "type": "TEXT"
+      },
+      "ice_hockey": {
+        "key": "ice_hockey",
+        "value": "Ice Hockey",
+        "type": "TEXT"
+      },
+      "handball": {
+        "key": "handball",
+        "value": "Handball",
+        "type": "TEXT"
+      },
+      "eice_hockey": {
+        "key": "eice_hockey",
+        "value": "eIce Hockey",
+        "type": "TEXT"
+      },
+      "dota_2": {
+        "key": "dota_2",
+        "value": "Dota 2",
+        "type": "TEXT"
+      },
+      "rugby": {
+        "key": "rugby",
+        "value": "Rugby",
+        "type": "TEXT"
+      },
+      "cricket": {
+        "key": "cricket",
+        "value": "Cricket",
+        "type": "TEXT"
+      },
+      "f1": {
+        "key": "f1",
+        "value": "F1",
+        "type": "TEXT"
+      },
+      "mma": {
+        "key": "mma",
+        "value": "MMA",
+        "type": "TEXT"
+      },
+      "futsal": {
+        "key": "futsal",
+        "value": "Futsal",
+        "type": "TEXT"
+      },
+      "american_football": {
+        "key": "american_football",
+        "value": "American Football",
+        "type": "TEXT"
+      },
+      "baseball": {
+        "key": "baseball",
+        "value": "Baseball",
+        "type": "TEXT"
+      },
+      "efootball": {
+        "key": "efootball",
+        "value": "eFootball",
+        "type": "TEXT"
+      },
+      "ebasketball": {
+        "key": "ebasketball",
+        "value": "eBasketball",
+        "type": "TEXT"
+      },
+      "more_sports": {
+        "key": "more_sports",
+        "value": "More Sports",
+        "type": "TEXT"
+      },
+      "lol": {
+        "key": "lol",
+        "value": "LoL",
+        "type": "TEXT"
+      },
+      "sporty_soccer": {
+        "key": "sporty_soccer",
+        "value": "Sporty Soccer",
+        "type": "TEXT"
+      },
+      "horses": {
+        "key": "horses",
+        "value": "Horses",
+        "type": "TEXT"
+      },
+      "dogs": {
+        "key": "dogs",
+        "value": "Dogs",
+        "type": "TEXT"
+      },
+      "speedway": {
+        "key": "speedway",
+        "value": "Speedway",
+        "type": "TEXT"
+      },
+      "bikes": {
+        "key": "bikes",
+        "value": "Bikes",
+        "type": "TEXT"
+      },
+      "roulette": {
+        "key": "roulette",
+        "value": "Roulette",
+        "type": "TEXT"
+      },
+      "boxing": {
+        "key": "boxing",
+        "value": "Boxing",
+        "type": "TEXT"
+      },
+      "vfootball": {
+        "key": "vfootball",
+        "value": "vFootball",
+        "type": "TEXT"
+      },
+      "snooker": {
+        "key": "snooker",
+        "value": "Snooker",
+        "type": "TEXT"
+      },
+      "basketball_3x3": {
+        "key": "basketball_3x3",
+        "value": "Basketball 3x3",
+        "type": "TEXT"
+      },
+      "my_favourites": {
+        "key": "my_favourites",
+        "value": "My Favourites",
+        "type": "TEXT"
+      },
+      "top_leagues": {
+        "key": "top_leagues",
+        "value": "Top Leagues",
+        "type": "TEXT"
+      },
+      "top_countries": {
+        "key": "top_countries",
+        "value": "Top Countries",
+        "type": "TEXT"
+      },
+      "a_z": {
+        "key": "a_z",
+        "value": "A-Z",
+        "type": "TEXT"
+      },
+      "view_your_favourites_here": {
+        "key": "view_your_favourites_here",
+        "value": "View your favourites here!",
+        "type": "TEXT"
+      },
+      "tournament_has_been_added_to_my_favourites": {
+        "key": "tournament_has_been_added_to_my_favourites",
+        "value": "{tournamentName} has been added to my Favourites",
+        "type": "TEXT"
+      },
+      "tournament_has_been_removed_from_my_favourites": {
+        "key": "tournament_has_been_removed_from_my_favourites",
+        "value": "{tournamentName} has been removed from my Favourites",
+        "type": "TEXT"
+      },
+      "formula1": {
+        "key": "formula1",
+        "value": "Formula 1",
+        "type": "TEXT"
+      },
+      "soccer": {
+        "key": "soccer",
+        "value": "Soccer",
+        "type": "TEXT"
+      },
+      "daily": {
+        "key": "daily",
+        "value": "Daily",
+        "type": "TEXT"
+      },
+      "range": {
+        "key": "range",
+        "value": "Range",
+        "type": "TEXT"
+      },
+      "beach_volleyball": {
+        "key": "beach_volleyball",
+        "value": "Beach Volleyball",
+        "type": "TEXT"
+      },
+      "esoccer": {
+        "key": "esoccer",
+        "value": "eSoccer",
+        "type": "TEXT"
+      },
+      "horse_racing": {
+        "key": "horse_racing",
+        "value": "Horse Racing",
+        "type": "TEXT"
+      }
+    },
+    "version": "1769623527000"
+  }
+}

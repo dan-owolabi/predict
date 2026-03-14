@@ -1,0 +1,596 @@
+{
+  "name": "common_games",
+  "url": "https://www.sportybet.com/ng/m/cms/pages/export/common_games",
+  "har_file": "C:\\Users\\Danny\\Downloads\\players.har",
+  "keys_count": 117,
+  "payload": {
+    "keys": {
+      "sports": {
+        "key": "sports",
+        "value": "Sports",
+        "type": "TEXT"
+      },
+      "scheduled_virtuals": {
+        "key": "scheduled_virtuals",
+        "value": "Scheduled Virtuals",
+        "type": "TEXT"
+      },
+      "jackpot": {
+        "key": "jackpot",
+        "value": "Jackpot",
+        "type": "TEXT"
+      },
+      "bingo": {
+        "key": "bingo",
+        "value": "Bingo",
+        "type": "TEXT"
+      },
+      "roulette": {
+        "key": "roulette",
+        "value": "Roulette",
+        "type": "TEXT"
+      },
+      "dice_battle": {
+        "key": "dice_battle",
+        "value": "Dice Battle",
+        "type": "TEXT"
+      },
+      "soccer": {
+        "key": "soccer",
+        "value": "Soccer",
+        "type": "TEXT"
+      },
+      "sporty_fantasy": {
+        "key": "sporty_fantasy",
+        "value": "Sporty Fantasy",
+        "type": "TEXT"
+      },
+      "instant_virtuals": {
+        "key": "instant_virtuals",
+        "value": "Instant Virtuals",
+        "type": "TEXT"
+      },
+      "keno": {
+        "key": "keno",
+        "value": "Keno",
+        "type": "TEXT"
+      },
+      "hi_lo": {
+        "key": "hi_lo",
+        "value": "Hi-Lo",
+        "type": "TEXT"
+      },
+      "even_odd": {
+        "key": "even_odd",
+        "value": "Even Odd",
+        "type": "TEXT"
+      },
+      "live_games": {
+        "key": "live_games",
+        "value": "Live Games",
+        "type": "TEXT"
+      },
+      "red_black": {
+        "key": "red_black",
+        "value": "Red-Black",
+        "type": "TEXT"
+      },
+      "stud_poker": {
+        "key": "stud_poker",
+        "value": "Stud Poker",
+        "type": "TEXT"
+      },
+      "lucky_goal": {
+        "key": "lucky_goal",
+        "value": "Lucky Goal",
+        "type": "TEXT"
+      },
+      "spin2win": {
+        "key": "spin2win",
+        "value": "Spin2Win",
+        "type": "TEXT"
+      },
+      "golden_virtuals": {
+        "key": "golden_virtuals",
+        "value": "Golden Virtuals",
+        "type": "TEXT"
+      },
+      "lucky_poker": {
+        "key": "lucky_poker",
+        "value": "Lucky Poker",
+        "type": "TEXT"
+      },
+      "real_sport": {
+        "key": "real_sport",
+        "value": "Real Sport",
+        "type": "TEXT"
+      },
+      "sportysim": {
+        "key": "sportysim",
+        "value": "SportySIM",
+        "type": "TEXT"
+      },
+      "sporty_bingo": {
+        "key": "sporty_bingo",
+        "value": "Sporty Bingo",
+        "type": "TEXT"
+      },
+      "war_of_bets": {
+        "key": "war_of_bets",
+        "value": "War of Bets",
+        "type": "TEXT"
+      },
+      "six_poker": {
+        "key": "six_poker",
+        "value": "6+ Poker",
+        "type": "TEXT"
+      },
+      "bet_on_poker": {
+        "key": "bet_on_poker",
+        "value": "Bet on Poker",
+        "type": "TEXT"
+      },
+      "baccarat": {
+        "key": "baccarat",
+        "value": "Baccarat",
+        "type": "TEXT"
+      },
+      "wheel": {
+        "key": "wheel",
+        "value": "Wheel",
+        "type": "TEXT"
+      },
+      "dice_duel": {
+        "key": "dice_duel",
+        "value": "Dice Duel",
+        "type": "TEXT"
+      },
+      "speedy_7": {
+        "key": "speedy_7",
+        "value": "Speedy 7",
+        "type": "TEXT"
+      },
+      "lucky_7": {
+        "key": "lucky_7",
+        "value": "Lucky 7",
+        "type": "TEXT"
+      },
+      "lucky_6": {
+        "key": "lucky_6",
+        "value": "Lucky 6",
+        "type": "TEXT"
+      },
+      "lucky_5": {
+        "key": "lucky_5",
+        "value": "Lucky 5",
+        "type": "TEXT"
+      },
+      "sports_betting": {
+        "key": "sports_betting",
+        "value": "Sports Betting",
+        "type": "TEXT"
+      },
+      "sporty_hero": {
+        "key": "sporty_hero",
+        "value": "Sporty Hero",
+        "type": "TEXT"
+      },
+      "sporty_slot": {
+        "key": "sporty_slot",
+        "value": "Sporty Fruit",
+        "type": "TEXT"
+      },
+      "real_sports_game": {
+        "key": "real_sports_game",
+        "value": "Real Sport",
+        "type": "TEXT"
+      },
+      "virtual_sports_game": {
+        "key": "virtual_sports_game",
+        "value": "Scheduled Virtuals",
+        "type": "TEXT"
+      },
+      "jack_pot": {
+        "key": "jack_pot",
+        "value": "Jackpot",
+        "type": "TEXT"
+      },
+      "bingo_win": {
+        "key": "bingo_win",
+        "value": "Bingo",
+        "type": "TEXT"
+      },
+      "high_freq": {
+        "key": "high_freq",
+        "value": "Roulette",
+        "type": "TEXT"
+      },
+      "offline_virtual": {
+        "key": "offline_virtual",
+        "value": "Offline Virtual",
+        "type": "TEXT"
+      },
+      "sporty_soccer": {
+        "key": "sporty_soccer",
+        "value": "Soccer",
+        "type": "TEXT"
+      },
+      "sporty_instant_win": {
+        "key": "sporty_instant_win",
+        "value": "Instant Football",
+        "type": "TEXT"
+      },
+      "sporty_keno": {
+        "key": "sporty_keno",
+        "value": "Keno",
+        "type": "TEXT"
+      },
+      "sporty_hilo": {
+        "key": "sporty_hilo",
+        "value": "Hi-Lo",
+        "type": "TEXT"
+      },
+      "sporty6": {
+        "key": "sporty6",
+        "value": "Sporty 6",
+        "type": "TEXT"
+      },
+      "sporty_red_black": {
+        "key": "sporty_red_black",
+        "value": "Red-Black",
+        "type": "TEXT"
+      },
+      "bet_games": {
+        "key": "bet_games",
+        "value": "Live Games",
+        "type": "TEXT"
+      },
+      "blackjack": {
+        "key": "blackjack",
+        "value": "Black Jack",
+        "type": "TEXT"
+      },
+      "sicbo": {
+        "key": "sicbo",
+        "value": "Sicbo",
+        "type": "TEXT"
+      },
+      "sporty_simulator": {
+        "key": "sporty_simulator",
+        "value": "SportySIM",
+        "type": "TEXT"
+      },
+      "spin_da_bottle": {
+        "key": "spin_da_bottle",
+        "value": "Spin Da Bottle",
+        "type": "TEXT"
+      },
+      "spribe_integration": {
+        "key": "spribe_integration",
+        "value": "Spribe Integration",
+        "type": "TEXT"
+      },
+      "flip_da_coin": {
+        "key": "flip_da_coin",
+        "value": "Flip Da Coin",
+        "type": "TEXT"
+      },
+      "relax_gaming": {
+        "key": "relax_gaming",
+        "value": "Relax Gaming",
+        "type": "TEXT"
+      },
+      "poker": {
+        "key": "poker",
+        "value": "Poker",
+        "type": "TEXT"
+      },
+      "rush": {
+        "key": "rush",
+        "value": "Rush",
+        "type": "TEXT"
+      },
+      "ping_pong": {
+        "key": "ping_pong",
+        "value": "Ping Pong",
+        "type": "TEXT"
+      },
+      "spin_match": {
+        "key": "spin_match",
+        "value": "Spin Match",
+        "type": "TEXT"
+      },
+      "hub88": {
+        "key": "hub88",
+        "value": "Hub 88",
+        "type": "TEXT"
+      },
+      "pragmatic_play": {
+        "key": "pragmatic_play",
+        "value": "Pragmatic Play",
+        "type": "TEXT"
+      },
+      "fruit_hunt": {
+        "key": "fruit_hunt",
+        "value": "Fruit Hunt",
+        "type": "TEXT"
+      },
+      "magic_ball": {
+        "key": "magic_ball",
+        "value": "Magic Ball",
+        "type": "TEXT"
+      },
+      "stp": {
+        "key": "stp",
+        "value": "STP",
+        "type": "TEXT"
+      },
+      "pocket_rockets": {
+        "key": "pocket_rockets",
+        "value": "Pocket Rockets",
+        "type": "TEXT"
+      },
+      "virtual_sports_v4": {
+        "key": "virtual_sports_v4",
+        "value": "Golden Virtuals",
+        "type": "TEXT"
+      },
+      "hubtech": {
+        "key": "hubtech",
+        "value": "HubTech",
+        "type": "TEXT"
+      },
+      "special_one": {
+        "key": "special_one",
+        "value": "Special One",
+        "type": "TEXT"
+      },
+      "sporty_jet": {
+        "key": "sporty_jet",
+        "value": "Sporty Jet",
+        "type": "TEXT"
+      },
+      "astro_x": {
+        "key": "astro_x",
+        "value": "Astro X",
+        "type": "TEXT"
+      },
+      "galaxy_go": {
+        "key": "galaxy_go",
+        "value": "Galaxy Go",
+        "type": "TEXT"
+      },
+      "wheel_and_deal": {
+        "key": "wheel_and_deal",
+        "value": "Wheel and Deal",
+        "type": "TEXT"
+      },
+      "evolution": {
+        "key": "evolution",
+        "value": "Evolution",
+        "type": "TEXT"
+      },
+      "light_and_wonder": {
+        "key": "light_and_wonder",
+        "value": "Light and Wonder",
+        "type": "TEXT"
+      },
+      "mayan_ancient_riches": {
+        "key": "mayan_ancient_riches",
+        "value": "Mayan Ancient Riches",
+        "type": "TEXT"
+      },
+      "sporty_hero_instant": {
+        "key": "sporty_hero_instant",
+        "value": "Sporty Hero Instant",
+        "type": "TEXT"
+      },
+      "sporty_kick": {
+        "key": "sporty_kick",
+        "value": "Sporty Kick",
+        "type": "TEXT"
+      },
+      "instant_basketball": {
+        "key": "instant_basketball",
+        "value": "Instant Basketball",
+        "type": "TEXT"
+      },
+      "build_and_go": {
+        "key": "build_and_go",
+        "value": "Build & Go",
+        "type": "TEXT"
+      },
+      "sugar_dash": {
+        "key": "sugar_dash",
+        "value": "Sugar Dash",
+        "type": "TEXT"
+      },
+      "the_goldmine": {
+        "key": "the_goldmine",
+        "value": "The Goldmine",
+        "type": "TEXT"
+      },
+      "night_n_day": {
+        "key": "night_n_day",
+        "value": "Night n' Day",
+        "type": "TEXT"
+      },
+      "1punch": {
+        "key": "1punch",
+        "value": "1 Punch",
+        "type": "TEXT"
+      },
+      "horse_racing": {
+        "key": "horse_racing",
+        "value": "Racing",
+        "type": "TEXT"
+      },
+      "climb_extreme": {
+        "key": "climb_extreme",
+        "value": "Climb Extreme",
+        "type": "TEXT"
+      },
+      "sporty_skills": {
+        "key": "sporty_skills",
+        "value": "Sporty Skills",
+        "type": "TEXT"
+      },
+      "speedy_bingo": {
+        "key": "speedy_bingo",
+        "value": "Speedy Bingo",
+        "type": "TEXT"
+      },
+      "safari_riches": {
+        "key": "safari_riches",
+        "value": "Safari Riches",
+        "type": "TEXT"
+      },
+      "pearl_drop": {
+        "key": "pearl_drop",
+        "value": "Pearl Drop",
+        "type": "TEXT"
+      },
+      "crazy_rider": {
+        "key": "crazy_rider",
+        "value": "Crazy Rider",
+        "type": "TEXT"
+      },
+      "refs_call": {
+        "key": "refs_call",
+        "value": "Refs Call",
+        "type": "TEXT"
+      },
+      "scorched_fortune": {
+        "key": "scorched_fortune",
+        "value": "Scorched Fortune",
+        "type": "TEXT"
+      },
+      "treasure_of_olympus": {
+        "key": "treasure_of_olympus",
+        "value": "Treasure of Olympus",
+        "type": "TEXT"
+      },
+      "sporty_legends": {
+        "key": "sporty_legends",
+        "value": "Sporty Legends",
+        "type": "TEXT"
+      },
+      "instant_dog_racing": {
+        "key": "instant_dog_racing",
+        "value": "Instant Dog Racing",
+        "type": "TEXT"
+      },
+      "sporty_sub": {
+        "key": "sporty_sub",
+        "value": "Sporty Sub",
+        "type": "TEXT"
+      },
+      "sporty_penalty": {
+        "key": "sporty_penalty",
+        "value": "Sporty Penalty",
+        "type": "TEXT"
+      },
+      "la_liga_penalty": {
+        "key": "la_liga_penalty",
+        "value": "LALIGA PENALTY",
+        "type": "TEXT"
+      },
+      "goal_frenzy": {
+        "key": "goal_frenzy",
+        "value": "Goal Frenzy",
+        "type": "TEXT"
+      },
+      "laliga_frenzy": {
+        "key": "laliga_frenzy",
+        "value": "LALIGA Frenzy",
+        "type": "TEXT"
+      },
+      "beats_and_heats": {
+        "key": "beats_and_heats",
+        "value": "Beats & Heats",
+        "type": "TEXT"
+      },
+      "explore_racing": {
+        "key": "explore_racing",
+        "value": "Explore Racing",
+        "type": "TEXT"
+      },
+      "jollof_wars": {
+        "key": "jollof_wars",
+        "value": "Jollof Wars",
+        "type": "TEXT"
+      },
+      "bet_history": {
+        "key": "bet_history",
+        "value": "Racing - Bet History",
+        "type": "TEXT"
+      },
+      "la_liga_legend": {
+        "key": "la_liga_legend",
+        "value": "LALIGA LEGENDS",
+        "type": "TEXT"
+      },
+      "laliga_kick": {
+        "key": "laliga_kick",
+        "value": "LALIGA Kick",
+        "type": "TEXT"
+      },
+      "sporty_african_cup": {
+        "key": "sporty_african_cup",
+        "value": "Sporty African Cup",
+        "type": "TEXT"
+      },
+      "sporty_cars": {
+        "key": "sporty_cars",
+        "value": "Sporty Cars",
+        "type": "TEXT"
+      },
+      "laliga_rush": {
+        "key": "laliga_rush",
+        "value": "LALIGA Rush",
+        "type": "TEXT"
+      },
+      "goal_rush": {
+        "key": "goal_rush",
+        "value": "Goal Rush",
+        "type": "TEXT"
+      },
+      "laliga_slide": {
+        "key": "laliga_slide",
+        "value": "LALIGA Slide",
+        "type": "TEXT"
+      },
+      "slide_to_win": {
+        "key": "slide_to_win",
+        "value": "Slide to Win",
+        "type": "TEXT"
+      },
+      "laliga_skills": {
+        "key": "laliga_skills",
+        "value": "LALIGA Skills",
+        "type": "TEXT"
+      },
+      "lucky_numbers": {
+        "key": "lucky_numbers",
+        "value": "Lucky Numbers",
+        "type": "TEXT"
+      },
+      "plinko": {
+        "key": "plinko",
+        "value": "LALIGA PLINKO",
+        "type": "TEXT"
+      },
+      "ultra_hero": {
+        "key": "ultra_hero",
+        "value": "Ultra Hero",
+        "type": "TEXT"
+      },
+      "instant_win": {
+        "key": "instant_win",
+        "value": "Instant Football",
+        "type": "TEXT"
+      }
+    },
+    "version": "1771926153000"
+  }
+}
