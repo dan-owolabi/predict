@@ -1,0 +1,3 @@
+lgb_*.txt text eol=lf
+market_models/*.txt text eol=lf
+player_prop_models/*.txt text eol=lf
