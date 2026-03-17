@@ -138,6 +138,29 @@ def feature_matrix(df, feature_cols):
     return df.reindex(columns=feature_cols, fill_value=np.nan).apply(pd.to_numeric, errors="coerce")
 
 
+def _player_prop_thresholds(target):
+    if target == "anytime_scorer":
+        return 58.0, 6.0, 65.0
+    if target in {"shots_over_2_5", "sot_over_1_5"}:
+        return 62.0, 5.0, 70.0
+    if target in {"shots_over_1_5", "sot_over_0_5", "booked_yes"}:
+        return 60.0, 4.0, 65.0
+    return 57.0, 3.0, 60.0
+
+
+def _is_trustworthy_player_prop(row):
+    prob_yes_min, edge_min, minutes_min = _player_prop_thresholds(row["target"])
+    if float(row.get("minutes_r5", 0.0)) < minutes_min:
+        return False
+    if float(row.get("prob_yes", 0.0)) < prob_yes_min:
+        return False
+    if float(row.get("edge", 0.0)) < edge_min:
+        return False
+    if row.get("position") == "GK":
+        return False
+    return True
+
+
 def rank_fixture_players(home, away, top_n=10):
     data, artifacts, models, label_map = load_assets()
     feature_cols = artifacts["feature_cols"]
@@ -183,6 +206,9 @@ def rank_fixture_players(home, away, top_n=10):
         return out
     out = out[(out["pick"] == "YES") & (out["minutes_r5"] >= 55)].copy()
     out["edge"] = out["prob_yes"] - out["base_rate"]
+    out = out[out.apply(_is_trustworthy_player_prop, axis=1)].copy()
+    if out.empty:
+        return out
     out = out.sort_values(["edge", "prob_yes", "team", "player"], ascending=[False, False, True, True]).reset_index(drop=True)
     return out.head(top_n)
 

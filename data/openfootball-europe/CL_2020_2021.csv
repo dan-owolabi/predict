@@ -1,0 +1,126 @@
+date,time,home_team,away_team,home_goals,away_goals,stage,score_token,detail,competition_code,competition_label,season_start
+2020-10-21,18.55,RB Salzburg,Lokomotiv Moskva,2,2,Group A,2-2,(1-1),CL,Champions League,2020
+2020-10-21,21.00,Bayern München,Atlético Madrid,4,0,Group A,4-0,(2-0),CL,Champions League,2020
+2020-10-27,18.55,Lokomotiv Moskva,Bayern München,1,2,Group A,1-2,(0-1),CL,Champions League,2020
+2020-10-27,21.00,Atlético Madrid,RB Salzburg,3,2,Group A,3-2,(1-1),CL,Champions League,2020
+2020-11-03,18.55,Lokomotiv Moskva,Atlético Madrid,1,1,Group A,1-1,(1-1),CL,Champions League,2020
+2020-11-03,21.00,RB Salzburg,Bayern München,2,6,Group A,2-6,(1-2),CL,Champions League,2020
+2020-11-25,21.00,Atlético Madrid,Lokomotiv Moskva,0,0,Group A,0-0,,CL,Champions League,2020
+2020-11-25,,Bayern München,RB Salzburg,3,1,Group A,3-1,(1-0),CL,Champions League,2020
+2020-12-01,18.55,Lokomotiv Moskva,RB Salzburg,1,3,Group A,1-3,(0-2),CL,Champions League,2020
+2020-12-01,21.00,Atlético Madrid,Bayern München,1,1,Group A,1-1,(1-0),CL,Champions League,2020
+2020-12-09,21.00,Bayern München,Lokomotiv Moskva,2,0,Group A,2-0,(0-0),CL,Champions League,2020
+2020-12-09,,RB Salzburg,Atlético Madrid,0,2,Group A,0-2,(0-1),CL,Champions League,2020
+2020-10-21,18.55,Real Madrid,Shakhtar Donetsk,2,3,Group B,2-3,(0-3),CL,Champions League,2020
+2020-10-21,21.00,Inter,Bor. Mönchengladbach,2,2,Group B,2-2,(0-0),CL,Champions League,2020
+2020-10-27,18.55,Shakhtar Donetsk,Inter,0,0,Group B,0-0,,CL,Champions League,2020
+2020-10-27,21.00,Bor. Mönchengladbach,Real Madrid,2,2,Group B,2-2,(1-0),CL,Champions League,2020
+2020-11-03,18.55,Shakhtar Donetsk,Bor. Mönchengladbach,0,6,Group B,0-6,(0-4),CL,Champions League,2020
+2020-11-03,21.00,Real Madrid,Inter,3,2,Group B,3-2,(2-1),CL,Champions League,2020
+2020-11-25,18.55,Bor. Mönchengladbach,Shakhtar Donetsk,4,0,Group B,4-0,(3-0),CL,Champions League,2020
+2020-11-25,21.00,Inter,Real Madrid,0,2,Group B,0-2,(0-1),CL,Champions League,2020
+2020-12-01,18.55,Shakhtar Donetsk,Real Madrid,2,0,Group B,2-0,(0-0),CL,Champions League,2020
+2020-12-01,21.00,Bor. Mönchengladbach,Inter,2,3,Group B,2-3,(1-1),CL,Champions League,2020
+2020-12-09,21.00,Inter,Shakhtar Donetsk,0,0,Group B,0-0,,CL,Champions League,2020
+2020-12-09,,Real Madrid,Bor. Mönchengladbach,2,0,Group B,2-0,(2-0),CL,Champions League,2020
+2020-10-21,21.00,Manchester City,FC Porto,3,1,Group C,3-1,(1-1),CL,Champions League,2020
+2020-10-21,,Olympiakos Piraeus,Olympique Marseille,1,0,Group C,1-0,(0-0),CL,Champions League,2020
+2020-10-27,21.00,FC Porto,Olympiakos Piraeus,2,0,Group C,2-0,(1-0),CL,Champions League,2020
+2020-10-27,,Olympique Marseille,Manchester City,0,3,Group C,0-3,(0-1),CL,Champions League,2020
+2020-11-03,21.00,FC Porto,Olympique Marseille,3,0,Group C,3-0,(2-0),CL,Champions League,2020
+2020-11-03,,Manchester City,Olympiakos Piraeus,3,0,Group C,3-0,(1-0),CL,Champions League,2020
+2020-11-25,18.55,Olympiakos Piraeus,Manchester City,0,1,Group C,0-1,(0-1),CL,Champions League,2020
+2020-11-25,21.00,Olympique Marseille,FC Porto,0,2,Group C,0-2,(0-1),CL,Champions League,2020
+2020-12-01,21.00,FC Porto,Manchester City,0,0,Group C,0-0,,CL,Champions League,2020
+2020-12-01,,Olympique Marseille,Olympiakos Piraeus,2,1,Group C,2-1,(0-1),CL,Champions League,2020
+2020-12-09,21.00,Manchester City,Olympique Marseille,3,0,Group C,3-0,(0-0),CL,Champions League,2020
+2020-12-09,,Olympiakos Piraeus,FC Porto,0,2,Group C,0-2,(0-1),CL,Champions League,2020
+2020-10-21,21.00,AFC Ajax,Liverpool FC,0,1,Group D,0-1,(0-1),CL,Champions League,2020
+2020-10-21,,FC Midtjylland,Atalanta,0,4,Group D,0-4,(0-3),CL,Champions League,2020
+2020-10-27,21.00,Atalanta,AFC Ajax,2,2,Group D,2-2,(0-2),CL,Champions League,2020
+2020-10-27,,Liverpool FC,FC Midtjylland,2,0,Group D,2-0,(0-0),CL,Champions League,2020
+2020-11-03,21.00,Atalanta,Liverpool FC,0,5,Group D,0-5,(0-2),CL,Champions League,2020
+2020-11-03,,FC Midtjylland,AFC Ajax,1,2,Group D,1-2,(1-2),CL,Champions League,2020
+2020-11-25,21.00,AFC Ajax,FC Midtjylland,3,1,Group D,3-1,(0-0),CL,Champions League,2020
+2020-11-25,,Liverpool FC,Atalanta,0,2,Group D,0-2,(0-0),CL,Champions League,2020
+2020-12-01,21.00,Atalanta,FC Midtjylland,1,1,Group D,1-1,(0-1),CL,Champions League,2020
+2020-12-01,,Liverpool FC,AFC Ajax,1,0,Group D,1-0,(0-0),CL,Champions League,2020
+2020-12-09,18.55,AFC Ajax,Atalanta,0,1,Group D,0-1,(0-0),CL,Champions League,2020
+2020-12-09,,FC Midtjylland,Liverpool FC,1,1,Group D,1-1,(0-1),CL,Champions League,2020
+2020-10-20,21.00,Chelsea FC,Sevilla FC,0,0,Group E,0-0,,CL,Champions League,2020
+2020-10-20,,Stade Rennais,FK Krasnodar,1,1,Group E,1-1,(0-0),CL,Champions League,2020
+2020-10-28,18.55,FK Krasnodar,Chelsea FC,0,4,Group E,0-4,(0-1),CL,Champions League,2020
+2020-10-28,21.00,Sevilla FC,Stade Rennais,1,0,Group E,1-0,(0-0),CL,Champions League,2020
+2020-11-04,21.00,Chelsea FC,Stade Rennais,3,0,Group E,3-0,(2-0),CL,Champions League,2020
+2020-11-04,,Sevilla FC,FK Krasnodar,3,2,Group E,3-2,(1-2),CL,Champions League,2020
+2020-11-24,18.55,Stade Rennais,Chelsea FC,1,2,Group E,1-2,(0-1),CL,Champions League,2020
+2020-11-24,,FK Krasnodar,Sevilla FC,1,2,Group E,1-2,(0-1),CL,Champions League,2020
+2020-12-02,18.55,FK Krasnodar,Stade Rennais,1,0,Group E,1-0,(0-0),CL,Champions League,2020
+2020-12-02,21.00,Sevilla FC,Chelsea FC,0,4,Group E,0-4,(0-1),CL,Champions League,2020
+2020-12-08,21.00,Chelsea FC,FK Krasnodar,1,1,Group E,1-1,(1-1),CL,Champions League,2020
+2020-12-08,,Stade Rennais,Sevilla FC,1,3,Group E,1-3,(0-2),CL,Champions League,2020
+2020-10-20,18.55,Zenit St. Petersburg,Club Brugge KV,1,2,Group F,1-2,(0-0),CL,Champions League,2020
+2020-10-20,21.00,Lazio Roma,Borussia Dortmund,3,1,Group F,3-1,(2-0),CL,Champions League,2020
+2020-10-28,21.00,Borussia Dortmund,Zenit St. Petersburg,2,0,Group F,2-0,(0-0),CL,Champions League,2020
+2020-10-28,,Club Brugge KV,Lazio Roma,1,1,Group F,1-1,(1-1),CL,Champions League,2020
+2020-11-04,18.55,Zenit St. Petersburg,Lazio Roma,1,1,Group F,1-1,(1-0),CL,Champions League,2020
+2020-11-04,21.00,Club Brugge KV,Borussia Dortmund,0,3,Group F,0-3,(0-3),CL,Champions League,2020
+2020-11-24,21.00,Borussia Dortmund,Club Brugge KV,3,0,Group F,3-0,(2-0),CL,Champions League,2020
+2020-11-24,,Lazio Roma,Zenit St. Petersburg,3,1,Group F,3-1,(2-1),CL,Champions League,2020
+2020-12-02,21.00,Borussia Dortmund,Lazio Roma,1,1,Group F,1-1,(1-0),CL,Champions League,2020
+2020-12-02,,Club Brugge KV,Zenit St. Petersburg,3,0,Group F,3-0,(1-0),CL,Champions League,2020
+2020-12-08,18.55,Zenit St. Petersburg,Borussia Dortmund,1,2,Group F,1-2,(1-0),CL,Champions League,2020
+2020-12-08,,Lazio Roma,Club Brugge KV,2,2,Group F,2-2,(2-1),CL,Champions League,2020
+2020-10-20,18.55,Dinamo Kiev,Juventus,0,2,Gruppe G,0-2,(0-0),CL,Champions League,2020
+2020-10-20,21.00,FC Barcelona,Ferencvárosi TC,5,1,Gruppe G,5-1,(2-0),CL,Champions League,2020
+2020-10-28,21.00,Ferencvárosi TC,Dinamo Kiev,2,2,Gruppe G,2-2,(0-2),CL,Champions League,2020
+2020-10-28,,Juventus,FC Barcelona,0,2,Gruppe G,0-2,(0-1),CL,Champions League,2020
+2020-11-04,21.00,FC Barcelona,Dinamo Kiev,2,1,Gruppe G,2-1,(1-0),CL,Champions League,2020
+2020-11-04,,Ferencvárosi TC,Juventus,1,4,Gruppe G,1-4,(0-1),CL,Champions League,2020
+2020-11-24,21.00,Dinamo Kiev,FC Barcelona,0,4,Gruppe G,0-4,(0-0),CL,Champions League,2020
+2020-11-24,,Juventus,Ferencvárosi TC,2,1,Gruppe G,2-1,(1-1),CL,Champions League,2020
+2020-12-02,21.00,Juventus,Dinamo Kiev,3,0,Gruppe G,3-0,(1-0),CL,Champions League,2020
+2020-12-02,,Ferencvárosi TC,FC Barcelona,0,3,Gruppe G,0-3,(0-3),CL,Champions League,2020
+2020-12-08,21.00,Dinamo Kiev,Ferencvárosi TC,1,0,Gruppe G,1-0,(0-0),CL,Champions League,2020
+2020-12-08,,FC Barcelona,Juventus,0,3,Gruppe G,0-3,(0-2),CL,Champions League,2020
+2020-10-20,21.00,RB Leipzig,İstanbul Başakşehir,2,0,Gruppe H,2-0,(2-0),CL,Champions League,2020
+2020-10-20,,Paris Saint-Germain,Manchester United,1,2,Gruppe H,1-2,(0-1),CL,Champions League,2020
+2020-10-28,18.55,İstanbul Başakşehir,Paris Saint-Germain,0,2,Gruppe H,0-2,(0-0),CL,Champions League,2020
+2020-10-28,21.00,Manchester United,RB Leipzig,5,0,Gruppe H,5-0,(1-0),CL,Champions League,2020
+2020-11-04,18.55,İstanbul Başakşehir,Manchester United,2,1,Gruppe H,2-1,(2-1),CL,Champions League,2020
+2020-11-04,21.00,RB Leipzig,Paris Saint-Germain,2,1,Gruppe H,2-1,(1-1),CL,Champions League,2020
+2020-11-24,21.00,Manchester United,İstanbul Başakşehir,4,1,Gruppe H,4-1,(3-0),CL,Champions League,2020
+2020-11-24,,Paris Saint-Germain,RB Leipzig,1,0,Gruppe H,1-0,(1-0),CL,Champions League,2020
+2020-12-02,18.55,İstanbul Başakşehir,RB Leipzig,3,4,Gruppe H,3-4,(1-2),CL,Champions League,2020
+2020-12-02,21.00,Manchester United,Paris Saint-Germain,1,3,Gruppe H,1-3,(1-1),CL,Champions League,2020
+2020-12-08,21.00,RB Leipzig,Manchester United,3,2,Gruppe H,3-2,(2-0),CL,Champions League,2020
+2020-12-09,18.55,Paris Saint-Germain,İstanbul Başakşehir,5,1,Gruppe H,5-1,(3-0),CL,Champions League,2020
+2021-02-16,21.00,RB Leipzig,Liverpool FC,0,2,Round of 16,0-2,(0-0),CL,Champions League,2020
+2021-02-16,,FC Barcelona,Paris Saint-Germain,1,4,Round of 16,1-4,(1-1),CL,Champions League,2020
+2021-02-17,21.00,FC Porto,Juventus,2,1,Round of 16,2-1,(1-0),CL,Champions League,2020
+2021-02-17,,Sevilla FC,Borussia Dortmund,2,3,Round of 16,2-3,(1-3),CL,Champions League,2020
+2021-02-23,21.00,Lazio Roma,Bayern München,1,4,Round of 16,1-4,(0-3),CL,Champions League,2020
+2021-02-23,,Atlético Madrid,Chelsea FC,0,1,Round of 16,0-1,(0-0),CL,Champions League,2020
+2021-02-24,21.00,Bor. Mönchengladbach,Manchester City,0,2,Round of 16,0-2,(0-1),CL,Champions League,2020
+2021-02-24,,Atalanta,Real Madrid,0,1,Round of 16,0-1,(0-0),CL,Champions League,2020
+2021-03-09,21.00,Juventus,FC Porto,3,2,Round of 16,3-2,"a.e.t. (2-1, 0-1)",CL,Champions League,2020
+2021-03-09,,Borussia Dortmund,Sevilla FC,2,2,Round of 16,2-2,(1-0),CL,Champions League,2020
+2021-03-10,21.00,Liverpool FC,RB Leipzig,2,0,Round of 16,2-0,(0-0),CL,Champions League,2020
+2021-03-10,,Paris Saint-Germain,FC Barcelona,1,1,Round of 16,1-1,(1-1),CL,Champions League,2020
+2021-03-16,21.00,Manchester City,Bor. Mönchengladbach,2,0,Round of 16,2-0,(2-0),CL,Champions League,2020
+2021-03-16,,Real Madrid,Atalanta,3,1,Round of 16,3-1,(1-0),CL,Champions League,2020
+2021-03-17,21.00,Bayern München,Lazio Roma,2,1,Round of 16,2-1,(1-0),CL,Champions League,2020
+2021-03-17,,Chelsea FC,Atlético Madrid,2,0,Round of 16,2-0,(1-0),CL,Champions League,2020
+2021-04-06,21.00,Manchester City,Borussia Dortmund,2,1,Quarterfinals,2-1,(1-0),CL,Champions League,2020
+2021-04-06,,Real Madrid,Liverpool FC,3,1,Quarterfinals,3-1,(2-0),CL,Champions League,2020
+2021-04-07,21.00,FC Porto,Chelsea FC,0,2,Quarterfinals,0-2,(0-1),CL,Champions League,2020
+2021-04-07,,Bayern München,Paris Saint-Germain,2,3,Quarterfinals,2-3,(1-2),CL,Champions League,2020
+2021-04-13,21.00,Chelsea FC,FC Porto,0,1,Quarterfinals,0-1,(0-0),CL,Champions League,2020
+2021-04-13,,Paris Saint-Germain,Bayern München,0,1,Quarterfinals,0-1,(0-1),CL,Champions League,2020
+2021-04-14,21.00,Borussia Dortmund,Manchester City,1,2,Quarterfinals,1-2,(1-0),CL,Champions League,2020
+2021-04-14,,Liverpool FC,Real Madrid,0,0,Quarterfinals,0-0,,CL,Champions League,2020
+2021-04-27,21.00,Real Madrid,Chelsea FC,1,1,Semifinals,1-1,(1-1),CL,Champions League,2020
+2021-04-28,21.00,Paris Saint-Germain,Manchester City,1,2,Semifinals,1-2,(1-0),CL,Champions League,2020
+2021-05-04,21.00,Manchester City,Paris Saint-Germain,2,0,Semifinals,2-0,(1-0),CL,Champions League,2020
+2021-05-05,21.00,Chelsea FC,Real Madrid,2,0,Semifinals,2-0,(1-0),CL,Champions League,2020
+2021-05-29,21.00,Manchester City,Chelsea FC,0,1,Final,0-1,(0-1),CL,Champions League,2020

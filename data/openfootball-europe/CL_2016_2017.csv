@@ -1,0 +1,126 @@
+date,time,home_team,away_team,home_goals,away_goals,stage,score_token,detail,competition_code,competition_label,season_start
+2016-09-13,20.45,FC Basel 1893,PFC Ludogorets Razgrad,1,1,Group A,1-1,(0-1),CL,Champions League,2016
+2016-09-13,,Paris Saint-Germain,Arsenal FC,1,1,Group A,1-1,(1-0),CL,Champions League,2016
+2016-09-28,20.45,Arsenal FC,FC Basel 1893,2,0,Group A,2-0,(2-0),CL,Champions League,2016
+2016-09-28,,PFC Ludogorets Razgrad,Paris Saint-Germain,1,3,Group A,1-3,(1-1),CL,Champions League,2016
+2016-10-19,20.45,Arsenal FC,PFC Ludogorets Razgrad,6,0,Group A,6-0,(2-0),CL,Champions League,2016
+2016-10-19,,Paris Saint-Germain,FC Basel 1893,3,0,Group A,3-0,(1-0),CL,Champions League,2016
+2016-11-01,20.45,FC Basel 1893,Paris Saint-Germain,1,2,Group A,1-2,(0-1),CL,Champions League,2016
+2016-11-01,,PFC Ludogorets Razgrad,Arsenal FC,2,3,Group A,2-3,(2-2),CL,Champions League,2016
+2016-11-23,20.45,Arsenal FC,Paris Saint-Germain,2,2,Group A,2-2,(1-1),CL,Champions League,2016
+2016-11-23,,PFC Ludogorets Razgrad,FC Basel 1893,0,0,Group A,0-0,,CL,Champions League,2016
+2016-12-06,20.45,FC Basel 1893,Arsenal FC,1,4,Group A,1-4,(0-2),CL,Champions League,2016
+2016-12-06,,Paris Saint-Germain,PFC Ludogorets Razgrad,2,2,Group A,2-2,(0-1),CL,Champions League,2016
+2016-09-13,20.45,Dinamo Kiev,SSC Napoli,1,2,Group B,1-2,(1-2),CL,Champions League,2016
+2016-09-13,,SL Benfica,Beşiktaş,1,1,Group B,1-1,(1-0),CL,Champions League,2016
+2016-09-28,20.45,Beşiktaş,Dinamo Kiev,1,1,Group B,1-1,(1-0),CL,Champions League,2016
+2016-09-28,,SSC Napoli,SL Benfica,4,2,Group B,4-2,(1-0),CL,Champions League,2016
+2016-10-19,20.45,Dinamo Kiev,SL Benfica,0,2,Group B,0-2,(0-1),CL,Champions League,2016
+2016-10-19,,SSC Napoli,Beşiktaş,2,3,Group B,2-3,(1-2),CL,Champions League,2016
+2016-11-01,18.45,Beşiktaş,SSC Napoli,1,1,Group B,1-1,(0-0),CL,Champions League,2016
+2016-11-01,20.45,SL Benfica,Dinamo Kiev,1,0,Group B,1-0,(1-0),CL,Champions League,2016
+2016-11-23,18.45,Beşiktaş,SL Benfica,3,3,Group B,3-3,(0-3),CL,Champions League,2016
+2016-11-23,20.45,SSC Napoli,Dinamo Kiev,0,0,Group B,0-0,,CL,Champions League,2016
+2016-12-06,20.45,Dinamo Kiev,Beşiktaş,6,0,Group B,6-0,(4-0),CL,Champions League,2016
+2016-12-06,,SL Benfica,SSC Napoli,1,2,Group B,1-2,(0-0),CL,Champions League,2016
+2016-09-13,20.45,FC Barcelona,Celtic FC,7,0,Group C,7-0,(2-0),CL,Champions League,2016
+2016-09-14,20.45,Manchester City,Bor. Mönchengladbach,4,0,Group C,4-0,(2-0),CL,Champions League,2016
+2016-09-28,20.45,Bor. Mönchengladbach,FC Barcelona,1,2,Group C,1-2,(1-0),CL,Champions League,2016
+2016-09-28,,Celtic FC,Manchester City,3,3,Group C,3-3,(2-2),CL,Champions League,2016
+2016-10-19,20.45,Celtic FC,Bor. Mönchengladbach,0,2,Group C,0-2,(0-0),CL,Champions League,2016
+2016-10-19,,FC Barcelona,Manchester City,4,0,Group C,4-0,(1-0),CL,Champions League,2016
+2016-11-01,20.45,Bor. Mönchengladbach,Celtic FC,1,1,Group C,1-1,(1-0),CL,Champions League,2016
+2016-11-01,,Manchester City,FC Barcelona,3,1,Group C,3-1,(1-1),CL,Champions League,2016
+2016-11-23,20.45,Bor. Mönchengladbach,Manchester City,1,1,Group C,1-1,(1-1),CL,Champions League,2016
+2016-11-23,,Celtic FC,FC Barcelona,0,2,Group C,0-2,(0-1),CL,Champions League,2016
+2016-12-06,20.45,FC Barcelona,Bor. Mönchengladbach,4,0,Group C,4-0,(1-0),CL,Champions League,2016
+2016-12-06,,Manchester City,Celtic FC,1,1,Group C,1-1,(1-1),CL,Champions League,2016
+2016-09-13,20.45,Bayern München,FK Rostov,5,0,Group D,5-0,(2-0),CL,Champions League,2016
+2016-09-13,,PSV Eindhoven,Atlético Madrid,0,1,Group D,0-1,(0-1),CL,Champions League,2016
+2016-09-28,20.45,Atlético Madrid,Bayern München,1,0,Group D,1-0,(1-0),CL,Champions League,2016
+2016-09-28,,FK Rostov,PSV Eindhoven,2,2,Group D,2-2,(2-2),CL,Champions League,2016
+2016-10-19,20.45,Bayern München,PSV Eindhoven,4,1,Group D,4-1,(2-1),CL,Champions League,2016
+2016-10-19,,FK Rostov,Atlético Madrid,0,1,Group D,0-1,(0-0),CL,Champions League,2016
+2016-11-01,20.45,Atlético Madrid,FK Rostov,2,1,Group D,2-1,(1-1),CL,Champions League,2016
+2016-11-01,,PSV Eindhoven,Bayern München,1,2,Group D,1-2,(1-1),CL,Champions League,2016
+2016-11-23,18.00,FK Rostov,Bayern München,3,2,Group D,3-2,(1-1),CL,Champions League,2016
+2016-11-23,20.45,Atlético Madrid,PSV Eindhoven,2,0,Group D,2-0,(0-0),CL,Champions League,2016
+2016-12-06,20.45,Bayern München,Atlético Madrid,1,0,Group D,1-0,(1-0),CL,Champions League,2016
+2016-12-06,,PSV Eindhoven,FK Rostov,0,0,Group D,0-0,,CL,Champions League,2016
+2016-09-14,20.45,Bayer Leverkusen,CSKA Moskva,2,2,Group E,2-2,(2-2),CL,Champions League,2016
+2016-09-14,,Tottenham Hotspur,AS Monaco,1,2,Group E,1-2,(1-2),CL,Champions League,2016
+2016-09-27,20.45,AS Monaco,Bayer Leverkusen,1,1,Group E,1-1,(0-0),CL,Champions League,2016
+2016-09-27,,CSKA Moskva,Tottenham Hotspur,0,1,Group E,0-1,(0-0),CL,Champions League,2016
+2016-10-18,20.45,Bayer Leverkusen,Tottenham Hotspur,0,0,Group E,0-0,,CL,Champions League,2016
+2016-10-18,,CSKA Moskva,AS Monaco,1,1,Group E,1-1,(1-0),CL,Champions League,2016
+2016-11-02,20.45,AS Monaco,CSKA Moskva,3,0,Group E,3-0,(3-0),CL,Champions League,2016
+2016-11-02,,Tottenham Hotspur,Bayer Leverkusen,0,1,Group E,0-1,(0-0),CL,Champions League,2016
+2016-11-22,18.00,CSKA Moskva,Bayer Leverkusen,1,1,Group E,1-1,(0-1),CL,Champions League,2016
+2016-11-22,20.45,AS Monaco,Tottenham Hotspur,2,1,Group E,2-1,(0-0),CL,Champions League,2016
+2016-12-07,20.45,Bayer Leverkusen,AS Monaco,3,0,Group E,3-0,(1-0),CL,Champions League,2016
+2016-12-07,,Tottenham Hotspur,CSKA Moskva,3,1,Group E,3-1,(2-1),CL,Champions League,2016
+2016-09-14,20.45,Legia Warszawa,Borussia Dortmund,0,6,Group F,0-6,(0-3),CL,Champions League,2016
+2016-09-14,,Real Madrid,Sporting CP,2,1,Group F,2-1,(0-0),CL,Champions League,2016
+2016-09-27,20.45,Borussia Dortmund,Real Madrid,2,2,Group F,2-2,(1-1),CL,Champions League,2016
+2016-09-27,,Sporting CP,Legia Warszawa,2,0,Group F,2-0,(2-0),CL,Champions League,2016
+2016-10-18,20.45,Real Madrid,Legia Warszawa,5,1,Group F,5-1,(3-1),CL,Champions League,2016
+2016-10-18,,Sporting CP,Borussia Dortmund,1,2,Group F,1-2,(0-2),CL,Champions League,2016
+2016-11-02,20.45,Borussia Dortmund,Sporting CP,1,0,Group F,1-0,(1-0),CL,Champions League,2016
+2016-11-02,,Legia Warszawa,Real Madrid,3,3,Group F,3-3,(1-2),CL,Champions League,2016
+2016-11-22,20.45,Borussia Dortmund,Legia Warszawa,8,4,Group F,8-4,(5-2),CL,Champions League,2016
+2016-11-22,,Sporting CP,Real Madrid,1,2,Group F,1-2,(0-1),CL,Champions League,2016
+2016-12-07,20.45,Legia Warszawa,Sporting CP,1,0,Group F,1-0,(1-0),CL,Champions League,2016
+2016-12-07,,Real Madrid,Borussia Dortmund,2,2,Group F,2-2,(1-0),CL,Champions League,2016
+2016-09-14,20.45,Club Brugge KV,Leicester City,0,3,Group G,0-3,(0-2),CL,Champions League,2016
+2016-09-14,,FC Porto,FC København,1,1,Group G,1-1,(1-0),CL,Champions League,2016
+2016-09-27,20.45,FC København,Club Brugge KV,4,0,Group G,4-0,(0-0),CL,Champions League,2016
+2016-09-27,,Leicester City,FC Porto,1,0,Group G,1-0,(1-0),CL,Champions League,2016
+2016-10-18,20.45,Club Brugge KV,FC Porto,1,2,Group G,1-2,(1-0),CL,Champions League,2016
+2016-10-18,,Leicester City,FC København,1,0,Group G,1-0,(1-0),CL,Champions League,2016
+2016-11-02,20.45,FC København,Leicester City,0,0,Group G,0-0,,CL,Champions League,2016
+2016-11-02,,FC Porto,Club Brugge KV,1,0,Group G,1-0,(1-0),CL,Champions League,2016
+2016-11-22,20.45,FC København,FC Porto,0,0,Group G,0-0,,CL,Champions League,2016
+2016-11-22,,Leicester City,Club Brugge KV,2,1,Group G,2-1,(2-0),CL,Champions League,2016
+2016-12-07,20.45,Club Brugge KV,FC København,0,2,Group G,0-2,(0-2),CL,Champions League,2016
+2016-12-07,,FC Porto,Leicester City,5,0,Group G,5-0,(3-0),CL,Champions League,2016
+2016-09-14,20.45,Juventus,Sevilla FC,0,0,Group H,0-0,,CL,Champions League,2016
+2016-09-14,,Olympique Lyonnais,Dinamo Zagreb,3,0,Group H,3-0,(1-0),CL,Champions League,2016
+2016-09-27,20.45,Dinamo Zagreb,Juventus,0,4,Group H,0-4,(0-2),CL,Champions League,2016
+2016-09-27,,Sevilla FC,Olympique Lyonnais,1,0,Group H,1-0,(0-0),CL,Champions League,2016
+2016-10-18,20.45,Dinamo Zagreb,Sevilla FC,0,1,Group H,0-1,(0-1),CL,Champions League,2016
+2016-10-18,,Olympique Lyonnais,Juventus,0,1,Group H,0-1,(0-0),CL,Champions League,2016
+2016-11-02,20.45,Juventus,Olympique Lyonnais,1,1,Group H,1-1,(1-0),CL,Champions League,2016
+2016-11-02,,Sevilla FC,Dinamo Zagreb,4,0,Group H,4-0,(1-0),CL,Champions League,2016
+2016-11-22,20.45,Dinamo Zagreb,Olympique Lyonnais,0,1,Group H,0-1,(0-0),CL,Champions League,2016
+2016-11-22,,Sevilla FC,Juventus,1,3,Group H,1-3,(1-1),CL,Champions League,2016
+2016-12-07,20.45,Juventus,Dinamo Zagreb,2,0,Group H,2-0,(0-0),CL,Champions League,2016
+2016-12-07,,Olympique Lyonnais,Sevilla FC,0,0,Group H,0-0,,CL,Champions League,2016
+2017-02-14,20.45,SL Benfica,Borussia Dortmund,1,0,Round of 16,1-0,(0-0),CL,Champions League,2016
+2017-02-14,,Paris Saint-Germain,FC Barcelona,4,0,Round of 16,4-0,(2-0),CL,Champions League,2016
+2017-02-15,20.45,Real Madrid,SSC Napoli,3,1,Round of 16,3-1,(1-1),CL,Champions League,2016
+2017-02-15,,Bayern München,Arsenal FC,5,1,Round of 16,5-1,(1-1),CL,Champions League,2016
+2017-02-21,20.45,Manchester City,AS Monaco,5,3,Round of 16,5-3,(1-2),CL,Champions League,2016
+2017-02-21,,Bayer Leverkusen,Atlético Madrid,2,4,Round of 16,2-4,(0-2),CL,Champions League,2016
+2017-02-22,20.45,FC Porto,Juventus,0,2,Round of 16,0-2,(0-0),CL,Champions League,2016
+2017-02-22,,Sevilla FC,Leicester City,2,1,Round of 16,2-1,(1-0),CL,Champions League,2016
+2017-03-07,20.45,SSC Napoli,Real Madrid,1,3,Round of 16,1-3,(1-0),CL,Champions League,2016
+2017-03-07,,Arsenal FC,Bayern München,1,5,Round of 16,1-5,(1-0),CL,Champions League,2016
+2017-03-08,20.45,Borussia Dortmund,SL Benfica,4,0,Round of 16,4-0,(1-0),CL,Champions League,2016
+2017-03-08,,FC Barcelona,Paris Saint-Germain,6,1,Round of 16,6-1,(2-0),CL,Champions League,2016
+2017-03-14,20.45,Juventus,FC Porto,1,0,Round of 16,1-0,(1-0),CL,Champions League,2016
+2017-03-14,,Leicester City,Sevilla FC,2,0,Round of 16,2-0,(1-0),CL,Champions League,2016
+2017-03-15,20.45,AS Monaco,Manchester City,3,1,Round of 16,3-1,(2-0),CL,Champions League,2016
+2017-03-15,,Atlético Madrid,Bayer Leverkusen,0,0,Round of 16,0-0,,CL,Champions League,2016
+2017-04-11,20.45,Juventus,FC Barcelona,3,0,Quarterfinals,3-0,(2-0),CL,Champions League,2016
+2017-04-12,18.45,Borussia Dortmund,AS Monaco,2,3,Quarterfinals,2-3,(0-2),CL,Champions League,2016
+2017-04-12,20.45,Atlético Madrid,Leicester City,1,0,Quarterfinals,1-0,(1-0),CL,Champions League,2016
+2017-04-12,,Bayern München,Real Madrid,1,2,Quarterfinals,1-2,(1-0),CL,Champions League,2016
+2017-04-18,20.45,Leicester City,Atlético Madrid,1,1,Quarterfinals,1-1,(0-1),CL,Champions League,2016
+2017-04-18,,Real Madrid,Bayern München,4,2,Quarterfinals,4-2,"a.e.t. (1-2, 0-0)",CL,Champions League,2016
+2017-04-19,20.45,FC Barcelona,Juventus,0,0,Quarterfinals,0-0,,CL,Champions League,2016
+2017-04-19,20.50,AS Monaco,Borussia Dortmund,3,1,Quarterfinals,3-1,(2-0),CL,Champions League,2016
+2017-05-02,20.45,Real Madrid,Atlético Madrid,3,0,Semifinals,3-0,(1-0),CL,Champions League,2016
+2017-05-03,20.45,AS Monaco,Juventus,0,2,Semifinals,0-2,(0-1),CL,Champions League,2016
+2017-05-09,20.45,Juventus,AS Monaco,2,1,Semifinals,2-1,(2-0),CL,Champions League,2016
+2017-05-10,20.45,Atlético Madrid,Real Madrid,2,1,Semifinals,2-1,(2-1),CL,Champions League,2016
+2017-06-03,20.45,Juventus,Real Madrid,1,4,Final,1-4,(1-1),CL,Champions League,2016

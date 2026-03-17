@@ -1,0 +1,816 @@
+date,time,home_team,away_team,home_goals,away_goals,stage,score_token,detail,competition_code,competition_label,season_start
+2020-10-22,18.55,BSC Young Boys,AS Roma,1,2,Group A,1-2,(1-0),EL,Europa League,2020
+2020-10-22,,CSKA Sofia,CFR Cluj,0,2,Group A,0-2,(0-0),EL,Europa League,2020
+2020-10-29,21.00,AS Roma,CSKA Sofia,0,0,Group A,0-0,,EL,Europa League,2020
+2020-10-29,,CFR Cluj,BSC Young Boys,1,1,Group A,1-1,(0-0),EL,Europa League,2020
+2020-11-05,18.55,AS Roma,CFR Cluj,5,0,Group A,5-0,(3-0),EL,Europa League,2020
+2020-11-05,21.00,BSC Young Boys,CSKA Sofia,3,0,Group A,3-0,(3-0),EL,Europa League,2020
+2020-11-26,18.55,CSKA Sofia,BSC Young Boys,0,1,Group A,0-1,(0-1),EL,Europa League,2020
+2020-11-26,21.00,CFR Cluj,AS Roma,0,2,Group A,0-2,(0-0),EL,Europa League,2020
+2020-12-03,21.00,AS Roma,BSC Young Boys,3,1,Group A,3-1,(1-1),EL,Europa League,2020
+2020-12-03,,CFR Cluj,CSKA Sofia,0,0,Group A,0-0,,EL,Europa League,2020
+2020-12-10,18.55,CSKA Sofia,AS Roma,3,1,Group A,3-1,(2-1),EL,Europa League,2020
+2020-12-10,,BSC Young Boys,CFR Cluj,2,1,Group A,2-1,(0-0),EL,Europa League,2020
+2020-10-22,18.55,Rapid Wien,Arsenal FC,1,2,Group B,1-2,(0-0),EL,Europa League,2020
+2020-10-22,,Dundalk FC,Molde FK,1,2,Group B,1-2,(1-0),EL,Europa League,2020
+2020-10-29,21.00,Arsenal FC,Dundalk FC,3,0,Group B,3-0,(2-0),EL,Europa League,2020
+2020-10-29,,Molde FK,Rapid Wien,1,0,Group B,1-0,(0-0),EL,Europa League,2020
+2020-11-05,18.55,Rapid Wien,Dundalk FC,4,3,Group B,4-3,(1-1),EL,Europa League,2020
+2020-11-05,21.00,Arsenal FC,Molde FK,4,1,Group B,4-1,(1-1),EL,Europa League,2020
+2020-11-26,18.55,Molde FK,Arsenal FC,0,3,Group B,0-3,(0-0),EL,Europa League,2020
+2020-11-26,21.00,Dundalk FC,Rapid Wien,1,3,Group B,1-3,(0-2),EL,Europa League,2020
+2020-12-03,21.00,Arsenal FC,Rapid Wien,4,1,Group B,4-1,(3-0),EL,Europa League,2020
+2020-12-03,,Molde FK,Dundalk FC,3,1,Group B,3-1,(2-0),EL,Europa League,2020
+2020-12-10,18.55,Dundalk FC,Arsenal FC,2,4,Group B,2-4,(1-2),EL,Europa League,2020
+2020-12-10,,Rapid Wien,Molde FK,2,2,Group B,2-2,(1-1),EL,Europa League,2020
+2020-10-22,18.55,Bayer Leverkusen,OGC Nice,6,2,Group C,6-2,(2-1),EL,Europa League,2020
+2020-10-22,,Hapoel Be'er Sheva,Slavia Praha,3,1,Group C,3-1,(1-0),EL,Europa League,2020
+2020-10-29,21.00,Slavia Praha,Bayer Leverkusen,1,0,Group C,1-0,(0-0),EL,Europa League,2020
+2020-10-29,,OGC Nice,Hapoel Be'er Sheva,1,0,Group C,1-0,(1-0),EL,Europa League,2020
+2020-11-05,18.55,Hapoel Be'er Sheva,Bayer Leverkusen,2,4,Group C,2-4,(2-2),EL,Europa League,2020
+2020-11-05,,Slavia Praha,OGC Nice,3,2,Group C,3-2,(2-1),EL,Europa League,2020
+2020-11-26,21.00,Bayer Leverkusen,Hapoel Be'er Sheva,4,1,Group C,4-1,(1-0),EL,Europa League,2020
+2020-11-26,,OGC Nice,Slavia Praha,1,3,Group C,1-3,(0-1),EL,Europa League,2020
+2020-12-03,21.00,OGC Nice,Bayer Leverkusen,2,3,Group C,2-3,(1-2),EL,Europa League,2020
+2020-12-03,,Slavia Praha,Hapoel Be'er Sheva,3,0,Group C,3-0,(2-0),EL,Europa League,2020
+2020-12-10,18.55,Bayer Leverkusen,Slavia Praha,4,0,Group C,4-0,(2-0),EL,Europa League,2020
+2020-12-10,,Hapoel Be'er Sheva,OGC Nice,1,0,Group C,1-0,(0-0),EL,Europa League,2020
+2020-10-22,18.55,Lech Poznań,SL Benfica,2,4,Group D,2-4,(1-2),EL,Europa League,2020
+2020-10-22,,Standard Liège,Rangers FC,0,2,Group D,0-2,(0-1),EL,Europa League,2020
+2020-10-29,21.00,Rangers FC,Lech Poznań,1,0,Group D,1-0,(0-0),EL,Europa League,2020
+2020-10-29,,SL Benfica,Standard Liège,3,0,Group D,3-0,(0-0),EL,Europa League,2020
+2020-11-05,18.55,Lech Poznań,Standard Liège,3,1,Group D,3-1,(2-1),EL,Europa League,2020
+2020-11-05,,SL Benfica,Rangers FC,3,3,Group D,3-3,(1-2),EL,Europa League,2020
+2020-11-26,21.00,Standard Liège,Lech Poznań,2,1,Group D,2-1,(0-0),EL,Europa League,2020
+2020-11-26,,Rangers FC,SL Benfica,2,2,Group D,2-2,(1-0),EL,Europa League,2020
+2020-12-03,21.00,SL Benfica,Lech Poznań,4,0,Group D,4-0,(1-0),EL,Europa League,2020
+2020-12-03,,Rangers FC,Standard Liège,3,2,Group D,3-2,(2-2),EL,Europa League,2020
+2020-12-10,18.55,Lech Poznań,Rangers FC,0,2,Group D,0-2,(0-1),EL,Europa League,2020
+2020-12-10,,Standard Liège,SL Benfica,2,2,Group D,2-2,(1-1),EL,Europa League,2020
+2020-10-22,18.55,PSV Eindhoven,Granada CF,1,2,Group E,1-2,(1-0),EL,Europa League,2020
+2020-10-22,,PAOK Saloniki,Omonia Nikosia,1,1,Group E,1-1,(0-1),EL,Europa League,2020
+2020-10-29,21.00,Granada CF,PAOK Saloniki,0,0,Group E,0-0,,EL,Europa League,2020
+2020-10-29,,Omonia Nikosia,PSV Eindhoven,1,2,Group E,1-2,(1-1),EL,Europa League,2020
+2020-11-05,18.55,Omonia Nikosia,Granada CF,0,2,Group E,0-2,(0-1),EL,Europa League,2020
+2020-11-05,,PAOK Saloniki,PSV Eindhoven,4,1,Group E,4-1,(0-1),EL,Europa League,2020
+2020-11-26,21.00,Granada CF,Omonia Nikosia,2,1,Group E,2-1,(1-0),EL,Europa League,2020
+2020-11-26,,PSV Eindhoven,PAOK Saloniki,3,2,Group E,3-2,(1-2),EL,Europa League,2020
+2020-12-03,21.00,Granada CF,PSV Eindhoven,0,1,Group E,0-1,(0-1),EL,Europa League,2020
+2020-12-03,,Omonia Nikosia,PAOK Saloniki,2,1,Group E,2-1,(1-1),EL,Europa League,2020
+2020-12-10,18.55,PAOK Saloniki,Granada CF,0,0,Group E,0-0,,EL,Europa League,2020
+2020-12-10,,PSV Eindhoven,Omonia Nikosia,4,0,Group E,4-0,(1-0),EL,Europa League,2020
+2020-10-22,18.55,SSC Napoli,AZ Alkmaar,0,1,Group F,0-1,(0-0),EL,Europa League,2020
+2020-10-22,,HNK Rijeka,Real Sociedad,0,1,Group F,0-1,(0-0),EL,Europa League,2020
+2020-10-29,21.00,AZ Alkmaar,HNK Rijeka,4,1,Group F,4-1,(2-0),EL,Europa League,2020
+2020-10-29,,Real Sociedad,SSC Napoli,0,1,Group F,0-1,(0-0),EL,Europa League,2020
+2020-11-05,18.55,Real Sociedad,AZ Alkmaar,1,0,Group F,1-0,(0-0),EL,Europa League,2020
+2020-11-05,,HNK Rijeka,SSC Napoli,1,2,Group F,1-2,(1-1),EL,Europa League,2020
+2020-11-26,21.00,AZ Alkmaar,Real Sociedad,0,0,Group F,0-0,,EL,Europa League,2020
+2020-11-26,,SSC Napoli,HNK Rijeka,2,0,Group F,2-0,(1-0),EL,Europa League,2020
+2020-12-03,21.00,AZ Alkmaar,SSC Napoli,1,1,Group F,1-1,(0-1),EL,Europa League,2020
+2020-12-03,,Real Sociedad,HNK Rijeka,2,2,Group F,2-2,(0-1),EL,Europa League,2020
+2020-12-10,18.55,HNK Rijeka,AZ Alkmaar,2,1,Group F,2-1,(0-0),EL,Europa League,2020
+2020-12-10,,SSC Napoli,Real Sociedad,1,1,Group F,1-1,(1-0),EL,Europa League,2020
+2020-10-22,21.00,Sporting Braga,AEK Athen,3,0,Gruppe G,3-0,(1-0),EL,Europa League,2020
+2020-10-22,,Leicester City,Zorya Lugansk,3,0,Gruppe G,3-0,(2-0),EL,Europa League,2020
+2020-10-29,18.55,AEK Athen,Leicester City,1,2,Gruppe G,1-2,(0-2),EL,Europa League,2020
+2020-10-29,,Zorya Lugansk,Sporting Braga,1,2,Gruppe G,1-2,(0-2),EL,Europa League,2020
+2020-11-05,21.00,Zorya Lugansk,AEK Athen,1,4,Gruppe G,1-4,(0-2),EL,Europa League,2020
+2020-11-05,,Leicester City,Sporting Braga,4,0,Gruppe G,4-0,(1-0),EL,Europa League,2020
+2020-11-26,18.55,AEK Athen,Zorya Lugansk,0,3,Gruppe G,0-3,(0-0),EL,Europa League,2020
+2020-11-26,,Sporting Braga,Leicester City,3,3,Gruppe G,3-3,(2-1),EL,Europa League,2020
+2020-12-03,18.55,AEK Athen,Sporting Braga,2,4,Gruppe G,2-4,(1-3),EL,Europa League,2020
+2020-12-03,,Zorya Lugansk,Leicester City,1,0,Gruppe G,1-0,(0-0),EL,Europa League,2020
+2020-12-10,21.00,Leicester City,AEK Athen,2,0,Gruppe G,2-0,(2-0),EL,Europa League,2020
+2020-12-10,,Sporting Braga,Zorya Lugansk,2,0,Gruppe G,2-0,(0-0),EL,Europa League,2020
+2020-10-22,21.00,Celtic FC,AC Milan,1,3,Gruppe H,1-3,(0-2),EL,Europa League,2020
+2020-10-22,,AC Sparta Praha,Lille OSC,1,4,Gruppe H,1-4,(0-1),EL,Europa League,2020
+2020-10-29,18.55,AC Milan,AC Sparta Praha,3,0,Gruppe H,3-0,(1-0),EL,Europa League,2020
+2020-10-29,,Lille OSC,Celtic FC,2,2,Gruppe H,2-2,(0-2),EL,Europa League,2020
+2020-11-05,21.00,AC Milan,Lille OSC,0,3,Gruppe H,0-3,(0-1),EL,Europa League,2020
+2020-11-05,,Celtic FC,AC Sparta Praha,1,4,Gruppe H,1-4,(0-2),EL,Europa League,2020
+2020-11-26,18.55,Lille OSC,AC Milan,1,1,Gruppe H,1-1,(0-0),EL,Europa League,2020
+2020-11-26,,AC Sparta Praha,Celtic FC,4,1,Gruppe H,4-1,(2-1),EL,Europa League,2020
+2020-12-03,18.55,AC Milan,Celtic FC,4,2,Gruppe H,4-2,(2-2),EL,Europa League,2020
+2020-12-03,,Lille OSC,AC Sparta Praha,2,1,Gruppe H,2-1,(0-0),EL,Europa League,2020
+2020-12-10,21.00,AC Sparta Praha,AC Milan,0,1,Gruppe H,0-1,(0-1),EL,Europa League,2020
+2020-12-10,,Celtic FC,Lille OSC,3,2,Gruppe H,3-2,(2-1),EL,Europa League,2020
+2020-10-22,21.00,Maccabi Tel Aviv,Qarabağ FK,1,0,Gruppe I,1-0,(1-0),EL,Europa League,2020
+2020-10-22,,Villarreal CF,Sivasspor,5,3,Gruppe I,5-3,(2-2),EL,Europa League,2020
+2020-10-29,18.55,Sivasspor,Maccabi Tel Aviv,1,2,Gruppe I,1-2,(0-0),EL,Europa League,2020
+2020-10-29,,Qarabağ FK,Villarreal CF,1,3,Gruppe I,1-3,(0-0),EL,Europa League,2020
+2020-11-05,18.55,Sivasspor,Qarabağ FK,2,0,Gruppe I,2-0,(1-0),EL,Europa League,2020
+2020-11-05,22.10,Villarreal CF,Maccabi Tel Aviv,4,0,Gruppe I,4-0,(1-0),EL,Europa League,2020
+2020-11-26,18.55,Maccabi Tel Aviv,Villarreal CF,1,1,Gruppe I,1-1,(0-1),EL,Europa League,2020
+2020-11-26,,Qarabağ FK,Sivasspor,2,3,Gruppe I,2-3,(1-1),EL,Europa League,2020
+2020-12-03,18.55,Qarabağ FK,Maccabi Tel Aviv,1,1,Gruppe I,1-1,(1-1),EL,Europa League,2020
+2020-12-03,,Sivasspor,Villarreal CF,0,1,Gruppe I,0-1,(0-0),EL,Europa League,2020
+2020-12-10,,Villarreal CF,Qarabağ FK,3,0,Gruppe I,3-0,[awarded],EL,Europa League,2020
+2020-12-10,21.00,Maccabi Tel Aviv,Sivasspor,1,0,Gruppe I,1-0,(0-0),EL,Europa League,2020
+2020-10-22,21.00,Tottenham Hotspur,LASK,3,0,Gruppe J,3-0,(2-0),EL,Europa League,2020
+2020-10-22,,PFC Ludogorets Razgrad,Royal Antwerp FC,1,2,Gruppe J,1-2,(0-0),EL,Europa League,2020
+2020-10-29,18.55,LASK,PFC Ludogorets Razgrad,4,3,Gruppe J,4-3,(3-1),EL,Europa League,2020
+2020-10-29,,Royal Antwerp FC,Tottenham Hotspur,1,0,Gruppe J,1-0,(1-0),EL,Europa League,2020
+2020-11-05,18.55,PFC Ludogorets Razgrad,Tottenham Hotspur,1,3,Gruppe J,1-3,(0-2),EL,Europa League,2020
+2020-11-05,21.00,Royal Antwerp FC,LASK,0,1,Gruppe J,0-1,(0-0),EL,Europa League,2020
+2020-11-26,18.55,LASK,Royal Antwerp FC,0,2,Gruppe J,0-2,(0-0),EL,Europa League,2020
+2020-11-26,21.00,Tottenham Hotspur,PFC Ludogorets Razgrad,4,0,Gruppe J,4-0,(2-0),EL,Europa League,2020
+2020-12-03,18.55,LASK,Tottenham Hotspur,3,3,Gruppe J,3-3,(1-1),EL,Europa League,2020
+2020-12-03,,Royal Antwerp FC,PFC Ludogorets Razgrad,3,1,Gruppe J,3-1,(1-0),EL,Europa League,2020
+2020-12-10,21.00,PFC Ludogorets Razgrad,LASK,1,3,Gruppe J,1-3,(0-0),EL,Europa League,2020
+2020-12-10,,Tottenham Hotspur,Royal Antwerp FC,2,0,Gruppe J,2-0,(0-0),EL,Europa League,2020
+2020-10-22,21.00,Wolfsberger AC,CSKA Moskva,1,1,Gruppe K,1-1,(1-1),EL,Europa League,2020
+2020-10-22,,Dinamo Zagreb,Feyenoord,0,0,Gruppe K,0-0,,EL,Europa League,2020
+2020-10-29,18.55,CSKA Moskva,Dinamo Zagreb,0,0,Gruppe K,0-0,,EL,Europa League,2020
+2020-10-29,,Feyenoord,Wolfsberger AC,1,4,Gruppe K,1-4,(0-2),EL,Europa League,2020
+2020-11-05,21.00,Feyenoord,CSKA Moskva,3,1,Gruppe K,3-1,(0-0),EL,Europa League,2020
+2020-11-05,,Dinamo Zagreb,Wolfsberger AC,1,0,Gruppe K,1-0,(0-0),EL,Europa League,2020
+2020-11-26,18.55,CSKA Moskva,Feyenoord,0,0,Gruppe K,0-0,,EL,Europa League,2020
+2020-11-26,,Wolfsberger AC,Dinamo Zagreb,0,3,Gruppe K,0-3,(0-0),EL,Europa League,2020
+2020-12-03,18.55,CSKA Moskva,Wolfsberger AC,0,1,Gruppe K,0-1,(0-1),EL,Europa League,2020
+2020-12-03,,Feyenoord,Dinamo Zagreb,0,2,Gruppe K,0-2,(0-1),EL,Europa League,2020
+2020-12-10,21.00,Dinamo Zagreb,CSKA Moskva,3,1,Gruppe K,3-1,(2-0),EL,Europa League,2020
+2020-12-10,,Wolfsberger AC,Feyenoord,1,0,Gruppe K,1-0,(1-0),EL,Europa League,2020
+2020-10-22,21.00,1899 Hoffenheim,Crvena Zvezda,2,0,Gruppe L,2-0,(0-0),EL,Europa League,2020
+2020-10-22,,Slovan Liberec,KAA Gent,1,0,Gruppe L,1-0,(1-0),EL,Europa League,2020
+2020-10-29,18.55,KAA Gent,1899 Hoffenheim,1,4,Gruppe L,1-4,(0-1),EL,Europa League,2020
+2020-10-29,,Crvena Zvezda,Slovan Liberec,5,1,Gruppe L,5-1,(2-1),EL,Europa League,2020
+2020-11-05,21.00,1899 Hoffenheim,Slovan Liberec,5,0,Gruppe L,5-0,(2-0),EL,Europa League,2020
+2020-11-05,,Crvena Zvezda,KAA Gent,2,1,Gruppe L,2-1,(1-1),EL,Europa League,2020
+2020-11-26,18.55,Slovan Liberec,1899 Hoffenheim,0,2,Gruppe L,0-2,(0-0),EL,Europa League,2020
+2020-11-26,,KAA Gent,Crvena Zvezda,0,2,Gruppe L,0-2,(0-1),EL,Europa League,2020
+2020-12-03,18.55,Crvena Zvezda,1899 Hoffenheim,0,0,Gruppe L,0-0,,EL,Europa League,2020
+2020-12-03,,KAA Gent,Slovan Liberec,1,2,Gruppe L,1-2,(0-1),EL,Europa League,2020
+2020-12-10,21.00,1899 Hoffenheim,KAA Gent,4,1,Gruppe L,4-1,(2-0),EL,Europa League,2020
+2020-12-10,,Slovan Liberec,Crvena Zvezda,0,0,Gruppe L,0-0,,EL,Europa League,2020
+2021-02-18,16.00,Dinamo Kiev,Club Brugge KV,1,1,Sechzehntelfinale,1-1,(0-0),EL,Europa League,2020
+2021-02-18,18.55,Wolfsberger AC,Tottenham Hotspur,1,4,Sechzehntelfinale,1-4,(0-3),EL,Europa League,2020
+2021-02-18,,Real Sociedad,Manchester United,0,4,Sechzehntelfinale,0-4,(0-1),EL,Europa League,2020
+2021-02-18,,Crvena Zvezda,AC Milan,2,2,Sechzehntelfinale,2-2,(0-1),EL,Europa League,2020
+2021-02-18,,Slavia Praha,Leicester City,0,0,Sechzehntelfinale,0-0,,EL,Europa League,2020
+2021-02-18,,Sporting Braga,AS Roma,0,2,Sechzehntelfinale,0-2,(0-1),EL,Europa League,2020
+2021-02-18,,FK Krasnodar,Dinamo Zagreb,2,3,Sechzehntelfinale,2-3,(1-1),EL,Europa League,2020
+2021-02-18,,BSC Young Boys,Bayer Leverkusen,4,3,Sechzehntelfinale,4-3,(3-0),EL,Europa League,2020
+2021-02-18,,Olympiakos Piraeus,PSV Eindhoven,4,2,Sechzehntelfinale,4-2,(3-2),EL,Europa League,2020
+2021-02-18,21.00,SL Benfica,Arsenal FC,1,1,Sechzehntelfinale,1-1,(0-0),EL,Europa League,2020
+2021-02-18,,Royal Antwerp FC,Rangers FC,3,4,Sechzehntelfinale,3-4,(2-1),EL,Europa League,2020
+2021-02-18,,RB Salzburg,Villarreal CF,0,2,Sechzehntelfinale,0-2,(0-1),EL,Europa League,2020
+2021-02-18,,Molde FK,1899 Hoffenheim,3,3,Sechzehntelfinale,3-3,(1-3),EL,Europa League,2020
+2021-02-18,,Granada CF,SSC Napoli,2,0,Sechzehntelfinale,2-0,(2-0),EL,Europa League,2020
+2021-02-18,,Maccabi Tel Aviv,Shakhtar Donetsk,0,2,Sechzehntelfinale,0-2,(0-1),EL,Europa League,2020
+2021-02-18,,Lille OSC,AFC Ajax,1,2,Sechzehntelfinale,1-2,(0-0),EL,Europa League,2020
+2021-02-24,18.00,Tottenham Hotspur,Wolfsberger AC,4,0,Sechzehntelfinale,4-0,(1-0),EL,Europa League,2020
+2021-02-25,18.55,Arsenal FC,SL Benfica,3,2,Sechzehntelfinale,3-2,(1-1),EL,Europa League,2020
+2021-02-25,,Rangers FC,Royal Antwerp FC,5,2,Sechzehntelfinale,5-2,(1-1),EL,Europa League,2020
+2021-02-25,,Villarreal CF,RB Salzburg,2,1,Sechzehntelfinale,2-1,(1-1),EL,Europa League,2020
+2021-02-25,,1899 Hoffenheim,Molde FK,0,2,Sechzehntelfinale,0-2,(0-1),EL,Europa League,2020
+2021-02-25,,SSC Napoli,Granada CF,2,1,Sechzehntelfinale,2-1,(1-1),EL,Europa League,2020
+2021-02-25,,Shakhtar Donetsk,Maccabi Tel Aviv,1,0,Sechzehntelfinale,1-0,(0-0),EL,Europa League,2020
+2021-02-25,,AFC Ajax,Lille OSC,2,1,Sechzehntelfinale,2-1,(1-0),EL,Europa League,2020
+2021-02-25,21.00,Club Brugge KV,Dinamo Kiev,0,1,Sechzehntelfinale,0-1,(0-0),EL,Europa League,2020
+2021-02-25,,Manchester United,Real Sociedad,0,0,Sechzehntelfinale,0-0,,EL,Europa League,2020
+2021-02-25,,AC Milan,Crvena Zvezda,1,1,Sechzehntelfinale,1-1,(1-1),EL,Europa League,2020
+2021-02-25,,Leicester City,Slavia Praha,0,2,Sechzehntelfinale,0-2,(0-0),EL,Europa League,2020
+2021-02-25,,AS Roma,Sporting Braga,3,1,Sechzehntelfinale,3-1,(1-0),EL,Europa League,2020
+2021-02-25,,Dinamo Zagreb,FK Krasnodar,1,0,Sechzehntelfinale,1-0,(1-0),EL,Europa League,2020
+2021-02-25,,Bayer Leverkusen,BSC Young Boys,0,2,Sechzehntelfinale,0-2,(0-0),EL,Europa League,2020
+2021-02-25,,PSV Eindhoven,Olympiakos Piraeus,2,1,Sechzehntelfinale,2-1,(2-0),EL,Europa League,2020
+2021-03-11,18.55,AFC Ajax,BSC Young Boys,3,0,Round of 16,3-0,(0-0),EL,Europa League,2020
+2021-03-11,,Dinamo Kiev,Villarreal CF,0,2,Round of 16,0-2,(0-1),EL,Europa League,2020
+2021-03-11,,Manchester United,AC Milan,1,1,Round of 16,1-1,(0-0),EL,Europa League,2020
+2021-03-11,,Slavia Praha,Rangers FC,1,1,Round of 16,1-1,(1-1),EL,Europa League,2020
+2021-03-11,21.00,AS Roma,Shakhtar Donetsk,3,0,Round of 16,3-0,(1-0),EL,Europa League,2020
+2021-03-11,,Olympiakos Piraeus,Arsenal FC,1,3,Round of 16,1-3,(0-1),EL,Europa League,2020
+2021-03-11,,Tottenham Hotspur,Dinamo Zagreb,2,0,Round of 16,2-0,(1-0),EL,Europa League,2020
+2021-03-11,,Granada CF,Molde FK,2,0,Round of 16,2-0,(1-0),EL,Europa League,2020
+2021-03-18,18.55,Shakhtar Donetsk,AS Roma,1,2,Round of 16,1-2,(0-0),EL,Europa League,2020
+2021-03-18,,Arsenal FC,Olympiakos Piraeus,0,1,Round of 16,0-1,(0-0),EL,Europa League,2020
+2021-03-18,,Dinamo Zagreb,Tottenham Hotspur,3,0,Round of 16,3-0,"a.e.t. (2-0, 0-0)",EL,Europa League,2020
+2021-03-18,,Molde FK,Granada CF,2,1,Round of 16,2-1,(1-0),EL,Europa League,2020
+2021-03-18,21.00,BSC Young Boys,AFC Ajax,0,2,Round of 16,0-2,(0-1),EL,Europa League,2020
+2021-03-18,,Villarreal CF,Dinamo Kiev,2,0,Round of 16,2-0,(2-0),EL,Europa League,2020
+2021-03-18,,AC Milan,Manchester United,0,1,Round of 16,0-1,(0-0),EL,Europa League,2020
+2021-03-18,,Rangers FC,Slavia Praha,0,2,Round of 16,0-2,(0-1),EL,Europa League,2020
+2021-04-08,21.00,Granada CF,Manchester United,0,2,Quarterfinals,0-2,(0-1),EL,Europa League,2020
+2021-04-08,,Arsenal FC,Slavia Praha,1,1,Quarterfinals,1-1,(0-0),EL,Europa League,2020
+2021-04-08,,AFC Ajax,AS Roma,1,2,Quarterfinals,1-2,(1-0),EL,Europa League,2020
+2021-04-08,,Dinamo Zagreb,Villarreal CF,0,1,Quarterfinals,0-1,(0-1),EL,Europa League,2020
+2021-04-15,21.00,Manchester United,Granada CF,2,0,Quarterfinals,2-0,(1-0),EL,Europa League,2020
+2021-04-15,,Slavia Praha,Arsenal FC,0,4,Quarterfinals,0-4,(0-3),EL,Europa League,2020
+2021-04-15,,AS Roma,AFC Ajax,1,1,Quarterfinals,1-1,(0-0),EL,Europa League,2020
+2021-04-15,,Villarreal CF,Dinamo Zagreb,2,1,Quarterfinals,2-1,(2-0),EL,Europa League,2020
+2021-04-29,21.00,Manchester United,AS Roma,6,2,Semifinals,6-2,(1-2),EL,Europa League,2020
+2021-04-29,,Villarreal CF,Arsenal FC,2,1,Semifinals,2-1,(2-0),EL,Europa League,2020
+2021-05-06,21.00,AS Roma,Manchester United,3,2,Semifinals,3-2,(0-1),EL,Europa League,2020
+2021-05-06,,Arsenal FC,Villarreal CF,0,0,Semifinals,0-0,,EL,Europa League,2020
+2021-05-26,21.00,Villarreal CF,Manchester United,11,10,Final,11-10 pen.,"1-1 a.e.t. (1-1, 1-0)",EL,Europa League,2020
+2021-09-16,21.00,Brøndby IF,AC Sparta Praha,0,0,Group A,0-0,,EL,Europa League,2021
+2021-09-16,,Rangers FC,Olympique Lyonnais,0,2,Group A,0-2,(0-1),EL,Europa League,2021
+2021-09-30,18.45,Olympique Lyonnais,Brøndby IF,3,0,Group A,3-0,(0-0),EL,Europa League,2021
+2021-09-30,,AC Sparta Praha,Rangers FC,1,0,Group A,1-0,(1-0),EL,Europa League,2021
+2021-10-21,21.00,Rangers FC,Brøndby IF,2,0,Group A,2-0,(2-0),EL,Europa League,2021
+2021-10-21,,AC Sparta Praha,Olympique Lyonnais,3,4,Group A,3-4,(2-1),EL,Europa League,2021
+2021-11-04,18.45,Brøndby IF,Rangers FC,1,1,Group A,1-1,(1-0),EL,Europa League,2021
+2021-11-04,,Olympique Lyonnais,AC Sparta Praha,3,0,Group A,3-0,(0-0),EL,Europa League,2021
+2021-11-25,21.00,Brøndby IF,Olympique Lyonnais,1,3,Group A,1-3,(0-0),EL,Europa League,2021
+2021-11-25,,Rangers FC,AC Sparta Praha,2,0,Group A,2-0,(1-0),EL,Europa League,2021
+2021-12-09,18.45,AC Sparta Praha,Brøndby IF,2,0,Group A,2-0,(1-0),EL,Europa League,2021
+2021-12-09,,Olympique Lyonnais,Rangers FC,1,1,Group A,1-1,(0-1),EL,Europa League,2021
+2021-09-16,21.00,AS Monaco,Sturm Graz,1,0,Group B,1-0,(0-0),EL,Europa League,2021
+2021-09-16,,PSV Eindhoven,Real Sociedad,2,2,Group B,2-2,(1-2),EL,Europa League,2021
+2021-09-30,18.45,Real Sociedad,AS Monaco,1,1,Group B,1-1,(0-1),EL,Europa League,2021
+2021-09-30,,Sturm Graz,PSV Eindhoven,1,4,Group B,1-4,(0-1),EL,Europa League,2021
+2021-10-21,21.00,PSV Eindhoven,AS Monaco,1,2,Group B,1-2,(0-1),EL,Europa League,2021
+2021-10-21,,Sturm Graz,Real Sociedad,0,1,Group B,0-1,(0-0),EL,Europa League,2021
+2021-11-04,18.45,AS Monaco,PSV Eindhoven,0,0,Group B,0-0,,EL,Europa League,2021
+2021-11-04,,Real Sociedad,Sturm Graz,1,1,Group B,1-1,(0-1),EL,Europa League,2021
+2021-11-25,21.00,AS Monaco,Real Sociedad,2,1,Group B,2-1,(2-1),EL,Europa League,2021
+2021-11-25,,PSV Eindhoven,Sturm Graz,2,0,Group B,2-0,(1-0),EL,Europa League,2021
+2021-12-09,18.45,Sturm Graz,AS Monaco,1,1,Group B,1-1,(1-1),EL,Europa League,2021
+2021-12-09,,Real Sociedad,PSV Eindhoven,3,0,Group B,3-0,(1-0),EL,Europa League,2021
+2021-09-15,16.30,Spartak Moskva,Legia Warszawa,0,1,Group C,0-1,(0-0),EL,Europa League,2021
+2021-09-16,21.00,Leicester City,SSC Napoli,2,2,Group C,2-2,(1-0),EL,Europa League,2021
+2021-09-30,18.45,Legia Warszawa,Leicester City,1,0,Group C,1-0,(1-0),EL,Europa League,2021
+2021-09-30,,SSC Napoli,Spartak Moskva,2,3,Group C,2-3,(1-0),EL,Europa League,2021
+2021-10-20,16.30,Spartak Moskva,Leicester City,3,4,Group C,3-4,(2-1),EL,Europa League,2021
+2021-10-21,21.00,SSC Napoli,Legia Warszawa,3,0,Group C,3-0,(0-0),EL,Europa League,2021
+2021-11-04,18.45,Legia Warszawa,SSC Napoli,1,4,Group C,1-4,(1-0),EL,Europa League,2021
+2021-11-04,21.00,Leicester City,Spartak Moskva,1,1,Group C,1-1,(0-0),EL,Europa League,2021
+2021-11-24,16.30,Spartak Moskva,SSC Napoli,2,1,Group C,2-1,(2-0),EL,Europa League,2021
+2021-11-25,21.00,Leicester City,Legia Warszawa,3,1,Group C,3-1,(3-1),EL,Europa League,2021
+2021-12-09,18.45,Legia Warszawa,Spartak Moskva,0,1,Group C,0-1,(0-1),EL,Europa League,2021
+2021-12-09,,SSC Napoli,Leicester City,3,2,Group C,3-2,(2-2),EL,Europa League,2021
+2021-09-16,21.00,Eintracht Frankfurt,Fenerbahçe,1,1,Group D,1-1,(1-1),EL,Europa League,2021
+2021-09-16,,Olympiakos Piraeus,Royal Antwerp FC,2,1,Group D,2-1,(0-0),EL,Europa League,2021
+2021-09-30,18.45,Royal Antwerp FC,Eintracht Frankfurt,0,1,Group D,0-1,(0-0),EL,Europa League,2021
+2021-09-30,,Fenerbahçe,Olympiakos Piraeus,0,3,Group D,0-3,(0-1),EL,Europa League,2021
+2021-10-21,18.45,Fenerbahçe,Royal Antwerp FC,2,2,Group D,2-2,(2-1),EL,Europa League,2021
+2021-10-21,21.00,Eintracht Frankfurt,Olympiakos Piraeus,3,1,Group D,3-1,(2-1),EL,Europa League,2021
+2021-11-04,18.45,Olympiakos Piraeus,Eintracht Frankfurt,1,2,Group D,1-2,(1-1),EL,Europa League,2021
+2021-11-04,21.00,Royal Antwerp FC,Fenerbahçe,0,3,Group D,0-3,(0-3),EL,Europa League,2021
+2021-11-25,21.00,Eintracht Frankfurt,Royal Antwerp FC,2,2,Group D,2-2,(1-1),EL,Europa League,2021
+2021-11-25,,Olympiakos Piraeus,Fenerbahçe,1,0,Group D,1-0,(0-0),EL,Europa League,2021
+2021-12-09,18.45,Fenerbahçe,Eintracht Frankfurt,1,1,Group D,1-1,(1-1),EL,Europa League,2021
+2021-12-09,,Royal Antwerp FC,Olympiakos Piraeus,1,0,Group D,1-0,(1-0),EL,Europa League,2021
+2021-09-16,18.45,Galatasaray,Lazio Roma,1,0,Group E,1-0,(0-0),EL,Europa League,2021
+2021-09-16,,Lokomotiv Moskva,Olympique Marseille,1,1,Group E,1-1,(0-0),EL,Europa League,2021
+2021-09-30,21.00,Olympique Marseille,Galatasaray,0,0,Group E,0-0,,EL,Europa League,2021
+2021-09-30,,Lazio Roma,Lokomotiv Moskva,2,0,Group E,2-0,(2-0),EL,Europa League,2021
+2021-10-21,18.45,Lazio Roma,Olympique Marseille,0,0,Group E,0-0,,EL,Europa League,2021
+2021-10-21,21.00,Lokomotiv Moskva,Galatasaray,0,1,Group E,0-1,(0-0),EL,Europa League,2021
+2021-11-04,18.45,Galatasaray,Lokomotiv Moskva,1,1,Group E,1-1,(1-0),EL,Europa League,2021
+2021-11-04,21.00,Olympique Marseille,Lazio Roma,2,2,Group E,2-2,(1-1),EL,Europa League,2021
+2021-11-25,18.45,Galatasaray,Olympique Marseille,4,2,Group E,4-2,(2-0),EL,Europa League,2021
+2021-11-25,,Lokomotiv Moskva,Lazio Roma,0,3,Group E,0-3,(0-0),EL,Europa League,2021
+2021-12-09,21.00,Lazio Roma,Galatasaray,0,0,Group E,0-0,,EL,Europa League,2021
+2021-12-09,,Olympique Marseille,Lokomotiv Moskva,1,0,Group E,1-0,(1-0),EL,Europa League,2021
+2021-09-16,18.45,Crvena Zvezda,Sporting Braga,2,1,Group F,2-1,(0-0),EL,Europa League,2021
+2021-09-16,,FC Midtjylland,PFC Ludogorets Razgrad,1,1,Group F,1-1,(1-1),EL,Europa League,2021
+2021-09-30,21.00,PFC Ludogorets Razgrad,Crvena Zvezda,0,1,Group F,0-1,(0-0),EL,Europa League,2021
+2021-09-30,,Sporting Braga,FC Midtjylland,3,1,Group F,3-1,(0-1),EL,Europa League,2021
+2021-10-21,18.45,FC Midtjylland,Crvena Zvezda,1,1,Group F,1-1,(0-0),EL,Europa League,2021
+2021-10-21,,PFC Ludogorets Razgrad,Sporting Braga,0,1,Group F,0-1,(0-1),EL,Europa League,2021
+2021-11-04,21.00,Crvena Zvezda,FC Midtjylland,0,1,Group F,0-1,(0-0),EL,Europa League,2021
+2021-11-04,,Sporting Braga,PFC Ludogorets Razgrad,4,2,Group F,4-2,(3-1),EL,Europa League,2021
+2021-11-25,18.45,Crvena Zvezda,PFC Ludogorets Razgrad,1,0,Group F,1-0,(0-0),EL,Europa League,2021
+2021-11-25,,FC Midtjylland,Sporting Braga,3,2,Group F,3-2,(1-1),EL,Europa League,2021
+2021-12-09,21.00,Sporting Braga,Crvena Zvezda,1,1,Group F,1-1,(0-0),EL,Europa League,2021
+2021-12-09,,PFC Ludogorets Razgrad,FC Midtjylland,0,0,Group F,0-0,,EL,Europa League,2021
+2021-09-16,18.45,Bayer Leverkusen,Ferencvárosi TC,2,1,Gruppe G,2-1,(1-1),EL,Europa League,2021
+2021-09-16,,Real Betis,Celtic FC,4,3,Gruppe G,4-3,(2-2),EL,Europa League,2021
+2021-09-30,21.00,Celtic FC,Bayer Leverkusen,0,4,Gruppe G,0-4,(0-2),EL,Europa League,2021
+2021-09-30,,Ferencvárosi TC,Real Betis,1,3,Gruppe G,1-3,(1-1),EL,Europa League,2021
+2021-10-19,16.30,Celtic FC,Ferencvárosi TC,2,0,Gruppe G,2-0,(0-0),EL,Europa League,2021
+2021-10-21,18.45,Real Betis,Bayer Leverkusen,1,1,Gruppe G,1-1,(0-0),EL,Europa League,2021
+2021-11-04,21.00,Bayer Leverkusen,Real Betis,4,0,Gruppe G,4-0,(1-0),EL,Europa League,2021
+2021-11-04,,Ferencvárosi TC,Celtic FC,2,3,Gruppe G,2-3,(1-2),EL,Europa League,2021
+2021-11-25,18.45,Bayer Leverkusen,Celtic FC,3,2,Gruppe G,3-2,(1-1),EL,Europa League,2021
+2021-11-25,,Real Betis,Ferencvárosi TC,2,0,Gruppe G,2-0,(1-0),EL,Europa League,2021
+2021-12-09,21.00,Ferencvárosi TC,Bayer Leverkusen,1,0,Gruppe G,1-0,(0-0),EL,Europa League,2021
+2021-12-09,,Celtic FC,Real Betis,3,2,Gruppe G,3-2,(1-0),EL,Europa League,2021
+2021-09-16,18.45,Dinamo Zagreb,West Ham United,0,2,Gruppe H,0-2,(0-1),EL,Europa League,2021
+2021-09-16,,Rapid Wien,KRC Genk,0,1,Gruppe H,0-1,(0-0),EL,Europa League,2021
+2021-09-30,21.00,KRC Genk,Dinamo Zagreb,0,3,Gruppe H,0-3,(0-2),EL,Europa League,2021
+2021-09-30,,West Ham United,Rapid Wien,2,0,Gruppe H,2-0,(1-0),EL,Europa League,2021
+2021-10-21,18.45,Rapid Wien,Dinamo Zagreb,2,1,Gruppe H,2-1,(2-1),EL,Europa League,2021
+2021-10-21,21.00,West Ham United,KRC Genk,3,0,Gruppe H,3-0,(1-0),EL,Europa League,2021
+2021-11-04,18.45,KRC Genk,West Ham United,2,2,Gruppe H,2-2,(1-0),EL,Europa League,2021
+2021-11-04,21.00,Dinamo Zagreb,Rapid Wien,3,1,Gruppe H,3-1,(2-1),EL,Europa League,2021
+2021-11-25,18.45,Dinamo Zagreb,KRC Genk,1,1,Gruppe H,1-1,(1-1),EL,Europa League,2021
+2021-11-25,,Rapid Wien,West Ham United,0,2,Gruppe H,0-2,(0-2),EL,Europa League,2021
+2021-12-09,21.00,West Ham United,Dinamo Zagreb,0,1,Gruppe H,0-1,(0-1),EL,Europa League,2021
+2021-12-09,,KRC Genk,Rapid Wien,0,1,Gruppe H,0-1,(0-1),EL,Europa League,2021
+2022-02-17,18.45,FC Barcelona,SSC Napoli,1,1,Playoffs,1-1,(0-1),EL,Europa League,2021
+2022-02-17,,Zenit St. Petersburg,Real Betis,2,3,Playoffs,2-3,(2-3),EL,Europa League,2021
+2022-02-17,,Borussia Dortmund,Rangers FC,2,4,Playoffs,2-4,(0-2),EL,Europa League,2021
+2022-02-17,,FC Sheriff,Sporting Braga,2,0,Playoffs,2-0,(1-0),EL,Europa League,2021
+2022-02-17,21.00,Sevilla FC,Dinamo Zagreb,3,1,Playoffs,3-1,(3-1),EL,Europa League,2021
+2022-02-17,,Atalanta,Olympiakos Piraeus,2,1,Playoffs,2-1,(0-1),EL,Europa League,2021
+2022-02-17,,RB Leipzig,Real Sociedad,2,2,Playoffs,2-2,(1-1),EL,Europa League,2021
+2022-02-17,,FC Porto,Lazio Roma,2,1,Playoffs,2-1,(1-1),EL,Europa League,2021
+2022-02-24,18.45,Dinamo Zagreb,Sevilla FC,1,0,Playoffs,1-0,(0-0),EL,Europa League,2021
+2022-02-24,,Olympiakos Piraeus,Atalanta,0,3,Playoffs,0-3,(0-1),EL,Europa League,2021
+2022-02-24,,Real Sociedad,RB Leipzig,1,3,Playoffs,1-3,(0-1),EL,Europa League,2021
+2022-02-24,,Lazio Roma,FC Porto,2,2,Playoffs,2-2,(1-1),EL,Europa League,2021
+2022-02-24,21.00,SSC Napoli,FC Barcelona,2,4,Playoffs,2-4,(1-3),EL,Europa League,2021
+2022-02-24,,Real Betis,Zenit St. Petersburg,0,0,Playoffs,0-0,,EL,Europa League,2021
+2022-02-24,,Rangers FC,Borussia Dortmund,2,2,Playoffs,2-2,(1-2),EL,Europa League,2021
+2022-02-24,,Sporting Braga,FC Sheriff,3,2,Playoffs,3-2 pen.,"2-0 a.e.t. (2-0, 2-0)",EL,Europa League,2021
+2022-03-09,18.45,FC Porto,Olympique Lyonnais,0,1,Round of 16,0-1,(0-0),EL,Europa League,2021
+2022-03-09,,Real Betis,Eintracht Frankfurt,1,2,Round of 16,1-2,(1-2),EL,Europa League,2021
+2022-03-10,18.45,Sevilla FC,West Ham United,1,0,Round of 16,1-0,(0-0),EL,Europa League,2021
+2022-03-10,21.00,Rangers FC,Crvena Zvezda,3,0,Round of 16,3-0,(2-0),EL,Europa League,2021
+2022-03-10,,Sporting Braga,AS Monaco,2,0,Round of 16,2-0,(1-0),EL,Europa League,2021
+2022-03-10,,Atalanta,Bayer Leverkusen,3,2,Round of 16,3-2,(2-1),EL,Europa League,2021
+2022-03-10,,FC Barcelona,Galatasaray,0,0,Round of 16,0-0,,EL,Europa League,2021
+2022-03-17,18.45,Crvena Zvezda,Rangers FC,2,1,Round of 16,2-1,(1-0),EL,Europa League,2021
+2022-03-17,,AS Monaco,Sporting Braga,1,1,Round of 16,1-1,(0-1),EL,Europa League,2021
+2022-03-17,,Bayer Leverkusen,Atalanta,0,1,Round of 16,0-1,(0-0),EL,Europa League,2021
+2022-03-17,,Galatasaray,FC Barcelona,1,2,Round of 16,1-2,(1-1),EL,Europa League,2021
+2022-03-17,21.00,Olympique Lyonnais,FC Porto,1,1,Round of 16,1-1,(1-1),EL,Europa League,2021
+2022-03-17,,West Ham United,Sevilla FC,2,0,Round of 16,2-0,"a.e.t. (1-0, 1-0)",EL,Europa League,2021
+2022-03-17,,Eintracht Frankfurt,Real Betis,1,1,Round of 16,1-1,"a.e.t. (0-1, 0-0)",EL,Europa League,2021
+2022-04-07,18.45,RB Leipzig,Atalanta,1,1,Quarterfinals,1-1,(0-1),EL,Europa League,2021
+2022-04-07,21.00,Eintracht Frankfurt,FC Barcelona,1,1,Quarterfinals,1-1,(0-0),EL,Europa League,2021
+2022-04-07,,West Ham United,Olympique Lyonnais,1,1,Quarterfinals,1-1,(0-0),EL,Europa League,2021
+2022-04-07,,Sporting Braga,Rangers FC,1,0,Quarterfinals,1-0,(1-0),EL,Europa League,2021
+2022-04-14,18.45,Atalanta,RB Leipzig,0,2,Quarterfinals,0-2,(0-1),EL,Europa League,2021
+2022-04-14,21.00,FC Barcelona,Eintracht Frankfurt,2,3,Quarterfinals,2-3,(0-2),EL,Europa League,2021
+2022-04-14,,Olympique Lyonnais,West Ham United,0,3,Quarterfinals,0-3,(0-2),EL,Europa League,2021
+2022-04-14,,Rangers FC,Sporting Braga,3,1,Quarterfinals,3-1,"a.e.t. (2-1, 2-0)",EL,Europa League,2021
+2022-04-28,21.00,RB Leipzig,Rangers FC,1,0,Semifinals,1-0,(0-0),EL,Europa League,2021
+2022-04-28,,West Ham United,Eintracht Frankfurt,1,2,Semifinals,1-2,(1-1),EL,Europa League,2021
+2022-05-05,21.00,Rangers FC,RB Leipzig,3,1,Semifinals,3-1,(2-0),EL,Europa League,2021
+2022-05-05,,Eintracht Frankfurt,West Ham United,1,0,Semifinals,1-0,(1-0),EL,Europa League,2021
+2022-05-18,21.00,Eintracht Frankfurt,Rangers FC,5,4,Final,5-4 pen.,"1-1 a.e.t. (1-1, 0-0)",EL,Europa League,2021
+2022-09-08,18.45,FC Zürich,Arsenal FC,1,2,Group A,1-2,(1-1),EL,Europa League,2022
+2022-09-08,,PSV Eindhoven,FK Bodø/Glimt,1,1,Group A,1-1,(0-1),EL,Europa League,2022
+2022-09-15,21.00,FK Bodø/Glimt,FC Zürich,2,1,Group A,2-1,(0-0),EL,Europa League,2022
+2022-10-06,18.45,FC Zürich,PSV Eindhoven,1,5,Group A,1-5,(0-4),EL,Europa League,2022
+2022-10-06,21.00,Arsenal FC,FK Bodø/Glimt,3,0,Group A,3-0,(2-0),EL,Europa League,2022
+2022-10-13,18.45,FK Bodø/Glimt,Arsenal FC,0,1,Group A,0-1,(0-1),EL,Europa League,2022
+2022-10-13,21.00,PSV Eindhoven,FC Zürich,5,0,Group A,5-0,(3-0),EL,Europa League,2022
+2022-10-20,19.00,Arsenal FC,PSV Eindhoven,1,0,Group A,1-0,(0-0),EL,Europa League,2022
+2022-10-27,18.45,PSV Eindhoven,Arsenal FC,2,0,Group A,2-0,(0-0),EL,Europa League,2022
+2022-10-27,,FC Zürich,FK Bodø/Glimt,2,1,Group A,2-1,(0-1),EL,Europa League,2022
+2022-11-03,21.00,Arsenal FC,FC Zürich,1,0,Group A,1-0,(1-0),EL,Europa League,2022
+2022-11-03,,FK Bodø/Glimt,PSV Eindhoven,1,2,Group A,1-2,(0-1),EL,Europa League,2022
+2022-09-08,18.45,Fenerbahçe,Dinamo Kiev,2,1,Group B,2-1,(1-0),EL,Europa League,2022
+2022-09-08,,AEK Larnaca,Stade Rennais,1,2,Group B,1-2,(1-1),EL,Europa League,2022
+2022-09-15,21.00,Dinamo Kiev,AEK Larnaca,0,1,Group B,0-1,(0-1),EL,Europa League,2022
+2022-09-15,,Stade Rennais,Fenerbahçe,2,2,Group B,2-2,(0-0),EL,Europa League,2022
+2022-10-06,21.00,Stade Rennais,Dinamo Kiev,2,1,Group B,2-1,(1-1),EL,Europa League,2022
+2022-10-06,,Fenerbahçe,AEK Larnaca,2,0,Group B,2-0,(1-0),EL,Europa League,2022
+2022-10-13,18.45,Dinamo Kiev,Stade Rennais,0,1,Group B,0-1,(0-0),EL,Europa League,2022
+2022-10-13,,AEK Larnaca,Fenerbahçe,1,2,Group B,1-2,(0-1),EL,Europa League,2022
+2022-10-27,18.45,AEK Larnaca,Dinamo Kiev,3,3,Group B,3-3,(1-1),EL,Europa League,2022
+2022-10-27,,Fenerbahçe,Stade Rennais,3,3,Group B,3-3,(1-3),EL,Europa League,2022
+2022-11-03,21.00,Dinamo Kiev,Fenerbahçe,0,2,Group B,0-2,(0-2),EL,Europa League,2022
+2022-11-03,,Stade Rennais,AEK Larnaca,1,1,Group B,1-1,(1-0),EL,Europa League,2022
+2022-09-08,18.45,PFC Ludogorets Razgrad,AS Roma,2,1,Group C,2-1,(0-0),EL,Europa League,2022
+2022-09-08,,HJK Helsinki,Real Betis,0,2,Group C,0-2,(0-1),EL,Europa League,2022
+2022-09-15,21.00,AS Roma,HJK Helsinki,3,0,Group C,3-0,(0-0),EL,Europa League,2022
+2022-09-15,,Real Betis,PFC Ludogorets Razgrad,3,2,Group C,3-2,(2-1),EL,Europa League,2022
+2022-10-06,18.45,HJK Helsinki,PFC Ludogorets Razgrad,1,1,Group C,1-1,(0-1),EL,Europa League,2022
+2022-10-06,21.00,AS Roma,Real Betis,1,2,Group C,1-2,(1-1),EL,Europa League,2022
+2022-10-13,18.45,Real Betis,AS Roma,1,1,Group C,1-1,(1-0),EL,Europa League,2022
+2022-10-13,21.00,PFC Ludogorets Razgrad,HJK Helsinki,2,0,Group C,2-0,(1-0),EL,Europa League,2022
+2022-10-27,18.45,PFC Ludogorets Razgrad,Real Betis,0,1,Group C,0-1,(0-0),EL,Europa League,2022
+2022-10-27,21.00,HJK Helsinki,AS Roma,1,2,Group C,1-2,(0-1),EL,Europa League,2022
+2022-11-03,21.00,AS Roma,PFC Ludogorets Razgrad,3,1,Group C,3-1,(0-1),EL,Europa League,2022
+2022-11-03,,Real Betis,HJK Helsinki,3,0,Group C,3-0,(2-0),EL,Europa League,2022
+2022-09-08,18.45,Malmö FF,Sporting Braga,0,2,Group D,0-2,(0-1),EL,Europa League,2022
+2022-09-08,,1. FC Union Berlin,Union Saint-Gilloise,0,1,Group D,0-1,(0-1),EL,Europa League,2022
+2022-09-15,21.00,Sporting Braga,1. FC Union Berlin,1,0,Group D,1-0,(0-0),EL,Europa League,2022
+2022-09-15,,Union Saint-Gilloise,Malmö FF,3,2,Group D,3-2,(1-1),EL,Europa League,2022
+2022-10-06,18.45,Malmö FF,1. FC Union Berlin,0,1,Group D,0-1,(0-0),EL,Europa League,2022
+2022-10-06,21.00,Sporting Braga,Union Saint-Gilloise,1,2,Group D,1-2,(0-0),EL,Europa League,2022
+2022-10-13,18.45,Union Saint-Gilloise,Sporting Braga,3,3,Group D,3-3,(1-3),EL,Europa League,2022
+2022-10-13,21.00,1. FC Union Berlin,Malmö FF,1,0,Group D,1-0,(0-0),EL,Europa League,2022
+2022-10-27,18.45,1. FC Union Berlin,Sporting Braga,1,0,Group D,1-0,(0-0),EL,Europa League,2022
+2022-10-27,,Malmö FF,Union Saint-Gilloise,0,2,Group D,0-2,(0-2),EL,Europa League,2022
+2022-11-03,21.00,Sporting Braga,Malmö FF,2,1,Group D,2-1,(1-0),EL,Europa League,2022
+2022-11-03,,Union Saint-Gilloise,1. FC Union Berlin,0,1,Group D,0-1,(0-1),EL,Europa League,2022
+2022-09-08,21.00,Manchester United,Real Sociedad,0,1,Group E,0-1,(0-0),EL,Europa League,2022
+2022-09-08,,Omonia Nikosia,FC Sheriff,0,3,Group E,0-3,(0-1),EL,Europa League,2022
+2022-09-15,18.45,Real Sociedad,Omonia Nikosia,2,1,Group E,2-1,(1-0),EL,Europa League,2022
+2022-09-15,,FC Sheriff,Manchester United,0,2,Group E,0-2,(0-2),EL,Europa League,2022
+2022-10-06,18.45,FC Sheriff,Real Sociedad,0,2,Group E,0-2,(0-0),EL,Europa League,2022
+2022-10-06,,Omonia Nikosia,Manchester United,2,3,Group E,2-3,(1-0),EL,Europa League,2022
+2022-10-13,21.00,Manchester United,Omonia Nikosia,1,0,Group E,1-0,(0-0),EL,Europa League,2022
+2022-10-13,,Real Sociedad,FC Sheriff,3,0,Group E,3-0,(1-0),EL,Europa League,2022
+2022-10-27,21.00,Manchester United,FC Sheriff,3,0,Group E,3-0,(1-0),EL,Europa League,2022
+2022-10-27,,Omonia Nikosia,Real Sociedad,0,2,Group E,0-2,(0-1),EL,Europa League,2022
+2022-11-03,18.45,FC Sheriff,Omonia Nikosia,1,0,Group E,1-0,(0-0),EL,Europa League,2022
+2022-11-03,,Real Sociedad,Manchester United,0,1,Group E,0-1,(0-1),EL,Europa League,2022
+2022-09-08,21.00,Lazio Roma,Feyenoord,4,2,Group F,4-2,(3-0),EL,Europa League,2022
+2022-09-08,,Sturm Graz,FC Midtjylland,1,0,Group F,1-0,(1-0),EL,Europa League,2022
+2022-09-15,18.45,FC Midtjylland,Lazio Roma,5,1,Group F,5-1,(2-0),EL,Europa League,2022
+2022-09-15,,Feyenoord,Sturm Graz,6,0,Group F,6-0,(4-0),EL,Europa League,2022
+2022-10-06,18.45,Sturm Graz,Lazio Roma,0,0,Group F,0-0,,EL,Europa League,2022
+2022-10-06,21.00,FC Midtjylland,Feyenoord,2,2,Group F,2-2,(0-2),EL,Europa League,2022
+2022-10-13,18.45,Feyenoord,FC Midtjylland,2,2,Group F,2-2,(1-1),EL,Europa League,2022
+2022-10-13,21.00,Lazio Roma,Sturm Graz,2,2,Group F,2-2,(1-0),EL,Europa League,2022
+2022-10-27,18.45,Lazio Roma,FC Midtjylland,2,1,Group F,2-1,(1-1),EL,Europa League,2022
+2022-10-27,21.00,Sturm Graz,Feyenoord,1,0,Group F,1-0,(0-0),EL,Europa League,2022
+2022-11-03,18.45,Feyenoord,Lazio Roma,1,0,Group F,1-0,(0-0),EL,Europa League,2022
+2022-11-03,,FC Midtjylland,Sturm Graz,2,0,Group F,2-0,(1-0),EL,Europa League,2022
+2022-09-08,21.00,FC Nantes,Olympiakos Piraeus,2,1,Gruppe G,2-1,(1-0),EL,Europa League,2022
+2022-09-08,,SC Freiburg,Qarabağ FK,2,1,Gruppe G,2-1,(2-1),EL,Europa League,2022
+2022-09-15,18.45,Olympiakos Piraeus,SC Freiburg,0,3,Gruppe G,0-3,(0-2),EL,Europa League,2022
+2022-09-15,,Qarabağ FK,FC Nantes,3,0,Gruppe G,3-0,(0-0),EL,Europa League,2022
+2022-10-06,21.00,Olympiakos Piraeus,Qarabağ FK,0,3,Gruppe G,0-3,(0-0),EL,Europa League,2022
+2022-10-06,,SC Freiburg,FC Nantes,2,0,Gruppe G,2-0,(0-0),EL,Europa League,2022
+2022-10-13,18.45,Qarabağ FK,Olympiakos Piraeus,0,0,Gruppe G,0-0,,EL,Europa League,2022
+2022-10-13,,FC Nantes,SC Freiburg,0,4,Gruppe G,0-4,(0-1),EL,Europa League,2022
+2022-10-27,21.00,SC Freiburg,Olympiakos Piraeus,1,1,Gruppe G,1-1,(0-1),EL,Europa League,2022
+2022-10-27,,FC Nantes,Qarabağ FK,2,1,Gruppe G,2-1,(1-0),EL,Europa League,2022
+2022-11-03,18.45,Olympiakos Piraeus,FC Nantes,0,2,Gruppe G,0-2,(0-0),EL,Europa League,2022
+2022-11-03,,Qarabağ FK,SC Freiburg,1,1,Gruppe G,1-1,(0-1),EL,Europa League,2022
+2022-09-08,21.00,Crvena Zvezda,AS Monaco,0,1,Gruppe H,0-1,(0-0),EL,Europa League,2022
+2022-09-08,,Ferencvárosi TC,Trabzonspor,3,2,Gruppe H,3-2,(3-1),EL,Europa League,2022
+2022-09-15,18.45,Trabzonspor,Crvena Zvezda,2,1,Gruppe H,2-1,(1-0),EL,Europa League,2022
+2022-09-15,,AS Monaco,Ferencvárosi TC,0,1,Gruppe H,0-1,(0-0),EL,Europa League,2022
+2022-10-06,18.45,Crvena Zvezda,Ferencvárosi TC,4,1,Gruppe H,4-1,(2-0),EL,Europa League,2022
+2022-10-06,,AS Monaco,Trabzonspor,3,1,Gruppe H,3-1,(2-0),EL,Europa League,2022
+2022-10-13,21.00,Ferencvárosi TC,Crvena Zvezda,2,1,Gruppe H,2-1,(1-0),EL,Europa League,2022
+2022-10-13,,Trabzonspor,AS Monaco,4,0,Gruppe H,4-0,(1-0),EL,Europa League,2022
+2022-10-27,21.00,Crvena Zvezda,Trabzonspor,2,1,Gruppe H,2-1,(1-1),EL,Europa League,2022
+2022-10-27,,Ferencvárosi TC,AS Monaco,1,1,Gruppe H,1-1,(0-1),EL,Europa League,2022
+2022-11-03,18.45,AS Monaco,Crvena Zvezda,4,1,Gruppe H,4-1,(2-0),EL,Europa League,2022
+2022-11-03,,Trabzonspor,Ferencvárosi TC,1,0,Gruppe H,1-0,(1-0),EL,Europa League,2022
+2023-02-16,18.45,FC Barcelona,Manchester United,2,2,Playoffs,2-2,(0-0),EL,Europa League,2022
+2023-02-16,,Shakhtar Donetsk,Stade Rennais,2,1,Playoffs,2-1,(2-0),EL,Europa League,2022
+2023-02-16,,AFC Ajax,1. FC Union Berlin,0,0,Playoffs,0-0,,EL,Europa League,2022
+2023-02-16,,RB Salzburg,AS Roma,1,0,Playoffs,1-0,(0-0),EL,Europa League,2022
+2023-02-16,21.00,Juventus,FC Nantes,1,1,Playoffs,1-1,(1-0),EL,Europa League,2022
+2023-02-16,,Sporting CP,FC Midtjylland,1,1,Playoffs,1-1,(0-0),EL,Europa League,2022
+2023-02-16,,Bayer Leverkusen,AS Monaco,2,3,Playoffs,2-3,(0-1),EL,Europa League,2022
+2023-02-16,,Sevilla FC,PSV Eindhoven,3,0,Playoffs,3-0,(1-0),EL,Europa League,2022
+2023-02-23,18.45,FC Nantes,Juventus,0,3,Playoffs,0-3,(0-2),EL,Europa League,2022
+2023-02-23,,FC Midtjylland,Sporting CP,0,4,Playoffs,0-4,(0-1),EL,Europa League,2022
+2023-02-23,,AS Monaco,Bayer Leverkusen,3,5,Playoffs,3-5 pen.,"2-3 a.e.t. (2-3, 1-2)",EL,Europa League,2022
+2023-02-23,,PSV Eindhoven,Sevilla FC,2,0,Playoffs,2-0,(0-0),EL,Europa League,2022
+2023-02-23,21.00,Manchester United,FC Barcelona,2,1,Playoffs,2-1,(0-1),EL,Europa League,2022
+2023-02-23,,Stade Rennais,Shakhtar Donetsk,4,5,Playoffs,4-5 pen.,"2-1 a.e.t. (1-0, 0-0)",EL,Europa League,2022
+2023-02-23,,1. FC Union Berlin,AFC Ajax,3,1,Playoffs,3-1,(2-0),EL,Europa League,2022
+2023-02-23,,AS Roma,RB Salzburg,2,0,Playoffs,2-0,(2-0),EL,Europa League,2022
+2023-03-09,18.45,1. FC Union Berlin,Union Saint-Gilloise,3,3,Round of 16,3-3,(1-1),EL,Europa League,2022
+2023-03-09,,Bayer Leverkusen,Ferencvárosi TC,2,0,Round of 16,2-0,(1-0),EL,Europa League,2022
+2023-03-09,,Sporting CP,Arsenal FC,2,2,Round of 16,2-2,(1-1),EL,Europa League,2022
+2023-03-09,,AS Roma,Real Sociedad,2,0,Round of 16,2-0,(1-0),EL,Europa League,2022
+2023-03-09,21.00,Sevilla FC,Fenerbahçe,2,0,Round of 16,2-0,(0-0),EL,Europa League,2022
+2023-03-09,,Juventus,SC Freiburg,1,0,Round of 16,1-0,(0-0),EL,Europa League,2022
+2023-03-09,,Manchester United,Real Betis,4,1,Round of 16,4-1,(1-1),EL,Europa League,2022
+2023-03-09,,Shakhtar Donetsk,Feyenoord,1,1,Round of 16,1-1,(0-0),EL,Europa League,2022
+2023-03-16,18.45,Fenerbahçe,Sevilla FC,1,0,Round of 16,1-0,(1-0),EL,Europa League,2022
+2023-03-16,,SC Freiburg,Juventus,0,2,Round of 16,0-2,(0-1),EL,Europa League,2022
+2023-03-16,,Real Betis,Manchester United,0,1,Round of 16,0-1,(0-0),EL,Europa League,2022
+2023-03-16,,Feyenoord,Shakhtar Donetsk,7,1,Round of 16,7-1,(3-0),EL,Europa League,2022
+2023-03-16,21.00,Union Saint-Gilloise,1. FC Union Berlin,3,0,Round of 16,3-0,(1-0),EL,Europa League,2022
+2023-03-16,,Ferencvárosi TC,Bayer Leverkusen,0,2,Round of 16,0-2,(0-1),EL,Europa League,2022
+2023-03-16,,Arsenal FC,Sporting CP,3,5,Round of 16,3-5 pen.,"1-1 a.e.t. (1-1, 1-0)",EL,Europa League,2022
+2023-03-16,,Real Sociedad,AS Roma,0,0,Round of 16,0-0,,EL,Europa League,2022
+2023-04-13,18.45,Feyenoord,AS Roma,1,0,Quarterfinals,1-0,(0-0),EL,Europa League,2022
+2023-04-13,21.00,Manchester United,Sevilla FC,2,2,Quarterfinals,2-2,(2-0),EL,Europa League,2022
+2023-04-13,,Juventus,Sporting CP,1,0,Quarterfinals,1-0,(0-0),EL,Europa League,2022
+2023-04-13,,Bayer Leverkusen,Union Saint-Gilloise,1,1,Quarterfinals,1-1,(0-0),EL,Europa League,2022
+2023-04-20,21.00,Sevilla FC,Manchester United,3,0,Quarterfinals,3-0,(1-0),EL,Europa League,2022
+2023-04-20,,Sporting CP,Juventus,1,1,Quarterfinals,1-1,(1-1),EL,Europa League,2022
+2023-04-20,,Union Saint-Gilloise,Bayer Leverkusen,1,4,Quarterfinals,1-4,(0-2),EL,Europa League,2022
+2023-04-20,,AS Roma,Feyenoord,4,1,Quarterfinals,4-1,"a.e.t. (2-1, 0-0)",EL,Europa League,2022
+2023-05-11,21.00,Juventus,Sevilla FC,1,1,Semifinals,1-1,(0-1),EL,Europa League,2022
+2023-05-11,,AS Roma,Bayer Leverkusen,1,0,Semifinals,1-0,(0-0),EL,Europa League,2022
+2023-05-18,21.00,Sevilla FC,Juventus,2,1,Semifinals,2-1,"a.e.t. (1-1, 0-0)",EL,Europa League,2022
+2023-05-18,,Bayer Leverkusen,AS Roma,0,0,Semifinals,0-0,,EL,Europa League,2022
+2023-05-31,21.00,Sevilla FC,AS Roma,4,1,Final,4-1 pen.,"1-1 a.e.t. (1-1, 0-1)",EL,Europa League,2022
+2023-09-21,21.00,Olympiakos Piraeus,SC Freiburg,2,3,Group A,2-3,(1-2),EL,Europa League,2023
+2023-09-21,,West Ham United,TSC Bačka Topola,3,1,Group A,3-1,(0-0),EL,Europa League,2023
+2023-10-05,18.45,SC Freiburg,West Ham United,1,2,Group A,1-2,(0-1),EL,Europa League,2023
+2023-10-05,,TSC Bačka Topola,Olympiakos Piraeus,2,2,Group A,2-2,(0-1),EL,Europa League,2023
+2023-10-26,18.45,Olympiakos Piraeus,West Ham United,2,1,Group A,2-1,(2-0),EL,Europa League,2023
+2023-10-26,,TSC Bačka Topola,SC Freiburg,1,3,Group A,1-3,(1-0),EL,Europa League,2023
+2023-11-09,21.00,SC Freiburg,TSC Bačka Topola,5,0,Group A,5-0,(1-0),EL,Europa League,2023
+2023-11-09,,West Ham United,Olympiakos Piraeus,1,0,Group A,1-0,(0-0),EL,Europa League,2023
+2023-11-30,18.45,SC Freiburg,Olympiakos Piraeus,5,0,Group A,5-0,(4-0),EL,Europa League,2023
+2023-11-30,,TSC Bačka Topola,West Ham United,0,1,Group A,0-1,(0-0),EL,Europa League,2023
+2023-12-14,21.00,Olympiakos Piraeus,TSC Bačka Topola,5,2,Group A,5-2,(3-0),EL,Europa League,2023
+2023-12-14,,West Ham United,SC Freiburg,2,0,Group A,2-0,(2-0),EL,Europa League,2023
+2023-09-21,21.00,AFC Ajax,Olympique Marseille,3,3,Group B,3-3,(2-2),EL,Europa League,2023
+2023-09-21,,Brighton & Hove Albion,AEK Athen,2,3,Group B,2-3,(1-2),EL,Europa League,2023
+2023-10-05,18.45,AEK Athen,AFC Ajax,1,1,Group B,1-1,(0-1),EL,Europa League,2023
+2023-10-05,,Olympique Marseille,Brighton & Hove Albion,2,2,Group B,2-2,(2-0),EL,Europa League,2023
+2023-10-26,18.45,Olympique Marseille,AEK Athen,3,1,Group B,3-1,(1-0),EL,Europa League,2023
+2023-10-26,21.00,Brighton & Hove Albion,AFC Ajax,2,0,Group B,2-0,(1-0),EL,Europa League,2023
+2023-11-09,18.45,AFC Ajax,Brighton & Hove Albion,0,2,Group B,0-2,(0-1),EL,Europa League,2023
+2023-11-09,21.00,AEK Athen,Olympique Marseille,0,2,Group B,0-2,(0-1),EL,Europa League,2023
+2023-11-30,18.45,AEK Athen,Brighton & Hove Albion,0,1,Group B,0-1,(0-0),EL,Europa League,2023
+2023-11-30,21.00,Olympique Marseille,AFC Ajax,4,3,Group B,4-3,(2-2),EL,Europa League,2023
+2023-12-14,21.00,AFC Ajax,AEK Athen,3,1,Group B,3-1,(2-1),EL,Europa League,2023
+2023-12-14,,Brighton & Hove Albion,Olympique Marseille,1,0,Group B,1-0,(0-0),EL,Europa League,2023
+2023-09-21,21.00,AC Sparta Praha,Aris Limassol,3,2,Group C,3-2,(2-1),EL,Europa League,2023
+2023-09-21,,Rangers FC,Real Betis,1,0,Group C,1-0,(0-0),EL,Europa League,2023
+2023-10-05,18.45,Aris Limassol,Rangers FC,2,1,Group C,2-1,(1-0),EL,Europa League,2023
+2023-10-05,,Real Betis,AC Sparta Praha,2,1,Group C,2-1,(1-1),EL,Europa League,2023
+2023-10-26,18.45,AC Sparta Praha,Rangers FC,0,0,Group C,0-0,,EL,Europa League,2023
+2023-10-26,,Aris Limassol,Real Betis,0,1,Group C,0-1,(0-0),EL,Europa League,2023
+2023-11-09,21.00,Rangers FC,AC Sparta Praha,2,1,Group C,2-1,(2-0),EL,Europa League,2023
+2023-11-09,,Real Betis,Aris Limassol,4,1,Group C,4-1,(1-0),EL,Europa League,2023
+2023-11-30,18.45,AC Sparta Praha,Real Betis,1,0,Group C,1-0,(0-0),EL,Europa League,2023
+2023-11-30,21.00,Rangers FC,Aris Limassol,1,1,Group C,1-1,(0-1),EL,Europa League,2023
+2023-12-14,21.00,Aris Limassol,AC Sparta Praha,1,3,Group C,1-3,(0-3),EL,Europa League,2023
+2023-12-14,,Real Betis,Rangers FC,2,3,Group C,2-3,(2-2),EL,Europa League,2023
+2023-09-21,21.00,Atalanta,Raków Częstochowa,2,0,Group D,2-0,(0-0),EL,Europa League,2023
+2023-09-21,,Sturm Graz,Sporting CP,1,2,Group D,1-2,(0-0),EL,Europa League,2023
+2023-10-05,18.45,Raków Częstochowa,Sturm Graz,0,1,Group D,0-1,(0-1),EL,Europa League,2023
+2023-10-05,,Sporting CP,Atalanta,1,2,Group D,1-2,(0-2),EL,Europa League,2023
+2023-10-26,18.45,Raków Częstochowa,Sporting CP,1,1,Group D,1-1,(0-1),EL,Europa League,2023
+2023-10-26,,Sturm Graz,Atalanta,2,2,Group D,2-2,(1-2),EL,Europa League,2023
+2023-11-09,21.00,Atalanta,Sturm Graz,1,0,Group D,1-0,(0-0),EL,Europa League,2023
+2023-11-09,,Sporting CP,Raków Częstochowa,2,1,Group D,2-1,(1-0),EL,Europa League,2023
+2023-11-30,18.45,Atalanta,Sporting CP,1,1,Group D,1-1,(1-0),EL,Europa League,2023
+2023-11-30,,Sturm Graz,Raków Częstochowa,0,1,Group D,0-1,(0-0),EL,Europa League,2023
+2023-12-14,21.00,Raków Częstochowa,Atalanta,0,4,Group D,0-4,(0-2),EL,Europa League,2023
+2023-12-14,,Sporting CP,Sturm Graz,3,0,Group D,3-0,(1-0),EL,Europa League,2023
+2023-09-21,18.45,Union Saint-Gilloise,Toulouse FC,1,1,Group E,1-1,(0-1),EL,Europa League,2023
+2023-09-21,,LASK,Liverpool FC,1,3,Group E,1-3,(1-0),EL,Europa League,2023
+2023-10-05,21.00,Liverpool FC,Union Saint-Gilloise,2,0,Group E,2-0,(1-0),EL,Europa League,2023
+2023-10-05,,Toulouse FC,LASK,1,0,Group E,1-0,(1-0),EL,Europa League,2023
+2023-10-26,21.00,Liverpool FC,Toulouse FC,5,1,Group E,5-1,(3-1),EL,Europa League,2023
+2023-10-26,,Union Saint-Gilloise,LASK,2,1,Group E,2-1,(0-1),EL,Europa League,2023
+2023-11-09,18.45,Toulouse FC,Liverpool FC,3,2,Group E,3-2,(1-0),EL,Europa League,2023
+2023-11-09,,LASK,Union Saint-Gilloise,3,0,Group E,3-0,(2-0),EL,Europa League,2023
+2023-11-30,21.00,Liverpool FC,LASK,4,0,Group E,4-0,(2-0),EL,Europa League,2023
+2023-11-30,,Toulouse FC,Union Saint-Gilloise,0,0,Group E,0-0,,EL,Europa League,2023
+2023-12-14,18.45,Union Saint-Gilloise,Liverpool FC,2,1,Group E,2-1,(2-1),EL,Europa League,2023
+2023-12-14,,LASK,Toulouse FC,1,2,Group E,1-2,(0-0),EL,Europa League,2023
+2023-09-21,18.45,Stade Rennais,Maccabi Haifa,3,0,Group F,3-0,(2-0),EL,Europa League,2023
+2023-09-21,,Panathinaikos,Villarreal CF,2,0,Group F,2-0,(1-0),EL,Europa League,2023
+2023-10-05,21.00,Villarreal CF,Stade Rennais,1,0,Group F,1-0,(1-0),EL,Europa League,2023
+2023-10-05,,Maccabi Haifa,Panathinaikos,0,0,Group F,0-0,,EL,Europa League,2023
+2023-10-26,21.00,Panathinaikos,Stade Rennais,1,2,Group F,1-2,(0-1),EL,Europa League,2023
+2023-11-09,18.45,Stade Rennais,Panathinaikos,3,1,Group F,3-1,(1-1),EL,Europa League,2023
+2023-11-09,,Maccabi Haifa,Villarreal CF,1,2,Group F,1-2,(1-0),EL,Europa League,2023
+2023-11-30,18.45,Maccabi Haifa,Stade Rennais,0,3,Group F,0-3,(0-1),EL,Europa League,2023
+2023-11-30,21.00,Villarreal CF,Panathinaikos,3,2,Group F,3-2,(2-0),EL,Europa League,2023
+2023-12-06,21.00,Villarreal CF,Maccabi Haifa,0,0,Group F,0-0,,EL,Europa League,2023
+2023-12-14,18.45,Stade Rennais,Villarreal CF,2,3,Group F,2-3,(1-1),EL,Europa League,2023
+2023-12-14,,Panathinaikos,Maccabi Haifa,1,2,Group F,1-2,(0-1),EL,Europa League,2023
+2023-09-21,18.45,FC Sheriff,AS Roma,1,2,Gruppe G,1-2,(0-1),EL,Europa League,2023
+2023-09-21,,Servette FC,Slavia Praha,0,2,Gruppe G,0-2,(0-1),EL,Europa League,2023
+2023-10-05,21.00,AS Roma,Servette FC,4,0,Gruppe G,4-0,(1-0),EL,Europa League,2023
+2023-10-05,,Slavia Praha,FC Sheriff,6,0,Gruppe G,6-0,(3-0),EL,Europa League,2023
+2023-10-26,21.00,AS Roma,Slavia Praha,2,0,Gruppe G,2-0,(2-0),EL,Europa League,2023
+2023-10-26,,FC Sheriff,Servette FC,1,1,Gruppe G,1-1,(0-1),EL,Europa League,2023
+2023-11-09,18.45,Slavia Praha,AS Roma,2,0,Gruppe G,2-0,(0-0),EL,Europa League,2023
+2023-11-09,,Servette FC,FC Sheriff,2,1,Gruppe G,2-1,(0-1),EL,Europa League,2023
+2023-11-30,21.00,Servette FC,AS Roma,1,1,Gruppe G,1-1,(0-1),EL,Europa League,2023
+2023-11-30,,FC Sheriff,Slavia Praha,2,3,Gruppe G,2-3,(1-1),EL,Europa League,2023
+2023-12-14,18.45,AS Roma,FC Sheriff,3,0,Gruppe G,3-0,(2-0),EL,Europa League,2023
+2023-12-14,,Slavia Praha,Servette FC,4,0,Gruppe G,4-0,(4-0),EL,Europa League,2023
+2023-09-21,18.45,Bayer Leverkusen,BK Häcken,4,0,Gruppe H,4-0,(2-0),EL,Europa League,2023
+2023-09-21,,Qarabağ FK,Molde FK,1,0,Gruppe H,1-0,(0-0),EL,Europa League,2023
+2023-10-05,21.00,Molde FK,Bayer Leverkusen,1,2,Gruppe H,1-2,(0-2),EL,Europa League,2023
+2023-10-05,,BK Häcken,Qarabağ FK,0,1,Gruppe H,0-1,(0-0),EL,Europa League,2023
+2023-10-26,18.45,Molde FK,BK Häcken,5,1,Gruppe H,5-1,(3-1),EL,Europa League,2023
+2023-10-26,21.00,Bayer Leverkusen,Qarabağ FK,5,1,Gruppe H,5-1,(3-1),EL,Europa League,2023
+2023-11-09,18.45,Qarabağ FK,Bayer Leverkusen,0,1,Gruppe H,0-1,(0-0),EL,Europa League,2023
+2023-11-09,21.00,BK Häcken,Molde FK,1,3,Gruppe H,1-3,(0-2),EL,Europa League,2023
+2023-11-30,21.00,BK Häcken,Bayer Leverkusen,0,2,Gruppe H,0-2,(0-1),EL,Europa League,2023
+2023-11-30,,Molde FK,Qarabağ FK,2,2,Gruppe H,2-2,(0-1),EL,Europa League,2023
+2023-12-14,18.45,Bayer Leverkusen,Molde FK,5,1,Gruppe H,5-1,(3-0),EL,Europa League,2023
+2023-12-14,,Qarabağ FK,BK Häcken,2,1,Gruppe H,2-1,(2-0),EL,Europa League,2023
+2024-02-15,18.45,Feyenoord,AS Roma,1,1,Playoffs,1-1,(1-0),EL,Europa League,2023
+2024-02-15,,BSC Young Boys,Sporting CP,1,3,Playoffs,1-3,(1-2),EL,Europa League,2023
+2024-02-15,,Galatasaray,AC Sparta Praha,3,2,Playoffs,3-2,(1-0),EL,Europa League,2023
+2024-02-15,,Shakhtar Donetsk,Olympique Marseille,2,2,Playoffs,2-2,(0-0),EL,Europa League,2023
+2024-02-15,21.00,AC Milan,Stade Rennais,3,0,Playoffs,3-0,(1-0),EL,Europa League,2023
+2024-02-15,,RC Lens,SC Freiburg,0,0,Playoffs,0-0,,EL,Europa League,2023
+2024-02-15,,SL Benfica,Toulouse FC,2,1,Playoffs,2-1,(0-0),EL,Europa League,2023
+2024-02-15,,Sporting Braga,Qarabağ FK,2,4,Playoffs,2-4,(1-1),EL,Europa League,2023
+2024-02-22,18.45,Stade Rennais,AC Milan,3,2,Playoffs,3-2,(1-1),EL,Europa League,2023
+2024-02-22,,SC Freiburg,RC Lens,3,2,Playoffs,3-2,"a.e.t. (2-2, 0-2)",EL,Europa League,2023
+2024-02-22,,Toulouse FC,SL Benfica,0,0,Playoffs,0-0,,EL,Europa League,2023
+2024-02-22,,Qarabağ FK,Sporting Braga,2,3,Playoffs,2-3,"a.e.t. (0-2, 0-0)",EL,Europa League,2023
+2024-02-22,21.00,AS Roma,Feyenoord,4,2,Playoffs,4-2 pen.,"1-1 a.e.t. (1-1, 1-1)",EL,Europa League,2023
+2024-02-22,,Sporting CP,BSC Young Boys,1,1,Playoffs,1-1,(1-0),EL,Europa League,2023
+2024-02-22,,AC Sparta Praha,Galatasaray,4,1,Playoffs,4-1,(1-1),EL,Europa League,2023
+2024-02-22,,Olympique Marseille,Shakhtar Donetsk,3,1,Playoffs,3-1,(1-1),EL,Europa League,2023
+2024-03-06,18.45,Sporting CP,Atalanta,1,1,Round of 16,1-1,(1-1),EL,Europa League,2023
+2024-03-07,18.45,AC Sparta Praha,Liverpool FC,1,5,Round of 16,1-5,(0-3),EL,Europa League,2023
+2024-03-07,,AS Roma,Brighton & Hove Albion,4,0,Round of 16,4-0,(2-0),EL,Europa League,2023
+2024-03-07,,Qarabağ FK,Bayer Leverkusen,2,2,Round of 16,2-2,(2-0),EL,Europa League,2023
+2024-03-07,21.00,Olympique Marseille,Villarreal CF,4,0,Round of 16,4-0,(3-0),EL,Europa League,2023
+2024-03-07,,SL Benfica,Rangers FC,2,2,Round of 16,2-2,(1-2),EL,Europa League,2023
+2024-03-07,,SC Freiburg,West Ham United,1,0,Round of 16,1-0,(0-0),EL,Europa League,2023
+2024-03-07,,AC Milan,Slavia Praha,4,2,Round of 16,4-2,(3-1),EL,Europa League,2023
+2024-03-14,18.45,Villarreal CF,Olympique Marseille,3,1,Round of 16,3-1,(1-0),EL,Europa League,2023
+2024-03-14,,Rangers FC,SL Benfica,0,1,Round of 16,0-1,(0-0),EL,Europa League,2023
+2024-03-14,,West Ham United,SC Freiburg,5,0,Round of 16,5-0,(2-0),EL,Europa League,2023
+2024-03-14,,Slavia Praha,AC Milan,1,3,Round of 16,1-3,(0-3),EL,Europa League,2023
+2024-03-14,21.00,Liverpool FC,AC Sparta Praha,6,1,Round of 16,6-1,(4-1),EL,Europa League,2023
+2024-03-14,,Brighton & Hove Albion,AS Roma,1,0,Round of 16,1-0,(1-0),EL,Europa League,2023
+2024-03-14,,Atalanta,Sporting CP,2,1,Round of 16,2-1,(0-1),EL,Europa League,2023
+2024-03-14,,Bayer Leverkusen,Qarabağ FK,3,2,Round of 16,3-2,(0-0),EL,Europa League,2023
+2024-04-11,21.00,AC Milan,AS Roma,0,1,Quarterfinals,0-1,(0-1),EL,Europa League,2023
+2024-04-11,,Liverpool FC,Atalanta,0,3,Quarterfinals,0-3,(0-1),EL,Europa League,2023
+2024-04-11,,Bayer Leverkusen,West Ham United,2,0,Quarterfinals,2-0,(0-0),EL,Europa League,2023
+2024-04-11,,SL Benfica,Olympique Marseille,2,1,Quarterfinals,2-1,(1-0),EL,Europa League,2023
+2024-04-18,21.00,AS Roma,AC Milan,2,1,Quarterfinals,2-1,(2-0),EL,Europa League,2023
+2024-04-18,,Atalanta,Liverpool FC,0,1,Quarterfinals,0-1,(0-1),EL,Europa League,2023
+2024-04-18,,West Ham United,Bayer Leverkusen,1,1,Quarterfinals,1-1,(1-0),EL,Europa League,2023
+2024-04-18,,Olympique Marseille,SL Benfica,4,2,Quarterfinals,4-2 pen.,"1-0 a.e.t. (1-0, 0-0)",EL,Europa League,2023
+2024-05-02,21.00,Olympique Marseille,Atalanta,1,1,Semifinals,1-1,(1-1),EL,Europa League,2023
+2024-05-02,,AS Roma,Bayer Leverkusen,0,2,Semifinals,0-2,(0-1),EL,Europa League,2023
+2024-05-09,21.00,Atalanta,Olympique Marseille,3,0,Semifinals,3-0,(1-0),EL,Europa League,2023
+2024-05-09,,Bayer Leverkusen,AS Roma,2,2,Semifinals,2-2,(0-1),EL,Europa League,2023
+2024-05-22,21.00,Atalanta,Bayer Leverkusen,3,0,Final,3-0,(2-0),EL,Europa League,2023
+2024-09-25,18.45,AZ Alkmaar,IF Elfsborg,3,2,League phase,3-2,(1-1),EL,Europa League,2024
+2024-09-25,,FK Bodø/Glimt,FC Porto,3,2,League phase,3-2,(2-1),EL,Europa League,2024
+2024-09-25,21.00,Manchester United,FC Twente,1,1,League phase,1-1,(1-0),EL,Europa League,2024
+2024-09-25,,PFC Ludogorets Razgrad,Slavia Praha,0,2,League phase,0-2,(0-1),EL,Europa League,2024
+2024-09-25,,Galatasaray,PAOK Saloniki,3,1,League phase,3-1,(0-0),EL,Europa League,2024
+2024-09-25,,Dinamo Kiev,Lazio Roma,0,3,League phase,0-3,(0-3),EL,Europa League,2024
+2024-09-25,,FC Midtjylland,1899 Hoffenheim,1,1,League phase,1-1,(1-0),EL,Europa League,2024
+2024-09-25,,RSC Anderlecht,Ferencvárosi TC,2,1,League phase,2-1,(0-0),EL,Europa League,2024
+2024-09-25,,OGC Nice,Real Sociedad,1,1,League phase,1-1,(1-1),EL,Europa League,2024
+2024-09-26,18.45,Fenerbahçe,Union Saint-Gilloise,2,1,League phase,2-1,(1-0),EL,Europa League,2024
+2024-09-26,,Malmö FF,Rangers FC,0,2,League phase,0-2,(0-1),EL,Europa League,2024
+2024-09-26,21.00,AS Roma,Athletic Club,1,1,League phase,1-1,(1-0),EL,Europa League,2024
+2024-09-26,,Eintracht Frankfurt,Viktoria Plzeň,3,3,League phase,3-3,(1-1),EL,Europa League,2024
+2024-09-26,,AFC Ajax,Beşiktaş,4,0,League phase,4-0,(1-0),EL,Europa League,2024
+2024-09-26,,Sporting Braga,Maccabi Tel Aviv,2,1,League phase,2-1,(0-1),EL,Europa League,2024
+2024-09-26,,Olympique Lyonnais,Olympiakos Piraeus,2,0,League phase,2-0,(0-0),EL,Europa League,2024
+2024-09-26,,FCSB,FK RFS,4,1,League phase,4-1,(2-1),EL,Europa League,2024
+2024-09-26,21.35,Tottenham Hotspur,Qarabağ FK,3,0,League phase,3-0,(1-0),EL,Europa League,2024
+2024-10-03,18.45,Slavia Praha,AFC Ajax,1,1,League phase,1-1,(0-1),EL,Europa League,2024
+2024-10-03,,Lazio Roma,OGC Nice,4,1,League phase,4-1,(2-1),EL,Europa League,2024
+2024-10-03,,Maccabi Tel Aviv,FC Midtjylland,0,2,League phase,0-2,(0-1),EL,Europa League,2024
+2024-10-03,,Ferencvárosi TC,Tottenham Hotspur,1,2,League phase,1-2,(0-1),EL,Europa League,2024
+2024-10-03,,Real Sociedad,RSC Anderlecht,1,2,League phase,1-2,(1-2),EL,Europa League,2024
+2024-10-03,,Olympiakos Piraeus,Sporting Braga,3,0,League phase,3-0,(1-0),EL,Europa League,2024
+2024-10-03,,Qarabağ FK,Malmö FF,1,2,League phase,1-2,(1-1),EL,Europa League,2024
+2024-10-03,,1899 Hoffenheim,Dinamo Kiev,2,0,League phase,2-0,(1-0),EL,Europa League,2024
+2024-10-03,,FK RFS,Galatasaray,2,2,League phase,2-2,(1-2),EL,Europa League,2024
+2024-10-03,21.00,Rangers FC,Olympique Lyonnais,1,4,League phase,1-4,(1-3),EL,Europa League,2024
+2024-10-03,,FC Porto,Manchester United,3,3,League phase,3-3,(2-2),EL,Europa League,2024
+2024-10-03,,PAOK Saloniki,FCSB,0,1,League phase,0-1,(0-1),EL,Europa League,2024
+2024-10-03,,Union Saint-Gilloise,FK Bodø/Glimt,0,0,League phase,0-0,,EL,Europa League,2024
+2024-10-03,,Viktoria Plzeň,PFC Ludogorets Razgrad,0,0,League phase,0-0,,EL,Europa League,2024
+2024-10-03,,Beşiktaş,Eintracht Frankfurt,1,3,League phase,1-3,(0-2),EL,Europa League,2024
+2024-10-03,,FC Twente,Fenerbahçe,1,1,League phase,1-1,(1-0),EL,Europa League,2024
+2024-10-03,,IF Elfsborg,AS Roma,1,0,League phase,1-0,(1-0),EL,Europa League,2024
+2024-10-03,,Athletic Club,AZ Alkmaar,2,0,League phase,2-0,(0-0),EL,Europa League,2024
+2024-10-23,16.30,Sporting Braga,FK Bodø/Glimt,1,2,League phase,1-2,(0-0),EL,Europa League,2024
+2024-10-23,,Galatasaray,IF Elfsborg,4,3,League phase,4-3,(3-0),EL,Europa League,2024
+2024-10-24,18.45,AS Roma,Dinamo Kiev,1,0,League phase,1-0,(1-0),EL,Europa League,2024
+2024-10-24,,Eintracht Frankfurt,FK RFS,1,0,League phase,1-0,(0-0),EL,Europa League,2024
+2024-10-24,,Maccabi Tel Aviv,Real Sociedad,1,2,League phase,1-2,(0-1),EL,Europa League,2024
+2024-10-24,,Ferencvárosi TC,OGC Nice,1,0,League phase,1-0,(1-0),EL,Europa League,2024
+2024-10-24,,PAOK Saloniki,Viktoria Plzeň,2,2,League phase,2-2,(0-2),EL,Europa League,2024
+2024-10-24,,FC Midtjylland,Union Saint-Gilloise,1,0,League phase,1-0,(1-0),EL,Europa League,2024
+2024-10-24,,Qarabağ FK,AFC Ajax,0,3,League phase,0-3,(0-1),EL,Europa League,2024
+2024-10-24,21.00,Rangers FC,FCSB,4,0,League phase,4-0,(2-0),EL,Europa League,2024
+2024-10-24,,FC Porto,1899 Hoffenheim,2,0,League phase,2-0,(1-0),EL,Europa League,2024
+2024-10-24,,Tottenham Hotspur,AZ Alkmaar,1,0,League phase,1-0,(0-0),EL,Europa League,2024
+2024-10-24,,Fenerbahçe,Manchester United,1,1,League phase,1-1,(0-1),EL,Europa League,2024
+2024-10-24,,Olympique Lyonnais,Beşiktaş,0,1,League phase,0-1,(0-0),EL,Europa League,2024
+2024-10-24,,Malmö FF,Olympiakos Piraeus,0,1,League phase,0-1,(0-1),EL,Europa League,2024
+2024-10-24,,FC Twente,Lazio Roma,0,2,League phase,0-2,(0-1),EL,Europa League,2024
+2024-10-24,,Athletic Club,Slavia Praha,1,0,League phase,1-0,(1-0),EL,Europa League,2024
+2024-10-24,,RSC Anderlecht,PFC Ludogorets Razgrad,2,0,League phase,2-0,(0-0),EL,Europa League,2024
+2024-11-06,16.30,Beşiktaş,Malmö FF,2,1,League phase,2-1,(0-0),EL,Europa League,2024
+2024-11-07,18.45,Eintracht Frankfurt,Slavia Praha,1,0,League phase,1-0,(0-0),EL,Europa League,2024
+2024-11-07,,Olympiakos Piraeus,Rangers FC,1,1,League phase,1-1,(0-0),EL,Europa League,2024
+2024-11-07,,Union Saint-Gilloise,AS Roma,1,1,League phase,1-1,(0-0),EL,Europa League,2024
+2024-11-07,,PFC Ludogorets Razgrad,Athletic Club,1,2,League phase,1-2,(1-0),EL,Europa League,2024
+2024-11-07,,Galatasaray,Tottenham Hotspur,3,2,League phase,3-2,(3-1),EL,Europa League,2024
+2024-11-07,,FK Bodø/Glimt,Qarabağ FK,1,2,League phase,1-2,(1-1),EL,Europa League,2024
+2024-11-07,,IF Elfsborg,Sporting Braga,1,1,League phase,1-1,(0-0),EL,Europa League,2024
+2024-11-07,,FCSB,FC Midtjylland,2,0,League phase,2-0,(1-0),EL,Europa League,2024
+2024-11-07,,OGC Nice,FC Twente,2,2,League phase,2-2,(0-1),EL,Europa League,2024
+2024-11-07,21.00,Manchester United,PAOK Saloniki,2,0,League phase,2-0,(0-0),EL,Europa League,2024
+2024-11-07,,Lazio Roma,FC Porto,2,1,League phase,2-1,(1-0),EL,Europa League,2024
+2024-11-07,,AFC Ajax,Maccabi Tel Aviv,5,0,League phase,5-0,(3-0),EL,Europa League,2024
+2024-11-07,,AZ Alkmaar,Fenerbahçe,3,1,League phase,3-1,(0-0),EL,Europa League,2024
+2024-11-07,,Dinamo Kiev,Ferencvárosi TC,0,4,League phase,0-4,(0-0),EL,Europa League,2024
+2024-11-07,,Viktoria Plzeň,Real Sociedad,2,1,League phase,2-1,(1-1),EL,Europa League,2024
+2024-11-07,,1899 Hoffenheim,Olympique Lyonnais,2,2,League phase,2-2,(0-0),EL,Europa League,2024
+2024-11-07,,FK RFS,RSC Anderlecht,1,1,League phase,1-1,(0-0),EL,Europa League,2024
+2024-11-28,18.45,Lazio Roma,PFC Ludogorets Razgrad,0,0,League phase,0-0,,EL,Europa League,2024
+2024-11-28,,AZ Alkmaar,Galatasaray,1,1,League phase,1-1,(1-1),EL,Europa League,2024
+2024-11-28,,Dinamo Kiev,Viktoria Plzeň,1,2,League phase,1-2,(0-0),EL,Europa League,2024
+2024-11-28,,Qarabağ FK,Olympique Lyonnais,1,4,League phase,1-4,(0-1),EL,Europa League,2024
+2024-11-28,,Beşiktaş,Maccabi Tel Aviv,1,3,League phase,1-3,(1-2),EL,Europa League,2024
+2024-11-28,,Athletic Club,IF Elfsborg,3,0,League phase,3-0,(2-0),EL,Europa League,2024
+2024-11-28,,RSC Anderlecht,FC Porto,2,2,League phase,2-2,(0-1),EL,Europa League,2024
+2024-11-28,,FK RFS,PAOK Saloniki,0,2,League phase,0-2,(0-1),EL,Europa League,2024
+2024-11-28,21.00,Slavia Praha,Fenerbahçe,1,2,League phase,1-2,(1-1),EL,Europa League,2024
+2024-11-28,,Manchester United,FK Bodø/Glimt,3,2,League phase,3-2,(2-2),EL,Europa League,2024
+2024-11-28,,Tottenham Hotspur,AS Roma,2,2,League phase,2-2,(2-1),EL,Europa League,2024
+2024-11-28,,Ferencvárosi TC,Malmö FF,4,1,League phase,4-1,(2-1),EL,Europa League,2024
+2024-11-28,,Sporting Braga,1899 Hoffenheim,3,0,League phase,3-0,(2-0),EL,Europa League,2024
+2024-11-28,,Real Sociedad,AFC Ajax,2,0,League phase,2-0,(0-0),EL,Europa League,2024
+2024-11-28,,FC Midtjylland,Eintracht Frankfurt,1,2,League phase,1-2,(0-1),EL,Europa League,2024
+2024-11-28,,FC Twente,Union Saint-Gilloise,0,1,League phase,0-1,(0-1),EL,Europa League,2024
+2024-11-28,,FCSB,Olympiakos Piraeus,0,0,League phase,0-0,,EL,Europa League,2024
+2024-11-28,,OGC Nice,Rangers FC,1,4,League phase,1-4,(0-3),EL,Europa League,2024
+2024-12-11,16.30,Fenerbahçe,Athletic Club,0,2,League phase,0-2,(0-2),EL,Europa League,2024
+2024-12-12,18.45,AS Roma,Sporting Braga,3,0,League phase,3-0,(1-0),EL,Europa League,2024
+2024-12-12,,PAOK Saloniki,Ferencvárosi TC,5,0,League phase,5-0,(2-0),EL,Europa League,2024
+2024-12-12,,Olympiakos Piraeus,FC Twente,0,0,League phase,0-0,,EL,Europa League,2024
+2024-12-12,,Union Saint-Gilloise,OGC Nice,2,1,League phase,2-1,(1-1),EL,Europa League,2024
+2024-12-12,,PFC Ludogorets Razgrad,AZ Alkmaar,2,2,League phase,2-2,(0-2),EL,Europa League,2024
+2024-12-12,,Malmö FF,Galatasaray,2,2,League phase,2-2,(1-1),EL,Europa League,2024
+2024-12-12,,Viktoria Plzeň,Manchester United,1,2,League phase,1-2,(0-0),EL,Europa League,2024
+2024-12-12,,1899 Hoffenheim,FCSB,0,0,League phase,0-0,,EL,Europa League,2024
+2024-12-12,21.00,Rangers FC,Tottenham Hotspur,1,1,League phase,1-1,(0-0),EL,Europa League,2024
+2024-12-12,,FC Porto,FC Midtjylland,2,0,League phase,2-0,(1-0),EL,Europa League,2024
+2024-12-12,,Slavia Praha,RSC Anderlecht,1,2,League phase,1-2,(0-2),EL,Europa League,2024
+2024-12-12,,AFC Ajax,Lazio Roma,1,3,League phase,1-3,(0-1),EL,Europa League,2024
+2024-12-12,,Maccabi Tel Aviv,FK RFS,2,1,League phase,2-1,(1-0),EL,Europa League,2024
+2024-12-12,,Real Sociedad,Dinamo Kiev,3,0,League phase,3-0,(3-0),EL,Europa League,2024
+2024-12-12,,Olympique Lyonnais,Eintracht Frankfurt,3,2,League phase,3-2,(1-1),EL,Europa League,2024
+2024-12-12,,FK Bodø/Glimt,Beşiktaş,2,1,League phase,2-1,(2-1),EL,Europa League,2024
+2024-12-12,,IF Elfsborg,Qarabağ FK,1,0,League phase,1-0,(0-0),EL,Europa League,2024
+2025-01-21,16.30,Galatasaray,Dinamo Kiev,3,3,League phase,3-3,(2-1),EL,Europa League,2024
+2025-01-22,16.30,Beşiktaş,Athletic Club,4,1,League phase,4-1,(1-1),EL,Europa League,2024
+2025-01-23,18.45,FC Porto,Olympiakos Piraeus,0,1,League phase,0-1,(0-0),EL,Europa League,2024
+2025-01-23,,Fenerbahçe,Olympique Lyonnais,0,0,League phase,0-0,,EL,Europa League,2024
+2025-01-23,,AZ Alkmaar,AS Roma,1,0,League phase,1-0,(0-0),EL,Europa League,2024
+2025-01-23,,Malmö FF,FC Twente,2,3,League phase,2-3,(1-1),EL,Europa League,2024
+2025-01-23,,Qarabağ FK,FCSB,2,3,League phase,2-3,(2-2),EL,Europa League,2024
+2025-01-23,,FK Bodø/Glimt,Maccabi Tel Aviv,3,1,League phase,3-1,(1-1),EL,Europa League,2024
+2025-01-23,,Viktoria Plzeň,RSC Anderlecht,2,0,League phase,2-0,(2-0),EL,Europa League,2024
+2025-01-23,,1899 Hoffenheim,Tottenham Hotspur,2,3,League phase,2-3,(0-2),EL,Europa League,2024
+2025-01-23,21.00,Eintracht Frankfurt,Ferencvárosi TC,2,0,League phase,2-0,(0-0),EL,Europa League,2024
+2025-01-23,,Manchester United,Rangers FC,2,1,League phase,2-1,(0-0),EL,Europa League,2024
+2025-01-23,,Lazio Roma,Real Sociedad,3,1,League phase,3-1,(3-0),EL,Europa League,2024
+2025-01-23,,PAOK Saloniki,Slavia Praha,2,0,League phase,2-0,(1-0),EL,Europa League,2024
+2025-01-23,,Union Saint-Gilloise,Sporting Braga,2,1,League phase,2-1,(0-1),EL,Europa League,2024
+2025-01-23,,PFC Ludogorets Razgrad,FC Midtjylland,0,2,League phase,0-2,(0-1),EL,Europa League,2024
+2025-01-23,,IF Elfsborg,OGC Nice,1,0,League phase,1-0,(0-0),EL,Europa League,2024
+2025-01-23,,FK RFS,AFC Ajax,1,0,League phase,1-0,(0-0),EL,Europa League,2024
+2025-01-30,21.00,Rangers FC,Union Saint-Gilloise,2,1,League phase,2-1,(1-0),EL,Europa League,2024
+2025-01-30,,AS Roma,Eintracht Frankfurt,2,0,League phase,2-0,(1-0),EL,Europa League,2024
+2025-01-30,,Slavia Praha,Malmö FF,2,2,League phase,2-2,(0-0),EL,Europa League,2024
+2025-01-30,,Tottenham Hotspur,IF Elfsborg,3,0,League phase,3-0,(0-0),EL,Europa League,2024
+2025-01-30,,AFC Ajax,Galatasaray,2,1,League phase,2-1,(1-0),EL,Europa League,2024
+2025-01-30,,Maccabi Tel Aviv,FC Porto,0,1,League phase,0-1,(0-0),EL,Europa League,2024
+2025-01-30,,Ferencvárosi TC,AZ Alkmaar,4,3,League phase,4-3,(3-0),EL,Europa League,2024
+2025-01-30,,Sporting Braga,Lazio Roma,1,0,League phase,1-0,(1-0),EL,Europa League,2024
+2025-01-30,,Real Sociedad,PAOK Saloniki,2,0,League phase,2-0,(1-0),EL,Europa League,2024
+2025-01-30,,Olympiakos Piraeus,Qarabağ FK,3,0,League phase,3-0,(0-0),EL,Europa League,2024
+2025-01-30,,Olympique Lyonnais,PFC Ludogorets Razgrad,1,1,League phase,1-1,(0-0),EL,Europa League,2024
+2025-01-30,,Dinamo Kiev,FK RFS,1,0,League phase,1-0,(0-0),EL,Europa League,2024
+2025-01-30,,FC Midtjylland,Fenerbahçe,2,2,League phase,2-2,(1-1),EL,Europa League,2024
+2025-01-30,,FC Twente,Beşiktaş,1,0,League phase,1-0,(0-0),EL,Europa League,2024
+2025-01-30,,Athletic Club,Viktoria Plzeň,3,1,League phase,3-1,(1-0),EL,Europa League,2024
+2025-01-30,,RSC Anderlecht,1899 Hoffenheim,3,4,League phase,3-4,(1-1),EL,Europa League,2024
+2025-01-30,,FCSB,Manchester United,0,2,League phase,0-2,(0-0),EL,Europa League,2024
+2025-01-30,,OGC Nice,FK Bodø/Glimt,1,1,League phase,1-1,(0-0),EL,Europa League,2024
+2025-02-13,18.45,Fenerbahçe,RSC Anderlecht,3,0,Playoffs,3-0,(2-0),EL,Europa League,2024
+2025-02-13,,Union Saint-Gilloise,AFC Ajax,0,2,Playoffs,0-2,(0-0),EL,Europa League,2024
+2025-02-13,,FC Midtjylland,Real Sociedad,1,2,Playoffs,1-2,(1-2),EL,Europa League,2024
+2025-02-13,,Ferencvárosi TC,Viktoria Plzeň,1,0,Playoffs,1-0,(1-0),EL,Europa League,2024
+2025-02-13,21.00,FC Twente,FK Bodø/Glimt,2,1,Playoffs,2-1,(1-0),EL,Europa League,2024
+2025-02-13,,PAOK Saloniki,FCSB,1,2,Playoffs,1-2,(1-0),EL,Europa League,2024
+2025-02-13,,AZ Alkmaar,Galatasaray,4,1,Playoffs,4-1,(2-1),EL,Europa League,2024
+2025-02-13,,FC Porto,AS Roma,1,1,Playoffs,1-1,(0-1),EL,Europa League,2024
+2025-02-20,18.45,FK Bodø/Glimt,FC Twente,5,2,Playoffs,5-2,"a.e.t. (3-2, 0-1)",EL,Europa League,2024
+2025-02-20,,FCSB,PAOK Saloniki,2,0,Playoffs,2-0,(1-0),EL,Europa League,2024
+2025-02-20,,Galatasaray,AZ Alkmaar,2,2,Playoffs,2-2,(0-1),EL,Europa League,2024
+2025-02-20,,AS Roma,FC Porto,3,2,Playoffs,3-2,(2-1),EL,Europa League,2024
+2025-02-20,21.00,RSC Anderlecht,Fenerbahçe,2,2,Playoffs,2-2,(1-1),EL,Europa League,2024
+2025-02-20,,AFC Ajax,Union Saint-Gilloise,1,2,Playoffs,1-2,"a.e.t. (0-2, 0-2)",EL,Europa League,2024
+2025-02-20,,Real Sociedad,FC Midtjylland,5,2,Playoffs,5-2,(3-2),EL,Europa League,2024
+2025-02-20,,Viktoria Plzeň,Ferencvárosi TC,3,0,Playoffs,3-0,(3-0),EL,Europa League,2024
+2025-03-06,18.45,AZ Alkmaar,Tottenham Hotspur,1,0,Round of 16,1-0,(1-0),EL,Europa League,2024
+2025-03-06,,Real Sociedad,Manchester United,1,1,Round of 16,1-1,(0-0),EL,Europa League,2024
+2025-03-06,,FCSB,Olympique Lyonnais,1,3,Round of 16,1-3,(0-1),EL,Europa League,2024
+2025-03-06,,Fenerbahçe,Rangers FC,1,3,Round of 16,1-3,(1-2),EL,Europa League,2024
+2025-03-06,21.00,AS Roma,Athletic Club,2,1,Round of 16,2-1,(0-0),EL,Europa League,2024
+2025-03-06,,FK Bodø/Glimt,Olympiakos Piraeus,3,0,Round of 16,3-0,(2-0),EL,Europa League,2024
+2025-03-06,,AFC Ajax,Eintracht Frankfurt,1,2,Round of 16,1-2,(1-1),EL,Europa League,2024
+2025-03-06,,Viktoria Plzeň,Lazio Roma,1,2,Round of 16,1-2,(0-1),EL,Europa League,2024
+2025-03-13,18.45,Lazio Roma,Viktoria Plzeň,1,1,Round of 16,1-1,(0-0),EL,Europa League,2024
+2025-03-13,,Olympiakos Piraeus,FK Bodø/Glimt,2,1,Round of 16,2-1,(0-1),EL,Europa League,2024
+2025-03-13,,Eintracht Frankfurt,AFC Ajax,4,1,Round of 16,4-1,(2-0),EL,Europa League,2024
+2025-03-13,,Athletic Club,AS Roma,3,1,Round of 16,3-1,(1-0),EL,Europa League,2024
+2025-03-13,21.00,Tottenham Hotspur,AZ Alkmaar,3,1,Round of 16,3-1,(1-0),EL,Europa League,2024
+2025-03-13,,Manchester United,Real Sociedad,4,1,Round of 16,4-1,(1-1),EL,Europa League,2024
+2025-03-13,,Olympique Lyonnais,FCSB,4,0,Round of 16,4-0,(2-0),EL,Europa League,2024
+2025-03-13,,Rangers FC,Fenerbahçe,3,2,Round of 16,3-2 pen.,"0-2 a.e.t. (0-2, 0-1)",EL,Europa League,2024
+2025-04-10,18.45,FK Bodø/Glimt,Lazio Roma,2,0,Quarterfinals,2-0,(0-0),EL,Europa League,2024
+2025-04-10,21.00,Tottenham Hotspur,Eintracht Frankfurt,1,1,Quarterfinals,1-1,(1-1),EL,Europa League,2024
+2025-04-10,,Rangers FC,Athletic Club,0,0,Quarterfinals,0-0,,EL,Europa League,2024
+2025-04-10,,Olympique Lyonnais,Manchester United,2,2,Quarterfinals,2-2,(1-1),EL,Europa League,2024
+2025-04-17,21.00,Eintracht Frankfurt,Tottenham Hotspur,0,1,Quarterfinals,0-1,(0-1),EL,Europa League,2024
+2025-04-17,,Lazio Roma,FK Bodø/Glimt,2,3,Quarterfinals,2-3 pen.,"3-1 a.e.t. (2-0, 1-0)",EL,Europa League,2024
+2025-04-17,,Athletic Club,Rangers FC,2,0,Quarterfinals,2-0,(1-0),EL,Europa League,2024
+2025-04-17,,Manchester United,Olympique Lyonnais,5,4,Quarterfinals,5-4,"a.e.t. (2-2, 2-0)",EL,Europa League,2024
+2025-05-01,21.00,Tottenham Hotspur,FK Bodø/Glimt,3,1,Semifinals,3-1,(2-0),EL,Europa League,2024
+2025-05-01,,Athletic Club,Manchester United,0,3,Semifinals,0-3,(0-3),EL,Europa League,2024
+2025-05-08,21.00,FK Bodø/Glimt,Tottenham Hotspur,0,2,Semifinals,0-2,(0-0),EL,Europa League,2024
+2025-05-08,,Manchester United,Athletic Club,4,1,Semifinals,4-1,(0-1),EL,Europa League,2024
+2025-05-21,21.00,Tottenham Hotspur,Manchester United,1,0,Final,1-0,(1-0),EL,Europa League,2024

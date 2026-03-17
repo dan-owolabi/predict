@@ -1,0 +1,126 @@
+date,time,home_team,away_team,home_goals,away_goals,stage,score_token,detail,competition_code,competition_label,season_start
+2017-09-12,20.45,Manchester United,FC Basel 1893,3,0,Group A,3-0,(1-0),CL,Champions League,2017
+2017-09-12,,SL Benfica,CSKA Moskva,1,2,Group A,1-2,(0-0),CL,Champions League,2017
+2017-09-27,20.45,FC Basel 1893,SL Benfica,5,0,Group A,5-0,(2-0),CL,Champions League,2017
+2017-09-27,,CSKA Moskva,Manchester United,1,4,Group A,1-4,(0-3),CL,Champions League,2017
+2017-10-18,20.45,SL Benfica,Manchester United,0,1,Group A,0-1,(0-0),CL,Champions League,2017
+2017-10-18,,CSKA Moskva,FC Basel 1893,0,2,Group A,0-2,(0-1),CL,Champions League,2017
+2017-10-31,20.45,Manchester United,SL Benfica,2,0,Group A,2-0,(1-0),CL,Champions League,2017
+2017-10-31,,FC Basel 1893,CSKA Moskva,1,2,Group A,1-2,(1-0),CL,Champions League,2017
+2017-11-22,18.00,CSKA Moskva,SL Benfica,2,0,Group A,2-0,(1-0),CL,Champions League,2017
+2017-11-22,20.45,FC Basel 1893,Manchester United,1,0,Group A,1-0,(0-0),CL,Champions League,2017
+2017-12-05,20.45,SL Benfica,FC Basel 1893,0,2,Group A,0-2,(0-1),CL,Champions League,2017
+2017-12-05,,Manchester United,CSKA Moskva,2,1,Group A,2-1,(0-1),CL,Champions League,2017
+2017-09-12,20.45,Bayern München,RSC Anderlecht,3,0,Group B,3-0,(1-0),CL,Champions League,2017
+2017-09-12,,Celtic FC,Paris Saint-Germain,0,5,Group B,0-5,(0-3),CL,Champions League,2017
+2017-09-27,20.45,Paris Saint-Germain,Bayern München,3,0,Group B,3-0,(2-0),CL,Champions League,2017
+2017-09-27,,RSC Anderlecht,Celtic FC,0,3,Group B,0-3,(0-1),CL,Champions League,2017
+2017-10-18,20.45,RSC Anderlecht,Paris Saint-Germain,0,4,Group B,0-4,(0-2),CL,Champions League,2017
+2017-10-18,,Bayern München,Celtic FC,3,0,Group B,3-0,(2-0),CL,Champions League,2017
+2017-10-31,20.45,Paris Saint-Germain,RSC Anderlecht,5,0,Group B,5-0,(2-0),CL,Champions League,2017
+2017-10-31,,Celtic FC,Bayern München,1,2,Group B,1-2,(0-1),CL,Champions League,2017
+2017-11-22,20.45,RSC Anderlecht,Bayern München,1,2,Group B,1-2,(0-0),CL,Champions League,2017
+2017-11-22,,Paris Saint-Germain,Celtic FC,7,1,Group B,7-1,(4-1),CL,Champions League,2017
+2017-12-05,20.45,Bayern München,Paris Saint-Germain,3,1,Group B,3-1,(2-0),CL,Champions League,2017
+2017-12-05,,Celtic FC,RSC Anderlecht,0,1,Group B,0-1,(0-0),CL,Champions League,2017
+2017-09-12,20.45,AS Roma,Atlético Madrid,0,0,Group C,0-0,,CL,Champions League,2017
+2017-09-12,,Chelsea FC,Qarabağ FK,6,0,Group C,6-0,(2-0),CL,Champions League,2017
+2017-09-27,18.00,Qarabağ FK,AS Roma,1,2,Group C,1-2,(1-2),CL,Champions League,2017
+2017-09-27,20.45,Atlético Madrid,Chelsea FC,1,2,Group C,1-2,(1-0),CL,Champions League,2017
+2017-10-18,18.00,Qarabağ FK,Atlético Madrid,0,0,Group C,0-0,,CL,Champions League,2017
+2017-10-18,20.45,Chelsea FC,AS Roma,3,3,Group C,3-3,(2-1),CL,Champions League,2017
+2017-10-31,20.45,AS Roma,Chelsea FC,3,0,Group C,3-0,(2-0),CL,Champions League,2017
+2017-10-31,,Atlético Madrid,Qarabağ FK,1,1,Group C,1-1,(0-1),CL,Champions League,2017
+2017-11-22,18.00,Qarabağ FK,Chelsea FC,0,4,Group C,0-4,(0-2),CL,Champions League,2017
+2017-11-22,20.45,Atlético Madrid,AS Roma,2,0,Group C,2-0,(0-0),CL,Champions League,2017
+2017-12-05,20.45,Chelsea FC,Atlético Madrid,1,1,Group C,1-1,(0-0),CL,Champions League,2017
+2017-12-05,,AS Roma,Qarabağ FK,1,0,Group C,1-0,(0-0),CL,Champions League,2017
+2017-09-12,20.45,FC Barcelona,Juventus,3,0,Group D,3-0,(1-0),CL,Champions League,2017
+2017-09-12,,Olympiakos Piraeus,Sporting CP,2,3,Group D,2-3,(0-3),CL,Champions League,2017
+2017-09-27,20.45,Juventus,Olympiakos Piraeus,2,0,Group D,2-0,(0-0),CL,Champions League,2017
+2017-09-27,,Sporting CP,FC Barcelona,0,1,Group D,0-1,(0-0),CL,Champions League,2017
+2017-10-18,20.45,FC Barcelona,Olympiakos Piraeus,3,1,Group D,3-1,(1-0),CL,Champions League,2017
+2017-10-18,,Juventus,Sporting CP,2,1,Group D,2-1,(1-1),CL,Champions League,2017
+2017-10-31,20.45,Olympiakos Piraeus,FC Barcelona,0,0,Group D,0-0,,CL,Champions League,2017
+2017-10-31,,Sporting CP,Juventus,1,1,Group D,1-1,(1-0),CL,Champions League,2017
+2017-11-22,20.45,Juventus,FC Barcelona,0,0,Group D,0-0,,CL,Champions League,2017
+2017-11-22,,Sporting CP,Olympiakos Piraeus,3,1,Group D,3-1,(2-0),CL,Champions League,2017
+2017-12-05,20.45,FC Barcelona,Sporting CP,2,0,Group D,2-0,(0-0),CL,Champions League,2017
+2017-12-05,,Olympiakos Piraeus,Juventus,0,2,Group D,0-2,(0-1),CL,Champions League,2017
+2017-09-13,20.45,Liverpool FC,Sevilla FC,2,2,Group E,2-2,(2-1),CL,Champions League,2017
+2017-09-13,,NK Maribor,Spartak Moskva,1,1,Group E,1-1,(0-0),CL,Champions League,2017
+2017-09-26,20.45,Spartak Moskva,Liverpool FC,1,1,Group E,1-1,(1-1),CL,Champions League,2017
+2017-09-26,,Sevilla FC,NK Maribor,3,0,Group E,3-0,(2-0),CL,Champions League,2017
+2017-10-17,20.45,Spartak Moskva,Sevilla FC,5,1,Group E,5-1,(1-1),CL,Champions League,2017
+2017-10-17,,NK Maribor,Liverpool FC,0,7,Group E,0-7,(0-4),CL,Champions League,2017
+2017-11-01,20.45,Sevilla FC,Spartak Moskva,2,1,Group E,2-1,(1-0),CL,Champions League,2017
+2017-11-01,,Liverpool FC,NK Maribor,3,0,Group E,3-0,(0-0),CL,Champions League,2017
+2017-11-21,18.00,Spartak Moskva,NK Maribor,1,1,Group E,1-1,(0-0),CL,Champions League,2017
+2017-11-21,20.45,Sevilla FC,Liverpool FC,3,3,Group E,3-3,(0-3),CL,Champions League,2017
+2017-12-06,20.45,Liverpool FC,Spartak Moskva,7,0,Group E,7-0,(3-0),CL,Champions League,2017
+2017-12-06,,NK Maribor,Sevilla FC,1,1,Group E,1-1,(1-0),CL,Champions League,2017
+2017-09-13,20.45,Shakhtar Donetsk,SSC Napoli,2,1,Group F,2-1,(1-0),CL,Champions League,2017
+2017-09-13,,Feyenoord,Manchester City,0,4,Group F,0-4,(0-3),CL,Champions League,2017
+2017-09-26,20.45,Manchester City,Shakhtar Donetsk,2,0,Group F,2-0,(0-0),CL,Champions League,2017
+2017-09-26,,SSC Napoli,Feyenoord,3,1,Group F,3-1,(1-0),CL,Champions League,2017
+2017-10-17,20.45,Manchester City,SSC Napoli,2,1,Group F,2-1,(2-0),CL,Champions League,2017
+2017-10-17,,Feyenoord,Shakhtar Donetsk,1,2,Group F,1-2,(1-1),CL,Champions League,2017
+2017-11-01,20.45,SSC Napoli,Manchester City,2,4,Group F,2-4,(1-1),CL,Champions League,2017
+2017-11-01,,Shakhtar Donetsk,Feyenoord,3,1,Group F,3-1,(2-1),CL,Champions League,2017
+2017-11-21,20.45,SSC Napoli,Shakhtar Donetsk,3,0,Group F,3-0,(0-0),CL,Champions League,2017
+2017-11-21,,Manchester City,Feyenoord,1,0,Group F,1-0,(0-0),CL,Champions League,2017
+2017-12-06,20.45,Shakhtar Donetsk,Manchester City,2,1,Group F,2-1,(2-0),CL,Champions League,2017
+2017-12-06,,Feyenoord,SSC Napoli,2,1,Group F,2-1,(1-1),CL,Champions League,2017
+2017-09-13,20.45,FC Porto,Beşiktaş,1,3,Group G,1-3,(1-2),CL,Champions League,2017
+2017-09-13,,RB Leipzig,AS Monaco,1,1,Group G,1-1,(1-1),CL,Champions League,2017
+2017-09-26,20.45,AS Monaco,FC Porto,0,3,Group G,0-3,(0-1),CL,Champions League,2017
+2017-09-26,,Beşiktaş,RB Leipzig,2,0,Group G,2-0,(2-0),CL,Champions League,2017
+2017-10-17,20.45,AS Monaco,Beşiktaş,1,2,Group G,1-2,(1-1),CL,Champions League,2017
+2017-10-17,,RB Leipzig,FC Porto,3,2,Group G,3-2,(3-2),CL,Champions League,2017
+2017-11-01,18.00,Beşiktaş,AS Monaco,1,1,Group G,1-1,(0-1),CL,Champions League,2017
+2017-11-01,20.45,FC Porto,RB Leipzig,3,1,Group G,3-1,(1-0),CL,Champions League,2017
+2017-11-21,18.00,Beşiktaş,FC Porto,1,1,Group G,1-1,(1-1),CL,Champions League,2017
+2017-11-21,20.45,AS Monaco,RB Leipzig,1,4,Group G,1-4,(1-4),CL,Champions League,2017
+2017-12-06,20.45,FC Porto,AS Monaco,5,2,Group G,5-2,(3-0),CL,Champions League,2017
+2017-12-06,,RB Leipzig,Beşiktaş,1,2,Group G,1-2,(0-1),CL,Champions League,2017
+2017-09-13,20.45,Tottenham Hotspur,Borussia Dortmund,3,1,Group H,3-1,(2-1),CL,Champions League,2017
+2017-09-13,,Real Madrid,APOEL Nikosia,3,0,Group H,3-0,(1-0),CL,Champions League,2017
+2017-09-26,20.45,Borussia Dortmund,Real Madrid,1,3,Group H,1-3,(0-1),CL,Champions League,2017
+2017-09-26,,APOEL Nikosia,Tottenham Hotspur,0,3,Group H,0-3,(0-1),CL,Champions League,2017
+2017-10-17,20.45,Real Madrid,Tottenham Hotspur,1,1,Group H,1-1,(1-1),CL,Champions League,2017
+2017-10-17,,APOEL Nikosia,Borussia Dortmund,1,1,Group H,1-1,(0-0),CL,Champions League,2017
+2017-11-01,20.45,Tottenham Hotspur,Real Madrid,3,1,Group H,3-1,(1-0),CL,Champions League,2017
+2017-11-01,,Borussia Dortmund,APOEL Nikosia,1,1,Group H,1-1,(1-0),CL,Champions League,2017
+2017-11-21,20.45,Borussia Dortmund,Tottenham Hotspur,1,2,Group H,1-2,(1-0),CL,Champions League,2017
+2017-11-21,,APOEL Nikosia,Real Madrid,0,6,Group H,0-6,(0-4),CL,Champions League,2017
+2017-12-06,20.45,Real Madrid,Borussia Dortmund,3,2,Group H,3-2,(2-1),CL,Champions League,2017
+2017-12-06,,Tottenham Hotspur,APOEL Nikosia,3,0,Group H,3-0,(2-0),CL,Champions League,2017
+2018-02-13,20.45,Juventus,Tottenham Hotspur,2,2,Round of 16,2-2,(2-1),CL,Champions League,2017
+2018-02-13,,FC Basel 1893,Manchester City,0,4,Round of 16,0-4,(0-3),CL,Champions League,2017
+2018-02-14,20.45,FC Porto,Liverpool FC,0,5,Round of 16,0-5,(0-2),CL,Champions League,2017
+2018-02-14,,Real Madrid,Paris Saint-Germain,3,1,Round of 16,3-1,(1-1),CL,Champions League,2017
+2018-02-20,20.45,Chelsea FC,FC Barcelona,1,1,Round of 16,1-1,(0-0),CL,Champions League,2017
+2018-02-20,,Bayern München,Beşiktaş,5,0,Round of 16,5-0,(1-0),CL,Champions League,2017
+2018-02-21,20.45,Sevilla FC,Manchester United,0,0,Round of 16,0-0,,CL,Champions League,2017
+2018-02-21,,Shakhtar Donetsk,AS Roma,2,1,Round of 16,2-1,(0-1),CL,Champions League,2017
+2018-03-06,20.45,Liverpool FC,FC Porto,0,0,Round of 16,0-0,,CL,Champions League,2017
+2018-03-06,,Paris Saint-Germain,Real Madrid,1,2,Round of 16,1-2,(0-0),CL,Champions League,2017
+2018-03-07,20.45,Tottenham Hotspur,Juventus,1,2,Round of 16,1-2,(1-0),CL,Champions League,2017
+2018-03-07,,Manchester City,FC Basel 1893,1,2,Round of 16,1-2,(1-1),CL,Champions League,2017
+2018-03-13,20.45,Manchester United,Sevilla FC,1,2,Round of 16,1-2,(0-0),CL,Champions League,2017
+2018-03-13,,AS Roma,Shakhtar Donetsk,1,0,Round of 16,1-0,(0-0),CL,Champions League,2017
+2018-03-14,18.00,Beşiktaş,Bayern München,1,3,Round of 16,1-3,(0-1),CL,Champions League,2017
+2018-03-14,20.45,FC Barcelona,Chelsea FC,3,0,Round of 16,3-0,(2-0),CL,Champions League,2017
+2018-04-03,20.45,Sevilla FC,Bayern München,1,2,Quarterfinals,1-2,(1-1),CL,Champions League,2017
+2018-04-03,,Juventus,Real Madrid,0,3,Quarterfinals,0-3,(0-1),CL,Champions League,2017
+2018-04-04,20.45,FC Barcelona,AS Roma,4,1,Quarterfinals,4-1,(1-0),CL,Champions League,2017
+2018-04-04,,Liverpool FC,Manchester City,3,0,Quarterfinals,3-0,(3-0),CL,Champions League,2017
+2018-04-10,20.45,AS Roma,FC Barcelona,3,0,Quarterfinals,3-0,(1-0),CL,Champions League,2017
+2018-04-10,,Manchester City,Liverpool FC,1,2,Quarterfinals,1-2,(1-0),CL,Champions League,2017
+2018-04-11,20.45,Bayern München,Sevilla FC,0,0,Quarterfinals,0-0,,CL,Champions League,2017
+2018-04-11,,Real Madrid,Juventus,1,3,Quarterfinals,1-3,(0-2),CL,Champions League,2017
+2018-04-24,20.45,Liverpool FC,AS Roma,5,2,Semifinals,5-2,(2-0),CL,Champions League,2017
+2018-04-25,20.45,Bayern München,Real Madrid,1,2,Semifinals,1-2,(1-1),CL,Champions League,2017
+2018-05-01,20.45,Real Madrid,Bayern München,2,2,Semifinals,2-2,(1-1),CL,Champions League,2017
+2018-05-02,20.45,AS Roma,Liverpool FC,4,2,Semifinals,4-2,(1-2),CL,Champions League,2017
+2018-05-26,20.45,Real Madrid,Liverpool FC,3,1,Final,3-1,(0-0),CL,Champions League,2017

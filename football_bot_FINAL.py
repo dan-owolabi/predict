@@ -44,6 +44,21 @@ try:
 except Exception:
     rank_fixture_players = None
 
+try:
+    from build_europe_training_data import (
+        canonical_name as europe_canonical_name,
+        normalize_europe_team,
+        load_understat_histories as load_europe_understat_histories,
+        load_support_histories as load_europe_support_histories,
+        recent_stats as europe_recent_stats,
+    )
+except Exception:
+    europe_canonical_name = None
+    normalize_europe_team = None
+    load_europe_understat_histories = None
+    load_europe_support_histories = None
+    europe_recent_stats = None
+
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 logging.getLogger("httpx").setLevel(logging.WARNING)
@@ -59,6 +74,10 @@ FIXTURES_PATH = BASE_DIR / "weekly_fixtures.json"
 CV_RESULTS_PATH = BASE_DIR / "cv_results_enriched.csv"
 ADDITIONAL_MARKET_DIR = BASE_DIR / "market_models"
 ADDITIONAL_CV_PATH = BASE_DIR / "market_cv_results.csv"
+EUROPE_MODEL_DIR = BASE_DIR / "europe_models"
+EUROPE_CV_PATH = BASE_DIR / "europe_cv_results.csv"
+EUROPE_DATA_PATH = BASE_DIR / "data" / "europe_training_data.csv"
+EUROPE_TEAM_PATH = BASE_DIR / "data" / "europe_team_universe.csv"
 
 # ============================================================
 # LOAD PRODUCTION MODELS
@@ -162,6 +181,86 @@ def _load_additional_market_bundle():
 
 
 ADDITIONAL_MARKET_MODELS, ADDITIONAL_IMPUTER, ADDITIONAL_FEATURE_COLS, ADDITIONAL_MARKET_HIST = _load_additional_market_bundle()
+
+
+def _load_europe_bundle():
+    if not EUROPE_MODEL_DIR.exists():
+        return {}, None, [], {}, pd.DataFrame(), {}
+    manifest_path = EUROPE_MODEL_DIR / "manifest.json"
+    artifacts_path = EUROPE_MODEL_DIR / "artifacts.pkl"
+    if not manifest_path.exists() or not artifacts_path.exists():
+        return {}, None, [], {}, pd.DataFrame(), {}
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        with open(artifacts_path, "rb") as f:
+            artifacts = pickle.load(f)
+        models = {}
+        for spec in manifest:
+            model_path = EUROPE_MODEL_DIR / spec["model_file"]
+            if model_path.exists():
+                models[spec["target"]] = lgb.Booster(model_file=str(model_path))
+        hist = {}
+        if EUROPE_CV_PATH.exists():
+            cv_df = pd.read_csv(EUROPE_CV_PATH)
+            if not cv_df.empty:
+                label_map = {"1x2": "1X2", "btts": "GG/NG", "over25": "OVER/UNDER 2.5"}
+                hist = {
+                    label_map.get(str(t).strip().lower(), str(t)): float(acc) * 100.0
+                    for t, acc in cv_df.groupby("target")["accuracy"].mean().items()
+                }
+        europe_df = pd.read_csv(EUROPE_DATA_PATH, low_memory=False) if EUROPE_DATA_PATH.exists() else pd.DataFrame()
+        if not europe_df.empty and "Date" in europe_df.columns:
+            europe_df["Date"] = pd.to_datetime(europe_df["Date"], errors="coerce")
+        team_aliases = {}
+        if EUROPE_TEAM_PATH.exists():
+            teams_df = pd.read_csv(EUROPE_TEAM_PATH)
+            for team_name in teams_df["team_name"].dropna().astype(str).unique():
+                key = europe_canonical_name(team_name) if europe_canonical_name else team_name.lower()
+                team_aliases[key] = team_name
+                if europe_canonical_name:
+                    short = re.sub(r"^(fc|fk|sk|ac|as|ssc|bsc|ogc|rsc|pfc|gnk|vfb)\s+", "", key).strip()
+                    if short and short not in team_aliases:
+                        team_aliases[short] = team_name
+        return models, artifacts.get("imputer"), artifacts.get("feature_cols", []), hist, europe_df, team_aliases
+    except Exception as exc:
+        logger.warning(f"Could not load Europe models: {exc}")
+        return {}, None, [], {}, pd.DataFrame(), {}
+
+
+EUROPE_MODELS, EUROPE_IMPUTER, EUROPE_FEATURE_COLS, EUROPE_HIST_ACC, EUROPE_HISTORY_DF, EUROPE_TEAM_ALIASES = _load_europe_bundle()
+EUROPE_INPUT_ALIASES = {
+    "bayern": "FC Bayern München",
+    "bayern munich": "FC Bayern München",
+    "psg": "Paris Saint-Germain FC",
+    "paris saint germain": "Paris Saint-Germain FC",
+    "inter": "FC Internazionale Milano",
+    "inter milan": "FC Internazionale Milano",
+    "porto": "FC Porto",
+    "benfica": "SL Benfica",
+    "ajax": "AFC Ajax",
+    "sporting": "Sporting Clube de Portugal",
+    "roma": "AS Roma",
+    "lazio": "Lazio Roma",
+    "olympiacos": "Olympiakos Piraeus",
+    "copenhagen": "FC København",
+}
+
+
+def _load_europe_team_hist():
+    if load_europe_understat_histories is None or load_europe_support_histories is None:
+        return pd.DataFrame()
+    try:
+        team_hist = pd.concat(
+            [load_europe_understat_histories(), load_europe_support_histories()],
+            ignore_index=True,
+        )
+        return team_hist.sort_values(["team_key", "Date"]).reset_index(drop=True)
+    except Exception as exc:
+        logger.warning(f"Could not load Europe team history: {exc}")
+        return pd.DataFrame()
+
+
+EUROPE_TEAM_HIST = _load_europe_team_hist()
 
 
 # ============================================================
@@ -585,6 +684,7 @@ def _conf_icon(conf, baseline=50):
 
 def _market_rankings(res):
     """Return ranked fixture-level picks across modeled markets."""
+    hist_map = res.get("market_hist_acc", MARKET_HIST_ACC)
     p_1x2 = res["1x2"]
     winner_idx = max(range(3), key=lambda i: p_1x2[i])
     winner_pick = ["HOME WIN", "DRAW", "AWAY WIN"][winner_idx]
@@ -607,16 +707,17 @@ def _market_rankings(res):
 
     rows = [
         {"market": "1X2", "pick": winner_pick, "est_accuracy": conf_1x2,
-         "hist_accuracy": MARKET_HIST_ACC.get("1X2"), "baseline": 33.0, "base_rate": None},
+         "hist_accuracy": hist_map.get("1X2"), "baseline": 33.0, "base_rate": None},
         {"market": "OVER/UNDER 2.5", "pick": pick_25, "est_accuracy": conf_25,
-         "hist_accuracy": MARKET_HIST_ACC.get("OVER/UNDER 2.5"), "baseline": 50.0, "base_rate": None},
+         "hist_accuracy": hist_map.get("OVER/UNDER 2.5"), "baseline": 50.0, "base_rate": None},
         {"market": "OVER/UNDER 1.5", "pick": pick_15, "est_accuracy": conf_15,
          "hist_accuracy": None, "baseline": 50.0, "base_rate": None},
         {"market": "GG/NG", "pick": pick_btts, "est_accuracy": conf_btts,
-         "hist_accuracy": MARKET_HIST_ACC.get("GG/NG"), "baseline": 50.0, "base_rate": None},
-        {"market": "EXACT SCORE", "pick": exact_pick, "est_accuracy": exact_conf,
-         "hist_accuracy": None, "baseline": 0.0, "base_rate": None},
+         "hist_accuracy": hist_map.get("GG/NG"), "baseline": 50.0, "base_rate": None},
     ]
+    if not res.get("is_europe_beta"):
+        rows.append({"market": "EXACT SCORE", "pick": exact_pick, "est_accuracy": exact_conf,
+                     "hist_accuracy": None, "baseline": 0.0, "base_rate": None})
     rows.extend(res.get("extra_markets", []))
     for row in rows:
         row["edge"] = row["est_accuracy"] - row["baseline"]
@@ -724,6 +825,74 @@ def _sorted_market_rankings(home, away, rankings):
     return sorted_rows, top_value, rankings[0]
 
 
+def _is_player_market(row):
+    market = str(row.get("market", "")).upper()
+    return any(token in market for token in ("PLAYER", "SCORER", "ANYTIME"))
+
+
+def _recommendation_thresholds(row):
+    market = str(row.get("market", ""))
+    family = _market_family(row)
+    if market == "1X2":
+        return 60.0, 3.0
+    if market in {"OVER/UNDER 2.5", "OVER/UNDER 1.5", "GG/NG"}:
+        return 64.0, 4.0
+    if family in {
+        "match_corners", "home_corners", "away_corners",
+        "match_bookings", "home_bookings", "away_bookings",
+        "match_shots", "home_attack_volume", "away_attack_volume",
+        "match_sot", "home_attack_quality", "away_attack_quality",
+        "match_fouls", "home_fouls", "away_fouls",
+        "first_half_goals", "first_half_btts",
+    }:
+        return 68.0, 4.0
+    if _is_player_market(row):
+        return 76.0, 6.0
+    return 70.0, 5.0
+
+
+def _is_trustworthy_recommendation(row):
+    market = str(row.get("market", ""))
+    if row.get("beta"):
+        return False
+    if market == "EXACT SCORE":
+        return False
+    if _is_player_market(row):
+        return False
+    est_threshold, edge_threshold = _recommendation_thresholds(row)
+    if float(row.get("est_accuracy", 0.0)) < est_threshold:
+        return False
+    if float(row.get("edge", 0.0)) < edge_threshold:
+        return False
+    hist = row.get("hist_accuracy")
+    if hist is not None and not pd.isna(hist):
+        min_hist = 58.0 if market == "1X2" else 60.0
+        if float(hist) < min_hist:
+            return False
+    value_edge = row.get("value_edge")
+    if value_edge is not None and float(value_edge) < 2.0:
+        return False
+    return True
+
+
+def _select_top_recommendation(display_rankings, top_value_market, top_hit_market):
+    trusted = [row for row in display_rankings if _is_trustworthy_recommendation(row)]
+    if top_value_market is not None and _is_trustworthy_recommendation(top_value_market):
+        return top_value_market, "value"
+    if trusted:
+        trusted_sorted = sorted(
+            trusted,
+            key=lambda row: (
+                -(row.get("value_edge") if row.get("value_edge") is not None else -999.0),
+                -row.get("builder_score", 0.0),
+                -row.get("est_accuracy", 0.0),
+                row.get("market", ""),
+            ),
+        )
+        return trusted_sorted[0], "trust"
+    return top_hit_market, "fallback"
+
+
 def _build_bet_builder(rankings, limit=3):
     selected = []
     blocked = set()
@@ -747,8 +916,259 @@ def _build_bet_builder(rankings, limit=3):
 def _fmt_hist_accuracy(value):
     return "n/a" if value is None or pd.isna(value) else f"{float(value):.1f}%"
 
+
+def _recent_europe_form(team_key, before_date, window):
+    if EUROPE_HISTORY_DF.empty:
+        return None
+    mask = (
+        ((EUROPE_HISTORY_DF.get("home_key") == team_key) | (EUROPE_HISTORY_DF.get("away_key") == team_key))
+        & (EUROPE_HISTORY_DF["Date"] < before_date)
+    )
+    rows = EUROPE_HISTORY_DF[mask].tail(window)
+    if rows.empty:
+        return None
+    records = []
+    for _, row in rows.iterrows():
+        if row["home_key"] == team_key:
+            gf, ga = row["FTHG"], row["FTAG"]
+        else:
+            gf, ga = row["FTAG"], row["FTHG"]
+        pts = 3 if gf > ga else (1 if gf == ga else 0)
+        records.append({"gf": gf, "ga": ga, "points": pts})
+    return {
+        "gf": float(np.mean([r["gf"] for r in records])),
+        "ga": float(np.mean([r["ga"] for r in records])),
+        "ppg": float(np.mean([r["points"] for r in records])),
+    }
+
+
+def _resolve_europe_team_name(name):
+    if not EUROPE_TEAM_ALIASES or europe_canonical_name is None:
+        return None
+    key = europe_canonical_name(name)
+    if key in EUROPE_TEAM_ALIASES:
+        return EUROPE_TEAM_ALIASES[key]
+    manual = {
+        "psg": "Paris Saint-Germain FC",
+        "inter": "FC Internazionale Milano",
+        "inter milan": "FC Internazionale Milano",
+        "porto": "FC Porto",
+        "benfica": "SL Benfica",
+        "ajax": "AFC Ajax",
+        "bayern": "FC Bayern München",
+        "bayern munich": "FC Bayern München",
+        "sporting": "Sporting Clube de Portugal",
+        "roma": "AS Roma",
+        "lazio": "Lazio Roma",
+        "olympiacos": "Olympiakos Piraeus",
+        "copenhagen": "FC København",
+    }
+    mapped = manual.get(key)
+    if mapped:
+        return mapped
+    return None
+
+
+def _europe_competition_from_text(text):
+    lower = text.lower()
+    if any(token in lower for token in ["europa", "uel"]):
+        return "EL"
+    return "CL"
+
+
+def _detect_teams_from_text(raw_text):
+    raw_text = str(raw_text or "").strip().lower()
+    normalized_text = europe_canonical_name(raw_text) if europe_canonical_name else raw_text
+    hits = []
+    for team in TEAMS_LIST:
+        target = team.lower()
+        idx = raw_text.find(target)
+        if idx != -1:
+            hits.append((idx, -len(target), team))
+        if 'utd' in raw_text and 'united' in target:
+            hits.append((raw_text.find('utd'), -len(target), team))
+        if 'spurs' in raw_text and 'tottenham' in target:
+            hits.append((raw_text.find('spurs'), -len(target), team))
+        if 'forest' in raw_text and "nott" in target:
+            hits.append((raw_text.find('forest'), -len(target), team))
+    for key, team in EUROPE_TEAM_ALIASES.items():
+        if key:
+            idx = normalized_text.find(key)
+            if idx != -1:
+                hits.append((idx, -len(key), team))
+    for key, team in EUROPE_INPUT_ALIASES.items():
+        idx = normalized_text.find(key)
+        if idx != -1:
+            hits.append((idx, -len(key), team))
+
+    if not hits:
+        return []
+
+    canonical_seen = set()
+    ordered = []
+    for _, _, team in sorted(hits):
+        canon = europe_canonical_name(team) if europe_canonical_name else team.lower()
+        if canon in canonical_seen:
+            continue
+        canonical_seen.add(canon)
+        ordered.append(team)
+    return ordered
+
+
+def generate_europe_match_features(home, away, competition="CL"):
+    if EUROPE_IMPUTER is None or not EUROPE_FEATURE_COLS or EUROPE_TEAM_HIST.empty or europe_recent_stats is None or normalize_europe_team is None:
+        raise RuntimeError("Europe inference assets unavailable.")
+
+    now = pd.Timestamp(datetime.now())
+    home_key = normalize_europe_team(home)
+    away_key = normalize_europe_team(away)
+    row = {
+        "Date": now,
+        "competition": competition,
+        "HomeTeam": home,
+        "AwayTeam": away,
+        "home_key": home_key,
+        "away_key": away_key,
+        "competition_flag": 1.0 if competition == "CL" else 0.0,
+    }
+
+    for window in (3, 5, 10):
+        home_stats = europe_recent_stats(EUROPE_TEAM_HIST, home_key, now, window)
+        away_stats = europe_recent_stats(EUROPE_TEAM_HIST, away_key, now, window)
+        for key, value in home_stats.items():
+            row[f"home_{key}"] = value
+        for key, value in away_stats.items():
+            row[f"away_{key}"] = value
+        row[f"xg_atk_def_diff_r{window}"] = row.get(f"home_xgf_r{window}", np.nan) - row.get(f"away_xga_r{window}", np.nan)
+        row[f"ppg_proxy_diff_r{window}"] = (
+            (row.get(f"home_gf_r{window}", np.nan) - row.get(f"home_ga_r{window}", np.nan)) -
+            (row.get(f"away_gf_r{window}", np.nan) - row.get(f"away_ga_r{window}", np.nan))
+        )
+        row[f"atk_def_diff_r{window}"] = row.get(f"home_gf_r{window}", np.nan) - row.get(f"away_ga_r{window}", np.nan)
+        row[f"def_atk_diff_r{window}"] = row.get(f"away_gf_r{window}", np.nan) - row.get(f"home_ga_r{window}", np.nan)
+
+    for window in (3, 5):
+        home_eu = _recent_europe_form(home_key, now, window)
+        away_eu = _recent_europe_form(away_key, now, window)
+        if home_eu:
+            row[f"home_eu_gf_r{window}"] = home_eu["gf"]
+            row[f"home_eu_ga_r{window}"] = home_eu["ga"]
+            row[f"home_eu_ppg_r{window}"] = home_eu["ppg"]
+        if away_eu:
+            row[f"away_eu_gf_r{window}"] = away_eu["gf"]
+            row[f"away_eu_ga_r{window}"] = away_eu["ga"]
+            row[f"away_eu_ppg_r{window}"] = away_eu["ppg"]
+        row[f"eu_gd_diff_r{window}"] = (
+            (row.get(f"home_eu_gf_r{window}", np.nan) - row.get(f"home_eu_ga_r{window}", np.nan)) -
+            (row.get(f"away_eu_gf_r{window}", np.nan) - row.get(f"away_eu_ga_r{window}", np.nan))
+        )
+        row[f"eu_ppg_diff_r{window}"] = row.get(f"home_eu_ppg_r{window}", np.nan) - row.get(f"away_eu_ppg_r{window}", np.nan)
+
+    frame = pd.DataFrame([row])
+    for col in EUROPE_FEATURE_COLS:
+        if col not in frame.columns:
+            frame[col] = np.nan
+    raw_feats = frame[EUROPE_FEATURE_COLS].apply(pd.to_numeric, errors="coerce").values.astype(np.float64)
+    X = np.nan_to_num(EUROPE_IMPUTER.transform(raw_feats), nan=0.0, posinf=0.0, neginf=0.0)
+    return X, frame
+
+
+def run_europe_predictions(home, away, competition="CL"):
+    X, row_df = generate_europe_match_features(home, away, competition=competition)
+    p_ou25 = float(np.clip(EUROPE_MODELS["over25"].predict(X)[0], 0.01, 0.99))
+    p_btts = float(np.clip(EUROPE_MODELS["btts"].predict(X)[0], 0.01, 0.99))
+    p_1x2 = np.clip(EUROPE_MODELS["1x2"].predict(X)[0], 0.01, 0.99)
+    p_1x2 = p_1x2 / p_1x2.sum()
+    p_ou15 = float(np.clip(0.35 + 0.45 * p_ou25 + 0.20 * p_btts, 0.05, 0.95))
+
+    extra_markets = []
+    if ADDITIONAL_MARKET_MODELS and ADDITIONAL_IMPUTER is not None and ADDITIONAL_FEATURE_COLS:
+        extra_row = row_df.copy()
+        for col in ADDITIONAL_FEATURE_COLS:
+            if col not in extra_row.columns:
+                extra_row[col] = np.nan
+        extra_raw = extra_row[ADDITIONAL_FEATURE_COLS].apply(pd.to_numeric, errors="coerce").values.astype(np.float64)
+        extra_X = np.nan_to_num(ADDITIONAL_IMPUTER.transform(extra_raw), nan=0.0, posinf=0.0, neginf=0.0)
+        extra_dc_stack = np.array([[p_ou25, p_btts, p_1x2[0], p_1x2[1], p_1x2[2]]])
+        extra_full = np.nan_to_num(np.column_stack([extra_X, extra_dc_stack]), nan=0.0, posinf=0.0, neginf=0.0)
+        for spec, model in ADDITIONAL_MARKET_MODELS:
+            prob_over = float(np.clip(model.predict(extra_full)[0], 0.01, 0.99))
+            positive_pick = spec.get("pick", "OVER")
+            if "GG" in positive_pick:
+                pick = positive_pick if prob_over >= 0.5 else "NG"
+                market_name = spec["market"]
+            else:
+                pick = "OVER" if prob_over >= 0.5 else "UNDER"
+                market_name = f"{spec['market']} {spec['line']:.1f}"
+            extra_markets.append({
+                "target": spec["target"],
+                "market": market_name,
+                "pick": pick,
+                "est_accuracy": max(prob_over, 1.0 - prob_over) * 100.0,
+                "hist_accuracy": None,
+                "baseline": 50.0,
+                "base_rate": float(spec.get("base_rate", 0.5)) * 100.0,
+                "beta": True,
+            })
+
+    return {
+        "ou25": p_ou25,
+        "ou15": p_ou15,
+        "btts": p_btts,
+        "1x2": [float(x) for x in p_1x2],
+        "exact_score": "beta-only",
+        "exact_score_prob": 0.0,
+        "top_scores": [],
+        "data_sources": ["Europe competitions", "Domestic support", "Understat support"],
+        "row": row_df,
+        "extra_markets": extra_markets,
+        "competition": competition,
+        "is_europe_beta": True,
+        "market_hist_acc": EUROPE_HIST_ACC,
+    }
+
 def format_unified_prediction(home, away, res):
     """Format 5-market prediction card for Telegram."""
+    if res.get("is_europe_beta"):
+        rankings = _market_rankings(res)
+        display_rankings, top_value_market, top_hit_market = _sorted_market_rankings(home, away, rankings)
+        top_market, recommendation_mode = _select_top_recommendation(display_rankings, top_value_market, top_hit_market)
+        builder_legs = _build_bet_builder(display_rankings)
+        competition = res.get("competition", "CL")
+        lines = [
+            f"{home} vs {away}",
+            f"Competition: {'Champions League' if competition == 'CL' else 'Europa League'}",
+            "Mode: Europe beta",
+            "",
+            f"Top recommendation: {top_market['market']} -> {top_market['pick']} ({top_market['est_accuracy']:.1f}% est)",
+            f"Recommendation mode: {recommendation_mode}",
+            f"Historical accuracy: {_fmt_hist_accuracy(top_market.get('hist_accuracy'))}",
+            "Value edge: n/a",
+            f"Highest hit-rate market: {top_hit_market['market']} -> {top_hit_market['pick']} ({top_hit_market['est_accuracy']:.1f}% est)",
+            "",
+            "All market accuracy:",
+        ]
+        for row in display_rankings:
+            beta_tag = " | beta" if row.get("beta") else ""
+            lines.append(
+                f"- {row['market']}: {row['pick']} | est {row['est_accuracy']:.1f}% | hist {_fmt_hist_accuracy(row.get('hist_accuracy'))}{beta_tag}"
+            )
+        if builder_legs:
+            lines += ["", "Bet builder shortlist:"]
+            for idx, row in enumerate(builder_legs, 1):
+                beta_tag = " beta" if row.get("beta") else ""
+                lines.append(
+                    f"- Leg {idx}: {row['market']} -> {row['pick']} | est {row['est_accuracy']:.1f}% | edge {row['edge']:.1f}%{beta_tag}"
+                )
+        lines += [
+            "",
+            "1X2 split:",
+            f"- Home {res['1x2'][0] * 100:.1f}% | Draw {res['1x2'][1] * 100:.1f}% | Away {res['1x2'][2] * 100:.1f}%",
+            "",
+            "Expanded Europe markets use beta scoring until Europe-specific settled labels are built.",
+        ]
+        return "\n".join(lines)
+
     p_1x2 = res["1x2"]
     winner_idx = max(range(3), key=lambda i: p_1x2[i])
     winner_labels = ["HOME WIN", "DRAW", "AWAY WIN"]
@@ -770,7 +1190,7 @@ def format_unified_prediction(home, away, res):
     top = res["top_scores"]
     rankings = _market_rankings(res)
     display_rankings, top_value_market, top_hit_market = _sorted_market_rankings(home, away, rankings)
-    top_market = top_value_market or top_hit_market
+    top_market, recommendation_mode = _select_top_recommendation(display_rankings, top_value_market, top_hit_market)
     builder_legs = _build_bet_builder(display_rankings)
     top_edge = top_market["edge"]
     if top_edge >= 8:
@@ -801,6 +1221,7 @@ def format_unified_prediction(home, away, res):
         f"{home} vs {away}",
         "",
         f"Top recommendation: {top_market['market']} -> {top_market['pick']} ({top_market['est_accuracy']:.1f}% est)",
+        f"Recommendation mode: {recommendation_mode}",
         f"Historical accuracy: {_fmt_hist_accuracy(top_market['hist_accuracy'])}",
         f"Value edge: {top_market['value_edge']:+.1f}%" if top_market.get('value_edge') is not None else "Value edge: n/a",
         f"Highest hit-rate market: {top_hit_market['market']} -> {top_hit_market['pick']} ({top_hit_market['est_accuracy']:.1f}% est)",
@@ -870,7 +1291,7 @@ def get_weekly_predictions(week_idx=0, high_only=False):
 
         rankings = _market_rankings(res)
         display_rankings, top_value_market, top_hit_market = _sorted_market_rankings(home, away, rankings)
-        top_market = top_value_market or top_hit_market
+        top_market, recommendation_mode = _select_top_recommendation(display_rankings, top_value_market, top_hit_market)
         builder_legs = _build_bet_builder(display_rankings)
         one_x_two = next(row for row in display_rankings if row["market"] == "1X2")
         ou25 = next(row for row in display_rankings if row["market"] == "OVER/UNDER 2.5")
@@ -884,7 +1305,7 @@ def get_weekly_predictions(week_idx=0, high_only=False):
         flag = "HIGH" if is_hi else "    "
 
         lines.append(f"Match {flag} {home} vs {away}")
-        lines.append(f"  Top: {top_market['market']} -> {top_market['pick']} {top_market['est_accuracy']:.0f}%")
+        lines.append(f"  Top: {top_market['market']} -> {top_market['pick']} {top_market['est_accuracy']:.0f}% ({recommendation_mode})")
         lines.append(f"  1X2 {one_x_two['pick']} {one_x_two['est_accuracy']:.0f}% | O/U2.5 {ou25['pick']} {ou25['est_accuracy']:.0f}%")
         lines.append(f"  O/U1.5 {ou15['pick']} {ou15['est_accuracy']:.0f}% | GG/NG {ggn['pick']} {ggn['est_accuracy']:.0f}%")
         lines.append(f"  Exact {exact['pick']} {exact['est_accuracy']:.0f}%")
@@ -1106,22 +1527,7 @@ async def btn(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Smart text search handler
 async def msg(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text.strip().lower()
-
-    detected_teams = []
-    for team in TEAMS_LIST:
-        target = team.lower()
-        if target in text:
-            detected_teams.append(team)
-
-        # Common abbreviations
-        if 'utd' in text and 'united' in target:
-            detected_teams.append(team)
-        if 'spurs' in text and 'tottenham' in target:
-            detected_teams.append(team)
-        if 'forest' in text and "nott" in target:
-            detected_teams.append(team)
-
-    detected_teams = list(dict.fromkeys(detected_teams))  # deduplicate preserving order
+    detected_teams = _detect_teams_from_text(text)
 
     if len(detected_teams) >= 2:
         home, away = detected_teams[0], detected_teams[1]
@@ -1133,7 +1539,11 @@ async def msg(update: Update, context: ContextTypes.DEFAULT_TYPE):
             home, away = away, home
 
         await update.message.reply_text(f"⏳ Analyzing {home} vs {away}...")
-        res = run_predictions(home, away)
+        if home in TEAMS_LIST and away in TEAMS_LIST:
+            res = run_predictions(home, away)
+        else:
+            comp = _europe_competition_from_text(text)
+            res = run_europe_predictions(home, away, competition=comp)
         r = format_unified_prediction(home, away, res)
         await update.message.reply_text(r)
     elif len(detected_teams) == 1:
@@ -1145,14 +1555,35 @@ async def msg(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def predict_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     args = context.args
     if len(args) < 2:
-        await update.message.reply_text("Usage: /predict Liverpool Arsenal")
+        await update.message.reply_text("Usage: /predict Arsenal vs Chelsea  |  /predict Arsenal FC vs Paris Saint-Germain FC CL")
         return
-    home = next((t for t in TEAMS_LIST if t.lower() == args[0].lower()), None)
-    away = next((t for t in TEAMS_LIST if t.lower() == args[1].lower()), None)
-    if not home: await update.message.reply_text(f"'{args[0]}' not found."); return
-    if not away: await update.message.reply_text(f"'{args[1]}' not found."); return
+    raw = " ".join(args).strip()
+    comp = "EL" if any(token in raw.lower().split() for token in {"el", "uel", "europa"}) else "CL"
+    raw = re.sub(r"\b(CL|EL|UCL|UEL|champions|europa)\b", "", raw, flags=re.IGNORECASE).strip()
+
+    home = away = None
+    if re.search(r"\s+vs\s+|\s+v\s+", raw, flags=re.IGNORECASE):
+        parts = re.split(r"\s+vs\s+|\s+v\s+", raw, maxsplit=1, flags=re.IGNORECASE)
+        if len(parts) == 2:
+            left = parts[0].strip()
+            right = parts[1].strip()
+            left_detected = _detect_teams_from_text(left)
+            right_detected = _detect_teams_from_text(right)
+            home = left_detected[0] if left_detected else None
+            away = right_detected[0] if right_detected else None
+    else:
+        detected = _detect_teams_from_text(raw)
+        if len(detected) >= 2:
+            home, away = detected[0], detected[1]
+
+    if not home or not away:
+        await update.message.reply_text("Could not parse both teams. Use: /predict Arsenal FC vs Paris Saint-Germain FC CL")
+        return
     await update.message.reply_text(f"⏳ Analyzing {home} vs {away}...")
-    res = run_predictions(home, away)
+    if home in TEAMS_LIST and away in TEAMS_LIST:
+        res = run_predictions(home, away)
+    else:
+        res = run_europe_predictions(home, away, competition=comp)
     r = format_unified_prediction(home, away, res)
     await update.message.reply_text(r)
 

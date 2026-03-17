@@ -1,0 +1,126 @@
+date,time,home_team,away_team,home_goals,away_goals,stage,score_token,detail,competition_code,competition_label,season_start
+2015-09-15,20.45,Real Madrid,Shakhtar Donetsk,4,0,Group A,4-0,(1-0),CL,Champions League,2015
+2015-09-15,,Paris Saint-Germain,Malmö FF,2,0,Group A,2-0,(1-0),CL,Champions League,2015
+2015-09-30,20.45,Malmö FF,Real Madrid,0,2,Group A,0-2,(0-1),CL,Champions League,2015
+2015-09-30,,Shakhtar Donetsk,Paris Saint-Germain,0,3,Group A,0-3,(0-2),CL,Champions League,2015
+2015-10-21,20.45,Paris Saint-Germain,Real Madrid,0,0,Group A,0-0,,CL,Champions League,2015
+2015-10-21,,Malmö FF,Shakhtar Donetsk,1,0,Group A,1-0,(1-0),CL,Champions League,2015
+2015-11-03,20.45,Real Madrid,Paris Saint-Germain,1,0,Group A,1-0,(1-0),CL,Champions League,2015
+2015-11-03,,Shakhtar Donetsk,Malmö FF,4,0,Group A,4-0,(1-0),CL,Champions League,2015
+2015-11-25,20.45,Malmö FF,Paris Saint-Germain,0,5,Group A,0-5,(0-2),CL,Champions League,2015
+2015-11-25,,Shakhtar Donetsk,Real Madrid,3,4,Group A,3-4,(0-1),CL,Champions League,2015
+2015-12-08,20.45,Paris Saint-Germain,Shakhtar Donetsk,2,0,Group A,2-0,(0-0),CL,Champions League,2015
+2015-12-08,,Real Madrid,Malmö FF,8,0,Group A,8-0,(3-0),CL,Champions League,2015
+2015-09-15,20.45,VfL Wolfsburg,CSKA Moskva,1,0,Group B,1-0,(1-0),CL,Champions League,2015
+2015-09-15,,PSV Eindhoven,Manchester United,2,1,Group B,2-1,(1-1),CL,Champions League,2015
+2015-09-30,20.45,CSKA Moskva,PSV Eindhoven,3,2,Group B,3-2,(3-0),CL,Champions League,2015
+2015-09-30,,Manchester United,VfL Wolfsburg,2,1,Group B,2-1,(1-1),CL,Champions League,2015
+2015-10-21,20.45,CSKA Moskva,Manchester United,1,1,Group B,1-1,(1-0),CL,Champions League,2015
+2015-10-21,,VfL Wolfsburg,PSV Eindhoven,2,0,Group B,2-0,(0-0),CL,Champions League,2015
+2015-11-03,20.45,PSV Eindhoven,VfL Wolfsburg,2,0,Group B,2-0,(0-0),CL,Champions League,2015
+2015-11-03,,Manchester United,CSKA Moskva,1,0,Group B,1-0,(0-0),CL,Champions League,2015
+2015-11-25,18.00,CSKA Moskva,VfL Wolfsburg,0,2,Group B,0-2,(0-0),CL,Champions League,2015
+2015-11-25,20.45,Manchester United,PSV Eindhoven,0,0,Group B,0-0,,CL,Champions League,2015
+2015-12-08,20.45,VfL Wolfsburg,Manchester United,3,2,Group B,3-2,(2-1),CL,Champions League,2015
+2015-12-08,,PSV Eindhoven,CSKA Moskva,2,1,Group B,2-1,(0-0),CL,Champions League,2015
+2015-09-15,20.45,SL Benfica,FK Astana,2,0,Group C,2-0,(0-0),CL,Champions League,2015
+2015-09-15,,Galatasaray,Atlético Madrid,0,2,Group C,0-2,(0-2),CL,Champions League,2015
+2015-09-30,18.00,FK Astana,Galatasaray,2,2,Group C,2-2,(0-1),CL,Champions League,2015
+2015-09-30,20.45,Atlético Madrid,SL Benfica,1,2,Group C,1-2,(1-1),CL,Champions League,2015
+2015-10-21,20.45,Galatasaray,SL Benfica,2,1,Group C,2-1,(2-1),CL,Champions League,2015
+2015-10-21,,Atlético Madrid,FK Astana,4,0,Group C,4-0,(2-0),CL,Champions League,2015
+2015-11-03,16.00,FK Astana,Atlético Madrid,0,0,Group C,0-0,,CL,Champions League,2015
+2015-11-03,20.45,SL Benfica,Galatasaray,2,1,Group C,2-1,(0-0),CL,Champions League,2015
+2015-11-25,16.00,FK Astana,SL Benfica,2,2,Group C,2-2,(2-1),CL,Champions League,2015
+2015-11-25,20.45,Atlético Madrid,Galatasaray,2,0,Group C,2-0,(1-0),CL,Champions League,2015
+2015-12-08,20.45,Galatasaray,FK Astana,1,1,Group C,1-1,(0-0),CL,Champions League,2015
+2015-12-08,,SL Benfica,Atlético Madrid,1,2,Group C,1-2,(0-1),CL,Champions League,2015
+2015-09-15,20.45,Sevilla FC,Bor. Mönchengladbach,3,0,Group D,3-0,(0-0),CL,Champions League,2015
+2015-09-15,,Manchester City,Juventus,1,2,Group D,1-2,(0-0),CL,Champions League,2015
+2015-09-30,20.45,Juventus,Sevilla FC,2,0,Group D,2-0,(1-0),CL,Champions League,2015
+2015-09-30,,Bor. Mönchengladbach,Manchester City,1,2,Group D,1-2,(0-0),CL,Champions League,2015
+2015-10-21,20.45,Manchester City,Sevilla FC,2,1,Group D,2-1,(1-1),CL,Champions League,2015
+2015-10-21,,Juventus,Bor. Mönchengladbach,0,0,Group D,0-0,,CL,Champions League,2015
+2015-11-03,20.45,Bor. Mönchengladbach,Juventus,1,1,Group D,1-1,(1-1),CL,Champions League,2015
+2015-11-03,,Sevilla FC,Manchester City,1,3,Group D,1-3,(1-3),CL,Champions League,2015
+2015-11-25,20.45,Juventus,Manchester City,1,0,Group D,1-0,(1-0),CL,Champions League,2015
+2015-11-25,,Bor. Mönchengladbach,Sevilla FC,4,2,Group D,4-2,(1-0),CL,Champions League,2015
+2015-12-08,20.45,Manchester City,Bor. Mönchengladbach,4,2,Group D,4-2,(1-2),CL,Champions League,2015
+2015-12-08,,Sevilla FC,Juventus,1,0,Group D,1-0,(0-0),CL,Champions League,2015
+2015-09-16,20.45,AS Roma,FC Barcelona,1,1,Group E,1-1,(1-1),CL,Champions League,2015
+2015-09-16,,Bayer Leverkusen,BATE Borisov,4,1,Group E,4-1,(1-1),CL,Champions League,2015
+2015-09-29,20.45,FC Barcelona,Bayer Leverkusen,2,1,Group E,2-1,(0-1),CL,Champions League,2015
+2015-09-29,,BATE Borisov,AS Roma,3,2,Group E,3-2,(3-0),CL,Champions League,2015
+2015-10-20,20.45,BATE Borisov,FC Barcelona,0,2,Group E,0-2,(0-0),CL,Champions League,2015
+2015-10-20,,Bayer Leverkusen,AS Roma,4,4,Group E,4-4,(2-2),CL,Champions League,2015
+2015-11-04,20.45,AS Roma,Bayer Leverkusen,3,2,Group E,3-2,(2-0),CL,Champions League,2015
+2015-11-04,,FC Barcelona,BATE Borisov,3,0,Group E,3-0,(1-0),CL,Champions League,2015
+2015-11-24,18.00,BATE Borisov,Bayer Leverkusen,1,1,Group E,1-1,(1-0),CL,Champions League,2015
+2015-11-24,20.45,FC Barcelona,AS Roma,6,1,Group E,6-1,(3-0),CL,Champions League,2015
+2015-12-09,20.45,Bayer Leverkusen,FC Barcelona,1,1,Group E,1-1,(1-1),CL,Champions League,2015
+2015-12-09,,AS Roma,BATE Borisov,0,0,Group E,0-0,,CL,Champions League,2015
+2015-09-16,20.45,Olympiakos Piraeus,Bayern München,0,3,Group F,0-3,(0-0),CL,Champions League,2015
+2015-09-16,,Dinamo Zagreb,Arsenal FC,2,1,Group F,2-1,(1-0),CL,Champions League,2015
+2015-09-29,20.45,Arsenal FC,Olympiakos Piraeus,2,3,Group F,2-3,(1-2),CL,Champions League,2015
+2015-09-29,,Bayern München,Dinamo Zagreb,5,0,Group F,5-0,(4-0),CL,Champions League,2015
+2015-10-20,20.45,Arsenal FC,Bayern München,2,0,Group F,2-0,(0-0),CL,Champions League,2015
+2015-10-20,,Dinamo Zagreb,Olympiakos Piraeus,0,1,Group F,0-1,(0-0),CL,Champions League,2015
+2015-11-04,20.45,Bayern München,Arsenal FC,5,1,Group F,5-1,(3-0),CL,Champions League,2015
+2015-11-04,,Olympiakos Piraeus,Dinamo Zagreb,2,1,Group F,2-1,(0-1),CL,Champions League,2015
+2015-11-24,20.45,Bayern München,Olympiakos Piraeus,4,0,Group F,4-0,(3-0),CL,Champions League,2015
+2015-11-24,,Arsenal FC,Dinamo Zagreb,3,0,Group F,3-0,(2-0),CL,Champions League,2015
+2015-12-09,20.45,Dinamo Zagreb,Bayern München,0,2,Group F,0-2,(0-0),CL,Champions League,2015
+2015-12-09,,Olympiakos Piraeus,Arsenal FC,0,3,Group F,0-3,(0-1),CL,Champions League,2015
+2015-09-16,20.45,Dinamo Kiev,FC Porto,2,2,Group G,2-2,(1-1),CL,Champions League,2015
+2015-09-16,,Chelsea FC,Maccabi Tel Aviv,4,0,Group G,4-0,(2-0),CL,Champions League,2015
+2015-09-29,20.45,FC Porto,Chelsea FC,2,1,Group G,2-1,(1-1),CL,Champions League,2015
+2015-09-29,,Maccabi Tel Aviv,Dinamo Kiev,0,2,Group G,0-2,(0-1),CL,Champions League,2015
+2015-10-20,20.45,FC Porto,Maccabi Tel Aviv,2,0,Group G,2-0,(2-0),CL,Champions League,2015
+2015-10-20,,Dinamo Kiev,Chelsea FC,0,0,Group G,0-0,,CL,Champions League,2015
+2015-11-04,20.45,Chelsea FC,Dinamo Kiev,2,1,Group G,2-1,(1-0),CL,Champions League,2015
+2015-11-04,,Maccabi Tel Aviv,FC Porto,1,3,Group G,1-3,(0-1),CL,Champions League,2015
+2015-11-24,20.45,Maccabi Tel Aviv,Chelsea FC,0,4,Group G,0-4,(0-1),CL,Champions League,2015
+2015-11-24,,FC Porto,Dinamo Kiev,0,2,Group G,0-2,(0-1),CL,Champions League,2015
+2015-12-09,20.45,Chelsea FC,FC Porto,2,0,Group G,2-0,(1-0),CL,Champions League,2015
+2015-12-09,,Dinamo Kiev,Maccabi Tel Aviv,1,0,Group G,1-0,(1-0),CL,Champions League,2015
+2015-09-16,20.45,Valencia CF,Zenit St. Petersburg,2,3,Group H,2-3,(0-2),CL,Champions League,2015
+2015-09-16,,KAA Gent,Olympique Lyonnais,1,1,Group H,1-1,(0-0),CL,Champions League,2015
+2015-09-29,20.45,Olympique Lyonnais,Valencia CF,0,1,Group H,0-1,(0-1),CL,Champions League,2015
+2015-09-29,,Zenit St. Petersburg,KAA Gent,2,1,Group H,2-1,(1-0),CL,Champions League,2015
+2015-10-20,20.45,Valencia CF,KAA Gent,2,1,Group H,2-1,(1-1),CL,Champions League,2015
+2015-10-20,,Zenit St. Petersburg,Olympique Lyonnais,3,1,Group H,3-1,(1-0),CL,Champions League,2015
+2015-11-04,20.45,Olympique Lyonnais,Zenit St. Petersburg,0,2,Group H,0-2,(0-1),CL,Champions League,2015
+2015-11-04,,KAA Gent,Valencia CF,1,0,Group H,1-0,(0-0),CL,Champions League,2015
+2015-11-24,18.00,Zenit St. Petersburg,Valencia CF,2,0,Group H,2-0,(1-0),CL,Champions League,2015
+2015-11-24,20.45,Olympique Lyonnais,KAA Gent,1,2,Group H,1-2,(1-1),CL,Champions League,2015
+2015-12-09,20.45,Valencia CF,Olympique Lyonnais,0,2,Group H,0-2,(0-1),CL,Champions League,2015
+2015-12-09,,KAA Gent,Zenit St. Petersburg,2,1,Group H,2-1,(1-0),CL,Champions League,2015
+2016-02-16,20.45,Paris Saint-Germain,Chelsea FC,2,1,Round of 16,2-1,(1-1),CL,Champions League,2015
+2016-02-16,,SL Benfica,Zenit St. Petersburg,1,0,Round of 16,1-0,(0-0),CL,Champions League,2015
+2016-02-17,20.45,KAA Gent,VfL Wolfsburg,2,3,Round of 16,2-3,(0-1),CL,Champions League,2015
+2016-02-17,,AS Roma,Real Madrid,0,2,Round of 16,0-2,(0-0),CL,Champions League,2015
+2016-02-23,20.45,Arsenal FC,FC Barcelona,0,2,Round of 16,0-2,(0-0),CL,Champions League,2015
+2016-02-23,,Juventus,Bayern München,2,2,Round of 16,2-2,(0-1),CL,Champions League,2015
+2016-02-24,20.45,PSV Eindhoven,Atlético Madrid,0,0,Round of 16,0-0,,CL,Champions League,2015
+2016-02-24,,Dinamo Kiev,Manchester City,1,3,Round of 16,1-3,(0-2),CL,Champions League,2015
+2016-03-08,20.45,VfL Wolfsburg,KAA Gent,1,0,Round of 16,1-0,(0-0),CL,Champions League,2015
+2016-03-08,,Real Madrid,AS Roma,2,0,Round of 16,2-0,(0-0),CL,Champions League,2015
+2016-03-09,18.00,Zenit St. Petersburg,SL Benfica,1,2,Round of 16,1-2,(0-0),CL,Champions League,2015
+2016-03-09,20.45,Chelsea FC,Paris Saint-Germain,1,2,Round of 16,1-2,(1-1),CL,Champions League,2015
+2016-03-15,20.45,Atlético Madrid,PSV Eindhoven,8,7,Round of 16,8-7 pen.,0-0 a.e.t. (0-0),CL,Champions League,2015
+2016-03-15,,Manchester City,Dinamo Kiev,0,0,Round of 16,0-0,,CL,Champions League,2015
+2016-03-16,20.45,FC Barcelona,Arsenal FC,3,1,Round of 16,3-1,(1-0),CL,Champions League,2015
+2016-03-16,,Bayern München,Juventus,4,2,Round of 16,4-2,"a.e.t. (2-2, 0-2)",CL,Champions League,2015
+2016-04-05,20.45,Bayern München,SL Benfica,1,0,Quarterfinals,1-0,(1-0),CL,Champions League,2015
+2016-04-05,,FC Barcelona,Atlético Madrid,2,1,Quarterfinals,2-1,(0-1),CL,Champions League,2015
+2016-04-06,20.45,VfL Wolfsburg,Real Madrid,2,0,Quarterfinals,2-0,(2-0),CL,Champions League,2015
+2016-04-06,,Paris Saint-Germain,Manchester City,2,2,Quarterfinals,2-2,(1-1),CL,Champions League,2015
+2016-04-12,20.45,Real Madrid,VfL Wolfsburg,3,0,Quarterfinals,3-0,(2-0),CL,Champions League,2015
+2016-04-12,,Manchester City,Paris Saint-Germain,1,0,Quarterfinals,1-0,(0-0),CL,Champions League,2015
+2016-04-13,20.45,SL Benfica,Bayern München,2,2,Quarterfinals,2-2,(1-1),CL,Champions League,2015
+2016-04-13,,Atlético Madrid,FC Barcelona,2,0,Quarterfinals,2-0,(1-0),CL,Champions League,2015
+2016-04-26,20.45,Manchester City,Real Madrid,0,0,Semifinals,0-0,,CL,Champions League,2015
+2016-04-27,20.45,Atlético Madrid,Bayern München,1,0,Semifinals,1-0,(1-0),CL,Champions League,2015
+2016-05-03,20.45,Bayern München,Atlético Madrid,2,1,Semifinals,2-1,(1-0),CL,Champions League,2015
+2016-05-04,20.45,Real Madrid,Manchester City,1,0,Semifinals,1-0,(1-0),CL,Champions League,2015
+2016-05-28,20.45,Real Madrid,Atlético Madrid,5,3,Final,5-3 pen.,"1-1 a.e.t. (1-1, 1-0)",CL,Champions League,2015

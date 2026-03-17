@@ -1,0 +1,169 @@
+date,time,home_team,away_team,home_goals,away_goals,stage,score_token,detail,competition_code,competition_label,season_start
+2025-09-16,18.45,Athletic Club,Arsenal FC,0,2,"League, Matchday 1",0-2,(0-0),CL,Champions League,2025
+2025-09-16,,PSV,Royale Union Saint-Gilloise,1,3,"League, Matchday 1",1-3,(0-2),CL,Champions League,2025
+2025-09-16,21.00,Juventus FC,Borussia Dortmund,4,4,"League, Matchday 1",4-4,(0-0),CL,Champions League,2025
+2025-09-16,,Sport Lisboa e Benfica,Qarabağ Ağdam FK,2,3,"League, Matchday 1",2-3,(2-1),CL,Champions League,2025
+2025-09-16,,Tottenham Hotspur FC,Villarreal CF,1,0,"League, Matchday 1",1-0,(1-0),CL,Champions League,2025
+2025-09-16,,Real Madrid CF,Olympique de Marseille,2,1,"League, Matchday 1",2-1,(1-1),CL,Champions League,2025
+2025-09-17,18.45,SK Slavia Praha,FK Bodø/Glimt,2,2,"League, Matchday 1",2-2,(1-0),CL,Champions League,2025
+2025-09-17,,PAE Olympiakos SFP,Paphos FC,0,0,"League, Matchday 1",0-0,,CL,Champions League,2025
+2025-09-17,21.00,AFC Ajax,FC Internazionale Milano,0,2,"League, Matchday 1",0-2,(0-1),CL,Champions League,2025
+2025-09-17,,Liverpool FC,Club Atlético de Madrid,3,2,"League, Matchday 1",3-2,(2-1),CL,Champions League,2025
+2025-09-17,,Paris Saint-Germain FC,Atalanta BC,4,0,"League, Matchday 1",4-0,(2-0),CL,Champions League,2025
+2025-09-17,,FC Bayern München,Chelsea FC,3,1,"League, Matchday 1",3-1,(2-1),CL,Champions League,2025
+2025-09-18,18.45,FC København,Bayer 04 Leverkusen,2,2,"League, Matchday 1",2-2,(1-0),CL,Champions League,2025
+2025-09-18,,Club Brugge KV,AS Monaco FC,4,1,"League, Matchday 1",4-1,(3-0),CL,Champions League,2025
+2025-09-18,21.00,Newcastle United FC,FC Barcelona,1,2,"League, Matchday 1",1-2,(0-0),CL,Champions League,2025
+2025-09-18,,Manchester City FC,SSC Napoli,2,0,"League, Matchday 1",2-0,(0-0),CL,Champions League,2025
+2025-09-18,,Eintracht Frankfurt,Galatasaray SK,5,1,"League, Matchday 1",5-1,(3-1),CL,Champions League,2025
+2025-09-18,,Sporting Clube de Portugal,FK Kairat,4,1,"League, Matchday 1",4-1,(1-0),CL,Champions League,2025
+2025-09-30,18.45,Atalanta BC,Club Brugge KV,2,1,"League, Matchday 2",2-1,(0-1),CL,Champions League,2025
+2025-09-30,,FK Kairat,Real Madrid CF,0,5,"League, Matchday 2",0-5,(0-1),CL,Champions League,2025
+2025-09-30,21.00,Galatasaray SK,Liverpool FC,1,0,"League, Matchday 2",1-0,(1-0),CL,Champions League,2025
+2025-09-30,,Club Atlético de Madrid,Eintracht Frankfurt,5,1,"League, Matchday 2",5-1,(3-0),CL,Champions League,2025
+2025-09-30,,Olympique de Marseille,AFC Ajax,4,0,"League, Matchday 2",4-0,(3-0),CL,Champions League,2025
+2025-09-30,,FK Bodø/Glimt,Tottenham Hotspur FC,2,2,"League, Matchday 2",2-2,(0-0),CL,Champions League,2025
+2025-09-30,,Paphos FC,FC Bayern München,1,5,"League, Matchday 2",1-5,(1-4),CL,Champions League,2025
+2025-09-30,,Chelsea FC,Sport Lisboa e Benfica,1,0,"League, Matchday 2",1-0,(1-0),CL,Champions League,2025
+2025-09-30,,FC Internazionale Milano,SK Slavia Praha,3,0,"League, Matchday 2",3-0,(2-0),CL,Champions League,2025
+2025-10-01,18.45,Qarabağ Ağdam FK,FC København,2,0,"League, Matchday 2",2-0,(1-0),CL,Champions League,2025
+2025-10-01,,Royale Union Saint-Gilloise,Newcastle United FC,0,4,"League, Matchday 2",0-4,(0-2),CL,Champions League,2025
+2025-10-01,21.00,Borussia Dortmund,Athletic Club,4,1,"League, Matchday 2",4-1,(1-0),CL,Champions League,2025
+2025-10-01,,FC Barcelona,Paris Saint-Germain FC,1,2,"League, Matchday 2",1-2,(1-1),CL,Champions League,2025
+2025-10-01,,AS Monaco FC,Manchester City FC,2,2,"League, Matchday 2",2-2,(1-2),CL,Champions League,2025
+2025-10-01,,Bayer 04 Leverkusen,PSV,1,1,"League, Matchday 2",1-1,(0-0),CL,Champions League,2025
+2025-10-01,,Arsenal FC,PAE Olympiakos SFP,2,0,"League, Matchday 2",2-0,(1-0),CL,Champions League,2025
+2025-10-01,,Villarreal CF,Juventus FC,2,2,"League, Matchday 2",2-2,(1-0),CL,Champions League,2025
+2025-10-01,,SSC Napoli,Sporting Clube de Portugal,2,1,"League, Matchday 2",2-1,(1-0),CL,Champions League,2025
+2025-10-21,18.45,FC Barcelona,PAE Olympiakos SFP,6,1,"League, Matchday 3",6-1,(2-0),CL,Champions League,2025
+2025-10-21,,FK Kairat,Paphos FC,0,0,"League, Matchday 3",0-0,,CL,Champions League,2025
+2025-10-21,21.00,Royale Union Saint-Gilloise,FC Internazionale Milano,0,4,"League, Matchday 3",0-4,(0-2),CL,Champions League,2025
+2025-10-21,,FC København,Borussia Dortmund,2,4,"League, Matchday 3",2-4,(1-1),CL,Champions League,2025
+2025-10-21,,Bayer 04 Leverkusen,Paris Saint-Germain FC,2,7,"League, Matchday 3",2-7,(1-4),CL,Champions League,2025
+2025-10-21,,Villarreal CF,Manchester City FC,0,2,"League, Matchday 3",0-2,(0-2),CL,Champions League,2025
+2025-10-21,,Arsenal FC,Club Atlético de Madrid,4,0,"League, Matchday 3",4-0,(0-0),CL,Champions League,2025
+2025-10-21,,Newcastle United FC,Sport Lisboa e Benfica,3,0,"League, Matchday 3",3-0,(1-0),CL,Champions League,2025
+2025-10-21,,PSV,SSC Napoli,6,2,"League, Matchday 3",6-2,(2-1),CL,Champions League,2025
+2025-10-22,18.45,Galatasaray SK,FK Bodø/Glimt,3,1,"League, Matchday 3",3-1,(2-0),CL,Champions League,2025
+2025-10-22,,Athletic Club,Qarabağ Ağdam FK,3,1,"League, Matchday 3",3-1,(1-1),CL,Champions League,2025
+2025-10-22,21.00,Eintracht Frankfurt,Liverpool FC,1,5,"League, Matchday 3",1-5,(1-3),CL,Champions League,2025
+2025-10-22,,Atalanta BC,SK Slavia Praha,0,0,"League, Matchday 3",0-0,,CL,Champions League,2025
+2025-10-22,,Sporting Clube de Portugal,Olympique de Marseille,2,1,"League, Matchday 3",2-1,(0-1),CL,Champions League,2025
+2025-10-22,,AS Monaco FC,Tottenham Hotspur FC,0,0,"League, Matchday 3",0-0,,CL,Champions League,2025
+2025-10-22,,FC Bayern München,Club Brugge KV,4,0,"League, Matchday 3",4-0,(3-0),CL,Champions League,2025
+2025-10-22,,Chelsea FC,AFC Ajax,5,1,"League, Matchday 3",5-1,(4-1),CL,Champions League,2025
+2025-10-22,,Real Madrid CF,Juventus FC,1,0,"League, Matchday 3",1-0,(0-0),CL,Champions League,2025
+2025-11-04,18.45,SK Slavia Praha,Arsenal FC,0,3,"League, Matchday 4",0-3,(0-1),CL,Champions League,2025
+2025-11-04,,SSC Napoli,Eintracht Frankfurt,0,0,"League, Matchday 4",0-0,,CL,Champions League,2025
+2025-11-04,21.00,Juventus FC,Sporting Clube de Portugal,1,1,"League, Matchday 4",1-1,(1-1),CL,Champions League,2025
+2025-11-04,,Club Atlético de Madrid,Royale Union Saint-Gilloise,3,1,"League, Matchday 4",3-1,(1-0),CL,Champions League,2025
+2025-11-04,,Tottenham Hotspur FC,FC København,4,0,"League, Matchday 4",4-0,(1-0),CL,Champions League,2025
+2025-11-04,,FK Bodø/Glimt,AS Monaco FC,0,1,"League, Matchday 4",0-1,(0-1),CL,Champions League,2025
+2025-11-04,,PAE Olympiakos SFP,PSV,1,1,"League, Matchday 4",1-1,(1-0),CL,Champions League,2025
+2025-11-04,,Paris Saint-Germain FC,FC Bayern München,1,2,"League, Matchday 4",1-2,(0-2),CL,Champions League,2025
+2025-11-04,,Liverpool FC,Real Madrid CF,1,0,"League, Matchday 4",1-0,(0-0),CL,Champions League,2025
+2025-11-05,18.45,Paphos FC,Villarreal CF,1,0,"League, Matchday 4",1-0,(0-0),CL,Champions League,2025
+2025-11-05,,Qarabağ Ağdam FK,Chelsea FC,2,2,"League, Matchday 4",2-2,(2-1),CL,Champions League,2025
+2025-11-05,21.00,FC Internazionale Milano,FK Kairat,2,1,"League, Matchday 4",2-1,(1-0),CL,Champions League,2025
+2025-11-05,,Manchester City FC,Borussia Dortmund,4,1,"League, Matchday 4",4-1,(2-0),CL,Champions League,2025
+2025-11-05,,Club Brugge KV,FC Barcelona,3,3,"League, Matchday 4",3-3,(2-1),CL,Champions League,2025
+2025-11-05,,Sport Lisboa e Benfica,Bayer 04 Leverkusen,0,1,"League, Matchday 4",0-1,(0-0),CL,Champions League,2025
+2025-11-05,,Olympique de Marseille,Atalanta BC,0,1,"League, Matchday 4",0-1,(0-0),CL,Champions League,2025
+2025-11-05,,AFC Ajax,Galatasaray SK,0,3,"League, Matchday 4",0-3,(0-0),CL,Champions League,2025
+2025-11-05,,Newcastle United FC,Athletic Club,2,0,"League, Matchday 4",2-0,(1-0),CL,Champions League,2025
+2025-11-25,18.45,AFC Ajax,Sport Lisboa e Benfica,0,2,"League, Matchday 5",0-2,(0-1),CL,Champions League,2025
+2025-11-25,,Galatasaray SK,Royale Union Saint-Gilloise,0,1,"League, Matchday 5",0-1,(0-0),CL,Champions League,2025
+2025-11-25,21.00,Borussia Dortmund,Villarreal CF,4,0,"League, Matchday 5",4-0,(1-0),CL,Champions League,2025
+2025-11-25,,Manchester City FC,Bayer 04 Leverkusen,0,2,"League, Matchday 5",0-2,(0-1),CL,Champions League,2025
+2025-11-25,,FK Bodø/Glimt,Juventus FC,2,3,"League, Matchday 5",2-3,(1-0),CL,Champions League,2025
+2025-11-25,,Olympique de Marseille,Newcastle United FC,2,1,"League, Matchday 5",2-1,(0-1),CL,Champions League,2025
+2025-11-25,,SK Slavia Praha,Athletic Club,0,0,"League, Matchday 5",0-0,,CL,Champions League,2025
+2025-11-25,,SSC Napoli,Qarabağ Ağdam FK,2,0,"League, Matchday 5",2-0,(0-0),CL,Champions League,2025
+2025-11-25,,Chelsea FC,FC Barcelona,3,0,"League, Matchday 5",3-0,(1-0),CL,Champions League,2025
+2025-11-26,18.45,Paphos FC,AS Monaco FC,2,2,"League, Matchday 5",2-2,(1-2),CL,Champions League,2025
+2025-11-26,,FC København,FK Kairat,3,2,"League, Matchday 5",3-2,(1-0),CL,Champions League,2025
+2025-11-26,21.00,Liverpool FC,PSV,1,4,"League, Matchday 5",1-4,(1-1),CL,Champions League,2025
+2025-11-26,,Paris Saint-Germain FC,Tottenham Hotspur FC,5,3,"League, Matchday 5",5-3,(1-1),CL,Champions League,2025
+2025-11-26,,Eintracht Frankfurt,Atalanta BC,0,3,"League, Matchday 5",0-3,(0-0),CL,Champions League,2025
+2025-11-26,,Sporting Clube de Portugal,Club Brugge KV,3,0,"League, Matchday 5",3-0,(2-0),CL,Champions League,2025
+2025-11-26,,Arsenal FC,FC Bayern München,3,1,"League, Matchday 5",3-1,(1-1),CL,Champions League,2025
+2025-11-26,,PAE Olympiakos SFP,Real Madrid CF,3,4,"League, Matchday 5",3-4,(1-3),CL,Champions League,2025
+2025-11-26,,Club Atlético de Madrid,FC Internazionale Milano,2,1,"League, Matchday 5",2-1,(1-0),CL,Champions League,2025
+2025-12-09,16.30,FK Kairat,PAE Olympiakos SFP,0,1,"League, Matchday 6",0-1,(0-0),CL,Champions League,2025
+2025-12-09,18.45,FC Bayern München,Sporting Clube de Portugal,3,1,"League, Matchday 6",3-1,(0-0),CL,Champions League,2025
+2025-12-09,21.00,FC Barcelona,Eintracht Frankfurt,2,1,"League, Matchday 6",2-1,(0-1),CL,Champions League,2025
+2025-12-09,,PSV,Club Atlético de Madrid,2,3,"League, Matchday 6",2-3,(1-1),CL,Champions League,2025
+2025-12-09,,Royale Union Saint-Gilloise,Olympique de Marseille,2,3,"League, Matchday 6",2-3,(1-2),CL,Champions League,2025
+2025-12-09,,Tottenham Hotspur FC,SK Slavia Praha,3,0,"League, Matchday 6",3-0,(1-0),CL,Champions League,2025
+2025-12-09,,AS Monaco FC,Galatasaray SK,1,0,"League, Matchday 6",1-0,(0-0),CL,Champions League,2025
+2025-12-09,,Atalanta BC,Chelsea FC,2,1,"League, Matchday 6",2-1,(0-1),CL,Champions League,2025
+2025-12-09,,FC Internazionale Milano,Liverpool FC,0,1,"League, Matchday 6",0-1,(0-0),CL,Champions League,2025
+2025-12-10,18.45,Villarreal CF,FC København,2,3,"League, Matchday 6",2-3,(0-1),CL,Champions League,2025
+2025-12-10,,Qarabağ Ağdam FK,AFC Ajax,2,4,"League, Matchday 6",2-4,(1-1),CL,Champions League,2025
+2025-12-10,21.00,Borussia Dortmund,FK Bodø/Glimt,2,2,"League, Matchday 6",2-2,(1-1),CL,Champions League,2025
+2025-12-10,,Athletic Club,Paris Saint-Germain FC,0,0,"League, Matchday 6",0-0,,CL,Champions League,2025
+2025-12-10,,Bayer 04 Leverkusen,Newcastle United FC,2,2,"League, Matchday 6",2-2,(1-0),CL,Champions League,2025
+2025-12-10,,Club Brugge KV,Arsenal FC,0,3,"League, Matchday 6",0-3,(0-1),CL,Champions League,2025
+2025-12-10,,Sport Lisboa e Benfica,SSC Napoli,2,0,"League, Matchday 6",2-0,(1-0),CL,Champions League,2025
+2025-12-10,,Juventus FC,Paphos FC,2,0,"League, Matchday 6",2-0,(0-0),CL,Champions League,2025
+2025-12-10,,Real Madrid CF,Manchester City FC,1,2,"League, Matchday 6",1-2,(1-2),CL,Champions League,2025
+2026-01-20,16.30,FK Kairat,Club Brugge KV,1,4,"League, Matchday 7",1-4,(0-2),CL,Champions League,2025
+2026-01-20,18.45,FK Bodø/Glimt,Manchester City FC,3,1,"League, Matchday 7",3-1,(2-0),CL,Champions League,2025
+2026-01-20,21.00,Tottenham Hotspur FC,Borussia Dortmund,2,0,"League, Matchday 7",2-0,(2-0),CL,Champions League,2025
+2026-01-20,,Sporting Clube de Portugal,Paris Saint-Germain FC,2,1,"League, Matchday 7",2-1,(0-0),CL,Champions League,2025
+2026-01-20,,PAE Olympiakos SFP,Bayer 04 Leverkusen,2,0,"League, Matchday 7",2-0,(2-0),CL,Champions League,2025
+2026-01-20,,Villarreal CF,AFC Ajax,1,2,"League, Matchday 7",1-2,(0-0),CL,Champions League,2025
+2026-01-20,,FC København,SSC Napoli,1,1,"League, Matchday 7",1-1,(0-1),CL,Champions League,2025
+2026-01-20,,Real Madrid CF,AS Monaco FC,6,1,"League, Matchday 7",6-1,(2-0),CL,Champions League,2025
+2026-01-20,,FC Internazionale Milano,Arsenal FC,1,3,"League, Matchday 7",1-3,(1-2),CL,Champions League,2025
+2026-01-21,18.45,Qarabağ Ağdam FK,Eintracht Frankfurt,3,2,"League, Matchday 7",3-2,(1-1),CL,Champions League,2025
+2026-01-21,,Galatasaray SK,Club Atlético de Madrid,1,1,"League, Matchday 7",1-1,(1-1),CL,Champions League,2025
+2026-01-21,21.00,Olympique de Marseille,Liverpool FC,0,3,"League, Matchday 7",0-3,(0-1),CL,Champions League,2025
+2026-01-21,,SK Slavia Praha,FC Barcelona,2,4,"League, Matchday 7",2-4,(2-2),CL,Champions League,2025
+2026-01-21,,Atalanta BC,Athletic Club,2,3,"League, Matchday 7",2-3,(1-0),CL,Champions League,2025
+2026-01-21,,Juventus FC,Sport Lisboa e Benfica,2,0,"League, Matchday 7",2-0,(0-0),CL,Champions League,2025
+2026-01-21,,Newcastle United FC,PSV,3,0,"League, Matchday 7",3-0,(2-0),CL,Champions League,2025
+2026-01-21,,FC Bayern München,Royale Union Saint-Gilloise,2,0,"League, Matchday 7",2-0,(0-0),CL,Champions League,2025
+2026-01-21,,Chelsea FC,Paphos FC,1,0,"League, Matchday 7",1-0,(0-0),CL,Champions League,2025
+2026-01-28,21.00,Liverpool FC,Qarabağ Ağdam FK,6,0,"League, Matchday 8",6-0,(2-0),CL,Champions League,2025
+2026-01-28,,FC Barcelona,FC København,4,1,"League, Matchday 8",4-1,(0-1),CL,Champions League,2025
+2026-01-28,,Manchester City FC,Galatasaray SK,2,0,"League, Matchday 8",2-0,(2-0),CL,Champions League,2025
+2026-01-28,,Bayer 04 Leverkusen,Villarreal CF,3,0,"League, Matchday 8",3-0,(2-0),CL,Champions League,2025
+2026-01-28,,Arsenal FC,FK Kairat,3,2,"League, Matchday 8",3-2,(3-1),CL,Champions League,2025
+2026-01-28,,Royale Union Saint-Gilloise,Atalanta BC,1,0,"League, Matchday 8",1-0,(0-0),CL,Champions League,2025
+2026-01-28,,Club Brugge KV,Olympique de Marseille,3,0,"League, Matchday 8",3-0,(2-0),CL,Champions League,2025
+2026-01-28,,Eintracht Frankfurt,Tottenham Hotspur FC,0,2,"League, Matchday 8",0-2,(0-0),CL,Champions League,2025
+2026-01-28,,AS Monaco FC,Juventus FC,0,0,"League, Matchday 8",0-0,,CL,Champions League,2025
+2026-01-28,,Club Atlético de Madrid,FK Bodø/Glimt,1,2,"League, Matchday 8",1-2,(1-1),CL,Champions League,2025
+2026-01-28,,Athletic Club,Sporting Clube de Portugal,2,3,"League, Matchday 8",2-3,(2-1),CL,Champions League,2025
+2026-01-28,,AFC Ajax,PAE Olympiakos SFP,1,2,"League, Matchday 8",1-2,(0-0),CL,Champions League,2025
+2026-01-28,,Paris Saint-Germain FC,Newcastle United FC,1,1,"League, Matchday 8",1-1,(1-1),CL,Champions League,2025
+2026-01-28,,Paphos FC,SK Slavia Praha,4,1,"League, Matchday 8",4-1,(1-1),CL,Champions League,2025
+2026-01-28,,PSV,FC Bayern München,1,2,"League, Matchday 8",1-2,(0-0),CL,Champions League,2025
+2026-01-28,,SSC Napoli,Chelsea FC,2,3,"League, Matchday 8",2-3,(2-1),CL,Champions League,2025
+2026-01-28,,Sport Lisboa e Benfica,Real Madrid CF,4,2,"League, Matchday 8",4-2,(2-1),CL,Champions League,2025
+2026-01-28,,Borussia Dortmund,FC Internazionale Milano,0,2,"League, Matchday 8",0-2,(0-0),CL,Champions League,2025
+2026-02-17,18.45,Galatasaray SK,Juventus FC,5,2,"Playoffs, Matchday 1",5-2,(1-2),CL,Champions League,2025
+2026-02-17,21.00,Sport Lisboa e Benfica,Real Madrid CF,0,1,"Playoffs, Matchday 1",0-1,(0-0),CL,Champions League,2025
+2026-02-17,,AS Monaco FC,Paris Saint-Germain FC,2,3,"Playoffs, Matchday 1",2-3,(2-2),CL,Champions League,2025
+2026-02-17,21.15,Borussia Dortmund,Atalanta BC,2,0,"Playoffs, Matchday 1",2-0,(2-0),CL,Champions League,2025
+2026-02-18,18.45,Qarabağ Ağdam FK,Newcastle United FC,1,6,"Playoffs, Matchday 1",1-6,(0-5),CL,Champions League,2025
+2026-02-18,21.00,Club Brugge KV,Club Atlético de Madrid,3,3,"Playoffs, Matchday 1",3-3,(0-2),CL,Champions League,2025
+2026-02-18,,PAE Olympiakos SFP,Bayer 04 Leverkusen,0,2,"Playoffs, Matchday 1",0-2,(0-0),CL,Champions League,2025
+2026-02-18,,FK Bodø/Glimt,FC Internazionale Milano,3,1,"Playoffs, Matchday 1",3-1,(1-1),CL,Champions League,2025
+2026-02-24,18.45,Club Atlético de Madrid,Club Brugge KV,4,1,"Playoffs, Matchday 2",4-1,(1-1),CL,Champions League,2025
+2026-02-24,21.00,Newcastle United FC,Qarabağ Ağdam FK,3,2,"Playoffs, Matchday 2",3-2,(2-0),CL,Champions League,2025
+2026-02-24,,Bayer 04 Leverkusen,PAE Olympiakos SFP,0,0,"Playoffs, Matchday 2",0-0,,CL,Champions League,2025
+2026-02-24,,FC Internazionale Milano,FK Bodø/Glimt,1,2,"Playoffs, Matchday 2",1-2,(0-0),CL,Champions League,2025
+2026-02-25,18.45,Atalanta BC,Borussia Dortmund,4,1,"Playoffs, Matchday 2",4-1,(2-0),CL,Champions League,2025
+2026-02-25,21.00,Real Madrid CF,Sport Lisboa e Benfica,2,1,"Playoffs, Matchday 2",2-1,(1-1),CL,Champions League,2025
+2026-02-25,,Paris Saint-Germain FC,AS Monaco FC,2,2,"Playoffs, Matchday 2",2-2,(0-1),CL,Champions League,2025
+2026-02-25,,Juventus FC,Galatasaray SK,3,2,"Playoffs, Matchday 2",3-2,"a.e.t. (3-0, 1-0)",CL,Champions League,2025
+2026-03-10,18.45,Galatasaray SK,Liverpool FC,1,0,"Finals, Round of 16",1-0,(1-0),CL,Champions League,2025
+2026-03-10,21.00,Atalanta BC,FC Bayern München,1,6,"Finals, Round of 16",1-6,(0-3),CL,Champions League,2025
+2026-03-10,,Newcastle United FC,FC Barcelona,1,1,"Finals, Round of 16",1-1,(0-0),CL,Champions League,2025
+2026-03-10,,Club Atlético de Madrid,Tottenham Hotspur FC,5,2,"Finals, Round of 16",5-2,(4-1),CL,Champions League,2025
+2026-03-11,18.45,Bayer 04 Leverkusen,Arsenal FC,1,1,"Finals, Round of 16",1-1,(0-0),CL,Champions League,2025
+2026-03-11,21.00,Paris Saint-Germain FC,Chelsea FC,5,2,"Finals, Round of 16",5-2,(2-1),CL,Champions League,2025
+2026-03-11,,Real Madrid CF,Manchester City FC,3,0,"Finals, Round of 16",3-0,(3-0),CL,Champions League,2025
+2026-03-11,,FK Bodø/Glimt,Sporting Clube de Portugal,3,0,"Finals, Round of 16",3-0,(2-0),CL,Champions League,2025

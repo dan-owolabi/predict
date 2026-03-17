@@ -1,0 +1,14 @@
+[
+  {
+    "target":"over25",
+    "model_file":"over25.txt"
+  },
+  {
+    "target":"btts",
+    "model_file":"btts.txt"
+  },
+  {
+    "target":"1x2",
+    "model_file":"1x2.txt"
+  }
+]

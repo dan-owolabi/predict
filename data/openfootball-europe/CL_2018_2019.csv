@@ -1,0 +1,126 @@
+date,time,home_team,away_team,home_goals,away_goals,stage,score_token,detail,competition_code,competition_label,season_start
+2018-09-18,21.00,AS Monaco,Atlético Madrid,1,2,Group A,1-2,(1-2),CL,Champions League,2018
+2018-09-18,,Club Brugge KV,Borussia Dortmund,0,1,Group A,0-1,(0-0),CL,Champions League,2018
+2018-10-03,21.00,Borussia Dortmund,AS Monaco,3,0,Group A,3-0,(0-0),CL,Champions League,2018
+2018-10-03,,Atlético Madrid,Club Brugge KV,3,1,Group A,3-1,(1-1),CL,Champions League,2018
+2018-10-24,18.55,Club Brugge KV,AS Monaco,1,1,Group A,1-1,(1-1),CL,Champions League,2018
+2018-10-24,21.00,Borussia Dortmund,Atlético Madrid,4,0,Group A,4-0,(1-0),CL,Champions League,2018
+2018-11-06,18.55,AS Monaco,Club Brugge KV,0,4,Group A,0-4,(0-3),CL,Champions League,2018
+2018-11-06,21.00,Atlético Madrid,Borussia Dortmund,2,0,Group A,2-0,(1-0),CL,Champions League,2018
+2018-11-28,18.55,Atlético Madrid,AS Monaco,2,0,Group A,2-0,(2-0),CL,Champions League,2018
+2018-11-28,21.00,Borussia Dortmund,Club Brugge KV,0,0,Group A,0-0,,CL,Champions League,2018
+2018-12-11,21.00,AS Monaco,Borussia Dortmund,0,2,Group A,0-2,(0-1),CL,Champions League,2018
+2018-12-11,,Club Brugge KV,Atlético Madrid,0,0,Group A,0-0,,CL,Champions League,2018
+2018-09-18,18.55,FC Barcelona,PSV Eindhoven,4,0,Group B,4-0,(1-0),CL,Champions League,2018
+2018-09-18,,Inter,Tottenham Hotspur,2,1,Group B,2-1,(0-0),CL,Champions League,2018
+2018-10-03,21.00,Tottenham Hotspur,FC Barcelona,2,4,Group B,2-4,(0-2),CL,Champions League,2018
+2018-10-03,,PSV Eindhoven,Inter,1,2,Group B,1-2,(1-1),CL,Champions League,2018
+2018-10-24,18.55,PSV Eindhoven,Tottenham Hotspur,2,2,Group B,2-2,(1-1),CL,Champions League,2018
+2018-10-24,21.00,FC Barcelona,Inter,2,0,Group B,2-0,(1-0),CL,Champions League,2018
+2018-11-06,21.00,Tottenham Hotspur,PSV Eindhoven,2,1,Group B,2-1,(0-1),CL,Champions League,2018
+2018-11-06,,Inter,FC Barcelona,1,1,Group B,1-1,(0-0),CL,Champions League,2018
+2018-11-28,21.00,PSV Eindhoven,FC Barcelona,1,2,Group B,1-2,(0-0),CL,Champions League,2018
+2018-11-28,,Tottenham Hotspur,Inter,1,0,Group B,1-0,(0-0),CL,Champions League,2018
+2018-12-11,21.00,FC Barcelona,Tottenham Hotspur,1,1,Group B,1-1,(1-0),CL,Champions League,2018
+2018-12-11,,Inter,PSV Eindhoven,1,1,Group B,1-1,(0-1),CL,Champions League,2018
+2018-09-18,21.00,Liverpool FC,Paris Saint-Germain,3,2,Group C,3-2,(2-1),CL,Champions League,2018
+2018-09-18,,Crvena Zvezda,SSC Napoli,0,0,Group C,0-0,,CL,Champions League,2018
+2018-10-03,18.55,Paris Saint-Germain,Crvena Zvezda,6,1,Group C,6-1,(4-0),CL,Champions League,2018
+2018-10-03,21.00,SSC Napoli,Liverpool FC,1,0,Group C,1-0,(0-0),CL,Champions League,2018
+2018-10-24,21.00,Paris Saint-Germain,SSC Napoli,2,2,Group C,2-2,(0-1),CL,Champions League,2018
+2018-10-24,,Liverpool FC,Crvena Zvezda,4,0,Group C,4-0,(2-0),CL,Champions League,2018
+2018-11-06,18.55,Crvena Zvezda,Liverpool FC,2,0,Group C,2-0,(2-0),CL,Champions League,2018
+2018-11-06,21.00,SSC Napoli,Paris Saint-Germain,1,1,Group C,1-1,(0-1),CL,Champions League,2018
+2018-11-28,21.00,Paris Saint-Germain,Liverpool FC,2,1,Group C,2-1,(2-1),CL,Champions League,2018
+2018-11-28,,SSC Napoli,Crvena Zvezda,3,1,Group C,3-1,(2-0),CL,Champions League,2018
+2018-12-11,21.00,Liverpool FC,SSC Napoli,1,0,Group C,1-0,(1-0),CL,Champions League,2018
+2018-12-11,,Crvena Zvezda,Paris Saint-Germain,1,4,Group C,1-4,(0-2),CL,Champions League,2018
+2018-09-18,21.00,FC Schalke 04,FC Porto,1,1,Group D,1-1,(0-0),CL,Champions League,2018
+2018-09-18,,Galatasaray,Lokomotiv Moskva,3,0,Group D,3-0,(1-0),CL,Champions League,2018
+2018-10-03,18.55,Lokomotiv Moskva,FC Schalke 04,0,1,Group D,0-1,(0-0),CL,Champions League,2018
+2018-10-03,21.00,FC Porto,Galatasaray,1,0,Group D,1-0,(0-0),CL,Champions League,2018
+2018-10-24,21.00,Lokomotiv Moskva,FC Porto,1,3,Group D,1-3,(1-2),CL,Champions League,2018
+2018-10-24,,Galatasaray,FC Schalke 04,0,0,Group D,0-0,,CL,Champions League,2018
+2018-11-06,21.00,FC Porto,Lokomotiv Moskva,4,1,Group D,4-1,(2-0),CL,Champions League,2018
+2018-11-06,,FC Schalke 04,Galatasaray,2,0,Group D,2-0,(1-0),CL,Champions League,2018
+2018-11-28,18.55,Lokomotiv Moskva,Galatasaray,2,0,Group D,2-0,(1-0),CL,Champions League,2018
+2018-11-28,21.00,FC Porto,FC Schalke 04,3,1,Group D,3-1,(0-0),CL,Champions League,2018
+2018-12-11,18.55,FC Schalke 04,Lokomotiv Moskva,1,0,Group D,1-0,(0-0),CL,Champions League,2018
+2018-12-11,,Galatasaray,FC Porto,2,3,Group D,2-3,(1-2),CL,Champions League,2018
+2018-09-19,18.55,AFC Ajax,AEK Athen,3,0,Group E,3-0,(0-0),CL,Champions League,2018
+2018-09-19,21.00,SL Benfica,Bayern München,0,2,Group E,0-2,(0-1),CL,Champions League,2018
+2018-10-02,21.00,Bayern München,AFC Ajax,1,1,Group E,1-1,(1-1),CL,Champions League,2018
+2018-10-02,,AEK Athen,SL Benfica,2,3,Group E,2-3,(0-2),CL,Champions League,2018
+2018-10-23,18.55,AEK Athen,Bayern München,0,2,Group E,0-2,(0-0),CL,Champions League,2018
+2018-10-23,21.00,AFC Ajax,SL Benfica,1,0,Group E,1-0,(0-0),CL,Champions League,2018
+2018-11-07,21.00,SL Benfica,AFC Ajax,1,1,Group E,1-1,(1-0),CL,Champions League,2018
+2018-11-07,,Bayern München,AEK Athen,2,0,Group E,2-0,(1-0),CL,Champions League,2018
+2018-11-27,18.55,AEK Athen,AFC Ajax,0,2,Group E,0-2,(0-0),CL,Champions League,2018
+2018-11-27,21.00,Bayern München,SL Benfica,5,1,Group E,5-1,(3-0),CL,Champions League,2018
+2018-12-12,21.00,AFC Ajax,Bayern München,3,3,Group E,3-3,(0-1),CL,Champions League,2018
+2018-12-12,,SL Benfica,AEK Athen,1,0,Group E,1-0,(0-0),CL,Champions League,2018
+2018-09-19,18.55,Shakhtar Donetsk,1899 Hoffenheim,2,2,Group F,2-2,(1-2),CL,Champions League,2018
+2018-09-19,21.00,Manchester City,Olympique Lyonnais,1,2,Group F,1-2,(0-2),CL,Champions League,2018
+2018-10-02,18.55,1899 Hoffenheim,Manchester City,1,2,Group F,1-2,(1-1),CL,Champions League,2018
+2018-10-02,21.00,Olympique Lyonnais,Shakhtar Donetsk,2,2,Group F,2-2,(0-1),CL,Champions League,2018
+2018-10-23,21.00,Shakhtar Donetsk,Manchester City,0,3,Group F,0-3,(0-2),CL,Champions League,2018
+2018-10-23,,1899 Hoffenheim,Olympique Lyonnais,3,3,Group F,3-3,(1-1),CL,Champions League,2018
+2018-11-07,21.00,Manchester City,Shakhtar Donetsk,6,0,Group F,6-0,(2-0),CL,Champions League,2018
+2018-11-07,,Olympique Lyonnais,1899 Hoffenheim,2,2,Group F,2-2,(2-0),CL,Champions League,2018
+2018-11-27,21.00,Olympique Lyonnais,Manchester City,2,2,Group F,2-2,(0-0),CL,Champions League,2018
+2018-11-27,,1899 Hoffenheim,Shakhtar Donetsk,2,3,Group F,2-3,(2-2),CL,Champions League,2018
+2018-12-12,21.00,Shakhtar Donetsk,Olympique Lyonnais,1,1,Group F,1-1,(1-0),CL,Champions League,2018
+2018-12-12,,Manchester City,1899 Hoffenheim,2,1,Group F,2-1,(1-1),CL,Champions League,2018
+2018-09-19,21.00,Real Madrid,AS Roma,3,0,Group G,3-0,(1-0),CL,Champions League,2018
+2018-09-19,,Viktoria Plzeň,CSKA Moskva,2,2,Group G,2-2,(2-0),CL,Champions League,2018
+2018-10-02,21.00,CSKA Moskva,Real Madrid,1,0,Group G,1-0,(1-0),CL,Champions League,2018
+2018-10-02,,AS Roma,Viktoria Plzeň,5,0,Group G,5-0,(2-0),CL,Champions League,2018
+2018-10-23,21.00,AS Roma,CSKA Moskva,3,0,Group G,3-0,(2-0),CL,Champions League,2018
+2018-10-23,,Real Madrid,Viktoria Plzeň,2,1,Group G,2-1,(1-0),CL,Champions League,2018
+2018-11-07,18.55,CSKA Moskva,AS Roma,1,2,Group G,1-2,(0-1),CL,Champions League,2018
+2018-11-07,21.00,Viktoria Plzeň,Real Madrid,0,5,Group G,0-5,(0-4),CL,Champions League,2018
+2018-11-27,18.55,CSKA Moskva,Viktoria Plzeň,1,2,Group G,1-2,(1-0),CL,Champions League,2018
+2018-11-27,21.00,AS Roma,Real Madrid,0,2,Group G,0-2,(0-0),CL,Champions League,2018
+2018-12-12,18.55,Real Madrid,CSKA Moskva,0,3,Group G,0-3,(0-2),CL,Champions League,2018
+2018-12-12,,Viktoria Plzeň,AS Roma,2,1,Group G,2-1,(0-0),CL,Champions League,2018
+2018-09-19,21.00,Valencia CF,Juventus,0,2,Group H,0-2,(0-1),CL,Champions League,2018
+2018-09-19,,BSC Young Boys,Manchester United,0,3,Group H,0-3,(0-2),CL,Champions League,2018
+2018-10-02,18.55,Juventus,BSC Young Boys,3,0,Group H,3-0,(2-0),CL,Champions League,2018
+2018-10-02,21.00,Manchester United,Valencia CF,0,0,Group H,0-0,,CL,Champions League,2018
+2018-10-23,18.55,BSC Young Boys,Valencia CF,1,1,Group H,1-1,(0-1),CL,Champions League,2018
+2018-10-23,21.00,Manchester United,Juventus,0,1,Group H,0-1,(0-1),CL,Champions League,2018
+2018-11-07,18.55,Valencia CF,BSC Young Boys,3,1,Group H,3-1,(2-1),CL,Champions League,2018
+2018-11-07,21.00,Juventus,Manchester United,1,2,Group H,1-2,(0-0),CL,Champions League,2018
+2018-11-27,21.00,Juventus,Valencia CF,1,0,Group H,1-0,(0-0),CL,Champions League,2018
+2018-11-27,,Manchester United,BSC Young Boys,1,0,Group H,1-0,(0-0),CL,Champions League,2018
+2018-12-12,21.00,Valencia CF,Manchester United,2,1,Group H,2-1,(1-0),CL,Champions League,2018
+2018-12-12,,BSC Young Boys,Juventus,2,1,Group H,2-1,(1-0),CL,Champions League,2018
+2019-02-12,21.00,Manchester United,Paris Saint-Germain,0,2,Round of 16,0-2,(0-0),CL,Champions League,2018
+2019-02-12,,AS Roma,FC Porto,2,1,Round of 16,2-1,(0-0),CL,Champions League,2018
+2019-02-13,21.00,Tottenham Hotspur,Borussia Dortmund,3,0,Round of 16,3-0,(0-0),CL,Champions League,2018
+2019-02-13,,AFC Ajax,Real Madrid,1,2,Round of 16,1-2,(0-0),CL,Champions League,2018
+2019-02-19,21.00,Olympique Lyonnais,FC Barcelona,0,0,Round of 16,0-0,,CL,Champions League,2018
+2019-02-19,,Liverpool FC,Bayern München,0,0,Round of 16,0-0,,CL,Champions League,2018
+2019-02-20,21.00,FC Schalke 04,Manchester City,2,3,Round of 16,2-3,(2-1),CL,Champions League,2018
+2019-02-20,,Atlético Madrid,Juventus,2,0,Round of 16,2-0,(0-0),CL,Champions League,2018
+2019-03-05,21.00,Borussia Dortmund,Tottenham Hotspur,0,1,Round of 16,0-1,(0-0),CL,Champions League,2018
+2019-03-05,,Real Madrid,AFC Ajax,1,4,Round of 16,1-4,(0-2),CL,Champions League,2018
+2019-03-06,21.00,Paris Saint-Germain,Manchester United,1,3,Round of 16,1-3,(1-2),CL,Champions League,2018
+2019-03-06,,FC Porto,AS Roma,3,1,Round of 16,3-1,"a.e.t. (2-1, 1-1)",CL,Champions League,2018
+2019-03-12,21.00,Manchester City,FC Schalke 04,7,0,Round of 16,7-0,(3-0),CL,Champions League,2018
+2019-03-12,,Juventus,Atlético Madrid,3,0,Round of 16,3-0,(1-0),CL,Champions League,2018
+2019-03-13,21.00,FC Barcelona,Olympique Lyonnais,5,1,Round of 16,5-1,(2-0),CL,Champions League,2018
+2019-03-13,,Bayern München,Liverpool FC,1,3,Round of 16,1-3,(1-1),CL,Champions League,2018
+2019-04-09,21.00,Liverpool FC,FC Porto,2,0,Quarterfinals,2-0,(2-0),CL,Champions League,2018
+2019-04-09,,Tottenham Hotspur,Manchester City,1,0,Quarterfinals,1-0,(0-0),CL,Champions League,2018
+2019-04-10,21.00,AFC Ajax,Juventus,1,1,Quarterfinals,1-1,(0-1),CL,Champions League,2018
+2019-04-10,,Manchester United,FC Barcelona,0,1,Quarterfinals,0-1,(0-1),CL,Champions League,2018
+2019-04-16,21.00,Juventus,AFC Ajax,1,2,Quarterfinals,1-2,(1-1),CL,Champions League,2018
+2019-04-16,,FC Barcelona,Manchester United,3,0,Quarterfinals,3-0,(2-0),CL,Champions League,2018
+2019-04-17,21.00,FC Porto,Liverpool FC,1,4,Quarterfinals,1-4,(0-1),CL,Champions League,2018
+2019-04-17,,Manchester City,Tottenham Hotspur,4,3,Quarterfinals,4-3,(3-2),CL,Champions League,2018
+2019-04-30,21.00,Tottenham Hotspur,AFC Ajax,0,1,Semifinals,0-1,(0-1),CL,Champions League,2018
+2019-05-01,21.00,FC Barcelona,Liverpool FC,3,0,Semifinals,3-0,(1-0),CL,Champions League,2018
+2019-05-07,21.00,Liverpool FC,FC Barcelona,4,0,Semifinals,4-0,(1-0),CL,Champions League,2018
+2019-05-08,21.00,AFC Ajax,Tottenham Hotspur,2,3,Semifinals,2-3,(2-0),CL,Champions League,2018
+2019-06-01,21.00,Tottenham Hotspur,Liverpool FC,0,2,Final,0-2,(0-1),CL,Champions League,2018

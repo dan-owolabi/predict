@@ -1,0 +1,120 @@
+date,time,home_team,away_team,home_goals,away_goals,stage,score_token,detail,competition_code,competition_label,season_start
+2019-09-18,18.55,Club Brugge KV,Galatasaray,0,0,Group A,0-0,,CL,Champions League,2019
+2019-09-18,21.00,Paris Saint-Germain,Real Madrid,3,0,Group A,3-0,(2-0),CL,Champions League,2019
+2019-10-01,18.55,Real Madrid,Club Brugge KV,2,2,Group A,2-2,(0-2),CL,Champions League,2019
+2019-10-01,21.00,Galatasaray,Paris Saint-Germain,0,1,Group A,0-1,(0-0),CL,Champions League,2019
+2019-10-22,21.00,Club Brugge KV,Paris Saint-Germain,0,5,Group A,0-5,(0-1),CL,Champions League,2019
+2019-10-22,,Galatasaray,Real Madrid,0,1,Group A,0-1,(0-1),CL,Champions League,2019
+2019-11-06,21.00,Paris Saint-Germain,Club Brugge KV,1,0,Group A,1-0,(1-0),CL,Champions League,2019
+2019-11-06,,Real Madrid,Galatasaray,6,0,Group A,6-0,(4-0),CL,Champions League,2019
+2019-11-26,18.55,Galatasaray,Club Brugge KV,1,1,Group A,1-1,(1-0),CL,Champions League,2019
+2019-11-26,21.00,Real Madrid,Paris Saint-Germain,2,2,Group A,2-2,(1-0),CL,Champions League,2019
+2019-12-11,21.00,Paris Saint-Germain,Galatasaray,5,0,Group A,5-0,(2-0),CL,Champions League,2019
+2019-12-11,,Club Brugge KV,Real Madrid,1,3,Group A,1-3,(0-0),CL,Champions League,2019
+2019-09-18,18.55,Olympiakos Piraeus,Tottenham Hotspur,2,2,Group B,2-2,(1-2),CL,Champions League,2019
+2019-09-18,21.00,Bayern München,Crvena Zvezda,3,0,Group B,3-0,(1-0),CL,Champions League,2019
+2019-10-01,21.00,Tottenham Hotspur,Bayern München,2,7,Group B,2-7,(1-2),CL,Champions League,2019
+2019-10-01,,Crvena Zvezda,Olympiakos Piraeus,3,1,Group B,3-1,(0-1),CL,Champions League,2019
+2019-10-22,21.00,Tottenham Hotspur,Crvena Zvezda,5,0,Group B,5-0,(3-0),CL,Champions League,2019
+2019-10-22,,Olympiakos Piraeus,Bayern München,2,3,Group B,2-3,(1-1),CL,Champions League,2019
+2019-11-06,18.55,Bayern München,Olympiakos Piraeus,2,0,Group B,2-0,(0-0),CL,Champions League,2019
+2019-11-06,21.00,Crvena Zvezda,Tottenham Hotspur,0,4,Group B,0-4,(0-1),CL,Champions League,2019
+2019-11-26,21.00,Tottenham Hotspur,Olympiakos Piraeus,4,2,Group B,4-2,(1-2),CL,Champions League,2019
+2019-11-26,,Crvena Zvezda,Bayern München,0,6,Group B,0-6,(0-1),CL,Champions League,2019
+2019-12-11,21.00,Bayern München,Tottenham Hotspur,3,1,Group B,3-1,(2-1),CL,Champions League,2019
+2019-12-11,,Olympiakos Piraeus,Crvena Zvezda,1,0,Group B,1-0,(0-0),CL,Champions League,2019
+2019-09-18,21.00,Shakhtar Donetsk,Manchester City,0,3,Group C,0-3,(0-2),CL,Champions League,2019
+2019-09-18,,Dinamo Zagreb,Atalanta,4,0,Group C,4-0,(3-0),CL,Champions League,2019
+2019-10-01,18.55,Atalanta,Shakhtar Donetsk,1,2,Group C,1-2,(1-1),CL,Champions League,2019
+2019-10-01,21.00,Manchester City,Dinamo Zagreb,2,0,Group C,2-0,(0-0),CL,Champions League,2019
+2019-10-22,18.55,Shakhtar Donetsk,Dinamo Zagreb,2,2,Group C,2-2,(1-1),CL,Champions League,2019
+2019-10-22,21.00,Manchester City,Atalanta,5,1,Group C,5-1,(2-1),CL,Champions League,2019
+2019-11-06,21.00,Dinamo Zagreb,Shakhtar Donetsk,3,3,Group C,3-3,(1-1),CL,Champions League,2019
+2019-11-06,,Atalanta,Manchester City,1,1,Group C,1-1,(0-1),CL,Champions League,2019
+2019-11-26,21.00,Manchester City,Shakhtar Donetsk,1,1,Group C,1-1,(0-0),CL,Champions League,2019
+2019-11-26,,Atalanta,Dinamo Zagreb,2,0,Group C,2-0,(1-0),CL,Champions League,2019
+2019-12-11,18.55,Shakhtar Donetsk,Atalanta,0,3,Group C,0-3,(0-0),CL,Champions League,2019
+2019-12-11,,Dinamo Zagreb,Manchester City,1,4,Group C,1-4,(1-1),CL,Champions League,2019
+2019-09-18,21.00,Atlético Madrid,Juventus,2,2,Group D,2-2,(0-0),CL,Champions League,2019
+2019-09-18,,Bayer Leverkusen,Lokomotiv Moskva,1,2,Group D,1-2,(1-2),CL,Champions League,2019
+2019-10-01,21.00,Juventus,Bayer Leverkusen,3,0,Group D,3-0,(1-0),CL,Champions League,2019
+2019-10-01,,Lokomotiv Moskva,Atlético Madrid,0,2,Group D,0-2,(0-0),CL,Champions League,2019
+2019-10-22,18.55,Atlético Madrid,Bayer Leverkusen,1,0,Group D,1-0,(0-0),CL,Champions League,2019
+2019-10-22,21.00,Juventus,Lokomotiv Moskva,2,1,Group D,2-1,(0-1),CL,Champions League,2019
+2019-11-06,18.55,Lokomotiv Moskva,Juventus,1,2,Group D,1-2,(1-1),CL,Champions League,2019
+2019-11-06,21.00,Bayer Leverkusen,Atlético Madrid,2,1,Group D,2-1,(1-0),CL,Champions League,2019
+2019-11-26,18.55,Lokomotiv Moskva,Bayer Leverkusen,0,2,Group D,0-2,(0-1),CL,Champions League,2019
+2019-11-26,21.00,Juventus,Atlético Madrid,1,0,Group D,1-0,(1-0),CL,Champions League,2019
+2019-12-11,21.00,Atlético Madrid,Lokomotiv Moskva,2,0,Group D,2-0,(1-0),CL,Champions League,2019
+2019-12-11,,Bayer Leverkusen,Juventus,0,2,Group D,0-2,(0-0),CL,Champions League,2019
+2019-09-17,21.00,SSC Napoli,Liverpool FC,2,0,Group E,2-0,(0-0),CL,Champions League,2019
+2019-09-17,,RB Salzburg,KRC Genk,6,2,Group E,6-2,(5-1),CL,Champions League,2019
+2019-10-02,18.55,KRC Genk,SSC Napoli,0,0,Group E,0-0,,CL,Champions League,2019
+2019-10-02,21.00,Liverpool FC,RB Salzburg,4,3,Group E,4-3,(3-1),CL,Champions League,2019
+2019-10-23,21.00,RB Salzburg,SSC Napoli,2,3,Group E,2-3,(1-1),CL,Champions League,2019
+2019-10-23,,KRC Genk,Liverpool FC,1,4,Group E,1-4,(0-1),CL,Champions League,2019
+2019-11-05,21.00,Liverpool FC,KRC Genk,2,1,Group E,2-1,(1-1),CL,Champions League,2019
+2019-11-05,,SSC Napoli,RB Salzburg,1,1,Group E,1-1,(1-1),CL,Champions League,2019
+2019-11-27,21.00,Liverpool FC,SSC Napoli,1,1,Group E,1-1,(0-1),CL,Champions League,2019
+2019-11-27,,KRC Genk,RB Salzburg,1,4,Group E,1-4,(0-2),CL,Champions League,2019
+2019-12-10,18.55,SSC Napoli,KRC Genk,4,0,Group E,4-0,(3-0),CL,Champions League,2019
+2019-12-10,,RB Salzburg,Liverpool FC,0,2,Group E,0-2,(0-0),CL,Champions League,2019
+2019-09-17,18.55,Inter,Slavia Praha,1,1,Group F,1-1,(0-0),CL,Champions League,2019
+2019-09-17,21.00,Borussia Dortmund,FC Barcelona,0,0,Group F,0-0,,CL,Champions League,2019
+2019-10-02,18.55,Slavia Praha,Borussia Dortmund,0,2,Group F,0-2,(0-1),CL,Champions League,2019
+2019-10-02,21.00,FC Barcelona,Inter,2,1,Group F,2-1,(0-1),CL,Champions League,2019
+2019-10-23,21.00,Inter,Borussia Dortmund,2,0,Group F,2-0,(1-0),CL,Champions League,2019
+2019-10-23,,Slavia Praha,FC Barcelona,1,2,Group F,1-2,(0-1),CL,Champions League,2019
+2019-11-05,18.55,FC Barcelona,Slavia Praha,0,0,Group F,0-0,,CL,Champions League,2019
+2019-11-05,21.00,Borussia Dortmund,Inter,3,2,Group F,3-2,(0-2),CL,Champions League,2019
+2019-11-27,21.00,FC Barcelona,Borussia Dortmund,3,1,Group F,3-1,(2-0),CL,Champions League,2019
+2019-11-27,,Slavia Praha,Inter,1,3,Group F,1-3,(1-1),CL,Champions League,2019
+2019-12-10,21.00,Borussia Dortmund,Slavia Praha,2,1,Group F,2-1,(1-1),CL,Champions League,2019
+2019-12-10,,Inter,FC Barcelona,1,2,Group F,1-2,(1-1),CL,Champions League,2019
+2019-09-17,18.55,Olympique Lyonnais,Zenit St. Petersburg,1,1,Group G,1-1,(0-1),CL,Champions League,2019
+2019-09-17,21.00,SL Benfica,RB Leipzig,1,2,Group G,1-2,(0-0),CL,Champions League,2019
+2019-10-02,21.00,Zenit St. Petersburg,SL Benfica,3,1,Group G,3-1,(1-0),CL,Champions League,2019
+2019-10-02,,RB Leipzig,Olympique Lyonnais,0,2,Group G,0-2,(0-1),CL,Champions League,2019
+2019-10-23,18.55,RB Leipzig,Zenit St. Petersburg,2,1,Group G,2-1,(0-1),CL,Champions League,2019
+2019-10-23,21.00,SL Benfica,Olympique Lyonnais,2,1,Group G,2-1,(1-0),CL,Champions League,2019
+2019-11-05,18.55,Zenit St. Petersburg,RB Leipzig,0,2,Group G,0-2,(0-1),CL,Champions League,2019
+2019-11-05,21.00,Olympique Lyonnais,SL Benfica,3,1,Group G,3-1,(2-0),CL,Champions League,2019
+2019-11-27,18.55,Zenit St. Petersburg,Olympique Lyonnais,2,0,Group G,2-0,(1-0),CL,Champions League,2019
+2019-11-27,21.00,RB Leipzig,SL Benfica,2,2,Group G,2-2,(0-1),CL,Champions League,2019
+2019-12-10,21.00,SL Benfica,Zenit St. Petersburg,3,0,Group G,3-0,(0-0),CL,Champions League,2019
+2019-12-10,,Olympique Lyonnais,RB Leipzig,2,2,Group G,2-2,(0-2),CL,Champions League,2019
+2019-09-17,21.00,Chelsea FC,Valencia CF,0,1,Group H,0-1,(0-0),CL,Champions League,2019
+2019-09-17,,AFC Ajax,Lille OSC,3,0,Group H,3-0,(1-0),CL,Champions League,2019
+2019-10-02,21.00,Valencia CF,AFC Ajax,0,3,Group H,0-3,(0-2),CL,Champions League,2019
+2019-10-02,,Lille OSC,Chelsea FC,1,2,Group H,1-2,(1-1),CL,Champions League,2019
+2019-10-23,18.55,AFC Ajax,Chelsea FC,0,1,Group H,0-1,(0-0),CL,Champions League,2019
+2019-10-23,21.00,Lille OSC,Valencia CF,1,1,Group H,1-1,(0-0),CL,Champions League,2019
+2019-11-05,21.00,Chelsea FC,AFC Ajax,4,4,Group H,4-4,(1-3),CL,Champions League,2019
+2019-11-05,,Valencia CF,Lille OSC,4,1,Group H,4-1,(0-1),CL,Champions League,2019
+2019-11-27,18.55,Valencia CF,Chelsea FC,2,2,Group H,2-2,(1-1),CL,Champions League,2019
+2019-11-27,21.00,Lille OSC,AFC Ajax,0,2,Group H,0-2,(0-1),CL,Champions League,2019
+2019-12-10,21.00,Chelsea FC,Lille OSC,2,1,Group H,2-1,(2-0),CL,Champions League,2019
+2019-12-10,,AFC Ajax,Valencia CF,0,1,Group H,0-1,(0-1),CL,Champions League,2019
+2020-02-18,21.00,Borussia Dortmund,Paris Saint-Germain,2,1,Round of 16,2-1,(0-0),CL,Champions League,2019
+2020-02-18,,Atlético Madrid,Liverpool FC,1,0,Round of 16,1-0,(1-0),CL,Champions League,2019
+2020-02-19,21.00,Atalanta,Valencia CF,4,1,Round of 16,4-1,(2-0),CL,Champions League,2019
+2020-02-19,,Tottenham Hotspur,RB Leipzig,0,1,Round of 16,0-1,(0-0),CL,Champions League,2019
+2020-02-25,21.00,Chelsea FC,Bayern München,0,3,Round of 16,0-3,(0-0),CL,Champions League,2019
+2020-02-25,,SSC Napoli,FC Barcelona,1,1,Round of 16,1-1,(1-0),CL,Champions League,2019
+2020-02-26,21.00,Real Madrid,Manchester City,1,2,Round of 16,1-2,(0-0),CL,Champions League,2019
+2020-02-26,,Olympique Lyonnais,Juventus,1,0,Round of 16,1-0,(1-0),CL,Champions League,2019
+2020-03-10,21.00,Valencia CF,Atalanta,3,4,Round of 16,3-4,(1-2),CL,Champions League,2019
+2020-03-10,,RB Leipzig,Tottenham Hotspur,3,0,Round of 16,3-0,(2-0),CL,Champions League,2019
+2020-03-11,21.00,Paris Saint-Germain,Borussia Dortmund,2,0,Round of 16,2-0,(2-0),CL,Champions League,2019
+2020-03-11,,Liverpool FC,Atlético Madrid,2,3,Round of 16,2-3,"a.e.t. (1-0, 1-0)",CL,Champions League,2019
+2019-08-07,21.00,Manchester City,Real Madrid,2,1,Round of 16,2-1,(1-1),CL,Champions League,2019
+2019-08-07,,Juventus,Olympique Lyonnais,2,1,Round of 16,2-1,(1-1),CL,Champions League,2019
+2019-08-08,21.00,Bayern München,Chelsea FC,4,1,Round of 16,4-1,(2-1),CL,Champions League,2019
+2019-08-08,,FC Barcelona,SSC Napoli,3,1,Round of 16,3-1,(3-1),CL,Champions League,2019
+2019-08-12,21.00,Atalanta,Paris Saint-Germain,1,2,Quarterfinals,1-2,(1-0),CL,Champions League,2019
+2019-08-13,21.00,RB Leipzig,Atlético Madrid,2,1,Quarterfinals,2-1,(0-0),CL,Champions League,2019
+2019-08-14,21.00,FC Barcelona,Bayern München,2,8,Quarterfinals,2-8,(1-4),CL,Champions League,2019
+2019-08-15,21.00,Manchester City,Olympique Lyonnais,1,3,Quarterfinals,1-3,(0-1),CL,Champions League,2019
+2019-08-18,21.00,RB Leipzig,Paris Saint-Germain,0,3,Semifinals,0-3,(0-2),CL,Champions League,2019
+2019-08-19,21.00,Olympique Lyonnais,Bayern München,0,3,Semifinals,0-3,(0-2),CL,Champions League,2019
+2019-08-23,21.00,Paris Saint-Germain,Bayern München,0,1,Final,0-1,(0-0),CL,Champions League,2019

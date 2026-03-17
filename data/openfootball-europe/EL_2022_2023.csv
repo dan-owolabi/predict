@@ -1,0 +1,142 @@
+date,time,home_team,away_team,home_goals,away_goals,stage,score_token,detail,competition_code,competition_label,season_start
+2022-09-08,18.45,FC Zürich,Arsenal FC,1,2,Group A,1-2,(1-1),EL,Europa League,2022
+2022-09-08,,PSV Eindhoven,FK Bodø/Glimt,1,1,Group A,1-1,(0-1),EL,Europa League,2022
+2022-09-15,21.00,FK Bodø/Glimt,FC Zürich,2,1,Group A,2-1,(0-0),EL,Europa League,2022
+2022-10-06,18.45,FC Zürich,PSV Eindhoven,1,5,Group A,1-5,(0-4),EL,Europa League,2022
+2022-10-06,21.00,Arsenal FC,FK Bodø/Glimt,3,0,Group A,3-0,(2-0),EL,Europa League,2022
+2022-10-13,18.45,FK Bodø/Glimt,Arsenal FC,0,1,Group A,0-1,(0-1),EL,Europa League,2022
+2022-10-13,21.00,PSV Eindhoven,FC Zürich,5,0,Group A,5-0,(3-0),EL,Europa League,2022
+2022-10-20,19.00,Arsenal FC,PSV Eindhoven,1,0,Group A,1-0,(0-0),EL,Europa League,2022
+2022-10-27,18.45,PSV Eindhoven,Arsenal FC,2,0,Group A,2-0,(0-0),EL,Europa League,2022
+2022-10-27,,FC Zürich,FK Bodø/Glimt,2,1,Group A,2-1,(0-1),EL,Europa League,2022
+2022-11-03,21.00,Arsenal FC,FC Zürich,1,0,Group A,1-0,(1-0),EL,Europa League,2022
+2022-11-03,,FK Bodø/Glimt,PSV Eindhoven,1,2,Group A,1-2,(0-1),EL,Europa League,2022
+2022-09-08,18.45,Fenerbahçe,Dinamo Kiev,2,1,Group B,2-1,(1-0),EL,Europa League,2022
+2022-09-08,,AEK Larnaca,Stade Rennais,1,2,Group B,1-2,(1-1),EL,Europa League,2022
+2022-09-15,21.00,Dinamo Kiev,AEK Larnaca,0,1,Group B,0-1,(0-1),EL,Europa League,2022
+2022-09-15,,Stade Rennais,Fenerbahçe,2,2,Group B,2-2,(0-0),EL,Europa League,2022
+2022-10-06,21.00,Stade Rennais,Dinamo Kiev,2,1,Group B,2-1,(1-1),EL,Europa League,2022
+2022-10-06,,Fenerbahçe,AEK Larnaca,2,0,Group B,2-0,(1-0),EL,Europa League,2022
+2022-10-13,18.45,Dinamo Kiev,Stade Rennais,0,1,Group B,0-1,(0-0),EL,Europa League,2022
+2022-10-13,,AEK Larnaca,Fenerbahçe,1,2,Group B,1-2,(0-1),EL,Europa League,2022
+2022-10-27,18.45,AEK Larnaca,Dinamo Kiev,3,3,Group B,3-3,(1-1),EL,Europa League,2022
+2022-10-27,,Fenerbahçe,Stade Rennais,3,3,Group B,3-3,(1-3),EL,Europa League,2022
+2022-11-03,21.00,Dinamo Kiev,Fenerbahçe,0,2,Group B,0-2,(0-2),EL,Europa League,2022
+2022-11-03,,Stade Rennais,AEK Larnaca,1,1,Group B,1-1,(1-0),EL,Europa League,2022
+2022-09-08,18.45,PFC Ludogorets Razgrad,AS Roma,2,1,Group C,2-1,(0-0),EL,Europa League,2022
+2022-09-08,,HJK Helsinki,Real Betis,0,2,Group C,0-2,(0-1),EL,Europa League,2022
+2022-09-15,21.00,AS Roma,HJK Helsinki,3,0,Group C,3-0,(0-0),EL,Europa League,2022
+2022-09-15,,Real Betis,PFC Ludogorets Razgrad,3,2,Group C,3-2,(2-1),EL,Europa League,2022
+2022-10-06,18.45,HJK Helsinki,PFC Ludogorets Razgrad,1,1,Group C,1-1,(0-1),EL,Europa League,2022
+2022-10-06,21.00,AS Roma,Real Betis,1,2,Group C,1-2,(1-1),EL,Europa League,2022
+2022-10-13,18.45,Real Betis,AS Roma,1,1,Group C,1-1,(1-0),EL,Europa League,2022
+2022-10-13,21.00,PFC Ludogorets Razgrad,HJK Helsinki,2,0,Group C,2-0,(1-0),EL,Europa League,2022
+2022-10-27,18.45,PFC Ludogorets Razgrad,Real Betis,0,1,Group C,0-1,(0-0),EL,Europa League,2022
+2022-10-27,21.00,HJK Helsinki,AS Roma,1,2,Group C,1-2,(0-1),EL,Europa League,2022
+2022-11-03,21.00,AS Roma,PFC Ludogorets Razgrad,3,1,Group C,3-1,(0-1),EL,Europa League,2022
+2022-11-03,,Real Betis,HJK Helsinki,3,0,Group C,3-0,(2-0),EL,Europa League,2022
+2022-09-08,18.45,Malmö FF,Sporting Braga,0,2,Group D,0-2,(0-1),EL,Europa League,2022
+2022-09-08,,1. FC Union Berlin,Union Saint-Gilloise,0,1,Group D,0-1,(0-1),EL,Europa League,2022
+2022-09-15,21.00,Sporting Braga,1. FC Union Berlin,1,0,Group D,1-0,(0-0),EL,Europa League,2022
+2022-09-15,,Union Saint-Gilloise,Malmö FF,3,2,Group D,3-2,(1-1),EL,Europa League,2022
+2022-10-06,18.45,Malmö FF,1. FC Union Berlin,0,1,Group D,0-1,(0-0),EL,Europa League,2022
+2022-10-06,21.00,Sporting Braga,Union Saint-Gilloise,1,2,Group D,1-2,(0-0),EL,Europa League,2022
+2022-10-13,18.45,Union Saint-Gilloise,Sporting Braga,3,3,Group D,3-3,(1-3),EL,Europa League,2022
+2022-10-13,21.00,1. FC Union Berlin,Malmö FF,1,0,Group D,1-0,(0-0),EL,Europa League,2022
+2022-10-27,18.45,1. FC Union Berlin,Sporting Braga,1,0,Group D,1-0,(0-0),EL,Europa League,2022
+2022-10-27,,Malmö FF,Union Saint-Gilloise,0,2,Group D,0-2,(0-2),EL,Europa League,2022
+2022-11-03,21.00,Sporting Braga,Malmö FF,2,1,Group D,2-1,(1-0),EL,Europa League,2022
+2022-11-03,,Union Saint-Gilloise,1. FC Union Berlin,0,1,Group D,0-1,(0-1),EL,Europa League,2022
+2022-09-08,21.00,Manchester United,Real Sociedad,0,1,Group E,0-1,(0-0),EL,Europa League,2022
+2022-09-08,,Omonia Nikosia,FC Sheriff,0,3,Group E,0-3,(0-1),EL,Europa League,2022
+2022-09-15,18.45,Real Sociedad,Omonia Nikosia,2,1,Group E,2-1,(1-0),EL,Europa League,2022
+2022-09-15,,FC Sheriff,Manchester United,0,2,Group E,0-2,(0-2),EL,Europa League,2022
+2022-10-06,18.45,FC Sheriff,Real Sociedad,0,2,Group E,0-2,(0-0),EL,Europa League,2022
+2022-10-06,,Omonia Nikosia,Manchester United,2,3,Group E,2-3,(1-0),EL,Europa League,2022
+2022-10-13,21.00,Manchester United,Omonia Nikosia,1,0,Group E,1-0,(0-0),EL,Europa League,2022
+2022-10-13,,Real Sociedad,FC Sheriff,3,0,Group E,3-0,(1-0),EL,Europa League,2022
+2022-10-27,21.00,Manchester United,FC Sheriff,3,0,Group E,3-0,(1-0),EL,Europa League,2022
+2022-10-27,,Omonia Nikosia,Real Sociedad,0,2,Group E,0-2,(0-1),EL,Europa League,2022
+2022-11-03,18.45,FC Sheriff,Omonia Nikosia,1,0,Group E,1-0,(0-0),EL,Europa League,2022
+2022-11-03,,Real Sociedad,Manchester United,0,1,Group E,0-1,(0-1),EL,Europa League,2022
+2022-09-08,21.00,Lazio Roma,Feyenoord,4,2,Group F,4-2,(3-0),EL,Europa League,2022
+2022-09-08,,Sturm Graz,FC Midtjylland,1,0,Group F,1-0,(1-0),EL,Europa League,2022
+2022-09-15,18.45,FC Midtjylland,Lazio Roma,5,1,Group F,5-1,(2-0),EL,Europa League,2022
+2022-09-15,,Feyenoord,Sturm Graz,6,0,Group F,6-0,(4-0),EL,Europa League,2022
+2022-10-06,18.45,Sturm Graz,Lazio Roma,0,0,Group F,0-0,,EL,Europa League,2022
+2022-10-06,21.00,FC Midtjylland,Feyenoord,2,2,Group F,2-2,(0-2),EL,Europa League,2022
+2022-10-13,18.45,Feyenoord,FC Midtjylland,2,2,Group F,2-2,(1-1),EL,Europa League,2022
+2022-10-13,21.00,Lazio Roma,Sturm Graz,2,2,Group F,2-2,(1-0),EL,Europa League,2022
+2022-10-27,18.45,Lazio Roma,FC Midtjylland,2,1,Group F,2-1,(1-1),EL,Europa League,2022
+2022-10-27,21.00,Sturm Graz,Feyenoord,1,0,Group F,1-0,(0-0),EL,Europa League,2022
+2022-11-03,18.45,Feyenoord,Lazio Roma,1,0,Group F,1-0,(0-0),EL,Europa League,2022
+2022-11-03,,FC Midtjylland,Sturm Graz,2,0,Group F,2-0,(1-0),EL,Europa League,2022
+2022-09-08,21.00,FC Nantes,Olympiakos Piraeus,2,1,Gruppe G,2-1,(1-0),EL,Europa League,2022
+2022-09-08,,SC Freiburg,Qarabağ FK,2,1,Gruppe G,2-1,(2-1),EL,Europa League,2022
+2022-09-15,18.45,Olympiakos Piraeus,SC Freiburg,0,3,Gruppe G,0-3,(0-2),EL,Europa League,2022
+2022-09-15,,Qarabağ FK,FC Nantes,3,0,Gruppe G,3-0,(0-0),EL,Europa League,2022
+2022-10-06,21.00,Olympiakos Piraeus,Qarabağ FK,0,3,Gruppe G,0-3,(0-0),EL,Europa League,2022
+2022-10-06,,SC Freiburg,FC Nantes,2,0,Gruppe G,2-0,(0-0),EL,Europa League,2022
+2022-10-13,18.45,Qarabağ FK,Olympiakos Piraeus,0,0,Gruppe G,0-0,,EL,Europa League,2022
+2022-10-13,,FC Nantes,SC Freiburg,0,4,Gruppe G,0-4,(0-1),EL,Europa League,2022
+2022-10-27,21.00,SC Freiburg,Olympiakos Piraeus,1,1,Gruppe G,1-1,(0-1),EL,Europa League,2022
+2022-10-27,,FC Nantes,Qarabağ FK,2,1,Gruppe G,2-1,(1-0),EL,Europa League,2022
+2022-11-03,18.45,Olympiakos Piraeus,FC Nantes,0,2,Gruppe G,0-2,(0-0),EL,Europa League,2022
+2022-11-03,,Qarabağ FK,SC Freiburg,1,1,Gruppe G,1-1,(0-1),EL,Europa League,2022
+2022-09-08,21.00,Crvena Zvezda,AS Monaco,0,1,Gruppe H,0-1,(0-0),EL,Europa League,2022
+2022-09-08,,Ferencvárosi TC,Trabzonspor,3,2,Gruppe H,3-2,(3-1),EL,Europa League,2022
+2022-09-15,18.45,Trabzonspor,Crvena Zvezda,2,1,Gruppe H,2-1,(1-0),EL,Europa League,2022
+2022-09-15,,AS Monaco,Ferencvárosi TC,0,1,Gruppe H,0-1,(0-0),EL,Europa League,2022
+2022-10-06,18.45,Crvena Zvezda,Ferencvárosi TC,4,1,Gruppe H,4-1,(2-0),EL,Europa League,2022
+2022-10-06,,AS Monaco,Trabzonspor,3,1,Gruppe H,3-1,(2-0),EL,Europa League,2022
+2022-10-13,21.00,Ferencvárosi TC,Crvena Zvezda,2,1,Gruppe H,2-1,(1-0),EL,Europa League,2022
+2022-10-13,,Trabzonspor,AS Monaco,4,0,Gruppe H,4-0,(1-0),EL,Europa League,2022
+2022-10-27,21.00,Crvena Zvezda,Trabzonspor,2,1,Gruppe H,2-1,(1-1),EL,Europa League,2022
+2022-10-27,,Ferencvárosi TC,AS Monaco,1,1,Gruppe H,1-1,(0-1),EL,Europa League,2022
+2022-11-03,18.45,AS Monaco,Crvena Zvezda,4,1,Gruppe H,4-1,(2-0),EL,Europa League,2022
+2022-11-03,,Trabzonspor,Ferencvárosi TC,1,0,Gruppe H,1-0,(1-0),EL,Europa League,2022
+2023-02-16,18.45,FC Barcelona,Manchester United,2,2,Playoffs,2-2,(0-0),EL,Europa League,2022
+2023-02-16,,Shakhtar Donetsk,Stade Rennais,2,1,Playoffs,2-1,(2-0),EL,Europa League,2022
+2023-02-16,,AFC Ajax,1. FC Union Berlin,0,0,Playoffs,0-0,,EL,Europa League,2022
+2023-02-16,,RB Salzburg,AS Roma,1,0,Playoffs,1-0,(0-0),EL,Europa League,2022
+2023-02-16,21.00,Juventus,FC Nantes,1,1,Playoffs,1-1,(1-0),EL,Europa League,2022
+2023-02-16,,Sporting CP,FC Midtjylland,1,1,Playoffs,1-1,(0-0),EL,Europa League,2022
+2023-02-16,,Bayer Leverkusen,AS Monaco,2,3,Playoffs,2-3,(0-1),EL,Europa League,2022
+2023-02-16,,Sevilla FC,PSV Eindhoven,3,0,Playoffs,3-0,(1-0),EL,Europa League,2022
+2023-02-23,18.45,FC Nantes,Juventus,0,3,Playoffs,0-3,(0-2),EL,Europa League,2022
+2023-02-23,,FC Midtjylland,Sporting CP,0,4,Playoffs,0-4,(0-1),EL,Europa League,2022
+2023-02-23,,AS Monaco,Bayer Leverkusen,3,5,Playoffs,3-5 pen.,"2-3 a.e.t. (2-3, 1-2)",EL,Europa League,2022
+2023-02-23,,PSV Eindhoven,Sevilla FC,2,0,Playoffs,2-0,(0-0),EL,Europa League,2022
+2023-02-23,21.00,Manchester United,FC Barcelona,2,1,Playoffs,2-1,(0-1),EL,Europa League,2022
+2023-02-23,,Stade Rennais,Shakhtar Donetsk,4,5,Playoffs,4-5 pen.,"2-1 a.e.t. (1-0, 0-0)",EL,Europa League,2022
+2023-02-23,,1. FC Union Berlin,AFC Ajax,3,1,Playoffs,3-1,(2-0),EL,Europa League,2022
+2023-02-23,,AS Roma,RB Salzburg,2,0,Playoffs,2-0,(2-0),EL,Europa League,2022
+2023-03-09,18.45,1. FC Union Berlin,Union Saint-Gilloise,3,3,Round of 16,3-3,(1-1),EL,Europa League,2022
+2023-03-09,,Bayer Leverkusen,Ferencvárosi TC,2,0,Round of 16,2-0,(1-0),EL,Europa League,2022
+2023-03-09,,Sporting CP,Arsenal FC,2,2,Round of 16,2-2,(1-1),EL,Europa League,2022
+2023-03-09,,AS Roma,Real Sociedad,2,0,Round of 16,2-0,(1-0),EL,Europa League,2022
+2023-03-09,21.00,Sevilla FC,Fenerbahçe,2,0,Round of 16,2-0,(0-0),EL,Europa League,2022
+2023-03-09,,Juventus,SC Freiburg,1,0,Round of 16,1-0,(0-0),EL,Europa League,2022
+2023-03-09,,Manchester United,Real Betis,4,1,Round of 16,4-1,(1-1),EL,Europa League,2022
+2023-03-09,,Shakhtar Donetsk,Feyenoord,1,1,Round of 16,1-1,(0-0),EL,Europa League,2022
+2023-03-16,18.45,Fenerbahçe,Sevilla FC,1,0,Round of 16,1-0,(1-0),EL,Europa League,2022
+2023-03-16,,SC Freiburg,Juventus,0,2,Round of 16,0-2,(0-1),EL,Europa League,2022
+2023-03-16,,Real Betis,Manchester United,0,1,Round of 16,0-1,(0-0),EL,Europa League,2022
+2023-03-16,,Feyenoord,Shakhtar Donetsk,7,1,Round of 16,7-1,(3-0),EL,Europa League,2022
+2023-03-16,21.00,Union Saint-Gilloise,1. FC Union Berlin,3,0,Round of 16,3-0,(1-0),EL,Europa League,2022
+2023-03-16,,Ferencvárosi TC,Bayer Leverkusen,0,2,Round of 16,0-2,(0-1),EL,Europa League,2022
+2023-03-16,,Arsenal FC,Sporting CP,3,5,Round of 16,3-5 pen.,"1-1 a.e.t. (1-1, 1-0)",EL,Europa League,2022
+2023-03-16,,Real Sociedad,AS Roma,0,0,Round of 16,0-0,,EL,Europa League,2022
+2023-04-13,18.45,Feyenoord,AS Roma,1,0,Quarterfinals,1-0,(0-0),EL,Europa League,2022
+2023-04-13,21.00,Manchester United,Sevilla FC,2,2,Quarterfinals,2-2,(2-0),EL,Europa League,2022
+2023-04-13,,Juventus,Sporting CP,1,0,Quarterfinals,1-0,(0-0),EL,Europa League,2022
+2023-04-13,,Bayer Leverkusen,Union Saint-Gilloise,1,1,Quarterfinals,1-1,(0-0),EL,Europa League,2022
+2023-04-20,21.00,Sevilla FC,Manchester United,3,0,Quarterfinals,3-0,(1-0),EL,Europa League,2022
+2023-04-20,,Sporting CP,Juventus,1,1,Quarterfinals,1-1,(1-1),EL,Europa League,2022
+2023-04-20,,Union Saint-Gilloise,Bayer Leverkusen,1,4,Quarterfinals,1-4,(0-2),EL,Europa League,2022
+2023-04-20,,AS Roma,Feyenoord,4,1,Quarterfinals,4-1,"a.e.t. (2-1, 0-0)",EL,Europa League,2022
+2023-05-11,21.00,Juventus,Sevilla FC,1,1,Semifinals,1-1,(0-1),EL,Europa League,2022
+2023-05-11,,AS Roma,Bayer Leverkusen,1,0,Semifinals,1-0,(0-0),EL,Europa League,2022
+2023-05-18,21.00,Sevilla FC,Juventus,2,1,Semifinals,2-1,"a.e.t. (1-1, 0-0)",EL,Europa League,2022
+2023-05-18,,Bayer Leverkusen,AS Roma,0,0,Semifinals,0-0,,EL,Europa League,2022
+2023-05-31,21.00,Sevilla FC,AS Roma,4,1,Final,4-1 pen.,"1-1 a.e.t. (1-1, 0-1)",EL,Europa League,2022

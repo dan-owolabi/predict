@@ -1,0 +1,206 @@
+date,time,home_team,away_team,home_goals,away_goals,stage,score_token,detail,competition_code,competition_label,season_start
+2020-10-22,18.55,BSC Young Boys,AS Roma,1,2,Group A,1-2,(1-0),EL,Europa League,2020
+2020-10-22,,CSKA Sofia,CFR Cluj,0,2,Group A,0-2,(0-0),EL,Europa League,2020
+2020-10-29,21.00,AS Roma,CSKA Sofia,0,0,Group A,0-0,,EL,Europa League,2020
+2020-10-29,,CFR Cluj,BSC Young Boys,1,1,Group A,1-1,(0-0),EL,Europa League,2020
+2020-11-05,18.55,AS Roma,CFR Cluj,5,0,Group A,5-0,(3-0),EL,Europa League,2020
+2020-11-05,21.00,BSC Young Boys,CSKA Sofia,3,0,Group A,3-0,(3-0),EL,Europa League,2020
+2020-11-26,18.55,CSKA Sofia,BSC Young Boys,0,1,Group A,0-1,(0-1),EL,Europa League,2020
+2020-11-26,21.00,CFR Cluj,AS Roma,0,2,Group A,0-2,(0-0),EL,Europa League,2020
+2020-12-03,21.00,AS Roma,BSC Young Boys,3,1,Group A,3-1,(1-1),EL,Europa League,2020
+2020-12-03,,CFR Cluj,CSKA Sofia,0,0,Group A,0-0,,EL,Europa League,2020
+2020-12-10,18.55,CSKA Sofia,AS Roma,3,1,Group A,3-1,(2-1),EL,Europa League,2020
+2020-12-10,,BSC Young Boys,CFR Cluj,2,1,Group A,2-1,(0-0),EL,Europa League,2020
+2020-10-22,18.55,Rapid Wien,Arsenal FC,1,2,Group B,1-2,(0-0),EL,Europa League,2020
+2020-10-22,,Dundalk FC,Molde FK,1,2,Group B,1-2,(1-0),EL,Europa League,2020
+2020-10-29,21.00,Arsenal FC,Dundalk FC,3,0,Group B,3-0,(2-0),EL,Europa League,2020
+2020-10-29,,Molde FK,Rapid Wien,1,0,Group B,1-0,(0-0),EL,Europa League,2020
+2020-11-05,18.55,Rapid Wien,Dundalk FC,4,3,Group B,4-3,(1-1),EL,Europa League,2020
+2020-11-05,21.00,Arsenal FC,Molde FK,4,1,Group B,4-1,(1-1),EL,Europa League,2020
+2020-11-26,18.55,Molde FK,Arsenal FC,0,3,Group B,0-3,(0-0),EL,Europa League,2020
+2020-11-26,21.00,Dundalk FC,Rapid Wien,1,3,Group B,1-3,(0-2),EL,Europa League,2020
+2020-12-03,21.00,Arsenal FC,Rapid Wien,4,1,Group B,4-1,(3-0),EL,Europa League,2020
+2020-12-03,,Molde FK,Dundalk FC,3,1,Group B,3-1,(2-0),EL,Europa League,2020
+2020-12-10,18.55,Dundalk FC,Arsenal FC,2,4,Group B,2-4,(1-2),EL,Europa League,2020
+2020-12-10,,Rapid Wien,Molde FK,2,2,Group B,2-2,(1-1),EL,Europa League,2020
+2020-10-22,18.55,Bayer Leverkusen,OGC Nice,6,2,Group C,6-2,(2-1),EL,Europa League,2020
+2020-10-22,,Hapoel Be'er Sheva,Slavia Praha,3,1,Group C,3-1,(1-0),EL,Europa League,2020
+2020-10-29,21.00,Slavia Praha,Bayer Leverkusen,1,0,Group C,1-0,(0-0),EL,Europa League,2020
+2020-10-29,,OGC Nice,Hapoel Be'er Sheva,1,0,Group C,1-0,(1-0),EL,Europa League,2020
+2020-11-05,18.55,Hapoel Be'er Sheva,Bayer Leverkusen,2,4,Group C,2-4,(2-2),EL,Europa League,2020
+2020-11-05,,Slavia Praha,OGC Nice,3,2,Group C,3-2,(2-1),EL,Europa League,2020
+2020-11-26,21.00,Bayer Leverkusen,Hapoel Be'er Sheva,4,1,Group C,4-1,(1-0),EL,Europa League,2020
+2020-11-26,,OGC Nice,Slavia Praha,1,3,Group C,1-3,(0-1),EL,Europa League,2020
+2020-12-03,21.00,OGC Nice,Bayer Leverkusen,2,3,Group C,2-3,(1-2),EL,Europa League,2020
+2020-12-03,,Slavia Praha,Hapoel Be'er Sheva,3,0,Group C,3-0,(2-0),EL,Europa League,2020
+2020-12-10,18.55,Bayer Leverkusen,Slavia Praha,4,0,Group C,4-0,(2-0),EL,Europa League,2020
+2020-12-10,,Hapoel Be'er Sheva,OGC Nice,1,0,Group C,1-0,(0-0),EL,Europa League,2020
+2020-10-22,18.55,Lech Poznań,SL Benfica,2,4,Group D,2-4,(1-2),EL,Europa League,2020
+2020-10-22,,Standard Liège,Rangers FC,0,2,Group D,0-2,(0-1),EL,Europa League,2020
+2020-10-29,21.00,Rangers FC,Lech Poznań,1,0,Group D,1-0,(0-0),EL,Europa League,2020
+2020-10-29,,SL Benfica,Standard Liège,3,0,Group D,3-0,(0-0),EL,Europa League,2020
+2020-11-05,18.55,Lech Poznań,Standard Liège,3,1,Group D,3-1,(2-1),EL,Europa League,2020
+2020-11-05,,SL Benfica,Rangers FC,3,3,Group D,3-3,(1-2),EL,Europa League,2020
+2020-11-26,21.00,Standard Liège,Lech Poznań,2,1,Group D,2-1,(0-0),EL,Europa League,2020
+2020-11-26,,Rangers FC,SL Benfica,2,2,Group D,2-2,(1-0),EL,Europa League,2020
+2020-12-03,21.00,SL Benfica,Lech Poznań,4,0,Group D,4-0,(1-0),EL,Europa League,2020
+2020-12-03,,Rangers FC,Standard Liège,3,2,Group D,3-2,(2-2),EL,Europa League,2020
+2020-12-10,18.55,Lech Poznań,Rangers FC,0,2,Group D,0-2,(0-1),EL,Europa League,2020
+2020-12-10,,Standard Liège,SL Benfica,2,2,Group D,2-2,(1-1),EL,Europa League,2020
+2020-10-22,18.55,PSV Eindhoven,Granada CF,1,2,Group E,1-2,(1-0),EL,Europa League,2020
+2020-10-22,,PAOK Saloniki,Omonia Nikosia,1,1,Group E,1-1,(0-1),EL,Europa League,2020
+2020-10-29,21.00,Granada CF,PAOK Saloniki,0,0,Group E,0-0,,EL,Europa League,2020
+2020-10-29,,Omonia Nikosia,PSV Eindhoven,1,2,Group E,1-2,(1-1),EL,Europa League,2020
+2020-11-05,18.55,Omonia Nikosia,Granada CF,0,2,Group E,0-2,(0-1),EL,Europa League,2020
+2020-11-05,,PAOK Saloniki,PSV Eindhoven,4,1,Group E,4-1,(0-1),EL,Europa League,2020
+2020-11-26,21.00,Granada CF,Omonia Nikosia,2,1,Group E,2-1,(1-0),EL,Europa League,2020
+2020-11-26,,PSV Eindhoven,PAOK Saloniki,3,2,Group E,3-2,(1-2),EL,Europa League,2020
+2020-12-03,21.00,Granada CF,PSV Eindhoven,0,1,Group E,0-1,(0-1),EL,Europa League,2020
+2020-12-03,,Omonia Nikosia,PAOK Saloniki,2,1,Group E,2-1,(1-1),EL,Europa League,2020
+2020-12-10,18.55,PAOK Saloniki,Granada CF,0,0,Group E,0-0,,EL,Europa League,2020
+2020-12-10,,PSV Eindhoven,Omonia Nikosia,4,0,Group E,4-0,(1-0),EL,Europa League,2020
+2020-10-22,18.55,SSC Napoli,AZ Alkmaar,0,1,Group F,0-1,(0-0),EL,Europa League,2020
+2020-10-22,,HNK Rijeka,Real Sociedad,0,1,Group F,0-1,(0-0),EL,Europa League,2020
+2020-10-29,21.00,AZ Alkmaar,HNK Rijeka,4,1,Group F,4-1,(2-0),EL,Europa League,2020
+2020-10-29,,Real Sociedad,SSC Napoli,0,1,Group F,0-1,(0-0),EL,Europa League,2020
+2020-11-05,18.55,Real Sociedad,AZ Alkmaar,1,0,Group F,1-0,(0-0),EL,Europa League,2020
+2020-11-05,,HNK Rijeka,SSC Napoli,1,2,Group F,1-2,(1-1),EL,Europa League,2020
+2020-11-26,21.00,AZ Alkmaar,Real Sociedad,0,0,Group F,0-0,,EL,Europa League,2020
+2020-11-26,,SSC Napoli,HNK Rijeka,2,0,Group F,2-0,(1-0),EL,Europa League,2020
+2020-12-03,21.00,AZ Alkmaar,SSC Napoli,1,1,Group F,1-1,(0-1),EL,Europa League,2020
+2020-12-03,,Real Sociedad,HNK Rijeka,2,2,Group F,2-2,(0-1),EL,Europa League,2020
+2020-12-10,18.55,HNK Rijeka,AZ Alkmaar,2,1,Group F,2-1,(0-0),EL,Europa League,2020
+2020-12-10,,SSC Napoli,Real Sociedad,1,1,Group F,1-1,(1-0),EL,Europa League,2020
+2020-10-22,21.00,Sporting Braga,AEK Athen,3,0,Gruppe G,3-0,(1-0),EL,Europa League,2020
+2020-10-22,,Leicester City,Zorya Lugansk,3,0,Gruppe G,3-0,(2-0),EL,Europa League,2020
+2020-10-29,18.55,AEK Athen,Leicester City,1,2,Gruppe G,1-2,(0-2),EL,Europa League,2020
+2020-10-29,,Zorya Lugansk,Sporting Braga,1,2,Gruppe G,1-2,(0-2),EL,Europa League,2020
+2020-11-05,21.00,Zorya Lugansk,AEK Athen,1,4,Gruppe G,1-4,(0-2),EL,Europa League,2020
+2020-11-05,,Leicester City,Sporting Braga,4,0,Gruppe G,4-0,(1-0),EL,Europa League,2020
+2020-11-26,18.55,AEK Athen,Zorya Lugansk,0,3,Gruppe G,0-3,(0-0),EL,Europa League,2020
+2020-11-26,,Sporting Braga,Leicester City,3,3,Gruppe G,3-3,(2-1),EL,Europa League,2020
+2020-12-03,18.55,AEK Athen,Sporting Braga,2,4,Gruppe G,2-4,(1-3),EL,Europa League,2020
+2020-12-03,,Zorya Lugansk,Leicester City,1,0,Gruppe G,1-0,(0-0),EL,Europa League,2020
+2020-12-10,21.00,Leicester City,AEK Athen,2,0,Gruppe G,2-0,(2-0),EL,Europa League,2020
+2020-12-10,,Sporting Braga,Zorya Lugansk,2,0,Gruppe G,2-0,(0-0),EL,Europa League,2020
+2020-10-22,21.00,Celtic FC,AC Milan,1,3,Gruppe H,1-3,(0-2),EL,Europa League,2020
+2020-10-22,,AC Sparta Praha,Lille OSC,1,4,Gruppe H,1-4,(0-1),EL,Europa League,2020
+2020-10-29,18.55,AC Milan,AC Sparta Praha,3,0,Gruppe H,3-0,(1-0),EL,Europa League,2020
+2020-10-29,,Lille OSC,Celtic FC,2,2,Gruppe H,2-2,(0-2),EL,Europa League,2020
+2020-11-05,21.00,AC Milan,Lille OSC,0,3,Gruppe H,0-3,(0-1),EL,Europa League,2020
+2020-11-05,,Celtic FC,AC Sparta Praha,1,4,Gruppe H,1-4,(0-2),EL,Europa League,2020
+2020-11-26,18.55,Lille OSC,AC Milan,1,1,Gruppe H,1-1,(0-0),EL,Europa League,2020
+2020-11-26,,AC Sparta Praha,Celtic FC,4,1,Gruppe H,4-1,(2-1),EL,Europa League,2020
+2020-12-03,18.55,AC Milan,Celtic FC,4,2,Gruppe H,4-2,(2-2),EL,Europa League,2020
+2020-12-03,,Lille OSC,AC Sparta Praha,2,1,Gruppe H,2-1,(0-0),EL,Europa League,2020
+2020-12-10,21.00,AC Sparta Praha,AC Milan,0,1,Gruppe H,0-1,(0-1),EL,Europa League,2020
+2020-12-10,,Celtic FC,Lille OSC,3,2,Gruppe H,3-2,(2-1),EL,Europa League,2020
+2020-10-22,21.00,Maccabi Tel Aviv,Qarabağ FK,1,0,Gruppe I,1-0,(1-0),EL,Europa League,2020
+2020-10-22,,Villarreal CF,Sivasspor,5,3,Gruppe I,5-3,(2-2),EL,Europa League,2020
+2020-10-29,18.55,Sivasspor,Maccabi Tel Aviv,1,2,Gruppe I,1-2,(0-0),EL,Europa League,2020
+2020-10-29,,Qarabağ FK,Villarreal CF,1,3,Gruppe I,1-3,(0-0),EL,Europa League,2020
+2020-11-05,18.55,Sivasspor,Qarabağ FK,2,0,Gruppe I,2-0,(1-0),EL,Europa League,2020
+2020-11-05,22.10,Villarreal CF,Maccabi Tel Aviv,4,0,Gruppe I,4-0,(1-0),EL,Europa League,2020
+2020-11-26,18.55,Maccabi Tel Aviv,Villarreal CF,1,1,Gruppe I,1-1,(0-1),EL,Europa League,2020
+2020-11-26,,Qarabağ FK,Sivasspor,2,3,Gruppe I,2-3,(1-1),EL,Europa League,2020
+2020-12-03,18.55,Qarabağ FK,Maccabi Tel Aviv,1,1,Gruppe I,1-1,(1-1),EL,Europa League,2020
+2020-12-03,,Sivasspor,Villarreal CF,0,1,Gruppe I,0-1,(0-0),EL,Europa League,2020
+2020-12-10,,Villarreal CF,Qarabağ FK,3,0,Gruppe I,3-0,[awarded],EL,Europa League,2020
+2020-12-10,21.00,Maccabi Tel Aviv,Sivasspor,1,0,Gruppe I,1-0,(0-0),EL,Europa League,2020
+2020-10-22,21.00,Tottenham Hotspur,LASK,3,0,Gruppe J,3-0,(2-0),EL,Europa League,2020
+2020-10-22,,PFC Ludogorets Razgrad,Royal Antwerp FC,1,2,Gruppe J,1-2,(0-0),EL,Europa League,2020
+2020-10-29,18.55,LASK,PFC Ludogorets Razgrad,4,3,Gruppe J,4-3,(3-1),EL,Europa League,2020
+2020-10-29,,Royal Antwerp FC,Tottenham Hotspur,1,0,Gruppe J,1-0,(1-0),EL,Europa League,2020
+2020-11-05,18.55,PFC Ludogorets Razgrad,Tottenham Hotspur,1,3,Gruppe J,1-3,(0-2),EL,Europa League,2020
+2020-11-05,21.00,Royal Antwerp FC,LASK,0,1,Gruppe J,0-1,(0-0),EL,Europa League,2020
+2020-11-26,18.55,LASK,Royal Antwerp FC,0,2,Gruppe J,0-2,(0-0),EL,Europa League,2020
+2020-11-26,21.00,Tottenham Hotspur,PFC Ludogorets Razgrad,4,0,Gruppe J,4-0,(2-0),EL,Europa League,2020
+2020-12-03,18.55,LASK,Tottenham Hotspur,3,3,Gruppe J,3-3,(1-1),EL,Europa League,2020
+2020-12-03,,Royal Antwerp FC,PFC Ludogorets Razgrad,3,1,Gruppe J,3-1,(1-0),EL,Europa League,2020
+2020-12-10,21.00,PFC Ludogorets Razgrad,LASK,1,3,Gruppe J,1-3,(0-0),EL,Europa League,2020
+2020-12-10,,Tottenham Hotspur,Royal Antwerp FC,2,0,Gruppe J,2-0,(0-0),EL,Europa League,2020
+2020-10-22,21.00,Wolfsberger AC,CSKA Moskva,1,1,Gruppe K,1-1,(1-1),EL,Europa League,2020
+2020-10-22,,Dinamo Zagreb,Feyenoord,0,0,Gruppe K,0-0,,EL,Europa League,2020
+2020-10-29,18.55,CSKA Moskva,Dinamo Zagreb,0,0,Gruppe K,0-0,,EL,Europa League,2020
+2020-10-29,,Feyenoord,Wolfsberger AC,1,4,Gruppe K,1-4,(0-2),EL,Europa League,2020
+2020-11-05,21.00,Feyenoord,CSKA Moskva,3,1,Gruppe K,3-1,(0-0),EL,Europa League,2020
+2020-11-05,,Dinamo Zagreb,Wolfsberger AC,1,0,Gruppe K,1-0,(0-0),EL,Europa League,2020
+2020-11-26,18.55,CSKA Moskva,Feyenoord,0,0,Gruppe K,0-0,,EL,Europa League,2020
+2020-11-26,,Wolfsberger AC,Dinamo Zagreb,0,3,Gruppe K,0-3,(0-0),EL,Europa League,2020
+2020-12-03,18.55,CSKA Moskva,Wolfsberger AC,0,1,Gruppe K,0-1,(0-1),EL,Europa League,2020
+2020-12-03,,Feyenoord,Dinamo Zagreb,0,2,Gruppe K,0-2,(0-1),EL,Europa League,2020
+2020-12-10,21.00,Dinamo Zagreb,CSKA Moskva,3,1,Gruppe K,3-1,(2-0),EL,Europa League,2020
+2020-12-10,,Wolfsberger AC,Feyenoord,1,0,Gruppe K,1-0,(1-0),EL,Europa League,2020
+2020-10-22,21.00,1899 Hoffenheim,Crvena Zvezda,2,0,Gruppe L,2-0,(0-0),EL,Europa League,2020
+2020-10-22,,Slovan Liberec,KAA Gent,1,0,Gruppe L,1-0,(1-0),EL,Europa League,2020
+2020-10-29,18.55,KAA Gent,1899 Hoffenheim,1,4,Gruppe L,1-4,(0-1),EL,Europa League,2020
+2020-10-29,,Crvena Zvezda,Slovan Liberec,5,1,Gruppe L,5-1,(2-1),EL,Europa League,2020
+2020-11-05,21.00,1899 Hoffenheim,Slovan Liberec,5,0,Gruppe L,5-0,(2-0),EL,Europa League,2020
+2020-11-05,,Crvena Zvezda,KAA Gent,2,1,Gruppe L,2-1,(1-1),EL,Europa League,2020
+2020-11-26,18.55,Slovan Liberec,1899 Hoffenheim,0,2,Gruppe L,0-2,(0-0),EL,Europa League,2020
+2020-11-26,,KAA Gent,Crvena Zvezda,0,2,Gruppe L,0-2,(0-1),EL,Europa League,2020
+2020-12-03,18.55,Crvena Zvezda,1899 Hoffenheim,0,0,Gruppe L,0-0,,EL,Europa League,2020
+2020-12-03,,KAA Gent,Slovan Liberec,1,2,Gruppe L,1-2,(0-1),EL,Europa League,2020
+2020-12-10,21.00,1899 Hoffenheim,KAA Gent,4,1,Gruppe L,4-1,(2-0),EL,Europa League,2020
+2020-12-10,,Slovan Liberec,Crvena Zvezda,0,0,Gruppe L,0-0,,EL,Europa League,2020
+2021-02-18,16.00,Dinamo Kiev,Club Brugge KV,1,1,Sechzehntelfinale,1-1,(0-0),EL,Europa League,2020
+2021-02-18,18.55,Wolfsberger AC,Tottenham Hotspur,1,4,Sechzehntelfinale,1-4,(0-3),EL,Europa League,2020
+2021-02-18,,Real Sociedad,Manchester United,0,4,Sechzehntelfinale,0-4,(0-1),EL,Europa League,2020
+2021-02-18,,Crvena Zvezda,AC Milan,2,2,Sechzehntelfinale,2-2,(0-1),EL,Europa League,2020
+2021-02-18,,Slavia Praha,Leicester City,0,0,Sechzehntelfinale,0-0,,EL,Europa League,2020
+2021-02-18,,Sporting Braga,AS Roma,0,2,Sechzehntelfinale,0-2,(0-1),EL,Europa League,2020
+2021-02-18,,FK Krasnodar,Dinamo Zagreb,2,3,Sechzehntelfinale,2-3,(1-1),EL,Europa League,2020
+2021-02-18,,BSC Young Boys,Bayer Leverkusen,4,3,Sechzehntelfinale,4-3,(3-0),EL,Europa League,2020
+2021-02-18,,Olympiakos Piraeus,PSV Eindhoven,4,2,Sechzehntelfinale,4-2,(3-2),EL,Europa League,2020
+2021-02-18,21.00,SL Benfica,Arsenal FC,1,1,Sechzehntelfinale,1-1,(0-0),EL,Europa League,2020
+2021-02-18,,Royal Antwerp FC,Rangers FC,3,4,Sechzehntelfinale,3-4,(2-1),EL,Europa League,2020
+2021-02-18,,RB Salzburg,Villarreal CF,0,2,Sechzehntelfinale,0-2,(0-1),EL,Europa League,2020
+2021-02-18,,Molde FK,1899 Hoffenheim,3,3,Sechzehntelfinale,3-3,(1-3),EL,Europa League,2020
+2021-02-18,,Granada CF,SSC Napoli,2,0,Sechzehntelfinale,2-0,(2-0),EL,Europa League,2020
+2021-02-18,,Maccabi Tel Aviv,Shakhtar Donetsk,0,2,Sechzehntelfinale,0-2,(0-1),EL,Europa League,2020
+2021-02-18,,Lille OSC,AFC Ajax,1,2,Sechzehntelfinale,1-2,(0-0),EL,Europa League,2020
+2021-02-24,18.00,Tottenham Hotspur,Wolfsberger AC,4,0,Sechzehntelfinale,4-0,(1-0),EL,Europa League,2020
+2021-02-25,18.55,Arsenal FC,SL Benfica,3,2,Sechzehntelfinale,3-2,(1-1),EL,Europa League,2020
+2021-02-25,,Rangers FC,Royal Antwerp FC,5,2,Sechzehntelfinale,5-2,(1-1),EL,Europa League,2020
+2021-02-25,,Villarreal CF,RB Salzburg,2,1,Sechzehntelfinale,2-1,(1-1),EL,Europa League,2020
+2021-02-25,,1899 Hoffenheim,Molde FK,0,2,Sechzehntelfinale,0-2,(0-1),EL,Europa League,2020
+2021-02-25,,SSC Napoli,Granada CF,2,1,Sechzehntelfinale,2-1,(1-1),EL,Europa League,2020
+2021-02-25,,Shakhtar Donetsk,Maccabi Tel Aviv,1,0,Sechzehntelfinale,1-0,(0-0),EL,Europa League,2020
+2021-02-25,,AFC Ajax,Lille OSC,2,1,Sechzehntelfinale,2-1,(1-0),EL,Europa League,2020
+2021-02-25,21.00,Club Brugge KV,Dinamo Kiev,0,1,Sechzehntelfinale,0-1,(0-0),EL,Europa League,2020
+2021-02-25,,Manchester United,Real Sociedad,0,0,Sechzehntelfinale,0-0,,EL,Europa League,2020
+2021-02-25,,AC Milan,Crvena Zvezda,1,1,Sechzehntelfinale,1-1,(1-1),EL,Europa League,2020
+2021-02-25,,Leicester City,Slavia Praha,0,2,Sechzehntelfinale,0-2,(0-0),EL,Europa League,2020
+2021-02-25,,AS Roma,Sporting Braga,3,1,Sechzehntelfinale,3-1,(1-0),EL,Europa League,2020
+2021-02-25,,Dinamo Zagreb,FK Krasnodar,1,0,Sechzehntelfinale,1-0,(1-0),EL,Europa League,2020
+2021-02-25,,Bayer Leverkusen,BSC Young Boys,0,2,Sechzehntelfinale,0-2,(0-0),EL,Europa League,2020
+2021-02-25,,PSV Eindhoven,Olympiakos Piraeus,2,1,Sechzehntelfinale,2-1,(2-0),EL,Europa League,2020
+2021-03-11,18.55,AFC Ajax,BSC Young Boys,3,0,Round of 16,3-0,(0-0),EL,Europa League,2020
+2021-03-11,,Dinamo Kiev,Villarreal CF,0,2,Round of 16,0-2,(0-1),EL,Europa League,2020
+2021-03-11,,Manchester United,AC Milan,1,1,Round of 16,1-1,(0-0),EL,Europa League,2020
+2021-03-11,,Slavia Praha,Rangers FC,1,1,Round of 16,1-1,(1-1),EL,Europa League,2020
+2021-03-11,21.00,AS Roma,Shakhtar Donetsk,3,0,Round of 16,3-0,(1-0),EL,Europa League,2020
+2021-03-11,,Olympiakos Piraeus,Arsenal FC,1,3,Round of 16,1-3,(0-1),EL,Europa League,2020
+2021-03-11,,Tottenham Hotspur,Dinamo Zagreb,2,0,Round of 16,2-0,(1-0),EL,Europa League,2020
+2021-03-11,,Granada CF,Molde FK,2,0,Round of 16,2-0,(1-0),EL,Europa League,2020
+2021-03-18,18.55,Shakhtar Donetsk,AS Roma,1,2,Round of 16,1-2,(0-0),EL,Europa League,2020
+2021-03-18,,Arsenal FC,Olympiakos Piraeus,0,1,Round of 16,0-1,(0-0),EL,Europa League,2020
+2021-03-18,,Dinamo Zagreb,Tottenham Hotspur,3,0,Round of 16,3-0,"a.e.t. (2-0, 0-0)",EL,Europa League,2020
+2021-03-18,,Molde FK,Granada CF,2,1,Round of 16,2-1,(1-0),EL,Europa League,2020
+2021-03-18,21.00,BSC Young Boys,AFC Ajax,0,2,Round of 16,0-2,(0-1),EL,Europa League,2020
+2021-03-18,,Villarreal CF,Dinamo Kiev,2,0,Round of 16,2-0,(2-0),EL,Europa League,2020
+2021-03-18,,AC Milan,Manchester United,0,1,Round of 16,0-1,(0-0),EL,Europa League,2020
+2021-03-18,,Rangers FC,Slavia Praha,0,2,Round of 16,0-2,(0-1),EL,Europa League,2020
+2021-04-08,21.00,Granada CF,Manchester United,0,2,Quarterfinals,0-2,(0-1),EL,Europa League,2020
+2021-04-08,,Arsenal FC,Slavia Praha,1,1,Quarterfinals,1-1,(0-0),EL,Europa League,2020
+2021-04-08,,AFC Ajax,AS Roma,1,2,Quarterfinals,1-2,(1-0),EL,Europa League,2020
+2021-04-08,,Dinamo Zagreb,Villarreal CF,0,1,Quarterfinals,0-1,(0-1),EL,Europa League,2020
+2021-04-15,21.00,Manchester United,Granada CF,2,0,Quarterfinals,2-0,(1-0),EL,Europa League,2020
+2021-04-15,,Slavia Praha,Arsenal FC,0,4,Quarterfinals,0-4,(0-3),EL,Europa League,2020
+2021-04-15,,AS Roma,AFC Ajax,1,1,Quarterfinals,1-1,(0-0),EL,Europa League,2020
+2021-04-15,,Villarreal CF,Dinamo Zagreb,2,1,Quarterfinals,2-1,(2-0),EL,Europa League,2020
+2021-04-29,21.00,Manchester United,AS Roma,6,2,Semifinals,6-2,(1-2),EL,Europa League,2020
+2021-04-29,,Villarreal CF,Arsenal FC,2,1,Semifinals,2-1,(2-0),EL,Europa League,2020
+2021-05-06,21.00,AS Roma,Manchester United,3,2,Semifinals,3-2,(0-1),EL,Europa League,2020
+2021-05-06,,Arsenal FC,Villarreal CF,0,0,Semifinals,0-0,,EL,Europa League,2020
+2021-05-26,21.00,Villarreal CF,Manchester United,11,10,Final,11-10 pen.,"1-1 a.e.t. (1-1, 1-0)",EL,Europa League,2020

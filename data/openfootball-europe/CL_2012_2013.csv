@@ -1,0 +1,126 @@
+date,time,home_team,away_team,home_goals,away_goals,stage,score_token,detail,competition_code,competition_label,season_start
+2012-09-18,20.45,Paris Saint-Germain,Dinamo Kiev,4,1,Group A,4-1,(3-0),CL,Champions League,2012
+2012-09-18,,Dinamo Zagreb,FC Porto,0,2,Group A,0-2,(0-1),CL,Champions League,2012
+2012-10-03,20.45,FC Porto,Paris Saint-Germain,1,0,Group A,1-0,(0-0),CL,Champions League,2012
+2012-10-03,,Dinamo Kiev,Dinamo Zagreb,2,0,Group A,2-0,(2-0),CL,Champions League,2012
+2012-10-24,20.45,FC Porto,Dinamo Kiev,3,2,Group A,3-2,(2-1),CL,Champions League,2012
+2012-10-24,,Dinamo Zagreb,Paris Saint-Germain,0,2,Group A,0-2,(0-2),CL,Champions League,2012
+2012-11-06,20.45,Dinamo Kiev,FC Porto,0,0,Group A,0-0,,CL,Champions League,2012
+2012-11-06,,Paris Saint-Germain,Dinamo Zagreb,4,0,Group A,4-0,(1-0),CL,Champions League,2012
+2012-11-21,20.45,Dinamo Kiev,Paris Saint-Germain,0,2,Group A,0-2,(0-1),CL,Champions League,2012
+2012-11-21,,FC Porto,Dinamo Zagreb,3,0,Group A,3-0,(1-0),CL,Champions League,2012
+2012-12-04,20.45,Paris Saint-Germain,FC Porto,2,1,Group A,2-1,(1-1),CL,Champions League,2012
+2012-12-04,,Dinamo Zagreb,Dinamo Kiev,1,1,Group A,1-1,(0-1),CL,Champions League,2012
+2012-09-18,20.45,Olympiakos Piraeus,FC Schalke 04,1,2,Group B,1-2,(0-1),CL,Champions League,2012
+2012-09-18,,Montpellier HSC,Arsenal FC,1,2,Group B,1-2,(1-2),CL,Champions League,2012
+2012-10-03,20.45,Arsenal FC,Olympiakos Piraeus,3,1,Group B,3-1,(1-1),CL,Champions League,2012
+2012-10-03,,FC Schalke 04,Montpellier HSC,2,2,Group B,2-2,(1-1),CL,Champions League,2012
+2012-10-24,20.45,Arsenal FC,FC Schalke 04,0,2,Group B,0-2,(0-0),CL,Champions League,2012
+2012-10-24,,Montpellier HSC,Olympiakos Piraeus,1,2,Group B,1-2,(0-0),CL,Champions League,2012
+2012-11-06,20.45,FC Schalke 04,Arsenal FC,2,2,Group B,2-2,(1-2),CL,Champions League,2012
+2012-11-06,,Olympiakos Piraeus,Montpellier HSC,3,1,Group B,3-1,(1-0),CL,Champions League,2012
+2012-11-21,20.45,FC Schalke 04,Olympiakos Piraeus,1,0,Group B,1-0,(0-0),CL,Champions League,2012
+2012-11-21,,Arsenal FC,Montpellier HSC,2,0,Group B,2-0,(0-0),CL,Champions League,2012
+2012-12-04,20.45,Olympiakos Piraeus,Arsenal FC,2,1,Group B,2-1,(0-1),CL,Champions League,2012
+2012-12-04,,Montpellier HSC,FC Schalke 04,1,1,Group B,1-1,(0-0),CL,Champions League,2012
+2012-09-18,20.45,AC Milan,RSC Anderlecht,0,0,Group C,0-0,,CL,Champions League,2012
+2012-09-18,,Málaga CF,Zenit St. Petersburg,3,0,Group C,3-0,(2-0),CL,Champions League,2012
+2012-10-03,18.00,Zenit St. Petersburg,AC Milan,2,3,Group C,2-3,(1-2),CL,Champions League,2012
+2012-10-03,20.45,RSC Anderlecht,Málaga CF,0,3,Group C,0-3,(0-1),CL,Champions League,2012
+2012-10-24,18.00,Zenit St. Petersburg,RSC Anderlecht,1,0,Group C,1-0,(0-0),CL,Champions League,2012
+2012-10-24,20.45,Málaga CF,AC Milan,1,0,Group C,1-0,(0-0),CL,Champions League,2012
+2012-11-06,20.45,RSC Anderlecht,Zenit St. Petersburg,1,0,Group C,1-0,(1-0),CL,Champions League,2012
+2012-11-06,,AC Milan,Málaga CF,1,1,Group C,1-1,(0-1),CL,Champions League,2012
+2012-11-21,18.00,Zenit St. Petersburg,Málaga CF,2,2,Group C,2-2,(0-2),CL,Champions League,2012
+2012-11-21,20.45,RSC Anderlecht,AC Milan,1,3,Group C,1-3,(0-0),CL,Champions League,2012
+2012-12-04,20.45,AC Milan,Zenit St. Petersburg,0,1,Group C,0-1,(0-1),CL,Champions League,2012
+2012-12-04,,Málaga CF,RSC Anderlecht,2,2,Group C,2-2,(1-0),CL,Champions League,2012
+2012-09-18,20.45,Real Madrid,Manchester City,3,2,Group D,3-2,(0-0),CL,Champions League,2012
+2012-09-18,,Borussia Dortmund,AFC Ajax,1,0,Group D,1-0,(0-0),CL,Champions League,2012
+2012-10-03,20.45,AFC Ajax,Real Madrid,1,4,Group D,1-4,(0-1),CL,Champions League,2012
+2012-10-03,,Manchester City,Borussia Dortmund,1,1,Group D,1-1,(0-0),CL,Champions League,2012
+2012-10-24,20.45,AFC Ajax,Manchester City,3,1,Group D,3-1,(1-1),CL,Champions League,2012
+2012-10-24,,Borussia Dortmund,Real Madrid,2,1,Group D,2-1,(1-1),CL,Champions League,2012
+2012-11-06,20.45,Manchester City,AFC Ajax,2,2,Group D,2-2,(1-2),CL,Champions League,2012
+2012-11-06,,Real Madrid,Borussia Dortmund,2,2,Group D,2-2,(1-2),CL,Champions League,2012
+2012-11-21,20.45,Manchester City,Real Madrid,1,1,Group D,1-1,(0-1),CL,Champions League,2012
+2012-11-21,,AFC Ajax,Borussia Dortmund,1,4,Group D,1-4,(0-3),CL,Champions League,2012
+2012-12-04,20.45,Real Madrid,AFC Ajax,4,1,Group D,4-1,(2-0),CL,Champions League,2012
+2012-12-04,,Borussia Dortmund,Manchester City,1,0,Group D,1-0,(0-0),CL,Champions League,2012
+2012-09-19,20.45,Chelsea FC,Juventus,2,2,Group E,2-2,(2-1),CL,Champions League,2012
+2012-09-19,,Shakhtar Donetsk,FC Nordsjælland,2,0,Group E,2-0,(1-0),CL,Champions League,2012
+2012-10-02,20.45,Juventus,Shakhtar Donetsk,1,1,Group E,1-1,(1-1),CL,Champions League,2012
+2012-10-02,,FC Nordsjælland,Chelsea FC,0,4,Group E,0-4,(0-1),CL,Champions League,2012
+2012-10-23,20.45,Shakhtar Donetsk,Chelsea FC,2,1,Group E,2-1,(1-0),CL,Champions League,2012
+2012-10-23,,FC Nordsjælland,Juventus,1,1,Group E,1-1,(0-0),CL,Champions League,2012
+2012-11-07,20.45,Chelsea FC,Shakhtar Donetsk,3,2,Group E,3-2,(2-1),CL,Champions League,2012
+2012-11-07,,Juventus,FC Nordsjælland,4,0,Group E,4-0,(3-0),CL,Champions League,2012
+2012-11-20,20.45,Juventus,Chelsea FC,3,0,Group E,3-0,(1-0),CL,Champions League,2012
+2012-11-20,,FC Nordsjælland,Shakhtar Donetsk,2,5,Group E,2-5,(2-2),CL,Champions League,2012
+2012-12-05,20.45,Shakhtar Donetsk,Juventus,0,1,Group E,0-1,(0-0),CL,Champions League,2012
+2012-12-05,,Chelsea FC,FC Nordsjælland,6,1,Group E,6-1,(2-0),CL,Champions League,2012
+2012-09-19,20.45,Bayern München,Valencia CF,2,1,Group F,2-1,(1-0),CL,Champions League,2012
+2012-09-19,,Lille OSC,BATE Borisov,1,3,Group F,1-3,(0-3),CL,Champions League,2012
+2012-10-02,20.45,Valencia CF,Lille OSC,2,0,Group F,2-0,(1-0),CL,Champions League,2012
+2012-10-02,,BATE Borisov,Bayern München,3,1,Group F,3-1,(1-0),CL,Champions League,2012
+2012-10-23,20.45,Lille OSC,Bayern München,0,1,Group F,0-1,(0-1),CL,Champions League,2012
+2012-10-23,,BATE Borisov,Valencia CF,0,3,Group F,0-3,(0-1),CL,Champions League,2012
+2012-11-07,20.45,Bayern München,Lille OSC,6,1,Group F,6-1,(5-0),CL,Champions League,2012
+2012-11-07,,Valencia CF,BATE Borisov,4,2,Group F,4-2,(2-0),CL,Champions League,2012
+2012-11-20,18.00,BATE Borisov,Lille OSC,0,2,Group F,0-2,(0-2),CL,Champions League,2012
+2012-11-20,20.45,Valencia CF,Bayern München,1,1,Group F,1-1,(0-0),CL,Champions League,2012
+2012-12-05,20.45,Lille OSC,Valencia CF,0,1,Group F,0-1,(0-1),CL,Champions League,2012
+2012-12-05,,Bayern München,BATE Borisov,4,1,Group F,4-1,(1-0),CL,Champions League,2012
+2012-09-19,20.45,FC Barcelona,Spartak Moskva,3,2,Group G,3-2,(1-1),CL,Champions League,2012
+2012-09-19,,Celtic FC,SL Benfica,0,0,Group G,0-0,,CL,Champions League,2012
+2012-10-02,18.00,Spartak Moskva,Celtic FC,2,3,Group G,2-3,(1-1),CL,Champions League,2012
+2012-10-02,20.45,SL Benfica,FC Barcelona,0,2,Group G,0-2,(0-1),CL,Champions League,2012
+2012-10-23,18.00,Spartak Moskva,SL Benfica,2,1,Group G,2-1,(2-1),CL,Champions League,2012
+2012-10-23,20.45,FC Barcelona,Celtic FC,2,1,Group G,2-1,(1-1),CL,Champions League,2012
+2012-11-07,20.45,SL Benfica,Spartak Moskva,2,0,Group G,2-0,(0-0),CL,Champions League,2012
+2012-11-07,,Celtic FC,FC Barcelona,2,1,Group G,2-1,(1-0),CL,Champions League,2012
+2012-11-20,18.00,Spartak Moskva,FC Barcelona,0,3,Group G,0-3,(0-3),CL,Champions League,2012
+2012-11-20,20.45,SL Benfica,Celtic FC,2,1,Group G,2-1,(1-1),CL,Champions League,2012
+2012-12-05,20.45,FC Barcelona,SL Benfica,0,0,Group G,0-0,,CL,Champions League,2012
+2012-12-05,,Celtic FC,Spartak Moskva,2,1,Group G,2-1,(1-1),CL,Champions League,2012
+2012-09-19,20.45,Manchester United,Galatasaray,1,0,Group H,1-0,(1-0),CL,Champions League,2012
+2012-09-19,,Sporting Braga,CFR Cluj,0,2,Group H,0-2,(0-2),CL,Champions League,2012
+2012-10-02,20.45,Galatasaray,Sporting Braga,0,2,Group H,0-2,(0-1),CL,Champions League,2012
+2012-10-02,,CFR Cluj,Manchester United,1,2,Group H,1-2,(1-1),CL,Champions League,2012
+2012-10-23,20.45,Manchester United,Sporting Braga,3,2,Group H,3-2,(1-2),CL,Champions League,2012
+2012-10-23,,Galatasaray,CFR Cluj,1,1,Group H,1-1,(0-1),CL,Champions League,2012
+2012-11-07,20.45,Sporting Braga,Manchester United,1,3,Group H,1-3,(0-0),CL,Champions League,2012
+2012-11-07,,CFR Cluj,Galatasaray,1,3,Group H,1-3,(0-1),CL,Champions League,2012
+2012-11-20,20.45,Galatasaray,Manchester United,1,0,Group H,1-0,(0-0),CL,Champions League,2012
+2012-11-20,,CFR Cluj,Sporting Braga,3,1,Group H,3-1,(3-1),CL,Champions League,2012
+2012-12-05,20.45,Sporting Braga,Galatasaray,1,2,Group H,1-2,(1-0),CL,Champions League,2012
+2012-12-05,,Manchester United,CFR Cluj,0,1,Group H,0-1,(0-0),CL,Champions League,2012
+2013-02-12,20.45,Celtic FC,Juventus,0,3,Round of 16,0-3,(0-1),CL,Champions League,2012
+2013-02-12,,Valencia CF,Paris Saint-Germain,1,2,Round of 16,1-2,(0-2),CL,Champions League,2012
+2013-02-13,20.45,Shakhtar Donetsk,Borussia Dortmund,2,2,Round of 16,2-2,(1-1),CL,Champions League,2012
+2013-02-13,,Real Madrid,Manchester United,1,1,Round of 16,1-1,(1-1),CL,Champions League,2012
+2013-02-19,20.45,Arsenal FC,Bayern München,1,3,Round of 16,1-3,(0-2),CL,Champions League,2012
+2013-02-19,,FC Porto,Málaga CF,1,0,Round of 16,1-0,(0-0),CL,Champions League,2012
+2013-02-20,20.45,Galatasaray,FC Schalke 04,1,1,Round of 16,1-1,(1-1),CL,Champions League,2012
+2013-02-20,,AC Milan,FC Barcelona,2,0,Round of 16,2-0,(0-0),CL,Champions League,2012
+2013-03-05,20.45,Borussia Dortmund,Shakhtar Donetsk,3,0,Round of 16,3-0,(2-0),CL,Champions League,2012
+2013-03-05,,Manchester United,Real Madrid,1,2,Round of 16,1-2,(0-0),CL,Champions League,2012
+2013-03-06,20.45,Juventus,Celtic FC,2,0,Round of 16,2-0,(1-0),CL,Champions League,2012
+2013-03-06,,Paris Saint-Germain,Valencia CF,1,1,Round of 16,1-1,(0-0),CL,Champions League,2012
+2013-03-12,20.45,FC Schalke 04,Galatasaray,2,3,Round of 16,2-3,(1-2),CL,Champions League,2012
+2013-03-12,,FC Barcelona,AC Milan,4,0,Round of 16,4-0,(2-0),CL,Champions League,2012
+2013-03-13,20.45,Bayern München,Arsenal FC,0,2,Round of 16,0-2,(0-1),CL,Champions League,2012
+2013-03-13,,Málaga CF,FC Porto,2,0,Round of 16,2-0,(1-0),CL,Champions League,2012
+2013-04-02,20.45,Paris Saint-Germain,FC Barcelona,2,2,Quarterfinals,2-2,(0-1),CL,Champions League,2012
+2013-04-02,,Bayern München,Juventus,2,0,Quarterfinals,2-0,(1-0),CL,Champions League,2012
+2013-04-03,20.45,Málaga CF,Borussia Dortmund,0,0,Quarterfinals,0-0,,CL,Champions League,2012
+2013-04-03,,Real Madrid,Galatasaray,3,0,Quarterfinals,3-0,(2-0),CL,Champions League,2012
+2013-04-09,20.45,Borussia Dortmund,Málaga CF,3,2,Quarterfinals,3-2,(1-1),CL,Champions League,2012
+2013-04-09,,Galatasaray,Real Madrid,3,2,Quarterfinals,3-2,(0-1),CL,Champions League,2012
+2013-04-10,20.45,FC Barcelona,Paris Saint-Germain,1,1,Quarterfinals,1-1,(0-0),CL,Champions League,2012
+2013-04-10,,Juventus,Bayern München,0,2,Quarterfinals,0-2,(0-0),CL,Champions League,2012
+2013-04-23,20.45,Bayern München,FC Barcelona,4,0,Semifinals,4-0,(1-0),CL,Champions League,2012
+2013-04-24,20.45,Borussia Dortmund,Real Madrid,4,1,Semifinals,4-1,(1-1),CL,Champions League,2012
+2013-04-30,20.45,Real Madrid,Borussia Dortmund,2,0,Semifinals,2-0,(0-0),CL,Champions League,2012
+2013-05-01,20.45,FC Barcelona,Bayern München,0,3,Semifinals,0-3,(0-0),CL,Champions League,2012
+2013-05-25,20.45,Borussia Dortmund,Bayern München,1,2,Final,1-2,(0-0),CL,Champions League,2012

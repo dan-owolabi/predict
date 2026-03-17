@@ -1,0 +1,126 @@
+date,time,home_team,away_team,home_goals,away_goals,stage,score_token,detail,competition_code,competition_label,season_start
+2021-09-15,21.00,Manchester City,RB Leipzig,6,3,Group A,6-3,(3-1),CL,Champions League,2021
+2021-09-15,,Club Brugge KV,Paris Saint-Germain,1,1,Group A,1-1,(1-1),CL,Champions League,2021
+2021-09-28,21.00,Paris Saint-Germain,Manchester City,2,0,Group A,2-0,(1-0),CL,Champions League,2021
+2021-09-28,,RB Leipzig,Club Brugge KV,1,2,Group A,1-2,(1-2),CL,Champions League,2021
+2021-10-19,18.45,Club Brugge KV,Manchester City,1,5,Group A,1-5,(0-2),CL,Champions League,2021
+2021-10-19,21.00,Paris Saint-Germain,RB Leipzig,3,2,Group A,3-2,(1-1),CL,Champions League,2021
+2021-11-03,21.00,RB Leipzig,Paris Saint-Germain,2,2,Group A,2-2,(1-2),CL,Champions League,2021
+2021-11-03,,Manchester City,Club Brugge KV,4,1,Group A,4-1,(1-1),CL,Champions League,2021
+2021-11-24,21.00,Manchester City,Paris Saint-Germain,2,1,Group A,2-1,(0-0),CL,Champions League,2021
+2021-11-24,,Club Brugge KV,RB Leipzig,0,5,Group A,0-5,(0-4),CL,Champions League,2021
+2021-12-07,18.45,RB Leipzig,Manchester City,2,1,Group A,2-1,(1-0),CL,Champions League,2021
+2021-12-07,,Paris Saint-Germain,Club Brugge KV,4,1,Group A,4-1,(3-0),CL,Champions League,2021
+2021-09-15,21.00,Atlético Madrid,FC Porto,0,0,Group B,0-0,,CL,Champions League,2021
+2021-09-15,,Liverpool FC,AC Milan,3,2,Group B,3-2,(1-2),CL,Champions League,2021
+2021-09-28,21.00,FC Porto,Liverpool FC,1,5,Group B,1-5,(0-2),CL,Champions League,2021
+2021-09-28,,AC Milan,Atlético Madrid,1,2,Group B,1-2,(1-0),CL,Champions League,2021
+2021-10-19,21.00,Atlético Madrid,Liverpool FC,2,3,Group B,2-3,(2-2),CL,Champions League,2021
+2021-10-19,,FC Porto,AC Milan,1,0,Group B,1-0,(0-0),CL,Champions League,2021
+2021-11-03,18.45,AC Milan,FC Porto,1,1,Group B,1-1,(0-1),CL,Champions League,2021
+2021-11-03,21.00,Liverpool FC,Atlético Madrid,2,0,Group B,2-0,(2-0),CL,Champions League,2021
+2021-11-24,21.00,Liverpool FC,FC Porto,2,0,Group B,2-0,(0-0),CL,Champions League,2021
+2021-11-24,,Atlético Madrid,AC Milan,0,1,Group B,0-1,(0-0),CL,Champions League,2021
+2021-12-07,21.00,FC Porto,Atlético Madrid,1,3,Group B,1-3,(0-0),CL,Champions League,2021
+2021-12-07,,AC Milan,Liverpool FC,1,2,Group B,1-2,(1-1),CL,Champions League,2021
+2021-09-15,18.45,Beşiktaş,Borussia Dortmund,1,2,Group C,1-2,(0-2),CL,Champions League,2021
+2021-09-15,21.00,Sporting CP,AFC Ajax,1,5,Group C,1-5,(1-3),CL,Champions League,2021
+2021-09-28,18.45,AFC Ajax,Beşiktaş,2,0,Group C,2-0,(2-0),CL,Champions League,2021
+2021-09-28,21.00,Borussia Dortmund,Sporting CP,1,0,Group C,1-0,(1-0),CL,Champions League,2021
+2021-10-19,18.45,Beşiktaş,Sporting CP,1,4,Group C,1-4,(1-3),CL,Champions League,2021
+2021-10-19,21.00,AFC Ajax,Borussia Dortmund,4,0,Group C,4-0,(2-0),CL,Champions League,2021
+2021-11-03,21.00,Borussia Dortmund,AFC Ajax,1,3,Group C,1-3,(1-0),CL,Champions League,2021
+2021-11-03,,Sporting CP,Beşiktaş,4,0,Group C,4-0,(3-0),CL,Champions League,2021
+2021-11-24,18.45,Beşiktaş,AFC Ajax,1,2,Group C,1-2,(1-0),CL,Champions League,2021
+2021-11-24,21.00,Sporting CP,Borussia Dortmund,3,1,Group C,3-1,(2-0),CL,Champions League,2021
+2021-12-07,21.00,AFC Ajax,Sporting CP,4,2,Group C,4-2,(2-1),CL,Champions League,2021
+2021-12-07,,Borussia Dortmund,Beşiktaş,5,0,Group C,5-0,(2-0),CL,Champions League,2021
+2021-09-15,18.45,FC Sheriff,Shakhtar Donetsk,2,0,Group D,2-0,(1-0),CL,Champions League,2021
+2021-09-15,21.00,Inter,Real Madrid,0,1,Group D,0-1,(0-0),CL,Champions League,2021
+2021-09-28,18.45,Shakhtar Donetsk,Inter,0,0,Group D,0-0,,CL,Champions League,2021
+2021-09-28,21.00,Real Madrid,FC Sheriff,1,2,Group D,1-2,(0-1),CL,Champions League,2021
+2021-10-19,21.00,Shakhtar Donetsk,Real Madrid,0,5,Group D,0-5,(0-1),CL,Champions League,2021
+2021-10-19,,Inter,FC Sheriff,3,1,Group D,3-1,(1-0),CL,Champions League,2021
+2021-11-03,18.45,Real Madrid,Shakhtar Donetsk,2,1,Group D,2-1,(1-1),CL,Champions League,2021
+2021-11-03,21.00,FC Sheriff,Inter,1,3,Group D,1-3,(0-0),CL,Champions League,2021
+2021-11-24,18.45,Inter,Shakhtar Donetsk,2,0,Group D,2-0,(0-0),CL,Champions League,2021
+2021-11-24,21.00,FC Sheriff,Real Madrid,0,3,Group D,0-3,(0-2),CL,Champions League,2021
+2021-12-07,21.00,Real Madrid,Inter,2,0,Group D,2-0,(1-0),CL,Champions League,2021
+2021-12-07,,Shakhtar Donetsk,FC Sheriff,1,1,Group D,1-1,(1-0),CL,Champions League,2021
+2021-09-14,21.00,FC Barcelona,Bayern München,0,3,Group E,0-3,(0-1),CL,Champions League,2021
+2021-09-14,,Dinamo Kiev,SL Benfica,0,0,Group E,0-0,,CL,Champions League,2021
+2021-09-29,21.00,SL Benfica,FC Barcelona,3,0,Group E,3-0,(1-0),CL,Champions League,2021
+2021-09-29,,Bayern München,Dinamo Kiev,5,0,Group E,5-0,(2-0),CL,Champions League,2021
+2021-10-20,18.45,FC Barcelona,Dinamo Kiev,1,0,Group E,1-0,(1-0),CL,Champions League,2021
+2021-10-20,21.00,SL Benfica,Bayern München,0,4,Group E,0-4,(0-0),CL,Champions League,2021
+2021-11-02,21.00,Bayern München,SL Benfica,5,2,Group E,5-2,(2-1),CL,Champions League,2021
+2021-11-02,,Dinamo Kiev,FC Barcelona,0,1,Group E,0-1,(0-0),CL,Champions League,2021
+2021-11-23,18.45,Dinamo Kiev,Bayern München,1,2,Group E,1-2,(0-2),CL,Champions League,2021
+2021-11-23,21.00,FC Barcelona,SL Benfica,0,0,Group E,0-0,,CL,Champions League,2021
+2021-12-08,21.00,Bayern München,FC Barcelona,3,0,Group E,3-0,(2-0),CL,Champions League,2021
+2021-12-08,,SL Benfica,Dinamo Kiev,2,0,Group E,2-0,(2-0),CL,Champions League,2021
+2021-09-14,18.45,BSC Young Boys,Manchester United,2,1,Group F,2-1,(0-1),CL,Champions League,2021
+2021-09-14,21.00,Villarreal CF,Atalanta,2,2,Group F,2-2,(1-1),CL,Champions League,2021
+2021-09-29,18.45,Atalanta,BSC Young Boys,1,0,Group F,1-0,(0-0),CL,Champions League,2021
+2021-09-29,21.00,Manchester United,Villarreal CF,2,1,Group F,2-1,(0-0),CL,Champions League,2021
+2021-10-20,21.00,Manchester United,Atalanta,3,2,Group F,3-2,(0-2),CL,Champions League,2021
+2021-10-20,,BSC Young Boys,Villarreal CF,1,4,Group F,1-4,(0-2),CL,Champions League,2021
+2021-11-02,21.00,Atalanta,Manchester United,2,2,Group F,2-2,(1-1),CL,Champions League,2021
+2021-11-02,,Villarreal CF,BSC Young Boys,2,0,Group F,2-0,(1-0),CL,Champions League,2021
+2021-11-23,18.45,Villarreal CF,Manchester United,0,2,Group F,0-2,(0-0),CL,Champions League,2021
+2021-11-23,21.00,BSC Young Boys,Atalanta,3,3,Group F,3-3,(1-1),CL,Champions League,2021
+2021-12-08,21.00,Manchester United,BSC Young Boys,1,1,Group F,1-1,(1-1),CL,Champions League,2021
+2021-12-09,19.00,Atalanta,Villarreal CF,2,3,Group F,2-3,(0-2),CL,Champions League,2021
+2021-09-14,18.45,Sevilla FC,RB Salzburg,1,1,Gruppe G,1-1,(1-1),CL,Champions League,2021
+2021-09-14,21.00,Lille OSC,VfL Wolfsburg,0,0,Gruppe G,0-0,,CL,Champions League,2021
+2021-09-29,21.00,RB Salzburg,Lille OSC,2,1,Gruppe G,2-1,(1-0),CL,Champions League,2021
+2021-09-29,,VfL Wolfsburg,Sevilla FC,1,1,Gruppe G,1-1,(0-0),CL,Champions League,2021
+2021-10-20,18.45,RB Salzburg,VfL Wolfsburg,3,1,Gruppe G,3-1,(1-1),CL,Champions League,2021
+2021-10-20,21.00,Lille OSC,Sevilla FC,0,0,Gruppe G,0-0,,CL,Champions League,2021
+2021-11-02,18.45,VfL Wolfsburg,RB Salzburg,2,1,Gruppe G,2-1,(1-1),CL,Champions League,2021
+2021-11-02,21.00,Sevilla FC,Lille OSC,1,2,Gruppe G,1-2,(1-1),CL,Champions League,2021
+2021-11-23,21.00,Lille OSC,RB Salzburg,1,0,Gruppe G,1-0,(1-0),CL,Champions League,2021
+2021-11-23,,Sevilla FC,VfL Wolfsburg,2,0,Gruppe G,2-0,(1-0),CL,Champions League,2021
+2021-12-08,21.00,RB Salzburg,Sevilla FC,1,0,Gruppe G,1-0,(0-0),CL,Champions League,2021
+2021-12-08,,VfL Wolfsburg,Lille OSC,1,3,Gruppe G,1-3,(0-1),CL,Champions League,2021
+2021-09-14,21.00,Chelsea FC,Zenit St. Petersburg,1,0,Gruppe H,1-0,(0-0),CL,Champions League,2021
+2021-09-14,,Malmö FF,Juventus,0,3,Gruppe H,0-3,(0-3),CL,Champions League,2021
+2021-09-29,18.45,Zenit St. Petersburg,Malmö FF,4,0,Gruppe H,4-0,(1-0),CL,Champions League,2021
+2021-09-29,21.00,Juventus,Chelsea FC,1,0,Gruppe H,1-0,(0-0),CL,Champions League,2021
+2021-10-20,21.00,Zenit St. Petersburg,Juventus,0,1,Gruppe H,0-1,(0-0),CL,Champions League,2021
+2021-10-20,,Chelsea FC,Malmö FF,4,0,Gruppe H,4-0,(2-0),CL,Champions League,2021
+2021-11-02,18.45,Malmö FF,Chelsea FC,0,1,Gruppe H,0-1,(0-0),CL,Champions League,2021
+2021-11-02,21.00,Juventus,Zenit St. Petersburg,4,2,Gruppe H,4-2,(1-1),CL,Champions League,2021
+2021-11-23,21.00,Chelsea FC,Juventus,4,0,Gruppe H,4-0,(1-0),CL,Champions League,2021
+2021-11-23,,Malmö FF,Zenit St. Petersburg,1,1,Gruppe H,1-1,(1-0),CL,Champions League,2021
+2021-12-08,18.45,Zenit St. Petersburg,Chelsea FC,3,3,Gruppe H,3-3,(2-1),CL,Champions League,2021
+2021-12-08,,Juventus,Malmö FF,1,0,Gruppe H,1-0,(1-0),CL,Champions League,2021
+2022-02-15,21.00,Sporting CP,Manchester City,0,5,Round of 16,0-5,(0-4),CL,Champions League,2021
+2022-02-15,,Paris Saint-Germain,Real Madrid,1,0,Round of 16,1-0,(0-0),CL,Champions League,2021
+2022-02-16,21.00,RB Salzburg,Bayern München,1,1,Round of 16,1-1,(1-0),CL,Champions League,2021
+2022-02-16,,Inter,Liverpool FC,0,2,Round of 16,0-2,(0-0),CL,Champions League,2021
+2022-02-22,21.00,Chelsea FC,Lille OSC,2,0,Round of 16,2-0,(1-0),CL,Champions League,2021
+2022-02-22,,Villarreal CF,Juventus,1,1,Round of 16,1-1,(0-1),CL,Champions League,2021
+2022-02-23,21.00,SL Benfica,AFC Ajax,2,2,Round of 16,2-2,(1-2),CL,Champions League,2021
+2022-02-23,,Atlético Madrid,Manchester United,1,1,Round of 16,1-1,(1-0),CL,Champions League,2021
+2022-03-08,21.00,Bayern München,RB Salzburg,7,1,Round of 16,7-1,(4-0),CL,Champions League,2021
+2022-03-08,,Liverpool FC,Inter,0,1,Round of 16,0-1,(0-0),CL,Champions League,2021
+2022-03-09,21.00,Manchester City,Sporting CP,0,0,Round of 16,0-0,,CL,Champions League,2021
+2022-03-09,,Real Madrid,Paris Saint-Germain,3,1,Round of 16,3-1,(0-1),CL,Champions League,2021
+2022-03-15,21.00,AFC Ajax,SL Benfica,0,1,Round of 16,0-1,(0-0),CL,Champions League,2021
+2022-03-15,,Manchester United,Atlético Madrid,0,1,Round of 16,0-1,(0-1),CL,Champions League,2021
+2022-03-16,21.00,Lille OSC,Chelsea FC,1,2,Round of 16,1-2,(1-1),CL,Champions League,2021
+2022-03-16,,Juventus,Villarreal CF,0,3,Round of 16,0-3,(0-0),CL,Champions League,2021
+2022-04-05,21.00,Manchester City,Atlético Madrid,1,0,Quarterfinals,1-0,(0-0),CL,Champions League,2021
+2022-04-05,,SL Benfica,Liverpool FC,1,3,Quarterfinals,1-3,(0-2),CL,Champions League,2021
+2022-04-06,21.00,Chelsea FC,Real Madrid,1,3,Quarterfinals,1-3,(1-2),CL,Champions League,2021
+2022-04-06,,Villarreal CF,Bayern München,1,0,Quarterfinals,1-0,(1-0),CL,Champions League,2021
+2022-04-12,21.00,Real Madrid,Chelsea FC,2,3,Quarterfinals,2-3,"a.e.t. (1-3, 0-1)",CL,Champions League,2021
+2022-04-12,,Bayern München,Villarreal CF,1,1,Quarterfinals,1-1,(0-0),CL,Champions League,2021
+2022-04-13,21.00,Atlético Madrid,Manchester City,0,0,Quarterfinals,0-0,,CL,Champions League,2021
+2022-04-13,,Liverpool FC,SL Benfica,3,3,Quarterfinals,3-3,(1-1),CL,Champions League,2021
+2022-04-26,21.00,Manchester City,Real Madrid,4,3,Semifinals,4-3,(2-1),CL,Champions League,2021
+2022-04-27,21.00,Liverpool FC,Villarreal CF,2,0,Semifinals,2-0,(0-0),CL,Champions League,2021
+2022-05-03,21.00,Villarreal CF,Liverpool FC,2,3,Semifinals,2-3,(2-0),CL,Champions League,2021
+2022-05-04,21.00,Real Madrid,Manchester City,3,1,Semifinals,3-1,"a.e.t. (2-1, 0-0)",CL,Champions League,2021
+2022-05-28,21.35,Liverpool FC,Real Madrid,0,1,Final,0-1,(0-0),CL,Champions League,2021
