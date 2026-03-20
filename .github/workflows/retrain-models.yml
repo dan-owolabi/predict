@@ -1,0 +1,41 @@
+name: Retrain Models
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * 1"
+    - cron: "0 2 * * 4"
+
+permissions:
+  contents: write
+
+jobs:
+  retrain:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Refresh data
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+        run: python refresh_match_data.py
+      - name: Retrain EPL models
+        run: python retrain_epl.py
+      - name: Retrain Europe models
+        run: python retrain_europe.py
+      - name: Publish status
+        run: python publish_artifacts.py
+      - name: Commit artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add production_artifacts.pkl lgb_*.txt market_models player_prop_models europe_models europe_market_models cv_results*.csv market_cv_results.csv player_prop_cv_results.csv europe_cv_results.csv europe_market_cv_results.csv weekly_fixtures.json automation_status.json data
+          git diff --cached --quiet || git commit -m "Automated retrain artifacts"
+          git push

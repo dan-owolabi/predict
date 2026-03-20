@@ -69,6 +69,9 @@ logging.getLogger("telegram").setLevel(logging.WARNING)
 # ============================================================
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
+WEBHOOK_URL = os.environ.get("WEBHOOK_URL", "").strip()
+PORT = int(os.environ.get("PORT", "10000"))
+ADMIN_USER_ID = os.environ.get("ADMIN_USER_ID", "").strip()
 BASE_DIR = Path(__file__).parent
 FIXTURES_PATH = BASE_DIR / "weekly_fixtures.json"
 CV_RESULTS_PATH = BASE_DIR / "cv_results_enriched.csv"
@@ -1802,6 +1805,14 @@ async def pattern_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(report)
 
 
+async def reload_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_id = str(getattr(update.effective_user, "id", ""))
+    if not ADMIN_USER_ID or user_id != ADMIN_USER_ID:
+        await update.message.reply_text("Unauthorized.")
+        return
+    await update.message.reply_text("Reload is not hot-swapped in-process. Deploy the latest commit to reload models safely.")
+
+
 # ============================================================
 # MAIN
 # ============================================================
@@ -1814,10 +1825,22 @@ def main():
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("predict", predict_cmd))
     app.add_handler(CommandHandler("pattern", pattern_cmd))
+    app.add_handler(CommandHandler("reload", reload_cmd))
     app.add_handler(CallbackQueryHandler(btn))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, msg))
     print("Bot live! Send /start in Telegram.\n")
-    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    if WEBHOOK_URL:
+        print(f"Webhook mode on port {PORT}")
+        app.run_webhook(
+            listen="0.0.0.0",
+            port=PORT,
+            url_path=BOT_TOKEN,
+            webhook_url=f"{WEBHOOK_URL.rstrip('/')}/{BOT_TOKEN}",
+            allowed_updates=Update.ALL_TYPES,
+            drop_pending_updates=True,
+        )
+    else:
+        app.run_polling(allowed_updates=Update.ALL_TYPES, drop_pending_updates=True)
 
 
 if __name__ == '__main__':

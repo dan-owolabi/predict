@@ -9,3 +9,4 @@ beautifulsoup4==4.14.3
 lxml==6.0.2
 understatapi==0.7.1
 python-dateutil==2.9.0.post0
+pypdf==6.9.1

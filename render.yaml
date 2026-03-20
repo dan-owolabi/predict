@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: football-prediction-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python football_bot_FINAL.py
+    autoDeploy: true
