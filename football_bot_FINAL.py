@@ -78,6 +78,8 @@ EUROPE_MODEL_DIR = BASE_DIR / "europe_models"
 EUROPE_CV_PATH = BASE_DIR / "europe_cv_results.csv"
 EUROPE_DATA_PATH = BASE_DIR / "data" / "europe_training_data.csv"
 EUROPE_TEAM_PATH = BASE_DIR / "data" / "europe_team_universe.csv"
+EUROPE_SUPPORT_STATS_PATH = BASE_DIR / "data" / "football-data-support" / "support_leagues_all.csv"
+UEFA_STATS_PATH = BASE_DIR / "data" / "uefa_stats" / "uefa_match_stats.csv"
 
 # ============================================================
 # LOAD PRODUCTION MODELS
@@ -261,6 +263,192 @@ def _load_europe_team_hist():
 
 
 EUROPE_TEAM_HIST = _load_europe_team_hist()
+
+
+PATTERN_SPECS = {
+    "shots": {
+        "label": "Shots",
+        "home_col": "HS",
+        "away_col": "AS",
+        "total_col": "TOTAL_SHOTS",
+        "home_line": 11.5,
+        "away_line": 9.5,
+        "total_line": 22.5,
+    },
+    "sot": {
+        "label": "Shots On Target",
+        "home_col": "HST",
+        "away_col": "AST",
+        "total_col": "TOTAL_SOT",
+        "home_line": 3.5,
+        "away_line": 2.5,
+        "total_line": 7.5,
+    },
+    "corners": {
+        "label": "Corners",
+        "home_col": "HC",
+        "away_col": "AC",
+        "total_col": "TOTAL_CORNERS",
+        "home_line": 4.5,
+        "away_line": 3.5,
+        "total_line": 8.5,
+    },
+    "bookings": {
+        "label": "Bookings",
+        "home_col": "HY",
+        "away_col": "AY",
+        "total_col": "TOTAL_BOOKINGS",
+        "home_line": 1.5,
+        "away_line": 1.5,
+        "total_line": 3.5,
+    },
+    "fouls": {
+        "label": "Fouls",
+        "home_col": "HF",
+        "away_col": "AF",
+        "total_col": "TOTAL_FOULS",
+        "home_line": 9.5,
+        "away_line": 9.5,
+        "total_line": 20.5,
+    },
+}
+
+
+def _pattern_market_from_text(text):
+    lower = str(text or "").lower()
+    if "shot on target" in lower or "shots on target" in lower or "sot" in lower:
+        return "sot"
+    if "corner" in lower:
+        return "corners"
+    if "booking" in lower or "card" in lower:
+        return "bookings"
+    if "foul" in lower:
+        return "fouls"
+    if "shot" in lower:
+        return "shots"
+    return None
+
+
+def _normalize_pattern_df(df, home_team_col, away_team_col, date_col, comp_label, col_map):
+    out = df.copy()
+    out["Date"] = pd.to_datetime(out[date_col], errors="coerce")
+    out["HomeTeam"] = out[home_team_col].astype(str)
+    out["AwayTeam"] = out[away_team_col].astype(str)
+    out["competition"] = comp_label
+    for src, dst in col_map.items():
+        if src in out.columns:
+            out[dst] = pd.to_numeric(out[src], errors="coerce")
+        else:
+            out[dst] = np.nan
+    out["TOTAL_SHOTS"] = out["HS"] + out["AS"]
+    out["TOTAL_SOT"] = out["HST"] + out["AST"]
+    out["TOTAL_CORNERS"] = out["HC"] + out["AC"]
+    out["TOTAL_BOOKINGS"] = out["HY"] + out["AY"]
+    out["TOTAL_FOULS"] = out["HF"] + out["AF"]
+    return out[[
+        "Date", "HomeTeam", "AwayTeam", "competition",
+        "HS", "AS", "HST", "AST", "HC", "AC", "HY", "AY", "HF", "AF",
+        "TOTAL_SHOTS", "TOTAL_SOT", "TOTAL_CORNERS", "TOTAL_BOOKINGS", "TOTAL_FOULS",
+    ]]
+
+
+def _load_pattern_history():
+    frames = []
+    hist_cols = {"HS": "HS", "AS": "AS", "HST": "HST", "AST": "AST", "HC": "HC", "AC": "AC", "HY": "HY", "AY": "AY", "HF": "HF", "AF": "AF"}
+    frames.append(_normalize_pattern_df(HISTORICAL_DF, "HomeTeam", "AwayTeam", "Date", "EPL", hist_cols))
+
+    if EUROPE_SUPPORT_STATS_PATH.exists():
+        support_df = pd.read_csv(EUROPE_SUPPORT_STATS_PATH, low_memory=False)
+        frames.append(_normalize_pattern_df(support_df, "HomeTeam", "AwayTeam", "Date", "EU_SUPPORT", hist_cols))
+
+    if UEFA_STATS_PATH.exists():
+        uefa_df = pd.read_csv(UEFA_STATS_PATH, low_memory=False)
+        frames.append(_normalize_pattern_df(
+            uefa_df, "HomeTeam", "AwayTeam", "Date", "UEFA",
+            {
+                "home_shots": "HS", "away_shots": "AS",
+                "home_sot": "HST", "away_sot": "AST",
+                "home_corners": "HC", "away_corners": "AC",
+                "home_bookings": "HY", "away_bookings": "AY",
+                "home_fouls": "HF", "away_fouls": "AF",
+            },
+        ))
+
+    out = pd.concat(frames, ignore_index=True)
+    out = out.dropna(subset=["Date", "HomeTeam", "AwayTeam"]).sort_values("Date").reset_index(drop=True)
+    out = out.drop_duplicates(
+        subset=["Date", "HomeTeam", "AwayTeam", "HS", "AS", "HC", "AC", "HY", "AY", "HF", "AF"]
+    ).reset_index(drop=True)
+    out["home_key"] = out["HomeTeam"].map(lambda x: europe_canonical_name(x) if europe_canonical_name else str(x).lower())
+    out["away_key"] = out["AwayTeam"].map(lambda x: europe_canonical_name(x) if europe_canonical_name else str(x).lower())
+    return out
+
+
+PATTERN_HISTORY_DF = _load_pattern_history()
+
+
+def _safe_mean(series):
+    series = pd.to_numeric(series, errors="coerce").dropna()
+    return float(series.mean()) if not series.empty else np.nan
+
+
+def _safe_hit_rate(series, line):
+    series = pd.to_numeric(series, errors="coerce").dropna()
+    if series.empty:
+        return None
+    return float((series > line).mean()) * 100.0
+
+
+def generate_pattern_report(home, away, market_key):
+    spec = PATTERN_SPECS[market_key]
+    home_key = europe_canonical_name(home) if europe_canonical_name else str(home).lower()
+    away_key = europe_canonical_name(away) if europe_canonical_name else str(away).lower()
+    df = PATTERN_HISTORY_DF.copy()
+
+    home_home = df[df["home_key"] == home_key].tail(5)
+    away_away = df[df["away_key"] == away_key].tail(5)
+    h2h = df[
+        ((df["home_key"] == home_key) & (df["away_key"] == away_key)) |
+        ((df["home_key"] == away_key) & (df["away_key"] == home_key))
+    ].tail(5)
+
+    home_for = _safe_mean(home_home[spec["home_col"]])
+    home_against = _safe_mean(home_home[spec["away_col"]])
+    away_for = _safe_mean(away_away[spec["away_col"]])
+    away_against = _safe_mean(away_away[spec["home_col"]])
+    total_h2h = _safe_mean(h2h[spec["total_col"]])
+    projection_home = np.nanmean([home_for, away_against])
+    projection_away = np.nanmean([away_for, home_against])
+    projection_total = projection_home + projection_away if not np.isnan(projection_home) and not np.isnan(projection_away) else np.nan
+
+    home_hit = _safe_hit_rate(home_home[spec["home_col"]], spec["home_line"])
+    away_hit = _safe_hit_rate(away_away[spec["away_col"]], spec["away_line"])
+    total_h2h_hit = _safe_hit_rate(h2h[spec["total_col"]], spec["total_line"])
+
+    lines = [
+        f"Pattern: {spec['label']}",
+        f"{home} vs {away}",
+        "",
+        f"{home} last 5 at home: for {home_for:.1f} | allowed {home_against:.1f}" if not np.isnan(home_for) else f"{home} last 5 at home: n/a",
+        f"{away} last 5 away: for {away_for:.1f} | allowed {away_against:.1f}" if not np.isnan(away_for) else f"{away} last 5 away: n/a",
+        f"Projected pattern: {projection_home:.1f} - {projection_away:.1f} | total {projection_total:.1f}" if not np.isnan(projection_total) else "Projected pattern: n/a",
+        f"H2H last 5 total {spec['label'].lower()}: {total_h2h:.1f}" if not np.isnan(total_h2h) else "H2H last 5: n/a",
+        "",
+        "Line pattern:",
+        f"- {home} {spec['label']} over {spec['home_line']}: {home_hit:.0f}% hit rate" if home_hit is not None else f"- {home} {spec['label']} over {spec['home_line']}: n/a",
+        f"- {away} {spec['label']} over {spec['away_line']}: {away_hit:.0f}% hit rate" if away_hit is not None else f"- {away} {spec['label']} over {spec['away_line']}: n/a",
+        f"- H2H total over {spec['total_line']}: {total_h2h_hit:.0f}% hit rate" if total_h2h_hit is not None else f"- H2H total over {spec['total_line']}: n/a",
+    ]
+
+    sample_lines = []
+    if not h2h.empty:
+        sample_lines.append("")
+        sample_lines.append("Recent H2H sample:")
+        for _, row in h2h.tail(3).iterrows():
+            sample_lines.append(
+                f"- {pd.to_datetime(row['Date']).date()}: {row['HomeTeam']} vs {row['AwayTeam']} | total {row[spec['total_col']]:.0f}"
+            )
+    return "\n".join(lines + sample_lines)
 
 
 # ============================================================
@@ -1527,7 +1715,16 @@ async def btn(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Smart text search handler
 async def msg(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text.strip().lower()
+    market_key = _pattern_market_from_text(text)
     detected_teams = _detect_teams_from_text(text)
+
+    if market_key is not None and ("pattern" in text or "trend" in text):
+        if len(detected_teams) >= 2:
+            report = generate_pattern_report(detected_teams[0], detected_teams[1], market_key)
+            await update.message.reply_text(report)
+            return
+        await update.message.reply_text("I found the market, but I still need two clubs. Example: find the pattern in shots between Arsenal and Chelsea")
+        return
 
     if len(detected_teams) >= 2:
         home, away = detected_teams[0], detected_teams[1]
@@ -1588,6 +1785,23 @@ async def predict_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(r)
 
 
+async def pattern_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    raw = " ".join(context.args).strip()
+    if not raw:
+        await update.message.reply_text("Usage: /pattern Arsenal vs Chelsea shots")
+        return
+    market_key = _pattern_market_from_text(raw)
+    teams = _detect_teams_from_text(raw)
+    if market_key is None:
+        await update.message.reply_text("Ask for a stat market like shots, corners, bookings, fouls, or shots on target.")
+        return
+    if len(teams) < 2:
+        await update.message.reply_text("I need two clubs. Example: /pattern Arsenal vs Chelsea shots")
+        return
+    report = generate_pattern_report(teams[0], teams[1], market_key)
+    await update.message.reply_text(report)
+
+
 # ============================================================
 # MAIN
 # ============================================================
@@ -1599,6 +1813,7 @@ def main():
     app = Application.builder().token(BOT_TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("predict", predict_cmd))
+    app.add_handler(CommandHandler("pattern", pattern_cmd))
     app.add_handler(CallbackQueryHandler(btn))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, msg))
     print("Bot live! Send /start in Telegram.\n")
