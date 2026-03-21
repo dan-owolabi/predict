@@ -36,6 +36,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add production_artifacts.pkl lgb_*.txt market_models player_prop_models europe_models europe_market_models cv_results*.csv market_cv_results.csv player_prop_cv_results.csv europe_cv_results.csv europe_market_cv_results.csv weekly_fixtures.json automation_status.json data
+          for path in production_artifacts.pkl lgb_*.txt market_models player_prop_models europe_models europe_market_models cv_results*.csv market_cv_results.csv player_prop_cv_results.csv europe_cv_results.csv europe_market_cv_results.csv weekly_fixtures.json automation_status.json data; do
+            if ls $path >/dev/null 2>&1; then
+              git add $path
+            fi
+          done
           git diff --cached --quiet || git commit -m "Automated retrain artifacts"
           git push
+
