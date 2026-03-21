@@ -1,4 +1,4 @@
-﻿python-telegram-bot==21.3
+python-telegram-bot[webhooks]==21.3
 scikit-learn==1.8.0
 pandas==3.0.1
 numpy==2.2.4
@@ -10,3 +10,4 @@ lxml==6.0.2
 understatapi==0.7.1
 python-dateutil==2.9.0.post0
 pypdf==6.9.1
+
