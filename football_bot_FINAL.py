@@ -401,6 +401,7 @@ def _load_pattern_history():
 
 
 PATTERN_HISTORY_DF = None
+PATTERN_PROFILE_CACHE = {}
 
 
 def _safe_mean(series):
@@ -511,15 +512,20 @@ def _pattern_takeaway(home, away, spec, h2h_stats, home_recent, away_recent, hom
     )
 
 
+def _pattern_assets(market_key):
+    global PATTERN_HISTORY_DF, PATTERN_PROFILE_CACHE
+    if PATTERN_HISTORY_DF is None:
+        PATTERN_HISTORY_DF = _load_pattern_history()
+    if market_key not in PATTERN_PROFILE_CACHE:
+        PATTERN_PROFILE_CACHE[market_key] = _team_profile_map(PATTERN_HISTORY_DF, PATTERN_SPECS[market_key])
+    return PATTERN_HISTORY_DF, PATTERN_PROFILE_CACHE[market_key]
+
+
 def generate_pattern_report(home, away, market_key):
     spec = PATTERN_SPECS[market_key]
     home_key = europe_canonical_name(home) if europe_canonical_name else str(home).lower()
     away_key = europe_canonical_name(away) if europe_canonical_name else str(away).lower()
-    global PATTERN_HISTORY_DF
-    if PATTERN_HISTORY_DF is None:
-        PATTERN_HISTORY_DF = _load_pattern_history()
-    df = PATTERN_HISTORY_DF.copy()
-    profile_map = _team_profile_map(df, spec)
+    df, profile_map = _pattern_assets(market_key)
     home_rows = _team_pattern_view(df, home_key, spec)
     away_rows = _team_pattern_view(df, away_key, spec)
     h2h = df[
@@ -1946,6 +1952,7 @@ async def pattern_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if len(teams) < 2:
         await update.message.reply_text("I need two clubs. Example: /pattern Arsenal vs Chelsea shots")
         return
+    await update.message.reply_text(f"Analyzing pattern for {teams[0]} vs {teams[1]}...")
     report = generate_pattern_report(teams[0], teams[1], market_key)
     await update.message.reply_text(report)
 
@@ -1967,6 +1974,7 @@ async def ask_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if len(teams) < 2:
         await update.message.reply_text("I need two teams. Example: /ask Arsenal vs Chelsea shots")
         return
+    await update.message.reply_text(f"Analyzing pattern for {teams[0]} vs {teams[1]}...")
     report = generate_pattern_report(teams[0], teams[1], market_key)
     await update.message.reply_text(report)
 
