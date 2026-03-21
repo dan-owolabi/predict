@@ -34,12 +34,19 @@ from results_tracker import (
     get_results_text, get_accuracy_summary
 )
 
+BOOT_WEBHOOK_URL = os.environ.get("WEBHOOK_URL", "").strip()
+LITE_RUNTIME = os.environ.get("LITE_RUNTIME", "").strip().lower() in {"1", "true", "yes"} or bool(BOOT_WEBHOOK_URL)
+
 try:
+    if LITE_RUNTIME:
+        raise ImportError("disabled in lite runtime")
     from sportybet_value import attach_market_prices
 except Exception:
     attach_market_prices = None
 
 try:
+    if LITE_RUNTIME:
+        raise ImportError("disabled in lite runtime")
     from player_prop_inference import rank_fixture_players
 except Exception:
     rank_fixture_players = None
@@ -69,7 +76,7 @@ logging.getLogger("telegram").setLevel(logging.WARNING)
 # ============================================================
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
-WEBHOOK_URL = os.environ.get("WEBHOOK_URL", "").strip()
+WEBHOOK_URL = BOOT_WEBHOOK_URL
 PORT = int(os.environ.get("PORT", "10000"))
 ADMIN_USER_ID = os.environ.get("ADMIN_USER_ID", "").strip()
 BASE_DIR = Path(__file__).parent
@@ -185,7 +192,10 @@ def _load_additional_market_bundle():
         return [], None, [], {}
 
 
-ADDITIONAL_MARKET_MODELS, ADDITIONAL_IMPUTER, ADDITIONAL_FEATURE_COLS, ADDITIONAL_MARKET_HIST = _load_additional_market_bundle()
+if LITE_RUNTIME:
+    ADDITIONAL_MARKET_MODELS, ADDITIONAL_IMPUTER, ADDITIONAL_FEATURE_COLS, ADDITIONAL_MARKET_HIST = [], None, [], {}
+else:
+    ADDITIONAL_MARKET_MODELS, ADDITIONAL_IMPUTER, ADDITIONAL_FEATURE_COLS, ADDITIONAL_MARKET_HIST = _load_additional_market_bundle()
 
 
 def _load_europe_bundle():
@@ -232,7 +242,10 @@ def _load_europe_bundle():
         return {}, None, [], {}, pd.DataFrame(), {}
 
 
-EUROPE_MODELS, EUROPE_IMPUTER, EUROPE_FEATURE_COLS, EUROPE_HIST_ACC, EUROPE_HISTORY_DF, EUROPE_TEAM_ALIASES = _load_europe_bundle()
+if LITE_RUNTIME:
+    EUROPE_MODELS, EUROPE_IMPUTER, EUROPE_FEATURE_COLS, EUROPE_HIST_ACC, EUROPE_HISTORY_DF, EUROPE_TEAM_ALIASES = {}, None, [], {}, pd.DataFrame(), {}
+else:
+    EUROPE_MODELS, EUROPE_IMPUTER, EUROPE_FEATURE_COLS, EUROPE_HIST_ACC, EUROPE_HISTORY_DF, EUROPE_TEAM_ALIASES = _load_europe_bundle()
 EUROPE_INPUT_ALIASES = {
     "bayern": "FC Bayern München",
     "bayern munich": "FC Bayern München",
@@ -265,7 +278,7 @@ def _load_europe_team_hist():
         return pd.DataFrame()
 
 
-EUROPE_TEAM_HIST = _load_europe_team_hist()
+EUROPE_TEAM_HIST = pd.DataFrame() if LITE_RUNTIME else _load_europe_team_hist()
 
 
 PATTERN_SPECS = {
@@ -387,7 +400,7 @@ def _load_pattern_history():
     return out
 
 
-PATTERN_HISTORY_DF = _load_pattern_history()
+PATTERN_HISTORY_DF = None
 
 
 def _safe_mean(series):
@@ -406,6 +419,9 @@ def generate_pattern_report(home, away, market_key):
     spec = PATTERN_SPECS[market_key]
     home_key = europe_canonical_name(home) if europe_canonical_name else str(home).lower()
     away_key = europe_canonical_name(away) if europe_canonical_name else str(away).lower()
+    global PATTERN_HISTORY_DF
+    if PATTERN_HISTORY_DF is None:
+        PATTERN_HISTORY_DF = _load_pattern_history()
     df = PATTERN_HISTORY_DF.copy()
 
     home_home = df[df["home_key"] == home_key].tail(5)
