@@ -1,0 +1,14 @@
+name: Keep Render Awake
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/10 * * * *"
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Render service
+        run: |
+          curl -L -sS -o /dev/null -w "HTTP %{http_code}\n" https://predict-b78c.onrender.com || true
