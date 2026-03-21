@@ -1653,7 +1653,8 @@ def get_weekly_predictions(week_idx=0, high_only=False):
 # ============================================================
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     kb = [
-        [InlineKeyboardButton("🔮 Predict Match", callback_data='pred_home')],
+        [InlineKeyboardButton("🔮 Predict Match", callback_data='pred_home'),
+         InlineKeyboardButton("❓ Ask Pattern", callback_data='ask_help')],
         [InlineKeyboardButton("📅 Gameweeks", callback_data='wk_0'),
          InlineKeyboardButton("📊 Results", callback_data='results')],
         [InlineKeyboardButton("ℹ️ How It Works", callback_data='how')],
@@ -1683,7 +1684,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def menu_kb():
     return InlineKeyboardMarkup([
-        [InlineKeyboardButton("🔮 Predict Match", callback_data='pred_home')],
+        [InlineKeyboardButton("🔮 Predict Match", callback_data='pred_home'),
+         InlineKeyboardButton("❓ Ask Pattern", callback_data='ask_help')],
         [InlineKeyboardButton("📅 Gameweeks", callback_data='wk_0'),
          InlineKeyboardButton("📊 Results", callback_data='results')],
         [InlineKeyboardButton("ℹ️ How It Works", callback_data='how')],
@@ -1761,6 +1763,20 @@ async def btn(update: Update, context: ContextTypes.DEFAULT_TYPE):
              InlineKeyboardButton("🏠 Menu", callback_data='menu')],
         ])
         await q.edit_message_text(result_txt, reply_markup=kb)
+
+    elif d == 'ask_help':
+        await q.edit_message_text(
+            "Ask me about patterns between any two teams.\n\n"
+            "Examples:\n"
+            "- Arsenal vs Chelsea shots\n"
+            "- find the pattern in corners between Barcelona and Bayern Munich\n"
+            "- show Liverpool fouls pattern with teams like Atletico Madrid\n"
+            "- /ask Arsenal vs Chelsea shots\n\n"
+            "Markets: shots, shots on target, corners, bookings/cards, fouls",
+            reply_markup=InlineKeyboardMarkup([
+                [InlineKeyboardButton("🔮 Predict Match", callback_data='pred_home')],
+                [InlineKeyboardButton("🏠 Menu", callback_data='menu')],
+            ]))
 
     elif d.startswith('wkh_'):
         idx = int(d[4:])
@@ -1934,6 +1950,27 @@ async def pattern_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(report)
 
 
+async def ask_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    raw = " ".join(context.args).strip()
+    if not raw:
+        await update.message.reply_text(
+            "Usage: /ask Arsenal vs Chelsea shots\n"
+            "You can also ask naturally, for example:\n"
+            "find the pattern in corners between Arsenal and Chelsea"
+        )
+        return
+    market_key = _pattern_market_from_text(raw)
+    teams = _detect_teams_from_text(raw)
+    if market_key is None:
+        await update.message.reply_text("Ask for shots, shots on target, corners, bookings/cards, or fouls.")
+        return
+    if len(teams) < 2:
+        await update.message.reply_text("I need two teams. Example: /ask Arsenal vs Chelsea shots")
+        return
+    report = generate_pattern_report(teams[0], teams[1], market_key)
+    await update.message.reply_text(report)
+
+
 async def reload_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = str(getattr(update.effective_user, "id", ""))
     if not ADMIN_USER_ID or user_id != ADMIN_USER_ID:
@@ -1953,6 +1990,7 @@ def main():
     app = Application.builder().token(BOT_TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("predict", predict_cmd))
+    app.add_handler(CommandHandler("ask", ask_cmd))
     app.add_handler(CommandHandler("pattern", pattern_cmd))
     app.add_handler(CommandHandler("reload", reload_cmd))
     app.add_handler(CallbackQueryHandler(btn))
