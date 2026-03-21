@@ -1,0 +1,8570 @@
+[
+  {
+    "id": "1021",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "5",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.22904",
+      "a": "0.154234"
+    },
+    "datetime": "2015-08-14 22:30:00",
+    "forecast": {
+      "w": "0.972",
+      "d": "0.0257",
+      "l": "0.0023"
+    }
+  },
+  {
+    "id": "1022",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "3.52773",
+      "a": "0.483949"
+    },
+    "datetime": "2015-08-15 17:30:00",
+    "forecast": {
+      "w": "0.9479",
+      "d": "0.0436",
+      "l": "0.0085"
+    }
+  },
+  {
+    "id": "1023",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.14869",
+      "a": "1.23291"
+    },
+    "datetime": "2015-08-15 17:30:00",
+    "forecast": {
+      "w": "0.3015",
+      "d": "0.3114",
+      "l": "0.3871"
+    }
+  },
+  {
+    "id": "1024",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "0",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.914717",
+      "a": "1.4498"
+    },
+    "datetime": "2015-08-15 17:30:00",
+    "forecast": {
+      "w": "0.2193",
+      "d": "0.2746",
+      "l": "0.5061"
+    }
+  },
+  {
+    "id": "1025",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.547769",
+      "a": "0.577316"
+    },
+    "datetime": "2015-08-15 17:30:00",
+    "forecast": {
+      "w": "0.2828",
+      "d": "0.4288",
+      "l": "0.2884"
+    }
+  },
+  {
+    "id": "1026",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.80912",
+      "a": "1.85731"
+    },
+    "datetime": "2015-08-15 17:30:00",
+    "forecast": {
+      "w": "0.3461",
+      "d": "0.2809",
+      "l": "0.373"
+    }
+  },
+  {
+    "id": "1027",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "4",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.42013",
+      "a": "0.18521"
+    },
+    "datetime": "2015-08-15 20:30:00",
+    "forecast": {
+      "w": "0.9246",
+      "d": "0.0676",
+      "l": "0.0078"
+    }
+  },
+  {
+    "id": "1028",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.740041",
+      "a": "0.950098"
+    },
+    "datetime": "2015-08-16 17:30:00",
+    "forecast": {
+      "w": "0.2627",
+      "d": "0.362",
+      "l": "0.3753"
+    }
+  },
+  {
+    "id": "1029",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.98558",
+      "a": "1.85087"
+    },
+    "datetime": "2015-08-16 19:30:00",
+    "forecast": {
+      "w": "0.6438",
+      "d": "0.2076",
+      "l": "0.1486"
+    }
+  },
+  {
+    "id": "1030",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.494279",
+      "a": "0.957641"
+    },
+    "datetime": "2015-08-21 22:30:00",
+    "forecast": {
+      "w": "0.1465",
+      "d": "0.3386",
+      "l": "0.5149"
+    }
+  },
+  {
+    "id": "1031",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.29953",
+      "a": "2.53588"
+    },
+    "datetime": "2015-08-22 17:30:00",
+    "forecast": {
+      "w": "0.1222",
+      "d": "0.1982",
+      "l": "0.6796"
+    }
+  },
+  {
+    "id": "1032",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.05775",
+      "a": "0.790379"
+    },
+    "datetime": "2015-08-22 17:30:00",
+    "forecast": {
+      "w": "0.4052",
+      "d": "0.3312",
+      "l": "0.2636"
+    }
+  },
+  {
+    "id": "1033",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.945278",
+      "a": "1.26112"
+    },
+    "datetime": "2015-08-22 17:30:00",
+    "forecast": {
+      "w": "0.2589",
+      "d": "0.3226",
+      "l": "0.4185"
+    }
+  },
+  {
+    "id": "1034",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.37825",
+      "a": "2.14017"
+    },
+    "datetime": "2015-08-22 17:30:00",
+    "forecast": {
+      "w": "0.1832",
+      "d": "0.2466",
+      "l": "0.5702"
+    }
+  },
+  {
+    "id": "1035",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.0975496",
+      "a": "1.37365"
+    },
+    "datetime": "2015-08-22 17:30:00",
+    "forecast": {
+      "w": "0.0172",
+      "d": "0.1961",
+      "l": "0.7867"
+    }
+  },
+  {
+    "id": "1036",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "3",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.32114",
+      "a": "1.89549"
+    },
+    "datetime": "2015-08-22 20:30:00",
+    "forecast": {
+      "w": "0.2193",
+      "d": "0.2533",
+      "l": "0.5274"
+    }
+  },
+  {
+    "id": "1037",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "4"
+    },
+    "xG": {
+      "h": "0.0514071",
+      "a": "3.63386"
+    },
+    "datetime": "2015-08-23 17:30:00",
+    "forecast": {
+      "w": "0.0008",
+      "d": "0.0098",
+      "l": "0.9894"
+    }
+  },
+  {
+    "id": "1038",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.22742",
+      "a": "2.01071"
+    },
+    "datetime": "2015-08-23 19:30:00",
+    "forecast": {
+      "w": "0.1971",
+      "d": "0.2266",
+      "l": "0.5763"
+    }
+  },
+  {
+    "id": "1039",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.52939",
+      "a": "0.748153"
+    },
+    "datetime": "2015-08-28 22:30:00",
+    "forecast": {
+      "w": "0.616",
+      "d": "0.2539",
+      "l": "0.1301"
+    }
+  },
+  {
+    "id": "1040",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "1",
+      "a": "4"
+    },
+    "xG": {
+      "h": "2.52237",
+      "a": "1.9601"
+    },
+    "datetime": "2015-08-29 17:30:00",
+    "forecast": {
+      "w": "0.5205",
+      "d": "0.2971",
+      "l": "0.1824"
+    }
+  },
+  {
+    "id": "1041",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.832315",
+      "a": "1.24787"
+    },
+    "datetime": "2015-08-29 17:30:00",
+    "forecast": {
+      "w": "0.2269",
+      "d": "0.3198",
+      "l": "0.4533"
+    }
+  },
+  {
+    "id": "1042",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.67081",
+      "a": "1.44461"
+    },
+    "datetime": "2015-08-29 17:30:00",
+    "forecast": {
+      "w": "0.4273",
+      "d": "0.2912",
+      "l": "0.2815"
+    }
+  },
+  {
+    "id": "1043",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.41346",
+      "a": "0.373166"
+    },
+    "datetime": "2015-08-29 17:30:00",
+    "forecast": {
+      "w": "0.9637",
+      "d": "0.0307",
+      "l": "0.0056"
+    }
+  },
+  {
+    "id": "1044",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.287238",
+      "a": "1.3935"
+    },
+    "datetime": "2015-08-29 17:30:00",
+    "forecast": {
+      "w": "0.0372",
+      "d": "0.1975",
+      "l": "0.7653"
+    }
+  },
+  {
+    "id": "1045",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.52476",
+      "a": "0.420202"
+    },
+    "datetime": "2015-08-29 20:30:00",
+    "forecast": {
+      "w": "0.9679",
+      "d": "0.0269",
+      "l": "0.0052"
+    }
+  },
+  {
+    "id": "1046",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "3.73248",
+      "a": "0.633538"
+    },
+    "datetime": "2015-08-30 17:30:00",
+    "forecast": {
+      "w": "0.9654",
+      "d": "0.0294",
+      "l": "0.0052"
+    }
+  },
+  {
+    "id": "1047",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "3.23257",
+      "a": "0.755739"
+    },
+    "datetime": "2015-08-30 19:30:00",
+    "forecast": {
+      "w": "0.9205",
+      "d": "0.0643",
+      "l": "0.0152"
+    }
+  },
+  {
+    "id": "1048",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "0",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.436066",
+      "a": "1.02932"
+    },
+    "datetime": "2015-09-11 22:30:00",
+    "forecast": {
+      "w": "0.1302",
+      "d": "0.3393",
+      "l": "0.5305"
+    }
+  },
+  {
+    "id": "1049",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "3.85642",
+      "a": "0.15319"
+    },
+    "datetime": "2015-09-12 17:30:00",
+    "forecast": {
+      "w": "0.9926",
+      "d": "0.0067",
+      "l": "0.0007"
+    }
+  },
+  {
+    "id": "1050",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "2",
+      "a": "4"
+    },
+    "xG": {
+      "h": "0.582795",
+      "a": "2.16909"
+    },
+    "datetime": "2015-09-12 17:30:00",
+    "forecast": {
+      "w": "0.0379",
+      "d": "0.1339",
+      "l": "0.8282"
+    }
+  },
+  {
+    "id": "1051",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.47686",
+      "a": "1.02726"
+    },
+    "datetime": "2015-09-12 17:30:00",
+    "forecast": {
+      "w": "0.4867",
+      "d": "0.2885",
+      "l": "0.2248"
+    }
+  },
+  {
+    "id": "1052",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.178191",
+      "a": "0.732037"
+    },
+    "datetime": "2015-09-12 17:30:00",
+    "forecast": {
+      "w": "0.0818",
+      "d": "0.4564",
+      "l": "0.4618"
+    }
+  },
+  {
+    "id": "1053",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.3554",
+      "a": "0.284787"
+    },
+    "datetime": "2015-09-12 17:30:00",
+    "forecast": {
+      "w": "0.6875",
+      "d": "0.2466",
+      "l": "0.0659"
+    }
+  },
+  {
+    "id": "1054",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "6",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.93005",
+      "a": "0.902695"
+    },
+    "datetime": "2015-09-12 20:30:00",
+    "forecast": {
+      "w": "0.835",
+      "d": "0.1124",
+      "l": "0.0526"
+    }
+  },
+  {
+    "id": "1055",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.694948",
+      "a": "2.2128"
+    },
+    "datetime": "2015-09-13 17:30:00",
+    "forecast": {
+      "w": "0.0608",
+      "d": "0.1561",
+      "l": "0.7831"
+    }
+  },
+  {
+    "id": "1056",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "3.13941",
+      "a": "2.94627"
+    },
+    "datetime": "2015-09-13 19:30:00",
+    "forecast": {
+      "w": "0.4317",
+      "d": "0.2101",
+      "l": "0.3582"
+    }
+  },
+  {
+    "id": "1057",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.27625",
+      "a": "1.01304"
+    },
+    "datetime": "2015-09-18 22:30:00",
+    "forecast": {
+      "w": "0.4147",
+      "d": "0.3185",
+      "l": "0.2668"
+    }
+  },
+  {
+    "id": "1058",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "0",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.204756",
+      "a": "1.71752"
+    },
+    "datetime": "2015-09-19 17:30:00",
+    "forecast": {
+      "w": "0.0218",
+      "d": "0.1357",
+      "l": "0.8425"
+    }
+  },
+  {
+    "id": "1059",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.42975",
+      "a": "0.271584"
+    },
+    "datetime": "2015-09-19 17:30:00",
+    "forecast": {
+      "w": "0.9228",
+      "d": "0.0632",
+      "l": "0.014"
+    }
+  },
+  {
+    "id": "1060",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.909692",
+      "a": "0.221397"
+    },
+    "datetime": "2015-09-19 17:30:00",
+    "forecast": {
+      "w": "0.5751",
+      "d": "0.3527",
+      "l": "0.0722"
+    }
+  },
+  {
+    "id": "1061",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.22829",
+      "a": "1.47429"
+    },
+    "datetime": "2015-09-19 17:30:00",
+    "forecast": {
+      "w": "0.2601",
+      "d": "0.3141",
+      "l": "0.4258"
+    }
+  },
+  {
+    "id": "1062",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.541995",
+      "a": "0.4042"
+    },
+    "datetime": "2015-09-19 17:30:00",
+    "forecast": {
+      "w": "0.3187",
+      "d": "0.4639",
+      "l": "0.2174"
+    }
+  },
+  {
+    "id": "1063",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "3.31265",
+      "a": "1.09359"
+    },
+    "datetime": "2015-09-20 17:30:00",
+    "forecast": {
+      "w": "0.8482",
+      "d": "0.1052",
+      "l": "0.0466"
+    }
+  },
+  {
+    "id": "1064",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.24649",
+      "a": "0.56218"
+    },
+    "datetime": "2015-09-20 19:30:00",
+    "forecast": {
+      "w": "0.8252",
+      "d": "0.1301",
+      "l": "0.0447"
+    }
+  },
+  {
+    "id": "1065",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "4.08165",
+      "a": "0.927753"
+    },
+    "datetime": "2015-09-20 19:30:00",
+    "forecast": {
+      "w": "0.9485",
+      "d": "0.041",
+      "l": "0.0105"
+    }
+  },
+  {
+    "id": "1066",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "5",
+      "a": "1"
+    },
+    "xG": {
+      "h": "3.68676",
+      "a": "0.160394"
+    },
+    "datetime": "2015-09-22 22:00:00",
+    "forecast": {
+      "w": "0.9838",
+      "d": "0.0148",
+      "l": "0.0014"
+    }
+  },
+  {
+    "id": "1067",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.34684",
+      "a": "0.853586"
+    },
+    "datetime": "2015-09-22 22:00:00",
+    "forecast": {
+      "w": "0.4953",
+      "d": "0.2824",
+      "l": "0.2223"
+    }
+  },
+  {
+    "id": "1068",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.718034",
+      "a": "1.16174"
+    },
+    "datetime": "2015-09-22 22:00:00",
+    "forecast": {
+      "w": "0.1964",
+      "d": "0.3108",
+      "l": "0.4928"
+    }
+  },
+  {
+    "id": "1069",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.91868",
+      "a": "1.19628"
+    },
+    "datetime": "2015-09-22 22:00:00",
+    "forecast": {
+      "w": "0.5729",
+      "d": "0.2677",
+      "l": "0.1594"
+    }
+  },
+  {
+    "id": "1070",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.18726",
+      "a": "1.63998"
+    },
+    "datetime": "2015-09-23 22:00:00",
+    "forecast": {
+      "w": "0.2462",
+      "d": "0.2692",
+      "l": "0.4846"
+    }
+  },
+  {
+    "id": "1071",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.25209",
+      "a": "0.952574"
+    },
+    "datetime": "2015-09-23 22:00:00",
+    "forecast": {
+      "w": "0.7451",
+      "d": "0.1718",
+      "l": "0.0831"
+    }
+  },
+  {
+    "id": "1072",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.74157",
+      "a": "0.476793"
+    },
+    "datetime": "2015-09-23 22:00:00",
+    "forecast": {
+      "w": "0.72",
+      "d": "0.2102",
+      "l": "0.0698"
+    }
+  },
+  {
+    "id": "1073",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "4",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.84575",
+      "a": "1.92244"
+    },
+    "datetime": "2015-09-23 22:00:00",
+    "forecast": {
+      "w": "0.5949",
+      "d": "0.2189",
+      "l": "0.1862"
+    }
+  },
+  {
+    "id": "1074",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.807709",
+      "a": "1.81814"
+    },
+    "datetime": "2015-09-23 22:00:00",
+    "forecast": {
+      "w": "0.1127",
+      "d": "0.2509",
+      "l": "0.6364"
+    }
+  },
+  {
+    "id": "1075",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.3352",
+      "a": "0.638071"
+    },
+    "datetime": "2015-09-25 22:30:00",
+    "forecast": {
+      "w": "0.5812",
+      "d": "0.2744",
+      "l": "0.1444"
+    }
+  },
+  {
+    "id": "1076",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "0",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.75194",
+      "a": "2.77408"
+    },
+    "datetime": "2015-09-26 17:30:00",
+    "forecast": {
+      "w": "0.0213",
+      "d": "0.0844",
+      "l": "0.8943"
+    }
+  },
+  {
+    "id": "1077",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.45923",
+      "a": "1.18534"
+    },
+    "datetime": "2015-09-26 17:30:00",
+    "forecast": {
+      "w": "0.6869",
+      "d": "0.198",
+      "l": "0.1151"
+    }
+  },
+  {
+    "id": "1078",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.94324",
+      "a": "1.5923"
+    },
+    "datetime": "2015-09-26 17:30:00",
+    "forecast": {
+      "w": "0.4451",
+      "d": "0.2617",
+      "l": "0.2932"
+    }
+  },
+  {
+    "id": "1079",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "0",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.326706",
+      "a": "1.3026"
+    },
+    "datetime": "2015-09-26 17:30:00",
+    "forecast": {
+      "w": "0.0893",
+      "d": "0.273",
+      "l": "0.6377"
+    }
+  },
+  {
+    "id": "1080",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.41905",
+      "a": "1.08934"
+    },
+    "datetime": "2015-09-26 17:30:00",
+    "forecast": {
+      "w": "0.4429",
+      "d": "0.2903",
+      "l": "0.2668"
+    }
+  },
+  {
+    "id": "1081",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.583026",
+      "a": "1.27784"
+    },
+    "datetime": "2015-09-26 20:30:00",
+    "forecast": {
+      "w": "0.1397",
+      "d": "0.2952",
+      "l": "0.5651"
+    }
+  },
+  {
+    "id": "1082",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.41369",
+      "a": "2.23038"
+    },
+    "datetime": "2015-09-27 17:30:00",
+    "forecast": {
+      "w": "0.1877",
+      "d": "0.22",
+      "l": "0.5923"
+    }
+  },
+  {
+    "id": "1083",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.97055",
+      "a": "0.508638"
+    },
+    "datetime": "2015-09-27 19:30:00",
+    "forecast": {
+      "w": "0.7842",
+      "d": "0.1636",
+      "l": "0.0522"
+    }
+  },
+  {
+    "id": "1084",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "2",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.86109",
+      "a": "1.45155"
+    },
+    "datetime": "2015-10-02 22:30:00",
+    "forecast": {
+      "w": "0.4695",
+      "d": "0.2714",
+      "l": "0.2591"
+    }
+  },
+  {
+    "id": "1085",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.45907",
+      "a": "0.813505"
+    },
+    "datetime": "2015-10-03 17:30:00",
+    "forecast": {
+      "w": "0.5481",
+      "d": "0.2749",
+      "l": "0.177"
+    }
+  },
+  {
+    "id": "1086",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.695247",
+      "a": "1.50158"
+    },
+    "datetime": "2015-10-03 17:30:00",
+    "forecast": {
+      "w": "0.1518",
+      "d": "0.2594",
+      "l": "0.5888"
+    }
+  },
+  {
+    "id": "1087",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.0435",
+      "a": "0.315135"
+    },
+    "datetime": "2015-10-03 17:30:00",
+    "forecast": {
+      "w": "0.8478",
+      "d": "0.1236",
+      "l": "0.0286"
+    }
+  },
+  {
+    "id": "1088",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.90929",
+      "a": "2.36648"
+    },
+    "datetime": "2015-10-03 17:30:00",
+    "forecast": {
+      "w": "0.2744",
+      "d": "0.241",
+      "l": "0.4846"
+    }
+  },
+  {
+    "id": "1089",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.185",
+      "a": "0.740308"
+    },
+    "datetime": "2015-10-03 17:30:00",
+    "forecast": {
+      "w": "0.4761",
+      "d": "0.3042",
+      "l": "0.2197"
+    }
+  },
+  {
+    "id": "1090",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.11607",
+      "a": "1.32"
+    },
+    "datetime": "2015-10-04 17:30:00",
+    "forecast": {
+      "w": "0.2878",
+      "d": "0.2948",
+      "l": "0.4174"
+    }
+  },
+  {
+    "id": "1091",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.98173",
+      "a": "0.119117"
+    },
+    "datetime": "2015-10-04 19:30:00",
+    "forecast": {
+      "w": "0.9073",
+      "d": "0.0838",
+      "l": "0.0089"
+    }
+  },
+  {
+    "id": "1092",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "5",
+      "a": "1"
+    },
+    "xG": {
+      "h": "3.72164",
+      "a": "1.10489"
+    },
+    "datetime": "2015-10-04 19:30:00",
+    "forecast": {
+      "w": "0.9214",
+      "d": "0.0601",
+      "l": "0.0185"
+    }
+  },
+  {
+    "id": "1093",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.55155",
+      "a": "3.64229"
+    },
+    "datetime": "2015-10-16 22:30:00",
+    "forecast": {
+      "w": "0.0571",
+      "d": "0.1117",
+      "l": "0.8312"
+    }
+  },
+  {
+    "id": "1094",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.42706",
+      "a": "2.54284"
+    },
+    "datetime": "2015-10-17 17:30:00",
+    "forecast": {
+      "w": "0.1189",
+      "d": "0.19",
+      "l": "0.6911"
+    }
+  },
+  {
+    "id": "1095",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.691198",
+      "a": "2.13219"
+    },
+    "datetime": "2015-10-17 17:30:00",
+    "forecast": {
+      "w": "0.0697",
+      "d": "0.1671",
+      "l": "0.7632"
+    }
+  },
+  {
+    "id": "1096",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.51235",
+      "a": "0.933849"
+    },
+    "datetime": "2015-10-17 17:30:00",
+    "forecast": {
+      "w": "0.764",
+      "d": "0.1621",
+      "l": "0.0739"
+    }
+  },
+  {
+    "id": "1097",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "4",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.80506",
+      "a": "1.07639"
+    },
+    "datetime": "2015-10-17 17:30:00",
+    "forecast": {
+      "w": "0.7788",
+      "d": "0.1439",
+      "l": "0.0773"
+    }
+  },
+  {
+    "id": "1098",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.469945",
+      "a": "0.875048"
+    },
+    "datetime": "2015-10-17 17:30:00",
+    "forecast": {
+      "w": "0.1754",
+      "d": "0.3864",
+      "l": "0.4382"
+    }
+  },
+  {
+    "id": "1099",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "1",
+      "a": "5"
+    },
+    "xG": {
+      "h": "0.990091",
+      "a": "3.50891"
+    },
+    "datetime": "2015-10-17 20:30:00",
+    "forecast": {
+      "w": "0.0117",
+      "d": "0.0572",
+      "l": "0.9311"
+    }
+  },
+  {
+    "id": "1100",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.52116",
+      "a": "1.26113"
+    },
+    "datetime": "2015-10-18 17:30:00",
+    "forecast": {
+      "w": "0.3962",
+      "d": "0.3336",
+      "l": "0.2702"
+    }
+  },
+  {
+    "id": "1101",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.33256",
+      "a": "1.63336"
+    },
+    "datetime": "2015-10-18 19:30:00",
+    "forecast": {
+      "w": "0.2617",
+      "d": "0.3046",
+      "l": "0.4337"
+    }
+  },
+  {
+    "id": "1102",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.586765",
+      "a": "3.11642"
+    },
+    "datetime": "2015-10-23 22:30:00",
+    "forecast": {
+      "w": "0.0196",
+      "d": "0.0627",
+      "l": "0.9177"
+    }
+  },
+  {
+    "id": "1103",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.53001",
+      "a": "2.29004"
+    },
+    "datetime": "2015-10-24 17:30:00",
+    "forecast": {
+      "w": "0.2012",
+      "d": "0.2309",
+      "l": "0.5679"
+    }
+  },
+  {
+    "id": "1104",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.594469",
+      "a": "0.976111"
+    },
+    "datetime": "2015-10-24 17:30:00",
+    "forecast": {
+      "w": "0.2062",
+      "d": "0.3447",
+      "l": "0.4491"
+    }
+  },
+  {
+    "id": "1105",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.454178",
+      "a": "0.74964"
+    },
+    "datetime": "2015-10-24 17:30:00",
+    "forecast": {
+      "w": "0.1785",
+      "d": "0.4016",
+      "l": "0.4199"
+    }
+  },
+  {
+    "id": "1106",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "4",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.87154",
+      "a": "2.40291"
+    },
+    "datetime": "2015-10-24 17:30:00",
+    "forecast": {
+      "w": "0.4831",
+      "d": "0.2357",
+      "l": "0.2812"
+    }
+  },
+  {
+    "id": "1107",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "4",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.69101",
+      "a": "0.230279"
+    },
+    "datetime": "2015-10-24 17:30:00",
+    "forecast": {
+      "w": "0.9826",
+      "d": "0.0157",
+      "l": "0.0017"
+    }
+  },
+  {
+    "id": "1108",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.66126",
+      "a": "0.702791"
+    },
+    "datetime": "2015-10-24 20:30:00",
+    "forecast": {
+      "w": "0.2577",
+      "d": "0.4038",
+      "l": "0.3385"
+    }
+  },
+  {
+    "id": "1109",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "5",
+      "a": "1"
+    },
+    "xG": {
+      "h": "4.21104",
+      "a": "0.293643"
+    },
+    "datetime": "2015-10-25 18:30:00",
+    "forecast": {
+      "w": "0.9959",
+      "d": "0.0037",
+      "l": "0.0004"
+    }
+  },
+  {
+    "id": "1110",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.25814",
+      "a": "0.767714"
+    },
+    "datetime": "2015-10-25 20:30:00",
+    "forecast": {
+      "w": "0.771",
+      "d": "0.1651",
+      "l": "0.0639"
+    }
+  },
+  {
+    "id": "1111",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.251519",
+      "a": "1.38915"
+    },
+    "datetime": "2015-10-30 23:30:00",
+    "forecast": {
+      "w": "0.0484",
+      "d": "0.2338",
+      "l": "0.7178"
+    }
+  },
+  {
+    "id": "1112",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.33774",
+      "a": "0.90728"
+    },
+    "datetime": "2015-10-31 18:30:00",
+    "forecast": {
+      "w": "0.4674",
+      "d": "0.2881",
+      "l": "0.2445"
+    }
+  },
+  {
+    "id": "1113",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "1",
+      "a": "4"
+    },
+    "xG": {
+      "h": "2.31638",
+      "a": "1.29051"
+    },
+    "datetime": "2015-10-31 18:30:00",
+    "forecast": {
+      "w": "0.6615",
+      "d": "0.2153",
+      "l": "0.1232"
+    }
+  },
+  {
+    "id": "1114",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "3",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.98084",
+      "a": "1.72651"
+    },
+    "datetime": "2015-10-31 18:30:00",
+    "forecast": {
+      "w": "0.6738",
+      "d": "0.2058",
+      "l": "0.1204"
+    }
+  },
+  {
+    "id": "1115",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.983033",
+      "a": "3.35901"
+    },
+    "datetime": "2015-10-31 18:30:00",
+    "forecast": {
+      "w": "0.0206",
+      "d": "0.0788",
+      "l": "0.9006"
+    }
+  },
+  {
+    "id": "1116",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.07951",
+      "a": "0.26092"
+    },
+    "datetime": "2015-10-31 18:30:00",
+    "forecast": {
+      "w": "0.5898",
+      "d": "0.3276",
+      "l": "0.0826"
+    }
+  },
+  {
+    "id": "1117",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.11288",
+      "a": "1.31846"
+    },
+    "datetime": "2015-10-31 21:30:00",
+    "forecast": {
+      "w": "0.5902",
+      "d": "0.2453",
+      "l": "0.1645"
+    }
+  },
+  {
+    "id": "1118",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.13203",
+      "a": "1.08627"
+    },
+    "datetime": "2015-11-01 18:30:00",
+    "forecast": {
+      "w": "0.6553",
+      "d": "0.2193",
+      "l": "0.1254"
+    }
+  },
+  {
+    "id": "1119",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.44912",
+      "a": "0.843812"
+    },
+    "datetime": "2015-11-01 20:30:00",
+    "forecast": {
+      "w": "0.8251",
+      "d": "0.1452",
+      "l": "0.0297"
+    }
+  },
+  {
+    "id": "1120",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.1491",
+      "a": "1.8958"
+    },
+    "datetime": "2015-11-06 23:30:00",
+    "forecast": {
+      "w": "0.1488",
+      "d": "0.2782",
+      "l": "0.573"
+    }
+  },
+  {
+    "id": "1121",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.680401",
+      "a": "1.60253"
+    },
+    "datetime": "2015-11-07 18:30:00",
+    "forecast": {
+      "w": "0.1309",
+      "d": "0.2446",
+      "l": "0.6245"
+    }
+  },
+  {
+    "id": "1122",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.36046",
+      "a": "0.153219"
+    },
+    "datetime": "2015-11-07 18:30:00",
+    "forecast": {
+      "w": "0.7558",
+      "d": "0.2136",
+      "l": "0.0306"
+    }
+  },
+  {
+    "id": "1123",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.457253",
+      "a": "2.03601"
+    },
+    "datetime": "2015-11-07 18:30:00",
+    "forecast": {
+      "w": "0.0507",
+      "d": "0.1466",
+      "l": "0.8027"
+    }
+  },
+  {
+    "id": "1124",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.28313",
+      "a": "0.939938"
+    },
+    "datetime": "2015-11-07 18:30:00",
+    "forecast": {
+      "w": "0.4509",
+      "d": "0.2976",
+      "l": "0.2515"
+    }
+  },
+  {
+    "id": "1125",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "4",
+      "a": "0"
+    },
+    "xG": {
+      "h": "4.71083",
+      "a": "0.284883"
+    },
+    "datetime": "2015-11-07 18:30:00",
+    "forecast": {
+      "w": "0.9939",
+      "d": "0.0052",
+      "l": "0.0009"
+    }
+  },
+  {
+    "id": "1126",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.6995",
+      "a": "1.15876"
+    },
+    "datetime": "2015-11-07 21:30:00",
+    "forecast": {
+      "w": "0.5044",
+      "d": "0.2933",
+      "l": "0.2023"
+    }
+  },
+  {
+    "id": "1127",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "3",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.14772",
+      "a": "1.37138"
+    },
+    "datetime": "2015-11-08 18:30:00",
+    "forecast": {
+      "w": "0.5695",
+      "d": "0.2455",
+      "l": "0.185"
+    }
+  },
+  {
+    "id": "1128",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.70717",
+      "a": "1.31037"
+    },
+    "datetime": "2015-11-08 20:30:00",
+    "forecast": {
+      "w": "0.4709",
+      "d": "0.2752",
+      "l": "0.2539"
+    }
+  },
+  {
+    "id": "1129",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.47142",
+      "a": "2.31377"
+    },
+    "datetime": "2015-11-20 23:45:00",
+    "forecast": {
+      "w": "0.1814",
+      "d": "0.2361",
+      "l": "0.5825"
+    }
+  },
+  {
+    "id": "1130",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "0",
+      "a": "4"
+    },
+    "xG": {
+      "h": "0.921864",
+      "a": "2.23123"
+    },
+    "datetime": "2015-11-21 18:30:00",
+    "forecast": {
+      "w": "0.116",
+      "d": "0.1806",
+      "l": "0.7034"
+    }
+  },
+  {
+    "id": "1131",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.620149",
+      "a": "1.67235"
+    },
+    "datetime": "2015-11-21 18:30:00",
+    "forecast": {
+      "w": "0.109",
+      "d": "0.2282",
+      "l": "0.6628"
+    }
+  },
+  {
+    "id": "1132",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.868247",
+      "a": "0.315868"
+    },
+    "datetime": "2015-11-21 18:30:00",
+    "forecast": {
+      "w": "0.5",
+      "d": "0.3718",
+      "l": "0.1282"
+    }
+  },
+  {
+    "id": "1133",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.61888",
+      "a": "2.19568"
+    },
+    "datetime": "2015-11-21 18:30:00",
+    "forecast": {
+      "w": "0.4737",
+      "d": "0.2226",
+      "l": "0.3037"
+    }
+  },
+  {
+    "id": "1134",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "6",
+      "a": "0"
+    },
+    "xG": {
+      "h": "4.16408",
+      "a": "0.724132"
+    },
+    "datetime": "2015-11-21 18:30:00",
+    "forecast": {
+      "w": "0.9577",
+      "d": "0.0338",
+      "l": "0.0085"
+    }
+  },
+  {
+    "id": "1135",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.217596",
+      "a": "2.27848"
+    },
+    "datetime": "2015-11-21 21:30:00",
+    "forecast": {
+      "w": "0.018",
+      "d": "0.1016",
+      "l": "0.8804"
+    }
+  },
+  {
+    "id": "1136",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.100337",
+      "a": "0.328805"
+    },
+    "datetime": "2015-11-22 18:30:00",
+    "forecast": {
+      "w": "0.0715",
+      "d": "0.6644",
+      "l": "0.2641"
+    }
+  },
+  {
+    "id": "1137",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.73623",
+      "a": "0.58372"
+    },
+    "datetime": "2015-11-22 20:40:00",
+    "forecast": {
+      "w": "0.892",
+      "d": "0.0843",
+      "l": "0.0237"
+    }
+  },
+  {
+    "id": "1138",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.508721",
+      "a": "0.933778"
+    },
+    "datetime": "2015-11-27 23:30:00",
+    "forecast": {
+      "w": "0.1858",
+      "d": "0.3585",
+      "l": "0.4557"
+    }
+  },
+  {
+    "id": "1139",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.977105",
+      "a": "1.13161"
+    },
+    "datetime": "2015-11-28 18:30:00",
+    "forecast": {
+      "w": "0.2972",
+      "d": "0.3141",
+      "l": "0.3887"
+    }
+  },
+  {
+    "id": "1140",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "4",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.50396",
+      "a": "0.366248"
+    },
+    "datetime": "2015-11-28 18:30:00",
+    "forecast": {
+      "w": "0.7083",
+      "d": "0.2268",
+      "l": "0.0649"
+    }
+  },
+  {
+    "id": "1141",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "3",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.07714",
+      "a": "1.66132"
+    },
+    "datetime": "2015-11-28 18:30:00",
+    "forecast": {
+      "w": "0.4754",
+      "d": "0.2465",
+      "l": "0.2781"
+    }
+  },
+  {
+    "id": "1142",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.93799",
+      "a": "0.218952"
+    },
+    "datetime": "2015-11-28 18:30:00",
+    "forecast": {
+      "w": "0.9845",
+      "d": "0.014",
+      "l": "0.0015"
+    }
+  },
+  {
+    "id": "1143",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.44079",
+      "a": "0.62621"
+    },
+    "datetime": "2015-11-28 18:45:00",
+    "forecast": {
+      "w": "0.8274",
+      "d": "0.1251",
+      "l": "0.0475"
+    }
+  },
+  {
+    "id": "1144",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "4",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.12434",
+      "a": "0.700582"
+    },
+    "datetime": "2015-11-29 18:30:00",
+    "forecast": {
+      "w": "0.7328",
+      "d": "0.1819",
+      "l": "0.0853"
+    }
+  },
+  {
+    "id": "1145",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.13995",
+      "a": "0.949254"
+    },
+    "datetime": "2015-11-29 20:30:00",
+    "forecast": {
+      "w": "0.6725",
+      "d": "0.2022",
+      "l": "0.1253"
+    }
+  },
+  {
+    "id": "1146",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.26639",
+      "a": "0.559526"
+    },
+    "datetime": "2015-11-29 20:30:00",
+    "forecast": {
+      "w": "0.5607",
+      "d": "0.2866",
+      "l": "0.1527"
+    }
+  },
+  {
+    "id": "1147",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "3.56394",
+      "a": "0.228822"
+    },
+    "datetime": "2015-12-04 23:30:00",
+    "forecast": {
+      "w": "0.9759",
+      "d": "0.0219",
+      "l": "0.0022"
+    }
+  },
+  {
+    "id": "1148",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.15779",
+      "a": "2.28915"
+    },
+    "datetime": "2015-12-05 18:30:00",
+    "forecast": {
+      "w": "0.35",
+      "d": "0.2395",
+      "l": "0.4105"
+    }
+  },
+  {
+    "id": "1149",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.30558",
+      "a": "1.19413"
+    },
+    "datetime": "2015-12-05 18:30:00",
+    "forecast": {
+      "w": "0.3775",
+      "d": "0.2886",
+      "l": "0.3339"
+    }
+  },
+  {
+    "id": "1150",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.36543",
+      "a": "2.1005"
+    },
+    "datetime": "2015-12-05 18:30:00",
+    "forecast": {
+      "w": "0.4444",
+      "d": "0.2358",
+      "l": "0.3198"
+    }
+  },
+  {
+    "id": "1151",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.02556",
+      "a": "1.2452"
+    },
+    "datetime": "2015-12-05 18:30:00",
+    "forecast": {
+      "w": "0.2794",
+      "d": "0.3041",
+      "l": "0.4165"
+    }
+  },
+  {
+    "id": "1152",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.489495",
+      "a": "1.12887"
+    },
+    "datetime": "2015-12-05 18:30:00",
+    "forecast": {
+      "w": "0.133",
+      "d": "0.3133",
+      "l": "0.5537"
+    }
+  },
+  {
+    "id": "1153",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.78593",
+      "a": "2.58853"
+    },
+    "datetime": "2015-12-05 21:30:00",
+    "forecast": {
+      "w": "0.19",
+      "d": "0.2139",
+      "l": "0.5961"
+    }
+  },
+  {
+    "id": "1154",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.49974",
+      "a": "0.886678"
+    },
+    "datetime": "2015-12-06 18:30:00",
+    "forecast": {
+      "w": "0.5253",
+      "d": "0.3276",
+      "l": "0.1471"
+    }
+  },
+  {
+    "id": "1155",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.0568",
+      "a": "1.55006"
+    },
+    "datetime": "2015-12-06 20:30:00",
+    "forecast": {
+      "w": "0.2357",
+      "d": "0.2687",
+      "l": "0.4956"
+    }
+  },
+  {
+    "id": "1156",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.747148",
+      "a": "0.601794"
+    },
+    "datetime": "2015-12-11 23:30:00",
+    "forecast": {
+      "w": "0.3676",
+      "d": "0.3817",
+      "l": "0.2507"
+    }
+  },
+  {
+    "id": "1157",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "0",
+      "a": "4"
+    },
+    "xG": {
+      "h": "0.26179",
+      "a": "1.99133"
+    },
+    "datetime": "2015-12-12 18:30:00",
+    "forecast": {
+      "w": "0.0192",
+      "d": "0.1073",
+      "l": "0.8735"
+    }
+  },
+  {
+    "id": "1158",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.00091",
+      "a": "0.210485"
+    },
+    "datetime": "2015-12-12 18:30:00",
+    "forecast": {
+      "w": "0.846",
+      "d": "0.1336",
+      "l": "0.0204"
+    }
+  },
+  {
+    "id": "1159",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.34869",
+      "a": "1.22073"
+    },
+    "datetime": "2015-12-12 18:30:00",
+    "forecast": {
+      "w": "0.3764",
+      "d": "0.3479",
+      "l": "0.2757"
+    }
+  },
+  {
+    "id": "1160",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.55239",
+      "a": "1.3987"
+    },
+    "datetime": "2015-12-12 18:30:00",
+    "forecast": {
+      "w": "0.4048",
+      "d": "0.2733",
+      "l": "0.3219"
+    }
+  },
+  {
+    "id": "1161",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.49703",
+      "a": "1.00727"
+    },
+    "datetime": "2015-12-12 18:30:00",
+    "forecast": {
+      "w": "0.7545",
+      "d": "0.16",
+      "l": "0.0855"
+    }
+  },
+  {
+    "id": "1162",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "5",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.75163",
+      "a": "0.376285"
+    },
+    "datetime": "2015-12-12 21:30:00",
+    "forecast": {
+      "w": "0.9371",
+      "d": "0.0519",
+      "l": "0.011"
+    }
+  },
+  {
+    "id": "1163",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.2358",
+      "a": "1.45492"
+    },
+    "datetime": "2015-12-13 18:30:00",
+    "forecast": {
+      "w": "0.309",
+      "d": "0.271",
+      "l": "0.42"
+    }
+  },
+  {
+    "id": "1164",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "4",
+      "a": "1"
+    },
+    "xG": {
+      "h": "6.02931",
+      "a": "0.133013"
+    },
+    "datetime": "2015-12-13 20:30:00",
+    "forecast": {
+      "w": "1",
+      "d": "0",
+      "l": "0"
+    }
+  },
+  {
+    "id": "1165",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.722775",
+      "a": "0.870611"
+    },
+    "datetime": "2015-12-18 23:30:00",
+    "forecast": {
+      "w": "0.2775",
+      "d": "0.3521",
+      "l": "0.3704"
+    }
+  },
+  {
+    "id": "1166",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.461211",
+      "a": "0.717973"
+    },
+    "datetime": "2015-12-19 18:30:00",
+    "forecast": {
+      "w": "0.2041",
+      "d": "0.4037",
+      "l": "0.3922"
+    }
+  },
+  {
+    "id": "1167",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.24397",
+      "a": "2.50129"
+    },
+    "datetime": "2015-12-19 18:30:00",
+    "forecast": {
+      "w": "0.1338",
+      "d": "0.182",
+      "l": "0.6842"
+    }
+  },
+  {
+    "id": "1168",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.84525",
+      "a": "0.87057"
+    },
+    "datetime": "2015-12-19 18:30:00",
+    "forecast": {
+      "w": "0.6284",
+      "d": "0.2287",
+      "l": "0.1429"
+    }
+  },
+  {
+    "id": "1169",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.769926",
+      "a": "0.750674"
+    },
+    "datetime": "2015-12-19 18:30:00",
+    "forecast": {
+      "w": "0.3277",
+      "d": "0.3684",
+      "l": "0.3039"
+    }
+  },
+  {
+    "id": "1170",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.221793",
+      "a": "2.52645"
+    },
+    "datetime": "2015-12-19 18:30:00",
+    "forecast": {
+      "w": "0.0084",
+      "d": "0.0634",
+      "l": "0.9282"
+    }
+  },
+  {
+    "id": "1171",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.7755",
+      "a": "1.32762"
+    },
+    "datetime": "2015-12-19 21:30:00",
+    "forecast": {
+      "w": "0.4846",
+      "d": "0.2698",
+      "l": "0.2456"
+    }
+  },
+  {
+    "id": "1172",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.52652",
+      "a": "0.26315"
+    },
+    "datetime": "2015-12-20 18:30:00",
+    "forecast": {
+      "w": "0.8052",
+      "d": "0.1654",
+      "l": "0.0294"
+    }
+  },
+  {
+    "id": "1173",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "3",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.0366",
+      "a": "2.23006"
+    },
+    "datetime": "2015-12-20 20:30:00",
+    "forecast": {
+      "w": "0.1281",
+      "d": "0.1992",
+      "l": "0.6727"
+    }
+  },
+  {
+    "id": "1174",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.378362",
+      "a": "1.95463"
+    },
+    "datetime": "2016-01-22 23:30:00",
+    "forecast": {
+      "w": "0.0366",
+      "d": "0.1494",
+      "l": "0.814"
+    }
+  },
+  {
+    "id": "1175",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.33406",
+      "a": "2.63662"
+    },
+    "datetime": "2016-01-23 18:30:00",
+    "forecast": {
+      "w": "0.301",
+      "d": "0.2427",
+      "l": "0.4563"
+    }
+  },
+  {
+    "id": "1176",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.28887",
+      "a": "2.76698"
+    },
+    "datetime": "2016-01-23 18:30:00",
+    "forecast": {
+      "w": "0.0805",
+      "d": "0.1555",
+      "l": "0.764"
+    }
+  },
+  {
+    "id": "1177",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.638542",
+      "a": "0.704125"
+    },
+    "datetime": "2016-01-23 18:30:00",
+    "forecast": {
+      "w": "0.2858",
+      "d": "0.3921",
+      "l": "0.3221"
+    }
+  },
+  {
+    "id": "1178",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.756054",
+      "a": "1.82105"
+    },
+    "datetime": "2016-01-23 18:30:00",
+    "forecast": {
+      "w": "0.1212",
+      "d": "0.2241",
+      "l": "0.6547"
+    }
+  },
+  {
+    "id": "1179",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.79614",
+      "a": "0.651914"
+    },
+    "datetime": "2016-01-23 18:30:00",
+    "forecast": {
+      "w": "0.7392",
+      "d": "0.1964",
+      "l": "0.0644"
+    }
+  },
+  {
+    "id": "1180",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.969724",
+      "a": "2.60367"
+    },
+    "datetime": "2016-01-23 21:30:00",
+    "forecast": {
+      "w": "0.0765",
+      "d": "0.1452",
+      "l": "0.7783"
+    }
+  },
+  {
+    "id": "1181",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.18879",
+      "a": "2.75506"
+    },
+    "datetime": "2016-01-24 18:30:00",
+    "forecast": {
+      "w": "0.0896",
+      "d": "0.1521",
+      "l": "0.7583"
+    }
+  },
+  {
+    "id": "1182",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.01652",
+      "a": "1.82961"
+    },
+    "datetime": "2016-01-24 20:30:00",
+    "forecast": {
+      "w": "0.4096",
+      "d": "0.2554",
+      "l": "0.335"
+    }
+  },
+  {
+    "id": "1183",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.852232",
+      "a": "1.91691"
+    },
+    "datetime": "2016-01-29 23:30:00",
+    "forecast": {
+      "w": "0.1238",
+      "d": "0.2064",
+      "l": "0.6698"
+    }
+  },
+  {
+    "id": "1184",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.0939969",
+      "a": "1.56117"
+    },
+    "datetime": "2016-01-30 18:30:00",
+    "forecast": {
+      "w": "0.0135",
+      "d": "0.1661",
+      "l": "0.8204"
+    }
+  },
+  {
+    "id": "1185",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.19495",
+      "a": "0.145484"
+    },
+    "datetime": "2016-01-30 18:30:00",
+    "forecast": {
+      "w": "0.9161",
+      "d": "0.0762",
+      "l": "0.0077"
+    }
+  },
+  {
+    "id": "1186",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.96768",
+      "a": "0.177765"
+    },
+    "datetime": "2016-01-30 18:30:00",
+    "forecast": {
+      "w": "0.8888",
+      "d": "0.0948",
+      "l": "0.0164"
+    }
+  },
+  {
+    "id": "1187",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.609193",
+      "a": "1.25574"
+    },
+    "datetime": "2016-01-30 18:30:00",
+    "forecast": {
+      "w": "0.1588",
+      "d": "0.3008",
+      "l": "0.5404"
+    }
+  },
+  {
+    "id": "1188",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "3",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.40454",
+      "a": "1.33238"
+    },
+    "datetime": "2016-01-30 18:30:00",
+    "forecast": {
+      "w": "0.6725",
+      "d": "0.2099",
+      "l": "0.1176"
+    }
+  },
+  {
+    "id": "1189",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.69957",
+      "a": "1.77488"
+    },
+    "datetime": "2016-01-30 21:30:00",
+    "forecast": {
+      "w": "0.5875",
+      "d": "0.197",
+      "l": "0.2155"
+    }
+  },
+  {
+    "id": "1190",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.04894",
+      "a": "0.698473"
+    },
+    "datetime": "2016-01-31 18:30:00",
+    "forecast": {
+      "w": "0.7426",
+      "d": "0.1791",
+      "l": "0.0783"
+    }
+  },
+  {
+    "id": "1191",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.08952",
+      "a": "0.463233"
+    },
+    "datetime": "2016-01-31 20:30:00",
+    "forecast": {
+      "w": "0.9198",
+      "d": "0.065",
+      "l": "0.0152"
+    }
+  },
+  {
+    "id": "1192",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "5",
+      "a": "1"
+    },
+    "xG": {
+      "h": "3.16316",
+      "a": "1.67818"
+    },
+    "datetime": "2016-02-05 23:30:00",
+    "forecast": {
+      "w": "0.7409",
+      "d": "0.1599",
+      "l": "0.0992"
+    }
+  },
+  {
+    "id": "1193",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.785917",
+      "a": "0.559619"
+    },
+    "datetime": "2016-02-06 18:30:00",
+    "forecast": {
+      "w": "0.3848",
+      "d": "0.3808",
+      "l": "0.2344"
+    }
+  },
+  {
+    "id": "1194",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "2",
+      "a": "4"
+    },
+    "xG": {
+      "h": "2.36752",
+      "a": "3.36402"
+    },
+    "datetime": "2016-02-06 18:30:00",
+    "forecast": {
+      "w": "0.2026",
+      "d": "0.1894",
+      "l": "0.608"
+    }
+  },
+  {
+    "id": "1195",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.638351",
+      "a": "0.857195"
+    },
+    "datetime": "2016-02-06 18:30:00",
+    "forecast": {
+      "w": "0.2595",
+      "d": "0.3643",
+      "l": "0.3762"
+    }
+  },
+  {
+    "id": "1196",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.881103",
+      "a": "0.391491"
+    },
+    "datetime": "2016-02-06 18:30:00",
+    "forecast": {
+      "w": "0.481",
+      "d": "0.3701",
+      "l": "0.1489"
+    }
+  },
+  {
+    "id": "1197",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.8596",
+      "a": "0.232784"
+    },
+    "datetime": "2016-02-06 18:30:00",
+    "forecast": {
+      "w": "0.9578",
+      "d": "0.0381",
+      "l": "0.0041"
+    }
+  },
+  {
+    "id": "1198",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.288974",
+      "a": "1.17556"
+    },
+    "datetime": "2016-02-06 21:30:00",
+    "forecast": {
+      "w": "0.0742",
+      "d": "0.2938",
+      "l": "0.632"
+    }
+  },
+  {
+    "id": "1199",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.197661",
+      "a": "1.37214"
+    },
+    "datetime": "2016-02-07 18:30:00",
+    "forecast": {
+      "w": "0.0487",
+      "d": "0.2461",
+      "l": "0.7052"
+    }
+  },
+  {
+    "id": "1200",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.584715",
+      "a": "2.06675"
+    },
+    "datetime": "2016-02-07 20:30:00",
+    "forecast": {
+      "w": "0.0665",
+      "d": "0.154",
+      "l": "0.7795"
+    }
+  },
+  {
+    "id": "1201",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.00349",
+      "a": "0.980702"
+    },
+    "datetime": "2016-02-12 23:30:00",
+    "forecast": {
+      "w": "0.3623",
+      "d": "0.3186",
+      "l": "0.3191"
+    }
+  },
+  {
+    "id": "1202",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.07695",
+      "a": "1.5656"
+    },
+    "datetime": "2016-02-13 18:30:00",
+    "forecast": {
+      "w": "0.1742",
+      "d": "0.3447",
+      "l": "0.4811"
+    }
+  },
+  {
+    "id": "1203",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.23883",
+      "a": "0.212153"
+    },
+    "datetime": "2016-02-13 18:30:00",
+    "forecast": {
+      "w": "0.6931",
+      "d": "0.2611",
+      "l": "0.0458"
+    }
+  },
+  {
+    "id": "1204",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.37415",
+      "a": "0.549133"
+    },
+    "datetime": "2016-02-13 18:30:00",
+    "forecast": {
+      "w": "0.6371",
+      "d": "0.2534",
+      "l": "0.1095"
+    }
+  },
+  {
+    "id": "1205",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.27221",
+      "a": "1.12753"
+    },
+    "datetime": "2016-02-13 18:30:00",
+    "forecast": {
+      "w": "0.3772",
+      "d": "0.302",
+      "l": "0.3208"
+    }
+  },
+  {
+    "id": "1206",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.83283",
+      "a": "0.57006"
+    },
+    "datetime": "2016-02-13 18:30:00",
+    "forecast": {
+      "w": "0.7212",
+      "d": "0.1957",
+      "l": "0.0831"
+    }
+  },
+  {
+    "id": "1207",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.27377",
+      "a": "0.606015"
+    },
+    "datetime": "2016-02-13 21:30:00",
+    "forecast": {
+      "w": "0.7978",
+      "d": "0.1432",
+      "l": "0.059"
+    }
+  },
+  {
+    "id": "1208",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "3",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.48178",
+      "a": "2.07387"
+    },
+    "datetime": "2016-02-14 18:30:00",
+    "forecast": {
+      "w": "0.2249",
+      "d": "0.2494",
+      "l": "0.5257"
+    }
+  },
+  {
+    "id": "1209",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.310362",
+      "a": "2.21151"
+    },
+    "datetime": "2016-02-14 20:30:00",
+    "forecast": {
+      "w": "0.0284",
+      "d": "0.1242",
+      "l": "0.8474"
+    }
+  },
+  {
+    "id": "1210",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.45464",
+      "a": "0.807708"
+    },
+    "datetime": "2016-02-19 23:30:00",
+    "forecast": {
+      "w": "0.1818",
+      "d": "0.3846",
+      "l": "0.4336"
+    }
+  },
+  {
+    "id": "1211",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "3.08206",
+      "a": "0.61234"
+    },
+    "datetime": "2016-02-20 18:30:00",
+    "forecast": {
+      "w": "0.8901",
+      "d": "0.0843",
+      "l": "0.0256"
+    }
+  },
+  {
+    "id": "1212",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.693683",
+      "a": "0.743911"
+    },
+    "datetime": "2016-02-20 18:30:00",
+    "forecast": {
+      "w": "0.2999",
+      "d": "0.3673",
+      "l": "0.3328"
+    }
+  },
+  {
+    "id": "1213",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "3",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.83746",
+      "a": "1.16619"
+    },
+    "datetime": "2016-02-20 18:30:00",
+    "forecast": {
+      "w": "0.554",
+      "d": "0.2541",
+      "l": "0.1919"
+    }
+  },
+  {
+    "id": "1214",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.85348",
+      "a": "0.572222"
+    },
+    "datetime": "2016-02-20 18:30:00",
+    "forecast": {
+      "w": "0.8122",
+      "d": "0.15",
+      "l": "0.0378"
+    }
+  },
+  {
+    "id": "1215",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.907861",
+      "a": "0.568002"
+    },
+    "datetime": "2016-02-20 18:30:00",
+    "forecast": {
+      "w": "0.4327",
+      "d": "0.3526",
+      "l": "0.2147"
+    }
+  },
+  {
+    "id": "1216",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.788355",
+      "a": "1.25829"
+    },
+    "datetime": "2016-02-21 18:30:00",
+    "forecast": {
+      "w": "0.1942",
+      "d": "0.3058",
+      "l": "0.5"
+    }
+  },
+  {
+    "id": "1217",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.433505",
+      "a": "1.17413"
+    },
+    "datetime": "2016-02-21 20:30:00",
+    "forecast": {
+      "w": "0.1149",
+      "d": "0.303",
+      "l": "0.5821"
+    }
+  },
+  {
+    "id": "1218",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.989802",
+      "a": "1.68313"
+    },
+    "datetime": "2016-02-21 20:30:00",
+    "forecast": {
+      "w": "0.1694",
+      "d": "0.2658",
+      "l": "0.5648"
+    }
+  },
+  {
+    "id": "1219",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.787942",
+      "a": "0.842565"
+    },
+    "datetime": "2016-02-26 23:30:00",
+    "forecast": {
+      "w": "0.2964",
+      "d": "0.3514",
+      "l": "0.3522"
+    }
+  },
+  {
+    "id": "1220",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.2106",
+      "a": "1.16123"
+    },
+    "datetime": "2016-02-27 18:30:00",
+    "forecast": {
+      "w": "0.6613",
+      "d": "0.2267",
+      "l": "0.112"
+    }
+  },
+  {
+    "id": "1221",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.686422",
+      "a": "1.21707"
+    },
+    "datetime": "2016-02-27 18:30:00",
+    "forecast": {
+      "w": "0.1926",
+      "d": "0.2997",
+      "l": "0.5077"
+    }
+  },
+  {
+    "id": "1222",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.897328",
+      "a": "1.01142"
+    },
+    "datetime": "2016-02-27 18:30:00",
+    "forecast": {
+      "w": "0.2903",
+      "d": "0.365",
+      "l": "0.3447"
+    }
+  },
+  {
+    "id": "1223",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "3.13363",
+      "a": "1.59513"
+    },
+    "datetime": "2016-02-27 18:30:00",
+    "forecast": {
+      "w": "0.7395",
+      "d": "0.1658",
+      "l": "0.0947"
+    }
+  },
+  {
+    "id": "1224",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.80948",
+      "a": "1.80962"
+    },
+    "datetime": "2016-02-28 18:30:00",
+    "forecast": {
+      "w": "0.3593",
+      "d": "0.2602",
+      "l": "0.3805"
+    }
+  },
+  {
+    "id": "1225",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.47417",
+      "a": "0.88117"
+    },
+    "datetime": "2016-02-28 20:30:00",
+    "forecast": {
+      "w": "0.7594",
+      "d": "0.1639",
+      "l": "0.0767"
+    }
+  },
+  {
+    "id": "1226",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.61685",
+      "a": "0.81358"
+    },
+    "datetime": "2016-02-28 20:30:00",
+    "forecast": {
+      "w": "0.8266",
+      "d": "0.1283",
+      "l": "0.0451"
+    }
+  },
+  {
+    "id": "1227",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.775413",
+      "a": "0.223305"
+    },
+    "datetime": "2016-02-28 22:30:00",
+    "forecast": {
+      "w": "0.4794",
+      "d": "0.4303",
+      "l": "0.0903"
+    }
+  },
+  {
+    "id": "1228",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "4"
+    },
+    "xG": {
+      "h": "0.395343",
+      "a": "3.15639"
+    },
+    "datetime": "2016-03-01 23:00:00",
+    "forecast": {
+      "w": "0.0137",
+      "d": "0.052",
+      "l": "0.9343"
+    }
+  },
+  {
+    "id": "1229",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.40092",
+      "a": "1.14458"
+    },
+    "datetime": "2016-03-01 23:00:00",
+    "forecast": {
+      "w": "0.4179",
+      "d": "0.323",
+      "l": "0.2591"
+    }
+  },
+  {
+    "id": "1230",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.422078",
+      "a": "3.36158"
+    },
+    "datetime": "2016-03-02 23:00:00",
+    "forecast": {
+      "w": "0.0058",
+      "d": "0.0391",
+      "l": "0.9551"
+    }
+  },
+  {
+    "id": "1231",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.21008",
+      "a": "0.339767"
+    },
+    "datetime": "2016-03-02 23:00:00",
+    "forecast": {
+      "w": "0.6263",
+      "d": "0.283",
+      "l": "0.0907"
+    }
+  },
+  {
+    "id": "1232",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.60086",
+      "a": "1.8142"
+    },
+    "datetime": "2016-03-02 23:00:00",
+    "forecast": {
+      "w": "0.3051",
+      "d": "0.2795",
+      "l": "0.4154"
+    }
+  },
+  {
+    "id": "1233",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.652757",
+      "a": "0.723063"
+    },
+    "datetime": "2016-03-02 23:00:00",
+    "forecast": {
+      "w": "0.2663",
+      "d": "0.3926",
+      "l": "0.3411"
+    }
+  },
+  {
+    "id": "1234",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "3",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.61412",
+      "a": "0.825944"
+    },
+    "datetime": "2016-03-02 23:00:00",
+    "forecast": {
+      "w": "0.7942",
+      "d": "0.1384",
+      "l": "0.0674"
+    }
+  },
+  {
+    "id": "1235",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "1",
+      "a": "4"
+    },
+    "xG": {
+      "h": "1.00958",
+      "a": "1.88024"
+    },
+    "datetime": "2016-03-02 23:00:00",
+    "forecast": {
+      "w": "0.1509",
+      "d": "0.2338",
+      "l": "0.6153"
+    }
+  },
+  {
+    "id": "1236",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "4",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.23676",
+      "a": "0.281312"
+    },
+    "datetime": "2016-03-02 23:00:00",
+    "forecast": {
+      "w": "0.9734",
+      "d": "0.0236",
+      "l": "0.003"
+    }
+  },
+  {
+    "id": "1237",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "5",
+      "a": "1"
+    },
+    "xG": {
+      "h": "3.82557",
+      "a": "0.918227"
+    },
+    "datetime": "2016-03-05 18:30:00",
+    "forecast": {
+      "w": "0.9159",
+      "d": "0.0579",
+      "l": "0.0262"
+    }
+  },
+  {
+    "id": "1238",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "3",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.63701",
+      "a": "1.46029"
+    },
+    "datetime": "2016-03-05 18:30:00",
+    "forecast": {
+      "w": "0.3967",
+      "d": "0.2936",
+      "l": "0.3097"
+    }
+  },
+  {
+    "id": "1239",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "4",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.14361",
+      "a": "1.14266"
+    },
+    "datetime": "2016-03-05 18:30:00",
+    "forecast": {
+      "w": "0.6388",
+      "d": "0.221",
+      "l": "0.1402"
+    }
+  },
+  {
+    "id": "1240",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.63935",
+      "a": "1.55385"
+    },
+    "datetime": "2016-03-05 18:30:00",
+    "forecast": {
+      "w": "0.6484",
+      "d": "0.205",
+      "l": "0.1466"
+    }
+  },
+  {
+    "id": "1241",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.44466",
+      "a": "2.23816"
+    },
+    "datetime": "2016-03-05 18:30:00",
+    "forecast": {
+      "w": "0.4252",
+      "d": "0.2433",
+      "l": "0.3315"
+    }
+  },
+  {
+    "id": "1242",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.863815",
+      "a": "1.0738"
+    },
+    "datetime": "2016-03-05 18:30:00",
+    "forecast": {
+      "w": "0.2825",
+      "d": "0.3269",
+      "l": "0.3906"
+    }
+  },
+  {
+    "id": "1243",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.750153",
+      "a": "1.15007"
+    },
+    "datetime": "2016-03-05 21:30:00",
+    "forecast": {
+      "w": "0.2322",
+      "d": "0.3115",
+      "l": "0.4563"
+    }
+  },
+  {
+    "id": "1244",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.18471",
+      "a": "1.02252"
+    },
+    "datetime": "2016-03-06 18:30:00",
+    "forecast": {
+      "w": "0.3966",
+      "d": "0.2975",
+      "l": "0.3059"
+    }
+  },
+  {
+    "id": "1245",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.10346",
+      "a": "0.22915"
+    },
+    "datetime": "2016-03-06 20:30:00",
+    "forecast": {
+      "w": "0.6214",
+      "d": "0.3099",
+      "l": "0.0687"
+    }
+  },
+  {
+    "id": "1246",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.41068",
+      "a": "1.08126"
+    },
+    "datetime": "2016-03-11 23:30:00",
+    "forecast": {
+      "w": "0.4415",
+      "d": "0.2797",
+      "l": "0.2788"
+    }
+  },
+  {
+    "id": "1247",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.40359",
+      "a": "0.680487"
+    },
+    "datetime": "2016-03-12 18:30:00",
+    "forecast": {
+      "w": "0.5976",
+      "d": "0.2655",
+      "l": "0.1369"
+    }
+  },
+  {
+    "id": "1248",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "3",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.86907",
+      "a": "3.11394"
+    },
+    "datetime": "2016-03-12 18:30:00",
+    "forecast": {
+      "w": "0.1519",
+      "d": "0.1707",
+      "l": "0.6774"
+    }
+  },
+  {
+    "id": "1249",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.35865",
+      "a": "1.28135"
+    },
+    "datetime": "2016-03-12 18:30:00",
+    "forecast": {
+      "w": "0.3634",
+      "d": "0.3388",
+      "l": "0.2978"
+    }
+  },
+  {
+    "id": "1250",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.87363",
+      "a": "0.0789648"
+    },
+    "datetime": "2016-03-12 18:30:00",
+    "forecast": {
+      "w": "0.8846",
+      "d": "0.1081",
+      "l": "0.0073"
+    }
+  },
+  {
+    "id": "1251",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.988474",
+      "a": "1.12909"
+    },
+    "datetime": "2016-03-12 18:30:00",
+    "forecast": {
+      "w": "0.2915",
+      "d": "0.3267",
+      "l": "0.3818"
+    }
+  },
+  {
+    "id": "1252",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "5",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.14093",
+      "a": "0.0947484"
+    },
+    "datetime": "2016-03-12 21:30:00",
+    "forecast": {
+      "w": "0.9739",
+      "d": "0.0242",
+      "l": "0.0019"
+    }
+  },
+  {
+    "id": "1253",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.46364",
+      "a": "1.03957"
+    },
+    "datetime": "2016-03-13 18:30:00",
+    "forecast": {
+      "w": "0.4754",
+      "d": "0.2851",
+      "l": "0.2395"
+    }
+  },
+  {
+    "id": "1254",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.95436",
+      "a": "0.136645"
+    },
+    "datetime": "2016-03-13 20:30:00",
+    "forecast": {
+      "w": "0.9898",
+      "d": "0.0089",
+      "l": "0.0013"
+    }
+  },
+  {
+    "id": "1255",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.10538",
+      "a": "2.14568"
+    },
+    "datetime": "2016-03-18 23:30:00",
+    "forecast": {
+      "w": "0.0076",
+      "d": "0.0882",
+      "l": "0.9042"
+    }
+  },
+  {
+    "id": "1256",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.31288",
+      "a": "1.3773"
+    },
+    "datetime": "2016-03-19 18:30:00",
+    "forecast": {
+      "w": "0.3288",
+      "d": "0.2787",
+      "l": "0.3925"
+    }
+  },
+  {
+    "id": "1257",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.27762",
+      "a": "2.21883"
+    },
+    "datetime": "2016-03-19 18:30:00",
+    "forecast": {
+      "w": "0.3819",
+      "d": "0.2586",
+      "l": "0.3595"
+    }
+  },
+  {
+    "id": "1258",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.15003",
+      "a": "0.685087"
+    },
+    "datetime": "2016-03-19 18:30:00",
+    "forecast": {
+      "w": "0.5085",
+      "d": "0.3209",
+      "l": "0.1706"
+    }
+  },
+  {
+    "id": "1259",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.00667",
+      "a": "0.343724"
+    },
+    "datetime": "2016-03-19 18:30:00",
+    "forecast": {
+      "w": "0.5684",
+      "d": "0.327",
+      "l": "0.1046"
+    }
+  },
+  {
+    "id": "1260",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.12049",
+      "a": "0.67263"
+    },
+    "datetime": "2016-03-19 18:30:00",
+    "forecast": {
+      "w": "0.4823",
+      "d": "0.3315",
+      "l": "0.1862"
+    }
+  },
+  {
+    "id": "1261",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.3943",
+      "a": "0.381106"
+    },
+    "datetime": "2016-03-19 21:30:00",
+    "forecast": {
+      "w": "0.6706",
+      "d": "0.2449",
+      "l": "0.0845"
+    }
+  },
+  {
+    "id": "1262",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.64082",
+      "a": "2.29012"
+    },
+    "datetime": "2016-03-20 18:30:00",
+    "forecast": {
+      "w": "0.0657",
+      "d": "0.1389",
+      "l": "0.7954"
+    }
+  },
+  {
+    "id": "1263",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.01768",
+      "a": "1.52542"
+    },
+    "datetime": "2016-03-20 20:30:00",
+    "forecast": {
+      "w": "0.2021",
+      "d": "0.3101",
+      "l": "0.4878"
+    }
+  },
+  {
+    "id": "1264",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.705961",
+      "a": "0.572215"
+    },
+    "datetime": "2016-04-01 22:30:00",
+    "forecast": {
+      "w": "0.3335",
+      "d": "0.4054",
+      "l": "0.2611"
+    }
+  },
+  {
+    "id": "1265",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.08122",
+      "a": "0.118042"
+    },
+    "datetime": "2016-04-02 17:30:00",
+    "forecast": {
+      "w": "0.6373",
+      "d": "0.3252",
+      "l": "0.0375"
+    }
+  },
+  {
+    "id": "1266",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "4",
+      "a": "2"
+    },
+    "xG": {
+      "h": "3.6054",
+      "a": "0.784999"
+    },
+    "datetime": "2016-04-02 17:30:00",
+    "forecast": {
+      "w": "0.925",
+      "d": "0.0564",
+      "l": "0.0186"
+    }
+  },
+  {
+    "id": "1267",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.86933",
+      "a": "0.864055"
+    },
+    "datetime": "2016-04-02 17:30:00",
+    "forecast": {
+      "w": "0.6694",
+      "d": "0.2201",
+      "l": "0.1105"
+    }
+  },
+  {
+    "id": "1268",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.21695",
+      "a": "0.480572"
+    },
+    "datetime": "2016-04-02 17:30:00",
+    "forecast": {
+      "w": "0.8408",
+      "d": "0.1209",
+      "l": "0.0383"
+    }
+  },
+  {
+    "id": "1269",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "0",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.16167",
+      "a": "2.17031"
+    },
+    "datetime": "2016-04-02 17:30:00",
+    "forecast": {
+      "w": "0.1329",
+      "d": "0.2227",
+      "l": "0.6444"
+    }
+  },
+  {
+    "id": "1270",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "3",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.84328",
+      "a": "0.436067"
+    },
+    "datetime": "2016-04-02 20:30:00",
+    "forecast": {
+      "w": "0.9006",
+      "d": "0.0772",
+      "l": "0.0222"
+    }
+  },
+  {
+    "id": "1271",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "5",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.41386",
+      "a": "0.280578"
+    },
+    "datetime": "2016-04-03 17:30:00",
+    "forecast": {
+      "w": "0.9302",
+      "d": "0.0619",
+      "l": "0.0079"
+    }
+  },
+  {
+    "id": "1272",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.04133",
+      "a": "1.09032"
+    },
+    "datetime": "2016-04-03 19:30:00",
+    "forecast": {
+      "w": "0.3179",
+      "d": "0.3142",
+      "l": "0.3679"
+    }
+  },
+  {
+    "id": "1273",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.66964",
+      "a": "1.25141"
+    },
+    "datetime": "2016-04-08 22:30:00",
+    "forecast": {
+      "w": "0.4856",
+      "d": "0.267",
+      "l": "0.2474"
+    }
+  },
+  {
+    "id": "1274",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.04687",
+      "a": "0.311628"
+    },
+    "datetime": "2016-04-09 17:30:00",
+    "forecast": {
+      "w": "0.8738",
+      "d": "0.1056",
+      "l": "0.0206"
+    }
+  },
+  {
+    "id": "1275",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.70616",
+      "a": "1.04297"
+    },
+    "datetime": "2016-04-09 17:30:00",
+    "forecast": {
+      "w": "0.2126",
+      "d": "0.339",
+      "l": "0.4484"
+    }
+  },
+  {
+    "id": "1276",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.959571",
+      "a": "0.728737"
+    },
+    "datetime": "2016-04-09 17:30:00",
+    "forecast": {
+      "w": "0.4179",
+      "d": "0.346",
+      "l": "0.2361"
+    }
+  },
+  {
+    "id": "1277",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.716015",
+      "a": "0.923628"
+    },
+    "datetime": "2016-04-09 17:30:00",
+    "forecast": {
+      "w": "0.2481",
+      "d": "0.3467",
+      "l": "0.4052"
+    }
+  },
+  {
+    "id": "1278",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.581161",
+      "a": "1.3548"
+    },
+    "datetime": "2016-04-09 17:30:00",
+    "forecast": {
+      "w": "0.1175",
+      "d": "0.2616",
+      "l": "0.6209"
+    }
+  },
+  {
+    "id": "1279",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.0116",
+      "a": "1.76775"
+    },
+    "datetime": "2016-04-09 20:30:00",
+    "forecast": {
+      "w": "0.1899",
+      "d": "0.2453",
+      "l": "0.5648"
+    }
+  },
+  {
+    "id": "1280",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.23275",
+      "a": "1.6976"
+    },
+    "datetime": "2016-04-10 17:30:00",
+    "forecast": {
+      "w": "0.2317",
+      "d": "0.2919",
+      "l": "0.4764"
+    }
+  },
+  {
+    "id": "1281",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.731816",
+      "a": "1.36907"
+    },
+    "datetime": "2016-04-10 19:30:00",
+    "forecast": {
+      "w": "0.17",
+      "d": "0.2767",
+      "l": "0.5533"
+    }
+  },
+  {
+    "id": "1282",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.64388",
+      "a": "0.732627"
+    },
+    "datetime": "2016-04-15 22:30:00",
+    "forecast": {
+      "w": "0.6386",
+      "d": "0.2465",
+      "l": "0.1149"
+    }
+  },
+  {
+    "id": "1283",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.31625",
+      "a": "1.09114"
+    },
+    "datetime": "2016-04-16 17:30:00",
+    "forecast": {
+      "w": "0.4108",
+      "d": "0.2953",
+      "l": "0.2939"
+    }
+  },
+  {
+    "id": "1284",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.24602",
+      "a": "0.351721"
+    },
+    "datetime": "2016-04-16 17:30:00",
+    "forecast": {
+      "w": "0.6739",
+      "d": "0.2533",
+      "l": "0.0728"
+    }
+  },
+  {
+    "id": "1285",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.12161",
+      "a": "0.878427"
+    },
+    "datetime": "2016-04-16 17:30:00",
+    "forecast": {
+      "w": "0.4052",
+      "d": "0.3383",
+      "l": "0.2565"
+    }
+  },
+  {
+    "id": "1286",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.28148",
+      "a": "0.428691"
+    },
+    "datetime": "2016-04-16 17:30:00",
+    "forecast": {
+      "w": "0.6392",
+      "d": "0.2644",
+      "l": "0.0964"
+    }
+  },
+  {
+    "id": "1287",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "2"
+    },
+    "xG": {
+      "h": "3.58106",
+      "a": "1.09409"
+    },
+    "datetime": "2016-04-16 17:30:00",
+    "forecast": {
+      "w": "0.9132",
+      "d": "0.0666",
+      "l": "0.0202"
+    }
+  },
+  {
+    "id": "1288",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.27153",
+      "a": "0.430468"
+    },
+    "datetime": "2016-04-16 20:30:00",
+    "forecast": {
+      "w": "0.6081",
+      "d": "0.2803",
+      "l": "0.1116"
+    }
+  },
+  {
+    "id": "1289",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.90773",
+      "a": "0.617113"
+    },
+    "datetime": "2016-04-17 17:30:00",
+    "forecast": {
+      "w": "0.7447",
+      "d": "0.1948",
+      "l": "0.0605"
+    }
+  },
+  {
+    "id": "1290",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.80923",
+      "a": "1.14393"
+    },
+    "datetime": "2016-04-17 19:30:00",
+    "forecast": {
+      "w": "0.5462",
+      "d": "0.2701",
+      "l": "0.1837"
+    }
+  },
+  {
+    "id": "1291",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.90362",
+      "a": "2.52835"
+    },
+    "datetime": "2016-04-22 22:30:00",
+    "forecast": {
+      "w": "0.2354",
+      "d": "0.2351",
+      "l": "0.5295"
+    }
+  },
+  {
+    "id": "1292",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.479435",
+      "a": "3.53521"
+    },
+    "datetime": "2016-04-23 17:30:00",
+    "forecast": {
+      "w": "0.0094",
+      "d": "0.0323",
+      "l": "0.9583"
+    }
+  },
+  {
+    "id": "1293",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.38162",
+      "a": "0.967552"
+    },
+    "datetime": "2016-04-23 17:30:00",
+    "forecast": {
+      "w": "0.4557",
+      "d": "0.3041",
+      "l": "0.2402"
+    }
+  },
+  {
+    "id": "1294",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "4",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.56591",
+      "a": "1.03362"
+    },
+    "datetime": "2016-04-23 17:30:00",
+    "forecast": {
+      "w": "0.7357",
+      "d": "0.1664",
+      "l": "0.0979"
+    }
+  },
+  {
+    "id": "1295",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.351189",
+      "a": "0.192443"
+    },
+    "datetime": "2016-04-23 17:30:00",
+    "forecast": {
+      "w": "0.2595",
+      "d": "0.6084",
+      "l": "0.1321"
+    }
+  },
+  {
+    "id": "1296",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.16542",
+      "a": "1.22986"
+    },
+    "datetime": "2016-04-23 17:30:00",
+    "forecast": {
+      "w": "0.3192",
+      "d": "0.3205",
+      "l": "0.3603"
+    }
+  },
+  {
+    "id": "1297",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "2",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.42823",
+      "a": "1.52773"
+    },
+    "datetime": "2016-04-23 20:30:00",
+    "forecast": {
+      "w": "0.5879",
+      "d": "0.2171",
+      "l": "0.195"
+    }
+  },
+  {
+    "id": "1298",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.90034",
+      "a": "1.18468"
+    },
+    "datetime": "2016-04-24 17:30:00",
+    "forecast": {
+      "w": "0.752",
+      "d": "0.1428",
+      "l": "0.1052"
+    }
+  },
+  {
+    "id": "1299",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.547038",
+      "a": "0.490667"
+    },
+    "datetime": "2016-04-24 19:30:00",
+    "forecast": {
+      "w": "0.291",
+      "d": "0.4573",
+      "l": "0.2517"
+    }
+  },
+  {
+    "id": "1300",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.88211",
+      "a": "0.257362"
+    },
+    "datetime": "2016-04-29 22:30:00",
+    "forecast": {
+      "w": "0.5089",
+      "d": "0.39",
+      "l": "0.1011"
+    }
+  },
+  {
+    "id": "1301",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.06666",
+      "a": "1.79057"
+    },
+    "datetime": "2016-04-30 17:30:00",
+    "forecast": {
+      "w": "0.4304",
+      "d": "0.2781",
+      "l": "0.2915"
+    }
+  },
+  {
+    "id": "1302",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.82345",
+      "a": "2.37831"
+    },
+    "datetime": "2016-04-30 17:30:00",
+    "forecast": {
+      "w": "0.2629",
+      "d": "0.2296",
+      "l": "0.5075"
+    }
+  },
+  {
+    "id": "1303",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.973992",
+      "a": "0.570155"
+    },
+    "datetime": "2016-04-30 17:30:00",
+    "forecast": {
+      "w": "0.4534",
+      "d": "0.3535",
+      "l": "0.1931"
+    }
+  },
+  {
+    "id": "1304",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.19136",
+      "a": "0.846611"
+    },
+    "datetime": "2016-04-30 17:30:00",
+    "forecast": {
+      "w": "0.452",
+      "d": "0.3356",
+      "l": "0.2124"
+    }
+  },
+  {
+    "id": "1305",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.283796",
+      "a": "0.337244"
+    },
+    "datetime": "2016-04-30 17:30:00",
+    "forecast": {
+      "w": "0.1859",
+      "d": "0.5841",
+      "l": "0.23"
+    }
+  },
+  {
+    "id": "1306",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "5",
+      "a": "1"
+    },
+    "xG": {
+      "h": "3.1369",
+      "a": "0.643223"
+    },
+    "datetime": "2016-04-30 17:30:00",
+    "forecast": {
+      "w": "0.8985",
+      "d": "0.0798",
+      "l": "0.0217"
+    }
+  },
+  {
+    "id": "1307",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.98724",
+      "a": "0.344918"
+    },
+    "datetime": "2016-04-30 20:30:00",
+    "forecast": {
+      "w": "0.9409",
+      "d": "0.0497",
+      "l": "0.0094"
+    }
+  },
+  {
+    "id": "1308",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "6",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.87488",
+      "a": "0.814877"
+    },
+    "datetime": "2016-05-02 22:15:00",
+    "forecast": {
+      "w": "0.851",
+      "d": "0.1036",
+      "l": "0.0454"
+    }
+  },
+  {
+    "id": "1309",
+    "isResult": true,
+    "h": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "a": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.4111",
+      "a": "0.557159"
+    },
+    "datetime": "2016-05-07 17:30:00",
+    "forecast": {
+      "w": "0.5895",
+      "d": "0.294",
+      "l": "0.1165"
+    }
+  },
+  {
+    "id": "1310",
+    "isResult": true,
+    "h": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "a": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.24034",
+      "a": "1.96166"
+    },
+    "datetime": "2016-05-07 17:30:00",
+    "forecast": {
+      "w": "0.1882",
+      "d": "0.2422",
+      "l": "0.5696"
+    }
+  },
+  {
+    "id": "1311",
+    "isResult": true,
+    "h": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "a": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.427188",
+      "a": "1.96183"
+    },
+    "datetime": "2016-05-07 17:30:00",
+    "forecast": {
+      "w": "0.0306",
+      "d": "0.1289",
+      "l": "0.8405"
+    }
+  },
+  {
+    "id": "1312",
+    "isResult": true,
+    "h": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "a": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.873428",
+      "a": "3.89767"
+    },
+    "datetime": "2016-05-07 17:30:00",
+    "forecast": {
+      "w": "0.0126",
+      "d": "0.0463",
+      "l": "0.9411"
+    }
+  },
+  {
+    "id": "1313",
+    "isResult": true,
+    "h": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "a": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.697175",
+      "a": "1.4668"
+    },
+    "datetime": "2016-05-07 17:30:00",
+    "forecast": {
+      "w": "0.1373",
+      "d": "0.2788",
+      "l": "0.5839"
+    }
+  },
+  {
+    "id": "1314",
+    "isResult": true,
+    "h": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "a": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.578238",
+      "a": "0.585339"
+    },
+    "datetime": "2016-05-07 17:30:00",
+    "forecast": {
+      "w": "0.2819",
+      "d": "0.4268",
+      "l": "0.2913"
+    }
+  },
+  {
+    "id": "1315",
+    "isResult": true,
+    "h": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "a": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.689753",
+      "a": "1.39948"
+    },
+    "datetime": "2016-05-07 17:30:00",
+    "forecast": {
+      "w": "0.1541",
+      "d": "0.2694",
+      "l": "0.5765"
+    }
+  },
+  {
+    "id": "1316",
+    "isResult": true,
+    "h": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "a": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.35682",
+      "a": "1.26224"
+    },
+    "datetime": "2016-05-07 17:30:00",
+    "forecast": {
+      "w": "0.3671",
+      "d": "0.2955",
+      "l": "0.3374"
+    }
+  },
+  {
+    "id": "1317",
+    "isResult": true,
+    "h": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "a": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.94299",
+      "a": "2.27556"
+    },
+    "datetime": "2016-05-07 17:30:00",
+    "forecast": {
+      "w": "0.2879",
+      "d": "0.2572",
+      "l": "0.4549"
+    }
+  },
+  {
+    "id": "1318",
+    "isResult": true,
+    "h": {
+      "id": "121",
+      "title": "Augsburg",
+      "short_title": "AUG"
+    },
+    "a": {
+      "id": "118",
+      "title": "Hamburger SV",
+      "short_title": "HAM"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.03269",
+      "a": "2.0985"
+    },
+    "datetime": "2016-05-14 17:30:00",
+    "forecast": {
+      "w": "0.1107",
+      "d": "0.2145",
+      "l": "0.6748"
+    }
+  },
+  {
+    "id": "1319",
+    "isResult": true,
+    "h": {
+      "id": "117",
+      "title": "Bayern Munich",
+      "short_title": "BAY"
+    },
+    "a": {
+      "id": "128",
+      "title": "Hannover 96",
+      "short_title": "HAN"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.692",
+      "a": "1.81013"
+    },
+    "datetime": "2016-05-14 17:30:00",
+    "forecast": {
+      "w": "0.5795",
+      "d": "0.1957",
+      "l": "0.2248"
+    }
+  },
+  {
+    "id": "1320",
+    "isResult": true,
+    "h": {
+      "id": "123",
+      "title": "Werder Bremen",
+      "short_title": "WER"
+    },
+    "a": {
+      "id": "132",
+      "title": "Eintracht Frankfurt",
+      "short_title": "EIN"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.9531",
+      "a": "0.191835"
+    },
+    "datetime": "2016-05-14 17:30:00",
+    "forecast": {
+      "w": "0.9316",
+      "d": "0.0637",
+      "l": "0.0047"
+    }
+  },
+  {
+    "id": "1321",
+    "isResult": true,
+    "h": {
+      "id": "129",
+      "title": "Borussia Dortmund",
+      "short_title": "DOR"
+    },
+    "a": {
+      "id": "134",
+      "title": "FC Cologne",
+      "short_title": "COL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.15049",
+      "a": "1.60855"
+    },
+    "datetime": "2016-05-14 17:30:00",
+    "forecast": {
+      "w": "0.2313",
+      "d": "0.2854",
+      "l": "0.4833"
+    }
+  },
+  {
+    "id": "1322",
+    "isResult": true,
+    "h": {
+      "id": "120",
+      "title": "Hoffenheim",
+      "short_title": "HOF"
+    },
+    "a": {
+      "id": "124",
+      "title": "Schalke 04",
+      "short_title": "SCH"
+    },
+    "goals": {
+      "h": "1",
+      "a": "4"
+    },
+    "xG": {
+      "h": "1.41779",
+      "a": "1.60217"
+    },
+    "datetime": "2016-05-14 17:30:00",
+    "forecast": {
+      "w": "0.3169",
+      "d": "0.2778",
+      "l": "0.4053"
+    }
+  },
+  {
+    "id": "1323",
+    "isResult": true,
+    "h": {
+      "id": "119",
+      "title": "Bayer Leverkusen",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "126",
+      "title": "Ingolstadt",
+      "short_title": "ING"
+    },
+    "goals": {
+      "h": "3",
+      "a": "2"
+    },
+    "xG": {
+      "h": "3.08569",
+      "a": "2.93125"
+    },
+    "datetime": "2016-05-14 17:30:00",
+    "forecast": {
+      "w": "0.4247",
+      "d": "0.2306",
+      "l": "0.3447"
+    }
+  },
+  {
+    "id": "1324",
+    "isResult": true,
+    "h": {
+      "id": "125",
+      "title": "Mainz 05",
+      "short_title": "MAI"
+    },
+    "a": {
+      "id": "122",
+      "title": "Hertha Berlin",
+      "short_title": "HER"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.48776",
+      "a": "0.873124"
+    },
+    "datetime": "2016-05-14 17:30:00",
+    "forecast": {
+      "w": "0.5602",
+      "d": "0.2816",
+      "l": "0.1582"
+    }
+  },
+  {
+    "id": "1325",
+    "isResult": true,
+    "h": {
+      "id": "131",
+      "title": "Wolfsburg",
+      "short_title": "WOL"
+    },
+    "a": {
+      "id": "133",
+      "title": "VfB Stuttgart",
+      "short_title": "STU"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.79348",
+      "a": "0.973203"
+    },
+    "datetime": "2016-05-14 17:30:00",
+    "forecast": {
+      "w": "0.8079",
+      "d": "0.1312",
+      "l": "0.0609"
+    }
+  },
+  {
+    "id": "1326",
+    "isResult": true,
+    "h": {
+      "id": "127",
+      "title": "Darmstadt",
+      "short_title": "DAR"
+    },
+    "a": {
+      "id": "130",
+      "title": "Borussia M.Gladbach",
+      "short_title": "BMG"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.357258",
+      "a": "1.87154"
+    },
+    "datetime": "2016-05-14 17:30:00",
+    "forecast": {
+      "w": "0.0427",
+      "d": "0.1687",
+      "l": "0.7886"
+    }
+  }
+]

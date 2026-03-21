@@ -1,0 +1,10642 @@
+[
+  {
+    "id": "17136",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.57861",
+      "a": "1.19326"
+    },
+    "datetime": "2021-08-13 19:00:00",
+    "forecast": {
+      "w": "0.4959",
+      "d": "0.26",
+      "l": "0.2441"
+    }
+  },
+  {
+    "id": "17138",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.569578",
+      "a": "0.814085"
+    },
+    "datetime": "2021-08-14 17:30:00",
+    "forecast": {
+      "w": "0.2253",
+      "d": "0.3826",
+      "l": "0.3921"
+    }
+  },
+  {
+    "id": "17139",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.993589",
+      "a": "0.915954"
+    },
+    "datetime": "2021-08-14 17:30:00",
+    "forecast": {
+      "w": "0.3656",
+      "d": "0.3362",
+      "l": "0.2982"
+    }
+  },
+  {
+    "id": "17137",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.579404",
+      "a": "0.583698"
+    },
+    "datetime": "2021-08-14 20:00:00",
+    "forecast": {
+      "w": "0.2966",
+      "d": "0.4217",
+      "l": "0.2817"
+    }
+  },
+  {
+    "id": "17140",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "4"
+    },
+    "xG": {
+      "h": "1.41097",
+      "a": "2.15551"
+    },
+    "datetime": "2021-08-14 20:00:00",
+    "forecast": {
+      "w": "0.1984",
+      "d": "0.2402",
+      "l": "0.5614"
+    }
+  },
+  {
+    "id": "17141",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.59399",
+      "a": "1.805"
+    },
+    "datetime": "2021-08-15 15:30:00",
+    "forecast": {
+      "w": "0.2949",
+      "d": "0.2955",
+      "l": "0.4096"
+    }
+  },
+  {
+    "id": "17142",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "4",
+      "a": "2"
+    },
+    "xG": {
+      "h": "3.46484",
+      "a": "0.902312"
+    },
+    "datetime": "2021-08-15 18:00:00",
+    "forecast": {
+      "w": "0.9194",
+      "d": "0.0596",
+      "l": "0.021"
+    }
+  },
+  {
+    "id": "17143",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.67402",
+      "a": "0.484078"
+    },
+    "datetime": "2021-08-15 20:15:00",
+    "forecast": {
+      "w": "0.973",
+      "d": "0.023",
+      "l": "0.004"
+    }
+  },
+  {
+    "id": "17144",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.21791",
+      "a": "0.246735"
+    },
+    "datetime": "2021-08-16 18:00:00",
+    "forecast": {
+      "w": "0.6516",
+      "d": "0.2824",
+      "l": "0.066"
+    }
+  },
+  {
+    "id": "17145",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.933565",
+      "a": "0.634866"
+    },
+    "datetime": "2021-08-16 20:00:00",
+    "forecast": {
+      "w": "0.4366",
+      "d": "0.3714",
+      "l": "0.192"
+    }
+  },
+  {
+    "id": "17146",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.82337",
+      "a": "1.4533"
+    },
+    "datetime": "2021-08-20 19:00:00",
+    "forecast": {
+      "w": "0.4555",
+      "d": "0.277",
+      "l": "0.2675"
+    }
+  },
+  {
+    "id": "17147",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.920977",
+      "a": "0.82407"
+    },
+    "datetime": "2021-08-21 15:00:00",
+    "forecast": {
+      "w": "0.369",
+      "d": "0.3405",
+      "l": "0.2905"
+    }
+  },
+  {
+    "id": "17148",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.752693",
+      "a": "1.50025"
+    },
+    "datetime": "2021-08-21 17:30:00",
+    "forecast": {
+      "w": "0.1407",
+      "d": "0.2794",
+      "l": "0.5799"
+    }
+  },
+  {
+    "id": "17149",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.68861",
+      "a": "0.597171"
+    },
+    "datetime": "2021-08-21 17:30:00",
+    "forecast": {
+      "w": "0.67",
+      "d": "0.2256",
+      "l": "0.1044"
+    }
+  },
+  {
+    "id": "17150",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.43436",
+      "a": "1.18383"
+    },
+    "datetime": "2021-08-21 20:00:00",
+    "forecast": {
+      "w": "0.4166",
+      "d": "0.2771",
+      "l": "0.3063"
+    }
+  },
+  {
+    "id": "17151",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.26913",
+      "a": "0.76322"
+    },
+    "datetime": "2021-08-22 15:00:00",
+    "forecast": {
+      "w": "0.7742",
+      "d": "0.1628",
+      "l": "0.063"
+    }
+  },
+  {
+    "id": "17152",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.04508",
+      "a": "0.168373"
+    },
+    "datetime": "2021-08-22 17:30:00",
+    "forecast": {
+      "w": "0.6599",
+      "d": "0.2939",
+      "l": "0.0462"
+    }
+  },
+  {
+    "id": "17153",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "3",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.63837",
+      "a": "2.14125"
+    },
+    "datetime": "2021-08-22 20:00:00",
+    "forecast": {
+      "w": "0.2526",
+      "d": "0.2537",
+      "l": "0.4937"
+    }
+  },
+  {
+    "id": "17154",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.391853",
+      "a": "0.813891"
+    },
+    "datetime": "2021-08-23 18:00:00",
+    "forecast": {
+      "w": "0.1477",
+      "d": "0.3762",
+      "l": "0.4761"
+    }
+  },
+  {
+    "id": "17155",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.58218",
+      "a": "0.084571"
+    },
+    "datetime": "2021-08-23 20:00:00",
+    "forecast": {
+      "w": "0.9548",
+      "d": "0.0429",
+      "l": "0.0023"
+    }
+  },
+  {
+    "id": "17156",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.28733",
+      "a": "0.296878"
+    },
+    "datetime": "2021-08-27 18:00:00",
+    "forecast": {
+      "w": "0.662",
+      "d": "0.2669",
+      "l": "0.0711"
+    }
+  },
+  {
+    "id": "17157",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.33998",
+      "a": "0.360675"
+    },
+    "datetime": "2021-08-27 20:15:00",
+    "forecast": {
+      "w": "0.8926",
+      "d": "0.0884",
+      "l": "0.019"
+    }
+  },
+  {
+    "id": "17158",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.934567",
+      "a": "1.45227"
+    },
+    "datetime": "2021-08-28 15:00:00",
+    "forecast": {
+      "w": "0.1976",
+      "d": "0.2749",
+      "l": "0.5275"
+    }
+  },
+  {
+    "id": "17159",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.855875",
+      "a": "0.521015"
+    },
+    "datetime": "2021-08-28 17:30:00",
+    "forecast": {
+      "w": "0.4164",
+      "d": "0.3843",
+      "l": "0.1993"
+    }
+  },
+  {
+    "id": "17160",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.855435",
+      "a": "1.70035"
+    },
+    "datetime": "2021-08-28 17:30:00",
+    "forecast": {
+      "w": "0.1519",
+      "d": "0.243",
+      "l": "0.6051"
+    }
+  },
+  {
+    "id": "17161",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.420687",
+      "a": "0.94097"
+    },
+    "datetime": "2021-08-28 20:00:00",
+    "forecast": {
+      "w": "0.1482",
+      "d": "0.3584",
+      "l": "0.4934"
+    }
+  },
+  {
+    "id": "17162",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.05122",
+      "a": "0.283315"
+    },
+    "datetime": "2021-08-29 15:00:00",
+    "forecast": {
+      "w": "0.5968",
+      "d": "0.3157",
+      "l": "0.0875"
+    }
+  },
+  {
+    "id": "17163",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.36149",
+      "a": "2.28418"
+    },
+    "datetime": "2021-08-29 17:30:00",
+    "forecast": {
+      "w": "0.1267",
+      "d": "0.2455",
+      "l": "0.6278"
+    }
+  },
+  {
+    "id": "17164",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "4",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.19631",
+      "a": "0.586302"
+    },
+    "datetime": "2021-08-29 17:30:00",
+    "forecast": {
+      "w": "0.7951",
+      "d": "0.1496",
+      "l": "0.0553"
+    }
+  },
+  {
+    "id": "17165",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.773",
+      "a": "0.448731"
+    },
+    "datetime": "2021-08-29 20:00:00",
+    "forecast": {
+      "w": "0.7408",
+      "d": "0.2048",
+      "l": "0.0544"
+    }
+  },
+  {
+    "id": "17171",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.10993",
+      "a": "2.7683"
+    },
+    "datetime": "2021-09-11 16:30:00",
+    "forecast": {
+      "w": "0.065",
+      "d": "0.153",
+      "l": "0.782"
+    }
+  },
+  {
+    "id": "17166",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.855",
+      "a": "0.22503"
+    },
+    "datetime": "2021-09-11 19:00:00",
+    "forecast": {
+      "w": "0.8138",
+      "d": "0.1564",
+      "l": "0.0298"
+    }
+  },
+  {
+    "id": "17170",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.373891",
+      "a": "0.732283"
+    },
+    "datetime": "2021-09-12 12:00:00",
+    "forecast": {
+      "w": "0.1629",
+      "d": "0.4168",
+      "l": "0.4203"
+    }
+  },
+  {
+    "id": "17172",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "4"
+    },
+    "xG": {
+      "h": "0.457252",
+      "a": "0.924929"
+    },
+    "datetime": "2021-09-12 14:15:00",
+    "forecast": {
+      "w": "0.1556",
+      "d": "0.3598",
+      "l": "0.4846"
+    }
+  },
+  {
+    "id": "17168",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.607763",
+      "a": "2.36611"
+    },
+    "datetime": "2021-09-12 16:30:00",
+    "forecast": {
+      "w": "0.0382",
+      "d": "0.1342",
+      "l": "0.8276"
+    }
+  },
+  {
+    "id": "17173",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "5",
+      "a": "2"
+    },
+    "xG": {
+      "h": "3.03734",
+      "a": "1.99062"
+    },
+    "datetime": "2021-09-12 19:00:00",
+    "forecast": {
+      "w": "0.6348",
+      "d": "0.196",
+      "l": "0.1692"
+    }
+  },
+  {
+    "id": "17167",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.3796",
+      "a": "1.07401"
+    },
+    "datetime": "2021-09-13 18:00:00",
+    "forecast": {
+      "w": "0.1078",
+      "d": "0.3017",
+      "l": "0.5905"
+    }
+  },
+  {
+    "id": "17169",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.780077",
+      "a": "2.43767"
+    },
+    "datetime": "2021-09-13 20:00:00",
+    "forecast": {
+      "w": "0.0704",
+      "d": "0.1507",
+      "l": "0.7789"
+    }
+  },
+  {
+    "id": "17180",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.993864",
+      "a": "1.07407"
+    },
+    "datetime": "2021-09-17 19:00:00",
+    "forecast": {
+      "w": "0.2744",
+      "d": "0.3547",
+      "l": "0.3709"
+    }
+  },
+  {
+    "id": "17184",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.98661",
+      "a": "1.15428"
+    },
+    "datetime": "2021-09-18 12:00:00",
+    "forecast": {
+      "w": "0.5978",
+      "d": "0.2597",
+      "l": "0.1425"
+    }
+  },
+  {
+    "id": "17177",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.10053",
+      "a": "1.10578"
+    },
+    "datetime": "2021-09-18 14:15:00",
+    "forecast": {
+      "w": "0.3288",
+      "d": "0.3291",
+      "l": "0.3421"
+    }
+  },
+  {
+    "id": "17185",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.536512",
+      "a": "1.12463"
+    },
+    "datetime": "2021-09-18 16:30:00",
+    "forecast": {
+      "w": "0.165",
+      "d": "0.3113",
+      "l": "0.5237"
+    }
+  },
+  {
+    "id": "17176",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.251601",
+      "a": "1.32313"
+    },
+    "datetime": "2021-09-18 19:00:00",
+    "forecast": {
+      "w": "0.0412",
+      "d": "0.2108",
+      "l": "0.748"
+    }
+  },
+  {
+    "id": "17181",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.529054",
+      "a": "1.63437"
+    },
+    "datetime": "2021-09-19 12:00:00",
+    "forecast": {
+      "w": "0.0782",
+      "d": "0.2093",
+      "l": "0.7125"
+    }
+  },
+  {
+    "id": "17182",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.17723",
+      "a": "0.7654"
+    },
+    "datetime": "2021-09-19 14:15:00",
+    "forecast": {
+      "w": "0.4716",
+      "d": "0.3501",
+      "l": "0.1783"
+    }
+  },
+  {
+    "id": "17179",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.36891",
+      "a": "1.21693"
+    },
+    "datetime": "2021-09-19 16:30:00",
+    "forecast": {
+      "w": "0.6519",
+      "d": "0.1952",
+      "l": "0.1529"
+    }
+  },
+  {
+    "id": "17183",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.647432",
+      "a": "1.36343"
+    },
+    "datetime": "2021-09-19 19:00:00",
+    "forecast": {
+      "w": "0.1539",
+      "d": "0.2734",
+      "l": "0.5727"
+    }
+  },
+  {
+    "id": "17178",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.88236",
+      "a": "0.612728"
+    },
+    "datetime": "2021-09-20 19:00:00",
+    "forecast": {
+      "w": "0.7337",
+      "d": "0.1943",
+      "l": "0.072"
+    }
+  },
+  {
+    "id": "17187",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.330581",
+      "a": "1.47906"
+    },
+    "datetime": "2021-09-21 17:30:00",
+    "forecast": {
+      "w": "0.0628",
+      "d": "0.2255",
+      "l": "0.7117"
+    }
+  },
+  {
+    "id": "17186",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.956027",
+      "a": "1.04121"
+    },
+    "datetime": "2021-09-21 20:00:00",
+    "forecast": {
+      "w": "0.2829",
+      "d": "0.3586",
+      "l": "0.3585"
+    }
+  },
+  {
+    "id": "17194",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.40702",
+      "a": "0.739683"
+    },
+    "datetime": "2021-09-21 20:00:00",
+    "forecast": {
+      "w": "0.582",
+      "d": "0.2886",
+      "l": "0.1294"
+    }
+  },
+  {
+    "id": "17189",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.20708",
+      "a": "0.442431"
+    },
+    "datetime": "2021-09-22 17:30:00",
+    "forecast": {
+      "w": "0.5897",
+      "d": "0.2909",
+      "l": "0.1194"
+    }
+  },
+  {
+    "id": "17193",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.61796",
+      "a": "0.424815"
+    },
+    "datetime": "2021-09-22 17:30:00",
+    "forecast": {
+      "w": "0.7409",
+      "d": "0.1976",
+      "l": "0.0615"
+    }
+  },
+  {
+    "id": "17188",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "4",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.77855",
+      "a": "1.09551"
+    },
+    "datetime": "2021-09-22 20:00:00",
+    "forecast": {
+      "w": "0.8037",
+      "d": "0.1355",
+      "l": "0.0608"
+    }
+  },
+  {
+    "id": "17190",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "6",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.3746",
+      "a": "1.19165"
+    },
+    "datetime": "2021-09-22 20:00:00",
+    "forecast": {
+      "w": "0.6585",
+      "d": "0.1893",
+      "l": "0.1522"
+    }
+  },
+  {
+    "id": "17192",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "2",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.25019",
+      "a": "1.58153"
+    },
+    "datetime": "2021-09-23 17:30:00",
+    "forecast": {
+      "w": "0.2758",
+      "d": "0.2933",
+      "l": "0.4309"
+    }
+  },
+  {
+    "id": "17195",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.820269",
+      "a": "2.20306"
+    },
+    "datetime": "2021-09-23 17:30:00",
+    "forecast": {
+      "w": "0.0918",
+      "d": "0.1751",
+      "l": "0.7331"
+    }
+  },
+  {
+    "id": "17191",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.40061",
+      "a": "0.361756"
+    },
+    "datetime": "2021-09-23 20:00:00",
+    "forecast": {
+      "w": "0.6752",
+      "d": "0.2478",
+      "l": "0.077"
+    }
+  },
+  {
+    "id": "17197",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.19699",
+      "a": "0.558059"
+    },
+    "datetime": "2021-09-25 12:00:00",
+    "forecast": {
+      "w": "0.5693",
+      "d": "0.2868",
+      "l": "0.1439"
+    }
+  },
+  {
+    "id": "17199",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.08633",
+      "a": "0.830524"
+    },
+    "datetime": "2021-09-25 14:15:00",
+    "forecast": {
+      "w": "0.4246",
+      "d": "0.3236",
+      "l": "0.2518"
+    }
+  },
+  {
+    "id": "17200",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.57528",
+      "a": "0.478568"
+    },
+    "datetime": "2021-09-25 16:30:00",
+    "forecast": {
+      "w": "0.7562",
+      "d": "0.1908",
+      "l": "0.053"
+    }
+  },
+  {
+    "id": "17202",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.53636",
+      "a": "0.666401"
+    },
+    "datetime": "2021-09-25 19:00:00",
+    "forecast": {
+      "w": "0.6297",
+      "d": "0.2561",
+      "l": "0.1142"
+    }
+  },
+  {
+    "id": "17203",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.74158",
+      "a": "1.63553"
+    },
+    "datetime": "2021-09-26 12:00:00",
+    "forecast": {
+      "w": "0.6487",
+      "d": "0.1887",
+      "l": "0.1626"
+    }
+  },
+  {
+    "id": "17196",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.11328",
+      "a": "0.712689"
+    },
+    "datetime": "2021-09-26 14:15:00",
+    "forecast": {
+      "w": "0.8961",
+      "d": "0.0798",
+      "l": "0.0241"
+    }
+  },
+  {
+    "id": "17198",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.89007",
+      "a": "1.09997"
+    },
+    "datetime": "2021-09-26 16:30:00",
+    "forecast": {
+      "w": "0.6034",
+      "d": "0.2578",
+      "l": "0.1388"
+    }
+  },
+  {
+    "id": "17201",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.11835",
+      "a": "0.573483"
+    },
+    "datetime": "2021-09-26 16:30:00",
+    "forecast": {
+      "w": "0.8178",
+      "d": "0.1514",
+      "l": "0.0308"
+    }
+  },
+  {
+    "id": "17205",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.4642",
+      "a": "0.590585"
+    },
+    "datetime": "2021-09-26 19:00:00",
+    "forecast": {
+      "w": "0.8336",
+      "d": "0.1272",
+      "l": "0.0392"
+    }
+  },
+  {
+    "id": "17204",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.26658",
+      "a": "0.541862"
+    },
+    "datetime": "2021-09-27 19:00:00",
+    "forecast": {
+      "w": "0.5904",
+      "d": "0.3023",
+      "l": "0.1073"
+    }
+  },
+  {
+    "id": "17211",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.49402",
+      "a": "0.808018"
+    },
+    "datetime": "2021-10-01 19:00:00",
+    "forecast": {
+      "w": "0.8047",
+      "d": "0.1301",
+      "l": "0.0652"
+    }
+  },
+  {
+    "id": "17208",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.657174",
+      "a": "0.148539"
+    },
+    "datetime": "2021-10-02 12:00:00",
+    "forecast": {
+      "w": "0.4737",
+      "d": "0.4564",
+      "l": "0.0699"
+    }
+  },
+  {
+    "id": "17213",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.442135",
+      "a": "1.43388"
+    },
+    "datetime": "2021-10-02 14:15:00",
+    "forecast": {
+      "w": "0.0696",
+      "d": "0.2194",
+      "l": "0.711"
+    }
+  },
+  {
+    "id": "17215",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.156791",
+      "a": "1.43757"
+    },
+    "datetime": "2021-10-02 16:30:00",
+    "forecast": {
+      "w": "0.0285",
+      "d": "0.2037",
+      "l": "0.7678"
+    }
+  },
+  {
+    "id": "17212",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.37412",
+      "a": "0.74746"
+    },
+    "datetime": "2021-10-02 19:00:00",
+    "forecast": {
+      "w": "0.5445",
+      "d": "0.2839",
+      "l": "0.1716"
+    }
+  },
+  {
+    "id": "17210",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.39817",
+      "a": "0.713553"
+    },
+    "datetime": "2021-10-03 12:00:00",
+    "forecast": {
+      "w": "0.5509",
+      "d": "0.2997",
+      "l": "0.1494"
+    }
+  },
+  {
+    "id": "17207",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.29119",
+      "a": "1.62384"
+    },
+    "datetime": "2021-10-03 14:15:00",
+    "forecast": {
+      "w": "0.2865",
+      "d": "0.271",
+      "l": "0.4425"
+    }
+  },
+  {
+    "id": "17209",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.58641",
+      "a": "0.527081"
+    },
+    "datetime": "2021-10-03 16:30:00",
+    "forecast": {
+      "w": "0.8666",
+      "d": "0.1004",
+      "l": "0.033"
+    }
+  },
+  {
+    "id": "17214",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.523662",
+      "a": "0.799948"
+    },
+    "datetime": "2021-10-03 16:30:00",
+    "forecast": {
+      "w": "0.21",
+      "d": "0.3901",
+      "l": "0.3999"
+    }
+  },
+  {
+    "id": "17206",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.0843984",
+      "a": "1.4028"
+    },
+    "datetime": "2021-10-03 19:00:00",
+    "forecast": {
+      "w": "0.0136",
+      "d": "0.1958",
+      "l": "0.7906"
+    }
+  },
+  {
+    "id": "17221",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.83295",
+      "a": "0.557421"
+    },
+    "datetime": "2021-10-16 16:30:00",
+    "forecast": {
+      "w": "0.4166",
+      "d": "0.373",
+      "l": "0.2104"
+    }
+  },
+  {
+    "id": "17223",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.404506",
+      "a": "0.35977"
+    },
+    "datetime": "2021-10-16 19:00:00",
+    "forecast": {
+      "w": "0.2597",
+      "d": "0.5279",
+      "l": "0.2124"
+    }
+  },
+  {
+    "id": "17224",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.10651",
+      "a": "0.326072"
+    },
+    "datetime": "2021-10-17 12:00:00",
+    "forecast": {
+      "w": "0.6055",
+      "d": "0.3055",
+      "l": "0.089"
+    }
+  },
+  {
+    "id": "17218",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.888941",
+      "a": "0.828384"
+    },
+    "datetime": "2021-10-17 14:15:00",
+    "forecast": {
+      "w": "0.3238",
+      "d": "0.3681",
+      "l": "0.3081"
+    }
+  },
+  {
+    "id": "17225",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.713142",
+      "a": "0.957297"
+    },
+    "datetime": "2021-10-17 16:30:00",
+    "forecast": {
+      "w": "0.2372",
+      "d": "0.3476",
+      "l": "0.4152"
+    }
+  },
+  {
+    "id": "17217",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.37862",
+      "a": "0.378333"
+    },
+    "datetime": "2021-10-17 19:00:00",
+    "forecast": {
+      "w": "0.8953",
+      "d": "0.0829",
+      "l": "0.0218"
+    }
+  },
+  {
+    "id": "17216",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.35769",
+      "a": "1.47785"
+    },
+    "datetime": "2021-10-18 17:00:00",
+    "forecast": {
+      "w": "0.3314",
+      "d": "0.2834",
+      "l": "0.3852"
+    }
+  },
+  {
+    "id": "17220",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.73503",
+      "a": "0.603648"
+    },
+    "datetime": "2021-10-18 19:00:00",
+    "forecast": {
+      "w": "0.7107",
+      "d": "0.2126",
+      "l": "0.0767"
+    }
+  },
+  {
+    "id": "17230",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.24456",
+      "a": "0.434896"
+    },
+    "datetime": "2021-10-22 19:00:00",
+    "forecast": {
+      "w": "0.5996",
+      "d": "0.2853",
+      "l": "0.1151"
+    }
+  },
+  {
+    "id": "17228",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.47094",
+      "a": "0.807566"
+    },
+    "datetime": "2021-10-23 12:00:00",
+    "forecast": {
+      "w": "0.539",
+      "d": "0.2932",
+      "l": "0.1678"
+    }
+  },
+  {
+    "id": "17231",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.00294",
+      "a": "1.86733"
+    },
+    "datetime": "2021-10-23 14:15:00",
+    "forecast": {
+      "w": "0.3979",
+      "d": "0.2505",
+      "l": "0.3516"
+    }
+  },
+  {
+    "id": "17227",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.998945",
+      "a": "1.05435"
+    },
+    "datetime": "2021-10-23 16:30:00",
+    "forecast": {
+      "w": "0.3301",
+      "d": "0.3226",
+      "l": "0.3473"
+    }
+  },
+  {
+    "id": "17226",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.64328",
+      "a": "0.605636"
+    },
+    "datetime": "2021-10-23 19:00:00",
+    "forecast": {
+      "w": "0.8874",
+      "d": "0.0854",
+      "l": "0.0272"
+    }
+  },
+  {
+    "id": "17229",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "5",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.82952",
+      "a": "1.28779"
+    },
+    "datetime": "2021-10-24 12:00:00",
+    "forecast": {
+      "w": "0.5094",
+      "d": "0.252",
+      "l": "0.2386"
+    }
+  },
+  {
+    "id": "17234",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.58789",
+      "a": "1.5463"
+    },
+    "datetime": "2021-10-24 14:15:00",
+    "forecast": {
+      "w": "0.368",
+      "d": "0.2836",
+      "l": "0.3484"
+    }
+  },
+  {
+    "id": "17233",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.43375",
+      "a": "1.16768"
+    },
+    "datetime": "2021-10-24 16:30:00",
+    "forecast": {
+      "w": "0.4382",
+      "d": "0.2941",
+      "l": "0.2677"
+    }
+  },
+  {
+    "id": "17235",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.75286",
+      "a": "0.834092"
+    },
+    "datetime": "2021-10-24 19:00:00",
+    "forecast": {
+      "w": "0.6412",
+      "d": "0.2351",
+      "l": "0.1237"
+    }
+  },
+  {
+    "id": "17232",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.461119",
+      "a": "2.48108"
+    },
+    "datetime": "2021-10-25 19:00:00",
+    "forecast": {
+      "w": "0.0319",
+      "d": "0.1066",
+      "l": "0.8615"
+    }
+  },
+  {
+    "id": "17239",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.81349",
+      "a": "0.281657"
+    },
+    "datetime": "2021-10-26 17:00:00",
+    "forecast": {
+      "w": "0.8316",
+      "d": "0.1379",
+      "l": "0.0305"
+    }
+  },
+  {
+    "id": "17243",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.23306",
+      "a": "3.68446"
+    },
+    "datetime": "2021-10-26 19:00:00",
+    "forecast": {
+      "w": "0.0342",
+      "d": "0.0827",
+      "l": "0.8831"
+    }
+  },
+  {
+    "id": "17238",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "3",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.95102",
+      "a": "1.53615"
+    },
+    "datetime": "2021-10-26 19:30:00",
+    "forecast": {
+      "w": "0.4688",
+      "d": "0.2493",
+      "l": "0.2819"
+    }
+  },
+  {
+    "id": "17236",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.786282",
+      "a": "2.85731"
+    },
+    "datetime": "2021-10-27 17:00:00",
+    "forecast": {
+      "w": "0.0353",
+      "d": "0.1029",
+      "l": "0.8618"
+    }
+  },
+  {
+    "id": "17245",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.27366",
+      "a": "1.42068"
+    },
+    "datetime": "2021-10-27 17:00:00",
+    "forecast": {
+      "w": "0.5949",
+      "d": "0.2302",
+      "l": "0.1749"
+    }
+  },
+  {
+    "id": "17241",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "4",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.58067",
+      "a": "2.17844"
+    },
+    "datetime": "2021-10-27 18:00:00",
+    "forecast": {
+      "w": "0.4653",
+      "d": "0.2534",
+      "l": "0.2813"
+    }
+  },
+  {
+    "id": "17237",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.655438",
+      "a": "0.71046"
+    },
+    "datetime": "2021-10-27 19:30:00",
+    "forecast": {
+      "w": "0.2784",
+      "d": "0.3817",
+      "l": "0.3399"
+    }
+  },
+  {
+    "id": "17240",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.995591",
+      "a": "1.42714"
+    },
+    "datetime": "2021-10-28 17:00:00",
+    "forecast": {
+      "w": "0.2111",
+      "d": "0.3089",
+      "l": "0.48"
+    }
+  },
+  {
+    "id": "17244",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.26351",
+      "a": "0.581107"
+    },
+    "datetime": "2021-10-28 18:00:00",
+    "forecast": {
+      "w": "0.8227",
+      "d": "0.1469",
+      "l": "0.0304"
+    }
+  },
+  {
+    "id": "17242",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.12426",
+      "a": "1.33383"
+    },
+    "datetime": "2021-10-28 19:30:00",
+    "forecast": {
+      "w": "0.5918",
+      "d": "0.2608",
+      "l": "0.1474"
+    }
+  },
+  {
+    "id": "17246",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.15068",
+      "a": "1.60735"
+    },
+    "datetime": "2021-10-30 12:00:00",
+    "forecast": {
+      "w": "0.2477",
+      "d": "0.2636",
+      "l": "0.4887"
+    }
+  },
+  {
+    "id": "17249",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.43378",
+      "a": "0.790454"
+    },
+    "datetime": "2021-10-30 14:15:00",
+    "forecast": {
+      "w": "0.7824",
+      "d": "0.1542",
+      "l": "0.0634"
+    }
+  },
+  {
+    "id": "17247",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.66395",
+      "a": "0.804209"
+    },
+    "datetime": "2021-10-30 16:30:00",
+    "forecast": {
+      "w": "0.6368",
+      "d": "0.237",
+      "l": "0.1262"
+    }
+  },
+  {
+    "id": "17252",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.56007",
+      "a": "0.599628"
+    },
+    "datetime": "2021-10-30 19:00:00",
+    "forecast": {
+      "w": "0.6393",
+      "d": "0.2613",
+      "l": "0.0994"
+    }
+  },
+  {
+    "id": "17254",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.80233",
+      "a": "1.03662"
+    },
+    "datetime": "2021-10-31 13:00:00",
+    "forecast": {
+      "w": "0.5971",
+      "d": "0.2505",
+      "l": "0.1524"
+    }
+  },
+  {
+    "id": "17251",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.5506",
+      "a": "0.521096"
+    },
+    "datetime": "2021-10-31 15:15:00",
+    "forecast": {
+      "w": "0.8486",
+      "d": "0.1143",
+      "l": "0.0371"
+    }
+  },
+  {
+    "id": "17253",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.951784",
+      "a": "0.619895"
+    },
+    "datetime": "2021-10-31 17:30:00",
+    "forecast": {
+      "w": "0.4364",
+      "d": "0.3484",
+      "l": "0.2152"
+    }
+  },
+  {
+    "id": "17250",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.05807",
+      "a": "1.01149"
+    },
+    "datetime": "2021-10-31 20:00:00",
+    "forecast": {
+      "w": "0.3488",
+      "d": "0.3597",
+      "l": "0.2915"
+    }
+  },
+  {
+    "id": "17248",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.467972",
+      "a": "0.43779"
+    },
+    "datetime": "2021-11-01 17:30:00",
+    "forecast": {
+      "w": "0.2664",
+      "d": "0.4903",
+      "l": "0.2433"
+    }
+  },
+  {
+    "id": "17255",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "0",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.33088",
+      "a": "1.46089"
+    },
+    "datetime": "2021-11-01 20:00:00",
+    "forecast": {
+      "w": "0.3259",
+      "d": "0.2801",
+      "l": "0.394"
+    }
+  },
+  {
+    "id": "17257",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.584754",
+      "a": "0.491777"
+    },
+    "datetime": "2021-11-05 20:00:00",
+    "forecast": {
+      "w": "0.3136",
+      "d": "0.44",
+      "l": "0.2464"
+    }
+  },
+  {
+    "id": "17261",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.76367",
+      "a": "2.06874"
+    },
+    "datetime": "2021-11-06 13:00:00",
+    "forecast": {
+      "w": "0.3019",
+      "d": "0.2428",
+      "l": "0.4553"
+    }
+  },
+  {
+    "id": "17259",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "3",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.77068",
+      "a": "1.13925"
+    },
+    "datetime": "2021-11-06 15:15:00",
+    "forecast": {
+      "w": "0.542",
+      "d": "0.2477",
+      "l": "0.2103"
+    }
+  },
+  {
+    "id": "17256",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.53471",
+      "a": "0.802633"
+    },
+    "datetime": "2021-11-06 17:30:00",
+    "forecast": {
+      "w": "0.6008",
+      "d": "0.2607",
+      "l": "0.1385"
+    }
+  },
+  {
+    "id": "17263",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.72626",
+      "a": "1.78044"
+    },
+    "datetime": "2021-11-06 20:00:00",
+    "forecast": {
+      "w": "0.5891",
+      "d": "0.2098",
+      "l": "0.2011"
+    }
+  },
+  {
+    "id": "17265",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.49263",
+      "a": "0.153162"
+    },
+    "datetime": "2021-11-07 13:00:00",
+    "forecast": {
+      "w": "0.7596",
+      "d": "0.2106",
+      "l": "0.0298"
+    }
+  },
+  {
+    "id": "17264",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.57167",
+      "a": "2.63804"
+    },
+    "datetime": "2021-11-07 15:15:00",
+    "forecast": {
+      "w": "0.1222",
+      "d": "0.2186",
+      "l": "0.6592"
+    }
+  },
+  {
+    "id": "17260",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.04894",
+      "a": "0.679919"
+    },
+    "datetime": "2021-11-07 17:30:00",
+    "forecast": {
+      "w": "0.7471",
+      "d": "0.1813",
+      "l": "0.0716"
+    }
+  },
+  {
+    "id": "17262",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.495749",
+      "a": "1.43263"
+    },
+    "datetime": "2021-11-07 17:30:00",
+    "forecast": {
+      "w": "0.0695",
+      "d": "0.2585",
+      "l": "0.672"
+    }
+  },
+  {
+    "id": "17258",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.389163",
+      "a": "1.42156"
+    },
+    "datetime": "2021-11-07 20:00:00",
+    "forecast": {
+      "w": "0.0779",
+      "d": "0.2401",
+      "l": "0.682"
+    }
+  },
+  {
+    "id": "17271",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.630763",
+      "a": "0.452179"
+    },
+    "datetime": "2021-11-19 20:00:00",
+    "forecast": {
+      "w": "0.3355",
+      "d": "0.4492",
+      "l": "0.2153"
+    }
+  },
+  {
+    "id": "17268",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.90981",
+      "a": "2.71931"
+    },
+    "datetime": "2021-11-20 13:00:00",
+    "forecast": {
+      "w": "0.0521",
+      "d": "0.1282",
+      "l": "0.8197"
+    }
+  },
+  {
+    "id": "17273",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.37509",
+      "a": "1.47367"
+    },
+    "datetime": "2021-11-20 15:15:00",
+    "forecast": {
+      "w": "0.3156",
+      "d": "0.2984",
+      "l": "0.386"
+    }
+  },
+  {
+    "id": "17266",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.61044",
+      "a": "0.378974"
+    },
+    "datetime": "2021-11-20 17:30:00",
+    "forecast": {
+      "w": "0.724",
+      "d": "0.2095",
+      "l": "0.0665"
+    }
+  },
+  {
+    "id": "17267",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.51262",
+      "a": "1.41291"
+    },
+    "datetime": "2021-11-20 20:00:00",
+    "forecast": {
+      "w": "0.3792",
+      "d": "0.2988",
+      "l": "0.322"
+    }
+  },
+  {
+    "id": "17269",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "4",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.54295",
+      "a": "0.370193"
+    },
+    "datetime": "2021-11-21 13:00:00",
+    "forecast": {
+      "w": "0.6885",
+      "d": "0.233",
+      "l": "0.0785"
+    }
+  },
+  {
+    "id": "17270",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "4"
+    },
+    "xG": {
+      "h": "0.56422",
+      "a": "3.77854"
+    },
+    "datetime": "2021-11-21 15:15:00",
+    "forecast": {
+      "w": "0.0109",
+      "d": "0.0321",
+      "l": "0.957"
+    }
+  },
+  {
+    "id": "17275",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "0",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.824849",
+      "a": "1.60069"
+    },
+    "datetime": "2021-11-21 17:30:00",
+    "forecast": {
+      "w": "0.1508",
+      "d": "0.2551",
+      "l": "0.5941"
+    }
+  },
+  {
+    "id": "17272",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.405372",
+      "a": "0.584859"
+    },
+    "datetime": "2021-11-21 20:00:00",
+    "forecast": {
+      "w": "0.2072",
+      "d": "0.4519",
+      "l": "0.3409"
+    }
+  },
+  {
+    "id": "17274",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.94957",
+      "a": "0.827606"
+    },
+    "datetime": "2021-11-22 20:00:00",
+    "forecast": {
+      "w": "0.6703",
+      "d": "0.2216",
+      "l": "0.1081"
+    }
+  },
+  {
+    "id": "17277",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.33935",
+      "a": "0.977596"
+    },
+    "datetime": "2021-11-26 20:00:00",
+    "forecast": {
+      "w": "0.4386",
+      "d": "0.3062",
+      "l": "0.2552"
+    }
+  },
+  {
+    "id": "17276",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.677245",
+      "a": "1.54308"
+    },
+    "datetime": "2021-11-27 13:00:00",
+    "forecast": {
+      "w": "0.0881",
+      "d": "0.246",
+      "l": "0.6659"
+    }
+  },
+  {
+    "id": "17284",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.58132",
+      "a": "2.02852"
+    },
+    "datetime": "2021-11-27 15:15:00",
+    "forecast": {
+      "w": "0.2204",
+      "d": "0.3039",
+      "l": "0.4757"
+    }
+  },
+  {
+    "id": "17279",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.472696",
+      "a": "0.739333"
+    },
+    "datetime": "2021-11-27 17:30:00",
+    "forecast": {
+      "w": "0.1974",
+      "d": "0.4067",
+      "l": "0.3959"
+    }
+  },
+  {
+    "id": "17285",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.55977",
+      "a": "3.37249"
+    },
+    "datetime": "2021-11-27 20:00:00",
+    "forecast": {
+      "w": "0.0775",
+      "d": "0.1293",
+      "l": "0.7932"
+    }
+  },
+  {
+    "id": "17278",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.3097",
+      "a": "0.645945"
+    },
+    "datetime": "2021-11-28 13:00:00",
+    "forecast": {
+      "w": "0.7993",
+      "d": "0.1445",
+      "l": "0.0562"
+    }
+  },
+  {
+    "id": "17281",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.378098",
+      "a": "1.32638"
+    },
+    "datetime": "2021-11-28 15:15:00",
+    "forecast": {
+      "w": "0.0681",
+      "d": "0.2324",
+      "l": "0.6995"
+    }
+  },
+  {
+    "id": "17280",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "4"
+    },
+    "xG": {
+      "h": "0.766477",
+      "a": "3.32569"
+    },
+    "datetime": "2021-11-28 17:30:00",
+    "forecast": {
+      "w": "0.0228",
+      "d": "0.0758",
+      "l": "0.9014"
+    }
+  },
+  {
+    "id": "17283",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.2476",
+      "a": "1.30167"
+    },
+    "datetime": "2021-11-28 20:00:00",
+    "forecast": {
+      "w": "0.3344",
+      "d": "0.2993",
+      "l": "0.3663"
+    }
+  },
+  {
+    "id": "17282",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.13729",
+      "a": "1.05682"
+    },
+    "datetime": "2021-11-29 20:00:00",
+    "forecast": {
+      "w": "0.6555",
+      "d": "0.2126",
+      "l": "0.1319"
+    }
+  },
+  {
+    "id": "17222",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.60531",
+      "a": "2.70199"
+    },
+    "datetime": "2021-12-01 20:00:00",
+    "forecast": {
+      "w": "0.1633",
+      "d": "0.2019",
+      "l": "0.6348"
+    }
+  },
+  {
+    "id": "17290",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.08266",
+      "a": "1.38466"
+    },
+    "datetime": "2021-12-03 20:00:00",
+    "forecast": {
+      "w": "0.2547",
+      "d": "0.3309",
+      "l": "0.4144"
+    }
+  },
+  {
+    "id": "17292",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.46965",
+      "a": "1.90918"
+    },
+    "datetime": "2021-12-04 13:00:00",
+    "forecast": {
+      "w": "0.0342",
+      "d": "0.1588",
+      "l": "0.807"
+    }
+  },
+  {
+    "id": "17287",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.20871",
+      "a": "0.642697"
+    },
+    "datetime": "2021-12-04 15:15:00",
+    "forecast": {
+      "w": "0.5187",
+      "d": "0.3071",
+      "l": "0.1742"
+    }
+  },
+  {
+    "id": "17286",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.07045",
+      "a": "0.775913"
+    },
+    "datetime": "2021-12-04 17:30:00",
+    "forecast": {
+      "w": "0.7299",
+      "d": "0.1852",
+      "l": "0.0849"
+    }
+  },
+  {
+    "id": "17295",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.585154",
+      "a": "2.19245"
+    },
+    "datetime": "2021-12-04 20:00:00",
+    "forecast": {
+      "w": "0.0524",
+      "d": "0.1478",
+      "l": "0.7998"
+    }
+  },
+  {
+    "id": "17293",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.649198",
+      "a": "0.474816"
+    },
+    "datetime": "2021-12-05 13:00:00",
+    "forecast": {
+      "w": "0.3625",
+      "d": "0.4262",
+      "l": "0.2113"
+    }
+  },
+  {
+    "id": "17294",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.33084",
+      "a": "1.50592"
+    },
+    "datetime": "2021-12-05 15:15:00",
+    "forecast": {
+      "w": "0.5996",
+      "d": "0.2364",
+      "l": "0.164"
+    }
+  },
+  {
+    "id": "17291",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.510046",
+      "a": "0.250564"
+    },
+    "datetime": "2021-12-05 17:30:00",
+    "forecast": {
+      "w": "0.34",
+      "d": "0.5244",
+      "l": "0.1356"
+    }
+  },
+  {
+    "id": "17288",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.645079",
+      "a": "1.01149"
+    },
+    "datetime": "2021-12-05 20:00:00",
+    "forecast": {
+      "w": "0.2085",
+      "d": "0.3384",
+      "l": "0.4531"
+    }
+  },
+  {
+    "id": "17289",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.35736",
+      "a": "0.466017"
+    },
+    "datetime": "2021-12-06 20:00:00",
+    "forecast": {
+      "w": "0.6331",
+      "d": "0.2591",
+      "l": "0.1078"
+    }
+  },
+  {
+    "id": "17299",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.898098",
+      "a": "1.33476"
+    },
+    "datetime": "2021-12-10 20:00:00",
+    "forecast": {
+      "w": "0.2063",
+      "d": "0.3069",
+      "l": "0.4868"
+    }
+  },
+  {
+    "id": "17301",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "4",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.1352",
+      "a": "3.38759"
+    },
+    "datetime": "2021-12-11 13:00:00",
+    "forecast": {
+      "w": "0.1476",
+      "d": "0.1741",
+      "l": "0.6783"
+    }
+  },
+  {
+    "id": "17296",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.989074",
+      "a": "1.04682"
+    },
+    "datetime": "2021-12-11 15:15:00",
+    "forecast": {
+      "w": "0.3145",
+      "d": "0.3471",
+      "l": "0.3384"
+    }
+  },
+  {
+    "id": "17304",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.67544",
+      "a": "1.12996"
+    },
+    "datetime": "2021-12-11 17:30:00",
+    "forecast": {
+      "w": "0.4953",
+      "d": "0.2733",
+      "l": "0.2314"
+    }
+  },
+  {
+    "id": "17297",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.35659",
+      "a": "0.214536"
+    },
+    "datetime": "2021-12-11 20:00:00",
+    "forecast": {
+      "w": "0.9231",
+      "d": "0.0679",
+      "l": "0.009"
+    }
+  },
+  {
+    "id": "17305",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.10964",
+      "a": "1.41255"
+    },
+    "datetime": "2021-12-12 13:00:00",
+    "forecast": {
+      "w": "0.5622",
+      "d": "0.2242",
+      "l": "0.2136"
+    }
+  },
+  {
+    "id": "17302",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.367626",
+      "a": "1.3894"
+    },
+    "datetime": "2021-12-12 15:15:00",
+    "forecast": {
+      "w": "0.0674",
+      "d": "0.2258",
+      "l": "0.7068"
+    }
+  },
+  {
+    "id": "17298",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "4",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.21698",
+      "a": "1.06737"
+    },
+    "datetime": "2021-12-12 17:30:00",
+    "forecast": {
+      "w": "0.3803",
+      "d": "0.3053",
+      "l": "0.3144"
+    }
+  },
+  {
+    "id": "17303",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.587828",
+      "a": "0.769681"
+    },
+    "datetime": "2021-12-12 20:00:00",
+    "forecast": {
+      "w": "0.2484",
+      "d": "0.3966",
+      "l": "0.355"
+    }
+  },
+  {
+    "id": "17300",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.6189",
+      "a": "1.12436"
+    },
+    "datetime": "2021-12-13 20:00:00",
+    "forecast": {
+      "w": "0.1999",
+      "d": "0.3124",
+      "l": "0.4877"
+    }
+  },
+  {
+    "id": "17308",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.6562",
+      "a": "0.377711"
+    },
+    "datetime": "2021-12-17 20:00:00",
+    "forecast": {
+      "w": "0.7539",
+      "d": "0.1969",
+      "l": "0.0492"
+    }
+  },
+  {
+    "id": "17315",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.87281",
+      "a": "0.198501"
+    },
+    "datetime": "2021-12-18 13:00:00",
+    "forecast": {
+      "w": "0.8424",
+      "d": "0.136",
+      "l": "0.0216"
+    }
+  },
+  {
+    "id": "17312",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.34561",
+      "a": "3.02243"
+    },
+    "datetime": "2021-12-18 15:15:00",
+    "forecast": {
+      "w": "0.0854",
+      "d": "0.1501",
+      "l": "0.7645"
+    }
+  },
+  {
+    "id": "17307",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "3",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.96397",
+      "a": "1.26552"
+    },
+    "datetime": "2021-12-18 17:30:00",
+    "forecast": {
+      "w": "0.7723",
+      "d": "0.1451",
+      "l": "0.0826"
+    }
+  },
+  {
+    "id": "17311",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.373147",
+      "a": "1.24499"
+    },
+    "datetime": "2021-12-18 20:00:00",
+    "forecast": {
+      "w": "0.0945",
+      "d": "0.2863",
+      "l": "0.6192"
+    }
+  },
+  {
+    "id": "17309",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "4",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.71538",
+      "a": "1.08613"
+    },
+    "datetime": "2021-12-19 13:00:00",
+    "forecast": {
+      "w": "0.7893",
+      "d": "0.1482",
+      "l": "0.0625"
+    }
+  },
+  {
+    "id": "17306",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "3",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.1909",
+      "a": "2.01927"
+    },
+    "datetime": "2021-12-19 15:15:00",
+    "forecast": {
+      "w": "0.139",
+      "d": "0.2634",
+      "l": "0.5976"
+    }
+  },
+  {
+    "id": "17310",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.09096",
+      "a": "0.712207"
+    },
+    "datetime": "2021-12-19 17:30:00",
+    "forecast": {
+      "w": "0.4374",
+      "d": "0.331",
+      "l": "0.2316"
+    }
+  },
+  {
+    "id": "17313",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.79615",
+      "a": "0.242189"
+    },
+    "datetime": "2021-12-19 20:00:00",
+    "forecast": {
+      "w": "0.9184",
+      "d": "0.0696",
+      "l": "0.012"
+    }
+  },
+  {
+    "id": "17314",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "4"
+    },
+    "xG": {
+      "h": "2.73541",
+      "a": "2.10622"
+    },
+    "datetime": "2021-12-20 20:00:00",
+    "forecast": {
+      "w": "0.5304",
+      "d": "0.2455",
+      "l": "0.2241"
+    }
+  },
+  {
+    "id": "17175",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "5",
+      "a": "2"
+    },
+    "xG": {
+      "h": "3.87986",
+      "a": "0.310052"
+    },
+    "datetime": "2021-12-21 20:00:00",
+    "forecast": {
+      "w": "0.9862",
+      "d": "0.0122",
+      "l": "0.0016"
+    }
+  },
+  {
+    "id": "17174",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.299426",
+      "a": "1.90576"
+    },
+    "datetime": "2021-12-21 22:30:00",
+    "forecast": {
+      "w": "0.0307",
+      "d": "0.1384",
+      "l": "0.8309"
+    }
+  },
+  {
+    "id": "17219",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.911053",
+      "a": "1.77937"
+    },
+    "datetime": "2021-12-22 20:00:00",
+    "forecast": {
+      "w": "0.1361",
+      "d": "0.2715",
+      "l": "0.5924"
+    }
+  },
+  {
+    "id": "17336",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.0933",
+      "a": "1.58518"
+    },
+    "datetime": "2021-12-22 20:30:00",
+    "forecast": {
+      "w": "0.228",
+      "d": "0.2739",
+      "l": "0.4981"
+    }
+  },
+  {
+    "id": "17317",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.864078",
+      "a": "2.14833"
+    },
+    "datetime": "2021-12-31 15:15:00",
+    "forecast": {
+      "w": "0.0942",
+      "d": "0.1895",
+      "l": "0.7163"
+    }
+  },
+  {
+    "id": "17323",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.900039",
+      "a": "0.913167"
+    },
+    "datetime": "2022-01-02 13:00:00",
+    "forecast": {
+      "w": "0.3345",
+      "d": "0.3401",
+      "l": "0.3254"
+    }
+  },
+  {
+    "id": "17316",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.44824",
+      "a": "0.965958"
+    },
+    "datetime": "2022-01-02 15:15:00",
+    "forecast": {
+      "w": "0.4857",
+      "d": "0.2723",
+      "l": "0.242"
+    }
+  },
+  {
+    "id": "17320",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.98103",
+      "a": "0.104074"
+    },
+    "datetime": "2022-01-02 15:15:00",
+    "forecast": {
+      "w": "0.8877",
+      "d": "0.1032",
+      "l": "0.0091"
+    }
+  },
+  {
+    "id": "17319",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.5407",
+      "a": "1.38111"
+    },
+    "datetime": "2022-01-02 17:30:00",
+    "forecast": {
+      "w": "0.3921",
+      "d": "0.2927",
+      "l": "0.3152"
+    }
+  },
+  {
+    "id": "17321",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.889436",
+      "a": "1.872"
+    },
+    "datetime": "2022-01-02 17:30:00",
+    "forecast": {
+      "w": "0.1272",
+      "d": "0.2111",
+      "l": "0.6617"
+    }
+  },
+  {
+    "id": "17322",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.988536",
+      "a": "1.61795"
+    },
+    "datetime": "2022-01-02 20:00:00",
+    "forecast": {
+      "w": "0.1958",
+      "d": "0.2649",
+      "l": "0.5393"
+    }
+  },
+  {
+    "id": "17318",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "5",
+      "a": "0"
+    },
+    "xG": {
+      "h": "4.19047",
+      "a": "0.423407"
+    },
+    "datetime": "2022-01-03 18:00:00",
+    "forecast": {
+      "w": "0.9814",
+      "d": "0.0157",
+      "l": "0.0029"
+    }
+  },
+  {
+    "id": "17325",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.521945",
+      "a": "2.48538"
+    },
+    "datetime": "2022-01-03 20:00:00",
+    "forecast": {
+      "w": "0.0403",
+      "d": "0.1092",
+      "l": "0.8505"
+    }
+  },
+  {
+    "id": "17324",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.238594",
+      "a": "1.28387"
+    },
+    "datetime": "2022-01-03 20:15:00",
+    "forecast": {
+      "w": "0.0614",
+      "d": "0.2733",
+      "l": "0.6653"
+    }
+  },
+  {
+    "id": "17329",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.32485",
+      "a": "1.16534"
+    },
+    "datetime": "2022-01-08 13:00:00",
+    "forecast": {
+      "w": "0.3779",
+      "d": "0.3089",
+      "l": "0.3132"
+    }
+  },
+  {
+    "id": "17332",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.32107",
+      "a": "0.313993"
+    },
+    "datetime": "2022-01-08 15:15:00",
+    "forecast": {
+      "w": "0.8955",
+      "d": "0.088",
+      "l": "0.0165"
+    }
+  },
+  {
+    "id": "17327",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.747757",
+      "a": "0.967234"
+    },
+    "datetime": "2022-01-08 17:30:00",
+    "forecast": {
+      "w": "0.2572",
+      "d": "0.336",
+      "l": "0.4068"
+    }
+  },
+  {
+    "id": "17331",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "4",
+      "a": "1"
+    },
+    "xG": {
+      "h": "4.1129",
+      "a": "1.12054"
+    },
+    "datetime": "2022-01-08 20:00:00",
+    "forecast": {
+      "w": "0.961",
+      "d": "0.0316",
+      "l": "0.0074"
+    }
+  },
+  {
+    "id": "17334",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.47922",
+      "a": "1.26688"
+    },
+    "datetime": "2022-01-09 13:00:00",
+    "forecast": {
+      "w": "0.3993",
+      "d": "0.3213",
+      "l": "0.2794"
+    }
+  },
+  {
+    "id": "17333",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.592329",
+      "a": "0.114607"
+    },
+    "datetime": "2022-01-09 15:15:00",
+    "forecast": {
+      "w": "0.4167",
+      "d": "0.5187",
+      "l": "0.0646"
+    }
+  },
+  {
+    "id": "17326",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.585505",
+      "a": "0.463719"
+    },
+    "datetime": "2022-01-09 17:30:00",
+    "forecast": {
+      "w": "0.317",
+      "d": "0.4539",
+      "l": "0.2291"
+    }
+  },
+  {
+    "id": "17330",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.13396",
+      "a": "0.210192"
+    },
+    "datetime": "2022-01-09 17:30:00",
+    "forecast": {
+      "w": "0.9762",
+      "d": "0.0216",
+      "l": "0.0022"
+    }
+  },
+  {
+    "id": "17335",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.56125",
+      "a": "0.882404"
+    },
+    "datetime": "2022-01-09 20:00:00",
+    "forecast": {
+      "w": "0.8002",
+      "d": "0.1407",
+      "l": "0.0591"
+    }
+  },
+  {
+    "id": "17328",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.30222",
+      "a": "0.662335"
+    },
+    "datetime": "2022-01-10 20:00:00",
+    "forecast": {
+      "w": "0.542",
+      "d": "0.3172",
+      "l": "0.1408"
+    }
+  },
+  {
+    "id": "17345",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.204155",
+      "a": "0.755426"
+    },
+    "datetime": "2022-01-16 18:00:00",
+    "forecast": {
+      "w": "0.0824",
+      "d": "0.4121",
+      "l": "0.5055"
+    }
+  },
+  {
+    "id": "17343",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.801983",
+      "a": "1.91578"
+    },
+    "datetime": "2022-01-18 18:00:00",
+    "forecast": {
+      "w": "0.123",
+      "d": "0.2084",
+      "l": "0.6686"
+    }
+  },
+  {
+    "id": "17339",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "4",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.10165",
+      "a": "0.260065"
+    },
+    "datetime": "2022-01-18 20:00:00",
+    "forecast": {
+      "w": "0.8463",
+      "d": "0.1247",
+      "l": "0.029"
+    }
+  },
+  {
+    "id": "17340",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.52433",
+      "a": "0.46556"
+    },
+    "datetime": "2022-01-19 18:00:00",
+    "forecast": {
+      "w": "0.7377",
+      "d": "0.2104",
+      "l": "0.0519"
+    }
+  },
+  {
+    "id": "17344",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.573449",
+      "a": "1.17995"
+    },
+    "datetime": "2022-01-19 20:30:00",
+    "forecast": {
+      "w": "0.1602",
+      "d": "0.3111",
+      "l": "0.5287"
+    }
+  },
+  {
+    "id": "17342",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "4",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.18065",
+      "a": "0.856476"
+    },
+    "datetime": "2022-01-20 18:00:00",
+    "forecast": {
+      "w": "0.4308",
+      "d": "0.3335",
+      "l": "0.2357"
+    }
+  },
+  {
+    "id": "17349",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "1",
+      "a": "4"
+    },
+    "xG": {
+      "h": "1.57092",
+      "a": "2.85687"
+    },
+    "datetime": "2022-01-21 20:00:00",
+    "forecast": {
+      "w": "0.1376",
+      "d": "0.1728",
+      "l": "0.6896"
+    }
+  },
+  {
+    "id": "17350",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.08487",
+      "a": "0.911469"
+    },
+    "datetime": "2022-01-22 13:00:00",
+    "forecast": {
+      "w": "0.3764",
+      "d": "0.3331",
+      "l": "0.2905"
+    }
+  },
+  {
+    "id": "17355",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.19824",
+      "a": "1.59983"
+    },
+    "datetime": "2022-01-22 15:15:00",
+    "forecast": {
+      "w": "0.5247",
+      "d": "0.2669",
+      "l": "0.2084"
+    }
+  },
+  {
+    "id": "17353",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.885077",
+      "a": "0.469693"
+    },
+    "datetime": "2022-01-22 17:30:00",
+    "forecast": {
+      "w": "0.444",
+      "d": "0.375",
+      "l": "0.181"
+    }
+  },
+  {
+    "id": "17347",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.25966",
+      "a": "0.726623"
+    },
+    "datetime": "2022-01-22 20:00:00",
+    "forecast": {
+      "w": "0.7844",
+      "d": "0.1572",
+      "l": "0.0584"
+    }
+  },
+  {
+    "id": "17348",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.582823",
+      "a": "2.17061"
+    },
+    "datetime": "2022-01-23 13:00:00",
+    "forecast": {
+      "w": "0.0535",
+      "d": "0.1463",
+      "l": "0.8002"
+    }
+  },
+  {
+    "id": "17351",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "3.82847",
+      "a": "0.725434"
+    },
+    "datetime": "2022-01-23 15:15:00",
+    "forecast": {
+      "w": "0.9569",
+      "d": "0.0381",
+      "l": "0.005"
+    }
+  },
+  {
+    "id": "17352",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.21342",
+      "a": "0.350506"
+    },
+    "datetime": "2022-01-23 17:30:00",
+    "forecast": {
+      "w": "0.6365",
+      "d": "0.276",
+      "l": "0.0875"
+    }
+  },
+  {
+    "id": "17354",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.45337",
+      "a": "0.412898"
+    },
+    "datetime": "2022-01-23 17:30:00",
+    "forecast": {
+      "w": "0.6354",
+      "d": "0.2651",
+      "l": "0.0995"
+    }
+  },
+  {
+    "id": "17346",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.733223",
+      "a": "1.14948"
+    },
+    "datetime": "2022-01-23 20:00:00",
+    "forecast": {
+      "w": "0.2031",
+      "d": "0.3229",
+      "l": "0.474"
+    }
+  },
+  {
+    "id": "17361",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.1718",
+      "a": "0.556029"
+    },
+    "datetime": "2022-02-04 20:00:00",
+    "forecast": {
+      "w": "0.5396",
+      "d": "0.3006",
+      "l": "0.1598"
+    }
+  },
+  {
+    "id": "17365",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.77379",
+      "a": "1.12234"
+    },
+    "datetime": "2022-02-05 13:00:00",
+    "forecast": {
+      "w": "0.526",
+      "d": "0.2683",
+      "l": "0.2057"
+    }
+  },
+  {
+    "id": "17360",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.23498",
+      "a": "0.887418"
+    },
+    "datetime": "2022-02-05 15:15:00",
+    "forecast": {
+      "w": "0.7481",
+      "d": "0.1717",
+      "l": "0.0802"
+    }
+  },
+  {
+    "id": "17359",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.65442",
+      "a": "0.678815"
+    },
+    "datetime": "2022-02-05 17:30:00",
+    "forecast": {
+      "w": "0.2951",
+      "d": "0.3925",
+      "l": "0.3124"
+    }
+  },
+  {
+    "id": "17362",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.397154",
+      "a": "1.34983"
+    },
+    "datetime": "2022-02-05 20:00:00",
+    "forecast": {
+      "w": "0.0662",
+      "d": "0.2315",
+      "l": "0.7023"
+    }
+  },
+  {
+    "id": "17364",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.19065",
+      "a": "0.539612"
+    },
+    "datetime": "2022-02-06 13:00:00",
+    "forecast": {
+      "w": "0.5483",
+      "d": "0.3093",
+      "l": "0.1424"
+    }
+  },
+  {
+    "id": "17357",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "4",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.926663",
+      "a": "1.61465"
+    },
+    "datetime": "2022-02-06 15:15:00",
+    "forecast": {
+      "w": "0.1699",
+      "d": "0.2693",
+      "l": "0.5608"
+    }
+  },
+  {
+    "id": "17358",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.737524",
+      "a": "1.34131"
+    },
+    "datetime": "2022-02-06 17:30:00",
+    "forecast": {
+      "w": "0.1619",
+      "d": "0.3038",
+      "l": "0.5343"
+    }
+  },
+  {
+    "id": "17363",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.47173",
+      "a": "0.39522"
+    },
+    "datetime": "2022-02-06 20:00:00",
+    "forecast": {
+      "w": "0.6578",
+      "d": "0.2552",
+      "l": "0.087"
+    }
+  },
+  {
+    "id": "17356",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.07545",
+      "a": "0.580028"
+    },
+    "datetime": "2022-02-07 20:00:00",
+    "forecast": {
+      "w": "0.4956",
+      "d": "0.3377",
+      "l": "0.1667"
+    }
+  },
+  {
+    "id": "17373",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.767939",
+      "a": "0.28732"
+    },
+    "datetime": "2022-02-11 20:00:00",
+    "forecast": {
+      "w": "0.4559",
+      "d": "0.4154",
+      "l": "0.1287"
+    }
+  },
+  {
+    "id": "17369",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.880656",
+      "a": "0.900788"
+    },
+    "datetime": "2022-02-12 13:00:00",
+    "forecast": {
+      "w": "0.2606",
+      "d": "0.4473",
+      "l": "0.2921"
+    }
+  },
+  {
+    "id": "17375",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.460031",
+      "a": "2.11101"
+    },
+    "datetime": "2022-02-12 15:15:00",
+    "forecast": {
+      "w": "0.0522",
+      "d": "0.1411",
+      "l": "0.8067"
+    }
+  },
+  {
+    "id": "17374",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "0",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.590034",
+      "a": "2.12321"
+    },
+    "datetime": "2022-02-12 17:30:00",
+    "forecast": {
+      "w": "0.0647",
+      "d": "0.1536",
+      "l": "0.7817"
+    }
+  },
+  {
+    "id": "17367",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "4",
+      "a": "3"
+    },
+    "xG": {
+      "h": "3.20819",
+      "a": "2.2661"
+    },
+    "datetime": "2022-02-12 20:00:00",
+    "forecast": {
+      "w": "0.6164",
+      "d": "0.2174",
+      "l": "0.1662"
+    }
+  },
+  {
+    "id": "17366",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.03492",
+      "a": "1.18082"
+    },
+    "datetime": "2022-02-13 13:00:00",
+    "forecast": {
+      "w": "0.6103",
+      "d": "0.2564",
+      "l": "0.1333"
+    }
+  },
+  {
+    "id": "17371",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "2",
+      "a": "4"
+    },
+    "xG": {
+      "h": "1.66764",
+      "a": "2.09703"
+    },
+    "datetime": "2022-02-13 15:15:00",
+    "forecast": {
+      "w": "0.2509",
+      "d": "0.2788",
+      "l": "0.4703"
+    }
+  },
+  {
+    "id": "17372",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.43761",
+      "a": "0.773811"
+    },
+    "datetime": "2022-02-13 17:30:00",
+    "forecast": {
+      "w": "0.9191",
+      "d": "0.06",
+      "l": "0.0209"
+    }
+  },
+  {
+    "id": "17370",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.624266",
+      "a": "1.62221"
+    },
+    "datetime": "2022-02-13 20:00:00",
+    "forecast": {
+      "w": "0.1055",
+      "d": "0.2364",
+      "l": "0.6581"
+    }
+  },
+  {
+    "id": "17368",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "3",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.81722",
+      "a": "1.54391"
+    },
+    "datetime": "2022-02-14 20:00:00",
+    "forecast": {
+      "w": "0.4237",
+      "d": "0.281",
+      "l": "0.2953"
+    }
+  },
+  {
+    "id": "17337",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.10602",
+      "a": "0.813252"
+    },
+    "datetime": "2022-02-16 18:00:00",
+    "forecast": {
+      "w": "0.4269",
+      "d": "0.3378",
+      "l": "0.2353"
+    }
+  },
+  {
+    "id": "17385",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.95715",
+      "a": "0.832156"
+    },
+    "datetime": "2022-02-18 20:00:00",
+    "forecast": {
+      "w": "0.885",
+      "d": "0.0837",
+      "l": "0.0313"
+    }
+  },
+  {
+    "id": "17380",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "4"
+    },
+    "xG": {
+      "h": "2.12749",
+      "a": "5.34192"
+    },
+    "datetime": "2022-02-19 13:00:00",
+    "forecast": {
+      "w": "0.0194",
+      "d": "0.0474",
+      "l": "0.9332"
+    }
+  },
+  {
+    "id": "17382",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.689493",
+      "a": "0.928671"
+    },
+    "datetime": "2022-02-19 15:15:00",
+    "forecast": {
+      "w": "0.2354",
+      "d": "0.3463",
+      "l": "0.4183"
+    }
+  },
+  {
+    "id": "17379",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.653762",
+      "a": "0.885378"
+    },
+    "datetime": "2022-02-19 17:30:00",
+    "forecast": {
+      "w": "0.2056",
+      "d": "0.3725",
+      "l": "0.4219"
+    }
+  },
+  {
+    "id": "17383",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.02281",
+      "a": "0.63724"
+    },
+    "datetime": "2022-02-19 20:00:00",
+    "forecast": {
+      "w": "0.9041",
+      "d": "0.0795",
+      "l": "0.0164"
+    }
+  },
+  {
+    "id": "17381",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.60205",
+      "a": "0.958453"
+    },
+    "datetime": "2022-02-20 13:00:00",
+    "forecast": {
+      "w": "0.5394",
+      "d": "0.2792",
+      "l": "0.1814"
+    }
+  },
+  {
+    "id": "17384",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "4"
+    },
+    "xG": {
+      "h": "0.774868",
+      "a": "2.4686"
+    },
+    "datetime": "2022-02-20 15:15:00",
+    "forecast": {
+      "w": "0.0383",
+      "d": "0.1221",
+      "l": "0.8396"
+    }
+  },
+  {
+    "id": "17377",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.47285",
+      "a": "0.33988"
+    },
+    "datetime": "2022-02-20 17:30:00",
+    "forecast": {
+      "w": "0.7372",
+      "d": "0.2077",
+      "l": "0.0551"
+    }
+  },
+  {
+    "id": "17376",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "4",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.08821",
+      "a": "0.528403"
+    },
+    "datetime": "2022-02-20 20:00:00",
+    "forecast": {
+      "w": "0.9384",
+      "d": "0.0489",
+      "l": "0.0127"
+    }
+  },
+  {
+    "id": "17378",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.40465",
+      "a": "1.54675"
+    },
+    "datetime": "2022-02-21 20:00:00",
+    "forecast": {
+      "w": "0.3122",
+      "d": "0.2933",
+      "l": "0.3945"
+    }
+  },
+  {
+    "id": "17391",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.13075",
+      "a": "1.0394"
+    },
+    "datetime": "2022-02-25 20:00:00",
+    "forecast": {
+      "w": "0.6822",
+      "d": "0.2149",
+      "l": "0.1029"
+    }
+  },
+  {
+    "id": "17388",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.38849",
+      "a": "0.71964"
+    },
+    "datetime": "2022-02-26 13:00:00",
+    "forecast": {
+      "w": "0.5301",
+      "d": "0.279",
+      "l": "0.1909"
+    }
+  },
+  {
+    "id": "17389",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.2384",
+      "a": "1.33865"
+    },
+    "datetime": "2022-02-26 15:15:00",
+    "forecast": {
+      "w": "0.3129",
+      "d": "0.3083",
+      "l": "0.3788"
+    }
+  },
+  {
+    "id": "17394",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.19813",
+      "a": "1.92697"
+    },
+    "datetime": "2022-02-26 17:30:00",
+    "forecast": {
+      "w": "0.1992",
+      "d": "0.2407",
+      "l": "0.5601"
+    }
+  },
+  {
+    "id": "17386",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.771653",
+      "a": "0.724951"
+    },
+    "datetime": "2022-02-26 20:00:00",
+    "forecast": {
+      "w": "0.3365",
+      "d": "0.3643",
+      "l": "0.2992"
+    }
+  },
+  {
+    "id": "17395",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "5",
+      "a": "1"
+    },
+    "xG": {
+      "h": "4.80545",
+      "a": "0.641431"
+    },
+    "datetime": "2022-02-27 13:00:00",
+    "forecast": {
+      "w": "0.991",
+      "d": "0.0079",
+      "l": "0.0011"
+    }
+  },
+  {
+    "id": "17393",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.73411",
+      "a": "0.745673"
+    },
+    "datetime": "2022-02-27 15:15:00",
+    "forecast": {
+      "w": "0.6651",
+      "d": "0.229",
+      "l": "0.1059"
+    }
+  },
+  {
+    "id": "17392",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.52268",
+      "a": "0.410683"
+    },
+    "datetime": "2022-02-27 17:30:00",
+    "forecast": {
+      "w": "0.7151",
+      "d": "0.2128",
+      "l": "0.0721"
+    }
+  },
+  {
+    "id": "17387",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "4",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.24274",
+      "a": "0.332521"
+    },
+    "datetime": "2022-02-27 20:00:00",
+    "forecast": {
+      "w": "0.9592",
+      "d": "0.0331",
+      "l": "0.0077"
+    }
+  },
+  {
+    "id": "17390",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.240876",
+      "a": "0.902122"
+    },
+    "datetime": "2022-02-28 20:00:00",
+    "forecast": {
+      "w": "0.0903",
+      "d": "0.3755",
+      "l": "0.5342"
+    }
+  },
+  {
+    "id": "17341",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.455768",
+      "a": "1.44904"
+    },
+    "datetime": "2022-03-02 20:00:00",
+    "forecast": {
+      "w": "0.1027",
+      "d": "0.2437",
+      "l": "0.6536"
+    }
+  },
+  {
+    "id": "17396",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.03396",
+      "a": "1.07969"
+    },
+    "datetime": "2022-03-04 20:00:00",
+    "forecast": {
+      "w": "0.6299",
+      "d": "0.2226",
+      "l": "0.1475"
+    }
+  },
+  {
+    "id": "17402",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.52659",
+      "a": "0.522906"
+    },
+    "datetime": "2022-03-05 13:00:00",
+    "forecast": {
+      "w": "0.6505",
+      "d": "0.2366",
+      "l": "0.1129"
+    }
+  },
+  {
+    "id": "17401",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.12167",
+      "a": "0.477665"
+    },
+    "datetime": "2022-03-05 15:15:00",
+    "forecast": {
+      "w": "0.0715",
+      "d": "0.573",
+      "l": "0.3555"
+    }
+  },
+  {
+    "id": "17404",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.83454",
+      "a": "0.209802"
+    },
+    "datetime": "2022-03-05 17:30:00",
+    "forecast": {
+      "w": "0.858",
+      "d": "0.121",
+      "l": "0.021"
+    }
+  },
+  {
+    "id": "17403",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "4",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.08769",
+      "a": "0.743278"
+    },
+    "datetime": "2022-03-05 20:00:00",
+    "forecast": {
+      "w": "0.7666",
+      "d": "0.1973",
+      "l": "0.0361"
+    }
+  },
+  {
+    "id": "17400",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.1663",
+      "a": "0.908358"
+    },
+    "datetime": "2022-03-06 13:00:00",
+    "forecast": {
+      "w": "0.413",
+      "d": "0.3187",
+      "l": "0.2683"
+    }
+  },
+  {
+    "id": "17405",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.850008",
+      "a": "4.0864"
+    },
+    "datetime": "2022-03-06 15:15:00",
+    "forecast": {
+      "w": "0.0127",
+      "d": "0.0364",
+      "l": "0.9509"
+    }
+  },
+  {
+    "id": "17399",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "4",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.80024",
+      "a": "1.59076"
+    },
+    "datetime": "2022-03-06 17:30:00",
+    "forecast": {
+      "w": "0.6847",
+      "d": "0.1902",
+      "l": "0.1251"
+    }
+  },
+  {
+    "id": "17398",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.31499",
+      "a": "2.6744"
+    },
+    "datetime": "2022-03-06 20:00:00",
+    "forecast": {
+      "w": "0.1179",
+      "d": "0.1742",
+      "l": "0.7079"
+    }
+  },
+  {
+    "id": "17397",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "3.4866",
+      "a": "0.552215"
+    },
+    "datetime": "2022-03-07 20:00:00",
+    "forecast": {
+      "w": "0.9512",
+      "d": "0.0396",
+      "l": "0.0092"
+    }
+  },
+  {
+    "id": "17406",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.659742",
+      "a": "0.817457"
+    },
+    "datetime": "2022-03-11 20:00:00",
+    "forecast": {
+      "w": "0.2686",
+      "d": "0.3723",
+      "l": "0.3591"
+    }
+  },
+  {
+    "id": "17412",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.25649",
+      "a": "0.47916"
+    },
+    "datetime": "2022-03-12 13:00:00",
+    "forecast": {
+      "w": "0.6005",
+      "d": "0.2955",
+      "l": "0.104"
+    }
+  },
+  {
+    "id": "17411",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.34208",
+      "a": "1.32937"
+    },
+    "datetime": "2022-03-12 15:15:00",
+    "forecast": {
+      "w": "0.3645",
+      "d": "0.2887",
+      "l": "0.3468"
+    }
+  },
+  {
+    "id": "17415",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.16993",
+      "a": "0.933297"
+    },
+    "datetime": "2022-03-12 17:30:00",
+    "forecast": {
+      "w": "0.4109",
+      "d": "0.3284",
+      "l": "0.2607"
+    }
+  },
+  {
+    "id": "17410",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.20664",
+      "a": "0.250843"
+    },
+    "datetime": "2022-03-12 20:00:00",
+    "forecast": {
+      "w": "0.6497",
+      "d": "0.2857",
+      "l": "0.0646"
+    }
+  },
+  {
+    "id": "17414",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.626895",
+      "a": "0.412843"
+    },
+    "datetime": "2022-03-13 13:00:00",
+    "forecast": {
+      "w": "0.3445",
+      "d": "0.4566",
+      "l": "0.1989"
+    }
+  },
+  {
+    "id": "17408",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.846393",
+      "a": "0.707634"
+    },
+    "datetime": "2022-03-13 15:15:00",
+    "forecast": {
+      "w": "0.3649",
+      "d": "0.3796",
+      "l": "0.2555"
+    }
+  },
+  {
+    "id": "17413",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.04773",
+      "a": "0.666399"
+    },
+    "datetime": "2022-03-13 17:30:00",
+    "forecast": {
+      "w": "0.8901",
+      "d": "0.0811",
+      "l": "0.0288"
+    }
+  },
+  {
+    "id": "17407",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "4",
+      "a": "0"
+    },
+    "xG": {
+      "h": "3.90343",
+      "a": "0.110884"
+    },
+    "datetime": "2022-03-13 20:00:00",
+    "forecast": {
+      "w": "0.9931",
+      "d": "0.0059",
+      "l": "0.001"
+    }
+  },
+  {
+    "id": "17409",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "0",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.17685",
+      "a": "1.81712"
+    },
+    "datetime": "2022-03-14 20:00:00",
+    "forecast": {
+      "w": "0.1982",
+      "d": "0.2509",
+      "l": "0.5509"
+    }
+  },
+  {
+    "id": "17417",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.64347",
+      "a": "0.562831"
+    },
+    "datetime": "2022-03-18 20:00:00",
+    "forecast": {
+      "w": "0.8613",
+      "d": "0.1024",
+      "l": "0.0363"
+    }
+  },
+  {
+    "id": "17416",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.13094",
+      "a": "2.19056"
+    },
+    "datetime": "2022-03-19 13:00:00",
+    "forecast": {
+      "w": "0.3534",
+      "d": "0.2684",
+      "l": "0.3782"
+    }
+  },
+  {
+    "id": "17425",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.509372",
+      "a": "0.979663"
+    },
+    "datetime": "2022-03-19 15:15:00",
+    "forecast": {
+      "w": "0.172",
+      "d": "0.3549",
+      "l": "0.4731"
+    }
+  },
+  {
+    "id": "17421",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.67397",
+      "a": "1.21866"
+    },
+    "datetime": "2022-03-19 17:30:00",
+    "forecast": {
+      "w": "0.7119",
+      "d": "0.1695",
+      "l": "0.1186"
+    }
+  },
+  {
+    "id": "17424",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.88474",
+      "a": "1.1919"
+    },
+    "datetime": "2022-03-19 20:00:00",
+    "forecast": {
+      "w": "0.5508",
+      "d": "0.2462",
+      "l": "0.203"
+    }
+  },
+  {
+    "id": "17420",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.54033",
+      "a": "0.306153"
+    },
+    "datetime": "2022-03-20 13:00:00",
+    "forecast": {
+      "w": "0.7468",
+      "d": "0.2036",
+      "l": "0.0496"
+    }
+  },
+  {
+    "id": "17418",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.26157",
+      "a": "0.444295"
+    },
+    "datetime": "2022-03-20 15:15:00",
+    "forecast": {
+      "w": "0.6179",
+      "d": "0.2751",
+      "l": "0.107"
+    }
+  },
+  {
+    "id": "17419",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.4273",
+      "a": "0.192945"
+    },
+    "datetime": "2022-03-20 15:15:00",
+    "forecast": {
+      "w": "0.7757",
+      "d": "0.1896",
+      "l": "0.0347"
+    }
+  },
+  {
+    "id": "17423",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.355365",
+      "a": "1.22058"
+    },
+    "datetime": "2022-03-20 17:30:00",
+    "forecast": {
+      "w": "0.0879",
+      "d": "0.2841",
+      "l": "0.628"
+    }
+  },
+  {
+    "id": "17422",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "4"
+    },
+    "xG": {
+      "h": "0.627785",
+      "a": "4.25983"
+    },
+    "datetime": "2022-03-20 20:00:00",
+    "forecast": {
+      "w": "0.0083",
+      "d": "0.0246",
+      "l": "0.9671"
+    }
+  },
+  {
+    "id": "17431",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.69452",
+      "a": "0.308149"
+    },
+    "datetime": "2022-04-02 12:00:00",
+    "forecast": {
+      "w": "0.8213",
+      "d": "0.147",
+      "l": "0.0317"
+    }
+  },
+  {
+    "id": "17433",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.71737",
+      "a": "1.10171"
+    },
+    "datetime": "2022-04-02 14:15:00",
+    "forecast": {
+      "w": "0.5396",
+      "d": "0.2899",
+      "l": "0.1705"
+    }
+  },
+  {
+    "id": "17430",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.07389",
+      "a": "2.94585"
+    },
+    "datetime": "2022-04-02 16:30:00",
+    "forecast": {
+      "w": "0.0405",
+      "d": "0.1167",
+      "l": "0.8428"
+    }
+  },
+  {
+    "id": "17427",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "4",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.86429",
+      "a": "0.518108"
+    },
+    "datetime": "2022-04-02 19:00:00",
+    "forecast": {
+      "w": "0.9363",
+      "d": "0.0528",
+      "l": "0.0109"
+    }
+  },
+  {
+    "id": "17426",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.08095",
+      "a": "0.45189"
+    },
+    "datetime": "2022-04-03 12:00:00",
+    "forecast": {
+      "w": "0.7839",
+      "d": "0.1618",
+      "l": "0.0543"
+    }
+  },
+  {
+    "id": "17429",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "4",
+      "a": "1"
+    },
+    "xG": {
+      "h": "4.85779",
+      "a": "0.310951"
+    },
+    "datetime": "2022-04-03 14:15:00",
+    "forecast": {
+      "w": "0.9987",
+      "d": "0.0012",
+      "l": "0.0001"
+    }
+  },
+  {
+    "id": "17432",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.26365",
+      "a": "1.04645"
+    },
+    "datetime": "2022-04-03 16:30:00",
+    "forecast": {
+      "w": "0.6904",
+      "d": "0.1926",
+      "l": "0.117"
+    }
+  },
+  {
+    "id": "17435",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.107859",
+      "a": "0.196233"
+    },
+    "datetime": "2022-04-03 16:30:00",
+    "forecast": {
+      "w": "0.0866",
+      "d": "0.7544",
+      "l": "0.159"
+    }
+  },
+  {
+    "id": "17428",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.93362",
+      "a": "0.488161"
+    },
+    "datetime": "2022-04-03 19:00:00",
+    "forecast": {
+      "w": "0.7558",
+      "d": "0.1769",
+      "l": "0.0673"
+    }
+  },
+  {
+    "id": "17434",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.95778",
+      "a": "0.714821"
+    },
+    "datetime": "2022-04-04 19:00:00",
+    "forecast": {
+      "w": "0.7144",
+      "d": "0.2116",
+      "l": "0.074"
+    }
+  },
+  {
+    "id": "17442",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "4",
+      "a": "2"
+    },
+    "xG": {
+      "h": "3.30823",
+      "a": "0.981555"
+    },
+    "datetime": "2022-04-08 19:00:00",
+    "forecast": {
+      "w": "0.9027",
+      "d": "0.0725",
+      "l": "0.0248"
+    }
+  },
+  {
+    "id": "17437",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.15546",
+      "a": "1.22849"
+    },
+    "datetime": "2022-04-09 12:00:00",
+    "forecast": {
+      "w": "0.2877",
+      "d": "0.3623",
+      "l": "0.35"
+    }
+  },
+  {
+    "id": "17436",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.08047",
+      "a": "0.575266"
+    },
+    "datetime": "2022-04-09 14:15:00",
+    "forecast": {
+      "w": "0.5208",
+      "d": "0.3296",
+      "l": "0.1496"
+    }
+  },
+  {
+    "id": "17444",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.919935",
+      "a": "2.04982"
+    },
+    "datetime": "2022-04-09 16:30:00",
+    "forecast": {
+      "w": "0.1028",
+      "d": "0.2154",
+      "l": "0.6818"
+    }
+  },
+  {
+    "id": "17441",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.62196",
+      "a": "0.407933"
+    },
+    "datetime": "2022-04-09 19:00:00",
+    "forecast": {
+      "w": "0.7273",
+      "d": "0.2051",
+      "l": "0.0676"
+    }
+  },
+  {
+    "id": "17440",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.67295",
+      "a": "0.779772"
+    },
+    "datetime": "2022-04-10 12:00:00",
+    "forecast": {
+      "w": "0.8631",
+      "d": "0.1044",
+      "l": "0.0325"
+    }
+  },
+  {
+    "id": "17438",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.55824",
+      "a": "0.6961"
+    },
+    "datetime": "2022-04-10 14:15:00",
+    "forecast": {
+      "w": "0.6185",
+      "d": "0.2567",
+      "l": "0.1248"
+    }
+  },
+  {
+    "id": "17445",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.0483",
+      "a": "2.08213"
+    },
+    "datetime": "2022-04-10 16:30:00",
+    "forecast": {
+      "w": "0.1287",
+      "d": "0.2205",
+      "l": "0.6508"
+    }
+  },
+  {
+    "id": "17439",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "2",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.98698",
+      "a": "1.36074"
+    },
+    "datetime": "2022-04-10 19:00:00",
+    "forecast": {
+      "w": "0.7929",
+      "d": "0.1372",
+      "l": "0.0699"
+    }
+  },
+  {
+    "id": "17443",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.556213",
+      "a": "0.56958"
+    },
+    "datetime": "2022-04-11 19:00:00",
+    "forecast": {
+      "w": "0.2784",
+      "d": "0.4343",
+      "l": "0.2873"
+    }
+  },
+  {
+    "id": "17452",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.86796",
+      "a": "0.377534"
+    },
+    "datetime": "2022-04-15 19:00:00",
+    "forecast": {
+      "w": "0.48",
+      "d": "0.376",
+      "l": "0.144"
+    }
+  },
+  {
+    "id": "17455",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.49995",
+      "a": "1.06428"
+    },
+    "datetime": "2022-04-16 12:00:00",
+    "forecast": {
+      "w": "0.4905",
+      "d": "0.2918",
+      "l": "0.2177"
+    }
+  },
+  {
+    "id": "17446",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.531373",
+      "a": "1.22034"
+    },
+    "datetime": "2022-04-16 14:15:00",
+    "forecast": {
+      "w": "0.147",
+      "d": "0.3058",
+      "l": "0.5472"
+    }
+  },
+  {
+    "id": "17454",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.20904",
+      "a": "1.06317"
+    },
+    "datetime": "2022-04-16 16:30:00",
+    "forecast": {
+      "w": "0.3424",
+      "d": "0.4015",
+      "l": "0.2561"
+    }
+  },
+  {
+    "id": "17450",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.939154",
+      "a": "2.82388"
+    },
+    "datetime": "2022-04-16 19:00:00",
+    "forecast": {
+      "w": "0.0457",
+      "d": "0.1136",
+      "l": "0.8407"
+    }
+  },
+  {
+    "id": "17451",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "4"
+    },
+    "xG": {
+      "h": "1.15642",
+      "a": "4.45893"
+    },
+    "datetime": "2022-04-17 12:00:00",
+    "forecast": {
+      "w": "0.0132",
+      "d": "0.0371",
+      "l": "0.9497"
+    }
+  },
+  {
+    "id": "17448",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.58913",
+      "a": "0.814562"
+    },
+    "datetime": "2022-04-17 14:15:00",
+    "forecast": {
+      "w": "0.5988",
+      "d": "0.2574",
+      "l": "0.1438"
+    }
+  },
+  {
+    "id": "17447",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.910556",
+      "a": "0.882589"
+    },
+    "datetime": "2022-04-17 16:30:00",
+    "forecast": {
+      "w": "0.3119",
+      "d": "0.3716",
+      "l": "0.3165"
+    }
+  },
+  {
+    "id": "17453",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.17236",
+      "a": "1.53527"
+    },
+    "datetime": "2022-04-17 19:00:00",
+    "forecast": {
+      "w": "0.2605",
+      "d": "0.2823",
+      "l": "0.4572"
+    }
+  },
+  {
+    "id": "17449",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.35403",
+      "a": "1.92768"
+    },
+    "datetime": "2022-04-18 19:00:00",
+    "forecast": {
+      "w": "0.2001",
+      "d": "0.2559",
+      "l": "0.544"
+    }
+  },
+  {
+    "id": "17459",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.91373",
+      "a": "0.561806"
+    },
+    "datetime": "2022-04-19 17:00:00",
+    "forecast": {
+      "w": "0.4483",
+      "d": "0.3587",
+      "l": "0.193"
+    }
+  },
+  {
+    "id": "17457",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.34387",
+      "a": "0.834721"
+    },
+    "datetime": "2022-04-19 19:00:00",
+    "forecast": {
+      "w": "0.4789",
+      "d": "0.3123",
+      "l": "0.2088"
+    }
+  },
+  {
+    "id": "17465",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.79507",
+      "a": "0.313345"
+    },
+    "datetime": "2022-04-19 19:30:00",
+    "forecast": {
+      "w": "0.9308",
+      "d": "0.0592",
+      "l": "0.01"
+    }
+  },
+  {
+    "id": "17456",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.14761",
+      "a": "0.150986"
+    },
+    "datetime": "2022-04-20 17:00:00",
+    "forecast": {
+      "w": "0.6436",
+      "d": "0.3094",
+      "l": "0.047"
+    }
+  },
+  {
+    "id": "17458",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.326278",
+      "a": "1.45896"
+    },
+    "datetime": "2022-04-20 18:00:00",
+    "forecast": {
+      "w": "0.0645",
+      "d": "0.2217",
+      "l": "0.7138"
+    }
+  },
+  {
+    "id": "17463",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "3"
+    },
+    "xG": {
+      "h": "0.872915",
+      "a": "4.60461"
+    },
+    "datetime": "2022-04-20 19:30:00",
+    "forecast": {
+      "w": "0.003",
+      "d": "0.0129",
+      "l": "0.9841"
+    }
+  },
+  {
+    "id": "17461",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.454741",
+      "a": "1.01579"
+    },
+    "datetime": "2022-04-21 17:00:00",
+    "forecast": {
+      "w": "0.1476",
+      "d": "0.3449",
+      "l": "0.5075"
+    }
+  },
+  {
+    "id": "17462",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "2",
+      "a": "3"
+    },
+    "xG": {
+      "h": "2.62106",
+      "a": "2.46009"
+    },
+    "datetime": "2022-04-21 17:00:00",
+    "forecast": {
+      "w": "0.4192",
+      "d": "0.2381",
+      "l": "0.3427"
+    }
+  },
+  {
+    "id": "17460",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "2",
+      "a": "3"
+    },
+    "xG": {
+      "h": "3.42624",
+      "a": "2.33226"
+    },
+    "datetime": "2022-04-21 18:00:00",
+    "forecast": {
+      "w": "0.6235",
+      "d": "0.2013",
+      "l": "0.1752"
+    }
+  },
+  {
+    "id": "17464",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.0324",
+      "a": "1.96498"
+    },
+    "datetime": "2022-04-21 19:30:00",
+    "forecast": {
+      "w": "0.1377",
+      "d": "0.2401",
+      "l": "0.6222"
+    }
+  },
+  {
+    "id": "17338",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.10806",
+      "a": "0.247749"
+    },
+    "datetime": "2022-04-24 19:00:00",
+    "forecast": {
+      "w": "0.5953",
+      "d": "0.3262",
+      "l": "0.0785"
+    }
+  },
+  {
+    "id": "17472",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.873458",
+      "a": "0.899478"
+    },
+    "datetime": "2022-04-29 19:00:00",
+    "forecast": {
+      "w": "0.3234",
+      "d": "0.3603",
+      "l": "0.3163"
+    }
+  },
+  {
+    "id": "17466",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.85307",
+      "a": "1.14043"
+    },
+    "datetime": "2022-04-30 12:00:00",
+    "forecast": {
+      "w": "0.5752",
+      "d": "0.2407",
+      "l": "0.1841"
+    }
+  },
+  {
+    "id": "17471",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "4",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.31704",
+      "a": "1.64156"
+    },
+    "datetime": "2022-04-30 14:15:00",
+    "forecast": {
+      "w": "0.547",
+      "d": "0.2264",
+      "l": "0.2266"
+    }
+  },
+  {
+    "id": "17473",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.737326",
+      "a": "1.70278"
+    },
+    "datetime": "2022-04-30 16:30:00",
+    "forecast": {
+      "w": "0.131",
+      "d": "0.2468",
+      "l": "0.6222"
+    }
+  },
+  {
+    "id": "17467",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.24712",
+      "a": "0.503211"
+    },
+    "datetime": "2022-04-30 19:00:00",
+    "forecast": {
+      "w": "0.6169",
+      "d": "0.277",
+      "l": "0.1061"
+    }
+  },
+  {
+    "id": "17475",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.80936",
+      "a": "1.11898"
+    },
+    "datetime": "2022-05-01 12:00:00",
+    "forecast": {
+      "w": "0.2131",
+      "d": "0.3439",
+      "l": "0.443"
+    }
+  },
+  {
+    "id": "17470",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.999398",
+      "a": "1.30137"
+    },
+    "datetime": "2022-05-01 14:15:00",
+    "forecast": {
+      "w": "0.2625",
+      "d": "0.3062",
+      "l": "0.4313"
+    }
+  },
+  {
+    "id": "17474",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.19946",
+      "a": "0.87498"
+    },
+    "datetime": "2022-05-01 16:30:00",
+    "forecast": {
+      "w": "0.436",
+      "d": "0.3594",
+      "l": "0.2046"
+    }
+  },
+  {
+    "id": "17468",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.64114",
+      "a": "1.23981"
+    },
+    "datetime": "2022-05-01 19:00:00",
+    "forecast": {
+      "w": "0.4523",
+      "d": "0.2877",
+      "l": "0.26"
+    }
+  },
+  {
+    "id": "17469",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.851757",
+      "a": "0.470229"
+    },
+    "datetime": "2022-05-02 19:00:00",
+    "forecast": {
+      "w": "0.4264",
+      "d": "0.3891",
+      "l": "0.1845"
+    }
+  },
+  {
+    "id": "17484",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.22217",
+      "a": "2.30649"
+    },
+    "datetime": "2022-05-06 19:00:00",
+    "forecast": {
+      "w": "0.3726",
+      "d": "0.2256",
+      "l": "0.4018"
+    }
+  },
+  {
+    "id": "17480",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "6"
+    },
+    "xG": {
+      "h": "1.77941",
+      "a": "2.64631"
+    },
+    "datetime": "2022-05-07 12:00:00",
+    "forecast": {
+      "w": "0.1807",
+      "d": "0.2156",
+      "l": "0.6037"
+    }
+  },
+  {
+    "id": "17476",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.54495",
+      "a": "0.127375"
+    },
+    "datetime": "2022-05-07 14:15:00",
+    "forecast": {
+      "w": "0.7889",
+      "d": "0.187",
+      "l": "0.0241"
+    }
+  },
+  {
+    "id": "17479",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "4",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.99933",
+      "a": "0.136283"
+    },
+    "datetime": "2022-05-07 16:30:00",
+    "forecast": {
+      "w": "0.9671",
+      "d": "0.0299",
+      "l": "0.003"
+    }
+  },
+  {
+    "id": "17482",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.02383",
+      "a": "0.0634173"
+    },
+    "datetime": "2022-05-07 16:30:00",
+    "forecast": {
+      "w": "0.9034",
+      "d": "0.0917",
+      "l": "0.0049"
+    }
+  },
+  {
+    "id": "17478",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.627814",
+      "a": "1.19659"
+    },
+    "datetime": "2022-05-07 19:00:00",
+    "forecast": {
+      "w": "0.1793",
+      "d": "0.294",
+      "l": "0.5267"
+    }
+  },
+  {
+    "id": "17481",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.629264",
+      "a": "0.816549"
+    },
+    "datetime": "2022-05-08 12:00:00",
+    "forecast": {
+      "w": "0.2577",
+      "d": "0.3695",
+      "l": "0.3728"
+    }
+  },
+  {
+    "id": "17485",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.70051",
+      "a": "0.986887"
+    },
+    "datetime": "2022-05-08 14:15:00",
+    "forecast": {
+      "w": "0.795",
+      "d": "0.1462",
+      "l": "0.0588"
+    }
+  },
+  {
+    "id": "17483",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.56923",
+      "a": "1.11008"
+    },
+    "datetime": "2022-05-08 16:30:00",
+    "forecast": {
+      "w": "0.166",
+      "d": "0.3172",
+      "l": "0.5168"
+    }
+  },
+  {
+    "id": "17477",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.45366",
+      "a": "1.13607"
+    },
+    "datetime": "2022-05-08 19:00:00",
+    "forecast": {
+      "w": "0.6934",
+      "d": "0.1855",
+      "l": "0.1211"
+    }
+  },
+  {
+    "id": "17493",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "0",
+      "a": "3"
+    },
+    "xG": {
+      "h": "1.11931",
+      "a": "1.83636"
+    },
+    "datetime": "2022-05-10 17:00:00",
+    "forecast": {
+      "w": "0.1578",
+      "d": "0.2532",
+      "l": "0.589"
+    }
+  },
+  {
+    "id": "17488",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.01967",
+      "a": "0.35575"
+    },
+    "datetime": "2022-05-10 18:00:00",
+    "forecast": {
+      "w": "0.5625",
+      "d": "0.3244",
+      "l": "0.1131"
+    }
+  },
+  {
+    "id": "17487",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "1.23358",
+      "a": "0.851127"
+    },
+    "datetime": "2022-05-10 19:30:00",
+    "forecast": {
+      "w": "0.4512",
+      "d": "0.31",
+      "l": "0.2388"
+    }
+  },
+  {
+    "id": "17486",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.4573",
+      "a": "0.902191"
+    },
+    "datetime": "2022-05-11 17:00:00",
+    "forecast": {
+      "w": "0.7721",
+      "d": "0.1658",
+      "l": "0.0621"
+    }
+  },
+  {
+    "id": "17489",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.608205",
+      "a": "0.582724"
+    },
+    "datetime": "2022-05-11 17:00:00",
+    "forecast": {
+      "w": "0.2822",
+      "d": "0.4295",
+      "l": "0.2883"
+    }
+  },
+  {
+    "id": "17492",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.65199",
+      "a": "0.553368"
+    },
+    "datetime": "2022-05-11 18:30:00",
+    "forecast": {
+      "w": "0.656",
+      "d": "0.2342",
+      "l": "0.1098"
+    }
+  },
+  {
+    "id": "17495",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.169168",
+      "a": "2.61258"
+    },
+    "datetime": "2022-05-11 19:30:00",
+    "forecast": {
+      "w": "0.0049",
+      "d": "0.0395",
+      "l": "0.9556"
+    }
+  },
+  {
+    "id": "17491",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "3",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.65814",
+      "a": "0.675387"
+    },
+    "datetime": "2022-05-12 17:00:00",
+    "forecast": {
+      "w": "0.8635",
+      "d": "0.1005",
+      "l": "0.036"
+    }
+  },
+  {
+    "id": "17494",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "5"
+    },
+    "xG": {
+      "h": "1.8933",
+      "a": "2.9178"
+    },
+    "datetime": "2022-05-12 18:00:00",
+    "forecast": {
+      "w": "0.1662",
+      "d": "0.1968",
+      "l": "0.637"
+    }
+  },
+  {
+    "id": "17490",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "6",
+      "a": "0"
+    },
+    "xG": {
+      "h": "4.89552",
+      "a": "0.695945"
+    },
+    "datetime": "2022-05-12 19:30:00",
+    "forecast": {
+      "w": "0.9876",
+      "d": "0.0095",
+      "l": "0.0029"
+    }
+  },
+  {
+    "id": "17496",
+    "isResult": true,
+    "h": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "a": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.47829",
+      "a": "0.764272"
+    },
+    "datetime": "2022-05-15 17:30:00",
+    "forecast": {
+      "w": "0.5532",
+      "d": "0.2844",
+      "l": "0.1624"
+    }
+  },
+  {
+    "id": "17497",
+    "isResult": true,
+    "h": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "a": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.892826",
+      "a": "0.794179"
+    },
+    "datetime": "2022-05-15 17:30:00",
+    "forecast": {
+      "w": "0.3524",
+      "d": "0.348",
+      "l": "0.2996"
+    }
+  },
+  {
+    "id": "17498",
+    "isResult": true,
+    "h": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "a": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.70154",
+      "a": "1.15584"
+    },
+    "datetime": "2022-05-15 17:30:00",
+    "forecast": {
+      "w": "0.5033",
+      "d": "0.2749",
+      "l": "0.2218"
+    }
+  },
+  {
+    "id": "17499",
+    "isResult": true,
+    "h": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "a": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.5573",
+      "a": "0.445721"
+    },
+    "datetime": "2022-05-15 17:30:00",
+    "forecast": {
+      "w": "0.6895",
+      "d": "0.2237",
+      "l": "0.0868"
+    }
+  },
+  {
+    "id": "17500",
+    "isResult": true,
+    "h": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "a": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.945419",
+      "a": "2.04546"
+    },
+    "datetime": "2022-05-15 17:30:00",
+    "forecast": {
+      "w": "0.1337",
+      "d": "0.2066",
+      "l": "0.6597"
+    }
+  },
+  {
+    "id": "17501",
+    "isResult": true,
+    "h": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "a": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "0.237476",
+      "a": "0.19547"
+    },
+    "datetime": "2022-05-15 17:30:00",
+    "forecast": {
+      "w": "0.173",
+      "d": "0.6785",
+      "l": "0.1485"
+    }
+  },
+  {
+    "id": "17502",
+    "isResult": true,
+    "h": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "a": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.66633",
+      "a": "1.92483"
+    },
+    "datetime": "2022-05-15 17:30:00",
+    "forecast": {
+      "w": "0.5562",
+      "d": "0.219",
+      "l": "0.2248"
+    }
+  },
+  {
+    "id": "17503",
+    "isResult": true,
+    "h": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "a": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.59873",
+      "a": "2.2262"
+    },
+    "datetime": "2022-05-15 17:30:00",
+    "forecast": {
+      "w": "0.0433",
+      "d": "0.1506",
+      "l": "0.8061"
+    }
+  },
+  {
+    "id": "17504",
+    "isResult": true,
+    "h": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "a": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "2.14717",
+      "a": "0.571687"
+    },
+    "datetime": "2022-05-15 17:30:00",
+    "forecast": {
+      "w": "0.8027",
+      "d": "0.1512",
+      "l": "0.0461"
+    }
+  },
+  {
+    "id": "17505",
+    "isResult": true,
+    "h": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "a": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "1.01013",
+      "a": "2.72677"
+    },
+    "datetime": "2022-05-15 17:30:00",
+    "forecast": {
+      "w": "0.0509",
+      "d": "0.1364",
+      "l": "0.8127"
+    }
+  },
+  {
+    "id": "17510",
+    "isResult": true,
+    "h": {
+      "id": "150",
+      "title": "Real Madrid",
+      "short_title": "RMA"
+    },
+    "a": {
+      "id": "153",
+      "title": "Real Betis",
+      "short_title": "BET"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.8155",
+      "a": "1.43562"
+    },
+    "datetime": "2022-05-20 19:00:00",
+    "forecast": {
+      "w": "0.4525",
+      "d": "0.2747",
+      "l": "0.2728"
+    }
+  },
+  {
+    "id": "17514",
+    "isResult": true,
+    "h": {
+      "id": "145",
+      "title": "Rayo Vallecano",
+      "short_title": "RVL"
+    },
+    "a": {
+      "id": "151",
+      "title": "Levante",
+      "short_title": "LEV"
+    },
+    "goals": {
+      "h": "2",
+      "a": "4"
+    },
+    "xG": {
+      "h": "2.7327",
+      "a": "3.28491"
+    },
+    "datetime": "2022-05-20 19:00:00",
+    "forecast": {
+      "w": "0.2747",
+      "d": "0.208",
+      "l": "0.5173"
+    }
+  },
+  {
+    "id": "17513",
+    "isResult": true,
+    "h": {
+      "id": "146",
+      "title": "Valencia",
+      "short_title": "VAL"
+    },
+    "a": {
+      "id": "152",
+      "title": "Celta Vigo",
+      "short_title": "CEL"
+    },
+    "goals": {
+      "h": "2",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.47889",
+      "a": "1.40936"
+    },
+    "datetime": "2022-05-21 15:30:00",
+    "forecast": {
+      "w": "0.3692",
+      "d": "0.316",
+      "l": "0.3148"
+    }
+  },
+  {
+    "id": "17515",
+    "isResult": true,
+    "h": {
+      "id": "207",
+      "title": "Elche",
+      "short_title": "ELC"
+    },
+    "a": {
+      "id": "142",
+      "title": "Getafe",
+      "short_title": "GET"
+    },
+    "goals": {
+      "h": "3",
+      "a": "1"
+    },
+    "xG": {
+      "h": "3.02536",
+      "a": "1.06857"
+    },
+    "datetime": "2022-05-22 15:30:00",
+    "forecast": {
+      "w": "0.8271",
+      "d": "0.1237",
+      "l": "0.0492"
+    }
+  },
+  {
+    "id": "17506",
+    "isResult": true,
+    "h": {
+      "id": "158",
+      "title": "Alaves",
+      "short_title": "ALA"
+    },
+    "a": {
+      "id": "261",
+      "title": "Cadiz",
+      "short_title": "CAD"
+    },
+    "goals": {
+      "h": "0",
+      "a": "1"
+    },
+    "xG": {
+      "h": "0.391505",
+      "a": "1.84089"
+    },
+    "datetime": "2022-05-22 18:00:00",
+    "forecast": {
+      "w": "0.0531",
+      "d": "0.1694",
+      "l": "0.7775"
+    }
+  },
+  {
+    "id": "17508",
+    "isResult": true,
+    "h": {
+      "id": "155",
+      "title": "Granada",
+      "short_title": "GRA"
+    },
+    "a": {
+      "id": "141",
+      "title": "Espanyol",
+      "short_title": "ESP"
+    },
+    "goals": {
+      "h": "0",
+      "a": "0"
+    },
+    "xG": {
+      "h": "2.0332",
+      "a": "0.386799"
+    },
+    "datetime": "2022-05-22 18:00:00",
+    "forecast": {
+      "w": "0.8404",
+      "d": "0.1238",
+      "l": "0.0358"
+    }
+  },
+  {
+    "id": "17509",
+    "isResult": true,
+    "h": {
+      "id": "157",
+      "title": "Osasuna",
+      "short_title": "OSA"
+    },
+    "a": {
+      "id": "239",
+      "title": "Mallorca",
+      "short_title": "MAL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.897014",
+      "a": "1.2351"
+    },
+    "datetime": "2022-05-22 18:00:00",
+    "forecast": {
+      "w": "0.2343",
+      "d": "0.3079",
+      "l": "0.4578"
+    }
+  },
+  {
+    "id": "17507",
+    "isResult": true,
+    "h": {
+      "id": "148",
+      "title": "Barcelona",
+      "short_title": "BAR"
+    },
+    "a": {
+      "id": "154",
+      "title": "Villarreal",
+      "short_title": "VIL"
+    },
+    "goals": {
+      "h": "0",
+      "a": "2"
+    },
+    "xG": {
+      "h": "0.628178",
+      "a": "0.68657"
+    },
+    "datetime": "2022-05-22 20:00:00",
+    "forecast": {
+      "w": "0.2647",
+      "d": "0.3984",
+      "l": "0.3369"
+    }
+  },
+  {
+    "id": "17511",
+    "isResult": true,
+    "h": {
+      "id": "140",
+      "title": "Real Sociedad",
+      "short_title": "SOC"
+    },
+    "a": {
+      "id": "143",
+      "title": "Atletico Madrid",
+      "short_title": "ATL"
+    },
+    "goals": {
+      "h": "1",
+      "a": "2"
+    },
+    "xG": {
+      "h": "2.21737",
+      "a": "0.586617"
+    },
+    "datetime": "2022-05-22 20:00:00",
+    "forecast": {
+      "w": "0.8272",
+      "d": "0.1388",
+      "l": "0.034"
+    }
+  },
+  {
+    "id": "17512",
+    "isResult": true,
+    "h": {
+      "id": "138",
+      "title": "Sevilla",
+      "short_title": "SEV"
+    },
+    "a": {
+      "id": "147",
+      "title": "Athletic Club",
+      "short_title": "ATH"
+    },
+    "goals": {
+      "h": "1",
+      "a": "0"
+    },
+    "xG": {
+      "h": "1.41239",
+      "a": "0.487249"
+    },
+    "datetime": "2022-05-22 20:00:00",
+    "forecast": {
+      "w": "0.6262",
+      "d": "0.2596",
+      "l": "0.1142"
+    }
+  }
+]
