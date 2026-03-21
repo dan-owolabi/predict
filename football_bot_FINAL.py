@@ -415,6 +415,102 @@ def _safe_hit_rate(series, line):
     return float((series > line).mean()) * 100.0
 
 
+def _team_pattern_view(df, team_key, spec):
+    rows = df[(df["home_key"] == team_key) | (df["away_key"] == team_key)].copy()
+    if rows.empty:
+        return rows
+    is_home = rows["home_key"] == team_key
+    rows["team"] = np.where(is_home, rows["HomeTeam"], rows["AwayTeam"])
+    rows["opponent"] = np.where(is_home, rows["AwayTeam"], rows["HomeTeam"])
+    rows["venue"] = np.where(is_home, "home", "away")
+    rows["team_for"] = np.where(is_home, rows[spec["home_col"]], rows[spec["away_col"]])
+    rows["team_against"] = np.where(is_home, rows[spec["away_col"]], rows[spec["home_col"]])
+    rows["team_line"] = np.where(is_home, spec["home_line"], spec["away_line"])
+    return rows.sort_values("Date").reset_index(drop=True)
+
+
+def _summarize_pattern_rows(rows, total_col, line, sample_size=8):
+    if rows.empty:
+        return {"count": 0, "for": np.nan, "against": np.nan, "total": np.nan, "hit": None}
+    sample = rows.tail(sample_size)
+    return {
+        "count": int(len(sample)),
+        "for": _safe_mean(sample["team_for"]),
+        "against": _safe_mean(sample["team_against"]),
+        "total": _safe_mean(sample[total_col]),
+        "hit": _safe_hit_rate(sample["team_for"], line),
+    }
+
+
+def _team_profile_map(df, spec):
+    frames = []
+    for side, team_col, opp_col, stat_for_col, stat_against_col in [
+        ("home", "home_key", "away_key", spec["home_col"], spec["away_col"]),
+        ("away", "away_key", "home_key", spec["away_col"], spec["home_col"]),
+    ]:
+        part = df[[team_col, opp_col, stat_for_col, stat_against_col, spec["total_col"]]].copy()
+        part.columns = ["team_key", "opponent_key", "team_for", "team_against", "total"]
+        frames.append(part)
+    all_rows = pd.concat(frames, ignore_index=True)
+    grouped = all_rows.groupby("team_key").agg(
+        for_avg=("team_for", "mean"),
+        against_avg=("team_against", "mean"),
+        total_avg=("total", "mean"),
+        matches=("team_for", "count"),
+    )
+    return grouped.to_dict("index")
+
+
+def _similar_opponent_rows(team_rows, target_opponent_key, profile_map, sample_size=8):
+    target_profile = profile_map.get(target_opponent_key)
+    if target_profile is None or team_rows.empty:
+        return team_rows.iloc[0:0].copy()
+    candidate = team_rows.copy()
+    candidate["opponent_key"] = candidate["opponent"].map(
+        lambda x: europe_canonical_name(x) if europe_canonical_name else str(x).lower()
+    )
+    candidate["similarity"] = candidate["opponent_key"].map(
+        lambda key: (
+            abs(profile_map.get(key, {}).get("for_avg", 999.0) - target_profile["for_avg"]) +
+            abs(profile_map.get(key, {}).get("against_avg", 999.0) - target_profile["against_avg"]) +
+            abs(profile_map.get(key, {}).get("total_avg", 999.0) - target_profile["total_avg"])
+        )
+    )
+    candidate = candidate[candidate["opponent_key"] != target_opponent_key]
+    candidate = candidate.sort_values(["similarity", "Date"])
+    return candidate.tail(sample_size).sort_values("Date")
+
+
+def _fmt_pattern_line(prefix, stats, line):
+    if stats["count"] == 0:
+        return f"{prefix}: n/a"
+    hit_txt = "n/a" if stats["hit"] is None else f"{stats['hit']:.0f}%"
+    return (
+        f"{prefix}: for {stats['for']:.1f} | allowed {stats['against']:.1f} | "
+        f"total {stats['total']:.1f} | over {line} hit {hit_txt}"
+    )
+
+
+def _pattern_takeaway(home, away, spec, h2h_stats, home_recent, away_recent, home_similar, away_similar):
+    scores = []
+    if h2h_stats["count"]:
+        scores.append(h2h_stats["total"])
+    if home_recent["count"] and away_recent["count"]:
+        scores.append(np.nanmean([home_recent["for"], away_recent["for"], home_recent["against"], away_recent["against"]]))
+    if home_similar["count"]:
+        scores.append(home_similar["for"] + home_similar["against"])
+    if away_similar["count"]:
+        scores.append(away_similar["for"] + away_similar["against"])
+    if not scores:
+        return "Takeaway: not enough history for a confident pattern call."
+    projected_total = float(np.nanmean(scores))
+    lean = "over" if projected_total >= spec["total_line"] else "under"
+    return (
+        f"Takeaway: the broader {spec['label'].lower()} pattern leans {lean} {spec['total_line']} "
+        f"with an implied total around {projected_total:.1f}."
+    )
+
+
 def generate_pattern_report(home, away, market_key):
     spec = PATTERN_SPECS[market_key]
     home_key = europe_canonical_name(home) if europe_canonical_name else str(home).lower()
@@ -423,40 +519,43 @@ def generate_pattern_report(home, away, market_key):
     if PATTERN_HISTORY_DF is None:
         PATTERN_HISTORY_DF = _load_pattern_history()
     df = PATTERN_HISTORY_DF.copy()
-
-    home_home = df[df["home_key"] == home_key].tail(5)
-    away_away = df[df["away_key"] == away_key].tail(5)
+    profile_map = _team_profile_map(df, spec)
+    home_rows = _team_pattern_view(df, home_key, spec)
+    away_rows = _team_pattern_view(df, away_key, spec)
     h2h = df[
         ((df["home_key"] == home_key) & (df["away_key"] == away_key)) |
         ((df["home_key"] == away_key) & (df["away_key"] == home_key))
     ].tail(5)
-
-    home_for = _safe_mean(home_home[spec["home_col"]])
-    home_against = _safe_mean(home_home[spec["away_col"]])
-    away_for = _safe_mean(away_away[spec["away_col"]])
-    away_against = _safe_mean(away_away[spec["home_col"]])
-    total_h2h = _safe_mean(h2h[spec["total_col"]])
-    projection_home = np.nanmean([home_for, away_against])
-    projection_away = np.nanmean([away_for, home_against])
+    home_recent = _summarize_pattern_rows(home_rows, spec["total_col"], spec["home_line"])
+    away_recent = _summarize_pattern_rows(away_rows, spec["total_col"], spec["away_line"])
+    h2h_rows = _team_pattern_view(h2h, home_key, spec)
+    h2h_stats = _summarize_pattern_rows(h2h_rows, spec["total_col"], spec["home_line"], sample_size=5)
+    h2h_total_hit = _safe_hit_rate(h2h[spec["total_col"]], spec["total_line"])
+    home_similar_rows = _similar_opponent_rows(home_rows, away_key, profile_map)
+    away_similar_rows = _similar_opponent_rows(away_rows, home_key, profile_map)
+    home_similar = _summarize_pattern_rows(home_similar_rows, spec["total_col"], spec["home_line"])
+    away_similar = _summarize_pattern_rows(away_similar_rows, spec["total_col"], spec["away_line"])
+    projection_home = np.nanmean([home_recent["for"], away_recent["against"], home_similar["for"]])
+    projection_away = np.nanmean([away_recent["for"], home_recent["against"], away_similar["for"]])
     projection_total = projection_home + projection_away if not np.isnan(projection_home) and not np.isnan(projection_away) else np.nan
-
-    home_hit = _safe_hit_rate(home_home[spec["home_col"]], spec["home_line"])
-    away_hit = _safe_hit_rate(away_away[spec["away_col"]], spec["away_line"])
-    total_h2h_hit = _safe_hit_rate(h2h[spec["total_col"]], spec["total_line"])
 
     lines = [
         f"Pattern: {spec['label']}",
         f"{home} vs {away}",
         "",
-        f"{home} last 5 at home: for {home_for:.1f} | allowed {home_against:.1f}" if not np.isnan(home_for) else f"{home} last 5 at home: n/a",
-        f"{away} last 5 away: for {away_for:.1f} | allowed {away_against:.1f}" if not np.isnan(away_for) else f"{away} last 5 away: n/a",
+        _fmt_pattern_line(f"{home} recent overall", home_recent, spec["home_line"]),
+        _fmt_pattern_line(f"{away} recent overall", away_recent, spec["away_line"]),
         f"Projected pattern: {projection_home:.1f} - {projection_away:.1f} | total {projection_total:.1f}" if not np.isnan(projection_total) else "Projected pattern: n/a",
-        f"H2H last 5 total {spec['label'].lower()}: {total_h2h:.1f}" if not np.isnan(total_h2h) else "H2H last 5: n/a",
         "",
-        "Line pattern:",
-        f"- {home} {spec['label']} over {spec['home_line']}: {home_hit:.0f}% hit rate" if home_hit is not None else f"- {home} {spec['label']} over {spec['home_line']}: n/a",
-        f"- {away} {spec['label']} over {spec['away_line']}: {away_hit:.0f}% hit rate" if away_hit is not None else f"- {away} {spec['label']} over {spec['away_line']}: n/a",
-        f"- H2H total over {spec['total_line']}: {total_h2h_hit:.0f}% hit rate" if total_h2h_hit is not None else f"- H2H total over {spec['total_line']}: n/a",
+        "Direct H2H:",
+        _fmt_pattern_line("H2H last 5", h2h_stats, spec["home_line"]),
+        f"H2H total over {spec['total_line']}: {h2h_total_hit:.0f}% hit rate" if h2h_total_hit is not None else f"H2H total over {spec['total_line']}: n/a",
+        "",
+        "With other teams like this opponent:",
+        _fmt_pattern_line(f"{home} vs teams like {away}", home_similar, spec["home_line"]),
+        _fmt_pattern_line(f"{away} vs teams like {home}", away_similar, spec["away_line"]),
+        "",
+        _pattern_takeaway(home, away, spec, h2h_stats, home_recent, away_recent, home_similar, away_similar),
     ]
 
     sample_lines = []
@@ -466,6 +565,20 @@ def generate_pattern_report(home, away, market_key):
         for _, row in h2h.tail(3).iterrows():
             sample_lines.append(
                 f"- {pd.to_datetime(row['Date']).date()}: {row['HomeTeam']} vs {row['AwayTeam']} | total {row[spec['total_col']]:.0f}"
+            )
+    if not home_similar_rows.empty:
+        sample_lines.append("")
+        sample_lines.append(f"{home} vs teams like {away}:")
+        for _, row in home_similar_rows.tail(3).iterrows():
+            sample_lines.append(
+                f"- {pd.to_datetime(row['Date']).date()}: {row['team']} vs {row['opponent']} ({row['venue']}) | for {row['team_for']:.0f} | total {row[spec['total_col']]:.0f}"
+            )
+    if not away_similar_rows.empty:
+        sample_lines.append("")
+        sample_lines.append(f"{away} vs teams like {home}:")
+        for _, row in away_similar_rows.tail(3).iterrows():
+            sample_lines.append(
+                f"- {pd.to_datetime(row['Date']).date()}: {row['team']} vs {row['opponent']} ({row['venue']}) | for {row['team_for']:.0f} | total {row[spec['total_col']]:.0f}"
             )
     return "\n".join(lines + sample_lines)
 
