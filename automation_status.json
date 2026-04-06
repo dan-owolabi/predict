@@ -1,62 +1,62 @@
 {
-  "published_at": "2026-04-06T02:16:31.926488Z",
+  "published_at": "2026-04-06T04:52:31.641485Z",
   "required": [
     {
       "path": "production_artifacts.pkl",
       "size": 5449249,
-      "modified": "2026-04-06T02:06:26.884082Z"
+      "modified": "2026-04-06T04:44:42.931451Z"
     },
     {
       "path": "lgb_1x2.txt",
-      "size": 852820,
-      "modified": "2026-04-06T02:06:26.829082Z"
+      "size": 850621,
+      "modified": "2026-04-06T04:44:42.944191Z"
     },
     {
       "path": "lgb_ou25.txt",
-      "size": 275029,
-      "modified": "2026-04-06T02:06:26.833082Z"
+      "size": 273636,
+      "modified": "2026-04-06T04:44:42.934932Z"
     },
     {
       "path": "lgb_ou15.txt",
-      "size": 300506,
-      "modified": "2026-04-06T02:06:26.831082Z"
+      "size": 292076,
+      "modified": "2026-04-06T04:44:42.936902Z"
     },
     {
       "path": "lgb_btts.txt",
-      "size": 276195,
-      "modified": "2026-04-06T02:06:26.830082Z"
+      "size": 280980,
+      "modified": "2026-04-06T04:44:42.938451Z"
     },
     {
       "path": "market_models/manifest.json",
       "size": 7048,
-      "modified": "2026-04-06T02:06:26.853082Z"
+      "modified": "2026-04-06T04:31:52.226159Z"
     },
     {
       "path": "player_prop_models/manifest.json",
       "size": 991,
-      "modified": "2026-04-06T02:06:26.863082Z"
+      "modified": "2026-04-06T04:31:52.236159Z"
     },
     {
       "path": "cv_results_enriched.csv",
       "size": 2769,
-      "modified": "2026-04-06T02:06:26.236083Z"
+      "modified": "2026-04-06T04:31:51.605151Z"
     },
     {
       "path": "weekly_fixtures.json",
       "size": 146,
-      "modified": "2026-04-06T02:16:31.835999Z"
+      "modified": "2026-04-06T04:38:58.030815Z"
     }
   ],
   "optional": [
     {
       "path": "europe_models/manifest.json",
       "size": 178,
-      "modified": "2026-04-06T02:06:26.823082Z"
+      "modified": "2026-04-06T04:52:29.274620Z"
     },
     {
       "path": "europe_cv_results.csv",
       "size": 2074,
-      "modified": "2026-04-06T02:06:26.815082Z"
+      "modified": "2026-04-06T04:52:28.307624Z"
     }
   ]
 }
