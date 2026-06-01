@@ -1,62 +1,62 @@
 {
-  "published_at": "2026-06-01T11:33:10.162632Z",
+  "published_at": "2026-06-01T17:37:48.229017Z",
   "required": [
     {
       "path": "production_artifacts.pkl",
       "size": 5449249,
-      "modified": "2026-06-01T11:24:19.466068Z"
+      "modified": "2026-06-01T17:30:39.126385Z"
     },
     {
       "path": "lgb_1x2.txt",
       "size": 866960,
-      "modified": "2026-06-01T11:24:19.412068Z"
+      "modified": "2026-06-01T17:30:39.071386Z"
     },
     {
       "path": "lgb_ou25.txt",
       "size": 273747,
-      "modified": "2026-06-01T11:24:19.415067Z"
+      "modified": "2026-06-01T17:30:39.074386Z"
     },
     {
       "path": "lgb_ou15.txt",
       "size": 294886,
-      "modified": "2026-06-01T11:24:19.414068Z"
+      "modified": "2026-06-01T17:30:39.073386Z"
     },
     {
       "path": "lgb_btts.txt",
       "size": 276318,
-      "modified": "2026-06-01T11:24:19.413068Z"
+      "modified": "2026-06-01T17:30:39.072386Z"
     },
     {
       "path": "market_models/manifest.json",
       "size": 7048,
-      "modified": "2026-06-01T11:24:19.435068Z"
+      "modified": "2026-06-01T17:30:39.095386Z"
     },
     {
       "path": "player_prop_models/manifest.json",
       "size": 991,
-      "modified": "2026-06-01T11:24:19.445068Z"
+      "modified": "2026-06-01T17:30:39.104386Z"
     },
     {
       "path": "cv_results_enriched.csv",
       "size": 2769,
-      "modified": "2026-06-01T11:24:18.822067Z"
+      "modified": "2026-06-01T17:30:38.459394Z"
     },
     {
       "path": "weekly_fixtures.json",
       "size": 146,
-      "modified": "2026-06-01T11:33:10.077828Z"
+      "modified": "2026-06-01T17:37:48.139846Z"
     }
   ],
   "optional": [
     {
       "path": "europe_models/manifest.json",
       "size": 178,
-      "modified": "2026-06-01T11:24:19.405067Z"
+      "modified": "2026-06-01T17:30:39.064386Z"
     },
     {
       "path": "europe_cv_results.csv",
       "size": 1888,
-      "modified": "2026-06-01T11:24:19.398067Z"
+      "modified": "2026-06-01T17:30:39.057386Z"
     }
   ]
 }
