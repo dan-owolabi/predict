@@ -1,62 +1,62 @@
 {
-  "published_at": "2026-07-14T19:20:47.507308Z",
+  "published_at": "2026-07-15T02:10:40.566540Z",
   "required": [
     {
       "path": "production_artifacts.pkl",
       "size": 5449249,
-      "modified": "2026-07-14T19:12:36.733704Z"
+      "modified": "2026-07-15T02:01:03.946173Z"
     },
     {
       "path": "lgb_1x2.txt",
       "size": 866960,
-      "modified": "2026-07-14T19:12:36.666703Z"
+      "modified": "2026-07-15T02:01:03.882173Z"
     },
     {
       "path": "lgb_ou25.txt",
       "size": 273747,
-      "modified": "2026-07-14T19:12:36.669703Z"
+      "modified": "2026-07-15T02:01:03.885173Z"
     },
     {
       "path": "lgb_ou15.txt",
       "size": 294886,
-      "modified": "2026-07-14T19:12:36.668704Z"
+      "modified": "2026-07-15T02:01:03.884173Z"
     },
     {
       "path": "lgb_btts.txt",
       "size": 276318,
-      "modified": "2026-07-14T19:12:36.667703Z"
+      "modified": "2026-07-15T02:01:03.883173Z"
     },
     {
       "path": "market_models/manifest.json",
       "size": 7048,
-      "modified": "2026-07-14T19:12:36.692703Z"
+      "modified": "2026-07-15T02:01:03.906173Z"
     },
     {
       "path": "player_prop_models/manifest.json",
       "size": 991,
-      "modified": "2026-07-14T19:12:36.702704Z"
+      "modified": "2026-07-15T02:01:03.915173Z"
     },
     {
       "path": "cv_results_enriched.csv",
       "size": 2769,
-      "modified": "2026-07-14T19:12:36.038701Z"
+      "modified": "2026-07-15T02:01:03.284177Z"
     },
     {
       "path": "weekly_fixtures.json",
       "size": 146,
-      "modified": "2026-07-14T19:20:47.415675Z"
+      "modified": "2026-07-15T02:10:40.479131Z"
     }
   ],
   "optional": [
     {
       "path": "europe_models/manifest.json",
       "size": 178,
-      "modified": "2026-07-14T19:12:36.658703Z"
+      "modified": "2026-07-15T02:01:03.876173Z"
     },
     {
       "path": "europe_cv_results.csv",
       "size": 1888,
-      "modified": "2026-07-14T19:12:36.650703Z"
+      "modified": "2026-07-15T02:01:03.868173Z"
     }
   ]
 }
