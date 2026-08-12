@@ -1,62 +1,62 @@
 {
-  "published_at": "2026-08-12T01:34:34.207332Z",
+  "published_at": "2026-08-12T07:24:31.294556Z",
   "required": [
     {
       "path": "production_artifacts.pkl",
       "size": 5449249,
-      "modified": "2026-08-12T01:27:32.355749Z"
+      "modified": "2026-08-12T07:17:00.175759Z"
     },
     {
       "path": "lgb_1x2.txt",
       "size": 866960,
-      "modified": "2026-08-12T01:27:32.286750Z"
+      "modified": "2026-08-12T07:17:00.112760Z"
     },
     {
       "path": "lgb_ou25.txt",
       "size": 273747,
-      "modified": "2026-08-12T01:27:32.290750Z"
+      "modified": "2026-08-12T07:17:00.115760Z"
     },
     {
       "path": "lgb_ou15.txt",
       "size": 294886,
-      "modified": "2026-08-12T01:27:32.289750Z"
+      "modified": "2026-08-12T07:17:00.114759Z"
     },
     {
       "path": "lgb_btts.txt",
       "size": 276318,
-      "modified": "2026-08-12T01:27:32.288750Z"
+      "modified": "2026-08-12T07:17:00.113760Z"
     },
     {
       "path": "market_models/manifest.json",
       "size": 7048,
-      "modified": "2026-08-12T01:27:32.313750Z"
+      "modified": "2026-08-12T07:17:00.136759Z"
     },
     {
       "path": "player_prop_models/manifest.json",
       "size": 991,
-      "modified": "2026-08-12T01:27:32.323750Z"
+      "modified": "2026-08-12T07:17:00.146759Z"
     },
     {
       "path": "cv_results_enriched.csv",
       "size": 2769,
-      "modified": "2026-08-12T01:27:31.646753Z"
+      "modified": "2026-08-12T07:16:59.515763Z"
     },
     {
       "path": "weekly_fixtures.json",
       "size": 146,
-      "modified": "2026-08-12T01:34:34.115002Z"
+      "modified": "2026-08-12T07:24:31.208704Z"
     }
   ],
   "optional": [
     {
       "path": "europe_models/manifest.json",
       "size": 178,
-      "modified": "2026-08-12T01:27:32.279750Z"
+      "modified": "2026-08-12T07:17:00.106760Z"
     },
     {
       "path": "europe_cv_results.csv",
       "size": 1888,
-      "modified": "2026-08-12T01:27:32.271750Z"
+      "modified": "2026-08-12T07:17:00.099760Z"
     }
   ]
 }
