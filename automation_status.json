@@ -1,62 +1,62 @@
 {
-  "published_at": "2026-10-02T17:27:57.384406Z",
+  "published_at": "2026-10-02T21:53:46.564814Z",
   "required": [
     {
       "path": "production_artifacts.pkl",
       "size": 5449249,
-      "modified": "2026-10-02T17:20:26.718898Z"
+      "modified": "2026-10-02T21:45:10.444020Z"
     },
     {
       "path": "lgb_1x2.txt",
       "size": 866960,
-      "modified": "2026-10-02T17:20:26.656898Z"
+      "modified": "2026-10-02T21:45:10.391019Z"
     },
     {
       "path": "lgb_ou25.txt",
       "size": 273747,
-      "modified": "2026-10-02T17:20:26.660898Z"
+      "modified": "2026-10-02T21:45:10.393019Z"
     },
     {
       "path": "lgb_ou15.txt",
       "size": 294886,
-      "modified": "2026-10-02T17:20:26.659898Z"
+      "modified": "2026-10-02T21:45:10.393019Z"
     },
     {
       "path": "lgb_btts.txt",
       "size": 276318,
-      "modified": "2026-10-02T17:20:26.657898Z"
+      "modified": "2026-10-02T21:45:10.392019Z"
     },
     {
       "path": "market_models/manifest.json",
       "size": 7048,
-      "modified": "2026-10-02T17:20:26.680898Z"
+      "modified": "2026-10-02T21:45:10.411019Z"
     },
     {
       "path": "player_prop_models/manifest.json",
       "size": 991,
-      "modified": "2026-10-02T17:20:26.689898Z"
+      "modified": "2026-10-02T21:45:10.419019Z"
     },
     {
       "path": "cv_results_enriched.csv",
       "size": 2769,
-      "modified": "2026-10-02T17:20:26.086894Z"
+      "modified": "2026-10-02T21:45:09.900007Z"
     },
     {
       "path": "weekly_fixtures.json",
       "size": 146,
-      "modified": "2026-10-02T17:27:57.295430Z"
+      "modified": "2026-10-02T21:53:46.486720Z"
     }
   ],
   "optional": [
     {
       "path": "europe_models/manifest.json",
       "size": 178,
-      "modified": "2026-10-02T17:20:26.650898Z"
+      "modified": "2026-10-02T21:45:10.385018Z"
     },
     {
       "path": "europe_cv_results.csv",
       "size": 1888,
-      "modified": "2026-10-02T17:20:26.643898Z"
+      "modified": "2026-10-02T21:45:10.379018Z"
     }
   ]
 }
