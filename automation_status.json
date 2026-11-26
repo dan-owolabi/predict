@@ -1,62 +1,62 @@
 {
-  "published_at": "2026-11-26T01:40:56.841560Z",
+  "published_at": "2026-11-26T16:25:48.265044Z",
   "required": [
     {
       "path": "production_artifacts.pkl",
       "size": 5449249,
-      "modified": "2026-11-26T01:28:42.244934Z"
+      "modified": "2026-11-26T16:16:17.793160Z"
     },
     {
       "path": "lgb_1x2.txt",
       "size": 866960,
-      "modified": "2026-11-26T01:28:42.176934Z"
+      "modified": "2026-11-26T16:16:17.736161Z"
     },
     {
       "path": "lgb_ou25.txt",
       "size": 273747,
-      "modified": "2026-11-26T01:28:42.179934Z"
+      "modified": "2026-11-26T16:16:17.739161Z"
     },
     {
       "path": "lgb_ou15.txt",
       "size": 294886,
-      "modified": "2026-11-26T01:28:42.178934Z"
+      "modified": "2026-11-26T16:16:17.738161Z"
     },
     {
       "path": "lgb_btts.txt",
       "size": 276318,
-      "modified": "2026-11-26T01:28:42.177934Z"
+      "modified": "2026-11-26T16:16:17.737161Z"
     },
     {
       "path": "market_models/manifest.json",
       "size": 7048,
-      "modified": "2026-11-26T01:28:42.200934Z"
+      "modified": "2026-11-26T16:16:17.757161Z"
     },
     {
       "path": "player_prop_models/manifest.json",
       "size": 991,
-      "modified": "2026-11-26T01:28:42.210934Z"
+      "modified": "2026-11-26T16:16:17.765161Z"
     },
     {
       "path": "cv_results_enriched.csv",
       "size": 2769,
-      "modified": "2026-11-26T01:28:41.504938Z"
+      "modified": "2026-11-26T16:16:17.166162Z"
     },
     {
       "path": "weekly_fixtures.json",
       "size": 146,
-      "modified": "2026-11-26T01:40:56.733062Z"
+      "modified": "2026-11-26T16:25:48.180555Z"
     }
   ],
   "optional": [
     {
       "path": "europe_models/manifest.json",
       "size": 178,
-      "modified": "2026-11-26T01:28:42.169934Z"
+      "modified": "2026-11-26T16:16:17.730161Z"
     },
     {
       "path": "europe_cv_results.csv",
       "size": 1888,
-      "modified": "2026-11-26T01:28:42.162934Z"
+      "modified": "2026-11-26T16:16:17.724161Z"
     }
   ]
 }
